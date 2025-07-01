@@ -5,14 +5,14 @@ import { SimpleSlug } from "./quartz/util/path"
 const recentNotes = [
   Component.RecentNotes({
     title: "Recent Writing",
-    limit: 4,
+    limit: 5,
     filter: (f) =>
       f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
     linkToMore: "posts/" as SimpleSlug,
   }),
   Component.RecentNotes({
     title: "Recent Notes",
-    limit: 2,
+    limit: 4,
     filter: (f) => f.slug!.startsWith("thoughts/"),
     linkToMore: "thoughts/" as SimpleSlug,
   }),
@@ -22,11 +22,26 @@ const recentNotes = [
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [...recentNotes.map((c) => Component.MobileOnly(c))],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'arioxu/obsidianpublish',
+        // from data-repo-id
+        repoId: 'R_kgDOPEzm2g',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDOPEzm2s4CsTR0',
+        // from data-lang
+      }
+    }),
+    ...recentNotes.map((c) => Component.MobileOnly(c))],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0",
-      Twitter: "https://twitter.com/_jzhao",
+      GitHub: "https://github.com/ArioXu",
+      Twitter: "https://x.com/ArioXu52756",
     },
   }),
 }
