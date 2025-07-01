@@ -357,3 +357,151 @@ body.animation-ready #quartz-body {
     transform: rotateX(0deg) rotateY(0deg) scale(1);
   }
 }
+
+/* 一级标题（大标题）颜色 */
+h1 {
+  color: #7188A9; // 亮蓝色，可自定义
+}
+
+/* 二级标题 */
+h2 {
+  color: #7028b4; // 紫色，可自定义
+}
+
+/* 三级标题 */
+h3 {
+  color: #f59e42; // 橙色，可自定义
+}
+
+/* 四级标题 */
+h4 {
+  color: #10b981; // 绿色，可自定义
+}
+
+/* 五级标题 */
+h5 {
+  color: #ef4444; // 红色，可自定义
+}
+
+/* 六级标题 */
+h6 {
+  color: #64748b; // 灰蓝色，可自定义
+}
+
+/* 亮色主题玻璃拟态表格 */
+[saved-theme="light"] table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  background: linear-gradient(120deg, rgba(245, 245, 255, 0.90) 70%, rgba(225, 235, 250, 0.70) 100%);
+  backdrop-filter: blur(8px) saturate(1.10);
+  -webkit-backdrop-filter: blur(8px) saturate(1.10);
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(120, 120, 200, 0.10);
+  border: 1.5px solid rgba(160, 180, 240, 0.33);
+  box-shadow:
+    0 2px 12px 0 rgba(120, 120, 200, 0.10),
+    0 0 0 1.5px rgba(255, 255, 255, 0.18) inset;
+  color: #2a2e4a;
+  font-size: 0.97rem;
+  overflow: hidden;
+  transition: box-shadow 0.2s, background 0.2s;
+  display: table;
+}
+
+/* 暗色主题玻璃拟态表格 */
+[saved-theme="dark"] table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  background: linear-gradient(120deg, rgba(38, 40, 60, 0.95) 70%, rgba(54, 54, 84, 0.75) 100%);
+  backdrop-filter: blur(10px) saturate(1.10);
+  -webkit-backdrop-filter: blur(10px) saturate(1.10);
+  border-radius: 8px;
+  border: 1.5px solid rgba(120, 140, 220, 0.22);
+  box-shadow:
+    0 2px 12px 0 rgba(80, 120, 180, 0.13),
+    0 0 0 1.5px rgba(255, 255, 255, 0.10) inset;
+  color: #e6eaff;
+  font-size: 0.97rem;
+  overflow: hidden;
+  transition: box-shadow 0.2s, background 0.2s;
+  display: table;
+}
+
+/* 表头样式（无渐变，纯色） */
+[saved-theme="light"] th {
+  background: #e7eaff;
+  font-weight: 700;
+  color: #2a2e4a;
+  border-bottom: 1.5px solid #b6baff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 0.32em 0.7em;
+}
+
+[saved-theme="dark"] th {
+  background: #2a2e4a;
+  color: #b6baff;
+  border-bottom: 1.5px solid #4a4d6c;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding: 0.32em 0.7em;
+}
+
+/* 斑马线和悬停效果（只作用于表体） */
+[saved-theme="light"] tbody tr:nth-child(odd) {
+  background: rgba(230, 235, 255, 0.65);
+}
+
+[saved-theme="light"] tbody tr:nth-child(even) {
+  background: rgba(210, 220, 245, 0.38);
+}
+
+[saved-theme="dark"] tbody tr:nth-child(odd) {
+  background: rgba(44, 48, 74, 0.38);
+}
+
+[saved-theme="dark"] tbody tr:nth-child(even) {
+  background: rgba(38, 40, 60, 0.22);
+}
+
+[saved-theme="light"] tr:hover,
+[saved-theme="light"] tbody tr:hover {
+  background: rgba(180, 200, 255, 0.22) !important;
+}
+
+[saved-theme="dark"] tr:hover,
+[saved-theme="dark"] tbody tr:hover {
+  background: rgba(120, 140, 220, 0.22) !important;
+}
+
+/* 单元格样式 */
+[saved-theme="light"] th,
+[saved-theme="light"] td,
+[saved-theme="dark"] th,
+[saved-theme="dark"] td {
+  padding: 0.22em 0.55em;
+  word-break: break-all;
+  white-space: normal;
+  border: 1px solid rgba(120, 140, 200, 0.08);
+  font-size: 0.97em;
+  border-radius: 0;
+}
+
+[saved-theme="light"] td:last-child,
+[saved-theme="dark"] td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+[saved-theme="light"] td:first-child,
+[saved-theme="dark"] td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+/* 移除表格外层横向滚动条（如有） */
+.markdown-preview-view,
+.content,
+.post-content {
+  overflow-x: visible !important;
+}
