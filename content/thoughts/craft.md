@@ -139,7 +139,7 @@ The following list of writing that I've had the immense fortune of being able to
 	- ![[content/thoughts/images/saturdays.png]]
 - [nwPlus](https://nwplus.io/) (2019-2023)
 	- Ran a bunch of hackathons over my 4 years of undergrad which involved leading a team of 48, and doing lots of people herding and logistics. I was especially proud of leading logistics for [HackCamp](https://hackcamp.nwplus.io/), a beginner-focused virtual hackathon, attracting over 500+ attendees, 3,200+ livestream viewers, and $1200 in donations to local charities.
-	- I left after graduating with strong opinions on [[content/posts/hackathons|hackathon culture]] and where to go from there.
+	- I left after graduating with strong opinions on [[content/posts/aigc/hackathons|hackathon culture]] and where to go from there.
 	- ![[content/thoughts/images/nwhacks.png]]
 
 ## Speaking

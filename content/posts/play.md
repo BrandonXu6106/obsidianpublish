@@ -5,11 +5,11 @@ tags:
   - fruit
 ---
 
-_Extension of my thoughts about [play](content/thoughts/play.md) and discussions from our Interact Circle on [Hackathon Culture](content/posts/hackathons.md) and Play._
+_Extension of my thoughts about [play](content/thoughts/play.md) and discussions from our Interact Circle on [Hackathon Culture](content/posts/aigc/hackathons.md) and Play._
 
 ## Defining play
 
-I've spent so much time thinking about how to ['bring back play'](content/posts/hackathons.md), yet not a lot of thinking about _what play is_. The more I think about it, the more nebulous it feels to define. I know examples of it when I see it -- the building of blanket forts during sleepovers, the joy of beating Minecraft for the first time with your friends -- but putting it into words feels difficult.
+I've spent so much time thinking about how to ['bring back play'](content/posts/aigc/hackathons.md), yet not a lot of thinking about _what play is_. The more I think about it, the more nebulous it feels to define. I know examples of it when I see it -- the building of blanket forts during sleepovers, the joy of beating Minecraft for the first time with your friends -- but putting it into words feels difficult.
 
 The most intuitive definition is one that comes from Bill Watterson: play is anything that you do on your own volition or agency just for its own sake. It is an _intrinsically_ motivated, [[paratelic action|paratelic]] activity.
 

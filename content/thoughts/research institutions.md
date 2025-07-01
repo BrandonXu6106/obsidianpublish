@@ -29,7 +29,7 @@ Can we move away from depending completely on only one of
 
 > The best predictor of success in innovation is the number of other people they come into contact with
 
-Some thoughts. Already have been thinking about this in relation to [hackathons](content/posts/hackathons.md), [paid open source](paid-open-source.md)
+Some thoughts. Already have been thinking about this in relation to [hackathons](content/posts/aigc/hackathons.md), [paid open source](paid-open-source.md)
 
 ## 3rd Spaces
 
@@ -39,7 +39,7 @@ Procurement services: finding a business application of research (specifically g
 
 We're not building a utopia of research, this is more about finding a relationship/group of people you can be yourself with. It doesn't need to be permanent, recognizing people have different stages in their lives. Once you're done, you can move on.
 
-Related: reinventing [hackathons](content/posts/hackathons.md) as 3rd spaces
+Related: reinventing [hackathons](content/posts/aigc/hackathons.md) as 3rd spaces
 
 ## PARPA and alternative [funding](funding.md) models
 

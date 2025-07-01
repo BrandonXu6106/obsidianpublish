@@ -28,7 +28,7 @@ Hackathons reshape precarious and unpaid work. Writing code and building apps fo
 
 As a hackathon organizer, Design Justice has helped me to more actively think about what hackathons are trying to motivate. Having more of the tools to articulate and locate exactly why hackathons have felt increasingly corporate is the first step to reinstate hackathons as third spaces not as places of creation or competition, but as places of play and exploration.
 
-Read more: [[content/posts/hackathons]]
+Read more: [[content/posts/aigc/hackathons]]
 
 ## Quotes
 
@@ -105,7 +105,7 @@ Many who are active in these design sites feel themselves to be participants in 
 
 Without intentional intervention, these spaces find it very difficult to fulfil even their own liberal democratic rhetoric because they end up dominated by white cis men and by middle-class people with free time and disposable income.
 
-More on hackathons: [hackathons](content/posts/hackathons.md)
+More on hackathons: [hackathons](content/posts/aigc/hackathons.md)
 
 #### Hackathons: The Bad
 

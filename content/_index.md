@@ -18,9 +18,9 @@ Stay foolish, stay hungry!
 那么接下来，大家注意啦，进入整个花园中会有许多蜿蜒的小路。所以请允许我为你指引方向：
 
 - [posts](https://arioxu.github.io/obsidianpublish/posts/)：我的全部家产，所有笔记的集合，可以在这里查看所有内容
-- [aigc](/posts/aigc)：有关ai工具的探索与学习
-- [booknotes](/posts/booknotes/)：处于某种已读、正在读或将要阅读状态的读书笔记。
-- [software](/posts/software/)：软件的学习与使用
+- [aigc](https://arioxu.github.io/obsidianpublish/posts/aigc)：有关ai工具的探索与学习
+- [booknotes](https://arioxu.github.io/obsidianpublish/posts/booknotes/)：处于某种已读、正在读或将要阅读状态的读书笔记。
+- [software](https://arioxu.github.io/obsidianpublish/posts/software/)：软件的学习与使用
 
 ```poetry
 - ArioXu :)
