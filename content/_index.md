@@ -20,6 +20,7 @@ As far as 'about' pages go, I hope this acts as an open invitation into the many
 - [The oak letter desk](/posts/): a collection of my favourite [[content/recentnotes/writing|writing]];
 - [The hand-crafted workbench](craft.md): craft I am proud of (websites, talks, workshops, projects, etc.);
 - [The bookshelf on the far wall](/books): books that are in some state of read, being read, or to be read.
+- [test](/thoughts/)
 
 ```poetry
 - ArioXu :)
