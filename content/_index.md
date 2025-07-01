@@ -9,18 +9,18 @@ tags:
 Stay foolish, stay hungry!
 ```
 
-I'm ArioXu. This is my little [[hypertext|hypertext]] [[networked-thought|garden]] on the [[Internet|Internet]] -- make yourself at home!
+我是 Ario。这里是我在设计学习这条道路上的[Obsidian](https://obsidian.md/)笔记花园，记录着我在学习过程中的点点滴滴。私是陋室，为吾德馨。我想一定是你我的志同道合，才会让我们在此刻相遇彼此🎉。
 
-Currently, I'm exploring what [[agency|agentic]] and [[agentic-computing|communal]] technology looks like at [Replit](https://replit.com/) and through my [independent research practice](/tags/rhizome). How might we create infrastructures and technologies that empower the residents of the web to have access to the same tools as the architects?
+目前，花园还在且一直都会更新建设，这里现已包含或即将包含以下的内容：设计软件的学习与使用，审美的日常积累与分析，大小设计项目log，aigc的探索与应用，设计领域的读书笔记，生活随感随想等......如果找不到想找的内容，可以在文末的评论区留言哦✨。或者可以在[YouTube](https://www.youtube.com/channel/UCiONmxKVkpUN8mJdzt-iNIw)小红书、bilibili、douyin找到我。💫
 
-On a broader level, I care deeply about creating _[spaces](https://lu.ma/playspace)_ that enable others to have more [[agency]]: agency to ask questions without judgement; agency to do what they are intrinsically drawn toward; agency to [[content/recentnotes/play|play]] (because what's the point if we can't have a bit of fun?).
+在更深刻的层面上，我希望能够创造让他人参与讨论的能动性的空间：可以不加评判地提出问题的能动性，这也是我闲暇之余打造这片花园的意义所在。
 
-As far as 'about' pages go, I hope this acts as an open invitation into the many winding paths throughout this garden. Here are some places you may want to visit:
+那么接下来，大家注意啦，进入整个花园中会有许多蜿蜒的小路。所以请允许我为你指引方向：
 
-- [The oak letter desk](/posts/): a collection of my favourite [[content/recentnotes/writing|writing]];
-- [The hand-crafted workbench](craft.md): craft I am proud of (websites, talks, workshops, projects, etc.);
-- [The bookshelf on the far wall](/books): books that are in some state of read, being read, or to be read.
-- [test](/thoughts/)
+- [posts](https://arioxu.github.io/obsidianpublish/posts/)：我的全部家产，所有笔记的集合，可以在这里查看所有内容
+- [aigc](/posts/aigc)：有关ai工具的探索与学习
+- [booknotes](/posts/booknotes/)：处于某种已读、正在读或将要阅读状态的读书笔记。
+- [software](/posts/software/)：软件的学习与使用
 
 ```poetry
 - ArioXu :)
