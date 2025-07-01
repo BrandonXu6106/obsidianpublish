@@ -5,7 +5,7 @@ tags:
   - sapling
 ---
 
-Full post on play: [Play to Win: A Post-Work Society](content/posts/play.md)
+Full post on play: [Play to Win: A Post-Work Society](content/posts/software/play.md)
 
 > Play: the intentional activity of doing the thing you would want to do.
 

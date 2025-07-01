@@ -739,7 +739,7 @@ I think research logs tend to generally focus too much on what one did rather th
     - Feels like there's a necessary balance between
       1.  being deeply invested in something to be able to have a level of almost unwavering conviction
       2.  not being so deeply invested that you are oblivious to exploring better potential options
-  - Leaving space to have conviction is inherently a privilege, how might we enable local spaces of abundance (places for [[content/posts/play#A re-worked definition|play]]) so that more people have that privilege?
+  - Leaving space to have conviction is inherently a privilege, how might we enable local spaces of abundance (places for [[content/posts/software/play#A re-worked definition|play]]) so that more people have that privilege?
     - This also feels like a generational thing. My parents first immigrated to Canada when I was around 3. They've spent a big chunk of their lives worrying about how to meet basic survival needs
     - I grew up with enough resources around me that I've begun looking for what I have conviction in; what I feel invigorated by
 
