@@ -532,3 +532,26 @@ h6 {
     box-shadow: 0 0 8px #39ff14;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  code {
+    background-color: rgba(0, 128, 0, 0.08);
+    /* 柔和绿色背景 */
+    color: #006400;
+    /* 深绿色字体，适合浅色背景 */
+    font-family: 'Fira Code', 'Courier New', monospace;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    font-size: 0.95em;
+    box-shadow: 0 0 2px #90ee90;
+    /* 轻微发光边缘 */
+    white-space: break-spaces;
+    word-break: break-word;
+    transition: all 0.2s ease-in-out;
+  }
+
+  code:hover {
+    background-color: rgba(0, 128, 0, 0.15);
+    box-shadow: 0 0 4px #90ee90;
+  }
+}
