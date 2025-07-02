@@ -35,7 +35,11 @@ Stay foolish, stay hungry!
 - [aigc](https://arioxu.github.io/obsidianpublish/posts/aigc/)：有关ai工具的探索与学习
 - [readnotes](https://arioxu.github.io/obsidianpublish/posts/readnotes/)：处于某种已读、正在读或将要阅读状态的读书笔记。
 - [software](https://arioxu.github.io/obsidianpublish/posts/software/)：软件的学习与使用
-[[content/posts/readnotes/index]]
+
+[[content/posts/readnotes/index|readnotes]]
+年后[[readnotes/|readnotes]]
+
+
 ```poetry
 - ArioXu :)
 ```
