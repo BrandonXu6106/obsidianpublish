@@ -535,16 +535,17 @@ h6 {
 
 @media (prefers-color-scheme: light) {
   code {
-    background-color: #1a1a1a;
-    /* 深灰背景，模拟终端 */
+    background-color: #111111;
+    /* 深黑背景 */
     color: #39ff14;
     /* 霓虹绿字体 */
     font-family: 'Fira Code', monospace;
-    padding: 0.2em 0.5em;
-    border-radius: 4px;
+    padding: 0.25em 0.55em;
+    border-radius: 6px;
     font-size: 0.95em;
-    box-shadow: 0 0 4px #39ff14;
-    /* 发光边缘 */
+    box-shadow: 0 0 6px #39ff14, inset 0 0 2px #39ff14;
+    /* 外发光 + 内发光 */
+    border: 1px solid #39ff14;
     white-space: break-spaces;
     word-break: break-word;
     transition: all 0.2s ease-in-out;
@@ -552,6 +553,6 @@ h6 {
 
   code:hover {
     background-color: #000000;
-    box-shadow: 0 0 6px #39ff14;
+    box-shadow: 0 0 10px #39ff14, inset 0 0 3px #39ff14;
   }
 }
