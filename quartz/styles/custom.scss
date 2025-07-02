@@ -510,49 +510,64 @@ h6 {
 
 /******************************inline code样式**************************************/
 
+/* ---------- 深色模式（Dark） ---------- */
 @media (prefers-color-scheme: dark) {
   code {
-    background-color: rgba(0, 255, 0, 0.1);
-    /* 终端绿背景（微微发光） */
-    color: #39ff14;
-    /* 霓虹绿字体 */
-    font-family: 'Fira Code', 'Courier New', monospace;
-    padding: 0.2em 0.5em;
-    border-radius: 4px;
+    /* 背景：半透明白 + 毛玻璃模糊 */
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(4px);
+
+    /* 边框：淡白色半透明 */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    /* 字体与发光阴影 */
+    color: #e0e8ff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+    /* 形状与间距 */
+    padding: 0.2em 0.4em;
+    border-radius: 6px;
+    font-family: 'Fira Code', monospace;
     font-size: 0.95em;
-    box-shadow: 0 0 5px #39ff14;
-    /* 霓虹发光效果 */
     white-space: break-spaces;
     word-break: break-word;
-    transition: all 0.2s ease-in-out;
+
+    transition: background 0.2s ease, box-shadow 0.2s ease;
   }
 
   code:hover {
-    background-color: rgba(0, 255, 0, 0.2);
-    box-shadow: 0 0 8px #39ff14;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
   }
 }
 
+/* ---------- 浅色模式（Light） ---------- */
 @media (prefers-color-scheme: light) {
   code {
-    background-color: #111111;
-    /* 深黑背景 */
-    color: #39ff14;
-    /* 霓虹绿字体 */
-    font-family: 'Fira Code', monospace;
-    padding: 0.25em 0.55em;
+    /* 背景：半透明白 + 强化模糊 */
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+
+    /* 边框：更亮的白色 */
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+    /* 字体及微弱阴影 */
+    color: #333333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    /* 形状与间距 */
+    padding: 0.2em 0.4em;
     border-radius: 6px;
+    font-family: 'Fira Code', monospace;
     font-size: 0.95em;
-    box-shadow: 0 0 6px #39ff14, inset 0 0 2px #39ff14;
-    /* 外发光 + 内发光 */
-    border: 1px solid #39ff14;
     white-space: break-spaces;
     word-break: break-word;
-    transition: all 0.2s ease-in-out;
+
+    transition: background 0.2s ease, box-shadow 0.2s ease;
   }
 
   code:hover {
-    background-color: #000000;
-    box-shadow: 0 0 10px #39ff14, inset 0 0 3px #39ff14;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   }
 }
