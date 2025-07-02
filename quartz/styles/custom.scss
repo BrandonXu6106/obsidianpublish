@@ -509,16 +509,16 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* ---------- 通用基础 ---------- */
+/* ---------- 通用选择器 + 强制优先 ---------- */
 .markdown-preview-view code,
 .markdown-rendered code {
-  font-family: 'Fira Code', monospace;
-  font-size: 0.95em;
-  padding: 0.2em 0.35em;
-  border-radius: 4px;
-  white-space: break-spaces;
-  word-break: break-word;
-  transition: background 0.2s ease, color 0.2s ease;
+  font-family: 'Fira Code', monospace !important;
+  font-size: 0.95em !important;
+  padding: 0.25em 0.5em !important;
+  border-radius: 4px !important;
+  white-space: break-spaces !important;
+  word-break: break-word !important;
+  transition: all 0.2s ease !important;
 }
 
 /* ---------- 浅色模式 (light) ---------- */
@@ -526,17 +526,18 @@ h6 {
 
   .markdown-preview-view code,
   .markdown-rendered code {
-    background-color: rgba(0, 0, 0, 0.05);
-    /* 浅灰背景 */
-    color: #333333;
-    /* 深灰文字 */
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    /* 轻微边框 */
+    background-color: #00251a !important;
+    /* 深墨绿背景 */
+    color: #a7ffeb !important;
+    /* 薄荷绿文字 */
+    border: 1px solid #a7ffeb !important;
+    box-shadow: 0 0 4px rgba(167, 255, 235, 0.5) !important;
   }
 
   .markdown-preview-view code:hover,
   .markdown-rendered code:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #00382b !important;
+    box-shadow: 0 0 6px rgba(167, 255, 235, 0.7) !important;
   }
 }
 
@@ -545,16 +546,17 @@ h6 {
 
   .markdown-preview-view code,
   .markdown-rendered code {
-    background-color: rgba(255, 255, 255, 0.1);
-    /* 半透明白背景 */
-    color: #e0e0e0;
-    /* 浅灰文字 */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    /* 半透明白边框 */
+    background-color: #a7ffeb !important;
+    /* 薄荷绿背景 */
+    color: #004d40 !important;
+    /* 深墨绿文字 */
+    border: 1px solid #004d40 !important;
+    box-shadow: inset 0 0 3px rgba(0, 77, 64, 0.6) !important;
   }
 
   .markdown-preview-view code:hover,
   .markdown-rendered code:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: #c1fff2 !important;
+    box-shadow: inset 0 0 5px rgba(0, 77, 64, 0.8) !important;
   }
 }
