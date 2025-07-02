@@ -509,54 +509,54 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* ---------- 浅色模式：明亮琥珀风 ---------- */
+/* 统一选择器，Quartz Markdown 渲染区域行内代码 */
+.markdown-preview-view code,
+.markdown-rendered code {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95em;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  white-space: break-spaces;
+  word-break: break-word;
+  transition: background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+/* ------------ 浅色模式 (light) ------------ */
 @media (prefers-color-scheme: light) {
-  code {
-    background-color: #fff8e1;
-    /* 浅琥珀背景 */
-    color: #bf360c;
-    /* 深琥珀文字 */
-    border: 1px solid #ffe082;
-    /* 琥珀边框 */
-    padding: 0.2em 0.4em;
-    border-radius: 4px;
-    font-family: 'Fira Code', monospace;
-    font-size: 0.95em;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
-    transition: background 0.2s, box-shadow 0.2s;
-    white-space: break-spaces;
-    word-break: break-word;
+
+  .markdown-preview-view code,
+  .markdown-rendered code {
+    background-color: #011627;
+    /* 深海蓝背景 */
+    color: #82aaff;
+    /* 霓虹蓝文字 */
+    box-shadow: 0 0 6px rgba(130, 170, 255, 0.6);
+    border: 1px solid rgba(130, 170, 255, 0.4);
   }
 
-  code:hover {
-    background-color: #ffe082;
-    /* 悬停加深背景 */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  .markdown-preview-view code:hover,
+  .markdown-rendered code:hover {
+    background-color: #02243b;
+    box-shadow: 0 0 8px rgba(130, 170, 255, 0.8);
   }
 }
 
-/* ---------- 深色模式：暗夜琥珀风 ---------- */
+/* ------------ 深色模式 (dark) ------------ */
 @media (prefers-color-scheme: dark) {
-  code {
-    background-color: #2c2c2c;
-    /* 深灰背景 */
-    color: #ffe082;
-    /* 浅琥珀文字 */
-    border: 1px solid #bf360c;
-    /* 深琥珀边框 */
-    padding: 0.2em 0.4em;
-    border-radius: 4px;
-    font-family: 'Fira Code', monospace;
-    font-size: 0.95em;
-    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
-    transition: background 0.2s, box-shadow 0.2s;
-    white-space: break-spaces;
-    word-break: break-word;
+
+  .markdown-preview-view code,
+  .markdown-rendered code {
+    background-color: #2f343f;
+    /* 暗灰底 */
+    color: #ff79c6;
+    /* 桃粉文字 */
+    box-shadow: 0 0 6px rgba(255, 121, 198, 0.6);
+    border: 1px solid rgba(255, 121, 198, 0.4);
   }
 
-  code:hover {
-    background-color: #3e3e3e;
-    /* 悬停加深背景 */
-    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.7);
+  .markdown-preview-view code:hover,
+  .markdown-rendered code:hover {
+    background-color: #262a33;
+    box-shadow: 0 0 8px rgba(255, 121, 198, 0.8);
   }
 }
