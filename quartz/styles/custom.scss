@@ -509,54 +509,52 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* 统一选择器，Quartz Markdown 渲染区域行内代码 */
+/* ---------- 通用基础 ---------- */
 .markdown-preview-view code,
 .markdown-rendered code {
   font-family: 'Fira Code', monospace;
   font-size: 0.95em;
-  padding: 0.2em 0.4em;
+  padding: 0.2em 0.35em;
   border-radius: 4px;
   white-space: break-spaces;
   word-break: break-word;
-  transition: background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
-/* ------------ 浅色模式 (light) ------------ */
+/* ---------- 浅色模式 (light) ---------- */
 @media (prefers-color-scheme: light) {
 
   .markdown-preview-view code,
   .markdown-rendered code {
-    background-color: #011627;
-    /* 深海蓝背景 */
-    color: #82aaff;
-    /* 霓虹蓝文字 */
-    box-shadow: 0 0 6px rgba(130, 170, 255, 0.6);
-    border: 1px solid rgba(130, 170, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.05);
+    /* 浅灰背景 */
+    color: #333333;
+    /* 深灰文字 */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* 轻微边框 */
   }
 
   .markdown-preview-view code:hover,
   .markdown-rendered code:hover {
-    background-color: #02243b;
-    box-shadow: 0 0 8px rgba(130, 170, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.1);
   }
 }
 
-/* ------------ 深色模式 (dark) ------------ */
+/* ---------- 深色模式 (dark) ---------- */
 @media (prefers-color-scheme: dark) {
 
   .markdown-preview-view code,
   .markdown-rendered code {
-    background-color: #2f343f;
-    /* 暗灰底 */
-    color: #ff79c6;
-    /* 桃粉文字 */
-    box-shadow: 0 0 6px rgba(255, 121, 198, 0.6);
-    border: 1px solid rgba(255, 121, 198, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    /* 半透明白背景 */
+    color: #e0e0e0;
+    /* 浅灰文字 */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* 半透明白边框 */
   }
 
   .markdown-preview-view code:hover,
   .markdown-rendered code:hover {
-    background-color: #262a33;
-    box-shadow: 0 0 8px rgba(255, 121, 198, 0.8);
+    background-color: rgba(255, 255, 255, 0.15);
   }
 }
