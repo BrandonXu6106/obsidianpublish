@@ -12,7 +12,7 @@ Stay foolish, stay hungry!
 > [!abstract] profile
 > 大家好，我是 ArioXu🥰。欢迎来到我的设计学习[Obsidian](https://obsidian.md/)笔记花园，这里记录着我在学习过程中的点点滴滴。作为理工男，在设计这条道路上，我依然处于探索阶段。但我始终相信着，任何专业，都需要无与伦比的探索精神，方得始终。于是我耕种了这片知识花园，意在收集分享传播与设计相关的的信息与知识。
 
-如今的时代已不用于以往，信息的的碎片化使得知识不再高居庙堂。所以如何在浩如烟海的知识中挑选，辨别，排序信息的能力显得更为重要，所以这片花园中的每一株花都会找到独属于自己的tag及与之相关联的双链
+如今的时代已不用于以往，信息的的碎片化使得知识不再高居庙堂。所以如何在浩如烟海的知识中挑选，辨别，排序信息的能力显得更为重要，所以这片花园中的每一株花都会找到独属于自己的tag及与之相关联的双链。
 
 目前，花园仍在持续更新建设中，现已包含或即将包含以下的笔记：设计软件的学习与使用，审美的积累与分析，设计项目的分享与log，aigc的探索与应用，设计类书籍的收纳与品读，其他随感随想等......
 
@@ -35,10 +35,6 @@ Stay foolish, stay hungry!
 - [aigc](https://arioxu.github.io/obsidianpublish/posts/aigc/)：有关ai工具的探索与学习
 - [readnotes](https://arioxu.github.io/obsidianpublish/posts/readnotes/)：处于某种已读、正在读或将要阅读状态的读书笔记。
 - [software](https://arioxu.github.io/obsidianpublish/posts/software/)：软件的学习与使用
-
-[[content/posts/readnotes/index|readnotes]]
-年后[[readnotes/|readnotes]]
-
 
 ```poetry
 - ArioXu :)
