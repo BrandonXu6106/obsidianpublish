@@ -33,9 +33,9 @@ Stay foolish, stay hungry!
 - [brandndesign](https://arioxu.github.io/obsidianpublish/posts/branddesign/)：品牌设计相关内容
 	-  [fonts](https://arioxu.github.io/obsidianpublish/posts/branddesign/fonts/)：字体设计
 - [aigc](https://arioxu.github.io/obsidianpublish/posts/aigc/)：有关ai工具的探索与学习
-- [[readnotes/|readnotes]]：处于某种已读、正在读或将要阅读状态的读书笔记。
+- [readnotes](https://arioxu.github.io/obsidianpublish/posts/readnotes/)：处于某种已读、正在读或将要阅读状态的读书笔记。
 - [software](https://arioxu.github.io/obsidianpublish/posts/software/)：软件的学习与使用
-
+[[content/posts/readnotes/index]]
 ```poetry
 - ArioXu :)
 ```
