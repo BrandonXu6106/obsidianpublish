@@ -1,8 +1,7 @@
 ---
 相关链接: 
 creat_date: "[[2025-04-21]]"
-tags:
-  - area/design/ps/课程/b站
+tags: []
 作者: int
 cssclasses:
   - focus-mode
