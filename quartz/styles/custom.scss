@@ -510,19 +510,25 @@ h6 {
 
 /******************************inline code样式**************************************/
 
-code {
-  background-color: #f4f4f5;
-  /* 灰白色背景 */
-  color: #e11d48;
-  /* 红色代码字体 */
-  font-family: monospace;
-  /* 等宽字体，更像代码 */
-  padding: 2px 6px;
-  /* 内边距 */
-  border-radius: 4px;
-  /* 圆角边框 */
-  font-size: 0.9em;
-  white-space: break-spaces;
-  /* 自动换行 */
-  word-break: break-word;
+@media (prefers-color-scheme: dark) {
+  code {
+    background-color: rgba(0, 255, 0, 0.1);
+    /* 终端绿背景（微微发光） */
+    color: #39ff14;
+    /* 霓虹绿字体 */
+    font-family: 'Fira Code', 'Courier New', monospace;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    font-size: 0.95em;
+    box-shadow: 0 0 5px #39ff14;
+    /* 霓虹发光效果 */
+    white-space: break-spaces;
+    word-break: break-word;
+    transition: all 0.2s ease-in-out;
+  }
+
+  code:hover {
+    background-color: rgba(0, 255, 0, 0.2);
+    box-shadow: 0 0 8px #39ff14;
+  }
 }
