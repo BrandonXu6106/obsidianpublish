@@ -388,6 +388,8 @@ h6 {
   color: #64748b; // 灰蓝色，可自定义
 }
 
+/*****************************表格样式***************************/
+
 /* 亮色主题玻璃拟态表格 */
 [saved-theme="light"] table {
   width: 100%;
@@ -504,4 +506,28 @@ h6 {
 .content,
 .post-content {
   overflow-x: visible !important;
+}
+
+/******************************inline code样式**************************************/
+
+/* Quartz inline code 高亮样式 */
+.markdown-preview-view code,
+.markdown-rendered code {
+  background-color: rgba(135, 131, 120, 0.15);
+  /* 柔和的浅灰背景 */
+  color: #eb5757;
+  /* 显眼的红色代码文字 */
+  font-family: 'Fira Code', 'JetBrains Mono', Consolas, Monaco, monospace;
+  font-size: 0.95em;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  white-space: break-spaces;
+  word-break: break-word;
+  transition: background 0.2s ease-in-out;
+}
+
+/* 鼠标悬停效果 */
+.markdown-preview-view code:hover,
+.markdown-rendered code:hover {
+  background-color: rgba(235, 87, 87, 0.1);
 }

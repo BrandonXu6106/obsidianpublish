@@ -22,12 +22,14 @@ Stay foolish, stay hungry!
 
 在更深刻的层面上，我希望能够创造让他人参与讨论的能动性的空间：可以不加评判地提出问题的能动性。这也是我闲暇之余打造这片花园的意义所在。
 
+---
+
 需要注意的是，整片花园中会有许多蜿蜒的小路。那么接下来，请允许我为你指引方向：
 你可以通过搜索的方式找到你想要的内容，包括：
 
 - 全局搜索: 快捷键 `ctrl k`
-- tag搜索: 
-- 文件夹索引搜索
+- tag搜索: [Tag Index](https://arioxu.github.io/obsidianpublish/tags/)
+- 文件夹索引搜索: [Folder: posts](https://arioxu.github.io/obsidianpublish/posts/)[Folder: thoughts](https://arioxu.github.io/obsidianpublish/thoughts/)
 
 更详细的信息，请参考：
 - [brandndesign](https://arioxu.github.io/obsidianpublish/posts/branddesign/)：品牌设计相关内容
