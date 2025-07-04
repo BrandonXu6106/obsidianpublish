@@ -513,46 +513,46 @@ h6 {
   1. 主题变量
 ----------------------------------------*/
 :root {
-  --code-color: #6F42C1;
-  /* 文字主色 */
-  --code-underline: rgba(111, 66, 193, 0.6);
-  /* 下划线颜色 */
+  --ic-accent: #6F42C1;
+  /* Light 下主色 */
+  --ic-bg-light: rgba(111, 66, 193, 0.08);
 }
 
 html.dark {
-  --code-color: #C78EFD;
-  --code-underline: rgba(199, 142, 253, 0.6);
+  --ic-accent: #C78EFD;
+  /* Dark 下主色 */
+  --ic-bg-light: rgba(199, 142, 253, 0.15);
 }
 
 /*----------------------------------------
-  2. 核心样式（无背景、无边框、超细内边距）
+  2. 应用于所有非 <pre> 的 <code>
 ----------------------------------------*/
 article code:not(pre),
 .markdown-body code:not(pre) {
-  position: relative;
-  color: var(--code-color);
-  background: transparent;
-  padding: 0 0.1em;
-  /* 极小内边距，减少底托面积 */
+  display: inline-block;
+  /* 宽度自动贴合内容 */
+  padding: 0 0.15em;
+  /* 极简水平内边距 */
+  color: var(--ic-accent);
+  background-color: var(--ic-bg-light);
+  /* 轻盈底色，不抢眼 */
+  border-radius: 0.2em;
+  /* 细圆角，柔和边缘 */
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.94em;
-  font-weight: 500;
+  font-size: 0.95em;
+  line-height: 1;
 
-  /* 波浪下划线 */
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: var(--code-underline);
-  text-decoration-thickness: 1.2px;
-  text-decoration-skip-ink: auto;
-
-  transition: text-decoration-color 0.2s, text-decoration-thickness 0.2s;
+  /* 底部内阴影，模拟精致下划高亮 */
+  box-shadow: inset 0 -1px 0 var(--ic-accent);
+  transition: background-color 0.25s, box-shadow 0.25s;
 }
 
 /*----------------------------------------
-  3. Hover 交互：加粗波浪线
+  3. 悬浮互动
 ----------------------------------------*/
 article code:not(pre):hover,
 .markdown-body code:not(pre):hover {
-  text-decoration-color: var(--code-color);
-  text-decoration-thickness: 2px;
+  background-color: var(--ic-accent)10;
+  /* Hover 时底色微增 */
+  box-shadow: inset 0 -2px 0 var(--ic-accent);
 }
