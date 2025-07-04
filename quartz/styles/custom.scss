@@ -510,50 +510,53 @@ h6 {
 
 /******************************inline code样式**************************************/
 /*----------------------------------------
-  1. 主题色变量
+  1. 主题变量
 ----------------------------------------*/
 :root {
-  --code-accent: #8B5CF6;
-  /* Light 主色 */
+  /* 浅色模式下的配色 */
+  --code-text: #6B46C1;
+  --code-bg: rgba(255, 255, 255, 0.4);
+  --code-bd-1: #D6BCFA;
+  --code-bd-2: #805AD5;
 }
 
 html.dark {
-  --code-accent: #C084FC;
-  /* Dark 主色 */
+  /* 深色模式下的配色 */
+  --code-text: #E9D8FD;
+  --code-bg: rgba(40, 40, 40, 0.6);
+  --code-bd-1: #9F7AEA;
+  --code-bd-2: #6B46C1;
 }
 
 /*----------------------------------------
-  2. 基础样式：无背景，仅下划线渐变
+  2. 应用于所有非 <pre> 的 <code>
 ----------------------------------------*/
 article :not(pre)>code,
 .markdown-body :not(pre)>code {
   position: relative;
-  color: var(--code-accent);
-  background: transparent;
-  padding: 0 0.2em;
-  font-size: 0.94em;
-  font-weight: 600;
-  font-family: 'Fira Code', 'SFMono-Regular', Consolas, monospace;
+  color: var(--code-text);
+  background-color: var(--code-bg);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 0.25em 0.6em;
+  border-radius: 0.6em;
+  font-size: 0.95em;
+  font-weight: 500;
+  font-family: 'JetBrains Mono', Consolas, monospace;
+  z-index: 0;
 
-  /* 下划线渐变 */
-  background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 85%;
-
-  /* 动画切换 */
-  transition: background-size 0.3s ease, color 0.3s ease;
+  /* 渐变边框 */
+  border: 2px solid transparent;
+  border-image:
+    linear-gradient(135deg, var(--code-bd-1), var(--code-bd-2)) 1;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 /*----------------------------------------
-  3. 悬浮效果：下划线充满并发光
+  3. Hover 交互
 ----------------------------------------*/
 article :not(pre)>code:hover,
 .markdown-body :not(pre)>code:hover {
-  background-size: 100% 100%;
-}
-
-html.dark article :not(pre)>code {
-  /* Dark 模式加微光晕 */
-  text-shadow: 0 0 4px var(--code-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
