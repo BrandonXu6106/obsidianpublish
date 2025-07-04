@@ -510,64 +510,58 @@ h6 {
 
 /******************************inline code样式**************************************/
 /*----------------------------------------
-  1. 主题色变量
+  1. 定义配色变量
 ----------------------------------------*/
 :root {
-  --uc-color: #6F42C1;
+  --code-text: #6F42C1;
   /* 文字主色 */
-  --uc-bg: rgba(111, 66, 193, 0.15);
-  /* 默认高亮色 */
-  --uc-hover-bg: rgba(111, 66, 193, 0.30);
-  /* 悬浮高亮色 */
+  --code-split-a: rgba(111, 66, 193, 0.15);
+  /* 渐变左半色 */
+  --code-split-b: rgba(196, 228, 255, 0.15);
+  /* 渐变右半色 */
+  --code-shadow: rgba(0, 0, 0, 0.08);
+  /* 轻微投影 */
 }
 
 html.dark {
-  --uc-color: #C78EFD;
-  --uc-bg: rgba(199, 142, 253, 0.15);
-  --uc-hover-bg: rgba(199, 142, 253, 0.30);
+  --code-text: #C78EFD;
+  --code-split-a: rgba(199, 142, 253, 0.15);
+  --code-split-b: rgba(70, 30, 100, 0.15);
+  --code-shadow: rgba(0, 0, 0, 0.6);
 }
 
 /*----------------------------------------
-  2. 核心样式：移除边框，使用伪元素高亮
+  2. 核心样式：双向切割渐变 + 阴影
 ----------------------------------------*/
 article code:not(pre),
 .markdown-body code:not(pre) {
   position: relative;
-  padding: 0 0.2em;
-  color: var(--uc-color);
-  background: transparent;
-  font-family: 'JetBrains Mono', Consolas, 'SFMono-Regular', monospace;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  font-family: 'JetBrains Mono', Consolas, monospace;
   font-size: 0.94em;
   font-weight: 500;
-  transition: color 0.2s;
-}
+  color: var(--code-text);
 
-/* 底部动感高亮带 */
-article code:not(pre)::before,
-.markdown-body code:not(pre)::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0.3em;
-  background: var(--uc-bg);
-  border-radius: 0.15em;
-  transition: height 0.2s, background 0.2s;
-  z-index: -1;
+  /* 50%双色切割斜向渐变 */
+  background-image: linear-gradient(135deg,
+      var(--code-split-a) 0%,
+      var(--code-split-a) 50%,
+      var(--code-split-b) 50%,
+      var(--code-split-b) 100%);
+  background-size: 200% 200%;
+  background-position: left bottom;
+
+  border-radius: 0.4em;
+  box-shadow: 0 1px 3px var(--code-shadow);
+  transition: background-position 0.4s ease, box-shadow 0.2s ease;
 }
 
 /*----------------------------------------
-  3. 悬浮互动：高亮滑动、加深
+  3. 悬浮交互：渐变滑动
 ----------------------------------------*/
 article code:not(pre):hover,
 .markdown-body code:not(pre):hover {
-  color: var(--uc-color);
-}
-
-article code:not(pre):hover::before,
-.markdown-body code:not(pre):hover::before {
-  height: 1.1em;
-  /* 扩展至覆盖文字 */
-  background: var(--uc-hover-bg);
+  background-position: right top;
+  box-shadow: 0 2px 6px var(--code-shadow);
 }
