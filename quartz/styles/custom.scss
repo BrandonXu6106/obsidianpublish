@@ -509,54 +509,34 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* ---------- 通用选择器 + 强制优先 ---------- */
-.markdown-preview-view code,
-.markdown-rendered code {
-  font-family: 'Fira Code', monospace !important;
-  font-size: 0.95em !important;
-  padding: 0.25em 0.5em !important;
-  border-radius: 4px !important;
-  white-space: break-spaces !important;
-  word-break: break-word !important;
-  transition: all 0.2s ease !important;
+/*----------------------------------------
+  Inline Code 高级样式 for Quartz
+----------------------------------------*/
+:root {
+  /* Light 模式下的色彩变量 */
+  --inline-code-bg: rgba(0, 0, 0, 0.04);
+  --inline-code-color: #A600FF;
+  --inline-code-border: rgba(0, 0, 0, 0.10);
 }
 
-/* ---------- 浅色模式 (light) ---------- */
-@media (prefers-color-scheme: light) {
-
-  .markdown-preview-view code,
-  .markdown-rendered code {
-    background-color: #00251a !important;
-    /* 深墨绿背景 */
-    color: #a7ffeb !important;
-    /* 薄荷绿文字 */
-    border: 1px solid #a7ffeb !important;
-    box-shadow: 0 0 4px rgba(167, 255, 235, 0.5) !important;
-  }
-
-  .markdown-preview-view code:hover,
-  .markdown-rendered code:hover {
-    background-color: #00382b !important;
-    box-shadow: 0 0 6px rgba(167, 255, 235, 0.7) !important;
-  }
+/* 切换到 Dark 模式时覆盖变量 */
+html.dark {
+  --inline-code-bg: rgba(255, 255, 255, 0.08);
+  --inline-code-color: #FF9EB9;
+  --inline-code-border: rgba(255, 255, 255, 0.15);
 }
 
-/* ---------- 深色模式 (dark) ---------- */
-@media (prefers-color-scheme: dark) {
-
-  .markdown-preview-view code,
-  .markdown-rendered code {
-    background-color: #a7ffeb !important;
-    /* 薄荷绿背景 */
-    color: #004d40 !important;
-    /* 深墨绿文字 */
-    border: 1px solid #004d40 !important;
-    box-shadow: inset 0 0 3px rgba(0, 77, 64, 0.6) !important;
-  }
-
-  .markdown-preview-view code:hover,
-  .markdown-rendered code:hover {
-    background-color: #c1fff2 !important;
-    box-shadow: inset 0 0 5px rgba(0, 77, 64, 0.8) !important;
-  }
+/* 应用到所有非 <pre> 的 <code> 元素 */
+article :not(pre)>code,
+.markdown-body :not(pre)>code {
+  background-color: var(--inline-code-bg);
+  color: var(--inline-code-color);
+  border: 1px solid var(--inline-code-border);
+  padding: 0.25em 0.5em;
+  border-radius: 0.35em;
+  font-size: 0.92em;
+  font-weight: 500;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  box-decoration-break: clone;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
