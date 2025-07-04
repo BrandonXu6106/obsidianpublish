@@ -510,68 +510,87 @@ h6 {
 
 /******************************inline code样式**************************************/
 /*----------------------------------------
-  1. 主题变量：Light / Dark 共用
+  1. 主题变量
 ----------------------------------------*/
 :root {
-  --code-bg-light: #f0f0f3;
+  --cf-fg: #6e00ff;
+  /* 主文字色 */
+  --cf-bg-light: rgba(110, 0, 255, 0.06);
   /* 浅色背景 */
-  --code-text-light: #6f42c1;
-  /* 浅色文字 */
-  --code-shadow-dark: rgba(0, 0, 0, 0.1);
-  /* 浅色暗阴影 */
-  --code-shadow-light: rgba(255, 255, 255, 0.7);
-  /* 浅色高光 */
+  --cf-border-light: rgba(110, 0, 255, 0.3);
+  /* 浅色边框 */
+  --cf-pattern-light: rgba(0, 0, 0, 0.02);
+  /* 浅色纹理 */
+}
 
-  --code-bg-dark: #1e1e1e;
+html.dark {
+  --cf-fg: #c18eff;
+  /* 主文字色 */
+  --cf-bg-dark: rgba(193, 142, 255, 0.08);
   /* 深色背景 */
-  --code-text-dark: #c678dd;
-  /* 深色文字 */
-  --code-shadow2-dark: rgba(0, 0, 0, 0.6);
-  /* 深色暗阴影 */
-  --code-shadow2-light: rgba(255, 255, 255, 0.05);
-  /* 深色高光 */
-}
-
-html:not(.dark) article :not(pre)>code,
-html:not(.dark) .markdown-body code:not(pre) {
-  background: var(--code-bg-light);
-  color: var(--code-text-light);
-  box-shadow:
-    inset 2px 2px 5px var(--code-shadow-dark),
-    inset -2px -2px 5px var(--code-shadow-light);
-}
-
-html.dark article :not(pre)>code,
-html.dark .markdown-body code:not(pre) {
-  background: var(--code-bg-dark);
-  color: var(--code-text-dark);
-  box-shadow:
-    2px 2px 5px var(--code-shadow2-dark),
-    -2px -2px 5px var(--code-shadow2-light);
+  --cf-border-dark: rgba(193, 142, 255, 0.5);
+  /* 深色边框 */
+  --cf-pattern-dark: rgba(255, 255, 255, 0.04);
+  /* 深色纹理 */
 }
 
 /*----------------------------------------
-  2. 通用样式
+  2. 基础样式（排除 <pre>） 
 ----------------------------------------*/
-article :not(pre)>code,
-.markdown-body code:not(pre) {
+.markdown-body code:not(pre),
+article code:not(pre) {
+  position: relative;
   display: inline-block;
-  padding: 0.3em 0.6em;
-  border-radius: 0.5em;
+  padding: 0.25em 0.5em;
   font-family: 'JetBrains Mono', Consolas, 'SFMono-Regular', monospace;
-  font-weight: 500;
   font-size: 0.94em;
-  transition: box-shadow 0.2s, transform 0.15s;
+  font-weight: 500;
+  color: var(--cf-fg);
+
+  /* 半透明背景 */
+  background-color: var(--cf-bg-light);
+  /* 细点碳纤维纹理 */
+  background-image: repeating-linear-gradient(45deg,
+      var(--cf-pattern-light) 0, var(--cf-pattern-light) 1px,
+      transparent 1px, transparent 6px);
+  background-size: 6px 6px;
+
+  border: 1px solid var(--cf-border-light);
+  border-radius: 0.3em;
+  box-decoration-break: clone;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+/* 深色模式覆盖 */
+html.dark .markdown-body code:not(pre),
+html.dark article code:not(pre) {
+  background-color: var(--cf-bg-dark);
+  background-image: repeating-linear-gradient(45deg,
+      var(--cf-pattern-dark) 0, var(--cf-pattern-dark) 1px,
+      transparent 1px, transparent 6px);
+  border-color: var(--cf-border-dark);
 }
 
 /*----------------------------------------
-  3. 悬浮互动
+  3. 动态悬浮效果
 ----------------------------------------*/
-article :not(pre)>code:hover,
-.markdown-body code:not(pre):hover {
+.markdown-body code:not(pre):hover,
+article code:not(pre):hover {
   transform: translateY(-1px);
-  box-shadow:
-    inset 2px 2px 6px var(--code-shadow-dark),
-    inset -2px -2px 6px var(--code-shadow-light),
-    1px 1px 2px rgba(0, 0, 0, 0.05);
+  /* 让碳纤维纹理轻微滚动 */
+  animation: cf-move 1s linear infinite;
+}
+
+/* 纹理滚动关键帧 */
+@keyframes cf-move {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 6px 6px;
+  }
 }
