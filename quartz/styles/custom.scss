@@ -510,61 +510,68 @@ h6 {
 
 /******************************inline code样式**************************************/
 /*----------------------------------------
-  1. 全局变量
+  1. 主题变量：Light / Dark 共用
 ----------------------------------------*/
 :root {
-  /* Light 模式配色 */
-  --ic-bg: linear-gradient(to bottom, #ffffff, #f5f5f5);
-  --ic-color: #5a2e8a;
-  --ic-border: #cccccc;
-  --ic-border-light: #eeeeee;
-  --ic-highlight: rgba(255, 255, 255, 0.8);
-  --ic-shadow: rgba(0, 0, 0, 0.1);
+  --code-bg-light: #f0f0f3;
+  /* 浅色背景 */
+  --code-text-light: #6f42c1;
+  /* 浅色文字 */
+  --code-shadow-dark: rgba(0, 0, 0, 0.1);
+  /* 浅色暗阴影 */
+  --code-shadow-light: rgba(255, 255, 255, 0.7);
+  /* 浅色高光 */
+
+  --code-bg-dark: #1e1e1e;
+  /* 深色背景 */
+  --code-text-dark: #c678dd;
+  /* 深色文字 */
+  --code-shadow2-dark: rgba(0, 0, 0, 0.6);
+  /* 深色暗阴影 */
+  --code-shadow2-light: rgba(255, 255, 255, 0.05);
+  /* 深色高光 */
 }
 
-html.dark {
-  /* Dark 模式配色 */
-  --ic-bg: linear-gradient(to bottom, #2e2e2e, #262626);
-  --ic-color: #d6b8ff;
-  --ic-border: #444444;
-  --ic-border-light: #555555;
-  --ic-highlight: rgba(255, 255, 255, 0.1);
-  --ic-shadow: rgba(0, 0, 0, 0.6);
+html:not(.dark) article :not(pre)>code,
+html:not(.dark) .markdown-body code:not(pre) {
+  background: var(--code-bg-light);
+  color: var(--code-text-light);
+  box-shadow:
+    inset 2px 2px 5px var(--code-shadow-dark),
+    inset -2px -2px 5px var(--code-shadow-light);
+}
+
+html.dark article :not(pre)>code,
+html.dark .markdown-body code:not(pre) {
+  background: var(--code-bg-dark);
+  color: var(--code-text-dark);
+  box-shadow:
+    2px 2px 5px var(--code-shadow2-dark),
+    -2px -2px 5px var(--code-shadow2-light);
 }
 
 /*----------------------------------------
-  2. 应用于所有非 <pre> 的 <code>
+  2. 通用样式
 ----------------------------------------*/
 article :not(pre)>code,
-.markdown-body :not(pre)>code {
+.markdown-body code:not(pre) {
   display: inline-block;
-  background: var(--ic-bg);
-  color: var(--ic-color);
-  padding: 0.2em 0.4em;
-  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-  font-size: 0.95em;
+  padding: 0.3em 0.6em;
+  border-radius: 0.5em;
+  font-family: 'JetBrains Mono', Consolas, 'SFMono-Regular', monospace;
   font-weight: 500;
-  border-radius: 0.3em;
-
-  /* 金属浮雕：内阴影 + 双边高光 */
-  border: 1px solid var(--ic-border);
-  border-top-color: var(--ic-border-light);
-  border-left-color: var(--ic-border-light);
-  box-shadow:
-    inset 0 1px 0 var(--ic-highlight),
-    0 2px 4px var(--ic-shadow);
-
-  transition: transform 0.15s, box-shadow 0.15s;
+  font-size: 0.94em;
+  transition: box-shadow 0.2s, transform 0.15s;
 }
 
 /*----------------------------------------
-  3. Hover 交互
+  3. 悬浮互动
 ----------------------------------------*/
 article :not(pre)>code:hover,
-.markdown-body :not(pre)>code:hover {
+.markdown-body code:not(pre):hover {
   transform: translateY(-1px);
   box-shadow:
-    inset 0 1px 0 var(--ic-highlight),
-    0 4px 8px var(--ic-shadow),
-    0 0 4px var(--ic-color);
+    inset 2px 2px 6px var(--code-shadow-dark),
+    inset -2px -2px 6px var(--code-shadow-light),
+    1px 1px 2px rgba(0, 0, 0, 0.05);
 }
