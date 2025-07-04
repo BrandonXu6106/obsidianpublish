@@ -510,22 +510,26 @@ h6 {
 
 /******************************inline code样式**************************************/
 /*----------------------------------------
-  1. 主题变量
+  1. 全局变量
 ----------------------------------------*/
 :root {
-  /* 浅色模式下的配色 */
-  --code-text: #6B46C1;
-  --code-bg: rgba(255, 255, 255, 0.4);
-  --code-bd-1: #D6BCFA;
-  --code-bd-2: #805AD5;
+  /* Light 模式配色 */
+  --ic-bg: linear-gradient(to bottom, #ffffff, #f5f5f5);
+  --ic-color: #5a2e8a;
+  --ic-border: #cccccc;
+  --ic-border-light: #eeeeee;
+  --ic-highlight: rgba(255, 255, 255, 0.8);
+  --ic-shadow: rgba(0, 0, 0, 0.1);
 }
 
 html.dark {
-  /* 深色模式下的配色 */
-  --code-text: #E9D8FD;
-  --code-bg: rgba(40, 40, 40, 0.6);
-  --code-bd-1: #9F7AEA;
-  --code-bd-2: #6B46C1;
+  /* Dark 模式配色 */
+  --ic-bg: linear-gradient(to bottom, #2e2e2e, #262626);
+  --ic-color: #d6b8ff;
+  --ic-border: #444444;
+  --ic-border-light: #555555;
+  --ic-highlight: rgba(255, 255, 255, 0.1);
+  --ic-shadow: rgba(0, 0, 0, 0.6);
 }
 
 /*----------------------------------------
@@ -533,23 +537,24 @@ html.dark {
 ----------------------------------------*/
 article :not(pre)>code,
 .markdown-body :not(pre)>code {
-  position: relative;
-  color: var(--code-text);
-  background-color: var(--code-bg);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  padding: 0.25em 0.6em;
-  border-radius: 0.6em;
+  display: inline-block;
+  background: var(--ic-bg);
+  color: var(--ic-color);
+  padding: 0.2em 0.4em;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 0.95em;
   font-weight: 500;
-  font-family: 'JetBrains Mono', Consolas, monospace;
-  z-index: 0;
+  border-radius: 0.3em;
 
-  /* 渐变边框 */
-  border: 2px solid transparent;
-  border-image:
-    linear-gradient(135deg, var(--code-bd-1), var(--code-bd-2)) 1;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* 金属浮雕：内阴影 + 双边高光 */
+  border: 1px solid var(--ic-border);
+  border-top-color: var(--ic-border-light);
+  border-left-color: var(--ic-border-light);
+  box-shadow:
+    inset 0 1px 0 var(--ic-highlight),
+    0 2px 4px var(--ic-shadow);
+
+  transition: transform 0.15s, box-shadow 0.15s;
 }
 
 /*----------------------------------------
@@ -557,6 +562,9 @@ article :not(pre)>code,
 ----------------------------------------*/
 article :not(pre)>code:hover,
 .markdown-body :not(pre)>code:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 1px 0 var(--ic-highlight),
+    0 4px 8px var(--ic-shadow),
+    0 0 4px var(--ic-color);
 }
