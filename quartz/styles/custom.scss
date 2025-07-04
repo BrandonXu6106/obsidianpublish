@@ -510,23 +510,31 @@ h6 {
 
 /******************************inline code样式**************************************/
 /*----------------------------------------
-  Inline Code 高级样式 for Quartz
+  1. 全局变量（Light 模式保持不变）
 ----------------------------------------*/
 :root {
-  /* Light 模式下的色彩变量 */
   --inline-code-bg: rgba(0, 0, 0, 0.04);
   --inline-code-color: #A600FF;
   --inline-code-border: rgba(0, 0, 0, 0.10);
 }
 
-/* 切换到 Dark 模式时覆盖变量 */
+/*----------------------------------------
+  2. Dark 模式下更醒目的背景、边框与阴影
+----------------------------------------*/
 html.dark {
-  --inline-code-bg: rgba(255, 255, 255, 0.08);
+  --inline-code-bg: #262626;
+  /* 纯色背景，避免与页面背景融合 */
   --inline-code-color: #FF9EB9;
-  --inline-code-border: rgba(255, 255, 255, 0.15);
+  /* 可自定义为品牌色 */
+  --inline-code-border: #444444;
+  /* 强化边框，增加对比度 */
+  --inline-code-shadow: rgba(0, 0, 0, 0.6);
+  /* 外阴影，凸显悬浮感 */
 }
 
-/* 应用到所有非 <pre> 的 <code> 元素 */
+/*----------------------------------------
+  3. 应用到所有非 <pre> 的 <code> 元素
+----------------------------------------*/
 article :not(pre)>code,
 .markdown-body :not(pre)>code {
   background-color: var(--inline-code-bg);
@@ -538,5 +546,10 @@ article :not(pre)>code,
   font-weight: 500;
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   box-decoration-break: clone;
-  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s;
+
+  /* Dark 模式下额外的“浮雕”感 */
+  box-shadow:
+    inset 0 0 0 1px var(--inline-code-border),
+    0 1px 3px var(--inline-code-shadow);
 }
