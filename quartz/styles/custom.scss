@@ -510,58 +510,60 @@ h6 {
 
 /******************************inline code样式**************************************/
 /*----------------------------------------
-  1. 定义配色变量
+  1. 主题变量
 ----------------------------------------*/
 :root {
-  --code-text: #6F42C1;
-  /* 文字主色 */
-  --code-split-a: rgba(111, 66, 193, 0.15);
-  /* 渐变左半色 */
-  --code-split-b: rgba(196, 228, 255, 0.15);
-  /* 渐变右半色 */
-  --code-shadow: rgba(0, 0, 0, 0.08);
-  /* 轻微投影 */
+  --sb-line: #6F42C1;
+  /* 主色线条 */
+  --sb-bg-light: rgba(111, 66, 193, 0.05);
+  /* 浅色背景 */
+  --sb-shadow: rgba(0, 0, 0, 0.03);
+  /* 浅色微晕影 */
 }
 
 html.dark {
-  --code-text: #C78EFD;
-  --code-split-a: rgba(199, 142, 253, 0.15);
-  --code-split-b: rgba(70, 30, 100, 0.15);
-  --code-shadow: rgba(0, 0, 0, 0.6);
+  --sb-line: #C78EFD;
+  --sb-bg-light: rgba(199, 142, 253, 0.06);
+  /* 深色背景当作同名变量 */
+  --sb-shadow: rgba(0, 0, 0, 0.6);
 }
 
 /*----------------------------------------
-  2. 核心样式：双向切割渐变 + 阴影
+  2. 核心样式：无边框，仅底部高亮线
 ----------------------------------------*/
 article code:not(pre),
 .markdown-body code:not(pre) {
   position: relative;
   display: inline-block;
-  padding: 0.25em 0.5em;
+  padding: 0.2em 0.4em;
+  color: var(--sb-line);
+  background-color: var(--sb-bg-light);
+  box-shadow: inset 0 0 2px var(--sb-shadow);
+  border: none;
+  border-radius: 0.25em;
   font-family: 'JetBrains Mono', Consolas, monospace;
   font-size: 0.94em;
   font-weight: 500;
-  color: var(--code-text);
-
-  /* 50%双色切割斜向渐变 */
-  background-image: linear-gradient(135deg,
-      var(--code-split-a) 0%,
-      var(--code-split-a) 50%,
-      var(--code-split-b) 50%,
-      var(--code-split-b) 100%);
-  background-size: 200% 200%;
-  background-position: left bottom;
-
-  border-radius: 0.4em;
-  box-shadow: 0 1px 3px var(--code-shadow);
-  transition: background-position 0.4s ease, box-shadow 0.2s ease;
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 /*----------------------------------------
-  3. 悬浮交互：渐变滑动
+  3. 底部高亮线：默认收缩，Hover 展开
 ----------------------------------------*/
-article code:not(pre):hover,
-.markdown-body code:not(pre):hover {
-  background-position: right top;
-  box-shadow: 0 2px 6px var(--code-shadow);
+article code:not(pre)::after,
+.markdown-body code:not(pre)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 0;
+  height: 1px;
+  background: var(--sb-line);
+  transition: width 0.3s ease;
+  border-radius: 1px;
+}
+
+article code:not(pre):hover::after,
+.markdown-body code:not(pre):hover::after {
+  width: 100%;
 }
