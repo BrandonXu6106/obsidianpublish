@@ -509,34 +509,32 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* 通用 inline code 样式 */
+/* Quartz v4 inline code 样式 */
 code {
-  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-family: var(--font-mono, 'Fira Code', monospace);
   font-size: 0.95em;
   padding: 0.15em 0.4em;
-  border-radius: 5px;
-  background-color: var(--inline-bg, #f4f4f4);
-  color: var(--inline-fg, #333);
-  border: 1px solid var(--inline-border, #ddd);
-  transition: all 0.3s ease;
+  border-radius: 6px;
+  background-color: var(--code-bg, #f5f5f5);
+  color: var(--code-fg, #d6336c);
+  border: 1px solid var(--code-border, #e0e0e0);
+  box-shadow: inset 0 0 0.5px rgba(0, 0, 0, 0.05);
   white-space: nowrap;
-  box-shadow: inset 0 0 0.5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* 浅色主题变量 */
-@media (prefers-color-scheme: light) {
-  :root {
-    --inline-bg: #f8f8f8;
-    --inline-fg: #2a2a2a;
-    --inline-border: #e0e0e0;
-  }
+:root {
+  --code-bg: #f5f5f5;
+  --code-fg: #d6336c;
+  --code-border: #e0e0e0;
 }
 
-/* 深色主题变量 */
+/* 深色主题适配 */
 @media (prefers-color-scheme: dark) {
   :root {
-    --inline-bg: #2e2e2e;
-    --inline-fg: #f0f0f0;
-    --inline-border: #444;
+    --code-bg: #2e2e2e;
+    --code-fg: #ffb86c;
+    --code-border: #444;
   }
 }
