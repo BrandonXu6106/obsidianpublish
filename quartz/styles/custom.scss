@@ -509,79 +509,34 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/*----------------------------------------
-  1. 主题色变量
-----------------------------------------*/
-:root {
-  --code-accent: #6F42C1;
-  /* Light 下主色 */
-  --code-bg-opacity: 0;
-  /* 默认无底色 */
+/* 通用 inline code 样式 */
+code {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-size: 0.95em;
+  padding: 0.15em 0.4em;
+  border-radius: 5px;
+  background-color: var(--inline-bg, #f4f4f4);
+  color: var(--inline-fg, #333);
+  border: 1px solid var(--inline-border, #ddd);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  box-shadow: inset 0 0 0.5px rgba(0, 0, 0, 0.1);
 }
 
-html.dark {
-  --code-accent: #C78EFD;
-  /* Dark 下主色 */
-  --code-bg-opacity: 0;
+/* 浅色主题变量 */
+@media (prefers-color-scheme: light) {
+  :root {
+    --inline-bg: #f8f8f8;
+    --inline-fg: #2a2a2a;
+    --inline-border: #e0e0e0;
+  }
 }
 
-/*----------------------------------------
-  2. 基础样式：极简贴合文字
-----------------------------------------*/
-article code:not(pre),
-.markdown-body code:not(pre) {
-  position: relative;
-  display: inline-block;
-  /* 宽度自适应文字 */
-  padding: 0 0.2em;
-  /* 细微水平内边距 */
-  color: var(--code-accent);
-  background: rgba(var(--code-bg-opacity), var(--code-bg-opacity), var(--code-bg-opacity), var(--code-bg-opacity));
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.94em;
-  font-weight: 500;
-  line-height: 1;
-}
-
-/*----------------------------------------
-  3. 角饰装饰：左右两端小线条
-----------------------------------------*/
-article code:not(pre)::before,
-.markdown-body code:not(pre)::before {
-  content: "";
-  position: absolute;
-  top: 0.15em;
-  left: 0;
-  width: 0.4em;
-  height: 0;
-  border-top: 1px solid var(--code-accent);
-}
-
-article code:not(pre)::after,
-.markdown-body code:not(pre)::after {
-  content: "";
-  position: absolute;
-  bottom: 0.15em;
-  right: 0;
-  width: 0.4em;
-  height: 0;
-  border-bottom: 1px solid var(--code-accent);
-}
-
-/*----------------------------------------
-  4. Hover 互动：角饰颜色加深
-----------------------------------------*/
-article code:not(pre):hover,
-.markdown-body code:not(pre):hover {
-  color: var(--code-accent);
-}
-
-article code:not(pre):hover::before,
-.markdown-body code:not(pre):hover::before {
-  border-top-color: var(--code-accent);
-}
-
-article code:not(pre):hover::after,
-.markdown-body code:not(pre):hover::after {
-  border-bottom-color: var(--code-accent);
+/* 深色主题变量 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --inline-bg: #2e2e2e;
+    --inline-fg: #f0f0f0;
+    --inline-border: #444;
+  }
 }
