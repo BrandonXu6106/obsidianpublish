@@ -509,55 +509,44 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* 通用 inline code 样式 */
+/* 极致贴合字体的 inline code 样式 */
 code,
 .inline-code {
-  position: relative;
-  padding: 0.2em 0.45em;
-  border-radius: 6px;
+  display: inline;
   font-family: 'JetBrains Mono', 'Fira Code', monospace;
-  font-size: 0.95em;
+  font-size: 0.93em;
+  padding: 0.15em 0.3em;
+  border-radius: 4px;
   white-space: pre-wrap;
   word-break: break-word;
+  line-height: 1.2;
   transition: all 0.3s ease;
-  z-index: 0;
-  isolation: isolate;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1), inset 0 1px 0 rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
 }
 
-/* 高级背景渐层，贴合字体形状 */
-code::before,
-.inline-code::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 6px;
-  z-index: -1;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.08));
-  opacity: 0.8;
-  backdrop-filter: blur(2px);
-}
-
-/* Light 模式样式 */
+/* Light 模式 */
 html[data-theme='light'] code,
 html[data-theme='light'] .inline-code {
-  color: #2c2c2c;
-  background-color: #f5f5f7;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+  background-color: #f8f8fc;
+  color: #2b2b2b;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.04);
 }
 
-/* Dark 模式样式 */
+/* Dark 模式 */
 html[data-theme='dark'] code,
 html[data-theme='dark'] .inline-code {
-  color: #e8e8ea;
-  background-color: #1e1e20;
-  box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.08);
+  background-color: #2a2a2d;
+  color: #f3f3f5;
+  border: 1px solid #444;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05);
 }
 
-/* Hover 效果：增强边框与色彩层次 */
+/* Hover 效果 */
 code:hover,
 .inline-code:hover {
-  box-shadow: inset 0 0 0 1px #aaa, 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffe6803a;
+  box-shadow: 0 0 6px rgba(255, 224, 100, 0.25);
   transform: scale(1.015);
   cursor: pointer;
 }
