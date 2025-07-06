@@ -28,8 +28,8 @@ Stay foolish, stay hungry!
 你可以通过搜索的方式找到你想要的内容，包括：
 
 - 全局搜索: 快捷键 `ctrl k`
-- tag搜索: [Tag Index](https://arioxu.github.io/obsidianpublish/tags/)
-- 文件夹索引搜索: [Folder: posts](https://arioxu.github.io/obsidianpublish/posts/)[Folder: thoughts](https://arioxu.github.io/obsidianpublish/thoughts/)
+- tag搜索: [Tag Index](/tags/)
+- 文件夹索引搜索: [Folder: posts](/posts/)[Folder: thoughts](/thoughts/)
 
 更详细的信息，请参考：
 - [brandndesign](https://arioxu.github.io/obsidianpublish/posts/branddesign/)：品牌设计相关内容
