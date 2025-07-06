@@ -509,40 +509,46 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* 基础样式 */
-code {
-  font-family: var(--font-mono, 'Fira Code', monospace);
-  font-size: 0.95em;
-  padding: 0.25em 0.6em;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  transition: background-color 0.3s ease,
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
+:root {
+  --bg-color: #f0f0f3;
+  --shadow-light: rgba(255, 255, 255, 0.7);
+  --shadow-dark: rgba(0, 0, 0, 0.1);
+  --primary-color: #e0e0e0;
+  --font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
 }
 
-/* 浅色主题 */
-html[data-theme="light"] code {
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
-  color: #111;
+body {
+  background: var(--bg-color);
+  font-family: var(--font-family);
+  color: #555;
 }
 
-/* 深色主题 */
-html[data-theme="dark"] code {
-  background-color: rgba(30, 30, 30, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-  color: #eee;
+.card {
+  background: var(--bg-color);
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow:
+    8px 8px 16px var(--shadow-dark),
+    -8px -8px 16px var(--shadow-light);
 }
 
-/* Hover 提示效果 */
-code:hover {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.1);
+button,
+.btn {
+  background: var(--primary-color);
+  border: none;
+  border-radius: 50px;
+  padding: .8em 1.6em;
+  box-shadow:
+    4px 4px 8px var(--shadow-dark),
+    -4px -4px 8px var(--shadow-light);
+  color: #333;
+  cursor: pointer;
+  transition: box-shadow .3s;
+}
+
+button:active,
+.btn:active {
+  box-shadow:
+    inset 4px 4px 8px var(--shadow-dark),
+    inset -4px -4px 8px var(--shadow-light);
 }
