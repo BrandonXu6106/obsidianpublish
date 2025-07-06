@@ -509,38 +509,32 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* 高级感 Inline Code 样式，适配暗亮模式 */
+/* 通用 inline code 样式 */
 code,
 .inline-code {
-  padding: 0.2em 0.4em;
+  padding: 0.25em 0.4em;
   border-radius: 6px;
   font-family: 'Fira Code', 'JetBrains Mono', monospace;
   font-size: 0.95em;
   line-height: 1.4;
   white-space: pre-wrap;
   word-break: break-word;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
 }
 
-/* 亮色主题下的样式 */
-:root {
-  --inline-code-bg: #f4f4f6;
-  --inline-code-color: #2d2d2d;
-  --inline-code-border: #e0e0e0;
+/* Light 模式 */
+html[data-theme='light'] code,
+html[data-theme='light'] .inline-code {
+  background-color: #f5f5f7;
+  color: #2c2c2c;
+  border-color: #ddd;
 }
 
-/* 暗色主题下的样式 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --inline-code-bg: #1f1f22;
-    --inline-code-color: #e0e0e3;
-    --inline-code-border: #3a3a3a;
-  }
-}
-
-code,
-.inline-code {
-  background-color: var(--inline-code-bg);
-  color: var(--inline-code-color);
-  border: 1px solid var(--inline-code-border);
+/* Dark 模式 */
+html[data-theme='dark'] code,
+html[data-theme='dark'] .inline-code {
+  background-color: #1e1e20;
+  color: #e8e8ea;
+  border-color: #444;
 }
