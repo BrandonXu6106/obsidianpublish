@@ -28,6 +28,7 @@ Stay foolish, stay hungry!
 你可以通过搜索的方式找到你想要的内容，包括：
 
 - 全局搜索: 快捷键 `ctrl k`
+- tag搜索: 快捷键`ctrl shift k`
 - tag搜索: [All tags](/tags/)
 - 文件夹索引搜索: [All posts](/posts/)/[All thoughts](/thoughts/)
 
