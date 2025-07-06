@@ -28,16 +28,16 @@ Stay foolish, stay hungry!
 你可以通过搜索的方式找到你想要的内容，包括：
 
 - 全局搜索: 快捷键 `ctrl k`
-- tag搜索: [Tag Index](/tags/)
-- 文件夹索引搜索: [Folder: posts](/posts/)[Folder: thoughts](/thoughts/)
+- tag搜索: [All tags](/tags/)
+- 文件夹索引搜索: [All posts](/posts/)/[All thoughts](/thoughts/)
 
 更详细的信息，请参考：
-- [brandndesign](/posts/branddesign/)：品牌设计相关内容
+- [Brandndesign](/posts/branddesign/)：品牌设计相关内容
 	-  [fonts](/posts/branddesign/fonts/)：字体设计
-- [aigc](/posts/aigc/)：有关ai工具的探索与学习
-- [readnotes](/posts/readnotes/)：处于某种已读、正在读或将要阅读状态的读书笔记。
-- [software](/posts/software/)：软件的学习与使用
-- [books](/books): 设计类书籍
+- [Aigc](/posts/aigc/)：有关ai工具的探索与学习
+- [Readnotes](/posts/readnotes/)：处于某种已读、正在读或将要阅读状态的读书笔记。
+- [Software](/posts/software/)：软件的学习与使用
+- [Books](/books): 设计类书籍
 
 ```poetry
 - ArioXu :)
