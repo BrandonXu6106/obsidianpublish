@@ -509,44 +509,40 @@ h6 {
 }
 
 /******************************inline code样式**************************************/
-/* 极致贴合字体的 inline code 样式 */
+/* Neutral Minimal Inline Code 样式 */
 code,
 .inline-code {
   display: inline;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
-  font-size: 0.93em;
+  font-family: 'Menlo', 'Courier New', monospace;
+  font-size: 0.92em;
   padding: 0.15em 0.3em;
-  border-radius: 2px;
+  border-radius: 4px;
   white-space: pre-wrap;
   word-break: break-word;
   line-height: 1.2;
-  transition: all 0.3s ease;
-  background-clip: padding-box;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 /* Light 模式 */
 html[data-theme='light'] code,
 html[data-theme='light'] .inline-code {
-  background-color: #f8f8fc;
-  color: #2b2b2b;
-  border: 1px solid #ddd;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.04);
+  background-color: #eeeeee;
+  color: #333333;
+  border: 1px solid #cccccc;
 }
 
 /* Dark 模式 */
 html[data-theme='dark'] code,
 html[data-theme='dark'] .inline-code {
-  background-color: #2a2a2d;
-  color: #f3f3f5;
-  border: 1px solid #444;
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05);
+  background-color: #2c2c2c;
+  color: #f4f4f4;
+  border: 1px solid #444444;
 }
 
-/* Hover 效果 */
+/* Hover 效果：仅轻微改变背景以提示交互 */
 code:hover,
 .inline-code:hover {
-  background-color: #ffe6803a;
-  box-shadow: 0 0 6px rgba(255, 224, 100, 0.25);
-  transform: scale(1.015);
+  background-color: #ffd95c2a;
+  border-color: #aaa;
   cursor: pointer;
 }
