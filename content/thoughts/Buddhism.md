@@ -21,7 +21,7 @@ tags:
 - Right Thought
 - Right Speech
 - Right Action
-- Right Livelihood (see: [[Buddhist Economics]])
+- Right Livelihood (see: [[Buddhist Economics](Buddhist%20Economics.md))
 - Right Effort
 - Right Mindfulness
 - Right Concentration.

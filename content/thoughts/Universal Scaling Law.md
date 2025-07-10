@@ -15,7 +15,7 @@ $$C(N) = \frac {N} {1 + \alpha(N- 1) + \beta N(N-1)}$$
 
 - $N$ is the number of users/load generators
 - Contention ($\propto \alpha$): effect of waiting or queueing for shared resources. When $\alpha=0$, we get linear scalability behaviour (e.g. lock-free computing)
-- Coherency ($\propto \beta$): cost of getting agreement on what the right thing to do is (see also: [[authenticator complexity]])
+- Coherency ($\propto \beta$): cost of getting agreement on what the right thing to do is (see also: [[authenticator complexity](authenticator%20complexity.md))
 
 ### Share Nothing
 Also called horizontal scaling or scaling out. Coordinate by communicating rather than sharing resources.

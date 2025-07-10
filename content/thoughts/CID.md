@@ -9,7 +9,7 @@ Summarized from [Github Specification](https://github.com/multiformats/cid)
 
 > Self-describing content-addressed identifiers for distributed systems
 
-Basically a hash with some metadata. CID is a self-describing format for referencing content, it is a form of [[content addressed storage|content addressed storage]].
+Basically a hash with some metadata. CID is a self-describing format for referencing content, it is a form of [[content addressed storage|content addressed storage](content%20addressed%20storage.md).
 
 Format: `<cidv1> ::= <multibase-prefix><multicodec-cidv1><multicodec-content-type><multihash-content-address>`
 
@@ -32,4 +32,4 @@ Graphs that use CIDs for references are acyclical! Hashing a cycle would mean th
 
 This is impossible! Consider a cycle `A -> B -> C -> A`. To figure out the CID of `A`, we need to know the CID of `B`. To know the CID of `B` you need to know the CID of `C`. `C`'s CID needs to know the CID of `A` and we are back where we started.
 
-Side note: I guess this could be done by brute forcing a [[hash function|hash]] collision but this is so statistically improbable we might as we well consider it impossible
+Side note: I guess this could be done by brute forcing a [[hash function|hash](hash%20function.md) collision but this is so statistically improbable we might as we well consider it impossible

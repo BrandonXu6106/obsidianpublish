@@ -7,7 +7,7 @@ aliases:
 - EqSat
 ---
 
-In a traditional [[compiler|compilers]], optimizations are applied sequentially, with each optimization taking as input the program produced by the previous one. 
+In a traditional [[compiler.md|compilers]], optimizations are applied sequentially, with each optimization taking as input the program produced by the previous one. 
 
 One of the drawbacks is that the order in which optimizations are run affects the quality of the generated code, a problem commonly known as the **phase ordering problem**. That is, optimization stages are **not** commutative. The local nature of these optimization heuristics makes it difficult to take into account the effect of future optimizations.
 

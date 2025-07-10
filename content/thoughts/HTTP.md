@@ -6,9 +6,9 @@ tags:
   - CPSC317
 ---
 
-Main method of communication at the [Application Layer](Application%20Layer.md) for the web. A state-transfer protocol. Sometimes called the second waist of the Internet (after [[IP Address]])
+Main method of communication at the [Application Layer](Application%20Layer.md) for the web. A state-transfer protocol. Sometimes called the second waist of the Internet (after [[IP Address](IP%20Address.md))
 
-See also: [[Braid HTTP]] for HTTP as state-synchronization
+See also: [[Braid HTTP](Braid%20HTTP.md) for HTTP as state-synchronization
 
 ## Connections
 

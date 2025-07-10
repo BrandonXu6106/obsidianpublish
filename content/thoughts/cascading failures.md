@@ -43,7 +43,7 @@ Similarly, one of the largest blackouts in North America took place on August 14
 
 ### Denial of Service Attacks (Internet)
 
-If a router fails to transmit the packets received by it, the [[Internet|Internet]] protocols will alert the neighboring routers to avoid the troubled equipment by re-routing the packets using alternative routes. Consequently a failed router increases traffic on other routers, potentially inducing a series of denial of service attacks throughout the Internet.
+If a router fails to transmit the packets received by it, the [[Internet.md|Internet]] protocols will alert the neighboring routers to avoid the troubled equipment by re-routing the packets using alternative routes. Consequently a failed router increases traffic on other routers, potentially inducing a series of denial of service attacks throughout the Internet.
 
 ### Financial Crises
 

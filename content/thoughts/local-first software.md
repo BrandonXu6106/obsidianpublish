@@ -16,8 +16,8 @@ Why local first?
 - 50yr time scale: change in how we view computing (interop, intersubjective, etc)
 - 5000yr time scale: enable interplanetary collaboration
 
-![[content/thoughts/images/localfirst-jazz.png|600]]
-_from Anselm Eickhoff's presentation of [[jazz.tools|jazz.tools]] [at Local-first Meetup Berlin](https://www.youtube.com/watch?v=pBvGeU7bL5A)_
+![[images/localfirst-jazz.png|600]]
+_from Anselm Eickhoff's presentation of [[jazz.tools.md|jazz.tools]] [at Local-first Meetup Berlin](https://www.youtube.com/watch?v=pBvGeU7bL5A)_
 
 ## Ink and Switch
 
@@ -35,11 +35,11 @@ Local-first ideals include
 2. Your work is not trapped on one device
 3. Network is optional
 4. Seamless collaboration
-   1. Auto-merging changes using a [[CRDT|CRDT]] or [[Operational Transform|OT]]
+   1. Auto-merging changes using a [[CRDT.md|CRDT]] or [[Operational Transform|OT](Operational%20Transform.md)
    2. Asynchronous changes that need review (e.g. suggestions or pull requests)
 5. The long now (optional permanence/digital longetivity)
    - When you do some work with local-first software, your work should continue to be accessible indefinitely, even after the company that produced the software is gone.
-6. Security and [[privacy|privacy]] by default
+6. Security and [[privacy.md|privacy]] by default
    - Many professionals cannot use cloud apps due to regulatory compliance and confidentiality obligations.
 7. User retains ownership and control
    - You should be able to copy and modify data in any way, write down any thought, and no company should restrict what you are allowed to do.
@@ -53,5 +53,5 @@ The key difference between traditional systems and local-first systems is not an
 Active questions:
 
 1. CRDTs accumulate a large change history, which creates performance problems. These pile up, but can’t easily be truncated because it’s impossible to know when someone might reconnect to your shared document after six months away and need to merge changes from that point forward.
-2. Network communication remains an unsolved problem. The use of P2P technologies in our prototypes yielded mixed results. On one hand, these technologies are nowhere near production-ready: [[NAT|NAT]] traversal, in particular, is unreliable depending on the particular router or network topology where the user is currently connected.
+2. Network communication remains an unsolved problem. The use of P2P technologies in our prototypes yielded mixed results. On one hand, these technologies are nowhere near production-ready: [[NAT.md|NAT]] traversal, in particular, is unreliable depending on the particular router or network topology where the user is currently connected.
 3. Visualizing document history is important and difficult. How do we communicate this version history to users? How should users think about versioning, share and accept changes, and understand how their documents came to be a certain way when there is no central source of truth?

@@ -12,4 +12,4 @@ $$f(w) = \sum_{i=1}^n \max\{0, 1-y_iw^Tx_i\}$$
 
 They can also be viewed as 'maximizing the margin':
 
-![[maximizing margin.png]]
+![[maximizing margin.png](images/maximizing%20margin.png)

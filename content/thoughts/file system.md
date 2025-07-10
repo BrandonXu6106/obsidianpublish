@@ -23,7 +23,7 @@ One way of solving the n-to-n problem is to use a VDFS as opposed to exposing AP
 - Work: needing to solve similar problems around storage
 - Data storage: ETL (extract, transform, load) pipelines
 
-For the benefits and values the VDFS provides, we can make the analogy to [[IP Address|IP]]. The IP layer is the narrow waist that enables the higher layer to innovate without worrying about the lower IP layer, and vice-versa. In the meantime, the virtual file system is an abstraction layer on top of a concrete file system implementation, and it allows applications to be able to access different types of concrete file systems in a uniform way.
+For the benefits and values the VDFS provides, we can make the analogy to [[IP Address|IP](IP%20Address.md). The IP layer is the narrow waist that enables the higher layer to innovate without worrying about the lower IP layer, and vice-versa. In the meantime, the virtual file system is an abstraction layer on top of a concrete file system implementation, and it allows applications to be able to access different types of concrete file systems in a uniform way.
 
 ### Performance
 
@@ -35,7 +35,7 @@ Interesting to note: in big data processing, the same operation is repeatedly ap
 
 [Source](https://hal.inria.fr/hal-03278658/document)
 
-The design of ElmerFS leverages the properties of [[CRDT|CRDTs]] to ensure that concurrent operations on different replicas always converge to a correct state while preserving the semantics of a traditional POSIX file system
+The design of ElmerFS leverages the properties of [[CRDT.md|CRDTs]] to ensure that concurrent operations on different replicas always converge to a correct state while preserving the semantics of a traditional POSIX file system
 
 Challenges
 

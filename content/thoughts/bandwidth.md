@@ -11,9 +11,9 @@ tags:
 
 > When we talk together, we flatten our N-dimensional thoughts into 1D linear narratives, in order to fit them through the 1D bottleneck of words. When we draw or sketch, we flatten our N-dimensional thoughts into 2D images in order to fit them through the 2D bottleneck of sight.
 
-What is the shape of [networked-thought](networked-thought.md)?
+What is the shape of [networked-thought](../posts/readnotes/networked-thought.md)?
 
-See also: [[hypertext]], [[the garden and the stream]]
+See also: [[hypertext.md]], [[the garden and the stream](the%20garden%20and%20the%20stream.md)
 
 ## Interpretation
 

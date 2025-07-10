@@ -35,7 +35,7 @@ $$
 
 where $A$ is a matrix, $b$ is a vector, and $c$ is a scalar
 
-The generalized version of “set the derivative to 0 and solve” in d-dimensions is to find where the gradient is zero (see [[calculus|calculus]]). We get
+The generalized version of “set the derivative to 0 and solve” in d-dimensions is to find where the gradient is zero (see [[calculus.md|calculus]]). We get
 
 $$
 \begin{equation}
@@ -65,7 +65,7 @@ Aw - b \\
 \end{equation}
 $$
 
-We can fit to polynomial equations using a [[change of basis]]
+We can fit to polynomial equations using a [[change of basis](change%20of%20basis.md)
 
 ## Cost
 
@@ -102,7 +102,7 @@ Absolute error is more robust and non-convex errors are the most robust.
 
 You want to minimize size of worst error across examples. For example, if in worst case the plane can crash or you perform badly on a group.
 
-We can instead minimize the $L_\infty$ norm which is convex but non-smooth. This effectively minimizes the highest error (effectively Minimax regret in [[Decisions under ignorance|DUI]]).
+We can instead minimize the $L_\infty$ norm which is convex but non-smooth. This effectively minimizes the highest error (effectively Minimax regret in [[Decisions under ignorance|DUI](Decisions%20under%20ignorance.md)).
 
 The smooth approximation to the max function is the log-sum-exp function:
 
@@ -116,4 +116,4 @@ Other ones also exist which replace the $p$ term with $\lambda k$ where $k$ is t
 
 $\lambda = 1$ is called the Akaike information criterion (AIC)
 
-See also: [[regularization]]
+See also: [[regularization.md]]

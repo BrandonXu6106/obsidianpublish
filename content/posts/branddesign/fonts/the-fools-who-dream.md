@@ -6,7 +6,7 @@ tags:
   - rhizome
 ---
 
-![[public/thoughts/images/IMG_2146.jpg]]
+![[../../../../public/thoughts/images/IMG_2146.jpg]]
 
 _Alternatively: A hitchhiker's guide to independent research_
 
@@ -21,11 +21,11 @@ _Alternatively: A hitchhiker's guide to independent research_
 >
 > La La Land - "Audition (the fools who dream)"
 
-A year ago, I wrote myself a [[2021|letter]]. In it, I told myself that if I ever found an idea I had high conviction in, I would drop everything to give it a fair shot. I hoped that I would be ambitious in my dreams and to embody a [quiet confidence](https://www.spencerchang.me/experiments/100posts/quiet-confidence/) in my own abilities and interests.
+A year ago, I wrote myself a [[../../readnotes/2021.md|letter]]. In it, I told myself that if I ever found an idea I had high conviction in, I would drop everything to give it a fair shot. I hoped that I would be ambitious in my dreams and to embody a [quiet confidence](https://www.spencerchang.me/experiments/100posts/quiet-confidence/) in my own abilities and interests.
 
-[[Rhizome Proposal|Rhizome]] turned out to be project that would let me do all of that. I spent this past summer doing independent research focused on how we can enable [[towards-data-neutrality|data neutrality]] on a web dominated by data moats. I had no academic research experience, barely knew anything about [[distributed systems]], and didn't personally know anyone else doing independent research. At the time, I had no idea this was even _called_ independent research.
+[[Rhizome Proposal|Rhizome](../../../thoughts/Rhizome%20Proposal.md) turned out to be project that would let me do all of that. I spent this past summer doing independent research focused on how we can enable [[towards-data-neutrality.md|data neutrality]] on a web dominated by data moats. I had no academic research experience, barely knew anything about [[distributed systems](../../../thoughts/distributed%20systems.md), and didn't personally know anyone else doing independent research. At the time, I had no idea this was even _called_ independent research.
 
-I'm not sure what about it drew me in exactly. The project started out with a smattering of thoughts around [[peer-to-peer]] networking and what I found frustrating about it. Yet, the project took up latent headspace, simmering away quietly only to surface mid-scrub in the shower or on a walk to the bus stop.
+I'm not sure what about it drew me in exactly. The project started out with a smattering of thoughts around [[../../../thoughts/peer-to-peer.md]] networking and what I found frustrating about it. Yet, the project took up latent headspace, simmering away quietly only to surface mid-scrub in the shower or on a walk to the bus stop.
 
 I knew that 'good' research practice usually involved writing a detailed research statement or proposal to present exactly what one would work on. I also knew that I had no clue how I would manifest the stirring pot of concepts into something legible. I spent the months leading up to summer bumping around in the dark, trying to phrase and form what exactly about this interested me so much. In my head it felt clear, but each time I tried to force those ideas through my fingers and onto the page they seemed to flit away and vanish, refusing to be expressed in any precise form.
 
@@ -43,7 +43,7 @@ When I started with the project, I had a healthy dose of naivete, a belief that 
 
 In mid-conversation with someone who's opinion I cared deeply about, I realized that I strongly needed to figure out how to untie my self-worth from my project.
 
-Midsummer, on a whim, I picked up Annie Dillard's _[[The Writing Life|The Writing Life]]_ from a local bookstore and read it cover to cover. In it, she mentions that the greatest teacher of writing is the blank page.
+Midsummer, on a whim, I picked up Annie Dillard's _[[The Writing Life|The Writing Life](../../../thoughts/The%20Writing%20Life.md)_ from a local bookstore and read it cover to cover. In it, she mentions that the greatest teacher of writing is the blank page.
 
 > Who will teach me to write? a reader wanted to know.
 >
@@ -67,7 +67,7 @@ The less beaten path is often less beaten for a reason. But if it feels right to
 
 This realization dawned on me slowly for me over the span of about a month. I wasn't pursuing it because society deemed my research useful or that I knew it would eventually make me heaps of money or make me incredibly famous. At the end of the day, it was enough that this research is something that I _wanted_ to spend time pursuing.
 
-![[content/posts/images/play/agency.png]]
+![[../../images/play/agency.png]]
 
 > People will impose their limiting beliefs onto your world because it’s what governs theirs. They will tell you to stay in something you want to leave, will tell you to keep pushing toward something that feels wrong, feels misaligned. You always have a choice. You can yield to expectation, pessimism, set structures, or [you can take the other path].
 >
@@ -93,11 +93,11 @@ What people often find confusing is that **independent research doesn't mean I d
 
 Every few months, I'll get an email or two along the lines of: "Help, I'm stuck in Leetcode hell, how do I escape and do other things?" I love these emails because I know these are people who have started that introspection process, an internal questioning of "what do I _actually_ care about and why?" and are looking for containers and institutions for their work.
 
-Sooner or later, that line of questioning leads to a question of hypothetical [[utopia|utopia]]. In a world where you don't need to work to stay alive, what would you do? What gives you excitement and joy? Completely ignoring what other people tell you is useful or good, what do you find intrinsically beautiful and good to do in the world?
+Sooner or later, that line of questioning leads to a question of hypothetical [[../../../thoughts/utopia.md|utopia]]. In a world where you don't need to work to stay alive, what would you do? What gives you excitement and joy? Completely ignoring what other people tell you is useful or good, what do you find intrinsically beautiful and good to do in the world?
 
 To most, the answer as to what they want is clear but the difficult question is _how_. Having dreams and working to make them a reality is a privilege in this world. I truly think it’s one of the greatest gifts of life but unfortunately not a gift very many get to have.
 
-How might we create spaces for abundance so that more people have this sort of privilege? Édouard Glissant's _[[Archipelago|Archipelago]]_ gives a glimpse into a "future [which] lies not with the great powers, but with the little islands, lands, and cities." Not all research needs to happen within the monolithic institutions in [[academia|academia]] or profit-hungry companies. Perhaps the next generation of innovation and discoveries that advance society will be made through [[tribe flourishing|small squads]] banding together to build things, live together, and create something more intricate, comprehensive, and wonderful than any one individual could have achieved on their own.
+How might we create spaces for abundance so that more people have this sort of privilege? Édouard Glissant's _[[../../../thoughts/Archipelago.md|Archipelago]]_ gives a glimpse into a "future [which] lies not with the great powers, but with the little islands, lands, and cities." Not all research needs to happen within the monolithic institutions in [[../../../thoughts/academia.md|academia]] or profit-hungry companies. Perhaps the next generation of innovation and discoveries that advance society will be made through [[tribe flourishing|small squads](../../../thoughts/tribe%20flourishing.md) banding together to build things, live together, and create something more intricate, comprehensive, and wonderful than any one individual could have achieved on their own.
 
 > Benjamin Franklin had the Junto Club, Tolkien and C.S. Lewis had The Inklings, Jobs and Wozniak had Homebrew. The Bloomsbury Group was integral to the success of Virginia Woolf, Clive Bell, and John Maynard Keynes, while MIT’s Model Railroad Club spawned much of modern hacker culture.
 >
@@ -107,9 +107,9 @@ How might we create spaces for abundance so that more people have this sort of p
 
 To those who don't take this path -- parents included -- what I'm doing seems a little foolish. But that's not necessarily a bad thing. The fool is often characterized as naive, a beggar, a hedonist. But the fool is also many other things that more people should be.
 
-The fool is the [[Jestermaxxing|jester]], daring to challenge what other people wouldn't. The fool is the blazer of new trails, happily taking the less beaten path because he does not know better. The fool is the one who does things because they think it is worth doing, not for coin or status.
+The fool is the [[../../../thoughts/Jestermaxxing.md|jester]], daring to challenge what other people wouldn't. The fool is the blazer of new trails, happily taking the less beaten path because he does not know better. The fool is the one who does things because they think it is worth doing, not for coin or status.
 
-![[the fool.png|200]]
+![[the fool.png|200](../../../thoughts/images/the%20fool.png)
 
 I leave this as an invitation to you. Ask yourself: "what do you _really_ want?" Be honest with yourself. Get your hopes up a little bit; let yourself be a little foolish.
 

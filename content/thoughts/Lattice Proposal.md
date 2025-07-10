@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-Potential exploration on my gripes with existing [[tools for thought|tools for thought]] using principles from [[Rhizome Proposal|Rhizome]]. Extracted from my [[idea list|idea list]]
+Potential exploration on my gripes with existing [[tools for thought|tools for thought](tools%20for%20thought.md) using principles from [[Rhizome Proposal|Rhizome](Rhizome%20Proposal.md). Extracted from my [[idea list|idea list](idea%20list.md)
 
 - Transclusion of blocks supported by default
 - Full revision history with the granularity of single operations
@@ -21,6 +21,6 @@ Potential exploration on my gripes with existing [[tools for thought|tools for t
   - On the right, you can see all outgoing links
   - Hovering on each card will reveal another layer which those ones are connected to
 * Timeline view
-  - each note will come with a date so you can chronologically order notes and view them that way (kind of like a [[git|git]] history) if you brain works better that way
-* Good global search (see: [[information retrieval]])
+  - each note will come with a date so you can chronologically order notes and view them that way (kind of like a [[git.md|git]] history) if you brain works better that way
+* Good global search (see: [[information retrieval](information%20retrieval.md))
 * [Interoperability](interoperability.md) of data, easy export

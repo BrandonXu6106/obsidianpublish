@@ -5,6 +5,6 @@ tags:
   - seed
 ---
 
-Protocol for encrypting, securing, and authenticating communications that take place on the [[Internet|Internet]].
+Protocol for encrypting, securing, and authenticating communications that take place on the [[Internet.md|Internet]].
 
-Replaced by [[TLS|TLS]]
+Replaced by [[TLS.md|TLS]]

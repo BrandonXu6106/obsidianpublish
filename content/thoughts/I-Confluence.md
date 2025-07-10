@@ -7,7 +7,7 @@ tags:
 
 Martin Kleppmann and Heidi Howard: _[Byzantine Eventual Consistency and the Fundamental Limits of Peer-to-Peer Databases](https://arxiv.org/pdf/2012.00472.pdf)_
 
-$\mathcal I$-confluence is a necessary and sufficient condition for the existence of a [[Byzantine Faults|byzantine fault-tolerant]] [[consistency#Eventual Consistency|eventual consistency]] [[replication|replication]] algorithm
+$\mathcal I$-confluence is a necessary and sufficient condition for the existence of a [[Byzantine Faults|byzantine fault-tolerant](Byzantine%20Faults.md) [[consistency.md#Eventual Consistency|eventual consistency]] [[replication.md|replication]] algorithm
 
 They define an invariant is a predicate over replica states, i.e. a function $I(S)$ that takes a replica state $S$ and returns either true or false.
 
@@ -29,6 +29,6 @@ A few examples:
   - If $T_1$ and $T_2$ are both transactions that create data items with the same value in that attribute, each of transaction preserves the constraint
   - However the combination of the two does not
 
-I conjecture that if a data structure is $\mathcal I$-confluent, then it can be expressed in monotonic [[Datalog|Datalog]]. That is, $\mathcal I$-confluence holds if and only if states $S$ can be represented as a join [[semilattice|semilattice]].
+I conjecture that if a data structure is $\mathcal I$-confluent, then it can be expressed in monotonic [[Datalog.md|Datalog]]. That is, $\mathcal I$-confluence holds if and only if states $S$ can be represented as a join [[semilattice.md|semilattice]].
 
-This shows equivalence with the [[CALM Theorem|CALM]] conjecture (proof left as an exercise for the reader).
+This shows equivalence with the [[CALM Theorem|CALM](CALM%20Theorem.md) conjecture (proof left as an exercise for the reader).

@@ -9,7 +9,7 @@ _written in a note once_
 
 Similar to [A love letter to virtual community care](https://www.kernelmag.io/pieces/a-love-letter-to-community-care) by Theresa Gao
 
-Related: [[friendship|friendship]]
+Related: [[friendship.md|friendship]]
 
 ## Community Care
 

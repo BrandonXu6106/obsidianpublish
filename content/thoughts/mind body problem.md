@@ -19,11 +19,11 @@ Approaches
 - [Materialism](Materialism.md) (physicalism): minds and brains are identical (identity theory)
   - nothing magical about minds, just the brains activity
 - Dualism: minds are distinct from the brain
-- [[idealism|Idealism]]: everything is mental/in the mind
+- [[idealism.md|Idealism]]: everything is mental/in the mind
 
 ## Considering other minds
 
-For own mind, introspection works more or less. However for other minds, we must rely on behaviour of others (what they say and do, see also: [[epistemic authority]])
+For own mind, introspection works more or less. However for other minds, we must rely on behaviour of others (what they say and do, see also: [[epistemic authority](epistemic%20authority.md))
 
 Two possible ways of understanding how this way of knowing other minds works
 

@@ -14,4 +14,4 @@ A collection itself can also be a resource. An index is a description resource t
 
 What then is a [library](library.md)? According to Glushko, they are [organizing systems](organizing%20system.md) which "select, collect, organize, conserve, preserve, and provide access to information on behalf of a community of users."
 
-See also: [[organizing system]]
+See also: [[organizing system](organizing%20system.md)

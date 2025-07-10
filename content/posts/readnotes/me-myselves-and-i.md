@@ -7,7 +7,7 @@ tags:
   - writing
 ---
 
-_An exploration on [[commitment|commitment]], [trust](trust.md), and growth._
+_An exploration on [[../../thoughts/commitment.md|commitment]], [trust](../../thoughts/trust.md), and growth._
 
 ![The Persistence of Memory by Salvador Dalí](/thoughts/images/the%20persistence%20of%20memory.png)_The Persistence of Memory by Salvador Dalí_
 
@@ -33,11 +33,11 @@ What do you think it means to commit to an identity?
 
 _Hmm. I think there is an element of trust -- that the ground below them will hold, that tomorrow will come again, and that the ocean will continue to rise and fall. Trust is an unquestioning attitude, an absence of deliberation over reliability. To commit is to believe it as a truth about oneself._
 
-Do you think identities can change with [[time|time]]?
+Do you think identities can change with [[../../thoughts/time.md|time]]?
 
-_Yes. I don't think truth is absolute -- I think truth is a function of identity and identity itself is a function of [[time|time]]. Maybe, at this slice in time, certain axioms hold true about the universe. A few hours, years, millennia might pass and those truths might be different. Our different selves can choose between different systems of meaning and sense as our basic axioms._
+_Yes. I don't think truth is absolute -- I think truth is a function of identity and identity itself is a function of [[../../thoughts/time.md|time]]. Maybe, at this slice in time, certain axioms hold true about the universe. A few hours, years, millennia might pass and those truths might be different. Our different selves can choose between different systems of meaning and sense as our basic axioms._
 
-I think my [[self-confidence|sense of self]] is undergoing a shift. It feels very liquid right now. One supposedly is supposed to 'live in the present' to enjoy the tea[^2], but I can't help but feel... scattered. I feel like I am trying to live too many lives at once and I feel the very fabric of my being being tugged at the seams.
+I think my [[../../thoughts/self-confidence.md|sense of self]] is undergoing a shift. It feels very liquid right now. One supposedly is supposed to 'live in the present' to enjoy the tea[^2], but I can't help but feel... scattered. I feel like I am trying to live too many lives at once and I feel the very fabric of my being being tugged at the seams.
 
 _I think empathy is a means of time dilation. For one to slow down or speed up their rate of life to match another. Of course, to constantly time travel to bridge the worlds of slow and fast is incredibly tiring. You must be very worn._
 
@@ -77,6 +77,6 @@ The sound of the waves are nice, huh?
 
 _Yeah._
 
-[^1]: Annie Dillard, _[[The Writing Life|The Writing Life]]_
+[^1]: Annie Dillard, _[[The Writing Life|The Writing Life](../../thoughts/The%20Writing%20Life.md)_
 [^2]: Thich Nhat Hanh's _Tea Meditation_
 [^3]: Patricia Mou, _[Rabbit Holes](https://wellnesswisdom.substack.com/p/-wellness-wisdom-vol45-30-pieces)_

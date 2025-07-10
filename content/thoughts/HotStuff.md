@@ -5,15 +5,15 @@ tags:
   - seed
 ---
 
-> A [[Byzantine Faults|byzantine fault-tolerant]] [[State Machine Replication (SMR)|state machine replication]] protocol for the partially synchronous [[system model|system model]]. It can express other known protocols (e.g. [[PBFT|PBFT]], [[Tendermint|Tendermint]], [[Casper FFG|Casper FFG]]) in this common framework.
+> A [[Byzantine Faults|byzantine fault-tolerant](Byzantine%20Faults.md) [[State Machine Replication (SMR)|state machine replication](State%20Machine%20Replication%20(SMR).md) protocol for the partially synchronous [[system model|system model](system%20model.md). It can express other known protocols (e.g. [[PBFT.md|PBFT]], [[Tendermint.md|Tendermint]], [[Casper FFG|Casper FFG](Casper%20FFG.md)) in this common framework.
 
 [Source Paper](https://arxiv.org/pdf/1803.05069.pdf)
 
 ## The Scaling Challenge
 
-Original BFT SMR protocol were designed with a typical target system size of $n = 5$ or $n = 7$ for local-area deployments. As such, they don't scale well to high $n$ as required by permissioned and permissionless [[blockchain|blockchains]].
+Original BFT SMR protocol were designed with a typical target system size of $n = 5$ or $n = 7$ for local-area deployments. As such, they don't scale well to high $n$ as required by permissioned and permissionless [[blockchain.md|blockchains]].
 
-HotStuff aims to overcome this by improving the bound of total number of [[authenticator complexity|authenticators]] communicated from $O(n^4)$ to $O(n^2)$
+HotStuff aims to overcome this by improving the bound of total number of [[authenticator complexity|authenticators](authenticator%20complexity.md) communicated from $O(n^4)$ to $O(n^2)$
 
 The first BFT SMR protocol with the following properties:
 
@@ -26,23 +26,23 @@ HotStuff does this by adding another phase to each view, with the assumption tha
 
 Such an impatient leader may propose a lower QC value than what is accepted and this may lead to a liveness violation. In order not to wait the maximum Δ expiration time of a round, HotStuff introduces another round, Pre-commit, before the actual Commit round.
 
-Both [[Casper FFG|Casper]] and [[Tendermint|Tendermint]] wait the full $\Delta$ period instead of incurring the cost of a new round.
+Both [[Casper FFG|Casper](Casper%20FFG.md) and [[Tendermint.md|Tendermint]] wait the full $\Delta$ period instead of incurring the cost of a new round.
 
 ## Cryptographic Primitives
 
-Uses [[digital signatures|thresholded signatures]] with a threshold of $k = 2f+1$
+Uses [[digital signatures|thresholded signatures](digital%20signatures.md) with a threshold of $k = 2f+1$
 
 ## Three-phase Protocol
 
-HotStuff is a view-based protocol. Each view $v$ has a unique leader known to all. Each replicas has a tree of pending commands (as opposed to a list used by more classical [[Byzantine Faults|BFT]] protocols).
+HotStuff is a view-based protocol. Each view $v$ has a unique leader known to all. Each replicas has a tree of pending commands (as opposed to a list used by more classical [[Byzantine Faults|BFT](Byzantine%20Faults.md) protocols).
 
 During the protocol, a monotonically growing branch becomes committed. To become committed, the leader of a particular view proposing the branch must collect votes from a quorum of $(n − f)$ replicas (the QC) in three phases: prepare, pre-commit, and commit.
 
 ## Chained HotStuff
 
-Note that each of the three-phases have very similar structure and that the protocol isn't doing "useful" work except collecting votes from replicas. To optimize this, we can pipeline the phases, similar to what [[Casper FFG|Casper FFG]] does.
+Note that each of the three-phases have very similar structure and that the protocol isn't doing "useful" work except collecting votes from replicas. To optimize this, we can pipeline the phases, similar to what [[Casper FFG|Casper FFG](Casper%20FFG.md) does.
 
-![[content/thoughts/images/chained-hotstuff.png]]
+![[images/chained-hotstuff.png]]
 
 ### Commit Rule
 
@@ -50,7 +50,7 @@ HotStuff uses the concept of chains which maps nicely onto Chained HotStuff.
 
 The decision when a block is considered committed rests purely on a simple graph structure, a three-chain.
 
-![[content/thoughts/images/hotstuff-3-chain.png]]
+![[images/hotstuff-3-chain.png]]
 
 The three-chain commit rule provides the following guarantee.
 

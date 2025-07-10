@@ -14,7 +14,7 @@ In Pascal's _Pensées_ (1623-1662), he outlines an argument that one should alwa
 
 ## Similarities
 
-See: [[Precautionary Principle]]
+See: [[Precautionary Principle](Precautionary%20Principle.md)
 
 If we draw a decision table for the Catastrophe Principle, we see they follow a similar structure.
 

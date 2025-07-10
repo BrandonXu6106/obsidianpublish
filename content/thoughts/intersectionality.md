@@ -5,16 +5,16 @@ tags:
   - seed
 ---
 
-Intersectionality identifies multiple [[interdependence|interdependent]] factors of advantage and disadvantage. It refers to the interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group
+Intersectionality identifies multiple [[interdependence.md|interdependent]] factors of advantage and disadvantage. It refers to the interconnected nature of social categorizations such as race, class, and gender as they apply to a given individual or group
 
 ### On Intersectionality
 
-In [[Design Justice]]
+In [[Design Justice](Design%20Justice.md)
 
 Black women workers at GM were told they had no legal grounds for a discrimination case against their employer because antidiscrimination law only protected single-identity categories.
 
 The concept of intersectionality provided the grounds for a long, slow paradigm shift that is still unfolding in the social sciences, in legal scholarship, and in other domains of research and practice.
 
-While there is rapidly growing interest in algorithmic bias audits, especially in the fairness, accountability, and transparency in machine learning community, most are single-axis: they look for a [[bias|biased]] distribution of error rates only according to a single variable, such as race or gender.
+While there is rapidly growing interest in algorithmic bias audits, especially in the fairness, accountability, and transparency in machine learning community, most are single-axis: they look for a [[bias.md|biased]] distribution of error rates only according to a single variable, such as race or gender.
 
 One question about [intersectional approaches] is how many identity variables to include because each adds complexity (and, in many situations, time and cost) to audits.

@@ -15,16 +15,16 @@ Storing plain versions of some data is often risky (e.g. passwords.) Can we crea
 
 [^1]: Up to the limits of probability (e.g. more unlikely than picking the same grain at random as someone else on the beach)
 
-The main primitive for this are [[hash function|hash functions]] which can enable [[content addressed storage|content-addressed storage]] (e.g. [[CID|CID]]s)
+The main primitive for this are [[hash function|hash functions](hash%20function.md) which can enable [[content addressed storage|content-addressed storage](content%20addressed%20storage.md) (e.g. [[CID.md|CID]]s)
 
 ### Secure Communication
 
-[[encryption|Encryption]] can be used to make sure that only intended recipients can receive the message or data you want.
+[[encryption.md|Encryption]] can be used to make sure that only intended recipients can receive the message or data you want.
 
 Mostly accomplished using
 
-1. [[Symmetric Key Cryptography|Symmetric Key Cryptography]] (e.g. [[RSA|RSA]] or [[Elliptic-curve Cryptography (ECC)|ECC]])
-2. [[Asymmetric Key Cryptography|Asymmetric Key Cryptography]]
+1. [[Symmetric Key Cryptography|Symmetric Key Cryptography](Symmetric%20Key%20Cryptography.md) (e.g. [[RSA.md|RSA]] or [[Elliptic-curve Cryptography (ECC)|ECC](Elliptic-curve%20Cryptography%20(ECC).md))
+2. [[Asymmetric Key Cryptography|Asymmetric Key Cryptography](Asymmetric%20Key%20Cryptography.md)
 
 ### Message integrity and Authentication
 
@@ -34,9 +34,9 @@ Mostly accomplished using
 
 There are multiple ways of accomplishing this:
 
-1. [[hash function|Hash functions]]
-2. [[MAC|MACs]]
-3. [[digital signatures|Digital Signatures]]
+1. [[hash function|Hash functions](hash%20function.md)
+2. [[MAC.md|MACs]]
+3. [[digital signatures|Digital Signatures](digital%20signatures.md)
 
 ### Guarantees
 
@@ -49,5 +49,5 @@ There are multiple ways of accomplishing this:
 
 ### Efficiency
 
-MACs can be computed three orders of magnitude faster than digital signatures. For example, a 200MHz Pentium Pro takes 43ms to generate a 1024-bit modulus [[RSA|RSA]] signature of an MD5 digest and 0.6ms to verify the signature, whereas it takes only 10.3$\mu s$ to compute the MAC of a 64-byte message on the same hardware in our implementation. There are other publickey cryptosystems that generate signatures faster, e.g.,
-[[Elliptic-curve Cryptography (ECC)|elliptic curve]] public-key cryptosystems, but signature verification is slower.
+MACs can be computed three orders of magnitude faster than digital signatures. For example, a 200MHz Pentium Pro takes 43ms to generate a 1024-bit modulus [[RSA.md|RSA]] signature of an MD5 digest and 0.6ms to verify the signature, whereas it takes only 10.3$\mu s$ to compute the MAC of a 64-byte message on the same hardware in our implementation. There are other publickey cryptosystems that generate signatures faster, e.g.,
+[[Elliptic-curve Cryptography (ECC)|elliptic curve](Elliptic-curve%20Cryptography%20(ECC).md) public-key cryptosystems, but signature verification is slower.

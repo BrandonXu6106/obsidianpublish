@@ -6,7 +6,7 @@ tags:
   - book
 ---
 
-On [[games]], [[friendship]], grief, and the creative process.
+On [[games.md]], [[friendship.md]], grief, and the creative process.
 
 _by Gabrielle Zevin_
 

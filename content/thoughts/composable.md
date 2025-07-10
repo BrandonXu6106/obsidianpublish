@@ -13,7 +13,7 @@ The ability to freely combine smaller programmed artifacts into larger ones, to 
 
 There exist building blocks which span a range of useful combinations. Composability is, in a sense, key to the notion of "programmability" and every programmable system will have some level of composability
 
-See also: [[emergent behaviour]]
+See also: [[emergent behaviour](emergent%20behaviour.md)
 
 ## Mediums versus Tools
 

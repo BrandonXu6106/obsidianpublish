@@ -9,13 +9,13 @@ tags:
 
 ## The Garden
 
-A garden is a metaphor for a lot of things: growth, persistence, and the constant battle against [[entropy|entropy]].
+A garden is a metaphor for a lot of things: growth, persistence, and the constant battle against [[entropy.md|entropy]].
 
-The Garden is an old metaphor associated with [[hypertext]].
+The Garden is an old metaphor associated with [[hypertext.md]].
 
 > The Garden of Forking Paths from the mid-20th century. The concept of the Wiki Gardener from the 1990s. Mark Bernstein’s 1998 essay Hypertext Gardens.
 
-The Garden is the web as [[search#Internet topology as shaped by search engines|topology]]. Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships.
+The Garden is the web as [[search.md#Internet topology as shaped by search engines|topology]]. Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships.
 
 There is no _right_ or canonical way to view it
 
@@ -23,9 +23,9 @@ A hard part of this is The Navigation Problem: how do we give web users just eno
 
 ## The Stream
 
-In the stream metaphor you don’t experience the Stream by [[walking|walking]] around it and looking at it, or following it to its end. You jump in and let it flow past. You feel the force of it hit you as things float by.
+In the stream metaphor you don’t experience the Stream by [[walking.md|walking]] around it and looking at it, or following it to its end. You jump in and let it flow past. You feel the force of it hit you as things float by.
 
-In other words, the Stream replaces topology with serialization. Rather than imagine a timeless world of connection and multiple paths, the Stream presents us with a single, [[time|time]] ordered path with our experience (and only our experience) at the center.
+In other words, the Stream replaces topology with serialization. Rather than imagine a timeless world of connection and multiple paths, the Stream presents us with a single, [[time.md|time]] ordered path with our experience (and only our experience) at the center.
 
 We live in a shallow web. Not of actual trails, but of sign posts.
 

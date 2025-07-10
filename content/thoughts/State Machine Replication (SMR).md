@@ -8,9 +8,9 @@ aliases:
   - state machine replication
 ---
 
-A subset of the algorithmic [[consensus|consensus]] problem about agreeing on the same state
+A subset of the algorithmic [[consensus.md|consensus]] problem about agreeing on the same state
 
-1. [[consistency|Consistency]]: all notes agree on the same history
-2. [[liveness|Liveness]]: every transaction submitted eventually added to all node's histories
+1. [[consistency.md|Consistency]]: all notes agree on the same history
+2. [[liveness.md|Liveness]]: every transaction submitted eventually added to all node's histories
 
-SMR can be reduced to [[Byzantine Broadcast|Byzantine Broadcast]]
+SMR can be reduced to [[Byzantine Broadcast|Byzantine Broadcast](Byzantine%20Broadcast.md)

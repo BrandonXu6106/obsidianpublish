@@ -18,4 +18,4 @@ Interest graph: online representations of interests
 - Some social media construct social graphs from interests (e.g. TikTok)
 - Some social media construct interest graphs from social graphs (e.g. traditional networks like Facebook)
 
-See also: [[data changes the application]]
+See also: [[data changes the application](data%20changes%20the%20application.md)

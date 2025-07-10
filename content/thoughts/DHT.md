@@ -20,10 +20,10 @@ Joining a DHT requires knowledge about at least one member of the DHT (the boots
 
 Implementations include
 
-- [[Kademlia DHT|Kademlia DHT]]
+- [[Kademlia DHT|Kademlia DHT](Kademlia%20DHT.md)
 - Chord DHT
-- [[Sloppy Hashing DHT]]
-- [[Theseus DHT|Theseus DHT]]
+- [[Sloppy Hashing DHT](Sloppy%20Hashing%20DHT.md)
+- [[Theseus DHT|Theseus DHT](Theseus%20DHT.md)
 
 ### Applications to Torrent Software
 
@@ -31,10 +31,10 @@ Old way was to use a tracker, you announce which file you are going to download 
 
 DHT proves to be a more reliable way of replicating this behaviour.
 
-See also: [[BitTorrent]]
+See also: [[BitTorrent.md]]
 
 ## Problems
 
 - DHTs can be crawled and mined for profit
-  - Perform a [[Sybil Attack|Sybil attack]] by simulating 1000+ clients and just wait for values to come in, cheaply capturing 90%-99% of the DHT
+  - Perform a [[Sybil Attack|Sybil attack](Sybil%20Attack.md) by simulating 1000+ clients and just wait for values to come in, cheaply capturing 90%-99% of the DHT
 - How do we make DHTs work where member count is low?

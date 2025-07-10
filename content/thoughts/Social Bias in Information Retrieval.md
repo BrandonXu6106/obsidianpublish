@@ -11,7 +11,7 @@ Source: Addressing Social Bias in Information Retrieval in _In Experimental IR M
 
 "Many algorithmic processes are opaque and that the reasons for this may vary. For instance, it is more often than not difficult to interpret results from models induced by new machine learning techniques such as deep learning" (especially why we need to work on [explainability](explainability.md))
 
-As a counter argument, there are social and economic challenges for achieving algorithmic [transparency](transparency.md), such as the need for developers/owners of such processes to protect trade secrets, or even the [[privacy|privacy]] concerns of users.
+As a counter argument, there are social and economic challenges for achieving algorithmic [transparency](transparency.md), such as the need for developers/owners of such processes to protect trade secrets, or even the [[privacy.md|privacy]] concerns of users.
 
 Friedman and Nissenbaum's definition of [bias](bias.md):
 

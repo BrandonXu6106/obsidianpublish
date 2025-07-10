@@ -5,9 +5,9 @@ tags:
   - sapling
 ---
 
-The suffering of a few is okay as long as the greater good benefits? A [[Utilitarianism|utilitarian]] way of doing good.
+The suffering of a few is okay as long as the greater good benefits? A [[Utilitarianism.md|utilitarian]] way of doing good.
 
-Related: [The ones who walk away from Omelas](The%20ones%20who%20walk%20away%20from%20Omelas.md), [[quantization|quantization]]
+Related: [The ones who walk away from Omelas](The%20ones%20who%20walk%20away%20from%20Omelas.md), [[quantization.md|quantization]]
 
 ## What is EA?
 
@@ -38,12 +38,12 @@ Ineffective altruism eschews metrics, because “What does doing good look like?
 
 What is the best we can do as a collective and community rather than at the individual level?
 
-I'm curious if there _has_ been attempts to [[quantization|quantize]] efforts of [[Mutual Aid|mutual aid]] and solidarity? If so how what does that computation come out to? Thinking about it, don't most quantizations have huge error bars? How do EA folks choose between prioritizing something that is almost certainly good vs something that could have a very small change of huge upside? Seems to me they are basing it off of expected value of the distribution which.... isn't reasonable in most cases I feel (especially in cases when the long tail for these distributions can explode as $t \rightarrow \infty$) (see: [[probability#Interpreting small probabilities|interpreting small probabilities]])
+I'm curious if there _has_ been attempts to [[quantization.md|quantize]] efforts of [[Mutual Aid|mutual aid](Mutual%20Aid.md) and solidarity? If so how what does that computation come out to? Thinking about it, don't most quantizations have huge error bars? How do EA folks choose between prioritizing something that is almost certainly good vs something that could have a very small change of huge upside? Seems to me they are basing it off of expected value of the distribution which.... isn't reasonable in most cases I feel (especially in cases when the long tail for these distributions can explode as $t \rightarrow \infty$) (see: [[probability.md#Interpreting small probabilities|interpreting small probabilities]])
 
 Potentials include capping tail end of distribution?
 
-> Seventh-generation decision making, for example, is an indigenous principle that is enshrined in the Constitution of the Iroquois Nation. It mandates Iroquois leaders to consider the effects of their actions over seven generations, encompassing hundreds of years. Seven generations is a long time, but it is also a finite amount of time. (see: [[traditional knowledge|traditional knowledge]])
+> Seventh-generation decision making, for example, is an indigenous principle that is enshrined in the Constitution of the Iroquois Nation. It mandates Iroquois leaders to consider the effects of their actions over seven generations, encompassing hundreds of years. Seven generations is a long time, but it is also a finite amount of time. (see: [[traditional knowledge|traditional knowledge](traditional%20knowledge.md))
 
-Karl Popper had a really good way of putting this, which now sides him very solidly on the side which would choose to save the child in [[The ones who walk away from Omelas|The Ones Who Walk Away From Omelas]]
+Karl Popper had a really good way of putting this, which now sides him very solidly on the side which would choose to save the child in [[The ones who walk away from Omelas|The Ones Who Walk Away From Omelas](The%20ones%20who%20walk%20away%20from%20Omelas.md)
 
 > Similarly we must not argue that the misery of one generation may be considered as a mere means to the end of securing the lasting happiness of some later generation or generations; and this argument is improved neither by a high degree of promised happiness nor by a large number of generations profiting by it. All generations are transient. All have an equal right to be considered, but our immediate duties are undoubtedly to the present generation and to the next.

@@ -16,4 +16,4 @@ Writers often need to initially ideate or experiment with new ideas in private, 
 
 Support diverge-converge workflows!
 
-See also: [[collaborative software#A spectrum]]
+See also: [[collaborative software#A spectrum](collaborative%20software.md)

@@ -9,4 +9,4 @@ tags:
 
 Often times, [emergent behaviour](emergent%20behaviour.md) is a form of autopoiesis. This concept mostly refers to biological behaviour, but we see analogs in artificially created things like quines for examples
 
-![Biologic as self-specifying](biological%20autopoiesis.png)
+![Biologic as self-specifying](images/biological%20autopoiesis.png)

@@ -13,7 +13,7 @@ Mainly for messaging + voice + video but theoretically can handle any type of _r
 
 A decentralized conversation store; when you send a message in Matrix, it is replicated over all the servers whose users are participating in a given conversation. (helps to tackle data availability)
 
-Model of event log delivery and consensus feels very similar to [[Raft Consensus Algorithm|Raft]]
+Model of event log delivery and consensus feels very similar to [[Raft Consensus Algorithm|Raft](Raft%20Consensus%20Algorithm.md)
 
 Uses HTTPS + JSON by default but also supports other transports like WebSockets or Matrix via CoAP + Noise
 

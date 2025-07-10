@@ -8,7 +8,7 @@ tags:
 
 Existing large owners of data won't innovate because they have monopoly over data, new innovators cant enter because they lack data
 
-See: [[towards-data-neutrality|data neutrality]]
+See: [[../posts/branddesign/fonts/towards-data-neutrality.md|data neutrality]]
 
 ## Social
 

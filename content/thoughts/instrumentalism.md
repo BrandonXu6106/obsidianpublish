@@ -9,12 +9,12 @@ tags:
 
 Reminiscent of the [move fast and break things](move%20fast%20and%20break%20things.md) Silicon Valley ethic.
 
-"This tendency to instrumentalize, or to treat something as a means or resource for achieving some end goal, shows up in the personal lives of many technologists. Many types of “fun” are made [[telic action|telic]])."
+"This tendency to instrumentalize, or to treat something as a means or resource for achieving some end goal, shows up in the personal lives of many technologists. Many types of “fun” are made [[telic action|telic](telic%20action.md))."
 
 > _“All that was good becomes data. All that was beautiful is now efficient.”_ (_Jacques Ellul, in The Technological Society_)
 
 An inherent [quantization](quantization.md) and optimization of everything. Prevalent in [recommendation systems](recommendation%20system.md) where poor proxies are often the target of optimization that ignores the humans under them (e.g. engagement metrics rather than satisfaction and wellbeing). [Goodhart's Law](Goodhart's%20Law.md)
 
-"Creation of spaces of local abundance (as opposed to, say, a space like YCombinator, where the space is meant to help you reach a specific external outcome under time-bounded pressure) where technologists can [play](content/thoughts/play.md) with ideas and think freely, similar to parks and urban forests in a bustling city"
+"Creation of spaces of local abundance (as opposed to, say, a space like YCombinator, where the space is meant to help you reach a specific external outcome under time-bounded pressure) where technologists can [play](play.md) with ideas and think freely, similar to parks and urban forests in a bustling city"
 
-> Decide carefully what to pay [[attention]] to out of an infinity of possible ends to apply your time and resources, and what worlds you wish to bring about. This is a call to build a beautiful and deeply good future.
+> Decide carefully what to pay [[attention.md]] to out of an infinity of possible ends to apply your time and resources, and what worlds you wish to bring about. This is a call to build a beautiful and deeply good future.

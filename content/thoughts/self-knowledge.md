@@ -12,7 +12,7 @@ tags:
 Self-illumination/reflexivity
 
 - Every conscious experience is directly revealed to itself.
-- "In seeing blue, you experience [[seeing|seeing]]"
+- "In seeing blue, you experience [[seeing.md|seeing]]"
 - Problems: Reflexivity as a concept is weird though
   - "A knife cannot cut itself, an acrobat can’t stand on their own shoulders."
   - "How can one and the same awareness be both of an object/content and of itself?"
@@ -25,7 +25,7 @@ Other-illumination/reflectivity
 - "I see blue, I'm aware that I see blue"
 - Problems: how could two states that are nonconscious in themselves come together and make one of them conscious?
   - Curious how this applies to [emergent behaviour](emergent%20behaviour.md)
-  - By having a higher layer that enables the reference of a lower layer, this is essentially a two-way recursive relation that opens the door to much more [[composable|composable]] and perhaps complex behaviour
+  - By having a higher layer that enables the reference of a lower layer, this is essentially a two-way recursive relation that opens the door to much more [[composable.md|composable]] and perhaps complex behaviour
 
 Nagarjana's Argument
 

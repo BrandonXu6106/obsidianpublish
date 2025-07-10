@@ -48,7 +48,7 @@ Each AS is
 
 ## Routing
 
-Both IGP and EGP run at the [[Application Layer|application layer]]
+Both IGP and EGP run at the [[Application Layer|application layer](Application%20Layer.md)
 
 ### Internal Gateway Protocols (IGP)
 

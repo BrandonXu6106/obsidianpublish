@@ -7,7 +7,7 @@ tags:
 
 > **Web3 is the open-source ethic extended beyond code as static artifacts but rather as live organisms.**
 
-Crypto systems are interesting, they are "decentralized, jurisdictionless entities that exist entirely in cyberspace, maintained by a combination of [[cryptography|cryptography]], economics and [social consensus](social%20contracts.md)" However, blockchain as a technology only _enables_ [decentralization](decentralization.md), it doesn't guarantee it.
+Crypto systems are interesting, they are "decentralized, jurisdictionless entities that exist entirely in cyberspace, maintained by a combination of [[cryptography.md|cryptography]], economics and [social consensus](social%20contracts.md)" However, blockchain as a technology only _enables_ [decentralization](decentralization.md), it doesn't guarantee it.
 
 > “The point isn’t ‘web3’, it isn’t ‘decentralization’ for the word’s sake. The point is developing tools that allow us to leverage computers to collaborate more effectively. It’s about accountability and choosing for ourselves what to trust. It’s about withholding trust from strangers on the internet but holding out the belief that we can build a better way.” ([Dan Finlay](https://medium.com/@danfinlay/what-moxie-missed-on-web3-wallets-8dc572e7f39b))
 
@@ -47,7 +47,7 @@ Internet as we know it today, companies that provide services in exchange for yo
 
 General migration from open services to more sophisticated, centralized services
 
-Effects include frequent incursions on personal [[privacy|privacy]], the spread of misinformation, and the ‘attention economy,’ all of which have fundamentally changed how we relate to one another, and destabilized civic engagement and labor across industries. [Source](https://gitcoin.co/blog/seeking-a-new-kind-of-public-good/)
+Effects include frequent incursions on personal [[privacy.md|privacy]], the spread of misinformation, and the ‘attention economy,’ all of which have fundamentally changed how we relate to one another, and destabilized civic engagement and labor across industries. [Source](https://gitcoin.co/blog/seeking-a-new-kind-of-public-good/)
 
 ### Web3, Token Economy [2020s to present]
 
@@ -72,7 +72,7 @@ Verifiability is the atom of web3. It is what the hyperlink was for Web1.
 
 ## Gitcoin
 
-How do we incentivize [open source software](paid-open-source.md)? [Gitcoin](https://gitcoin.co/) approaches this through decentralizing [funding](funding.md) (away from corporations and toward individuals).
+How do we incentivize [open source software](../posts/software/paid-open-source.md)? [Gitcoin](https://gitcoin.co/) approaches this through decentralizing [funding](funding.md) (away from corporations and toward individuals).
 
 Not just providing funding, 4 main value adds
 
@@ -81,4 +81,4 @@ Not just providing funding, 4 main value adds
 3. Connect -> creating a community of builders and support network
 4. Fund -> making it easy for developers to support each other
 
-See also: [[decentralized marketplace|marketplaces]]
+See also: [[decentralized marketplace|marketplaces](decentralized%20marketplace.md)

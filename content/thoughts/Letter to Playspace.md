@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-Dear [[Playspace|Playspace]] Community,
+Dear [[Playspace.md|Playspace]] Community,
 
 I’m writing to you all to announce that this week’s session will be a little different than usual as it will be Playspace’s final session. We hope you come spend one last Sunday with us to help bring Playspace to a close together and celebrate what has been at the core of the space: you all, all the people that showed up week over week and shared your worlds with us :’)
 

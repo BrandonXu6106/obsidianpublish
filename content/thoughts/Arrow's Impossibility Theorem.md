@@ -5,13 +5,13 @@ tags:
   - seed
 ---
 
-Related: [[Social Contract Theory#Social Choice|social choice]]
+Related: [[Social Contract Theory#Social Choice|social choice](Social%20Contract%20Theory.md)
 
 Assume there is more than one individual, and there are at least three distinct social states. Then there is no SWF that meets the following four conditions:
 
 1. Non-dictatorial: no individual is decisive
-2. Ordering: must produce social preference orderings which are complete, asymmetric and transitive (see also: [[utility#Interval Scales]])
-3. [[Pareto optimality|Pareto condition]]: If every voter prefers alternative X over alternative Y, then the group prefers X over Y.
+2. Ordering: must produce social preference orderings which are complete, asymmetric and transitive (see also: [[utility.md#Interval Scales]])
+3. [[Pareto optimality|Pareto condition](Pareto%20optimality.md): If every voter prefers alternative X over alternative Y, then the group prefers X over Y.
 4. Independence of Irrelevant Alternatives (IIA): If every voter's preference between X and Y remains unchanged, then the group's preference between X and Y will also remain unchanged
 
 Unstated: Arrow also requires the unrestricted domain assumption (U)
@@ -23,7 +23,7 @@ How can we get around this?
 
 ## Similarities to Group Membership
 
-Rough thoughts on how we might prove decentralized [[access control]] to be impossible.
+Rough thoughts on how we might prove decentralized [[access control](access%20control.md) to be impossible.
 
 Suppose we encode access in terms of some function $A_{i,j}$ where $A_{i,j}$ is true if subject $i$ considers $j$ to be in the group and false otherwise.
 

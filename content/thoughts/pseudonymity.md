@@ -13,7 +13,7 @@ An identity-based [social graph](social%20graphs.md) is fundamentally limited. Y
 
 By attaching our real-world identities to everything we do, these platforms feel suffocating and unsafe. Is there any way we can construct fully [virtual worlds](virtual%20worlds.md) not tethered to reality? I'm not sure we can.
 
-"In real life and on Facebook, you’re always signaling information about yourself which may not have anything to do with the context you’re in": [context-collapse](context-collapse.md)
+"In real life and on Facebook, you’re always signaling information about yourself which may not have anything to do with the context you’re in": [context-collapse](../posts/aigc/context-collapse.md)
 
 In this sense, Facebook’s social graph is a [crutch](crutch%20and%20shoe%20metaphor.md) that imitates real-world relationships. Platforms which 1) require or encourage using your real identity or 2) rely on existing social graphs (contacts, classmates, mutuals) merely imitate “being there.” By mirroring the real world, platforms like Facebook are ultimately limited by the very physical connections they seek to transcend.
 
@@ -31,4 +31,4 @@ We can then use on-chain transactions to hypothesize and analyze possible affiil
 
 Can we use these web3 packed pseudonymous identities as a tool for social liberation?
 
-See also: [[Zooko's Triangle]]
+See also: [[Zooko's Triangle](Zooko's%20Triangle.md)

@@ -13,7 +13,7 @@ Resistance against [digital permanence](digital%20permanence.md)
 
 Right for individuals to "determine the development of their life in an autonomous way, without being perpetually or periodically stigmatized as a consequence of a specific action performed in the past"
 
-"The public interest, which sometimes stands against the right to [[deletion|deletion]] and also the right to be forgotten, is the right of the public to know."
+"The public interest, which sometimes stands against the right to [[deletion.md|deletion]] and also the right to be forgotten, is the right of the public to know."
 
 "By changing what we were, you change what we are and what we are going to be."
 

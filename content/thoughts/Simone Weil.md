@@ -8,17 +8,17 @@ French philosopher and activist who took a very pragmatic and grounded yet radic
 
 ## Attention and epistemology
 
-The way which you direct your [[attention|attention]] (i.e. your way of attending to the world) drastically influences _how_ you experience the world. Weil went a step further and believed that your attention dictates which experiences are *even possible* to experience.
+The way which you direct your [[attention.md|attention]] (i.e. your way of attending to the world) drastically influences _how_ you experience the world. Weil went a step further and believed that your attention dictates which experiences are *even possible* to experience.
 
 Specifically, Weil called for a sort of 'negative effort' toward attention: one which removes the **I** from the experience and is **receptive** to all the possible experiences of the world.
 
 > "Our thought should be in relation to all particular and already formulated thoughts, as a man on a mountain, who, as he looks forward, sees also below him, without actually looking at them, a great many forests and plains. Above all our thought should be empty, waiting, not seeking anything, but ready to receive in its naked truth the object that is to penetrate it."
 
-She held an intersubjective [[epistemology|epistemology]], believing that knowing the truth requires not extending one’s own limited perspective, but suspending or abandoning it such that reality—including the reality of the existence of others—could appear on its own terms. 
+She held an intersubjective [[epistemology.md|epistemology]], believing that knowing the truth requires not extending one’s own limited perspective, but suspending or abandoning it such that reality—including the reality of the existence of others—could appear on its own terms. 
 
-It is an attitude that is more detached from expectations, more open, more receptive but at the same time, it doesn't ignore the knowledge that you’ve already gained in a particular area, it just doesn’t makes sure you’re not chained to that knowledge unable to move. In a way, it's a method of intellectual playfulness that avoids [[Jestermaxxing#Playfulness vs Epistemic Traps|epistemic traps]].
+It is an attitude that is more detached from expectations, more open, more receptive but at the same time, it doesn't ignore the knowledge that you’ve already gained in a particular area, it just doesn’t makes sure you’re not chained to that knowledge unable to move. In a way, it's a method of intellectual playfulness that avoids [[Jestermaxxing.md#Playfulness vs Epistemic Traps|epistemic traps]].
 
-![[Jestermaxxing#^81b0a0|Jestermaxxing]]
+![[Jestermaxxing.md#^81b0a0|Jestermaxxing]]
 
 To Simone Weil, having this form of neutral attention allows us to have much more lucidity in our thought, something that she saw as one of our most important responsibilities. 
 
@@ -36,7 +36,7 @@ The hardest job of teaching, Simone Weil thought, was to shake people out of thi
 
 The will is mostly good at performing physical stuff. It’s a great tool to use if your goal in life is that want to increase your max deadlift weight. It’s a great tool if you want to sit in an ice bath or any uncomfortable situation and endure things for as long as you can. If you’re a writer... the will is great at getting you to sit down and put pen to paper and to start doing the work.
 
-But there are certain things that strength of the will can't get you closer to. For example, if you’re a writer…you can’t will yourself to something like creativity. You can force yourself to move the pencil up and down on the piece of paper but if every word you write is completely uninspired, writing another 2000 words isn't going to change it. See also: [[self-effacing ends|self-effacing ends]]
+But there are certain things that strength of the will can't get you closer to. For example, if you’re a writer…you can’t will yourself to something like creativity. You can force yourself to move the pencil up and down on the piece of paper but if every word you write is completely uninspired, writing another 2000 words isn't going to change it. See also: [[self-effacing ends|self-effacing ends](self-effacing%20ends.md)
 
 Simone Weil thought by the end of her life that instead of cultivating pure willpower, cultivating attention was usually a much better way of transforming yourself.
 

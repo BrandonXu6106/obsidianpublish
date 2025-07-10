@@ -8,7 +8,7 @@ tags:
 
 Long short term memory (LSTM) models are variant of RNNs. They are modified to try to remember short-term $z$ and long-term dependencies $c$. The purpose of memory cells is to remember things for a long time.
 
-LSTMs were the practical analogy of [[convolutional neural networks]] for RNNs
+LSTMs were the practical analogy of [[convolutional neural networks](convolutional%20neural%20networks.md) for RNNs
 
 - Forget gate $f_t$
   - If element ‘j’ of $f_t$ is 0, then we clear element $c_{tj}$ from the memory (set it to 0).

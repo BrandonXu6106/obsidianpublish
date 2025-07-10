@@ -12,12 +12,12 @@ _An account of the logic behind the failure of some of the great utopian social 
 
 Lessons:
 
-1. Take small steps: In an experimental approach to social change, presume that we cannot know the consequences of our interventions in advance. Given this postulate of ignorance, prefer wherever possible to take a small step back, observe, and then plan the next small move (see also: [[Collingridge dilemma]])
-2. Favour reversibility: prefer interventions that can easily be undone if they turn out to be mistakes. Irreversible interventions have irreversible consequences. Interventions into ecosystems require particular care in this respect, given our great ignorance about how they interact. Aldo Leopold captured the spirit of caution required: "The first rule of intelligent tinkering is to keep all the parts" (see also: [[Chesterton's Fence]])
-3. Plan on surprises: in agricultural schemes, this may mean choosing and preparing land so that it can grow any of several crops. In planning [[housing|housing]], it would mean "designing in" flexibility for accommodating changes in family structures or living styles.
+1. Take small steps: In an experimental approach to social change, presume that we cannot know the consequences of our interventions in advance. Given this postulate of ignorance, prefer wherever possible to take a small step back, observe, and then plan the next small move (see also: [[Collingridge dilemma](Collingridge%20dilemma.md))
+2. Favour reversibility: prefer interventions that can easily be undone if they turn out to be mistakes. Irreversible interventions have irreversible consequences. Interventions into ecosystems require particular care in this respect, given our great ignorance about how they interact. Aldo Leopold captured the spirit of caution required: "The first rule of intelligent tinkering is to keep all the parts" (see also: [[Chesterton's Fence](Chesterton's%20Fence.md))
+3. Plan on surprises: in agricultural schemes, this may mean choosing and preparing land so that it can grow any of several crops. In planning [[housing.md|housing]], it would mean "designing in" flexibility for accommodating changes in family structures or living styles.
 4. Plan on human inventiveness: always plan under the assumption that those who become involved in the project later will have or will develop the experience and insight to improve on the design
 
-These, unsurprisingly, have heavy overlap with the design of [[software principles|software]]
+These, unsurprisingly, have heavy overlap with the design of [[software principles|software](software%20principles.md)
 
 ## Simplification
 
@@ -32,7 +32,7 @@ These, unsurprisingly, have heavy overlap with the design of [[software principl
   - "At the limit, there would be at least as many legal codes as there were communities"
 - Cities
   - "For Jacobs, the city as a social organism is a living structure that is constantly changing and springing surprises. Its connections are so complex and dimly understood that planning always risks unknowingly cutting into its living tissue, thereby damaging or killing vital social processes."
-  - See also: [[Chesterton's Fence]]
+  - See also: [[Chesterton's Fence](Chesterton's%20Fence.md)
 - Why schemes have failed, a tldr;
   - "I would say that the progenitors of such plans regarded themselves as far smarter and farseeing than they really were and, at the same time, regarded their subjects as far more stupid and incompetent than _they_ really were."
 
@@ -77,7 +77,7 @@ These, unsurprisingly, have heavy overlap with the design of [[software principl
 
 ## Metis and Local Knowledge
 
-- See also: [[traditional knowledge]]
+- See also: [[traditional knowledge](traditional%20knowledge.md)
 - "One powerful indication that [a skill requires] metis is that they are exceptionally difficult to teach apart from engaging in the activity itself. One might imagine trying to write down explicit instructions on how to ride a bicycle, but one can scarcely imagine that such instructions would enable a novice to ride a bicycle on the first try"
 - "We might reasonably think of situated, local knowledge as being _partisan_ knowledge as opposed to generic knowledge... An insurer of commercial shipping for a large, highly capitalized maritime firm can afford to rely on probability distributions for accidents. But for a sailor or captain hoping for a safe voyage, it is the outcome of the single event, a single trip, that matters. Metis is the ability and experience necessary to influence the outcome -- to improve the odds -- in a particular instance."
 - "The big mistake of the rationalist -- though it is not inherent in the method -- is to assume that 'tradition' or what is better called 'practical knowledge' is rigid fixed and unchanging -- in fact it is 'preeminently fluid'. Tradition, in part because of its local variation, is pliable and dynamic. No traditional way of behaviour. no traditional skill ever remains fixed. Its history is one of continual change."

@@ -5,7 +5,7 @@ tags:
   - sapling
 ---
 
-Full post on play: [Play to Win: A Post-Work Society](content/posts/software/play.md)
+Full post on play: [Play to Win: A Post-Work Society](../posts/software/play.md)
 
 > Play: the intentional activity of doing the thing you would want to do.
 
@@ -47,11 +47,11 @@ A lot of concepts similar to [The Grasshopper, Games, Life and Utopia](The%20Gra
 - Animal cooperation often has nothing to do with survival or reproduction, but is a form of pleasure in itself
 - "Man plays only when he is in the full sense of the word a man" (Friedrich Schiller, 1795)
 - But what would happen if we agreed to treat play not as some peculiar anomaly, but as our starting point, a principle already present not just in lobsters and all living creatures, but also on every level of [emergent behaviour](emergent%20behaviour.md) of self-organizing systems?
-- Free will of electrons (a [[Panpsychism|panpsychist]]-flavoured approach to play)?
+- Free will of electrons (a [[Panpsychism.md|panpsychist]]-flavoured approach to play)?
   - "Is it meaningful to say an electron “chooses” to jump the way it does? Obviously, there’s no way to prove it. The only evidence we _could_ have (that we can’t predict what it’s going to do), we do have. But it’s hardly decisive."
   - "If an electron is acting freely—if it, as Richard Feynman is supposed to have said, “does anything it likes”—it can only be acting freely as an end in itself. Which would mean that at the very foundations of physical reality, we encounter freedom for its own sake—which also means we encounter the most rudimentary form of play."
   - Interesting implications for [materialism](Materialism.md) -- consciousness does not _arise_ as it is already present? Potential application of [Gall's law](Gall's%20law.md)
-- Philosophy as a form of play :)) see also [[Jestermaxxing|Jestermaxxing]]
+- Philosophy as a form of play :)) see also [[Jestermaxxing.md|Jestermaxxing]]
 
 ## Against Irony
 

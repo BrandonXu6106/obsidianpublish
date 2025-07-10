@@ -43,7 +43,7 @@ Cited as:
   - providing explanations, a common approach in recommender systems that may help solve problems caused by lack of transparency in algorithmic decision-making systems
 - How explanations are "white box descriptions"
   - They provide information about how a system produces a recommendation, particularly focusing on the system’s reasoning and data source
-- Why explanations are "[[black box|black box]] descriptions"
+- Why explanations are "[[black box|black box](black%20box.md) descriptions"
   - providing justifications for a system and its outcomes and explaining the motivations behind the system, but not disclosing how the system works.
   - These explanations fill an intention gap between a user’s needs and interests and the system’s goals, but do not provide any visibility into how the system works
 - Transparency of mechanism vs outcome

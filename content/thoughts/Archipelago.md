@@ -24,7 +24,7 @@ A beautiful dialogue between Glissand and the curator Hans Ulrish Obrist.
 - Creolization is the means by which several distinct cultures or their elements, come into contact in a particular place in the world ([contact languages](contact%20language.md) enable this)
 - Distinction between multiethnic (where many cultures exist but are distinct) and creole (where many cultures mix and form new ones)
 
-[Digital gardening](digital-gardening.md) and [networked thought](networked-thought.md) as tending to free isles? The reader is a free [[agency|agent]]. This freedom produces chance, it produces the unexpected.
+[Digital gardening](../posts/aigc/digital-gardening.md) and [networked thought](../posts/readnotes/networked-thought.md) as tending to free isles? The reader is a free [[agency.md|agent]]. This freedom produces chance, it produces the unexpected.
 
 ## On [utopias](utopia.md)
 

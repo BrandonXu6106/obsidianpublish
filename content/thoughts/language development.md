@@ -17,7 +17,7 @@ tags:
 - Is the development of language in children the result of human innate knowledge (e.g. walking upright) or is it the result of the experiences of children and how they are raised (e.g. learning calculus)?
 - Empiricism: the mind at birth is like a blank slate; all knowledge and reason come from experience
 - Nativism: knowledge cannot come from experience alone. The mind must have some preexisting structure in order to organize and interpret experience
-- Interactionism/[[constructionist|constructivist]]: acknowledges there must be some innate characteristics of the mind that allow it to develop language based on experience but places greater emphasis on accounting for children's language-learning experiences
+- Interactionism/[[constructionist.md|constructivist]]: acknowledges there must be some innate characteristics of the mind that allow it to develop language based on experience but places greater emphasis on accounting for children's language-learning experiences
 
 ### Cognitivism vs Behaviourism
 

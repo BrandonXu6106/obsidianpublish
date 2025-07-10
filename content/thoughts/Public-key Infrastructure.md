@@ -7,7 +7,7 @@ aliases:
   - PKI
 ---
 
-Public key infrastructure (PKI) is a catch-all term for everything used to establish and manage [[Asymmetric Key Cryptography|public key cryptography]]. Related is the [[Key Sharing Problem|key sharing problem]].
+Public key infrastructure (PKI) is a catch-all term for everything used to establish and manage [[Asymmetric Key Cryptography|public key cryptography](Asymmetric%20Key%20Cryptography.md). Related is the [[Key Sharing Problem|key sharing problem](Key%20Sharing%20Problem.md).
 
 For example, it can help ensure that all peers in the network know each other's public keys (i.e. that public keys are... public knowledge)
 
@@ -22,7 +22,7 @@ For example, it can help ensure that all peers in the network know each other's 
 
 Pretty Good Privacy
 
-A sort of web of [[trust|trust]] protocol where you determine whether to trust another party based on who else you know has trusted that party.
+A sort of web of [[trust.md|trust]] protocol where you determine whether to trust another party based on who else you know has trusted that party.
 
 > As time goes on, you will accumulate keys from other people that you may want to designate as trusted introducers. Everyone else will each choose their own trusted introducers. And everyone will gradually accumulate and distribute with their key a collection of certifying signatures from other people, with the expectation that anyone receiving it will trust at least one or two of the signatures. This will cause the emergence of a decentralized fault-tolerant web of confidence for all public keys.
 

@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-Not just about investing in carbon removal or [[carbon credits]] also about investing in the [infrastructure](/thoughts/infrastructure) to make it possible.
+Not just about investing in carbon removal or [[carbon credits](carbon%20credits.md) also about investing in the [infrastructure](/thoughts/infrastructure) to make it possible.
 
 [The Land Ethic](https://www.cooperative-individualism.org/leopold-aldo_land-ethic-1949.pdf) simply enlarges the boundaries of the community to include soils, waters, plants, and animals, or collectively: the land. It changes the role of Homo sapiens from conqueror of the land community to plain member and citizen of it.
 
@@ -19,7 +19,7 @@ The Greenhouse Gas (GHG) Protocol consists of "Scopes", each of which has multip
 
 - Scope 1: Direction Emissions. These are the business activities the company performs that directly create emissions.
 - Scope 2: Indirect Emissions. These consist of the purchased electricity, steam, heating, and cooling for own use.
-- Scope 3: Indirect Emissions. Includes [[types of goods|goods]] and services, goods, fuel, transportation distribution, and business travel.
+- Scope 3: Indirect Emissions. Includes [[types of goods|goods](types%20of%20goods.md) and services, goods, fuel, transportation distribution, and business travel.
 
 ## Neutral Infrastructure
 

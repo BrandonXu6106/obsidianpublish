@@ -17,7 +17,7 @@ Suppose we have a dataset $D$ with parameters $w$. For example,
 
 The likelihood as a probability mass function $P(D|w)$. MLE is choosing a $\hat w$ that maximizes the likelihood ($\hat w \in \arg \max_w \{ P(D|w) \}$)
 
-![[content/thoughts/images/mle-example.png]]
+![[images/mle-example.png]]
 
 In the case above, $\hat w$ is $\frac 2 3$
 
@@ -40,10 +40,10 @@ This is typically easier to compute as it turns a product of probability into a 
 ## Generative vs Discriminative
 
 - Discriminative maximizes $P(y|X,w)$
-  - Least squares, robust [[linear regression]], logistic regression fall under this category
+  - Least squares, robust [[linear regression](linear%20regression.md), logistic regression fall under this category
   - We don't model X so we can use complicated features
 - Generative maximizes $P(y,X | w)$
-  - [[Naive Bayes]]
+  - [[Naive Bayes](Naive%20Bayes.md)
   - Needs to model X
 
 ## Relation between loss functions
@@ -78,6 +78,6 @@ Last part is true because of log rules ($-\log(\frac{1}{x}) = \log(x)$).
 
 ## Overfitting
 
-Conceptually, MLE is saying that we should find the $w$ that makes $D$ have the highest probability given $w$. From [[No Free Lunch Theorem]], we know that there is always a model that performs well for some unlikely $w$. This is overfitting!
+Conceptually, MLE is saying that we should find the $w$ that makes $D$ have the highest probability given $w$. From [[No Free Lunch Theorem](No%20Free%20Lunch%20Theorem.md), we know that there is always a model that performs well for some unlikely $w$. This is overfitting!
 
-We actually want to find the $w$ that has the highest probability given the data $D$. For this, we need [[maximum a posteriori estimation|MAP]]
+We actually want to find the $w$ that has the highest probability given the data $D$. For this, we need [[maximum a posteriori estimation|MAP](maximum%20a%20posteriori%20estimation.md)

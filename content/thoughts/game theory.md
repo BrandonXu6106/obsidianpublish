@@ -20,9 +20,9 @@ Some social practices don't appear rational in normative game theory but can be 
 
 Some distinctions:
 
-1. [[zero sum|Zero-sum]] vs non-zero sum games (e.g. [[positive sum]])
+1. [[zero sum|Zero-sum](zero%20sum.md) vs non-zero sum games (e.g. [[positive sum](positive%20sum.md))
    - In a zero sum game, the payoffs always sum to 0
-2. Simultaneous vs [[sequential games]]
+2. Simultaneous vs [[sequential games](sequential%20games.md)
    - In simultaneous games, all players choose independently at the same time without knowing what other players will do
 3. Perfect information vs imperfect information games
 4. Symmetric vs non-symmetric games
@@ -44,8 +44,8 @@ Some distinctions:
 
 ### Risk, Ignorance, and Uncertainty
 
-- Decisions under ignorance ([[Decisions under ignorance|DUI]]): the agent is ignorant of all probabilities
-- Decisions under risk ([[Decisions under risk|DUR]]): the probability of each outcome is known
+- Decisions under ignorance ([[Decisions under ignorance|DUI](Decisions%20under%20ignorance.md)): the agent is ignorant of all probabilities
+- Decisions under risk ([[Decisions under risk|DUR](Decisions%20under%20risk.md)): the probability of each outcome is known
   - We can maximize expected value to figure out what decision to make
   - Generally need to know utility _and_ risk values
 - Decisions under uncertainty (DUU): includes risk, ignorance, and intermediate cases
@@ -54,7 +54,7 @@ Some distinctions:
 
 Used to represent simultaneous games
 
-Similar to decision tables in [[Decision theory|decision theory]] but the column is the action of the other agent, and cells are the outcomes for each agent represented as a tuple of numbers.
+Similar to decision tables in [[Decision theory|decision theory](Decision%20theory.md) but the column is the action of the other agent, and cells are the outcomes for each agent represented as a tuple of numbers.
 
 e.g. Stag Hunt where A and B are hunters and the numbers represent amount of food acquired
 
@@ -63,7 +63,7 @@ e.g. Stag Hunt where A and B are hunters and the numbers represent amount of foo
 | A   | 25,25 | 0,5 |
 | B   | 5,0   | 5,5 |
 
-(In [[zero sum]] games, it is sufficient to only represent the utility of each of the Rows)
+(In [[zero sum](zero%20sum.md) games, it is sufficient to only represent the utility of each of the Rows)
 
 - The solution is a set of "profile" of choices that are rational for each agent
 - Each cell is a profile which leads to an outcome for both players
@@ -81,7 +81,7 @@ If there is a dominant strategy, it will be part of the solution profile. If the
 
 ### Equilibrium
 
-This rule subsumes the rules for Dominance and Admissibility. Any solution using Dominance or Admissibility is also a [[Nash equilibrium]].
+This rule subsumes the rules for Dominance and Admissibility. Any solution using Dominance or Admissibility is also a [[Nash equilibrium](Nash%20equilibrium.md).
 
 Minimax condition: For two-person zero-sum games in particular, a pair of (pure) strategies is an equilibrium if and only if its payoff is the minimum on its row and the maximum on its column
 
@@ -126,7 +126,7 @@ In the short run, the rules of the game define what the players do. In the long 
 
 Unfortunately, modern day social media means we have less 'close-friends' and thus repeat interactions than ever. With algorithmic news feeds, miscommunication breeds and win-win situations become scarce.
 
-See also: [[Evolutionary game theory]]
+See also: [[Evolutionary game theory](Evolutionary%20game%20theory.md)
 
 ## Applied Game Theory
 
@@ -136,11 +136,11 @@ Games, however, are a great test bed for a lot of game theory given how informat
 
 ## Bartle Taxonomy of Player Types
 
-See also [[evaporative cooling#Geeks MOPs and sociopaths in subculture evolution|Geeks, Mops, and sociopaths]]
+See also [[evaporative cooling#Geeks MOPs and sociopaths in subculture evolution|Geeks, Mops, and sociopaths](evaporative%20cooling.md)
 
 A classification of types of actors in video games based on character theory
 
-![[Bartle taxonomy of player types.png|400]]
+![[Bartle taxonomy of player types.png|400](images/Bartle%20taxonomy%20of%20player%20types.png)
 
 1. Achievers: prefer to optimize metrics or other concrete measurements of 'succeeding' in a game
    1. Single-player appeal: Every game that can be "beaten" are appealing to Achievers.

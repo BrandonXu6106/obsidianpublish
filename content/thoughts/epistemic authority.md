@@ -31,7 +31,7 @@ Knowledge Sources:
 
 ### Shared Epistemic Culture
 
-Throwing something from one epistemic culture that's disjoint from another epistemic culture cannot lead to reconciliation without a shared epistemic culture (see also: [[collaborative-thinking|collaborative thinking]]).
+Throwing something from one epistemic culture that's disjoint from another epistemic culture cannot lead to reconciliation without a shared epistemic culture (see also: [[../posts/aigc/collaborative-thinking.md|collaborative thinking]]).
 
 Dogmatism is when one cannot understand differences in epistemic cultures
 
@@ -57,13 +57,13 @@ Two views on argumentation
 - Epistemic: trading of assertions has a way of leading to a better epistemic position either for both parties or for the conjunction of the two parties ([positive sum](positive%20sum.md))
 - Non-epistemic: trying to pull one side to another ([zero sum](zero%20sum.md))
 
-Not only an issue of [trust](trust.md) but also psychological exhaustion. One of the requirements of any epistemic enterprise is the use of [[attention]]. Information that puts its receivers into an almost constant state of some kind of cognitive dissonance negative impacts their ability to attend and assess the information. See: salience principles of [[democracy]]
+Not only an issue of [trust](trust.md) but also psychological exhaustion. One of the requirements of any epistemic enterprise is the use of [[attention.md]]. Information that puts its receivers into an almost constant state of some kind of cognitive dissonance negative impacts their ability to attend and assess the information. See: salience principles of [[democracy.md]]
 
 One of the main components of collective action is collective belief. We want everyone to do $f$ but that requires everyone to believe that doing $f$ is right
 
 ## Evaluating authority
 
-Achieving [[consensus]] is difficult, especially among a wide net of epistemic agents. In fact, without formal processes like voting or delegation, just peer-based discussion leads to a factorial explosion in time-taken to reach consensus.
+Achieving [[consensus.md]] is difficult, especially among a wide net of epistemic agents. In fact, without formal processes like voting or delegation, just peer-based discussion leads to a factorial explosion in time-taken to reach consensus.
 
 What about a "best bet view": if the weighted average of authorities who meet these tests say something, we should trust that it's true (this depends on epistemic culture and epistemic self)
 
@@ -73,7 +73,7 @@ Increased diversity (of critical thinking skills) leads to a decrease in the pro
 
 Listen to voices not being heard and figuring out how to repackage what they're saying in a way that is significant -- it is a unique skill to be trained as a cross-cultural philosopher. These philosophers can then teach experts to communicate better. Perhaps this is the role of [knowledge distillers](knowledge%20distillation.md) like teachers and those who specialize specifically in pedagogy?
 
-See also: [[testimony]]
+See also: [[testimony.md]]
 
 ## Experts: Which Ones Should You Trust?
 
@@ -95,4 +95,4 @@ Central Question: the Novice/2-Expert Problem
   4.  Evidence of the expert's interests and biases vis-a-vis the question at issue
   5.  Evidence of the expert's past track-records
 
-See also: [[testimony]]
+See also: [[testimony.md]]

@@ -14,12 +14,12 @@ Implementation Stages
    1. A tree that represents a successful parsing of a sequence of tokens
 3. (optional) AST Conversion `ParseTree -> AST`
 4. (optional) Static Checks `AST -> AST`
-   1. See also: [[program analysis]]
+   1. See also: [[program analysis](program%20analysis.md)
 5. Evaluate `AST -> Result`
    1. Run the input or generate code for it
    2. (optional) Dynamic Checks
 
-See: [[compiler]]
+See: [[compiler.md]]
 
 ## Grammar Rules
 
@@ -80,7 +80,7 @@ item   : TEXT ;
 4.  Errors (how many do users make, how severe, how easily can they recover)
 5.  Satisfaction (subjective, but very important for perseverance and adoption)
 
-See also: [[software principles]], [[design goals]], [[programming models]]
+See also: [[software principles](software%20principles.md), [[design goals](design%20goals.md), [[programming models](programming%20models.md)
 
 - Maximize information hiding
   - Make classes, members as private as possible
@@ -95,10 +95,10 @@ See also: [[software principles]], [[design goals]], [[programming models]]
 
 What is the purpose of a language?
 
-- We think in a particular language and it determines how you think (see: [[linguistic relativism|Sapir-Whorf]])
+- We think in a particular language and it determines how you think (see: [[linguistic relativism|Sapir-Whorf](linguistic%20relativism.md))
 - Languages should help us think better
 
-See also: [[notation]]
+See also: [[notation.md]]
 
 ## Evaluation
 

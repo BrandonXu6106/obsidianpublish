@@ -5,15 +5,15 @@ tags:
   - seed
 ---
 
-See also: [[self-knowledge|self-knowledge]], [[the Self|the self]]
+See also: [[self-knowledge.md|self-knowledge]], [[the Self|the self](the%20Self.md)
 
 ## Digital Legibility
 
-Extensions on [[digital-identity|relational identity]]
+Extensions on [[../posts/aigc/digital-identity.md|relational identity]]
 
-See also: [[digital-identity|digital identity]]
+See also: [[../posts/aigc/digital-identity.md|digital identity]]
 
-Identity constantly shifts in real life depending on who you are around. We try to approximate this using multiple accounts online to try to prevent [[context-collapse|context collapse]]
+Identity constantly shifts in real life depending on who you are around. We try to approximate this using multiple accounts online to try to prevent [[../posts/aigc/context-collapse.md|context collapse]]
 
 But identity shouldn't feel like different accounts you hop between different digital platforms. Identity should be the principles of your experience, it should be applicable across contexts
 

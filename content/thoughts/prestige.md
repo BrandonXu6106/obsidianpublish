@@ -7,9 +7,9 @@ tags:
 
 [Source: The Prestige Trap by _Wes De Silvestro_](https://statespace.substack.com/p/the-prestige-trap)
 
-Is this why so many people want to join 'prestigious' places to work like big tech or consulting? [[optionality|To keep doors open]]?
+Is this why so many people want to join 'prestigious' places to work like big tech or consulting? [[optionality.md|To keep doors open]]?
 
-For lack of a better explanation, a big part of it feels like the go-to cop-out for individuals _unsure_ of their larger life direction. Or maybe just lacking general conviction/[[self-confidence|self-confidence]] in themselves.
+For lack of a better explanation, a big part of it feels like the go-to cop-out for individuals _unsure_ of their larger life direction. Or maybe just lacking general conviction/[[self-confidence.md|self-confidence]] in themselves.
 
 Prestige, as Paul Graham defines it, is just fossilized inspiration. It's what was once new and successful and thus _became_ prestigious. "If you do anything well enough, you'll _make_ it prestigious."
 

@@ -28,7 +28,7 @@ Concurrent does _not_ mean simultaneous, it means two things did not know about 
 
 $\prec$ is a causal order, it is consistent with causality, a strict total order on events. Usually called the 'happens-before' relation
 
-See also: [[Order theory]]
+See also: [[Order theory](Order%20theory.md)
 
 ## Time
 
@@ -36,10 +36,10 @@ In Einstein's theory of general and special relativity
 
 Causality means that an effect can not occur from a cause that is not in the back (past) light cone of that event. Similarly, a cause can not have an effect outside its front (future) light cone.
 
-![[content/thoughts/images/lightcone.png]]
+![[images/lightcone.png]]
 
 This causes us to be trapped in _causal islands_. Because data can only travel at the speed of light, we can't keep up with each other all the time.
 
 The normal solution is to work in parts (Spanner does this) where the light cones of the different sites intersect. However, only working in this case called causal subjectiity.
 
-See: [[time]]
+See: [[time.md]]

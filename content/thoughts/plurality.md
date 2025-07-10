@@ -13,16 +13,16 @@ aliases:
 
 Plurality refers to a state in which multiple alternatives co-exist. Classical pluralism in a political science context takes this and applies it to the distribution of power within a political system.
 
-See also: [[Archipelago]]
+See also: [[Archipelago.md]]
 
 ## Globality versus Globalization
 
-From _[[Archipelago]]_
+From _[[Archipelago.md]]_
 
 - Globality does not homogenize culture. It produces a difference from which new things can emerge.
 - Globalization standardizes and dilutes. It reduces communities to a single model, attacking them from the top down, diminishing them.
 
-See also: [[A Certain Tendency Of The Database Community]]
+See also: [[A Certain Tendency Of The Database Community](A%20Certain%20Tendency%20Of%20The%20Database%20Community.md)
 
 ## Atlas instead of map
 
@@ -36,7 +36,7 @@ _[Plural Publics](https://gettingplurality.org/wp-content/uploads/2023/03/Plural
 
 > Instead of focusing on “private” v. “public,” we seek to protect and enable the emergence of a rich diversity of “publics.
 
-See also: [[privacy]]
+See also: [[privacy.md]]
 
 ## Polycultures
 
@@ -44,4 +44,4 @@ In agriculture, monoculture refers to the cultivation of a singular crop in an a
 
 Three Sisters, a gardening style of Native peoples, refers to the interdependent relationship between species of corn, squash, and beans. Although each of the species have different needs and growth patterns, they work alongside each other in a holistic ecosystem of growth
 
-See also: [[Seeing like a State]]
+See also: [[Seeing like a State](Seeing%20like%20a%20State.md)

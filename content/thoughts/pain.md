@@ -44,4 +44,4 @@ The bigger question then is: how does one figure out the right direction to head
 
 You can only start to effectively pathfind when you look up from pushing the cart and start observe what others around you are doing and what people have done in the past. In part, this is why being informed about history is important; avoid what has stopped others' carts in their tracks.
 
-Of course, everyone has a slightly different life path, but the general direction can still serve to be useful. Enough iterations of the [[OODA]] loop will mean that you develop your own [[taste]] about what directions feel right to you.
+Of course, everyone has a slightly different life path, but the general direction can still serve to be useful. Enough iterations of the [[OODA.md]] loop will mean that you develop your own [[taste.md]] about what directions feel right to you.

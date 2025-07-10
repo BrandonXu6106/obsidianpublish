@@ -7,16 +7,16 @@ tags:
 
 _[Practical Byzantine Fault Tolerance](http://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf)_ by Miguel Castro and Barbara Liskov
 
-TLDR; one of the first [[State Machine Replication (SMR)|state machine replication]] algorithms with an asynchronous [[system model|system model]] that can tolerate [[Byzantine Faults|Byzantine faults]] (although it has a weak synchrony assumption where all messages are guaranteed to be delivered after a certain time bound by using timeouts).
+TLDR; one of the first [[State Machine Replication (SMR)|state machine replication](State%20Machine%20Replication%20(SMR).md) algorithms with an asynchronous [[system model|system model](system%20model.md) that can tolerate [[Byzantine Faults|Byzantine faults](Byzantine%20Faults.md) (although it has a weak synchrony assumption where all messages are guaranteed to be delivered after a certain time bound by using timeouts).
 
 It can drive a consensus decision in two rounds of message exchanges.
 
 1. The first phase guarantees proposal uniqueness through the formation of a quorum certificate (QC) consisting of $(n − f)$ votes.
 2. The second phase guarantees that the next leader can convince replicas to vote for a safe proposal.
 
-It offers both [[liveness|liveness]] and [[safety|safety]] under the [[33 percent Impossibility Result|33 percent Impossibility Result]] and only uses [[Asymmetric Key Cryptography|public-key cryptography]] during faults to prevent major speed bottlenecks (typically just uses [[digital signatures#Signed Message Digest|signed message digests]]). This circumvents the [[FLP Result|FLP Result]] because it relies on a synchrony assumption to guarantee liveness, not safety.
+It offers both [[liveness.md|liveness]] and [[safety.md|safety]] under the [[33 percent Impossibility Result|33 percent Impossibility Result](33%20percent%20Impossibility%20Result.md) and only uses [[Asymmetric Key Cryptography|public-key cryptography](Asymmetric%20Key%20Cryptography.md) during faults to prevent major speed bottlenecks (typically just uses [[digital signatures#Signed Message Digest|signed message digests](digital%20signatures.md)). This circumvents the [[FLP Result|FLP Result](FLP%20Result.md) because it relies on a synchrony assumption to guarantee liveness, not safety.
 
-For a faster alternative, consider [[SBFT|SBFT]] (which provides a reduction from $O(n^2)$ to $O(n)$ normal-case communication and a best-case latency of only a single round of communication)
+For a faster alternative, consider [[SBFT.md|SBFT]] (which provides a reduction from $O(n^2)$ to $O(n)$ normal-case communication and a best-case latency of only a single round of communication)
 
 The primary of a view is replica $p$ such that $p = v \mod |\mathcal{R}|$ where $\mathcal{R}$ is the set of replicas. Note that this _explicitly allows for faulty primaries_ while the algorithm properly handles.
 
@@ -49,7 +49,7 @@ The algorithm works as follows
 3. The client waits for $f + 1$ replies from different replicas with the same result; this is the end result
    1. If the client doesn't receive replies in a timely manner, it broadcasts the request to all replicas. If the request has already been processed, the replicas simply re-send the reply (as replicas cache the last reply sent to each client)
 
-![[content/thoughts/images/3pc-pbft.png]]_Replica 0 is the primary, replica 3 is faulty, and C is the client_
+![[images/3pc-pbft.png]]_Replica 0 is the primary, replica 3 is faulty, and C is the client_
 
 ## Garbage Collection
 
@@ -71,7 +71,7 @@ Additionally, this checkpointing determines what the waterlevel $h$ and $H$ are
 
 ## View Changes
 
-Similar to the concept of term changes and heartbeats in [[Raft Consensus Algorithm|Raft]]
+Similar to the concept of term changes and heartbeats in [[Raft Consensus Algorithm|Raft](Raft%20Consensus%20Algorithm.md)
 
 If the timer of replica $i$ expires in view $v$, it can broadcast a message to move the system to view $v + 1$
 

@@ -7,7 +7,7 @@ aliases:
   - syndicate
 ---
 
-Important [[distributed web]] concept
+Important [[distributed web](distributed%20web.md) concept
 
 ## POSSE
 

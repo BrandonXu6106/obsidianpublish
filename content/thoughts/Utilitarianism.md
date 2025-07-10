@@ -10,19 +10,19 @@ tags:
 
 Also called the Greatest Happiness Principle.
 
-An action is good if its benefits exceed its harms, and an action is bad if its harms exceed its benefits. This is based on calculations of [[utility|utility]].
+An action is good if its benefits exceed its harms, and an action is bad if its harms exceed its benefits. This is based on calculations of [[utility.md|utility]].
 
 > An important decision an act utilitarian must make is determining which beings are considered to be morally significant.
 
 It is a consequentialist theory because it focuses on the consequences of an action rather than the intention.
 
-Calculating the utility to make a decision falls under [[Decisions under risk|DUR]] (specifically, EU Max)
+Calculating the utility to make a decision falls under [[Decisions under risk|DUR](Decisions%20under%20risk.md) (specifically, EU Max)
 
 ## Rule Utilitarianism
 
 We ought to adopt those moral rules that, if followed by everyone, lead to the greatest increase in total happiness over all affected parties
 
-Difference between rule utilitarianism and [[Kant|Kantianism]]:
+Difference between rule utilitarianism and [[Kant.md|Kantianism]]:
 
 - A rule utilitarian looks at the consequences of the action
 - A Kantian looks at the will motivating the action
@@ -30,8 +30,8 @@ Difference between rule utilitarianism and [[Kant|Kantianism]]:
 ## Critique
 
 1. Utilitarianism forces us to use a single scale or measure to evaluate completely different kinds of consequences.
-   - See also: [[quantization|quantization]]
+   - See also: [[quantization.md|quantization]]
 2. Utilitarianism ignores the problem of an unjust distribution of good consequences.
    - One person receiving 100 units of good while 99 people receive nothing is treated the same as 100 people receiving 1 unit of good.
    - This doesn't sit right with most people.
-   - See also, [[The ones who walk away from Omelas|The ones who walk away from Omelas]]
+   - See also, [[The ones who walk away from Omelas|The ones who walk away from Omelas](The%20ones%20who%20walk%20away%20from%20Omelas.md)

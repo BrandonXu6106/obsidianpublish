@@ -8,7 +8,7 @@ aliases:
   - logical clock
 ---
 
-Measuring [[time|time]] in the context of computer systems
+Measuring [[time.md|time]] in the context of computer systems
 
 ## Physical Time
 
@@ -17,15 +17,15 @@ Two types of clock
 1. Physical clock: number of seconds elapsed
 2. Logical clock: count events, e.g. messages sent
 
-[[time|Time]] is hard! So many different ways of measuring time
+[[time.md|Time]] is hard! So many different ways of measuring time
 
 - Greenwich Mean Time (GMT): the normal human time format, based on Earth rotation
 - International Atomic Time (TAI): some multiple of Caesium-133 resonant frequency
 - Compromise, UTC is TAI with corrections to account for Earth rotation
-- [[Unix|Unix]] Time: number of seconds since the epoch (Jan 1, 1970) not counting leap seconds
+- [[Unix.md|Unix]] Time: number of seconds since the epoch (Jan 1, 1970) not counting leap seconds
 - ISO8601: year, month, day, hour, minute, second, and timezone offset relative to UTC
 
-We periodically adjust our local clocks with a server that has a more accurate time source using [[Network Time Protocol|Network Time Protocol]] (NTP) or Precision Time Protocol (PTP)
+We periodically adjust our local clocks with a server that has a more accurate time source using [[Network Time Protocol|Network Time Protocol](Network%20Time%20Protocol.md) (NTP) or Precision Time Protocol (PTP)
 
 ## Logical Time
 
@@ -35,7 +35,7 @@ We use logical clocks to work based off of the number of events that have occurr
 
 ### Lamport Clocks
 
-Provides a **[[Order theory|partial order]]** on events
+Provides a **[[Order theory|partial order](Order%20theory.md)** on events
 
 Logic
 
@@ -52,13 +52,13 @@ Properties
 
 This means that two identical Lamport timestamps might not correspond to the same unique event. However if we include the node $N(e)$ for the node where event $e$ occurred, then $(L(e), N(e))$ **uniquely identifies** event $e$.
 
-We attempt to define a total [[causality|causal]] order
+We attempt to define a total [[causality.md|causal]] order
 
 $$(a \prec b) \iff (L(a) < L(b)) \lor (L(a) = L(b) \land N(a) < N(b))$$
 
 However even now, given timestamps $L(a) < L(b)$, we can't tell whether $a \rightarrow b$ or $a \parallel b$
 
-To separate [[causality|causality]] from concurrent events, we need vector clocks!
+To separate [[causality.md|causality]] from concurrent events, we need vector clocks!
 
 ### Vector Clocks
 
@@ -76,7 +76,7 @@ Logic
 - On sending message $m$ from node $N_i$, `fn send(m) -> tick(); actually_send(t, m)`
 - On receiving `fn receive(t', m) -> t = tick(); zip(t, t').map(max); do_something(m)`
 
-Thus, a vector timestamp of an event $e$ actually represents all of its _[[causality|causal]] dependencies_: $\{ e \} \cup \{a | a \rightarrow e \}$
+Thus, a vector timestamp of an event $e$ actually represents all of its _[[causality.md|causal]] dependencies_: $\{ e \} \cup \{a | a \rightarrow e \}$
 
 E.g. $\langle 2, 2, 0 \rangle$ represents first two events from $N_1$, first two events from $N_2$, and no events from $N_3$
 
@@ -87,7 +87,7 @@ Ordering
 - $T < T' \iff T \leq T' \land T \neq T'$ (T happened earlier than T' if each element in T is less than its value in T', at least one element in T differs from T')
   - $T \parallel T' \iff T \nleq T' \land T' \nleq T$ (T is incomparable to T')
 
-Properties (based on [[Order theory|Order theory]])
+Properties (based on [[Order theory|Order theory](Order%20theory.md))
 
 - $V(a) \leq V(b) \iff (\{a\} \cup \{e | e \rightarrow a\}) \subseteq (\{b\} \cup \{e | e \rightarrow b\})$
 - $V(a) < V(b) \iff (a \rightarrow b)$
@@ -97,7 +97,7 @@ Properties (based on [[Order theory|Order theory]])
 You can tell that versions are in conflict when neither vector clock “descends” from the other. In order for vector clock B to be considered a descendant of vector clock A, each marker in vector clock A must have a corresponding marker in B that has a revision number greater than or equal to the marker in vector clock A. Markers not contained in a vector clock can be considered to have revision number zero.
 
 Vector Clock Example
-![[vector clock example.png]]
+![[vector clock example.png](images/vector%20clock%20example.png)
 
 ## Hybrid Logical Clocks
 

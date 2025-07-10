@@ -7,7 +7,7 @@ tags:
 
 One of the things that keeps face-to-face friendships strong is the [nature of shared experience](http://psycnet.apa.org/psycinfo/2001-00651-001): you laugh together; you dance together; you gape at the hot-dog eaters on Coney Island together.
 
-> The internet is often hailed for bringing people closer together. The apparent collapse of the physical space between users is achieved by slashing down the time between the moment in which a message is sent and received, until it’s close to real time. For millions of years, the only real-time communication we’ve had as a species involved physical presence. Thus, real-time digital communication makes us feel physically close (from [[neutrality#Net Neutrality|The Neutrality Pyramid]])
+> The internet is often hailed for bringing people closer together. The apparent collapse of the physical space between users is achieved by slashing down the time between the moment in which a message is sent and received, until it’s close to real time. For millions of years, the only real-time communication we’ve had as a species involved physical presence. Thus, real-time digital communication makes us feel physically close (from [[neutrality.md#Net Neutrality|The Neutrality Pyramid]])
 
 Opposite of [digital permanence](digital%20permanence.md)
 
@@ -31,7 +31,7 @@ Related: [Mangrove Theory of the Internet](Mangrove%20Theory%20of%20the%20Intern
 
 [Source](https://interconnected.org/home/2023/01/20/map_room)
 
-See also: [[digital permanence]]
+See also: [[digital permanence](digital%20permanence.md)
 
 - Ephemeral tools are about the conversation. Slack is one. Zoom is another. Here, memory resides in the users
 - Accretive tools build over time. Developer tools tend to work like this: platform-as-code. Wikis are the main one: Notion is accretive. Memory resides in the tool

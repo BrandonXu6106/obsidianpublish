@@ -7,7 +7,7 @@ tags:
 
 Unix philosophy: expect the output of every program to become the input to another, as yet unknown, program.
 
-See also: [[computer architecture|computer architecture]]
+See also: [[computer architecture|computer architecture](computer%20architecture.md)
 
 ## Manual Pages
 
@@ -17,7 +17,7 @@ The number in parentheses shown after Unix command names in manpages refers to w
 
 1. [Section 1](https://man7.org/linux/man-pages/man1/intro.1.html): user commands and tools, for example, file manipulation tools, shells, compilers, web browsers, file and image viewers and editors, and so on.
 	1. [strace(1)](https://man7.org/linux/man-pages/man1/strace.1.html)
-2. [Section 2](https://man7.org/linux/man-pages/man2/intro.2.html): [[computer architecture#Syscalls]].
+2. [Section 2](https://man7.org/linux/man-pages/man2/intro.2.html): [[computer architecture#Syscalls](computer%20architecture.md).
 	1. [pidfd_open(2)](https://man7.org/linux/man-pages/man2/pidfd_open.2.html)
 	2. [fcntl(2)](https://man7.org/linux/man-pages/man2/fcntl.2.html)
 	3. [poll(2)](https://man7.org/linux/man-pages/man2/poll.2.html)
@@ -50,7 +50,7 @@ A process is a program in execution in memory or in other words, an instance of 
 2. `/proc/self`
 	1. When a process accesses this magic symbolic link, it resolves to the process's own `/proc/pid` directory.
 
-See also: [[Permissions|Permissions]]
+See also: [[Permissions.md|Permissions]]
 
 ### PID1 Zombies
 
@@ -85,8 +85,8 @@ A Unix domain socket aka UDS or IPC socket (inter-process communication socket) 
 
 Valid socket types in the UNIX domain are:
 
-1. SOCK_STREAM (compare to [[TCP|TCP]]) – for a stream-oriented socket
-2. SOCK_DGRAM (compare to [[UDP|UDP]]) – for a datagram-oriented socket that preserves message boundaries (as on most UNIX implementations, UNIX domain datagram sockets are always reliable and don't reorder datagrams)
+1. SOCK_STREAM (compare to [[TCP.md|TCP]]) – for a stream-oriented socket
+2. SOCK_DGRAM (compare to [[UDP.md|UDP]]) – for a datagram-oriented socket that preserves message boundaries (as on most UNIX implementations, UNIX domain datagram sockets are always reliable and don't reorder datagrams)
 3. SOCK_SEQPACKET (compare to SCTP) – for a sequenced-packet socket that is connection-oriented, preserves message boundaries, and delivers messages in the order that they were sent
 
 Importantly, UDS can transfer not only data but also file descriptors (!!!) which means you can transmute a lot of things between processes.

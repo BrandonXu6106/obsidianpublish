@@ -11,7 +11,7 @@ aliases:
 
 RDF can be understood as a linking structure which forms a directed, labeled graph, where the edges represent the named link between two resources, represented by the graph nodes.
 
-See also: [[LDP|LDP]]
+See also: [[LDP.md|LDP]]
 
 ## RDF Triple
 
@@ -23,7 +23,7 @@ A store of RDF Triples is called a triplestore.
 
 From [Intertwingle](https://www.jwz.org/doc/intertwingle.html)
 
-Following a link only gives you one dimension of mobility. A [[search|search]] can be seen as following multiple links, and finding the intersection (or union) of the results of those links.
+Following a link only gives you one dimension of mobility. A [[search.md|search]] can be seen as following multiple links, and finding the intersection (or union) of the results of those links.
 
 Any link-relationship should be searchable. For example:
 

@@ -12,7 +12,7 @@ Summarized from [the site](https://www.hyperhyperspace.org/) and [whitepaper](ht
 Provides:
 
 - a local data store, both in-browser using IndexedDB and server-side
-- a data representation format, based on Merkle-DAGs and [[CRDT|CRDTs]]
+- a data representation format, based on Merkle-DAGs and [[CRDT.md|CRDTs]]
 - a secure data sync protocol over WebRTC and WebSockets
 
 The Hyper Hyper Space project proposes a framework for *universal information access*
@@ -25,8 +25,8 @@ Applications organize their information using spaces -- a bit like a file but fo
 
 To preserve operation commutativity, these untimely capability uses would need to be accepted, hence preventing the application from truly enforcing capability revocation.
 
-Lack of finality is worrying for vast majority of applications. They resolve this in a weird manner by introducing causal relationships (e.g. this action is only valid if this previous one is valid). Even then, this weird form of [[causality|causality]] doesn't actually solve finality.
+Lack of finality is worrying for vast majority of applications. They resolve this in a weird manner by introducing causal relationships (e.g. this action is only valid if this previous one is valid). Even then, this weird form of [[causality.md|causality]] doesn't actually solve finality.
 
 ## Connection
 
-WebRTC as underlying transport layer. Uses a signalling server that each peer runs. Not ideal, doesn't run a [[DHT]] so requires users to know address of other's signalling server.
+WebRTC as underlying transport layer. Uses a signalling server that each peer runs. Not ideal, doesn't run a [[DHT.md]] so requires users to know address of other's signalling server.

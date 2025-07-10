@@ -6,4 +6,4 @@ tags:
 ---
 An atomic transaction is a sequence of actions that are completely executed in its entirety or not executed at all. A key property of _distributed_ atomic transactions is that they typically involve multiple nodes across a network.
 
-One common example of achieving this is the [[Two-phase commit|thoughts/2PC]] algorithm.
+One common example of achieving this is the [[Two-phase commit|thoughts/2PC](Two-phase%20commit.md) algorithm.

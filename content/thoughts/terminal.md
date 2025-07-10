@@ -18,7 +18,7 @@ In these emulators, the wires of the traditional TTY are replaced with pairs of 
 ### Creating a PTY
 
 - The terminal emulator asks the kernel to open a PTY
-- The kernel returns the PTY as a [[file descriptor|file descriptor]]. This is the 'leader' which is intended for the terminal to interface with (read and write data)
+- The kernel returns the PTY as a [[file descriptor|file descriptor](file%20descriptor.md). This is the 'leader' which is intended for the terminal to interface with (read and write data)
 - It also creates a 'follower' PTY which is used by the shell and other processes in the session
 - The terminal emulator then spawns the shell which reads and writes from the follower PTY (the shell's `stdin`, `stderr`, and `stdout`) is set to the follower PTY
 

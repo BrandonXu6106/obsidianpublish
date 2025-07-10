@@ -8,7 +8,7 @@ tags:
 
 > _Final paper for PHIL321_
 
-The [[Precautionary Principle|Precautionary Principle]] has had many different interpretations across [[game theory]]; there is no single accepted formulation. In general, the Precautionary Principle suggests that we should take appropriate measures to prevent potential harm, even if the likelihood or severity of that harm is uncertain. However, part of the reason why there has been such heavy debate around Precautionary Principle is because many terms are already [[meaning-laden]]: it is not always clear what constitutes appropriate precautionary measures, and different stakeholders may have different ideas about what is appropriate in a given situation.
+The [[Precautionary Principle|Precautionary Principle](Precautionary%20Principle.md) has had many different interpretations across [[game theory](game%20theory.md); there is no single accepted formulation. In general, the Precautionary Principle suggests that we should take appropriate measures to prevent potential harm, even if the likelihood or severity of that harm is uncertain. However, part of the reason why there has been such heavy debate around Precautionary Principle is because many terms are already [[meaning-laden.md]]: it is not always clear what constitutes appropriate precautionary measures, and different stakeholders may have different ideas about what is appropriate in a given situation.
 
 If the principle is to be useful in policy-making, we must make it more concrete. The real meat of the matter comes down to how we characterize what constitutes a relevant thread and what threshold of certainty is necessary to enact action.
 
@@ -22,7 +22,7 @@ In the second part of the paper, he distinguishes a stronger formulation of the 
 
 Specifically, Manson argues that the stronger Catastrophe Principle is self-defeating but leaves the earlier formulation of the Precautionary Principle intact. Strong versions of the Precautionary Principle, if applied consistently, lead to paradoxical outcomes.
 
-The careful reader will notice the similarities between the Catastrophe Principle and [[Pascal's Wager|Pascal's Wager]]. As there is dominance of the action of believing in God over not believing in God, any rational decision maker must believe in God, no matter how low the probability of 'God does not exist' is.
+The careful reader will notice the similarities between the Catastrophe Principle and [[Pascal's Wager|Pascal's Wager](Pascal's%20Wager.md). As there is dominance of the action of believing in God over not believing in God, any rational decision maker must believe in God, no matter how low the probability of 'God does not exist' is.
 
 Similarly, if we draw a decision table for the Catastrophe Principle, we see they follow a similar structure. Any rational decision maker should always enact the e-remedy given that there is a nonzero possibility that the e-activity leads to the e-effect.
 
@@ -55,7 +55,7 @@ I argue that this argument depends heavily on the definition of 'possible.' Gard
 
 This begs the question, what makes a circumstance realistic? This is a question Gardiner explicitly leaves out of his argumentation and assumes that such a criterion exists and does not take a position on what it would be.
 
-I suspect that there is a human limit to the size of a [[probability]] we find meaningful. Just like how the size of certain numbers are incomprehensible to humans, some probabilities are so unlikely that they are nearly meaningless.
+I suspect that there is a human limit to the size of a [[probability.md]] we find meaningful. Just like how the size of certain numbers are incomprehensible to humans, some probabilities are so unlikely that they are nearly meaningless.
 
 Especially as we want this to serve as a framework to make practical decisions, we should discard probabilities that people implicitly discard. A good lower bound on if a probability event could feasibly happen is if it could have reasonably occurred within the timespan of the entire universe. This is effectively strengthening the knowledge condition by placing a lower bound on the conceivable range of probabilities we consider. Anything below this bound is considered negligible and assigned a probability of 0. As a result, this makes much more robust the conditions under which it is coherent to apply the Precautionary Principle.
 

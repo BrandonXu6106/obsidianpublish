@@ -13,11 +13,11 @@ Generally, the most successful machine learning technique (with the exception of
 
 Examples:
 
-- [[decision tree|Decision trees]]
-- [[Naive Bayes]]
-- [[KNN|KNN]] (to fit an appropriate $k$)
-- [[Ensemble method|Ensemble Methods]]
-- [[linear regression]]
+- [[decision tree|Decision trees](decision%20tree.md)
+- [[Naive Bayes](Naive%20Bayes.md)
+- [[KNN.md|KNN]] (to fit an appropriate $k$)
+- [[Ensemble method|Ensemble Methods](Ensemble%20method.md)
+- [[linear regression](linear%20regression.md)
 
 Tradeoffs:
 | |Decision trees|Naive Bayes|
@@ -46,9 +46,9 @@ Tradeoffs:
 - We care far more about testing error than training error
 - Golden Rule: the test data cannot influence training the model in any way
 - Independent and Identically Distributed (IID) assumption
-- [[fundamental tradeoff|Fundamental trade-off]] between getting low training error and having training error approximate test error
-  - We can mitigate this by penalizing model complexity (e.g. for [[linear regression#Penalizing Model Complexity]])
-  - See also: [[regularization]]
+- [[fundamental tradeoff|Fundamental trade-off](fundamental%20tradeoff.md) between getting low training error and having training error approximate test error
+  - We can mitigate this by penalizing model complexity (e.g. for [[linear regression#Penalizing Model Complexity](linear%20regression.md))
+  - See also: [[regularization.md]]
 - Optimization bias
   - How biased is an "error" that we optimized over many possibilities?
   - Is large if you compare lots of different models, small if you only compare a few.
@@ -60,7 +60,7 @@ Are we equally concerned about each potential outcome? Usually not! Sometimes, f
 - Letting a spam message through (false negative) is not a big deal.
 - Filtering a not spam (false positive) message will make users mad
 
-We can look to [[Decision theory|decision theory]] to help us here. Denote $cost(\hat y_i, \tilde y_i)$ as the cost of predicting $\hat y_i$ instead of the actual label $\tilde y_i$.
+We can look to [[Decision theory|decision theory](Decision%20theory.md) to help us here. Denote $cost(\hat y_i, \tilde y_i)$ as the cost of predicting $\hat y_i$ instead of the actual label $\tilde y_i$.
 
 Then, instead of predicting the most probable label, compute all possible actions and take the action with the lowest expected cost: $\mathbb E [cost(\hat y_i, \tilde y_i)]$
 

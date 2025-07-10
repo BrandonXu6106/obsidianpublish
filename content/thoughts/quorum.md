@@ -7,7 +7,7 @@ tags:
 
 ## Read/Write Quorum
 
-In a system with $n$ replicas, we can ensure [[consistency|consistent]]
+In a system with $n$ replicas, we can ensure [[consistency.md|consistent]]
 
 - writes if a write is acknowledged by $w$ replicas (write quorum)
 - reads if we request reads from $r$ replicas (read quorum)
@@ -15,4 +15,4 @@ In a system with $n$ replicas, we can ensure [[consistency|consistent]]
 
 Key thing to note is that $r + w > n$, typically, $r = w = \frac{n+1}{2}$. This means that quorum is generally majority. Thus, reads can tolerate $n-r$ unavailable replicas and writes can tolerate $n - w$ unavailable replicas.
 
-Then the read will see the previously written value (as the read and write quorum share $\geq 1$ replica). Client can then 'repair' the servers by sending its most up to state to servers that are out of date (with original logical timestamp! this is an [[idempotence|idempotent]] operation, should be fine) -- this is called **read repair.**
+Then the read will see the previously written value (as the read and write quorum share $\geq 1$ replica). Client can then 'repair' the servers by sending its most up to state to servers that are out of date (with original logical timestamp! this is an [[idempotence.md|idempotent]] operation, should be fine) -- this is called **read repair.**

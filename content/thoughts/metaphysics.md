@@ -8,4 +8,4 @@ tags:
 
 > _meta ta physika_ ("after the things of nature")
 
-Ideas that can't be reached through objective studies of material reality. Common areas of study are [[ontology|ontology]] and [[epistemology|epistemology]]
+Ideas that can't be reached through objective studies of material reality. Common areas of study are [[ontology.md|ontology]] and [[epistemology.md|epistemology]]

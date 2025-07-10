@@ -12,10 +12,10 @@ tags:
 
 An exploration of the technical limitations of building flying cars evolves into an examination of the global economic and scientific stagnation that started in the 1970s.
 
-See: [[Overton Window|Overton Window]], [[The Machiavelli Effect|The Machiavelli Effect]], [[Energy Maximalism|Energy Maximalism]]
+See: [[Overton Window|Overton Window](Overton%20Window.md), [[The Machiavelli Effect|The Machiavelli Effect](The%20Machiavelli%20Effect.md), [[Energy Maximalism|Energy Maximalism](Energy%20Maximalism.md)
 ## On nanotechnology
 
-- The original concept of a [[telerobotics|telemanipulator]], often termed a "waldo", is a robot arm but instead of being programmed, it is operated via remote control by a human operator. The goal was to produce a series of ever smaller waldoes to operate on individual nerve cells:
+- The original concept of a [[telerobotics.md|telemanipulator]], often termed a "waldo", is a robot arm but instead of being programmed, it is operated via remote control by a human operator. The goal was to produce a series of ever smaller waldoes to operate on individual nerve cells:
 	- "Neither eletromagnetic instruments nor neural surgery was refined enough to do accurate work on the levels he wished to investigate. But he had waldoes. The smallest waldoes he had used up to this time were approximately half an inch across their palms -- with micro scanners to match, of course. They were much too gross for his purpose... He used the waldoes to create tinier ones... his final team of waldoes used for nerve and brain surgery varied in succeeding stages from mechanical hands nearly life size down to these fairy digits which could manipulate things much too small for the eye to see. They were mounted in bank to work in the same locus. Waldo controlled them all from the same primaries; he could switch from one size to another without removing his gauntlets. The same change in circuits which brought another size of waldoes under control automatically accomplished the change in sweep of scanning to increase or decrease the magnification so that Waldo always saw before him in his stereo receiver a 'life size' image of his other hands"
 
 ## On policy
@@ -33,5 +33,5 @@ See: [[Overton Window|Overton Window]], [[The Machiavelli Effect|The Machiavelli
 - Failure of Nerve: 
 	- Applies when the facts are known: The science is there, the engineering understood, the pathway clear, and only the details remain to be worked out.
 - Failure of the Imagination
-	- Occurs when the result is far enough out of the common-sense experience, outside the [[Overton Window|Overton Window]], the mind balks and fails to see it for what it could be
+	- Occurs when the result is far enough out of the common-sense experience, outside the [[Overton Window|Overton Window](Overton%20Window.md), the mind balks and fails to see it for what it could be
 	- "One obvious reason is that science fiction needs to provide characters with whom the reader can identify, and this gets harder to do as characters become less human."

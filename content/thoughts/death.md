@@ -25,7 +25,7 @@ Conceptions of death in [The Upanisads](The%20Upanisads.md) and [Epicurueanism](
    3. Loss of integrated functioning (integration death)
 3. The process of dissolution (dying)
 
-![](perspectives%20on%20death.png)
+![](images/perspectives%20on%20death.png)
 
 ## Near Death Experiences (NDEs)[^1]
 
@@ -34,7 +34,7 @@ Conceptions of death in [The Upanisads](The%20Upanisads.md) and [Epicurueanism](
 Greyson Scale
 
 1. Cognitive Features
-   1. [[time|Time]] distortion
+   1. [[time.md|Time]] distortion
    2. Thought acceleration
    3. Life review
    4. Revelation
@@ -54,7 +54,7 @@ Greyson Scale
    3. Sense of deceased/religious spirits
    4. Sense of border/point of no return
 
-![](mental%20states.png)
+![](images/mental%20states.png)
 
 Problem with these is that we don't know exactly when the experiences happen in relation to the time-course of the near death experience
 

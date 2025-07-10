@@ -10,7 +10,7 @@ aliases:
 
 Agency is the ability and freedom for an individual to _act_ in their immediate context or environment.
 
-See also: [[Tools for Conviviality]], [[agentic-computing|agentic computing]]
+See also: [[Tools for Conviviality](Tools%20for%20Conviviality.md), [[../posts/aigc/agentic-computing.md|agentic computing]]
 
 ## Self-Determination Theory (SDT)
 
@@ -22,7 +22,7 @@ Self-determination theory suggests that all humans have three basic psychologica
 2. Competence: experience of mastery and being effective in one's activity
 3. Relatedness: need to feel connected and belongingness with others
 
-See also: [[In Over Our Heads]], [[burnout]], [[taste]]
+See also: [[In Over Our Heads](In%20Over%20Our%20Heads.md), [[burnout.md]], [[taste.md]]
 
 ### Cultural
 
@@ -32,7 +32,7 @@ In a 2017 study, compared to Democrats, US Republicans predictably attributed a 
 4 Principles, [Brooklyn Zelenka at Causal Islands](https://youtu.be/YKf5ItBPQ50?t=3975)
 
 1. Empower users to participate (entry)
-2. Option to leave ([[credible exit|exit]])
+2. Option to leave ([[credible exit|exit](credible%20exit.md))
 3. Control access to your data (safety)
 4. Provide capacity to others (serve)
 
@@ -56,4 +56,4 @@ Definitions:
 		- Extends Aristotle’s argument that virtue is an active practice towards becoming a certain “kind of” person.
 - To “hold responsible” implies the existence of some action, such as a penalty, that is taken with the goal of shaping the agent’s future behavior. Yet such an action may not exist
 - Q: can decisions made by purely stochastic processes be considered normatively significant? If I flip a coin to make a decision for me to determine whether to commit some action, can I be held responsible?
-	- See: [[intentionality|intentionality]]
+	- See: [[intentionality.md|intentionality]]

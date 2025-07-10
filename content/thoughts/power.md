@@ -29,7 +29,7 @@ Types of social power
 
 Power only exists due to social relations and inherent [trust](trust.md) in the other to uphold the expectations we place of their role.
 
-## [[identity|Identity]] Power
+## [[identity.md|Identity]] Power
 
 Social stickiness of identities, people tend to do what is expected of their social roles and [norms](social%20contracts.md)
 

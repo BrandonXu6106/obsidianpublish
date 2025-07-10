@@ -23,4 +23,4 @@ Natural bargain
 - Skilled practitioners ease their own burdens by having apprentices do low to medium skilled work.
 - Apprentices do grunt work from the perspective of the skilled, but for the beginner, it builds basic skills.
 
-Over both evolutionary and developmental time frames, inner mechanisms have coevolved with and adapted to this rich environment of intergenerational learning. Language and arithmetical [[notation]] enhance our capacity to think
+Over both evolutionary and developmental time frames, inner mechanisms have coevolved with and adapted to this rich environment of intergenerational learning. Language and arithmetical [[notation.md]] enhance our capacity to think

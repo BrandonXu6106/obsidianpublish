@@ -9,7 +9,7 @@ aliases:
 
 > Whenever nature seeks robustness, it resorts to networks.
 
-The [[Internet|internet]] played a huge role in developing network theory with over a trillion documents $N \approx 10^{12}$
+The [[Internet.md|internet]] played a huge role in developing network theory with over a trillion documents $N \approx 10^{12}$
 
 ## Power Laws and Scale-Free Networks
 
@@ -27,9 +27,9 @@ Main difference is that power-law distributions (scale-free networks) have long 
 
 Once hubs are present, they change the way we navigate the network. In random networks, we usually need to make many hops. On scale-free networks, however, we can reach most destinations via a single hub. Scale-free networks mean that even as the sizes may differ widely between networks, navigation time across the networks is very slow to grow (ultra-small world network).
 
-![[random vs scale-free.png|500]]
+![[random vs scale-free.png|500](images/random%20vs%20scale-free.png)
 
-![[hub sizes in networks.png|500]]
+![[hub sizes in networks.png|500](images/hub%20sizes%20in%20networks.png)
 
 An almost universal property of most real-world networks. For example:
 
@@ -60,11 +60,11 @@ $$
 3. $\gamma = 3$: Critical point
 4. $\gamma > 3$: Small-world and random networks. Extremely unlikely to have large hubs, traversal time is on the order of $\ln N$
 
-![[distances in networks.png]]
+![[distances in networks.png](images/distances%20in%20networks.png)
 
 ## Network Robustness
 
-See also: [[cascading failures]]
+See also: [[cascading failures](cascading%20failures.md)
 
 ### Percolation Theory
 
@@ -78,12 +78,12 @@ As a forest is roughly similar to a random network, the answer depends on the tr
 
 However, this breaks down once we consider scale-free networks. Scale-free networks observe unusual robustness to failure: we must remove all of its nodes to have likely destroyed its giant component.
 
-![[robustness of scale-free networks.png]]
+![[robustness of scale-free networks.png](images/robustness%20of%20scale-free%20networks.png)
 
 ### Under Attack
 
-The removal of a small fraction of the hubs is sufficient to break a scale-free network into tiny clusters. See more on [[cascading failures|cascading failures]] in networks
+The removal of a small fraction of the hubs is sufficient to break a scale-free network into tiny clusters. See more on [[cascading failures|cascading failures](cascading%20failures.md) in networks
 
-![[scale-free under attack.png]]_The probability that a node belongs to the largest connected component in a scale-free network under attack (purple) and under random failures (green)._
+![[scale-free under attack.png](images/scale-free%20under%20attack.png)_The probability that a node belongs to the largest connected component in a scale-free network under attack (purple) and under random failures (green)._
 
 Knocking out even a few hubs quickly breaks down the network. Y-axis is the ratio $\frac{P_\infty(f)}{P_\infty(0)}$ provides the relative size of the largest connected subgraph

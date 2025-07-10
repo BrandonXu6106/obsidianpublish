@@ -12,7 +12,7 @@ Maximizes $\hat w \in \arg\max_w \{ P(w|D) \}$
 
 Given our data, which model $w$ is the best model?
 
-This is connected to [[maximum likelihood estimation|MLE]] through [[probability#Bayes' Theorem|Bayes' Rule]]:
+This is connected to [[maximum likelihood estimation|MLE](maximum%20likelihood%20estimation.md) through [[probability.md#Bayes' Theorem|Bayes' Rule]]:
 
 $$P(w|D) = \frac{P(D|w)P(w)}{P(D)} \propto P(D|w)P(w)$$
 

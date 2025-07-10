@@ -22,12 +22,12 @@ Theoretically, the Vedas are author-less so can have no faults or biases -- uniq
 
 Dharmakīrti against authority of the Vedas: even if there was a flawless revealed source, it wouldn't help as the the revealed source still has to be interpreted and this necessarily happens through human interactions mediated by language
 
-Partiality makes communication possible, words are [[meaning-laden|meaning-laden]] (see: [terminology](terminology.md)) because of conventions and usage
+Partiality makes communication possible, words are [[meaning-laden.md|meaning-laden]] (see: [terminology](terminology.md)) because of conventions and usage
 
 - No one, then, can know the meaning of an 'authorless' word: "it is not possible in the case of words that lack an [original] expounder"
 - Common usage is partial and _not_ an independent source of knowledge
 - "Since the meaning of authorless words [can] be known neither from tradition, nor from reason, nor from the [ordinary] world, it is [only] proper [to say] that there is no cognition [of the meaning] in this case"
-- See also: derived [intentionality](intentionality.md), [[doxastic partiality]]
+- See also: derived [intentionality](intentionality.md), [[doxastic partiality](doxastic%20partiality.md)
 
 Cannot trust other humans who are also flawed
 

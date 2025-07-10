@@ -12,7 +12,7 @@ Perhaps can also be called intellectually monopoly
 
 ## Property Rights
 
-See also: [[rights]]
+See also: [[rights.md]]
 
 Proposed by John Locke
 
@@ -55,7 +55,7 @@ There is a tension between the need to reward the creators of intellectual prope
 
 Congress addresses this by only granting exclusive rights for a limited period of time
 
-![[copyright length.png]]
+![[copyright length.png](images/copyright%20length.png)
 
 ## Fair Use
 

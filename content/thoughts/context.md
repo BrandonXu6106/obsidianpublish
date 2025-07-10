@@ -5,9 +5,9 @@ tags:
   - sapling
 ---
 
-Content only has meaning if it has context. Content thus must be empty of independent origination (it cannot exist on its own, see also: [[emptiness]]).
+Content only has meaning if it has context. Content thus must be empty of independent origination (it cannot exist on its own, see also: [[emptiness.md]]).
 
-See also: [[context-collapse]]
+See also: [[../posts/aigc/context-collapse.md]]
 
 ## Context in writing
 
@@ -17,7 +17,7 @@ Footnotes and marginalia are layers of context on top of the original media. The
 
 For most data in web2, the application _is the context_. How do we make data as first class citizens?
 
-Does [[interoperability|interoperable]] data mean context-free data? I don't think so. I think [[interoperability|interoperable]] data is data that can be _translated_ across contexts
+Does [[interoperability.md|interoperable]] data mean context-free data? I don't think so. I think [[interoperability.md|interoperable]] data is data that can be _translated_ across contexts
 
 ## Context on the web
 

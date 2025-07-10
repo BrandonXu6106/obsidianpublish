@@ -19,11 +19,11 @@ Rules of thumb:
   1.  Optimizations depend on when various programs in a language are equivalent
   2.  We cannot know whether the compiler is correct if we do not know the meaning of programs before they are compiled
   - We can define the meaning of a language by writing an interpreter.
-- Eliminating undefined behaviour by adding static or dynamic checks in the source language improves the ability of programmers to predict behaviour of all programs in your language. However, it is not always practical to achieve. See: [[program analysis]]
+- Eliminating undefined behaviour by adding static or dynamic checks in the source language improves the ability of programmers to predict behaviour of all programs in your language. However, it is not always practical to achieve. See: [[program analysis](program%20analysis.md)
 
 ## Runtimes
 
-The run-time system provides all run-time support required by the language but that that is not provided by the underlying [[computer architecture|machine]]. Exactly what this run-time support is depends on the language.
+The run-time system provides all run-time support required by the language but that that is not provided by the underlying [[computer architecture|machine](computer%20architecture.md). Exactly what this run-time support is depends on the language.
 
 Typically, the language run-time provides memory allocation and deallocation, initialization of the process environment such as the stack, handles returning values to the user, and provides any built-in procedures that all programs in the language can expect to use
 
@@ -159,7 +159,7 @@ Optimizations should not change the _correctness_ of a solution, only improving 
 
 ### Register Allocation
 
-While memory accesses have improved a lot compared to old computers due to caching, accessing memory are still orders of magnitude slower than accessing a register when our variable is not in the cache (see: [[systems design]]). Our compiler will have better performance if we help the machine out by using registers as much as possible
+While memory accesses have improved a lot compared to old computers due to caching, accessing memory are still orders of magnitude slower than accessing a register when our variable is not in the cache (see: [[systems design](systems%20design.md)). Our compiler will have better performance if we help the machine out by using registers as much as possible
 
 Conceptually, register allocation is a simple idea.
 
@@ -175,7 +175,7 @@ Conceptually, register allocation is a simple idea.
    - Any variable defined during a non-move instruction is in conflict with every variable (except itself) in the undead-out set associated with the instruction.
    - Any variable defined during a move instruction is in conflict with every variable in the undead-out set associated with the instruction, except itself and the variable referenced in the move.
 3. Register allocation: assign each abstract locations to a register that is different from any conflicting abstract locations.
-   - Recursive graph-colouring register allocation. This normally uses a [[disjoint-set|disjoint-set]]
+   - Recursive graph-colouring register allocation. This normally uses a [[disjoint-set.md|disjoint-set]]
    1. If the set of abstract locations is empty, return the empty assignment.
    2. Otherwise, choose a low-degree abstract location from the input set of abstract locations, if one exists. Otherwise, pick an arbitrary abstract location from the set. A low-degree abstract location is one with fewer than k conflicts, for some for pre-defined k. We pick k to be the number of registers in the set of assignable registers.
    3. Recurse with the chosen abstract location removed from the input set and the conflict graph. The recursive call should return an assignment for all the remaining abstract locations.
@@ -184,7 +184,7 @@ Conceptually, register allocation is a simple idea.
    1. If you succeed in selecting a register, then add the assignment for the chosen abstract location to the result of the recursive call.
    2. Otherwise, we cannot assign the chosen abstract location to a register. Instead, we spill it, i.e., we assign it a frame variable. We can assign a fresh variable, but we can reduce memory usage by trying to assign a non-conflicting frame variable.
 
-In general, we will never do a perfect job, due to [[Rice's Theorem]].
+In general, we will never do a perfect job, due to [[Rice's Theorem](Rice's%20Theorem.md).
 
 #### With procedures
 

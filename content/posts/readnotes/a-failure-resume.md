@@ -6,7 +6,7 @@ tags:
   - evergreen
 ---
 
-The nature of resumes means that most people only choose to highlight their successes and wins, but rarely the work, effort, and failures on the way. I think this creates an unhealthy culture of [[idolization|idolizing perfection]] and sets unrealistic standards for what 'real success' should look like.
+The nature of resumes means that most people only choose to highlight their successes and wins, but rarely the work, effort, and failures on the way. I think this creates an unhealthy culture of [[../../thoughts/idolization.md|idolizing perfection]] and sets unrealistic standards for what 'real success' should look like.
 
 I came across the concept of a **failure resume**[^1] a while ago. It's a list of things that didn't exactly go according to plan, and the lessons learned. A failure resume isn't just a showcase of failure in and of itself, but also a document of all the spectacular ways you've worked hard towards your own goals and accomplishments. In many ways, it _validates_ your struggle and your effort.
 
@@ -21,12 +21,12 @@ Keeping a failure resume has let me be so much more ambitious in trying new thin
 - Wasn't selected to speak at the Causal Islands conference this year :(( Was really looking forward to this one as a lot of people whose work I really admire were also going to be there and this would be my first time 'formally' speaking at a conference.
 - Moved from Vancouver to SF and had a hard time adjusting to all the change. Had a lot of family stuff going on that made it difficult to fully have 100% of my brain committed to anything really. This applies to pretty much all major areas of my life including work, friendships, relationship, and health.
 	- Doing slightly better now but the process is hard and the road is long :)
-	- Given this, I had to drop and rearrange a bunch of commitments, including an indefinite hiatus on my [[Rhizome Research Log|independent research]] along with work at Hypha. This really sucks as both are things that I would have _loved_ to spend more time if I had the capacity to.
+	- Given this, I had to drop and rearrange a bunch of commitments, including an indefinite hiatus on my [[Rhizome Research Log|independent research](../../thoughts/Rhizome%20Research%20Log.md) along with work at Hypha. This really sucks as both are things that I would have _loved_ to spend more time if I had the capacity to.
 
 ## 2022
 
 - Rejected from Agency Fund's Social Impact Fellowship
-- Finding it extremely difficult to apply for grants for my [[independent research|independent research]]. Got rejected from Emergent Ventures which I thought I was most likely to get funding from which is extremely dejecting. More thoughts in my [[Rhizome Research Log|research log]].
+- Finding it extremely difficult to apply for grants for my [[independent research|independent research](../../thoughts/independent%20research.md). Got rejected from Emergent Ventures which I thought I was most likely to get funding from which is extremely dejecting. More thoughts in my [[Rhizome Research Log|research log](../../thoughts/Rhizome%20Research%20Log.md).
 - Rejected from [Thinking Microgrants](https://twitter.com/sariazout/status/1571871089713680386)
 	- _Candidly, given the volume of applications I was not able to spend more than 30 seconds on each. I am certain there were many wonderful candidates that were overlooked._
 	- There are just so many other similar people looking for grants !! Feels more luck of the draw than anything with this volume of applicants
@@ -39,7 +39,7 @@ Keeping a failure resume has let me be so much more ambitious in trying new thin
 
 ## 2021
 
-- Stopped sending out newsletter issues :(( Ended up focusing more on longer form [[content/thoughts/writing|writing]] instead
+- Stopped sending out newsletter issues :(( Ended up focusing more on longer form [[../../thoughts/writing.md|writing]] instead
 - Ghosted by both Contrary Build and Contrary Fellowship
 - Couldn't work up the courage to apply to the [Maintainers Summer Fellowship](https://themaintainers.org/summer-fellow)
 	- I really love the work that the Maintainers org is doing and this internship would have combined so many things that I'm interested in and passionate about: maintenance, writing, software, infrastructure, etc. I just couldn't convince myself that I wouldn't have made a fool of myself by applying :(

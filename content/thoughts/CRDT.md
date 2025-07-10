@@ -11,7 +11,7 @@ aliases:
   - convergent replicated data type
 ---
 
-Provides [[causality|causal consistency]] as well as [[consistency#Eventual Consistency|strong eventual consistency]]: over time, all actors converge to same state without data loss _but_ there is no guarantee of exact same state across actors at any given moment (not [[consistency#ACID Consistency|ACID]]).
+Provides [[causality.md|causal consistency]] as well as [[consistency.md#Eventual Consistency|strong eventual consistency]]: over time, all actors converge to same state without data loss _but_ there is no guarantee of exact same state across actors at any given moment (not [[consistency.md#ACID Consistency|ACID]]).
 
 > Note: In general, maintaining global invariants (e.g. shapes such as a tree or a DAG), cannot be done by a CRDT. Global invariant cannot be determined locally; maintaining it requires synchronisation.
 
@@ -21,13 +21,13 @@ Two main families of CRDTs are operation-based and state-based CRDTs. They have 
 
 1. Operation-based
    - generally smaller messages
-   - requires [[causality#Causal Order|causally-ordered delivery]] for messages
+   - requires [[causality.md#Causal Order|causally-ordered delivery]] for messages
    - can be more complex because it requires reasoning about history
 2. State-based
    - can tolerate message loss/duplication
-   - requires [[message broadcast#Best-effort|best-effort broadcast]] delivery for messages
+   - requires [[message broadcast#Best-effort|best-effort broadcast](message%20broadcast.md) delivery for messages
 
-See example implementations here: [[CRDT Implementations|CRDT Implementations]]
+See example implementations here: [[CRDT Implementations|CRDT Implementations](CRDT%20Implementations.md)
 
 I prefer CRDTs over OT whenever possible because it is just so much easier to grok for the average engineer. The framework tells you clearly what you’d need to do to make async editing actually work (make the update operation commutative), why that’s so difficult (delete operations lose state) and how to make your life much easier (retain delete state and do some form of GC after the fact).
 
@@ -37,7 +37,7 @@ I prefer CRDTs over OT whenever possible because it is just so much easier to gr
 
 Replication requires one of the following assumptions:
 
-- all concurrent operations to commute given **[[causality#Causal Order|causal ordering]]** (most common)
+- all concurrent operations to commute given **[[causality.md#Causal Order|causal ordering]]** (most common)
 - all operations to commute given no ordering
 - all operations to commute and be idempotent if message duplication can occur
 
@@ -50,7 +50,7 @@ History is kept through the notion of a causal history $\mathcal{C}$
 
 > Sometimes also called convergent replicated data types (CvRDT)
 
-Can broadcast the values of the state using [[message broadcast#Best-effort|best-effort broadcast]] and then merging using a defined merge operator $\sqcup$.
+Can broadcast the values of the state using [[message broadcast#Best-effort|best-effort broadcast](message%20broadcast.md) and then merging using a defined merge operator $\sqcup$.
 
 The merge operator $\sqcup$ must be:
 
@@ -89,18 +89,18 @@ A query can be specified as a function that uses this information and the value 
 
 ### Fault Tolerance
 
-How can we make CRDTs [[Byzantine Faults|Byzantine fault-tolerant]]?
+How can we make CRDTs [[Byzantine Faults|Byzantine fault-tolerant](Byzantine%20Faults.md)?
 
 [Kleppmann shows](https://martin.kleppmann.com/papers/bft-crdt-papoc22.pdf) that is possible to guarantee the standard CRDT consistency properties even in systems in which _arbitrarily many_ nodes are Byzantine.
 
 CRDTs can become BFT by ensuring eventual delivery and convergence even in the presence of Byzantine nodes.
 
-The main construct here is constructing a hash graph (aka a [[Merkle-DAG|Merkle-DAG]]): The graph is essentially the [[Order theory#Hasse Diagram]] of the partial [[Order theory|order]] representing the [[causality|causality]] relation among the updates. The ID of an operation is the hash of the update containing that operation. A 'head' is just an operation which is not a dependency of another operation.
+The main construct here is constructing a hash graph (aka a [[Merkle-DAG.md|Merkle-DAG]]): The graph is essentially the [[Order theory#Hasse Diagram](Order%20theory.md) of the partial [[Order theory|order](Order%20theory.md) representing the [[causality.md|causality]] relation among the updates. The ID of an operation is the hash of the update containing that operation. A 'head' is just an operation which is not a dependency of another operation.
 
 1. This hash graph helps to ensure eventual consistency as two nodes $p$ and $q$ can exchange the hashes of their currents heads and if they are identical, they can ensure the set of updates they have observed is also identical.
 2. If the heads of $p$ and $q$ are mismatched, the nodes can run a graph traversal algorithm to determine which parts of the graph they have in common, and send each other those parts of the graph that the other node is lacking.
 
-See: [[bft-json-crdt]]
+See: [[../posts/aigc/bft-json-crdt.md]]
 
 ## Undo
 
@@ -119,13 +119,13 @@ Each editing operation is assigned an “undo group.” Several edits may be in 
 Practical experience with CRDTs shows that they tend to become inefficient over time,
 as tombstones accumulate and internal data structures become unbalanced. The compacted portion of the CRDT must retain enough metadata to allow future operations to reference it on an atomic level and order themselves correctly. From the outside, a compacted CRDT must continue to behave exactly the same as a non-compacted CRDT.
 
-However, GC + rebalancing technically requires achieving [[consensus|consensus]] on nodes in order to do this.
+However, GC + rebalancing technically requires achieving [[consensus.md|consensus]] on nodes in order to do this.
 
 > So, as far as I know, we would need a consensus protocol attached to the CRDT in order to get garbage collection / compaction. [(#2)](https://github.com/ipfs-inactive/dynamic-data-and-capabilities/issues/2)
 
 One potential way of overcoming this is to have a small, stable subset of replicas called the core which achieve consensus amongst each other. The other replicas asynchronously reconcile their state with core replicas.
 
-See also: [[Antimatter]]
+See also: [[Antimatter.md]]
 
 ### Exploiting good connectivity for stronger consistency
 
@@ -134,9 +134,9 @@ Upgrading network assumption from asynchronous to partially synchronous enables 
 ## Move Operations
 [Source](https://loro.dev/blog/movable-tree#background)
 
-Generally a difficult problem because the naive move operation needs to ensure global invariants (a node cannot be concurrently moved to two different places) and we know that under [[I-Confluence|I-Confluence]], this is impossible with a CRDT.
+Generally a difficult problem because the naive move operation needs to ensure global invariants (a node cannot be concurrently moved to two different places) and we know that under [[I-Confluence.md|I-Confluence]], this is impossible with a CRDT.
 
-![[content/thoughts/images/move-cycle.png]]*Source from Loro.dev*
+![[images/move-cycle.png]]*Source from Loro.dev*
 
 Loro solves this by combining the three tree operations (create, delete, move) into a single move operation represented as a 4-tuple (`Move t p m c`):
 - `t`: Lamport timestamp

@@ -15,6 +15,6 @@ The reduction of friction on the web is a business strategy. "Less friction mean
 
 Friction creates space in the system where judgment can intercede, where second thoughts can be had, where decisions can be made.
 
-[[content/thoughts/writing|Writing]], by contrast, is full of friction. It’s hard and slow, and the words on the page fall short of the music and clarity I imagined they’d have. But it is, in the end, rewarding. It’s where I have at least a chance to create something worth creating. The work is worth it.
+[[writing.md|Writing]], by contrast, is full of friction. It’s hard and slow, and the words on the page fall short of the music and clarity I imagined they’d have. But it is, in the end, rewarding. It’s where I have at least a chance to create something worth creating. The work is worth it.
 
 Related: [digital mindfulness](digital%20mindfulness.md)

@@ -10,7 +10,7 @@ Are there multiple ways of realizing intelligence?
 
 [The bitter lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html): the less human heuristics we insert and the more we improve the learning capacity of the network, the better they seem to perform.
 
-Do we necessarily need human intelligence for machine intelligence? Are we constraining solution space with human heuristics? (see: [[agi]])
+Do we necessarily need human intelligence for machine intelligence? Are we constraining solution space with human heuristics? (see: [[../posts/software/agi.md]])
 
 ## Flying
 

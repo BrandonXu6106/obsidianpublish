@@ -5,9 +5,9 @@ tags:
   - seed
 ---
 
-Apache Kafka is a publish–subscribe based messaging system over [[TCP]]. In event streaming, an **event** (also called a message or record) is simply a record of a state change in the system.
+Apache Kafka is a publish–subscribe based messaging system over [[TCP.md]]. In event streaming, an **event** (also called a message or record) is simply a record of a state change in the system.
 
-![[content/thoughts/images/simplified-kafka.png]]
+![[images/simplified-kafka.png]]
 
 Two main actors:
 

@@ -6,7 +6,7 @@ tags:
   - PHIL321A
 ---
 
-In ordinary scenarios, we maximize expected [[utility|utility]] (EU Max). However in precautionary scenarios, we want to avoid catastrophic harm (Precautionary Principle)
+In ordinary scenarios, we maximize expected [[utility.md|utility]] (EU Max). However in precautionary scenarios, we want to avoid catastrophic harm (Precautionary Principle)
 
 ## Tripod Framework
 

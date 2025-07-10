@@ -25,9 +25,9 @@ When working with our hands, touch does the driving, and vision helps out from t
 
 > Humanity is using the dynamic medium merely to emulate and extend static representations from the era of paper.
 
-New representations of thought — written [[language|language]], numerals, mathematical [[notation|notation]], data graphics — have been responsible for some of the most significant leaps in the progress of civilization, by expanding humanity’s collectively-thinkable territory. Why then, have we been trapped using the desktop/paper metaphor for the last few centuries? Why have we essentially bottle-necked our [bandwidth](bandwidth.md) for interaction design?
+New representations of thought — written [[language.md|language]], numerals, mathematical [[notation.md|notation]], data graphics — have been responsible for some of the most significant leaps in the progress of civilization, by expanding humanity’s collectively-thinkable territory. Why then, have we been trapped using the desktop/paper metaphor for the last few centuries? Why have we essentially bottle-necked our [bandwidth](bandwidth.md) for interaction design?
 
-Ted Nelson, the guy who coined the terms [[hypertext|hypertext]] and hypermedia, called the continued use of paper simulations as "like tearing the wings off a 747 and driving it as a bus on a highway."
+Ted Nelson, the guy who coined the terms [[hypertext.md|hypertext]] and hypermedia, called the continued use of paper simulations as "like tearing the wings off a 747 and driving it as a bus on a highway."
 
 > And what about screens as a whole? Is the future of computation really just sliding fingers around slabs of glass? -- [Jason Yuan](https://uxdesign.cc/introducing-mercury-os-f4de45a04289)
 
@@ -43,7 +43,7 @@ Source: [Omar Rizwan on Notion Blog](https://www.notion.so/blog/omar)
 
 On making things that are just toys:
 
-- I kind of want to make more things that are just toys where it's fun to interact with the thing, because I feel like that actually sets a very high bar, a game can be fun because it has a story or it has cool characters or there's a scoring system or something. But a toy, it has to be fun to [play](content/thoughts/play.md) with just because it's fun to play with just from the interactions themselves.
+- I kind of want to make more things that are just toys where it's fun to interact with the thing, because I feel like that actually sets a very high bar, a game can be fun because it has a story or it has cool characters or there's a scoring system or something. But a toy, it has to be fun to [play](play.md) with just because it's fun to play with just from the interactions themselves.
 
 On physical analogues of software:
 
@@ -51,7 +51,7 @@ On physical analogues of software:
 
 ## Modes of Human Communication
 
-By upgrading forms of external communication, we can reduce [research debt](research%20debt.md) and allow us to [collaborate](collaborative-thinking.md) better
+By upgrading forms of external communication, we can reduce [research debt](research%20debt.md) and allow us to [collaborate](../posts/aigc/collaborative-thinking.md) better
 
 ### Conversing (person-to-person)
 
@@ -85,7 +85,7 @@ Is it possible to create dynamic spatial media? Virtual museums of information? 
 
 Can we create a [memory palace](memory%20palace.md) for people to walk through to recall information and learn new information?
 
-### [Writing](content/thoughts/writing.md) (person-to-media)
+### [Writing](writing.md) (person-to-media)
 
 As it stands, writing is just manipulation of symbols. Even for static materials, the symbols just are more literal representations. Coding still, is manipulating indirect [symbolic systems](symbolic%20system.md) and [representations](representation.md)
 
@@ -105,7 +105,7 @@ Can we create dynamic tactile mediums?
 
 [Source](https://pure.au.dk/portal/files/91047333/webstrates.pdf)
 
-In the seventies, Alan Kay introduced the concept of Personal Dynamic Media that let a user “mold and channel its power to his own needs” (see: [[agentic-computing|agentic computing]])
+In the seventies, Alan Kay introduced the concept of Personal Dynamic Media that let a user “mold and channel its power to his own needs” (see: [[../posts/aigc/agentic-computing.md|agentic computing]])
 
 Two decades later, Mark Weiser envisioned a future of ubiquitous computing, where heterogenous devices of varying sizes and capabilities interact easily with each other and technology disappears into the background.
 

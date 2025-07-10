@@ -7,8 +7,8 @@ tags:
 
 Postulates that names of participants can have at most 2 of these 3 properties
 
-- Human-meaningful: Meaningful and memorable (low-[[entropy|entropy]]) names are provided to the users.
+- Human-meaningful: Meaningful and memorable (low-[[entropy.md|entropy]]) names are provided to the users.
 - Unique: statistically impossible collisions
 - Global: names are globally scoped, correspondence between name and the entity behind the name does not depend on context
 
-See also: [[petname|petname system]]
+See also: [[petname.md|petname system]]

@@ -37,7 +37,7 @@ Reviewing the second edition by *Martin Kleppmann*. This is the first book I'm h
 - It felt like there were quite a few cases where terminology was used before it was defined, just a flag for some potential reordering of chapters/content.
 	- E.g. I feel like Chapter 1 should actually be much later, Chapter 2 seems more 'fundamental'
 	- If we drew a dependency graph of what each chapter depends on, this could help us sort out book order better (e.g. Types and Programming Languages)
-		- ![[content/thoughts/images/textbook-dependency-order.png]]
+		- ![[images/textbook-dependency-order.png]]
 
 ## Chapter 1
 - I really like the clarity and writing style here already. It feels a lot more mature than the writing in the preface (though that's likely because the preface hasn't been updated)
@@ -71,7 +71,7 @@ Reviewing the second edition by *Martin Kleppmann*. This is the first book I'm h
 	- Scalability and elasticity aren't clearly distinguished (they seem roughly the same by description)
 - Microservices and serverless
 	- Mention driving principles of microservices: Single Responsibility Principle (SRP) and having well-defined interfaces as contracts
-	- Coordination overhead section, mention [[Universal Scaling Law|Universal Scaling Law]]: http://www.perfdynamics.com/Manifesto/USLscalability.html
+	- Coordination overhead section, mention [[Universal Scaling Law|Universal Scaling Law](Universal%20Scaling%20Law.md): http://www.perfdynamics.com/Manifesto/USLscalability.html
 	- Clarify that serverless/FaaS does in fact have servers but rather it abstracts more of the service lifecycle.
 		- In addition to start up/shutdown, it also manages scaling and connection management
 - Problems with Distributed Systems
@@ -110,7 +110,7 @@ Reviewing the second edition by *Martin Kleppmann*. This is the first book I'm h
 - Reliability and Fault Tolerance
 	- Software faults: sometimes good to have multiple implementations of the same software to prevent single point of failure (e.g. Ethereum client diversity)
 	- Define sociotechnical system (not all readers will know what this is or why it matters)
-		- Maybe link out to or briefly summarize [[Do Artifacts Have Politics|Do Artifacts Have Politics]]
+		- Maybe link out to or briefly summarize [[Do Artifacts Have Politics|Do Artifacts Have Politics](Do%20Artifacts%20Have%20Politics.md)
 		- ""Seemingly innocuous design features in mass transit systems, water projects, industrial machinery, and other technologies actually mask social choices of profound significance." (societal impact is treated as an externality, those which do not matter when 'just considering efficiency')"
 - Scalability
 	- Also to add to things in discussion (p.67):
@@ -137,5 +137,5 @@ Reviewing the second edition by *Martin Kleppmann*. This is the first book I'm h
 - Good history of SQL and NoSQL, contextualizes a lot of the next chapter!
 - Explain the fundamentals behind an index. What is it precomputing, how do I know if I need one?
 - Upper size of a table? How big is too big?
-	- I see a lot of HN discussion about "what is too big" and how [[Tailscale|Tailscale]] at one point was using [a big JSON file to store everything](https://tailscale.com/blog/an-unlikely-database-migration)
+	- I see a lot of HN discussion about "what is too big" and how [[Tailscale.md|Tailscale]] at one point was using [a big JSON file to store everything](https://tailscale.com/blog/an-unlikely-database-migration)
 - No major comments here, content is excellent and clear

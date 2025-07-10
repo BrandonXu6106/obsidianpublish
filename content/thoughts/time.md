@@ -7,19 +7,19 @@ tags:
 
 > "Time is not linear, but a series of concentric circles, like the rings of a tree. Ourselves today, our newest selves, are the outermost rings of a tree. We are comprised also of every person we were in the years leading up to today, even if those layers have compressed into the past." [Source](https://katiewav.substack.com/p/a-personal-syllabus-2022)
 
-The main insight from Einstein's special relativity is that _time is relative_. And as such, points in space-time are not totally ordered but rather partially ordered (see: [[Order theory]]).
+The main insight from Einstein's special relativity is that _time is relative_. And as such, points in space-time are not totally ordered but rather partially ordered (see: [[Order theory](Order%20theory.md)).
 
 Two observers of the same event might perceive it to have occurred at different times, depending on their relative motion. Or, in distributed systems land, two nodes may receive the same messages in different ordering, depending on network conditions.
 
 How do your order the events in the Universe? The answer, as Lamport noted, is you order events in terms of messages that could be sent between them.
 
-See also: [[A Certain Tendency Of The Database Community]], [[causality]], [[clocks]]
+See also: [[A Certain Tendency Of The Database Community](A%20Certain%20Tendency%20Of%20The%20Database%20Community.md), [[causality.md]], [[clocks.md]]
 
 ## At your own speed
 
 [Source](https://mindmud.substack.com/p/certainty)
 
-> I think this is a shame -- and love is my shining example. Call me crazy, but maybe it's a good sign when things feel remarkably simple and wordlessly right. And when they do, it's interesting to look around and notice how incredibly irrelevant speed is. Certainty means you're moving at the speed of [[trust]] -- a personal pace that ultimately has no record to beat or even road to follow
+> I think this is a shame -- and love is my shining example. Call me crazy, but maybe it's a good sign when things feel remarkably simple and wordlessly right. And when they do, it's interesting to look around and notice how incredibly irrelevant speed is. Certainty means you're moving at the speed of [[trust.md]] -- a personal pace that ultimately has no record to beat or even road to follow
 
 ## Fools and their time metaphors
 
@@ -31,19 +31,19 @@ Digital calendars *misrepresent* the default state of your time. It’s far fr
 
 The UX is *additive,* rather than *reductive*. We’re always “putting time on” calendars, never “taking it off.”
 
-Some particularly desperate people would invent fake events and strategically place them throughout the day, making it difficult for would-be time thieves to find enough “empty” time. These protective mechanisms are band-aids. They’re what designers call [[desire paths]]
+Some particularly desperate people would invent fake events and strategically place them throughout the day, making it difficult for would-be time thieves to find enough “empty” time. These protective mechanisms are band-aids. They’re what designers call [[desire paths](desire%20paths.md)
 
 ## Virtual Time
 
 [Virtual Time](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.134.6637&rep=rep1&type=pdf) (Jefferson, 1985)
 
-A [[git]] _rebase_-like approach to resolving conflict
+A [[git.md]] _rebase_-like approach to resolving conflict
 
-- Similar to [[Antimatter]] and netcode rollback
+- Similar to [[Antimatter.md]] and netcode rollback
   - Programmers can write correct software without paying any attention to late-arriving messages, and even with no knowledge of the possiblity of rollback, just as they can write without any attention to, or knowledge of, the possibility of page faults in a virtual memory system.
   - For every message there exists an antimessage that is exactly like it in format and content except in one field, its sign. Whenever a message and its antimessage occur in the same queue, they immediately annihilate one another.
 - Uses a global virtual time (GVT) watermark
-  - Similar to GST in [[system model#Timing behaviour (e.g. latency)|timing behaviours in system models]]
+  - Similar to GST in [[system model#Timing behaviour (e.g. latency)|timing behaviours in system models](system%20model.md)
   - Min of
     1.  all virtual times in all virtual clocks at time $r$
     2.  the virtual send times of all messages that have been sent but not yet processed at time $r$
@@ -61,7 +61,7 @@ A translated sci-fi fantasy short story on time.
 
 ## Nothing stops
 
-See also: [[nothing-stops|nothing stops]]
+See also: [[../posts/readnotes/nothing-stops.md|nothing stops]]
 
 [Original source from griefbacon](https://griefbacon.substack.com/p/nothing-stops?utm_source=url&curius=1299&s=r)
 
@@ -70,7 +70,7 @@ See also: [[nothing-stops|nothing stops]]
 - We are making a declaration that it is worth it to choose the losing side.
 - But I choose all that anyway; I would rather try and fail to stand still with you than to be fast and sleek without you.
 
-## In [[art|art]]
+## In [[art.md|art]]
 
 David Hockney:
 
@@ -145,5 +145,5 @@ The term was coined by C. S. Lewis and Owen Barfield, and first mentioned by Lew
 
 Stephen Wolfram thinks about time as the "progressive doing of computation by the universe."
 
-But it's not as simple as just replacing a "time coordinate" with a computational step count (e.g. [[clocks|logical clocks]]). Computational irreducibility will say that there's often essentially no better way to find what a system will do than by explicitly tracing through each step in its evolution.
+But it's not as simple as just replacing a "time coordinate" with a computational step count (e.g. [[clocks.md|logical clocks]]). Computational irreducibility will say that there's often essentially no better way to find what a system will do than by explicitly tracing through each step in its evolution.
 

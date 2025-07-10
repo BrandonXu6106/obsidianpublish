@@ -11,7 +11,7 @@ New web technologies and communities seeking to reduce or eliminate central poin
 
 The promise of the Distributed Web (DWeb) is that it gives everyone the ability to control their digital networks and platforms. In distributed networks, the underlying code, data, and network infrastructure are managed by many.
 
-See also: [[Rhizome Proposal]], [[distributed systems|distributed systems]]
+See also: [[Rhizome Proposal](Rhizome%20Proposal.md), [[distributed systems|distributed systems](distributed%20systems.md)
 
 ## Distributed Press
 
@@ -19,6 +19,6 @@ See also: [[Rhizome Proposal]], [[distributed systems|distributed systems]]
 
 The Distributed Web enables us to share content that **resist centralized forms of censorship**
 
-Distributed Press uses [[IPFS]] and [[Hypercore]] as our initial content sharing protocols. In addition to the familiar https, you can view our published content using the IPFS and Hypercore schemes on compatible browsers.
+Distributed Press uses [[IPFS.md]] and [[Hypercore.md]] as our initial content sharing protocols. In addition to the familiar https, you can view our published content using the IPFS and Hypercore schemes on compatible browsers.
 
-See also: [[Syndication|syndication]]
+See also: [[Syndication.md|syndication]]

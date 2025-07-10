@@ -13,11 +13,11 @@ Your fair betting quotient (FBQ) for A is p if you think that the following is a
 - If A is true, you win $(1 - p)S$
 - If A is not true, you lose $pS$
 
-Betting table is different from [[Decision theory|decision tables]]. Columns are different bets.
+Betting table is different from [[Decision theory|decision tables](Decision%20theory.md). Columns are different bets.
 
 | A   | Bet for A | Bet against A |
 | --- | --------- | ------------- |
 | T   | $(1-p)S$  | $-(1-p)S$     |
 | F   | $-pS$     | $pS$          |
 
-Suppose a set of credences (or FBQ’s) is incoherent. We can always construct a [[Dutch Book]]. Have the agent bet for propositions with credences (or FBQs) that are too high, and against propositions with credences (or FBQs) that are too low.
+Suppose a set of credences (or FBQ’s) is incoherent. We can always construct a [[Dutch Book](Dutch%20Book.md). Have the agent bet for propositions with credences (or FBQs) that are too high, and against propositions with credences (or FBQs) that are too low.

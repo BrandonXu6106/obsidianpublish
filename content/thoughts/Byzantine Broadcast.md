@@ -7,7 +7,7 @@ aliases:
   - BB
 ---
 
-In Byzantine broadcast (BB) or Byzantine reliable broadcast (BRB), there is a designated sender that sends its input value to all parties, and all non-[[fault tolerance|faulty]] parties must deliver the same value.
+In Byzantine broadcast (BB) or Byzantine reliable broadcast (BRB), there is a designated sender that sends its input value to all parties, and all non-[[fault tolerance|faulty](fault%20tolerance.md) parties must deliver the same value.
 
 Assumptions:
 
@@ -16,13 +16,13 @@ Assumptions:
 
 One way to do it is using a single leader, but what happens if the leader crashes/becomes unavailable? We can just manually failover: human operator chooses a new leader and reconfigures each node to use new leader, but this is non-ideal.
 
-Normally, we solve BB using consensus algorithms to solve this. Some common consensus algorithms include (all assume partially synchronous, crash-recovery [[system model|system model]]):
+Normally, we solve BB using consensus algorithms to solve this. Some common consensus algorithms include (all assume partially synchronous, crash-recovery [[system model|system model](system%20model.md)):
 
 - Paxos: single-value consensus
-- Multi-Paxos: generalization to [[message broadcast#Total order broadcast|total order broadcast]]
-- [[Raft Consensus Algorithm|Raft]], Viewstamped Replication, Zab: [[message broadcast#Total order broadcast|total order broadcast]] by default
+- Multi-Paxos: generalization to [[message broadcast#Total order broadcast|total order broadcast](message%20broadcast.md)
+- [[Raft Consensus Algorithm|Raft](Raft%20Consensus%20Algorithm.md), Viewstamped Replication, Zab: [[message broadcast#Total order broadcast|total order broadcast](message%20broadcast.md) by default
 
-Blockchain consensus models are slightly different as they assume partially synchronous Byzantine [[system model|system model]].
+Blockchain consensus models are slightly different as they assume partially synchronous Byzantine [[system model|system model](system%20model.md).
 
 For all approaches below, we assume
 
@@ -33,7 +33,7 @@ We denote $f$ as the number of Byzantine nodes
 
 ## Naive Approach
 
-Reliant on a synchronous [[system model#Timing behaviour e g latency|system model]]
+Reliant on a synchronous [[system model#Timing behaviour e g latency|system model](system%20model.md)
 
 1. `t=0`: sender sends a signed value $v^*$ to all other nodes
 2. `t=1`: nodes echo msg from sender to all other nodes, signed again (cross-checking)
@@ -43,7 +43,7 @@ Solves BB for $f \leq 1$, $n \geq 4$. Doesn't hold for Byzantine sender, only By
 
 ## Dolev-Strong (1983)
 
-Trying to generalize the naive approach for potentially Byzantine senders by utilizing [[digital signatures|signature]] chains
+Trying to generalize the naive approach for potentially Byzantine senders by utilizing [[digital signatures|signature](digital%20signatures.md) chains
 
 In essence, node $i$ is only convinced of value $v$ at time $t$ if it receives a message that
 
@@ -55,4 +55,4 @@ The principle is to only accept a value in the last round if its contents can ce
 
 At the end of $f$ rounds of cross-checking (one round per possible Byzantine node), if node $i$ is convinced of exactly one value, that is the correct value. Otherwise, output the. default value (e.g. an empty list of txs)
 
-Solves BB for $f < n$, but really only useful at $f < \frac n 2$ for [[State Machine Replication (SMR)|state machine replication]]. If $f < \frac n 2$ then we can take majority vote to arrive at consistent state (not the case if $f \geq \frac n 2$). This bypasses the [[PSL-FLM Impossibility Result|PSL-FLM Impossibility Result]] because we assume [[Public-key Infrastructure|PKI]] exists
+Solves BB for $f < n$, but really only useful at $f < \frac n 2$ for [[State Machine Replication (SMR)|state machine replication](State%20Machine%20Replication%20(SMR).md). If $f < \frac n 2$ then we can take majority vote to arrive at consistent state (not the case if $f \geq \frac n 2$). This bypasses the [[PSL-FLM Impossibility Result|PSL-FLM Impossibility Result](PSL-FLM%20Impossibility%20Result.md) because we assume [[Public-key Infrastructure|PKI](Public-key%20Infrastructure.md) exists

@@ -9,7 +9,7 @@ Heavily attached to societal [progress](progress.md) and the concept of defining
 
 Has the scientific culture of being wrong now vs a few hundred years ago changed? Would Einstein survive in the modern age? Probably not.
 
-Hypothesizing that this is leading to small incremental changes rather than monumental new theories/original work from being developed. (see: [[academia]])
+Hypothesizing that this is leading to small incremental changes rather than monumental new theories/original work from being developed. (see: [[academia.md]])
 
 > "Science advances one funeral at a time"
 

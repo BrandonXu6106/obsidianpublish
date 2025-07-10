@@ -10,7 +10,7 @@ aliases:
 
 The fundamental building block of all I/O in Unix is a sequence of bytes. Most programs work with an even simpler abstraction — a stream of bytes or an I/O stream.
 
-A process references byte streams with the help of descriptors, also known as file descriptors. Pipes, [[TCP|TCP]] connections, files, [[terminal#TTY|TTYs]], FIFOs, event queues are all examples of streams referenced by a descriptor.
+A process references byte streams with the help of descriptors, also known as file descriptors. Pipes, [[TCP.md|TCP]] connections, files, [[terminal.md#TTY|TTYs]], FIFOs, event queues are all examples of streams referenced by a descriptor.
 
 ## Flags
 `open(2)` can be called with various flags that affect the behaviour of the actual file descriptor.
@@ -53,7 +53,7 @@ There are two ways to find out about the readiness status of a descriptor: edge-
 
 Every descriptor points to a data structure called the [file entry](https://github.com/torvalds/linux/blob/master/include/linux/fs.h#L987-L1027). The file entry maintains a per descriptor file offset `f_pos` in bytes from the beginning of the file entry object. 
 
-![[content/thoughts/images/fd-diagram.png]]
+![[images/fd-diagram.png]]
 
 Each file entry has an array of function pointers `const struct file_operations *f_op;{:c}`. This array of function pointers translates generic operations on file descriptors to file-type specific implementations.
 

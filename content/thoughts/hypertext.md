@@ -11,7 +11,7 @@ He envisioned a world where computers would enable people to write and publish i
 
 Hypertext was "nonsequential" text, in which a reader was not constrained to read in any particular order, but could follow links and delve into the original document from a short quotation.
 
-See also: [[the garden and the stream]]
+See also: [[the garden and the stream](the%20garden%20and%20the%20stream.md)
 
 ## Xanadu
 

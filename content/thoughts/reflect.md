@@ -19,11 +19,11 @@ Classifying intents is at the core of reflect. When a user inputs an intent, its
 
 ## Why it’s so difficult
 
-A lot of it comes down to the fact that natural language processing ([[NLP|NLP]]) is a very difficult task. What does the sentence “learn about physics” mean, and how is it semantically different from “asdflkj I can’t do work”?
+A lot of it comes down to the fact that natural language processing ([[NLP.md|NLP]]) is a very difficult task. What does the sentence “learn about physics” mean, and how is it semantically different from “asdflkj I can’t do work”?
 
 We can’t just parse for keywords and just allow a user in if we see the word “work” because that word can mean different things in different contexts. For example, “I’m not doing any work right now” would have otherwise been classified as valid. Thus, we can employ the help of a machine learning algorithm to help us capture this deeper meaning.
 
-Specifically, the form of machine learning we will be using is called **[[supervised learning]],** in which we give an algorithm a bunch of labelled data, tell it what it’s doing wrong, and let it ‘learn.’ Through doing this, hopefully the algorithm will be able to generalize and make predictions on unseen data too.
+Specifically, the form of machine learning we will be using is called **[[supervised learning](supervised%20learning.md),** in which we give an algorithm a bunch of labelled data, tell it what it’s doing wrong, and let it ‘learn.’ Through doing this, hopefully the algorithm will be able to generalize and make predictions on unseen data too.
 
 ## The data
 
@@ -201,7 +201,7 @@ Now that we have something ready to feed into our neural network, let’s dive i
 
 ## The model
 
-The type of neural network that we’ll be using is called Long Short-Term Memory ([[LSTM|LSTM]]).
+The type of neural network that we’ll be using is called Long Short-Term Memory ([[LSTM.md|LSTM]]).
 
 ![credit: Christopher Olah, 2015](https://cdn-images-1.medium.com/max/4000/0*HyoZq6fOfsnn2YOC)_credit: Christopher Olah, 2015_
 
@@ -241,7 +241,7 @@ Next up, we have the Embedding layer. We could get into a really technical discu
 
 ![credit: Rutger Ruizendaal, 2017](https://cdn-images-1.medium.com/max/3010/0*YOZ_CfmtgpUbJ9BD)_credit: Rutger Ruizendaal, 2017_
 
-Essentially, it [[latent-factor model|embeds]] tokens in a [[latent-factor model|higher dimension vector space]], where distance between tokens represents its similarity.
+Essentially, it [[latent-factor model|embeds](latent-factor%20model.md) tokens in a [[latent-factor model|higher dimension vector space](latent-factor%20model.md), where distance between tokens represents its similarity.
 
 ```python
 layer = LSTM(64, return_sequences = True)(layer)

@@ -12,11 +12,11 @@ What does it mean to be conscious? Is consciousness emergent from matter? Or is 
 
 "Consciousness is always consciousness of something, and when the object is subtracted, nothing remains to be characterized" (cannot be of independent origin, [emptiness](emptiness.md))
 
-See also: [Hard problem of consciousness](Hard%20problem%20of%20consciousness.md), [The Upanisads](The%20Upanisads.md), [qualia](qualia.md), [self-knowledge](self-knowledge.md), [[Primacy of Consciousness|Primacy of Consciousness]], [[Nagel's Bat Argument|Nagel's Bat Argument]]
+See also: [Hard problem of consciousness](Hard%20problem%20of%20consciousness.md), [The Upanisads](The%20Upanisads.md), [qualia](qualia.md), [self-knowledge](self-knowledge.md), [[Primacy of Consciousness|Primacy of Consciousness](Primacy%20of%20Consciousness.md), [[Nagel's Bat Argument|Nagel's Bat Argument](Nagel's%20Bat%20Argument.md)
 
 Types of consciousness:
 
-- [[phenomenology|Phenomenal]] consciousness (felt consciousness) vs Access consciousness
+- [[phenomenology.md|Phenomenal]] consciousness (felt consciousness) vs Access consciousness
 - Gross consciousness (obvious waking state) vs Subtle consciousness (sleep/deep sleep). In more Indian philosophy, consciousness is that which is luminous (revealing) and has capacity for cognition.
 
 Theories of consciousness
@@ -106,20 +106,20 @@ Human consciousness emerges on the interface between three components of animal 
 
 Behaviour, in this context, is a biological adjustment by means of movements and all kinds of movement-related physiological activity
 
-Communication and [[content/thoughts/play]] yields symbolic games and, more importantly, [[language|language]]
+Communication and [[play.md]] yields symbolic games and, more importantly, [[language.md|language]]
 
 Interaction between symbols and tools results in human [praxis](praxis.md)
 
 Life is a continuous battle against the second law of thermodynamics. All organisms' needs can be subsumed as a need in negentropy
 
-1. [Play](content/thoughts/play.md): Play, therefore, introduces something that can be called “second reality” (Vygotsky, 1978). In this reality the life is going on as if it is the “primary reality,” but with the nice difference that whenever I don't like what happens, I simply stop the process and go out, or start it anew. This makes play suspiciously like consciousness
+1. [Play](play.md): Play, therefore, introduces something that can be called “second reality” (Vygotsky, 1978). In this reality the life is going on as if it is the “primary reality,” but with the nice difference that whenever I don't like what happens, I simply stop the process and go out, or start it anew. This makes play suspiciously like consciousness
 2. Tools: A stick is eventually manipulated “just for fun,” and then, suddenly, it turns out to be useful. Thus no animals unable to play can use tools.
 3. Communication: behaviour whose main effect is changing the behaviour of another animal
 
-![](Sources%20of%20consciousness.png)
+![](images/Sources%20of%20consciousness.png)
 
 Consciousness is then the simulated or [potemkin village](potemkin%20village.md) of reality. In words of Karl Popper, instead of dying as a result of our errors, we can let our hypotheses die on our site ([Popper, 1963](https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00567/full#B143)).
 
-We do not consciously think (construct this virtual reality) all the time. Consciousness is the _capacity_ to consciously think ([telerobotics](telerobotics.md) vs [[telepresence|telepresence]])
+We do not consciously think (construct this virtual reality) all the time. Consciousness is the _capacity_ to consciously think ([telerobotics](telerobotics.md) vs [[telepresence.md|telepresence]])
 
 [^1]: This content is sourced from Professor [Evan Thompson](https://evanthompson.me/)'s course materials for PHIL451A at UBC. All rights to this content is retained by Evan Thompson.

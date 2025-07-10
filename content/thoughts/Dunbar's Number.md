@@ -24,6 +24,6 @@ A range (by a factor of 3)
 
 Can we scale trust beyond the Dunbar number? Is this what makes large orgs so sluggish and boring to work at?
 
-This applies to scaling orgs and projects too. How do we ensure that [open source software](Making%20and%20Maintenance%20of%20OSS.md) works when more than say 150 people are contributing? (see also: [[Universal Scaling Law]])
+This applies to scaling orgs and projects too. How do we ensure that [open source software](Making%20and%20Maintenance%20of%20OSS.md) works when more than say 150 people are contributing? (see also: [[Universal Scaling Law](Universal%20Scaling%20Law.md))
 
 What about in [web3](web3.md)? Structure helps us scale beyond 'natural' community sizes but this seems difficult in a group where the ethos is very much against said centralized structure.

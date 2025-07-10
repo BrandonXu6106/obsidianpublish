@@ -5,13 +5,13 @@ tags:
   - seed
 ---
 
-Solana is a [[blockchain|blockchain]] that claims to be fast, secure, scalable, affordable, and resistant to [[censorship|censorship]]
+Solana is a [[blockchain.md|blockchain]] that claims to be fast, secure, scalable, affordable, and resistant to [[censorship.md|censorship]]
 
 Main technical innovations
 
 ## Proof of History
 
-For a blockchain to work, participant nodes need to reach an agreement on time. Traditional blockchains like [[bitcoin|Bitcoin]] function by [[proof of work|proof of work]].
+For a blockchain to work, participant nodes need to reach an agreement on time. Traditional blockchains like [[bitcoin.md|Bitcoin]] function by [[proof of work|proof of work](proof%20of%20work.md).
 
 The whole philosophy behind it is:
 
@@ -23,7 +23,7 @@ This guarantees that when an output is valid for an input, some time has passed 
 
 ## Tower BFT
 
-[[PBFT|PBFT]] which uses proof of history as a reliable source of time.
+[[PBFT.md|PBFT]] which uses proof of history as a reliable source of time.
 
 From [Solana Documentation](https://docs.solana.com/implemented-proposals/tower-bft)
 
@@ -33,7 +33,7 @@ From [Solana Documentation](https://docs.solana.com/implemented-proposals/tower-
 
 ## Turbine
 
-Similar to data sharing approaches in [[peer-to-peer|p2p]], seed chunks to peers that can then share amongst themselves.
+Similar to data sharing approaches in [[peer-to-peer.md|p2p]], seed chunks to peers that can then share amongst themselves.
 
 ## Gulf Stream
 
@@ -45,6 +45,6 @@ Isn't this potentially problematic? If all nodes know what the upcoming leader i
 
 If each node in the network was required to store that much data, a limited group of participants who could afford and manage that kind of storage, could join the network and this makes the network centralized.
 
-PoRep stands for proof of replication and it’s a system introduced by [[Filecoin|Filecoin]] initially in which a prover defends a publicly verifiable claim that it is dedicating unique resources to storing one or more retrievable replicas of a data file.
+PoRep stands for proof of replication and it’s a system introduced by [[Filecoin.md|Filecoin]] initially in which a prover defends a publicly verifiable claim that it is dedicating unique resources to storing one or more retrievable replicas of a data file.
 
 Occasionally, the network will ask/challenge the archivers to prove they’re doing their job of storing data and at this point, archivers should complete PoRep.

@@ -7,7 +7,7 @@ tags:
 
 > Use random selection of nodes to pass on information to ensure it reaches all the nodes in the cluster without flooding the network
 
-See also: [[message broadcast]]
+See also: [[message broadcast](message%20broadcast.md)
 
 When we receive a message from a client, we want all the other servers to know about that message eventually.
 
@@ -19,7 +19,7 @@ Checkout Hashicorp's [convergence simulator](https://www.serf.io/docs/internals/
 
 Normally, each node tracks its topology (or local neighbourhood). This is either calculated dynamically or given on initialization.
 
-Then, we broadcast to only our peers (as defined by the topology). Then, through [[transitive closure|transitive closures]], the message will make its way to every node if all nodes form a connected subgraph
+Then, we broadcast to only our peers (as defined by the topology). Then, through [[transitive closure|transitive closures](transitive%20closure.md), the message will make its way to every node if all nodes form a connected subgraph
 
 Two approaches
 
@@ -33,7 +33,7 @@ Two approaches
 
 [Source](https://martinfowler.com/articles/patterns-of-distributed-systems/gossip-dissemination.html)
 
-Gossip Dissemination is based on the mathematical models from epidemiology (see: [[Network Theory]])
+Gossip Dissemination is based on the mathematical models from epidemiology (see: [[Network Theory](Network%20Theory.md))
 
 Each node selects a random node to pass the information it has. This is done at a regular interval, say every 1 second. Each time, a random node is selected to pass on the information.
 

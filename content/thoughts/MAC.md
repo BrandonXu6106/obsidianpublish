@@ -15,4 +15,4 @@ Not to be confused with MAC addresses.
   - Bob sends message $h = H(m + s)$
   - Alice receives $(m, h)$ and computes $H(m + s)$
   - If $h = H(m+s)$, message is considered signed
-- Fast because [[Asymmetric Key Cryptography|asymmetric key crypto]] is not necessary
+- Fast because [[Asymmetric Key Cryptography|asymmetric key crypto](Asymmetric%20Key%20Cryptography.md) is not necessary

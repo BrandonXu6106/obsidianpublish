@@ -6,7 +6,7 @@ tags:
   - pattern
 ---
 
-[[machine learning|Machine Learning]] and [AI Systems](agi.md) excludes the tail ends of the distributions. Synthetic/generative/federated models suck at these. And, for a lot of industries, the most interesting cases _are_ outliers (esp. in medical AI)
+[[machine learning|Machine Learning](machine%20learning.md) and [AI Systems](../posts/software/agi.md) excludes the tail ends of the distributions. Synthetic/generative/federated models suck at these. And, for a lot of industries, the most interesting cases _are_ outliers (esp. in medical AI)
 
 This is where minorities live, and the result is that most ML systems end up reproducing existing systems of power (re: [To live in their Utopia](To%20Live%20in%20their%20Utopia.md), [Matthew Effect](Matthew%20Effect.md))
 

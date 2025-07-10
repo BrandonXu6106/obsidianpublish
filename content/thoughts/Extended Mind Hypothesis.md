@@ -15,13 +15,13 @@ It suggests that human cognitive systems include those resources that are import
 
 ## Environmentally Supported Cognition
 
-Derives from the [[Theory of Niche Construction]], helps to emphasize the active role of the agent in explaining the adaptive fit of agent and environment
+Derives from the [[Theory of Niche Construction](Theory%20of%20Niche%20Construction.md), helps to emphasize the active role of the agent in explaining the adaptive fit of agent and environment
 
 Over time, agents adapt to environments but also adapt their environment to them
 
 > "Animals construct nests, burrows and dams, thus protecting themselves from predators and from the violence of the world."
 
-[[epistemology|Epistemic]] action is a form of niche construction too. For example, ants lay scent trails between nest and food source. Humans also partake in [generational learning](generational%20learning.md)
+[[epistemology.md|Epistemic]] action is a form of niche construction too. For example, ants lay scent trails between nest and food source. Humans also partake in [generational learning](generational%20learning.md)
 
 ## Agential Gullibility
 
@@ -57,5 +57,5 @@ Environmental fuels for cognition — three dimensions
 3.  The individual and the collective
     - distinction between individual and collective resources
       - collective resources have distinct individual and intergeneration dynamics
-      - [[language|language]] have almost certainly transformed the internal processes of human minds
-      - We adapt the expressive powers of [[language|language]] to our own purposes, but no doubt we have also adapted to it (not to any one individual, but to society as a collective)
+      - [[language.md|language]] have almost certainly transformed the internal processes of human minds
+      - We adapt the expressive powers of [[language.md|language]] to our own purposes, but no doubt we have also adapted to it (not to any one individual, but to society as a collective)

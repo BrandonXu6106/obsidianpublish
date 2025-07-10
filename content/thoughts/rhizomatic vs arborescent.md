@@ -8,7 +8,7 @@ aliases:
   - arborescent
 ---
 
-See also: [[A City is not a Tree|A City is Not a Tree]]
+See also: [[A City is not a Tree|A City is Not a Tree](A%20City%20is%20not%20a%20Tree.md)
 
 ## Arborescent
 
@@ -22,7 +22,7 @@ Does power always need to function top down?
 
 > "The enormity of this restriction is difficult to grasp. It is a little as though the members of a family were not free to make friends outside the family, except when the family as a whole made a friendship."
 
-The structure of a [[blockchain|blockchain]] follows this very closely. See also: [[semilattice]]
+The structure of a [[blockchain.md|blockchain]] follows this very closely. See also: [[semilattice.md]]
 
 ## Rhizomatic
 
@@ -30,4 +30,4 @@ The structure of a [[blockchain|blockchain]] follows this very closely. See also
 
 A nonlinear and non-hierarchical network with no specific entry or exit points. Defined as a _non-arborescent_ network.
 
-Also what [[Rhizome Proposal|Rhizome]] is named after.
+Also what [[Rhizome Proposal|Rhizome](Rhizome%20Proposal.md) is named after.

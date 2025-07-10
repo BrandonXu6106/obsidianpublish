@@ -31,7 +31,7 @@ Line breaks *always* count as a single unit.
 
 It is sometimes necessary to figure out where a position in a start document ends up in a changed document. For this purpose, the library provides a position mapping feature, which, given a transaction (or just a change set) and a start position, can give you the corresponding new position.
 
-This is similar to [[Operational Transform#Position Mapping|position mapping in OT]]
+This is similar to [[Operational Transform#Position Mapping|position mapping in OT](Operational%20Transform.md)
 
 ### Selections
 

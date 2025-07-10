@@ -7,12 +7,12 @@ aliases:
   - thoughts/2PC
 ---
 
-Type of atomic commitment protocol that allows processes to participate in a [[distributed atomic transaction]].
+Type of atomic commitment protocol that allows processes to participate in a [[distributed atomic transaction](distributed%20atomic%20transaction.md).
 
 ## Assumptions
 The protocol assumes that:
 
-1. there is a [[write-ahead logging|WAL]]
+1. there is a [[write-ahead logging|WAL](write-ahead%20logging.md)
 2. no node crashes forever,
 3. any two nodes can communicate with each other.
 

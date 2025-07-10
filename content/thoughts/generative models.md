@@ -14,8 +14,8 @@ Last 10 years have seen a variety of new deep generative models:
 - Generative adversarial networks (GANs)
 - Normalizing flows
 - Diffusion models
-  - Take training images, and add [[noise|noise]] to them in a sequence of steps.
-  - Until the image basically looks like random [[noise|noise]].
+  - Take training images, and add [[noise.md|noise]] to them in a sequence of steps.
+  - Until the image basically looks like random [[noise.md|noise]].
   - Train neural network to reverse those steps.
   - Generate a new image by starting from random noise and applying the network
 - Text-guided Diffusion
@@ -24,4 +24,4 @@ Last 10 years have seen a variety of new deep generative models:
   - Trains to maximize the cosine similarity between image-caption pairs
   - After this step is finished, the model is frozen
 
-![[generative models.png]]
+![[generative models.png](images/generative%20models.png)

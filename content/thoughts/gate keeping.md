@@ -29,4 +29,4 @@ Mass media communications theory
 - Cass Sunstein: "information cocoons"
 - Serves a sort of invisible auto propaganda, indoctrinating us with our own ideas, amplifying our desire for things that are familiar
 
-Potential dangers of [[cozy software|personal software]]
+Potential dangers of [[cozy software|personal software](cozy%20software.md)

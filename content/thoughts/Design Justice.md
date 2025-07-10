@@ -8,11 +8,11 @@ tags:
 
 ## Summary
 
-Design Justice focuses not just on design in the visual and aesthetic sense, but also on the [[systems design|design of systems]].
+Design Justice focuses not just on design in the visual and aesthetic sense, but also on the [[systems design|design of systems](systems%20design.md).
 
 To quote from the book, "Design justice rethinks design processes, centers people who are normally marginalized by design, and uses collaborative, creative practices to address the deepest challenges our communities face." The norms, values, and assumptions that are encoded and reproduced in the _design_ of systems can be changed by rethinking our design processes.
 
-In less than 400 short pages, Sasha Costanza-Chock covers a breadth of topics ranging from intersectionality, bias, and universal design to maintenance, design sites, and [[Technosolutionism|technosolutionism]] -- all through detailed case studies of real-world design practices and social movements.
+In less than 400 short pages, Sasha Costanza-Chock covers a breadth of topics ranging from intersectionality, bias, and universal design to maintenance, design sites, and [[Technosolutionism.md|technosolutionism]] -- all through detailed case studies of real-world design practices and social movements.
 
 She guides the reader into how the 'unmarked user' and universal design erases certain groups of people within the matrix of domination (through ableist, eurocentric, and classist assumptions) and refutes the argument that 'design by committee produces mediocrity.'
 
@@ -20,7 +20,7 @@ Design Justice is a book that invites us to "center people who are too often mar
 
 ## Reflection
 
-Design sites are valorized as places of learning, making, and building and the intersection of social movements and the [[counterculture|counterculture]]. Why then, have they become increasingly corporate places of extraction of free labour?
+Design sites are valorized as places of learning, making, and building and the intersection of social movements and the [[counterculture.md|counterculture]]. Why then, have they become increasingly corporate places of extraction of free labour?
 
 This cooptation of [hacker](Hackers.md) culture, hackathons as design sites in particular, by neoliberalism has been on the back of my mind ever since reading the chapter on design sites in Design Justice. As someone who first got their footing in computer science through hackathons, it pains me to see that this is the rep that hackathons have slowly gotten over time, moving from safe spaces for idea exploration to increasingly corporate, time-bound, events where hackers spin up apps to test company products in exchange for the slim chance of winning prizes and recognition.
 
@@ -28,7 +28,7 @@ Hackathons reshape precarious and unpaid work. Writing code and building apps fo
 
 As a hackathon organizer, Design Justice has helped me to more actively think about what hackathons are trying to motivate. Having more of the tools to articulate and locate exactly why hackathons have felt increasingly corporate is the first step to reinstate hackathons as third spaces not as places of creation or competition, but as places of play and exploration.
 
-Read more: [[content/posts/aigc/hackathons]]
+Read more: [[../posts/aigc/hackathons.md]]
 
 ## Quotes
 
@@ -81,7 +81,7 @@ Far too often, user personas are created out of thin air by members of the desig
 
 Neoliberal, technocentric ideas about the city as a machine or as a software system waiting to be optimized have become increasingly prominent. Citizens should not be reduced to users through the lens of neoliberal governmentality.
 
-First consider what already works at the community level, and to steer students away from the pitfalls of [[Technosolutionism|technosolutionism]] and technochauvanism
+First consider what already works at the community level, and to steer students away from the pitfalls of [[Technosolutionism.md|technosolutionism]] and technochauvanism
 
 ### Attention
 
@@ -105,7 +105,7 @@ Many who are active in these design sites feel themselves to be participants in 
 
 Without intentional intervention, these spaces find it very difficult to fulfil even their own liberal democratic rhetoric because they end up dominated by white cis men and by middle-class people with free time and disposable income.
 
-More on hackathons: [hackathons](content/posts/aigc/hackathons.md)
+More on hackathons: [hackathons](../posts/aigc/hackathons.md)
 
 #### Hackathons: The Bad
 
@@ -133,7 +133,7 @@ Organizers should pay attention to participants as whole human beings. For examp
 
 ### Design Justice Pedagogies
 
-"Critical [[teaching|pedagogy]], where the role of the educator is to pose problems, create spaces for the collective development of critical consciousness, help to develop plans for action to make the world a better place, and develop a sense of agency among learners"
+"Critical [[teaching.md|pedagogy]], where the role of the educator is to pose problems, create spaces for the collective development of critical consciousness, help to develop plans for action to make the world a better place, and develop a sense of agency among learners"
 
 "No one knows everything, but together we know a lot, if we listen to each other"
 
@@ -141,7 +141,7 @@ Key elements
 
 - Teach data science in a way that honours context, respects situated knowledge, and makes it clear that data is never "raw".
 - Emphasize the use of data to create shared meaning over individual mastery.
-- Teach data science that values not only reason, but [[ethics|ethics]] and emotions as well
+- Teach data science that values not only reason, but [[ethics.md|ethics]] and emotions as well
 
 ### Critiques
 

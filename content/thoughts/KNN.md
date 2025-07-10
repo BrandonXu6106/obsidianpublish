@@ -12,12 +12,12 @@ To classify an example, we find the $k$ examples closest to the example and take
 
 Works based off of the assumption that similar features are likely to have similar labels
 
-Effects on [[fundamental tradeoff]]:
+Effects on [[fundamental tradeoff](fundamental%20tradeoff.md):
 
 - As $k$ grows, training error increases and approximation error decreases.
 - As $n$ grows, model complexity increases
 
-We measure distance using the "norm" between feature vectors. The most common norm is the L2-Norm or [[linear algebra#Vector Norm|Euclidean Norm]]
+We measure distance using the "norm" between feature vectors. The most common norm is the L2-Norm or [[linear algebra#Vector Norm|Euclidean Norm](linear%20algebra.md)
 
 ## Performance
 
@@ -26,4 +26,4 @@ We measure distance using the "norm" between feature vectors. The most common no
 - $O(nd)$ space to store each training example in memory
   - This is non-parametric
 
-KNN can suck in high dimensions (see: [[Curse of Dimensionality|curse of dimensionality]])
+KNN can suck in high dimensions (see: [[Curse of Dimensionality|curse of dimensionality](Curse%20of%20Dimensionality.md))

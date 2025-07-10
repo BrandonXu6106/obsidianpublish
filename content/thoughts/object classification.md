@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-See also: [[object detection]]
+See also: [[object detection](object%20detection.md)
 
 ## Data to Model
 
@@ -58,11 +58,11 @@ Classifier is a procedure that accepts as input a set of features and outputs a 
 
 1. Dictionary Learning: learn visual words using clustering
 2. Encode: build Bags-of-words vectors for each image
-3. Classify: train and test data using BOW ([[KNN|KNN]], [[Naive Bayes|naive Bayes]], [[SVM|SVM]])
+3. Classify: train and test data using BOW ([[KNN.md|KNN]], [[Naive Bayes|naive Bayes](Naive%20Bayes.md), [[SVM.md|SVM]])
 
 ### Bayes Rule
 
-See: [[probability#Bayes' Theorem|Bayes' Theorem]]
+See: [[probability.md#Bayes' Theorem|Bayes' Theorem]]
 
 Decision boundary, the location where one class becomes more probable than the other (e.g the point where the probability classes are equal).
 
@@ -70,7 +70,7 @@ The Bayes' risk is the shaded region where one class's probability is still non-
 
 ![](/thoughts/images/bayes-risk.png)
 
-See also: [[probability|probability]]
+See also: [[probability.md|probability]]
 
 ### ROC Curve
 
@@ -99,13 +99,13 @@ Dimensionality is $Kd$ where $K$ is number of codewords and $d$ is the dimension
 
 ## Decision Tree
 
-See notes on [[decision tree|decision trees]]
+See notes on [[decision tree|decision trees](decision%20tree.md)
 
 ### Classifier Boosting
 
-- Train an [[Ensemble method|ensemble]] of classifiers sequentially
+- Train an [[Ensemble method|ensemble](Ensemble%20method.md) of classifiers sequentially
 - Bias subsequent classifiers to correctly predict training examples that previous classifiers got wrong
 
 ## CNNs
 
-See notes on [[convolutional neural networks|CNNs]]
+See notes on [[convolutional neural networks|CNNs](convolutional%20neural%20networks.md)

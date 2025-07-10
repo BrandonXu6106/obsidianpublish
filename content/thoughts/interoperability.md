@@ -12,7 +12,7 @@ I think interoperability in the context of the web means being able to transpare
 
 A good standard is if I can hit 'export all data' on a platform and I can completely and freely use that elsewhere -- no vendor lock-in. I think this is esp hard for [social graphs](social%20graphs.md), there is no common/accepted standard for identity let alone connectedness between individuals
 
-Related: [tools for thought](tools%20for%20thought.md), [[credible exit|credible exit]]
+Related: [tools for thought](tools%20for%20thought.md), [[credible exit|credible exit](credible%20exit.md)
 
 ## Noun-based Interoperability
 
@@ -40,7 +40,7 @@ Apps in this operating system then declare 'default' apps for certain data types
 
 Ability to not only source local data but remote data too -> fetching from URLs, feeds, etc.
 
-[[Unix|UNIX]]-level [[composable|composability]] -- apps should be atomic building blocks. Creating pipeline apps to transform and massage data (possibly using Clay??).
+[[Unix.md|UNIX]]-level [[composable.md|composability]] -- apps should be atomic building blocks. Creating pipeline apps to transform and massage data (possibly using Clay??).
 
 Auto-grouping of similar data? Set-theory for data?
 
@@ -80,7 +80,7 @@ However, in practice, most interoperability requires a tradeoff between
 
 ### Cambria
 
-Over time, a project using Cambria will accumulate many lenses, each describing the relationship between two versions. Migrations between distant versions are created by [[composable|composing]] lenses into a graph where each node is a schema, and each edge is a lens. To translate data between two schemas, Cambria sends it through the shortest available path in the lens graph. These lenses must be kept in a place where even old versions of the program can retrieve them, such as in a database, at a well-known URL, or else as part of the document itself.
+Over time, a project using Cambria will accumulate many lenses, each describing the relationship between two versions. Migrations between distant versions are created by [[composable.md|composing]] lenses into a graph where each node is a schema, and each edge is a lens. To translate data between two schemas, Cambria sends it through the shortest available path in the lens graph. These lenses must be kept in a place where even old versions of the program can retrieve them, such as in a database, at a well-known URL, or else as part of the document itself.
 
 ![](https://www.inkandswitch.com/cambria/static/lens-graph.svg)
 Caveats:

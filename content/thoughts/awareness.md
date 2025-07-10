@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-Generally referred to as an awareness of [[the Self]]
+Generally referred to as an awareness of [[the Self](the%20Self.md)
 
 An inverse is absence, particularly visual absence
 
@@ -21,4 +21,4 @@ On ego-death
 
 > What actually happened was something absurdly simple and unspectacular: just for the moment I stopped thinking. Reason and imagination and all mental chatter died down. For once, words really failed me. I forgot my name, my humanness, my thingness, all that could be called me or mine. Past and future dropped away. It was as if I had been born that instant, brand new, mindless, innocent of all memories. There existed only the Now, that present moment and what was clearly given in it. To look was enough.
 
-First-person methods are central to the philosophical movement known as [[phenomenology]].
+First-person methods are central to the philosophical movement known as [[phenomenology.md]].

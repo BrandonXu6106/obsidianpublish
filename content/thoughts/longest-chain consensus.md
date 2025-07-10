@@ -8,15 +8,15 @@ aliases:
   - Nakamoto-style consensus
 ---
 
-See also: [[consensus|consensus]]
+See also: [[consensus.md|consensus]]
 
 Requires $f < \frac n 2$
 
-Primarily studied in the synchronous [[system model|system model]]. Three forms:
+Primarily studied in the synchronous [[system model|system model](system%20model.md). Three forms:
 
-1. Permissioned + [[Public-key Infrastructure|PKI]]
-2. Permissionless + [[proof of work|PoW]]
-3. Permissionless + [[proof of stake|PoS]]
+1. Permissioned + [[Public-key Infrastructure|PKI](Public-key%20Infrastructure.md)
+2. Permissionless + [[proof of work|PoW](proof%20of%20work.md)
+3. Permissionless + [[proof of stake|PoS](proof%20of%20stake.md)
 
 Pseudocode properties (all implementations should satisfy these!):
 

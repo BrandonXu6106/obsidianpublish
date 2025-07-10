@@ -13,7 +13,7 @@ A book by Jenny Odell exploring the social and material roots of the idea that t
 - Whose time is worth how much?
 - Whose schedule is expected to conform to whose, and whose time is considered disposable?
 
-See also: [[time|time]], [[Buddhist Economics|Buddhist Economics]]
+See also: [[time.md|time]], [[Buddhist Economics|Buddhist Economics](Buddhist%20Economics.md)
 
 [Book Talk](https://www.youtube.com/watch?app=desktop&v=1x0IOcFp94s)
 
@@ -21,7 +21,7 @@ See also: [[time|time]], [[Buddhist Economics|Buddhist Economics]]
 
 - In Ancient Greek, there are two different words for time:
 	- Chronos: quantitative, calendar time
-		- See also: [[entrainment]]
+		- See also: [[entrainment.md]]
 	- Kairos: qualitative time, "all moments are different, the right thing happens at the right point"
 		- In a world that is "marching in deterministic lockstep towards the abyss" kairos is a life line, a sliver of the audacity to imagine something different.
 		- "A forgone conclusion is self-fulfilling: in any situation, if we believe the battle is over, then it is."
@@ -37,20 +37,20 @@ See also: [[time|time]], [[Buddhist Economics|Buddhist Economics]]
 	- "In July 1998, the Italian National Institute for Nuclear Physics (INFN) decided to make its researchers start clocking in and out of the lab. They could not have known the backlash this would inspire, not only at the institute but across the world. Hundreds of scientists wrote in support of the INFN physicists' complaints, saing that the move was needlessly bureaucratic, insulting, and out of step with how the researchers actually worked."
 		- "Good science can't be measured by the clock"
 	- The colonisation of time (Giordano Nanni)
-	- Conflict between British [[colonial debt|colonial]] sense of time and the existing understanding of time of people living in colonized places
+	- Conflict between British [[colonial debt|colonial](colonial%20debt.md) sense of time and the existing understanding of time of people living in colonized places
 		- Taylorism and factory labour (measuring and systematizing work to make it go faster)
 		- This is not much different than the working class today (e.g. Amazon warehouse workers scanner gun, UPS truck with GPS sensors, etc.)
 - Unfungible time: pick a point in space and time and just keep watch. A branch, a yard, a webcam. A story is being written there
 	- To consider something as inhabiting time with you is to consider that it has experience
 	- "Who is _in_ time"
 		- Euro-western division of the world into a clear hierarchy of the divine, the human, and nature -- from greatest to least in that order
-		- Existence of the lesser time problem, similar to the [[Lesser Minds Problem|Lesser Minds Problem]]
+		- Existence of the lesser time problem, similar to the [[Lesser Minds Problem|Lesser Minds Problem](Lesser%20Minds%20Problem.md)
 - "Clock time is not the only form of time reckoning we experience, but it is certainly primary in how many of us think about the 'stuff' of time"
 	- explaining aboriginal notions of time is an exercise in futility as you can only describe it as "non-linear" in english, which immediately slams a big line across your synapses. you don't register the 'non' only the "linear": that is the way you process that word, the shape it takes in your mind. worst of all, it's only describing the concept by saying what it is not, rather than what it is. we don't have a word for nonlinear in our languages because nobody would consider traveling, thinking, or talking in a straight line in the first place. the winding path is just how a path is, and therefore it needs no name
 
 ### Time and Agency
 
-- Conceptions of time are deeply related to how and where we see [[agency|agency]], including within our selves
+- Conceptions of time are deeply related to how and where we see [[agency.md|agency]], including within our selves
 	- Time and space are quite inseparable, the geologist Marcia Bjornerud calls this "timefulness"
 	- "Wherever anything lives, there is, open somewhere, a register in which time is being inscribed"
 	- The abstraction and separation of time and space is a culturally specific and fairly recent event in human history
@@ -117,7 +117,7 @@ See also: [[time|time]], [[Buddhist Economics|Buddhist Economics]]
 	- Beans are not just commodities. Sure, you could eat them, but they weren't end points and they weren't dead. At least some of them contained something: the possibility of future beans.
 	- Reminded of Donald Trump's logic for not exercising. Seeing the human body as a being like a battery with only so much energy, Trump could imagine exercise only as a permanent subtraction from his energy bank.
 	- Sometimes the best way for me to get time is to give it to you
-- Desmond Tutu's description of the South African idea of *Ubuntu*: "We say a person is a person through other persons. It is not [[Descartes' Meditations|I think therefore I am]]. It [is] rather: I am human because I belong, I participant, and I share."
+- Desmond Tutu's description of the South African idea of *Ubuntu*: "We say a person is a person through other persons. It is not [[Descartes' Meditations|I think therefore I am](Descartes'%20Meditations.md). It [is] rather: I am human because I belong, I participant, and I share."
 
 ## Misc
 

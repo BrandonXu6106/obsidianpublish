@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-See also: [[agency]]
+See also: [[agency.md]]
 
 ## Web3
 

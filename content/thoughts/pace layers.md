@@ -10,7 +10,7 @@ tags:
 
 Coined by Stewart Brand in 1999.
 
-See: [[Mangrove Theory of the Internet|Mangrove Theory of the Internet]], [[Bentoism|Cross-time-scale planning (Bentoism)]]
+See: [[Mangrove Theory of the Internet|Mangrove Theory of the Internet](Mangrove%20Theory%20of%20the%20Internet.md), [[Bentoism.md|Cross-time-scale planning (Bentoism)]]
 
 You can't have a healthy forest of all old-growth and towering canopies. You can't have a healthy forest of only weeds, bushes, and saplings.
 

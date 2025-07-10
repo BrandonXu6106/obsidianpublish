@@ -25,7 +25,7 @@ Four different kinds of people (masks) required to World
 2. The Cartoonist: reduces the complexity of the world by creating understandable characters and structures
    - Characters help make the Director’s ideas comprehensible.
    - "A character is good when a child can pick out its features and draw their version of it."
-3. The [Hacker](Hackers.md): pushes the boundaries of the World, using exploration and 'meaningless' [play](content/thoughts/play.md)
+3. The [Hacker](Hackers.md): pushes the boundaries of the World, using exploration and 'meaningless' [play](play.md)
    - The Hacker’s job is to experiment, to play, and to create “New” art. Why? Because they can.
 4. The Emissary: serves the World by ensuring its continuation
    - “A world wants to emerge as an infinite game: one that keeps on going, invites new agents to keep it in play, is fertile with surprises, and continues to generate unexpected meanings”

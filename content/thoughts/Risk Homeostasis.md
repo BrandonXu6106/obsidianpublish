@@ -12,7 +12,7 @@ Risk compensation is a theory which suggests that people typically adjust their 
 
 The most common form of this is called risk compensation, also called the Peltzman Effect, after Sam Peltzman, a University of Chicago economist who studied the phenomenon in the 1970s. His research found that as you introduced noticeable safety features, risky behaviour shifted accordingly.
 
-See also: [[Religious Homeostasis|Religious Homeostasis]]
+See also: [[Religious Homeostasis|Religious Homeostasis](Religious%20Homeostasis.md)
 
 ## Stop gapping
 

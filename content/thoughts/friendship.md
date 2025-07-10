@@ -41,7 +41,7 @@ Friends shouldn't tell you exactly how to live your life but rather to help you 
 
 "This is about building the picks and shovels for intimate, intentionally small groups of friends and Internet friends to build things together, live together, and create wealth together. Unlike the Discord communities you’re part of, the small groups I’m thinking of have to stay small to survive — they’re small by design. Can you really be yourself in group chats with 50+ people?"
 
-See: [[tribe flourishing]], [[Dark Forest Theory of the Internet|cozy web]]
+See: [[tribe flourishing](tribe%20flourishing.md), [[Dark Forest Theory of the Internet|cozy web](Dark%20Forest%20Theory%20of%20the%20Internet.md)
 
 ## Acceptance Prophecy
 
@@ -51,7 +51,7 @@ See: [[tribe flourishing]], [[Dark Forest Theory of the Internet|cozy web]]
 
 Assume that people like you. Tempted to ask a gym friend if they want to become a happy-hour friend? Assume they do. Want to reconnect with a friend you’ve fallen out of touch with? Assume they’re in. When we make this assumption, initiative feels less scary. We’re more likely to take some leaps of faith—and eventually navigate the friendship-making process, and life, with more peace, pleasure, and security.
 
-See also: [[ask vs guess culture|ask vs guess culture]]
+See also: [[ask vs guess culture|ask vs guess culture](ask%20vs%20guess%20culture.md)
 
 ## Commitment
 
@@ -111,10 +111,10 @@ Nussbaum on how over-reliance on intellect for clarity about love produces inste
 
 See also: 
 
-![[self-effacing ends|self-effacing ends]]
+![[self-effacing ends|self-effacing ends](self-effacing%20ends.md)
 
 
-![[content/thoughts/images/let-july-be-july.png|400]]
+![[images/let-july-be-july.png|400]]
 Let July be July, *Morgan Harper Nichols*
 ## Social Energy
 [Source](https://maxlangenkamp.substack.com/p/on-social-energy)

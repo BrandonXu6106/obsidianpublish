@@ -23,4 +23,4 @@ How to develop an understanding of the context to develop form around:
 
 > If you cycle through this feedback loop ferociously for ten years, you will end up with a well-designed life. It will not look like you imagined it would. It will have unfolded around you, and you will struggle to wrap your head around how you ended up where you did.
 
-See also: [[OODA|OODA]], [[aesthetics-and-taste|taste]]
+See also: [[OODA.md|OODA]], [[../posts/aigc/aesthetics-and-taste.md|taste]]

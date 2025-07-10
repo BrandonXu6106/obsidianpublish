@@ -16,9 +16,9 @@ We organize
 
 Good organizing systems are
 
-1. Skimmable at different levels. Is there a 5s version? A 60s version? (see: [[information scales]])
+1. Skimmable at different levels. Is there a 5s version? A 60s version? (see: [[information scales](information%20scales.md))
 2. Transformable. Can the user transform the data into different representations without having to explicitly define these ahead of time?
-3. [[context|Context]]-sensitive. Not one size fits all, can we create unique content for every reader/reading depending on their prior understanding and current needs? (see: [[cozy software|personal software]])
+3. [[context.md|Context]]-sensitive. Not one size fits all, can we create unique content for every reader/reading depending on their prior understanding and current needs? (see: [[cozy software|personal software](cozy%20software.md))
 4. Interrogable. Can we get clarifications and answers from the text without having the author having to anticipate those questions?
 
 The document as an 'information container', but also a 'thing' which documents a thing. Data can be seen as 'elementary observations about properties of objects, events, and their environments'
@@ -74,7 +74,7 @@ Similar to the questions in the HCI [design requirements](design%20requirements.
 
 ### General organizing principles
 
-1. We organize [[collections|collections]] of resources using the properties that are easiest to perceive, or whose values vary the most among the items in the collection
+1. We organize [[collections.md|collections]] of resources using the properties that are easiest to perceive, or whose values vary the most among the items in the collection
 2. We group together resources that we often use together
 3. We put rare or unique resources where we can protect them
 
@@ -100,4 +100,4 @@ Now though, the filing cabinet is "no longer an exemplar of productivity and spe
 
 Curiously enough, piles of paper on a desktop can be both symbols of "overwhelmed white collar worker confronted with information processing long coded as clerical" but also "exemplary information management practice". In fact, a well-kept pile of papers can be more efficient than a linear index (very similar to the ethic of grab what you need and rely on internal organization than some explicit organizational system). Does this apply to the [Desktop Metaphor](interaction%20design.md)?
 
-Is Google [[search]] the 21st century filing cabinet?
+Is Google [[search.md]] the 21st century filing cabinet?

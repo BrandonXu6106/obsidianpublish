@@ -31,18 +31,18 @@ Notes from [Martin Kleppmann's Distributed Systems Course](https://www.youtube.c
 - Communication may fail (and we might not even know it has failed)
 - Processes may crash (and we might not know)
 - All of this can happen nondeterministically
-- Thus we need to think about [[fault tolerance|fault tolerance]]
+- Thus we need to think about [[fault tolerance|fault tolerance](fault%20tolerance.md)
 
 ### Notes
 
-- [[RPC|RPCs]]
-- [[fault tolerance|Fault Tolerance]]
-  - See [[fault tolerance#Two Generals Problem|Two Generals Problem]] and [[fault tolerance#Byzantine Generals Problem|Byzantine Generals Problem]]
-- [[system model|System models]]
-- [[clocks|Physical and Logical Time]]
-- [[causality|Message ordering and Causality]]
-- [[message broadcast|Message broadcast]]
-- [[replication|Replication]]
-- [[quorum|Quorum]]
-- [[consensus#Distributed Systems|Consensus]]
-- [[consistency|Consistency]]
+- [[RPC.md|RPCs]]
+- [[fault tolerance|Fault Tolerance](fault%20tolerance.md)
+  - See [[fault tolerance#Two Generals Problem|Two Generals Problem](fault%20tolerance.md) and [[fault tolerance#Byzantine Generals Problem|Byzantine Generals Problem](fault%20tolerance.md)
+- [[system model|System models](system%20model.md)
+- [[clocks.md|Physical and Logical Time]]
+- [[causality.md|Message ordering and Causality]]
+- [[message broadcast|Message broadcast](message%20broadcast.md)
+- [[replication.md|Replication]]
+- [[quorum.md|Quorum]]
+- [[consensus.md#Distributed Systems|Consensus]]
+- [[consistency.md|Consistency]]

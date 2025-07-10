@@ -7,7 +7,7 @@ tags:
 
 [Source](https://www.inkandswitch.com/upwelling/)
 
-- [[Fishbowl effect|Fishbowl effect]] of real-time [[collaborative software]]
+- [[Fishbowl effect|Fishbowl effect](Fishbowl%20effect.md) of real-time [[collaborative software](collaborative%20software.md)
 - File-based collaboration creates problems of versioning and merging edits from different co-authors.
 - Versioning in file-based collaboration does not suffer from the fishbowl effect. They work well for people writing alone, but have the downside of requiring manual version management when collaborating with others.
 - Reviewing changes

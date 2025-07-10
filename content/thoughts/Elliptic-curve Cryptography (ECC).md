@@ -8,7 +8,7 @@ aliases:
   - ECC
 ---
 
-A form of [[Asymmetric Key Cryptography|asymmetric cryptography]] which uses much smaller key-sizes than [[RSA|RSA]]
+A form of [[Asymmetric Key Cryptography|asymmetric cryptography](Asymmetric%20Key%20Cryptography.md) which uses much smaller key-sizes than [[RSA.md|RSA]]
 
 ## Properties
 

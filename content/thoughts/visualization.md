@@ -24,7 +24,7 @@ It is not how much information there is, but rather how effectively it is arrang
 
 ## Colour
 
-Fundamental uses of [[colour]] in information design
+Fundamental uses of [[colour.md]] in information design
 
 - To label (colour as noun)
 - To measure (colour as quantity)
@@ -33,9 +33,9 @@ Fundamental uses of [[colour]] in information design
 
 ## Time
 
-See also: [[time]]
+See also: [[time.md]]
 
-The problem with time-series is that the simple passage of time is not a good explanatory variable: descriptive chronology is not [[causality|causal]] explanation. However, time-series plots can be moved toward causal explanation by smuggling additional variables into the graphic design
+The problem with time-series is that the simple passage of time is not a good explanatory variable: descriptive chronology is not [[causality.md|causal]] explanation. However, time-series plots can be moved toward causal explanation by smuggling additional variables into the graphic design
 
 One of the deepest and most powerful ideas in mathematics is the relationship between a differential formulation (such as a step-by-step process, like our "draw" function) and its integrated form (such as a function of time, or plot over time). (from _[Learnable Programming](http://worrydream.com/LearnableProgramming)_)
 

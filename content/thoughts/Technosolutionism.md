@@ -13,11 +13,11 @@ Technosolutionism in governing from just a quantized dashboard where the _people
 
 > …the tendency of jobs to be adapted to tools, rather than adapting tools to jobs. If one has a hammer one tends to look for nails, and if one has a computer with a storage capacity, but no feelings, one is more likely to concern oneself with remembering and with problem solving than with loving and hating. (Silvan Tomkins, founder of affect theory)
 
-See also: [[Seeing like a State]], [[quantization]]
+See also: [[Seeing like a State](Seeing%20like%20a%20State.md), [[quantization.md]]
 
 ## Design Justice
 
-From [[Design Justice]]
+From [[Design Justice](Design%20Justice.md)
 
 An exclusionary and elitist understanding of what technology is and where it comes from and a lack of interest in preexisting, community-based design practices.
 

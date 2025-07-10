@@ -9,4 +9,4 @@ aliases:
 
 A nuclear reaction that can release large amounts of energy both as electromagnetic radiation and as kinetic energy of the fragments.
 
-See also: [[Nuclear Fusion|Nuclear Fusion]]
+See also: [[Nuclear Fusion|Nuclear Fusion](Nuclear%20Fusion.md)

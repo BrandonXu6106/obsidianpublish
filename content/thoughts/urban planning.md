@@ -9,4 +9,4 @@ Brand argues that many great buildings achieved their greatness by gradual stepw
 
 > Almost no buildings adapt well. They're designed not to adapt; also budgeted and financed not to, constructed not to, administered not to, maintained not to, regulated and taxed not to, even remodelled not to. But all buildings (...) adapt anyway, however poorly, because the usages in and around them are changing constantly.
 
-See also: [[housing]]
+See also: [[housing.md]]

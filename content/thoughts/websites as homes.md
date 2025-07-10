@@ -5,17 +5,17 @@ tags:
   - seed
 ---
 
-> Consider the [[plurality|pluralities]] and multiplicities of web-weaving: the more websites and worlds there are, the more environments we can choose to immerse ourselves in. The act of creating a website is an act of [[agency]] and expression.
+> Consider the [[plurality.md|pluralities]] and multiplicities of web-weaving: the more websites and worlds there are, the more environments we can choose to immerse ourselves in. The act of creating a website is an act of [[agency.md]] and expression.
 >
 > ([Chia](https://chias.website/manifesto/))
 
-See also: [[website inspiration]], [[digital commons]], [[cozy software]], [[the garden and the stream]]
+See also: [[website inspiration](website%20inspiration.md), [[digital commons](digital%20commons.md), [[cozy software](cozy%20software.md), [[the garden and the stream](the%20garden%20and%20the%20stream.md)
 
 ## On Website Redesigns
 
 > In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle?
 >
-> Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own [[identity]]." --[Laurel Schwulst](https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)
+> Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own [[identity.md]]." --[Laurel Schwulst](https://thecreativeindependent.com/essays/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)
 
 About every half a year, I get an intense urge to redesign my website. Some years I overhaul everything, ripping out the content and gutting the divs and p tags. Other years, I make only minor changes, giving it a fresh coat of paint and changing out old typography for new ones.
 
@@ -25,11 +25,11 @@ Our digital artifacts and spaces are reflections of our real selves. We feel lik
 
 In part, this is why I think having your own little plot on the internet to change and modify at your own whim is worth protecting. This is our last little bit of land in an era where we leave our wizardly powers to build worlds of our choosing at the door of digital giants.
 
-![[call for hand made tech.png|500]]
+![[call for hand made tech.png|500](images/call%20for%20hand%20made%20tech.png)
 
 > Think about it: there’s no way to make a web page or a blog that is not an act of playing with its form at the same time as you're creating its content. So it just seemed natural: the world was always telling me that you worked on those two things – the container and its contents – together. ([Robin Sloan on websites and notes](https://every.to/superorganizers/tasting-notes-with-robin-sloan-25629085))
 
-See also: [[cozy software|cozy software]]
+See also: [[cozy software|cozy software](cozy%20software.md)
 
 ## Hundertwasser flavour of design
 

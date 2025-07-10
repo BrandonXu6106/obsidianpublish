@@ -8,15 +8,15 @@ tags:
 
 > A network that is layered on top of another network
 
-Normally on top of [[HTTP]]. Fun fact! The [[Internet]] was originally built as an overlay upon the telephone network
+Normally on top of [[HTTP.md]]. Fun fact! The [[Internet.md]] was originally built as an overlay upon the telephone network
 
 Examples:
 
-- [[VPN]]
+- [[VPN.md]]
   - [WireGuard](https://www.wireguard.com/)
 - [OpenZiti](https://docs.openziti.io/#build-a-network)
 - [ZeroTier](https://github.com/zerotier/ZeroTierOne)
 - [Tailscale](https://tailscale.com/) (or the open source version [Headscale](https://github.com/juanfont/headscale/))
 
-- Almost all [[peer-to-peer]] [[distributed systems]]
-  - Most notably, [[DHT|DHTs]]
+- Almost all [[peer-to-peer.md]] [[distributed systems](distributed%20systems.md)
+  - Most notably, [[DHT.md|DHTs]]

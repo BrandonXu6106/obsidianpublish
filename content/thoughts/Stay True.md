@@ -7,7 +7,7 @@ tags:
 ---
 Memoir by Hua Hsu
 
-A beautiful piece of writing on the immigrant experience, [[friendship|friendship]], [[time|time]], the role of [[content/thoughts/writing|writing]] to process grief and loss.
+A beautiful piece of writing on the immigrant experience, [[friendship.md|friendship]], [[time.md|time]], the role of [[writing.md|writing]] to process grief and loss.
 
 ## The immigrant experience
 - "the children picked up the basics of English, this bizarre, new language, which they might use to speak a new future into being"
@@ -25,7 +25,7 @@ A beautiful piece of writing on the immigrant experience, [[friendship|friendshi
 - In response to Charles Taylor thinking about how people throughout history have thought about the question of individual identity:
 	- "Or maybe there was nothing innate [about the natural order of things], and we were always in the process of self-discovery, self-creation, and revision. For some, this manifested as a kind of endless drifting and searching; others found the possibility of claiming one's own identity empowering. But we were all in search of the same thing, that quality that made you yourself."
 	- "Taylor called this authenticity, and it became the unreachable horizon of modern life. It's a concept that makes sense only in its absence; we recognize inauthenticity, phoniness, when someone's clearly being a poseur. Yet the struggle to feel authentic -- this is very real even if we know better. In Taylor's telling, everyone becomes a kind of artist, creatively wrestling with the parameters of our own being. He describe the outlook as one where 'being true to myself is being true to my own originality, and that is something that only I can articulate and discovery. In articulating it, I am defining it'. Even though all this sounds very navel-gazing, being true to yourself cannot happen in a vacuum. Constructing your personality is a game, one that requires you to joust with the expectations of others. Authenticity, Taylor explained, presumes dialogue, and it is born out of engaging with those around us."
-	- See also: [[iconic space|iconic space]]
+	- See also: [[iconic space|iconic space](iconic%20space.md)
 
 ## Friendship
 - "You repeat a gesture enough times until you're actually friends."

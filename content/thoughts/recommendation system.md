@@ -32,15 +32,15 @@ Optimization metrics (see [quantization](quantization.md))
 
 1. "more things like this..."
 2. Compare the content of an item to user's preferred items
-3. A form of [[supervised learning]]
+3. A form of [[supervised learning](supervised%20learning.md)
 
 ### Collaborative filtering
 
 1. "users like you looked for..."
 2. Based on identification of similar users and their patterns of activity
-3. A form of [[unsupervised learning]]
+3. A form of [[unsupervised learning](unsupervised%20learning.md)
 
-One way of doing this is using a technique called matrix factorization, which is a [[latent-factor model]] for entries in matrix $Y$.
+One way of doing this is using a technique called matrix factorization, which is a [[latent-factor model](latent-factor%20model.md) for entries in matrix $Y$.
 
 Loss function:
 $$f(Z,W) = \lVert ZW - Y \rVert_F^2 + \frac{\lambda_1}{2}\lVert Z \rVert_F^2 + \frac{\lambda_2}{2}\lVert W \rVert_F^2$$

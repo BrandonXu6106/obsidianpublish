@@ -12,7 +12,7 @@ Opposite take to that of [Materialism](Materialism.md). Panpsychists deny that t
 
 In other words, everything is slightly conscious.
 
-See [[emergent behaviour#Combination Problem|the Combination Problem]]
+See [[emergent behaviour#Combination Problem|the Combination Problem](emergent%20behaviour.md)
 
 ## Eddington, Russell, Strawson's argument for panpsychism
 
@@ -33,7 +33,7 @@ See [[emergent behaviour#Combination Problem|the Combination Problem]]
 
 [Physicalism](Materialism.md) actually entails panpsychism
 
-1. [[monism|Monism]] is true (there is only one kind of 'stuff' in the universe)
+1. [[monism.md|Monism]] is true (there is only one kind of 'stuff' in the universe)
 2. Experiential phenomena are real phenomena (denies illusionism: see [philosophical realism](philosophical%20realism.md)))
 3. All concrete phenomena are physical
 4. Therefore experiential phenomena are physical

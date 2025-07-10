@@ -17,7 +17,7 @@ tags:
 
 Curious how this ties into the [over simplification of user interfaces](/thoughts/books/mindstorms#Microworlds and simplification)
 
-"Blockchain voting fails at the most basic test of social technology: can you explain how it works to someone skeptical of the people in power in a way that makes them [[trust]] the system?"
+"Blockchain voting fails at the most basic test of social technology: can you explain how it works to someone skeptical of the people in power in a way that makes them [[trust.md]] the system?"
 
 ## Values and Technology
 

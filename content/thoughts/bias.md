@@ -9,7 +9,7 @@ Bias: a slant or preference
 
 > "We use the term bias to refer to computer systems that systematically and unfairly discriminate against certain individuals or groups of individuals in favour of others... A system discriminates unfairly if it denies an opportunity or a good or if it assigns an undesirable outcome to an individual or group of individuals on grounds that are unreasonable or inappropriate" (Friedman and Nissenbaum, 1996)
 
-More detailed post on [Bias in AI](bias-bug.md). Related readings: [Design Justice](Design%20Justice.md), [To Live in their Utopia](To%20Live%20in%20their%20Utopia.md), [Social Bias in Information Retrieval](Social%20Bias%20in%20Information%20Retrieval.md), [Algorithms of Oppression](Algorithms%20of%20Oppression.md), [[data distributions]]
+More detailed post on [Bias in AI](../posts/aigc/bias-bug.md). Related readings: [Design Justice](Design%20Justice.md), [To Live in their Utopia](To%20Live%20in%20their%20Utopia.md), [Social Bias in Information Retrieval](Social%20Bias%20in%20Information%20Retrieval.md), [Algorithms of Oppression](Algorithms%20of%20Oppression.md), [[data distributions](data%20distributions.md)
 
 ## Captchas
 

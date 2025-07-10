@@ -35,11 +35,11 @@ aJPEG uses a lot of clever tricks that take advantage of the human visual system
 		- Y normally has a range of 0 to 1
 		- Cb and Cr normally have a range of -0.5 (negative amount of the colour) to 0.5 (positive amount of the colour
 
-![[content/thoughts/images/ycbcr-chroma.png|400]]
+![[images/ycbcr-chroma.png|400]]
 
 For this example, after keeping only a quarter of the colour information, we already reach a 2x compression ratio. Notice that we started with 3 full channels and now we have 1 full channel and 2 × ¼ channels!
 
-![[content/thoughts/images/ycbcr-example.png]]
+![[images/ycbcr-example.png]]
 
 ## Spatial to Frequency Domain
 
@@ -48,16 +48,16 @@ Finally, a tangible use-case for a Fourier transform! Specifically, the Discrete
 - Go from a signal to its component parts
 - We are trying to decompose something complex into a sum of simple things
 
-![[content/thoughts/images/fourier-transform.png|500]]
+![[images/fourier-transform.png|500]]
 
 JPEG does this but in 2D for each of the YCbCr channels. We chunk up an image into 8x8 'blocks' and then decompose it into some basic patterns that are made up of cosines with various periods.
 
 > [!note]
-> If the data for a channel does not represent an integer number of blocks then the encoder must fill the remaining area of the incomplete blocks with some form of dummy data. Most of these techniques cause artifacts (see: [[convolutional neural networks#Boundary Effects]]) but generally repeating the value at the edge works well enough.
+> If the data for a channel does not represent an integer number of blocks then the encoder must fill the remaining area of the incomplete blocks with some form of dummy data. Most of these techniques cause artifacts (see: [[convolutional neural networks#Boundary Effects](convolutional%20neural%20networks.md)) but generally repeating the value at the edge works well enough.
 
 Here are the following 64 'principle' components that it uses:
 
-![[content/thoughts/images/jpeg-dct.png|300]]
+![[images/jpeg-dct.png|300]]
 
 > [!note]
 > The top-left block is the 'basic hue' and is often called the DC component. The other 63 blocks are called AC components.
@@ -66,7 +66,7 @@ The top left being a completely constant block and the bottom right being the mo
 
 We end up with a table of DCT coefficients for each of the channels Y, Cb, and Cr.
 
-![[content/thoughts/images/dct-table.png]]
+![[images/dct-table.png]]
 
 ## Quantization
 
@@ -78,12 +78,12 @@ JPEG has separate 8x8 quantization tables of how much to divide the coefficient 
 
 Note that these values are not uniform across the 8x8 quantization table. Generally, the coefficients are smaller in the top-left and get larger as you go diagonally to the bottom-right. This has the effect of squashing the high-frequency coefficients to 0.
 
-![[content/thoughts/images/jpeg-quantization-coefficients.png|300]]
+![[images/jpeg-quantization-coefficients.png|300]]
 
 > [!note]
 > This is where most of the information loss happens. It also is how 'deep-frying images' happens:
 > 
-> ![[content/thoughts/images/deep-fried-images.png]]
+> ![[images/deep-fried-images.png]]
 
 ## Lossless compression
 
@@ -106,14 +106,14 @@ In each block, we know that we have a rough diagonal trend of values that start 
 
 Some genius was like 'holy cow', if we read the squares in a zig-zag pattern, we can minimize the delta between each value that we read and get more efficient compression!
 
-![[content/thoughts/images/jpeg-zig-zag.png|240]]
+![[images/jpeg-zig-zag.png|240]]
 
 ### Run-length encoding and Huffman coding
 These are pretty standard compression techniques so I won't dive too deep into these here.
 
 Run-length encoding allows us to transform repeated sequences into how many times the thing was repeated
 
-![[content/thoughts/images/rle.png|300]]
+![[images/rle.png|300]]
 
 Huffman coding picks up where run-length encoding ends off. 
 

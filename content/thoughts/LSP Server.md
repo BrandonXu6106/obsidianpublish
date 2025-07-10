@@ -23,4 +23,4 @@ Common signals:
 
 Gotchas
 
-- Column number/length should be calculated using `utf16` offsets instead of [[Unicode|Unicode]] codepoints
+- Column number/length should be calculated using `utf16` offsets instead of [[Unicode.md|Unicode]] codepoints

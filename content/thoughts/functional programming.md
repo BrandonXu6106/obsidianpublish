@@ -8,11 +8,11 @@ tags:
 
 ## Terminology
 
-![[Haskell typeclasses.png]]
+![[Haskell typeclasses.png](images/Haskell%20typeclasses.png)
 
 ### Category Theory
 
-[[Category Theory|Category Theory]] to Haskell
+[[Category Theory|Category Theory](Category%20Theory.md) to Haskell
 
 - Objects are _types_
 - Morphisms are _functions_

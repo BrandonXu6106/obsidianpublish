@@ -5,13 +5,13 @@ tags:
   - sapling
   - pattern
 ---
-See the blog post version of this note: [[aesthetics-and-taste]]
+See the blog post version of this note: [[../posts/aigc/aesthetics-and-taste.md]]
 
 > That’s all life is really—a giant sequence of decisions. Life is the expression of taste
 
-![[developing taste.png]]
+![[developing taste.png](images/developing%20taste.png)
 
-Taste is built over time through repeated applications. It requires intention, focus, and care. Taste is a commitment to a state of [[attention|attention]].  It’s a process of peeling back layer after layer, turning over rock after rock. It is the manifestation of [[self-confidence]] in what we find beautiful.
+Taste is built over time through repeated applications. It requires intention, focus, and care. Taste is a commitment to a state of [[attention.md|attention]].  It’s a process of peeling back layer after layer, turning over rock after rock. It is the manifestation of [[self-confidence.md]] in what we find beautiful.
 
 Curiosity and an inherent observatory nature toward the world serve as constant opportunities to test your taste. The process of cultivating taste is a lot like the writing and editing process. George Saunders on the revision process:
 
@@ -19,9 +19,9 @@ Curiosity and an inherent observatory nature toward the world serve as constant 
 
 ## Creation and Research
 
-It is this taste that is so important in [[independent research]]. Without taste, one cannot carve out their own [[iconic space]].
+It is this taste that is so important in [[independent research](independent%20research.md). Without taste, one cannot carve out their own [[iconic space](iconic%20space.md).
 
-> Creation is the act of bringing something nonexistent into reality. You have to have strong opinions about how the world should work. You have to think that things should be a certain way, that you prefer this color over that, this form of [[walking|walking]] over another, this sense of beauty over theirs, this way of approaching the world over some other. Taste gives you the capability and the urgency to imagine.
+> Creation is the act of bringing something nonexistent into reality. You have to have strong opinions about how the world should work. You have to think that things should be a certain way, that you prefer this color over that, this form of [[walking.md|walking]] over another, this sense of beauty over theirs, this way of approaching the world over some other. Taste gives you the capability and the urgency to imagine.
 >
 > (Spencer, _[creative seeing](https://spencerchang.substack.com/p/creative-seeing)_)
 
@@ -37,4 +37,4 @@ As keen as some of us are to do life “right”, sometimes the only way to do i
 
 > There’s only one person who bears the responsibility of your life and it’s the same person who shrugs that responsibility off when it feels too heavy
 
-See: [[the-fools-who-dream]]
+See: [[../posts/branddesign/fonts/the-fools-who-dream.md]]

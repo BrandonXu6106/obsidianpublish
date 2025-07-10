@@ -6,7 +6,7 @@ tags:
   - CPSC317
 ---
 
-Layer 4, the layer below the [Network Layer](Network%20Layer.md) and layer above the [[Physical Layer]]
+Layer 4, the layer below the [Network Layer](Network%20Layer.md) and layer above the [[Physical Layer](Physical%20Layer.md)
 
 1. Hardware
 2. Unit: Frame
@@ -22,7 +22,7 @@ Parameters
 	- Smaller MTU values can reduce network delay
 		- Smaller packets are problematic because they have lower goodput (ratio of headers and other metadata to actual user data is higher because the packets themselves are smaller)
 	- Common MTUs
-		- [[IP Address|IP]]v4: 68B to 64KiB
+		- [[IP Address|IP](IP%20Address.md)v4: 68B to 64KiB
 		- IPv6: 1280B to 64KiB
 		- Ethernet: 1500B
 		- IEEE 802.11 (Wi-Fi / WLAN): 2304B (encrypted will add 8-20B to overhead)
@@ -31,7 +31,7 @@ Parameters
 
 LAN but across local networks... spooky
 
-It encapsulates the [[MAC]] frame into a [[UDP]] datagram for transport across an IP network. This creates an [[Overlay Network|overlay network]]
+It encapsulates the [[MAC.md]] frame into a [[UDP.md]] datagram for transport across an IP network. This creates an [[Overlay Network|overlay network](Overlay%20Network.md)
 
 ## Berkeley Packet Filter
 

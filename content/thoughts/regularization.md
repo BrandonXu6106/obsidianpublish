@@ -6,18 +6,18 @@ tags:
   - CPSC340
 ---
 
-A method for controlling [[complexity|complexity]]. Our main tools:
+A method for controlling [[complexity.md|complexity]]. Our main tools:
 
-1. Model averaging (e.g. [[Ensemble method|ensemble methods]])
+1. Model averaging (e.g. [[Ensemble method|ensemble methods](Ensemble%20method.md))
 2. Regularization (this)
 
-When we have multiple models with the same training models, we should pick models that are _more conservative_ (e.g. in [[linear regression|linear regression]], pick smaller slope)
+When we have multiple models with the same training models, we should pick models that are _more conservative_ (e.g. in [[linear regression|linear regression](linear%20regression.md), pick smaller slope)
 
 We should regularize $w_j$ so that they don't explode.
 
 Makes the tangent to the level curves of the gradient point towards the global minimum
 
-![[content/thoughts/images/l1-vs-l2-regularization.png]]
+![[images/l1-vs-l2-regularization.png]]
 
 ### L0-Regularization
 
@@ -42,7 +42,7 @@ To help with this, we can standardize continuous feature by replacing it with it
 
 $$f(w) = \mathcal L + \lambda \lVert w \rVert _1$$
 
-We can actually combine this using an [[Ensemble method]] + bootstrapping (BoLASSO):
+We can actually combine this using an [[Ensemble method](Ensemble%20method.md) + bootstrapping (BoLASSO):
 
 - Create bootstrap samples
 - Run feature selection on each sample

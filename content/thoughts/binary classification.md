@@ -22,7 +22,7 @@ $$
 \end{cases}
 $$
 
-![[content/thoughts/images/0-1-loss.png|500]]
+![[images/0-1-loss.png|500]]
 
 Illustration above is if $y_i = 1$. Flip for $y_i = -1$
 
@@ -30,7 +30,7 @@ Unfortunately, 0-1 Loss is non-convex. We can, once again, use a convex approxim
 
 $$\mathcal L(i,j) = \max(0, 1 - y_iw^Tx_i)$$
 
-See also: [[SVM]]
+See also: [[SVM.md]]
 
 This is an upper bound on the 0-1 loss (as illustrated by the picture). For example, if the hinge loss is 18.3, then the number of training errors is at most 18.
 

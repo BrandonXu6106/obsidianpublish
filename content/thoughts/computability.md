@@ -37,7 +37,7 @@ Components:
 ### Instantiating vs Computing function
 
 - Instantiating → being an instance of/describable by a function
-- Computing → employs [[representation|representation]] of input and output
+- Computing → employs [[representation.md|representation]] of input and output
 
 Even if a person could be modeled by a Turing machine, that would not show that thinkers are computers, rather, it would show that a thinker instantiates a function, not that it computes that function.
 

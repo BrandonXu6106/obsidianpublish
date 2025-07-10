@@ -9,7 +9,7 @@ tags:
 
 Many influential philosophers worked at the library in the 2nd and 3rd centuries BC, including Euclid (founder of geometry), Homer (author of epic Greek poems), Plato (founder of the first Western university), and Socrates (founder of Western moral philosophy).
 
-Public [[library|libraries]] are great examples of where knowledge goes beyond data and information. They are centers for civic knowledge, trusted knowledge broker, community archives, public digital infrastructure, rather than just a place to borrow books
+Public [[../../..//content/thoughts/library.md|libraries]] are great examples of where knowledge goes beyond data and information. They are centers for civic knowledge, trusted knowledge broker, community archives, public digital infrastructure, rather than just a place to borrow books
 
 Do we need bookstores and libraries anymore? Yes!
 
@@ -20,9 +20,9 @@ How can digital communities learn from libraries and librarians to prevent a Lib
 
 - When you're trying to optimize for 'hits' or 'clicks' feels very opposite to how libraries value knowledge
 - What knowledge needs to be protected? What knowledge **shouldn't** be universally accessible?
-- Alternative networks: what could the [[Internet]] have looked like if it was designed by librarians? A writing on the bit: [A People's History of Computing in the US](http://joyrankin.com/phcus)
+- Alternative networks: what could the [[Internet.md]] have looked like if it was designed by librarians? A writing on the bit: [A People's History of Computing in the US](http://joyrankin.com/phcus)
 
-See also: [[information system]]
+See also: [[information system](information%20system.md)
 
 ## Fugitive Libraries
 
@@ -40,7 +40,7 @@ Fugitivity then, is the mode of being other than settled, especially recognizing
 
 ## The permanent library
 
-Archive nesting in [[Arweave|Arweave]]
+Archive nesting in [[Arweave.md|Arweave]]
 
 - It is our expectation that when eventually a permanent information storage system more suited to the challenges of the time emerges, the Arweave’s data will be ‘subsumed’ into this network.
 - This pattern of ‘nesting’ of archives when they are retired is common across human history. An archive of Gopherspace (a ‘knowledge web’, prior to the HTTP-based web) can be found inside the Arweave’s permaweb. In-side the Gopherspace archive, one can find archives of earlier Telnet and bulletin board-based discussion systems

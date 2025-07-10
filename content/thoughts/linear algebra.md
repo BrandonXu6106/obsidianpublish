@@ -64,7 +64,7 @@ In general, we can multiply matrices A and B when the number of columns in A mat
 
 If A is (m, n) and B is (n, p), then AB is (m, p)
 
-![[matrix multiplication.png|400]]
+![[matrix multiplication.png|400](images/matrix%20multiplication.png)
 
 - Associative: $A(BC) = (AB)C$
 - Distributive across addition: $A(B + C) = AB + AC$

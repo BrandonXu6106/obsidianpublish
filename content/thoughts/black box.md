@@ -5,7 +5,7 @@ tags:
   - sapling
 ---
 
-See also: [[paperclip optimizer|paperclip optimizer]]
+See also: [[paperclip optimizer|paperclip optimizer](paperclip%20optimizer.md)
 
 > Scientific and technical work is made invisible by its own success. When a machine runs efficiently, one need only to focus on its inputs and outputs and not on its internal complexity. Thus, paradoxically, the more science and technology succeed, the more opaque and obscure they become
 
@@ -24,13 +24,13 @@ Jim Johnson: building and rebuilding walls everytime you use it is a waste, that
 
 _Who is afraid of black box algorithms? On the epistemological and ethical basis of trust in medical AI_ by Juan Manuel Durán, Karin Rolanda Jongsma
 
-On [[trust|trust]] in black box algorithmic decision making systems
+On [[trust.md|trust]] in black box algorithmic decision making systems
 
-Black boxes are algorithms that humans cannot survey: they are [[epistemology|epistemically opaque]] systems that no human or group of humans can closely examine in order to determine its inner states. Physicians have a hard time offering accounts of how the algorithm came to its recommendation or diagnosis
+Black boxes are algorithms that humans cannot survey: they are [[epistemology.md|epistemically opaque]] systems that no human or group of humans can closely examine in order to determine its inner states. Physicians have a hard time offering accounts of how the algorithm came to its recommendation or diagnosis
 
 Terms:
 
-- [[transparency|transparency]]: algorithmic procedures that make the inner workings of a block box algorithm interpretable to humans
+- [[transparency.md|transparency]]: algorithmic procedures that make the inner workings of a block box algorithm interpretable to humans
   - transparency is an epistemic manoeuvre intended to offer reasons to believe that certain algorithmic procedures render a reliable output and that the output of the algorithm is interpretable by humans
 - opacity: inherent impossibility of humans to survey an algorithm both understood as a script as well as a computer process. Burrell proposes 3 types of opacity
   1.  Intentional corporate or state secrecy

@@ -6,11 +6,11 @@ tags:
   - CPSC340
 ---
 
-Assumption that we know how many clusters there are as a prior ($k$ in K-Means). Designed for vector [[quantization|quantization]]: replacing examples with the mean of their cluster (collapsing a bunch of examples of a class down to a single example)
+Assumption that we know how many clusters there are as a prior ($k$ in K-Means). Designed for vector [[quantization.md|quantization]]: replacing examples with the mean of their cluster (collapsing a bunch of examples of a class down to a single example)
 
-Can also be seen as a really bad [[latent-factor model]]
+Can also be seen as a really bad [[latent-factor model](latent-factor%20model.md)
 
-K-means partitions the space into [[convex|convex]] regions, _but_ clusters in the data might not be convex
+K-means partitions the space into [[convex.md|convex]] regions, _but_ clusters in the data might not be convex
 
 Minimize $\sum_{i \in \textrm{clusters}} \{ \sum_{j \in i^{th} \textrm{cluster}} ||x_j - \mu_i||^2 \}$
 

@@ -5,7 +5,7 @@ tags:
   - sapling
 ---
 
-What do I do when I am stressed or overcome with anxiety about the future? What about a terrible decision I feel like I've made or some [failure](a-failure-resume.md)?
+What do I do when I am stressed or overcome with anxiety about the future? What about a terrible decision I feel like I've made or some [failure](../posts/readnotes/a-failure-resume.md)?
 
 I've found regular mindfulness sessions to be extremely helpful in easing my 'always-overthinking' brain.
 
@@ -13,7 +13,7 @@ Related: how can we be more [digitally mindful?](digital%20mindfulness.md)
 
 ## Self-guided Mindfulness
 
-I've tried guided [[meditation|meditations]] like the ones on YouTube and Headspace and such but find they don't work super well for me. I really like being intentional with what I want out of the meditation session and I find it helps me focus and stay present. Here is the process I find works best for me:
+I've tried guided [[meditation.md|meditations]] like the ones on YouTube and Headspace and such but find they don't work super well for me. I really like being intentional with what I want out of the meditation session and I find it helps me focus and stay present. Here is the process I find works best for me:
 
 1.  Start with focusing on breathing and bodily sensations. Are you comfortable? Is your head clear? Is your breath and heartbeat regular and relaxed?
 2.  Ask an additional level of 'why's if anything feels out of the ordinary. Reflect on life situation + most current feelings.

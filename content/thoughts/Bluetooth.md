@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-![[BLE communication workflow.png]]
+![[BLE communication workflow.png](images/BLE%20communication%20workflow.png)
 
 Classes:
 

@@ -5,9 +5,9 @@ tags:
   - seed
 ---
 
-State channels are a very broad and simple way to think about [[blockchain|blockchain]] interactions which could occur on the blockchain, but instead get conducted off of the blockchain, without significantly increasing the risk of any participant.
+State channels are a very broad and simple way to think about [[blockchain.md|blockchain]] interactions which could occur on the blockchain, but instead get conducted off of the blockchain, without significantly increasing the risk of any participant.
 
-Similar to the concept of payment channels in [[bitcoin|Bitcoins]]’s Lightning Network and [Raiden Network](https://raiden.network/) on Ethereum, but instead of only supporting payments, they also support general ‘state updates.’
+Similar to the concept of payment channels in [[bitcoin.md|Bitcoins]]’s Lightning Network and [Raiden Network](https://raiden.network/) on Ethereum, but instead of only supporting payments, they also support general ‘state updates.’
 
 Work by
 
@@ -18,7 +18,7 @@ Work by
 Properties
 
 - Near-instant finality: after all parties sign a state update, it can be considered final. Not instant because of dispute window
-- Strong [[privacy]] properties: every intermediate transaction happens 'within' the channel and doesn't need to be published to chain (which isn't true for sidechains for example)
+- Strong [[privacy.md]] properties: every intermediate transaction happens 'within' the channel and doesn't need to be published to chain (which isn't true for sidechains for example)
 - Requires all parties to be available
 - Requires all participants to be hardcoded in the contract
 

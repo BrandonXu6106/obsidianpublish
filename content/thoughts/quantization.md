@@ -12,13 +12,13 @@ aliases:
 >
 > "The great advantage of such tunnel vision is that it brings into sharp focus certain limited aspects of an otherwise far more complex and unwieldy reality."
 >
-> ([[Seeing like a State]])
+> ([[Seeing like a State](Seeing%20like%20a%20State.md))
 
-But yet, most complexities of human life fail to be marshalled into a single regulatory code; any codification would be partly arbitrary and artificially static. To codify local practices was thus a profoundly [[Do Artifacts Have Politics|political]] act.
+But yet, most complexities of human life fail to be marshalled into a single regulatory code; any codification would be partly arbitrary and artificially static. To codify local practices was thus a profoundly [[Do Artifacts Have Politics|political](Do%20Artifacts%20Have%20Politics.md) act.
 
 This process of legibility becomes dangerous when it forcefully shapes users. In the process of being made legible, nuance is excluded. Legibility means that ‘only what matters’ and can be quantified is kept; all else is discarded. This is especially dangerous when that legibility happens without the choice of the users.
 
-See also: [[To Live in their Utopia]], [[Seeing like a State]]
+See also: [[To Live in their Utopia](To%20Live%20in%20their%20Utopia.md), [[Seeing like a State](Seeing%20like%20a%20State.md)
 
 ## Labels
 
@@ -32,7 +32,7 @@ Why do we have labels in the first place?
 - they are attached to societal connotations and perceptions of certain concepts
 - they give legitimacy in the form of social proof to concepts
 
-See also: [[terminology]], [[ontology]]
+See also: [[terminology.md]], [[ontology.md]]
 
 ## Concepts
 

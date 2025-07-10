@@ -7,7 +7,7 @@ tags:
 
 Summarized from [W3C Proposal](https://www.w3.org/TR/did-core)
 
-[Decentralized identifiers](https://www.w3.org/TR/did-core/#dfn-decentralized-identifiers) (DIDs) are a new type of [[Self-sovereign Identity (SSI)|self-sovereign identity]] that enables verifiable, decentralized digital identity through the use of [[cryptography|cryptography]].
+[Decentralized identifiers](https://www.w3.org/TR/did-core/#dfn-decentralized-identifiers) (DIDs) are a new type of [[Self-sovereign Identity (SSI)|self-sovereign identity](Self-sovereign%20Identity%20(SSI).md) that enables verifiable, decentralized digital identity through the use of [[cryptography.md|cryptography]].
 
 > They are designed to enable individuals and organizations to generate their own identifiers using systems they trust. These new identifiers enable entities to prove control over them by authenticating using cryptographic proofs such as digital signatures.
 
@@ -16,7 +16,7 @@ Identity is important to identify things. The digital economy relies on proper i
 Goals:
 
 1. Ease of creation
-2. [[decentralization|Decentralized]]
+2. [[decentralization.md|Decentralized]]
 3. Persistent
 4. Resolvable
 5. Cryptographically verifiable
@@ -28,14 +28,14 @@ A DID is a unique string that has a specific syntax. It can be resolved to a _DI
 Format: `did:xyz:abcde123456`
 
 1. `did`: fixed string, this is a DID
-2. `xyz`: method name (e.g. `btcr` which is built on top of [[bitcoin|Bitcoin]], acts sort of like a namespace)
+2. `xyz`: method name (e.g. `btcr` which is built on top of [[bitcoin.md|Bitcoin]], acts sort of like a namespace)
 3. `abcde123456`: method specific identifier
 
 Can be thought of like a public decentralized keychain. It binds a public/private key pair to an identity, even when those keys are rotated out and replaced!
 
-The VDR can be hosted/based on any platform (e.g. on distributed [[blockchain|blockchains]], [[DHT|DHTs]], or just hosted files on GitHub)
+The VDR can be hosted/based on any platform (e.g. on distributed [[blockchain.md|blockchains]], [[DHT.md|DHTs]], or just hosted files on GitHub)
 
-A DID Document can have arbitrary content. It contains references to "controllers" which are entities that have permission to make changes to a DID Document. It can also contain various cryptographic data delated to the DID subject (e.g. [[RSA|RSA]], keys, etc.)
+A DID Document can have arbitrary content. It contains references to "controllers" which are entities that have permission to make changes to a DID Document. It can also contain various cryptographic data delated to the DID subject (e.g. [[RSA.md|RSA]], keys, etc.)
 
 ## What it enables
 
@@ -47,7 +47,7 @@ A DID Document can have arbitrary content. It contains references to "controller
 
 ## Creating DIDs using IPLD
 
-- In IPID, associating the DID document with a DID is accomplished by cryptographically publishing the [[CID|CID]] to the IPNS public key associated with the identity owner (DID method specific identifier). Any updates to the DID document are saved to IPLD and the resulting hash is published to IPNS cryptographically associating the new CID with the DID (for IPID this is the multihash of the public key). IPID uses a PubSub model for realtime updates to the DID.
+- In IPID, associating the DID document with a DID is accomplished by cryptographically publishing the [[CID.md|CID]] to the IPNS public key associated with the identity owner (DID method specific identifier). Any updates to the DID document are saved to IPLD and the resulting hash is published to IPNS cryptographically associating the new CID with the DID (for IPID this is the multihash of the public key). IPID uses a PubSub model for realtime updates to the DID.
   - This is self-attesting and does not facilitate consensus of the document across peers
   - Sometimes described as the "microledger" approach
   - Even though IPFS could be used for content addressing there would not be a need to connect to a wider IPFS network.
@@ -74,4 +74,4 @@ Great for burner DIDs
 
 ### Sidetree
 
-See [[Sidetree|Sidetree]]
+See [[Sidetree.md|Sidetree]]

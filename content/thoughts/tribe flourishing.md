@@ -8,13 +8,13 @@ aliases:
   - squad
 ---
 
-Related: [collaborative-thinking](collaborative-thinking.md), [communities](communities.md), [friendship](friendship.md), and [context-collapse](context-collapse.md)
+Related: [collaborative-thinking](../posts/aigc/collaborative-thinking.md), [communities](communities.md), [friendship](friendship.md), and [context-collapse](../posts/aigc/context-collapse.md)
 
 Why are we more ourselves in small group chats than our posts? Why are we more comfortable trying new things and working on projects in these smaller groups?
 
 Is it because of bureaucratic friction at scale? [Group limits](group%20limits.md)?
 
-How do we move away from the 'other' and towards the 'us'? Towards collectivism and [[interdependence|interdependence]] rather than individualism?
+How do we move away from the 'other' and towards the 'us'? Towards collectivism and [[interdependence.md|interdependence]] rather than individualism?
 
 ## On Building with a Squad
 
@@ -22,12 +22,12 @@ By [Jon Borichevskiy](https://jon.bo/posts/squad/)
 
 > It is not a startup, nor an organization with a mission statement, nor a non-profit, nor a consultancy... Our calls are space we hold in which we invite one other to explore and create what wants to be built at the intersection of all our interests and diverse perspectives and past experiences. **A squad is a collective identity in which I can participate to create something more intricate, comprehensive, and wonderful than with just myself.**
 
-It’s [[trust|trusting]] everyone else in the group is committed to upholding a high-openness, high-trust, [[content/recentnotes/play|playful]] mode of co-creating and exploration. It’s having the confidence that whatever comes up – we will make space for the collective group wisdom to work through it and come out on the other end stronger, together.
+It’s [[trust.md|trusting]] everyone else in the group is committed to upholding a high-openness, high-trust, [[content/recentnotes/play|playful]] mode of co-creating and exploration. It’s having the confidence that whatever comes up – we will make space for the collective group wisdom to work through it and come out on the other end stronger, together.
 
 Takeaways
 
 - Shared knowledge graph tooling is a common pain point and one no one has solved well
-- [[friction|Friction-ful]] onboarding can be good! "What does work is having people join our open calls, playing with ideas and tasks they resonate with, and progressively getting more involved"
+- [[friction.md|Friction-ful]] onboarding can be good! "What does work is having people join our open calls, playing with ideas and tasks they resonate with, and progressively getting more involved"
 
 ## Squad Wealth
 

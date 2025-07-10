@@ -21,9 +21,9 @@ Each actor has:
 - An `outbox`: How they send messages to others
 
 Here's how sending and reading messages work
-![[ActivityPub diagram.png]]
+![[ActivityPub diagram.png](images/ActivityPub%20diagram.png)
 
-- You can POST to someone's inbox to send them a message (server-to-server / [[federation|federation]] only... this *is* [[federation|federation]]!)
+- You can POST to someone's inbox to send them a message (server-to-server / [[federation.md|federation]] only... this *is* [[federation.md|federation]]!)
 - You can GET from your inbox to read your latest messages (client-to-server; this is like reading your social network stream)
 - You can POST to your outbox to send messages to the world (client-to-server)
 - You can GET from someone's outbox to see what messages they've posted (or at least the ones you're authorized to see). (client-to-server and/or server-to-server)

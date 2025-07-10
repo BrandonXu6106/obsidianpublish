@@ -5,13 +5,13 @@ tags:
   - sapling
 ---
 
-Consensus in human systems is actually usually pretty easy because of the social layer of society. This [fault tolerance](fault%20tolerance.md) against 51% attacks is due to the fact that convincing the community that any engineered '[[truth]]' is the real on requires subverting every trusted member in the community, most notably media and news sources (also why systems of authoritarian power are so scary).
+Consensus in human systems is actually usually pretty easy because of the social layer of society. This [fault tolerance](fault%20tolerance.md) against 51% attacks is due to the fact that convincing the community that any engineered '[[truth.md]]' is the real on requires subverting every trusted member in the community, most notably media and news sources (also why systems of authoritarian power are so scary).
 
 A difficult problem for [governance](governance.md) within [communities](communities.md)
 
-Note that this is inherently _different_ from collaboration methods like [[CRDT|CRDTs]]. Collaboration involves keeping _all_ edits and merging them. Consensus involves picking one of several proposed values and agreeing on it.
+Note that this is inherently _different_ from collaboration methods like [[CRDT.md|CRDTs]]. Collaboration involves keeping _all_ edits and merging them. Consensus involves picking one of several proposed values and agreeing on it.
 
-Example applications include: [[State Machine Replication (SMR)|SMR]], [[Byzantine Agreement|Byzantine Agreement]]
+Example applications include: [[State Machine Replication (SMR)|SMR](State%20Machine%20Replication%20(SMR).md), [[Byzantine Agreement|Byzantine Agreement](Byzantine%20Agreement.md)
 
 ## Consensus and Humming in the IETF
 
@@ -34,36 +34,36 @@ There are four requirements to such an algorithm:
 
 There are two main protocol paradigms for achieving consensus in the presence of Byzantine nodes:
 
-1. Classic [[Byzantine Faults|BFT]] protocols: typically uses two voting rounds to ensure [[consistency|consistency]]
+1. Classic [[Byzantine Faults|BFT](Byzantine%20Faults.md) protocols: typically uses two voting rounds to ensure [[consistency.md|consistency]]
    1. One phase to guarantee proposal uniqueness using a quorum certificate of $n-f$ votes
    2. The other phase is to convince replicas that the leader is safe to propose new entries
-   3. Examples include: [[Tendermint|Tendermint]], [[Tangaroa|Tangaroa]], [[HotStuff|HotStuff]], [[PBFT|PBFT]]
-2. [[longest-chain consensus|Longest-chain consensus]]
-   1. Examples include: most consensus mechanisms for cryptocurrencies like [[bitcoin|Bitcoin]], [[ethereum|Ethereum]]
+   3. Examples include: [[Tendermint.md|Tendermint]], [[Tangaroa.md|Tangaroa]], [[HotStuff.md|HotStuff]], [[PBFT.md|PBFT]]
+2. [[longest-chain consensus|Longest-chain consensus](longest-chain%20consensus.md)
+   1. Examples include: most consensus mechanisms for cryptocurrencies like [[bitcoin.md|Bitcoin]], [[ethereum.md|Ethereum]]
 
 |                                                | Classic BFT                                                                                                   | Longest-chain Consensus                                                                     |
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| Safety/Liveness tradeoff                       | Favours [safety](/thoughts/safety) in the face of an attack                                                   | Favour [liveness](/thoughts/liveness) in the face of an attack                              |
+| Safety/Liveness tradeoff                       | Favours [safety](../../thoughts/safety.md) in the face of an attack                                                   | Favour [liveness](/thoughts/liveness) in the face of an attack                              |
 | Finality                                       | Instant and deterministic                                                                                     | Probabilistic (at risk of potentially large chain reorganizations and double-spend attacks) |
 | Fork behaviour                                 | Rare but difficult to recover from                                                                            | Embrace forks, uses in-protocol methods for resolving ambiguity as to which fork is correct |
 | [FLP Result](/thoughts/FLP%20Result) Behaviour | sacrifice either liveness or consistency in the face of an attack (assuming <33% Byzantine as per FLP Result) | Does not apply as longest-chain consensus is non-deterministic                              |
 | Permission model                               | Generally permissioned (see [Sandglass](/thoughts/Sandglass))                                                 | Permissionless                                                                              |
 
-Note that there have been attempts to bridge Classic BFT models with [[longest-chain consensus|Nakamoto-style consensus]] ones with hybrid consensus models which use a permissionless chain to determine a participant/proposer rotation in a reconfigurable BFT engine.
+Note that there have been attempts to bridge Classic BFT models with [[longest-chain consensus|Nakamoto-style consensus](longest-chain%20consensus.md) ones with hybrid consensus models which use a permissionless chain to determine a participant/proposer rotation in a reconfigurable BFT engine.
 
 ### Comparisons between different BFT SMR protocols
 
 All protocols are of the following:
 
-1.  protocols for [[Byzantine Faults|byzantine fault-tolerant]] [[State Machine Replication (SMR)|SMR]]
-2.  All work in the partially synchronous [[system model|system model]] and obtain safety (always) and liveness (after GST) in the face of an adversary that controls $f$ replicas out of a total of $n=3f+1$ replicas (per [[FLP Result|FLP Result]])
-3.  All these protocols are based on the classic leader-based primary-backup approach where leaders are replaced in a *view-change* (or election to use [[Raft Consensus Algorithm|Raft]] terminology) protocol.
+1.  protocols for [[Byzantine Faults|byzantine fault-tolerant](Byzantine%20Faults.md) [[State Machine Replication (SMR)|SMR](State%20Machine%20Replication%20(SMR).md)
+2.  All work in the partially synchronous [[system model|system model](system%20model.md) and obtain safety (always) and liveness (after GST) in the face of an adversary that controls $f$ replicas out of a total of $n=3f+1$ replicas (per [[FLP Result|FLP Result](FLP%20Result.md))
+3.  All these protocols are based on the classic leader-based primary-backup approach where leaders are replaced in a *view-change* (or election to use [[Raft Consensus Algorithm|Raft](Raft%20Consensus%20Algorithm.md) terminology) protocol.
 
-Below is a comparison of a few top protocols and their tradeoffs in [[authenticator complexity|authenticator complexity]]
+Below is a comparison of a few top protocols and their tradeoffs in [[authenticator complexity|authenticator complexity](authenticator%20complexity.md)
 
 |                                    | Best-case Latency (rounds) | Normal-case Communication                               | View-change Communication | Leader Rotation    | Responsiveness |
 | ---------------------------------- | -------------------------- | ------------------------------------------------------- | ------------------------- | ------------------ | -------------- |
-| [PBFT](/thoughts/PBFT)             | 2                          | $O(n^2)$                                                | $O(n^3)$                  | On suspected fault | Yes            |
+| [PBFT](../../thoughts/PBFT.md)             | 2                          | $O(n^2)$                                                | $O(n^3)$                  | On suspected fault | Yes            |
 | [Tendermint](/thoughts/Tendermint) | 2                          | $O(n)$ using thresholded signatures, $O(n^2)$ otherwise | $O(n)$                    | Every round        | No             |
 | [SBFT](/thoughts/SBFT)             | 1                          | $O(n)$                                                  | $O(n^2)$                  | On suspected fault | Yes            |
 | [HotStuff](/thoughts/HotStuff)     | 3                          | $O(n)$                                                  | $O(n)$                    | Every round        | Yes            |
@@ -77,13 +77,13 @@ Leader rotation tradeoff:
 
 ### Pipelining
 
-In [[PBFT|PBFT]], [[SBFT|SBFT]], and [[HotStuff|HotStuff]] the leader maintains a *window* of open slots and is allowed to concurrently work on committing all open slots in his active window. Conceptually, this is like [[TCP|TCP]] where a sender does not have to wait for the ACK of packet $i$ before sending message $i+1$. This window can _significantly increase throughput_ by allowing the leader to concurrently coordinate several actions of slot commitments.
+In [[PBFT.md|PBFT]], [[SBFT.md|SBFT]], and [[HotStuff.md|HotStuff]] the leader maintains a *window* of open slots and is allowed to concurrently work on committing all open slots in his active window. Conceptually, this is like [[TCP.md|TCP]] where a sender does not have to wait for the ACK of packet $i$ before sending message $i+1$. This window can _significantly increase throughput_ by allowing the leader to concurrently coordinate several actions of slot commitments.
 
 ## Impossibility Results
 
 When consensus is impossible to achieve:
 
-1. [[33 percent Impossibility Result|33 percent Impossibility Result]]
-2. [[PSL-FLM Impossibility Result|PSL-FLM Impossibility Result]]
-3. [[FLP Result|FLP Result]]
-4. [[LR Permissionless Result|LR Permissionless Result]]
+1. [[33 percent Impossibility Result|33 percent Impossibility Result](33%20percent%20Impossibility%20Result.md)
+2. [[PSL-FLM Impossibility Result|PSL-FLM Impossibility Result](PSL-FLM%20Impossibility%20Result.md)
+3. [[FLP Result|FLP Result](FLP%20Result.md)
+4. [[LR Permissionless Result|LR Permissionless Result](LR%20Permissionless%20Result.md)

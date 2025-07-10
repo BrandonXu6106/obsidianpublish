@@ -8,7 +8,7 @@ tags:
 
 > The future is manifested
 
-Shared fiction as a statement about the future instead of a statement of today. They're both fictions in that they can't be (dis)proved and thus can have the same functions in a group of people (bring together, motivate to action, share values/[[language|language]], etc.)
+Shared fiction as a statement about the future instead of a statement of today. They're both fictions in that they can't be (dis)proved and thus can have the same functions in a group of people (bring together, motivate to action, share values/[[language.md|language]], etc.)
 
 Build as if your creations had [skyhooks](skyhooks.md) you could hang them off of.
 
@@ -18,7 +18,7 @@ In part why I really like reading things like The Book of Predictions where peop
 
 Where are our futures with no famine and disease? With a clean and healthy planet? Of universal free access to information? Where did the ambition go?
 
-J. Storrs Hall in [[Where is My Flying Car|Where is My Flying Car]]:
+J. Storrs Hall in [[Where is My Flying Car|Where is My Flying Car](Where%20is%20My%20Flying%20Car.md):
 
 > We need hopers and dreamers; we need visionaries who can see a better future worth striving for. We need great, important things to do with the staggeringly huge capabilities that lie within our grasp. Science fiction must get back down into the gutter and start looking back up at the stars.
 
@@ -46,7 +46,7 @@ _Visions matter_. Visions give people a direction and inspire people to act, and
 
 ## Shared [truth](truth.md)
 
-Creating shared truth _through [fiction](fiction.md)_ by dreaming the world we want to see come to fruition. I really like this, helps to explain why we need a collective vision. Reminds me of a big reason [contests like this exist](https://medium.com/@yishan/solarpunk-art-contest-2021-da9474c9722e).
+Creating shared truth _through [fiction](../../..//content/thoughts/fiction.md)_ by dreaming the world we want to see come to fruition. I really like this, helps to explain why we need a collective vision. Reminds me of a big reason [contests like this exist](https://medium.com/@yishan/solarpunk-art-contest-2021-da9474c9722e).
 
 In essence, these are just [social contracts](social%20contracts.md) (which are just shared truths that we all believe in)
 

@@ -9,4 +9,4 @@ An **affordance** signifies _what_ action is possible. It is the relationship be
 
 An object's affordances are never equally perceptible to all, and never equally available to all.
 
-See: [[Design Justice]]
+See: [[Design Justice](Design%20Justice.md)

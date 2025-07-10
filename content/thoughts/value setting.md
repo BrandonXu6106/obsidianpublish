@@ -9,7 +9,7 @@ tags:
 
 Took on a large number of commitments in the past year, not everything was something I enjoyed. Been thinking about what makes work enjoyable
 
-Ask yourself, and listen closely to your answer: “What do I like about this world? What pains me about this world?” Spend time developing your [[taste]] for what is beautiful, as well as your sensitivity to what is discordant, unjust, ugly, wrong.
+Ask yourself, and listen closely to your answer: “What do I like about this world? What pains me about this world?” Spend time developing your [[taste.md]] for what is beautiful, as well as your sensitivity to what is discordant, unjust, ugly, wrong.
 
 > Aim to be fulfilled—not excessively rich. There's a reason why lottery winners are just as miserable as they were before. Hedonistic adaptation is inescapable.
 

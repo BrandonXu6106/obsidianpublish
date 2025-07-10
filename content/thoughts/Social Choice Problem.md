@@ -14,15 +14,15 @@ We can define a Social welfare function (SWF) combining individual preference or
 ## Initial Attempts
 
 1. Use majority rule to aggregate individual preferences into group preferences.
-   - **Problem**: The voting paradox. Individual preferences may be transitive but the group preference _can_ be cyclic when we do a majority vote. The violates [[probability#Kolmogorov Axioms|a Klmogorov Axiom]] about ordering
+   - **Problem**: The voting paradox. Individual preferences may be transitive but the group preference _can_ be cyclic when we do a majority vote. The violates [[probability.md#Kolmogorov Axioms|a Klmogorov Axiom]] about ordering
 2. Use maximum total utility to determine group preference
    - Different scales (equivalent vNM scales) yield a different social preference ordering
 3. Just use ordinal rankings
-   - [[Arrow's Impossibility Theorem]]
+   - [[Arrow's Impossibility Theorem](Arrow's%20Impossibility%20Theorem.md)
 
 Definitions:
 
 1. A group $D \in G$ is decisive with respect to some pair of social states $(a,b)$ iff $a \succ b$ by the whole group $G$ whenever everyone in $D$ prefers $a \succ b$
 2. A group is decisive if it is decisive over all pairs of social states
 
-See: [[Arrow's Impossibility Theorem]]
+See: [[Arrow's Impossibility Theorem](Arrow's%20Impossibility%20Theorem.md)

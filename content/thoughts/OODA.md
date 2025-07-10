@@ -6,7 +6,7 @@ tags:
   - pattern
 ---
 
-OODA stands for observe, orient, decide, act. Initially developed by a military strategist, it is now applied to understand commercial operations and [[information behaviour]]
+OODA stands for observe, orient, decide, act. Initially developed by a military strategist, it is now applied to understand commercial operations and [[information behaviour](information%20behaviour.md)
 
 ### Wilson's Information-seeking Model
 
@@ -38,4 +38,4 @@ Instead of asking GPT to simply do smart-autocomplete on your text, you prompt i
 
 And it is allowed to repeat as many times as necessarily, iterating towards its goal.
 
-This allows [[LLMs|LLMs]] to go from a constant number of compute per token (a single forward pass) to effectively unbounded computation. This feels significantly closer to how humans process information, where some queries take more brain power to mull over the possibility space rather than responding directly.
+This allows [[LLMs.md|LLMs]] to go from a constant number of compute per token (a single forward pass) to effectively unbounded computation. This feels significantly closer to how humans process information, where some queries take more brain power to mull over the possibility space rather than responding directly.

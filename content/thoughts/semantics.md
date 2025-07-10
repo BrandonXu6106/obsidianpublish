@@ -75,7 +75,7 @@ Word extension: to what extent is a word valid?
 
 ### Images
 
-Semantics in [[convolutional neural networks]]
+Semantics in [[convolutional neural networks](convolutional%20neural%20networks.md)
 
 Hidden units often correlate semantically-meaningful concepts.
 
@@ -90,4 +90,4 @@ Adversarial Examples: imperceptible noise that changes label/prediction. This is
 
 Using semantics means it can learn bad correlations (e.g. correlating grass with cows so when it sees a cow by a beach it has no idea what it is)
 
-See also: [[data distributions]]
+See also: [[data distributions](data%20distributions.md)

@@ -9,7 +9,7 @@ aliases:
 
 > Access control systems guarantee that every action performed adheres to a set of rules, which can be dynamically changed at runtime.
 
-In traditional systems, this guarantee can be enforced by relying on a central server. But this becomes a lot more difficult for eventually [[consistency|consistent]] systems (e.g. [[CRDT|CRDTs]])
+In traditional systems, this guarantee can be enforced by relying on a central server. But this becomes a lot more difficult for eventually [[consistency.md|consistent]] systems (e.g. [[CRDT.md|CRDTs]])
 
 There is a common perception of ACL systems and capability systems as merely alternative perspectives on Lampson’s access matrix:
 
@@ -18,7 +18,7 @@ There is a common perception of ACL systems and capability systems as merely alt
 | Role 1 | read, write, execute, own | execute                   | read | write  |
 | Role 2 | read                      | read, write, execute, own |      |        |
 
-![[acl vs capability.png]]
+![[acl vs capability.png](images/acl%20vs%20capability.png)
 
 ### Access Control Lists
 
@@ -48,14 +48,14 @@ From _[Capability Myths Demolished](https://srl.cs.jhu.edu/pubs/SRL2003-02.pdf)_
 3. Irrevocability Myth: capability-based access cannot be revoked
    - It is true that capabilities themselves are not literally revocable.
    - Further, we know that the capability alone is sufficient to establish access to the resource.
-   - However, we can create a pair of forwarders, F and R to get around this. Of this pair, we may call F the forwarding facet, and R the revoking facet. Any messages sent to F get forwarded through R to Carol, so Bob may use F as if it were Carol. This works as long as inter-object interactions are mediated by messages, and messages are handled generically, so that a reusable mechanism can forward any message. ![[content/thoughts/images/capabilityrevokation.png]]
+   - However, we can create a pair of forwarders, F and R to get around this. Of this pair, we may call F the forwarding facet, and R the revoking facet. Any messages sent to F get forwarded through R to Carol, so Bob may use F as if it were Carol. This works as long as inter-object interactions are mediated by messages, and messages are handled generically, so that a reusable mechanism can forward any message. ![[images/capabilityrevokation.png]]
    - When Alice wants to revoke Bob’s access to Carol, she invokes R, telling it to stop forwarding. R then drops its pointer to Carol, and F becomes useless to Bob.
 
 Ambient Authority:
 
 - We will use the term ambient authority to describe authority that is exercised, but not selected, by its user.
 - The corresponding analogy is to imagine a world with doors but without keys. When a person walks up to a door, the door magically opens if it deems the person worthy.
-- For example, [[Unix|Unix]] filesystem [[Permissions|permissions]] constitute an ambient authority mechanism, because the caller of a function such as `open()` does not choose any credentials to present with the request; the request merely succeeds or fails
+- For example, [[Unix.md|Unix]] filesystem [[Permissions.md|permissions]] constitute an ambient authority mechanism, because the caller of a function such as `open()` does not choose any credentials to present with the request; the request merely succeeds or fails
 
 Confused Deputy Problems:
 

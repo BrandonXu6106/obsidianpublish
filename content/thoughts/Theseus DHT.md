@@ -7,7 +7,7 @@ tags:
 
 Anyone can store data in the DHT and receive an estimate of how long that data will be stored. Once stored, data is very hard to remove or modify. Small data is stored longer; this makes the DHT well-suited for exchanging things like lists of peers, signed cryptographic hashes, compressed text, and so on.
 
-Routing is based on [[Kademlia DHT|Kademlia DHT]] but with better security properties. It runs over [[TCP|TCP]]
+Routing is based on [[Kademlia DHT|Kademlia DHT](Kademlia%20DHT.md) but with better security properties. It runs over [[TCP.md|TCP]]
 
 ## Security
 

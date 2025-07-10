@@ -15,7 +15,7 @@ Having clearly defined and encoded rules means that there is an _implicit shift_
 
 Curious whether this has relations to [philosophy of science](philosophy%20of%20science.md) and [Cartesian skepticism](Descartes'%20Meditations.md)
 
-Related: [game theory and trust](game%20theory.md), [[epistemic authority]]
+Related: [game theory and trust](game%20theory.md), [[epistemic authority](epistemic%20authority.md)
 
 > To dream up important ideas you must think like an idealist; to build systems that will live up to those dreams, you must think like an adversary.
 
@@ -49,7 +49,7 @@ Thinking that the fact that you trust in them/it will give a reason to fulfill t
 
 Betrayal of trust here is failure to be properly responsive
 
-Hawley's definition of trust is that "to trust somebody is to take them to have made a [[commitment|commitment]] to do something and to rely on them to fulfill that commitment. Hawley's account grounds the sence of betrayal in the trusted person's failure to live up to their commitments"
+Hawley's definition of trust is that "to trust somebody is to take them to have made a [[commitment.md|commitment]] to do something and to rely on them to fulfill that commitment. Hawley's account grounds the sence of betrayal in the trusted person's failure to live up to their commitments"
 
 ### Non-agent based theories
 
@@ -72,7 +72,7 @@ To lose trust is to shift from the unquestioning state to the endlessly skeptica
 
 From [Buzzard](https://buzzard.life/posts/kristen/buzzard-squad-as-cell/)
 
-![Trust circles](Trust%20Circles.png)
+![Trust circles](images/Trust%20Circles.png)
 
 ## Trust between human and non-human systems
 
@@ -90,7 +90,7 @@ The senior hiring manager could potentially be doxastically partial towards her 
 
 However, there is one clear detail in this case that makes the algorithmic expert far more likely to be biased: it is trained on historical data that has been sanitized and decontextualized. In fact, historical data shows that in the past there have been more men in the women in the workforce. The _forbidden base rate_ (Gendler, 2011) here is the statistical information about the relative number of male and female employees in the tech industry. If the data was sampled at random, then it is _statistically optimal_ for the algorithm to prefer male applicants to female applicants rather than purely on the basis of qualification for the position. This, while _epistemically_ rational, may not be the correct choice of action for moral reasons.
 
-Lastly, I put forth the concept of epistemic [[accountability]], a measure of whether there are ways to holding the agent in question accountable for their doxastic claims. Accountability here refers to the ability to reduce the epistemic trust in an authority after violating an epistemic norm (e.g. being incorrect). I argue that the algorithmic authority cannot be held accountable for its actions as it does not have capacity as an epistemic agent on its own -- it cannot be held accountable for its decisions. As the algorithm itself is a _designed object_ we can instead attribute it forms of _derived_ trust whereas the trust is not only in the algorithm itself, but its designer (the engineers who created the algorithm, the data engineers who sourced and cleaned the data) or experts who know how to operate it. As both types of progenitors of this type of trust are absent, it would be epistemically irrational to trust this algorithm.
+Lastly, I put forth the concept of epistemic [[accountability.md]], a measure of whether there are ways to holding the agent in question accountable for their doxastic claims. Accountability here refers to the ability to reduce the epistemic trust in an authority after violating an epistemic norm (e.g. being incorrect). I argue that the algorithmic authority cannot be held accountable for its actions as it does not have capacity as an epistemic agent on its own -- it cannot be held accountable for its decisions. As the algorithm itself is a _designed object_ we can instead attribute it forms of _derived_ trust whereas the trust is not only in the algorithm itself, but its designer (the engineers who created the algorithm, the data engineers who sourced and cleaned the data) or experts who know how to operate it. As both types of progenitors of this type of trust are absent, it would be epistemically irrational to trust this algorithm.
 
 In conclusion, it is clear that despite potential biases from both parties, the algorithmic authority has clear flaws in its ability to be held accountable as an epistemic agent and highly likely to be partial _against_ the female candidate due to the forbidden base rate in this case study. It is much more likely that the senior hiring manager is a trustworthy epistemic agent.
 

@@ -15,7 +15,7 @@ To make software safe and sharable, scrapscript combines existing wisdom in new 
 
 ## Content-Addressible Everything
 
-(see: [[content addressed storage]])
+(see: [[content addressed storage](content%20addressed%20storage.md))
 
 Any chunk of the language can be replaced with a hash. Scraps are stored/cached/named/indexed in global distributed “scrapyards”. This is like an `npm` but at the expression level
 
@@ -26,7 +26,7 @@ Expression level-versioning, every expression in the ecosystem can be independen
 (spaceq/is-planet@2006 "pluto") ; false
 ```
 
-Magic compression: Instead of sharing large dumps of data, you can send references to any data anywhere. By sending references, other machines can opt to pull the data from cache or high-speed CDNs (see: [[CID]])
+Magic compression: Instead of sharing large dumps of data, you can send references to any data anywhere. By sending references, other machines can opt to pull the data from cache or high-speed CDNs (see: [[CID.md]])
 
 ## First-class Network Requests
 
@@ -39,7 +39,7 @@ error: @rebbit/users expects type rebbit/users-request
 
 ## Publish
 
-Scrapyards store scraps in an [[IPFS]]-like system with name and versioning information.
+Scrapyards store scraps in an [[IPFS.md]]-like system with name and versioning information.
 
 ```bash
 ## publish a scrap

@@ -6,7 +6,7 @@ tags:
 ---
 [Source](https://berjon.com/web-tiles/)
 
-![[CORS#Abolish the same-origin policy|CORS]]
+![[CORS.md#Abolish the same-origin policy|CORS]]
 
 Web Tiles asks the question about how we might enable composable software on the web, focussing on applications rather than documents.
 
@@ -14,7 +14,7 @@ Web Tiles asks the question about how we might enable composable software on the
 
 > "Asking people to approve access that they _know_ they don't fully understand and that they couldn't monitor even if they did understand it does not empower them. On the contrary, it trains them to be despondent, helpless at the hands of the High Priesthood of Computer Whisperers. And our job as technologists building a better world is to eradicate the High Priesthood."
 
-See: [[access control|access control]]
+See: [[access control|access control](access%20control.md)
 ## Wishes and intents
 A wish is a verb applied to a type of thing. A tile's metadata describes which wishes it can grant. This is similar to the existing technology matching this approach: [Web Intents](https://www.w3.org/TR/web-intents/). Web Intents were developed (and abandoned) by the W3C's Device APIs Working Group
 

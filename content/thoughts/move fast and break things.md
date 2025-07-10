@@ -19,7 +19,7 @@ This is exactly what I mean when I talk about "bootstrapping." It is a very Amer
 
 ## Velocity vs Acceleration
 
-[Velocity vs Acceleration based execution](https://www.samsonzhang.com/2021/01/19/how-to-innovate-and-create-a-culture-of-innovation.html). Insightful read on how orgs can be [moving fast but not be innovating](move%20fast%20and%20break%20things.md). How do we have a high acceleration org rather than just a high velocity one?
+[Velocity vs Acceleration based execution](https://www.samsonzhang.com/2021/01/19/how-to-innovate-and-create-a-culture-of-innovation.html). Insightful read on how orgs can be [moving fast but not be innovating](../../..//content/thoughts/move%20fast%20and%20break%20things.md). How do we have a high acceleration org rather than just a high velocity one?
 
 ## The Coming Software Apocalypse
 

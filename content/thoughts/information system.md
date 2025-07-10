@@ -22,6 +22,6 @@ Why build the ARPANET (precursor to the [Internet](Internet.md))?
 2. Reliability: how many dependencies does it need? How often do those fail?
 3. Learnability: how many skills do you need to acquire to use it?
 
-See also: [[design goals]], [[library]]
+See also: [[design goals](design%20goals.md), [[library.md]]
 
 > Choosing the best system for a particular task then isn’t just about choosing the latest technology, but carefully understanding the task at hand, and what types of systems might best support

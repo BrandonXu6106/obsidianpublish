@@ -16,7 +16,7 @@ tags:
 
 “Give” reminds us of the freedom of our choice to attend, or not; “pay” reminds us of attention’s costliness, and of the value of that to which we attend
 
-See also [[attention economy]]
+See also [[attention economy](attention%20economy.md)
 
 ## Jigs as attention guides
 [Source](https://www.thenewatlantis.com/publications/attending-to-technology-theses-for-disputation)
@@ -29,9 +29,9 @@ Illich refers to “_eutrapelia_ (or graceful playfulness),” and indeed the
 
 [The bookstore with a single book.](https://www.takram.com/projects/a-single-room-with-a-single-book-morioka-shoten/) This is a tiny bookstore in Tokyo that sells a single book at a time in a small room. I really love the emphasis on getting to know a single book and author intimately -- especially in an age of [digital consumerism](attention%20economy.md).
 
-Heraclitus said, "No man steps in the same river twice." The second time around, both man and river are different than they were before. The paints and books are the same, but we change between reads and brushstrokes. Deep attention allows us to observe these changes not just as a snapshot but through [[time|time]].
+Heraclitus said, "No man steps in the same river twice." The second time around, both man and river are different than they were before. The paints and books are the same, but we change between reads and brushstrokes. Deep attention allows us to observe these changes not just as a snapshot but through [[time.md|time]].
 
-See also: [[friendship]]
+See also: [[friendship.md]]
 
 ## Holding (and scrolling) attention
 

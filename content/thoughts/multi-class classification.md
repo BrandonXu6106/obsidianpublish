@@ -8,14 +8,14 @@ tags:
 
 ## One vs All
 
-Suppose we only know how to do [[probabilistic classifier|probabilistic binary classification]]. But we have $k$ classes we want to distinguish between. We can
+Suppose we only know how to do [[probabilistic classifier|probabilistic binary classification](probabilistic%20classifier.md). But we have $k$ classes we want to distinguish between. We can
 
 - For each class $c$, train binary classifier to predict whether example is a $c$.
   - This creates $k$ binary classifiers
 - On prediction, apply the $k$ binary classifiers to get a “score” for each class $c$.
 - Predict the $c$ with the highest score (argmax)
 
-This divides the space into convex regions (much like [[K-means]])
+This divides the space into convex regions (much like [[K-means.md]])
 
 Notation: $w_{y_i}$ denotes a classifier where $c = y_i$
 
@@ -41,7 +41,7 @@ Penalizes the $c$ that violates the constraint the most
 
 $$\max_{c \neq y_i} \{ \max\{0, 1-w_{y_i}^Tx_i + w_c^Tx_i\} \}$$
 
-Adding L2-[[regularization|regularization]] turns both into multi-class [[SVM|SVMs]]. Both are convex upper bounds on the 0-1 loss.
+Adding L2-[[regularization.md|regularization]] turns both into multi-class [[SVM.md|SVMs]]. Both are convex upper bounds on the 0-1 loss.
 
 ## Multi-class Logistic Regression
 
@@ -53,4 +53,4 @@ We can rewrite the last term as $\lVert W \rVert^2_F$ (the Frobenius norm of the
 
 This is equivalent to binary logistic loss for $k=2$
 
-See also: [[probabilistic classifier#Multi-class Probabilities|multi-class probabilities]]
+See also: [[probabilistic classifier#Multi-class Probabilities|multi-class probabilities](probabilistic%20classifier.md)

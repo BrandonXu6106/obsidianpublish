@@ -6,7 +6,7 @@ tags:
   - CPSC340
 ---
 
-We want a model of $P(y_i = \textrm{important} | x_i )$ for use in [[Decision theory|decision theory]].
+We want a model of $P(y_i = \textrm{important} | x_i )$ for use in [[Decision theory|decision theory](Decision%20theory.md).
 
 - Predictions generally map $w^Tx_i$ to labels for classes (for binary prediction, we used $\textrm{sign}(x)$)
 - Probabilities we want to map $w^Tx_i$ to the range $[0,1]$
@@ -17,7 +17,7 @@ $$h(z_i) = \frac{1}{1+\exp(-z_i)}$$
 
 ## Multi-class Probabilities
 
-See also: [[multi-class classification]]
+See also: [[multi-class classification](multi-class%20classification.md)
 
 The softmax function allows us to map $k$ real numbers $z_i = w_c^Tx_i$ to probabilities.
 

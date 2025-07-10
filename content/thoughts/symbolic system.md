@@ -9,7 +9,7 @@ tags:
 
 Newell and Simon claimed that both digital computers and the human mind could be understood as physical symbol systems. They both use strings of bits or streams of neuron pulses as symbols representing the external world (formal symbol manipulation)
 
-[[intelligence|Intelligence]] (as claimed by Newell and Simon) requires making the appropriate inference from these internal representations
+[[intelligence.md|Intelligence]] (as claimed by Newell and Simon) requires making the appropriate inference from these internal representations
 
 Turning rationalist philosophy into a research program
 
@@ -31,4 +31,4 @@ If the computer is running a representation of the current state of the world an
 
 If a certain proposition is true (e.g. there are no empty spots in a parking lot) will it stay true? for how long?
 
-See also: [[incremental view maintenance]]
+See also: [[incremental view maintenance](incremental%20view%20maintenance.md)

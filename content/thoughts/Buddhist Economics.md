@@ -7,7 +7,7 @@ tags:
 
 > The Buddhist sees the essence of civilisation not in a multiplication of wants but in the purification of human character
 
-See also: [[Buddhism]], [[economics]], [[Tools for Conviviality]]
+See also: [[Buddhism.md]], [[economics.md]], [[Tools for Conviviality](Tools%20for%20Conviviality.md)
 
 [Source](https://centerforneweconomics.org/publications/buddhist-economics/)
 
@@ -31,7 +31,7 @@ There are therefore two types of mechanisation which must be clearly distinguish
 
 If a man has no chance of obtaining work he is in a desperate position, not simply because he lacks an income but because he lacks this nourishing and enlivening factor of disciplined work which nothing can replace.
 
-In this framing of economics, the pursuit of work as an integral part of character is in fact a [[paratelic action|paratelic]] pursuit.
+In this framing of economics, the pursuit of work as an integral part of character is in fact a [[paratelic action|paratelic](paratelic%20action.md) pursuit.
 
 ## On well-being
 
@@ -53,6 +53,6 @@ Just as a modern European economist would not consider it a great achievement if
 
 Within the order that generates the tyranny of tiny tasks, the one which privileges efficiency and tempts us with the promise of time-saved for the sake of some nebulous higher purpose, a human being is valuable only to the degree that they become sites of automated consumption and on-demand productivity.
 
-This external order also fosters a corresponding mode of being within us. We come to understand our own experience according to the logic of techno-economic order. We presume that our worth is bound up with our productivity. We enter into an adversarial relationship with time. We develop a distaste for rest. We forget how to play. Our relationships are [[instrumentalism|instrumentalized]]. The world becomes to us, in [Hartmut Rosa’s](https://theconvivialsociety.substack.com/p/the-paradox-of-control#details) memorable phrase, nothing more than a series of points of aggressions, “all matters to be settled, attended to, mastered, completed, resolved, gotten out of the way.”
+This external order also fosters a corresponding mode of being within us. We come to understand our own experience according to the logic of techno-economic order. We presume that our worth is bound up with our productivity. We enter into an adversarial relationship with time. We develop a distaste for rest. We forget how to play. Our relationships are [[instrumentalism.md|instrumentalized]]. The world becomes to us, in [Hartmut Rosa’s](https://theconvivialsociety.substack.com/p/the-paradox-of-control#details) memorable phrase, nothing more than a series of points of aggressions, “all matters to be settled, attended to, mastered, completed, resolved, gotten out of the way.”
 
 **Care is ultimately what transforms the quality of our involvement and engagement with the world so that we pass from “getting things done” to living.**

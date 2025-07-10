@@ -6,9 +6,9 @@ tags:
   - pattern
 ---
 
-See also: [[the-fools-who-dream]], [[independent research]]
+See also: [[../posts/branddesign/fonts/the-fools-who-dream.md]], [[independent research](independent%20research.md)
 
-How do we give the tools to people so learn for themselves? To treat growth as if it was play? To me, self-directed growth is the continued exercise of [[taste]]
+How do we give the tools to people so learn for themselves? To treat growth as if it was play? To me, self-directed growth is the continued exercise of [[taste.md]]
 
 ## Practical Principles for Self-directed Growth
 

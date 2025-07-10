@@ -11,7 +11,7 @@ tags:
 
 You may invite distractions but you also get a better sense of the world and the larger picture direction.
 
-Related: [Collaborative thinking](collaborative-thinking.md)
+Related: [Collaborative thinking](../posts/aigc/collaborative-thinking.md)
 
 ## As a form of EA
 

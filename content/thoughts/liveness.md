@@ -5,6 +5,6 @@ tags:
   - seed
 ---
 
-> A promise in [[distributed systems|distributed systems]] that claims that "something good" will eventually happen. A system will never enter a state such that no progress cannot be made.
+> A promise in [[distributed systems|distributed systems](distributed%20systems.md) that claims that "something good" will eventually happen. A system will never enter a state such that no progress cannot be made.
 
-One such example of a liveness property is [[consistency#Eventual Consistency|eventual consistency]].
+One such example of a liveness property is [[consistency.md#Eventual Consistency|eventual consistency]].

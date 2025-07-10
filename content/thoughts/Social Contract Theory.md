@@ -6,9 +6,9 @@ tags:
   - CPSC430
 ---
 
-**Social contract theory is the view that persons’ moral and/or political obligations are dependent upon a contract or agreement among them to form the society in which they live.** It focuses on the individual and collective benefits of protecting certain human rights, such as the [[rights|right]] to life, liberty, and property
+**Social contract theory is the view that persons’ moral and/or political obligations are dependent upon a contract or agreement among them to form the society in which they live.** It focuses on the individual and collective benefits of protecting certain human rights, such as the [[rights.md|right]] to life, liberty, and property
 
-See: [[social contracts]], [[Rawl's Theory of Justice]]
+See: [[social contracts](social%20contracts.md), [[Rawl's Theory of Justice](Rawl's%20Theory%20of%20Justice.md)
 
 What prevents the community from enacting bad rules is that no one is above the rules. Since everyone is in the same situation, no community members will want to put unfair burdens on others because that would mean putting unfair burdens on themselves.
 

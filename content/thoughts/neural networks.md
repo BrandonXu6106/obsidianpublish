@@ -6,17 +6,17 @@ tags:
   - CPSC430
 ---
 
-See also: [[convolutional neural networks]]
+See also: [[convolutional neural networks](convolutional%20neural%20networks.md)
 
 ## Shallow Networks
 
-Many domains require non-linear transforms of the features (see: [[change of basis]]). Usually not obvious which transform to use.
+Many domains require non-linear transforms of the features (see: [[change of basis](change%20of%20basis.md)). Usually not obvious which transform to use.
 
-**Neural network models try to learn good transformations**. Whereas [[latent-factor model]]s train the embedding and model separately, neural networks learn both features and the model at the same time.
+**Neural network models try to learn good transformations**. Whereas [[latent-factor model](latent-factor%20model.md)s train the embedding and model separately, neural networks learn both features and the model at the same time.
 
 Let $k$ be the number of hidden units. Generally, $\hat y_i = v^Th(Wx_i)$ (or, with bias, $\hat y_i = \sum_{c=1}^k v_ch(w_c^Tx_i + \beta_c) + \beta$)
 
-![[content/thoughts/images/single-layer-ann-diagram.jpg|500]]
+![[images/single-layer-ann-diagram.jpg|500]]
 
 Artificial neural network:
 
@@ -26,20 +26,20 @@ Artificial neural network:
   - Use sigmoid as a smooth approximation
 - $y_i$ is output of neuron for classification/regression
 
-Parameters: the (k,d) matrix $W$, and (k) vector $v$. To turn this into [[multi-class classification]], we modify $v$ into a (k', k) matrix (where k' is the number of classes) and convert to probabilities by computing the softmax of the $\hat y_c$ values
+Parameters: the (k,d) matrix $W$, and (k) vector $v$. To turn this into [[multi-class classification](multi-class%20classification.md), we modify $v$ into a (k', k) matrix (where k' is the number of classes) and convert to probabilities by computing the softmax of the $\hat y_c$ values
 
 Losses:
 
-- [[binary classification|Binary Classification]]: $f(W,v) = \sum_{i=1}^n \log(1+\exp(-y_iv^Th(Wx_i)))$
-- [[linear regression|Regression]]: $f(W,v) = \frac{1}{2} \sum_{i=1}^n (v^Th(Wx_i)-y_i)^2$
+- [[binary classification|Binary Classification](binary%20classification.md): $f(W,v) = \sum_{i=1}^n \log(1+\exp(-y_iv^Th(Wx_i)))$
+- [[linear regression|Regression](linear%20regression.md): $f(W,v) = \frac{1}{2} \sum_{i=1}^n (v^Th(Wx_i)-y_i)^2$
 
 ### Training
 
-Generally non-convex as W and v are both variables. As such, finding the global optimum is NP-Hard. We can use [[gradient descent#Stochastic Gradient Descent (SGD)]] but this is not guaranteed to reach a global optimum due to non-convexity.
+Generally non-convex as W and v are both variables. As such, finding the global optimum is NP-Hard. We can use [[gradient descent#Stochastic Gradient Descent (SGD)](gradient%20descent.md) but this is not guaranteed to reach a global optimum due to non-convexity.
 
 ### Implicit Regularization
 
-Often, increasing $k$, the number of hidden units, improves test error. This seems at odds with the [[fundamental tradeoff|fundamental tradeoff]], doesn't it?
+Often, increasing $k$, the number of hidden units, improves test error. This seems at odds with the [[fundamental tradeoff|fundamental tradeoff](fundamental%20tradeoff.md), doesn't it?
 
 However, learning theory (trade-off) results analyze global min with worst test error. The actual test error for different global minima will be better than worst case bound. Among the global minima, SGD is somehow converging to “good” ones! Empirically, using SGD is like using L2-Regularization, but the regularization is “implicit”.
 
@@ -47,7 +47,7 @@ With small models, “minimize training error” leads to unique (or similar) gl
 
 We get results that look like the following:
 
-![[double-descent curves.png]]
+![[double-descent curves.png](images/double-descent%20curves.png)
 
 ## Deep Learning
 
@@ -64,7 +64,7 @@ $$
 
 The gradient of the sigmoid function away from the origin is nearly zero. This is worse when you take the sigmoid of a sigmoid of a sigmoid...
 
-If these are numerically set to 0 because of how small they are, [[gradient descent#Stochastic Gradient Descent (SGD)]] will not make progress
+If these are numerically set to 0 because of how small they are, [[gradient descent#Stochastic Gradient Descent (SGD)](gradient%20descent.md) will not make progress
 
 This is partially solved by replacing the sigmoid activation with the ReLU activation. Alternatively, can also use skip connections that 'shortcuts' between layers
 
@@ -78,10 +78,10 @@ Self-learning algorithms like AlphaZero (which learns from self-play) seem to di
 #### Brain-like networks
 
 - Biological similarities
-  - [[convolutional neural networks|CNNs]] have high sensitivity to spots, edges, and bars in specific orientations
+  - [[convolutional neural networks|CNNs](convolutional%20neural%20networks.md) have high sensitivity to spots, edges, and bars in specific orientations
   - This echoes the work of hubel and wiesle (1962) which found similar patterns in the feline visual cortex
-- Both systems have created a system of internal [[representation|representations]] that corresponds to important distinctions and structures in the outside world
-- Neural networks have decently high [[fault tolerance|fault tolerance]] (some redundant neurons)
+- Both systems have created a system of internal [[representation.md|representations]] that corresponds to important distinctions and structures in the outside world
+- Neural networks have decently high [[fault tolerance|fault tolerance](fault%20tolerance.md) (some redundant neurons)
   - May help to explain functional persistence of brains in the face of minor damage. In a large network, a loss of a few neurons will not make a huge impact, but the quality of its computations will progressively degrade (this is why network distillation still works)
 
 #### Differences
@@ -95,5 +95,5 @@ Self-learning algorithms like AlphaZero (which learns from self-play) seem to di
   - There is little empirical evidence for this in biological brains
 - Real brains show a progressive reduction in reaction time as one learns
   - Not seen in ANNs where error decreases but prediction time remains constant
-- [[supervised learning|Supervised]] require a 'global truth' or teacher. These 'perfect' signals are not present in the real world
-  - So far, [[unsupervised learning]] has been vastly inferior to supervised approaches
+- [[supervised learning|Supervised](supervised%20learning.md) require a 'global truth' or teacher. These 'perfect' signals are not present in the real world
+  - So far, [[unsupervised learning](unsupervised%20learning.md) has been vastly inferior to supervised approaches

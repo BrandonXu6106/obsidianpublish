@@ -19,7 +19,7 @@ Growth is a process of 'leaving home'. It is a process of leaving the mental hom
 ### Stage 2: Self
 
 - the subject (self) is a collection of short-term practical interests
-- [[ethics|ethics]] in this mode is “instrumental”: aimed at satisfying your own needs, while working with or around other people’s. Relationships are “transactional”: transient alliances for mutual benefit.
+- [[ethics.md|ethics]] in this mode is “instrumental”: aimed at satisfying your own needs, while working with or around other people’s. Relationships are “transactional”: transient alliances for mutual benefit.
 
 ### Stage 3: Communal
 
@@ -33,7 +33,7 @@ Growth is a process of 'leaving home'. It is a process of leaving the mental hom
 
 - you no longer are in relationships that define you; you have relationships
 - you are “self-authored”: you choose your own principles, projects, and commitments
-- it means [[seeing|seeing]] the other person for who they really are. Emotions are just something people have, from time to time. Those need to be dealt with, but should not be taken too seriously. Relating to the other person’s principles, projects, and commitments means supporting what they most care about in the longer run
+- it means [[seeing.md|seeing]] the other person for who they really are. Emotions are just something people have, from time to time. Those need to be dealt with, but should not be taken too seriously. Relating to the other person’s principles, projects, and commitments means supporting what they most care about in the longer run
 
 ### Stage 5: Fluid
 
@@ -66,7 +66,7 @@ Growth is a process of 'leaving home'. It is a process of leaving the mental hom
   - This is very much a metaphor for many familial relationships (especially in Asian-Canadian/Asian-American families) in which family is incredibly overprotective of their children, despite the pleas of the children to have their own independence and to not be constantly told of what to do (I am guilty of this as well)
   - Here it is noteworthy that suggested way of navigating this relationship is one that puts you the _relation_ between you and the parents as an object rather than the subject -- to realize that you no longer are in relationships that define you; you _have_ relationships (A stage 3 to stage 4 development)
 
-## On [[self-confidence]] and being whole
+## On [[self-confidence.md]] and being whole
 
 > Wholesomeness not in the aesthetic sense but as in the wholeness of the self
 

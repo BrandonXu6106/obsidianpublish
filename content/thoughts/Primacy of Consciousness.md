@@ -6,7 +6,7 @@ tags:
   - PHIL451A
 ---
 
-Related: [[consciousness|consciousness]], [[monism#Neutral Monism|neutral monism]]
+Related: [[consciousness.md|consciousness]], [[monism.md#Neutral Monism|neutral monism]]
 ## Horizon Metaphor
 
 Husserl had no word to denote what is not really an object, but a process of uncovering or displaying potentialities -- thus, the horizon metaphor.
@@ -26,7 +26,7 @@ The horizon itself is [empty](emptiness.md).
 
 Kant defines 'transcendental knowledge' as knowledge which is occupied not so much with objects as with the mode of our knowledge of objects in so far as this mode of knowledge is to be possible _a priori_. Consciousness then is not another object of knowledge, but that by which any object is knowable -- consciousness is irreducible to the domain of objects.
 
-![Merleau-Ponty on the world and consciousness](Merleau-Ponty%20on%20the%20world%20and%20consciousness.png)_Merleau-Ponty on the world and consciousness_
+![Merleau-Ponty on the world and consciousness](images/Merleau-Ponty%20on%20the%20world%20and%20consciousness.png)_Merleau-Ponty on the world and consciousness_
 
 ### Two conceptions on the world and the universe
 
@@ -49,7 +49,7 @@ Advocates of this interpretation sometimes describe it as ‘participatory reali
 
 The upshot: there is no simple way to remove our experience as scientists from the characterization of the physical world. Observing it doesn't only affect the measurement, observing it _is_ the measurement
 
-Scientific knowledge then is a self-correcting narrative made from the world and our experience of it evolving together (see [[philosophy of science|Karl Popper's Philosophy of Science]])
+Scientific knowledge then is a self-correcting narrative made from the world and our experience of it evolving together (see [[philosophy of science|Karl Popper's Philosophy of Science](philosophy%20of%20science.md))
 
 ## Is Consciousness Primary?
 
@@ -61,13 +61,13 @@ Posits that consciousness is methodological and existentially primary
   - Nouns refer to some manipulable or abstract object. But an object is an entity which supposedly exists independently of situations and subjective states.
   - This cannot possibly be the case as consciousness as experience is situated -- it is what it feels like to be _a_ subject/what it feels like to be
 
-Arguing that consciousness is existentially primary and not [[ontology|ontologically]] secondary to matter. Sartre: "consciousness is never merely possible apart from existing; it is no possible instantiation of a definition apart from being actual"
+Arguing that consciousness is existentially primary and not [[ontology.md|ontologically]] secondary to matter. Sartre: "consciousness is never merely possible apart from existing; it is no possible instantiation of a definition apart from being actual"
 
 > They have forgotten that objective knowledge is 'made possible' by carving the lacuna of first person experience within it... scientists who believe that solving many such "easy problems" about consciousness will finally clear up the harder problem of its physical origin, look like somebody who believes one can finally reach the horizon by walking far enough
 
 In the same way as the walker ignores the category gap between a line _in_ space and an apparent line seen _through_ space, these scientists ignore the category gap between the exclusively structural connections provided by science and the absolute and the absolute of experience analyzed through a structured framework
 
-Two approaches to overcome the [[Hard problem of consciousness#Explanatory Gap|explanatory gap]] both fail
+Two approaches to overcome the [[Hard problem of consciousness#Explanatory Gap|explanatory gap](Hard%20problem%20of%20consciousness.md) both fail
 
 1. Absolutizing some properties of matter
    - If anything can be called "absolute", it is conscious experience
@@ -90,4 +90,4 @@ Potential solutions
    1. Phenomenological reports may help to pick out and ascribe meaning to previously unnoticed neural configurations
    2. Neurological findings may become an incentive for re-categorization and further development in phenomenological research
 
-These are not 'solutions' to the [[Hard problem of consciousness|hard problem]] per-se but rather dissolves it. It does not arise because the physical world is no longer the standard for being, and objectivity is no longer the ultimate standard of method.
+These are not 'solutions' to the [[Hard problem of consciousness|hard problem](Hard%20problem%20of%20consciousness.md) per-se but rather dissolves it. It does not arise because the physical world is no longer the standard for being, and objectivity is no longer the ultimate standard of method.

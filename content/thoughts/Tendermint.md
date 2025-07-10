@@ -5,21 +5,21 @@ tags:
   - seed
 ---
 
-> Tendermint is most useful as an analog of Paxos/[[Raft Consensus Algorithm|Raft]] but in a multi-stakeholder, or otherwise more adversarial, setting. However, the performance may not be as high due to the overhead of cryptographic operations
+> Tendermint is most useful as an analog of Paxos/[[Raft Consensus Algorithm|Raft](Raft%20Consensus%20Algorithm.md) but in a multi-stakeholder, or otherwise more adversarial, setting. However, the performance may not be as high due to the overhead of cryptographic operations
 
 [Source Paper](https://tendermint.com/static/docs/tendermint.pdf), authored by Buchman, Kwon, Milosevic in 2018, stabilized in 2019.
 
-A [[consensus#State Machine Replication|state machine replication]] protocol with a partially synchronous [[system model|system model]] that, when $f < \frac n 3$, satisfies always [[consistency|consistency]] and eventually satisfies [[liveness|liveness]] (under the presence of an attack). However, the time to obtain a supermajority increases linearly with the number of nodes in the network.[^1]
+A [[consensus.md#State Machine Replication|state machine replication]] protocol with a partially synchronous [[system model|system model](system%20model.md) that, when $f < \frac n 3$, satisfies always [[consistency.md|consistency]] and eventually satisfies [[liveness.md|liveness]] (under the presence of an attack). However, the time to obtain a supermajority increases linearly with the number of nodes in the network.[^1]
 
-[^1]: "There is a practical limit to how decentralized a blockchain with [[PBFT|PBFT]]-based consensus can be. For instance, most Tendermint based blockchains only have 100-150 validators; this is done to strike a balance between time to finality and decentralization" (from Scott's _[Guide to Finality](https://www.smsunarto.com/blog/guide-to-finality)_)
+[^1]: "There is a practical limit to how decentralized a blockchain with [[PBFT.md|PBFT]]-based consensus can be. For instance, most Tendermint based blockchains only have 100-150 validators; this is done to strike a balance between time to finality and decentralization" (from Scott's _[Guide to Finality](https://www.smsunarto.com/blog/guide-to-finality)_)
 
 High-level ideas:
 
-1. Iterated single-shot consensus (something that looks like [[consensus#Byzantine Agreement|Byzantine Agreement]]) where the output of each single-shot consensus instance outputs a block (ordered list of transactions)
+1. Iterated single-shot consensus (something that looks like [[consensus.md#Byzantine Agreement|Byzantine Agreement]]) where the output of each single-shot consensus instance outputs a block (ordered list of transactions)
 2. For a fixed height, keep proposing + voting until agreement is reached
 3. Two stages of voting as different nodes may see different voting schemes
 
-We assume [[Public-key Infrastructure|PKI]] and a shared global [[clocks|clock]]. A round is $4 \Delta$ timesteps, leaders are rotated once per round.
+We assume [[Public-key Infrastructure|PKI](Public-key%20Infrastructure.md) and a shared global [[clocks.md|clock]]. A round is $4 \Delta$ timesteps, leaders are rotated once per round.
 
 ## Properties
 
@@ -27,7 +27,7 @@ We assume [[Public-key Infrastructure|PKI]] and a shared global [[clocks|clock]]
 
 A collection of a supermajority ($\geq \frac 2 3$) of votes for a block $B$ in a particular round at some height $h$ and some stage $s$. Any two QCs overlap in at least one honest node as $overlap \geq n - \frac 1 3 n - \frac 1 3 n > f$ and thus any two QCs must support the same block $B$.
 
-![[tendermint proof of consistency.png]]
+![[tendermint proof of consistency.png](images/tendermint%20proof%20of%20consistency.png)
 
 ### State
 
@@ -75,7 +75,7 @@ In the background,
 
 ## Proof of consistency
 
-Definition of [[consistency|consistency]]: For a given block number, all honest nodes commit the same block $B^*$.
+Definition of [[consistency.md|consistency]]: For a given block number, all honest nodes commit the same block $B^*$.
 
 This seems pretty obvious from the QC lemma but we can formalize this through proof by induction:
 
@@ -94,9 +94,9 @@ These properties remain to be held in round $r + 1$ given they hold in round $r$
 
 ## Proof of liveness
 
-Definition of [[liveness|liveness]]: if a transaction $T$ is known by all honest nodes, then it will get added to all of their local histories.
+Definition of [[liveness.md|liveness]]: if a transaction $T$ is known by all honest nodes, then it will get added to all of their local histories.
 
-Note: this is a weaker definition of liveness than usual for [[State Machine Replication (SMR)|SMR]] which states that if a single honest node knows about a transaction, then all honest nodes will eventually add that transaction to their local histories.
+Note: this is a weaker definition of liveness than usual for [[State Machine Replication (SMR)|SMR](State%20Machine%20Replication%20(SMR).md) which states that if a single honest node knows about a transaction, then all honest nodes will eventually add that transaction to their local histories.
 
 We define a **clean** round when
 

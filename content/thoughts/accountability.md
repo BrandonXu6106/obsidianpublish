@@ -7,7 +7,7 @@ tags:
 
 How are parties (human and non-human) held accountable for their actions?
 
-Reparations and reconciliation can only occur after both parties have acknowledged it. How does this work if one party '[ghosts](https://static1.squarespace.com/static/557744ffe4b013bae3b7af63/t/557f2d6ce4b029eb4288a2f8/1434398060958/)' or otherwise leaves the conversation? This is especially prevalent in online/[[pseudonymity|pseudonymous]] interactions.
+Reparations and reconciliation can only occur after both parties have acknowledged it. How does this work if one party '[ghosts](https://static1.squarespace.com/static/557744ffe4b013bae3b7af63/t/557f2d6ce4b029eb4288a2f8/1434398060958/)' or otherwise leaves the conversation? This is especially prevalent in online/[[pseudonymity.md|pseudonymous]] interactions.
 
 How do we keep people accountable in [digital spaces](digital%20commons.md) and [virtual worlds](virtual%20worlds.md)? Is it better to create better tools to help users manage digital boundaries or to shift the responsibility to the platforms? Do we do [moderation](Moderation.md) at the [infrastructure](infrastructure.md) level?
 

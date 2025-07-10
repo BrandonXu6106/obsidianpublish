@@ -19,7 +19,7 @@ Find the features (columns) of $X$ that are important for predicting $y$
 - What types of new data should I collect?
 - How can I speed up computation?
 
-This can help us to remove features. Feature complexity is also correlated with the [[fundamental tradeoff|fundamental tradeoff]]. Increased complexity leads to increased overfitting risk. Models (like linear regression) can overfit with large $d$ so reducing $d$ to only useful factors may improve results.
+This can help us to remove features. Feature complexity is also correlated with the [[fundamental tradeoff|fundamental tradeoff](fundamental%20tradeoff.md). Increased complexity leads to increased overfitting risk. Models (like linear regression) can overfit with large $d$ so reducing $d$ to only useful factors may improve results.
 
 Generally, there are no right answers but there are wrong answers.
 
@@ -31,7 +31,7 @@ Usually gives unsatisfactory results as it ignores variable interactions (e.g. i
 
 ## Regression Weight
 
-Fit [[linear regression|linear regression]] weights $w$ based on all features.
+Fit [[linear regression|linear regression](linear%20regression.md) weights $w$ based on all features.
 
 Take all features $j$ where weight $|w_j|$ is greater than a threshold
 
@@ -79,4 +79,4 @@ Global vs. local features allow for “personalized” predictions.
 
 We add a feature for each 'person' in the system.
 
-![[content/thoughts/images/global-vs-local-features.png]]
+![[images/global-vs-local-features.png]]

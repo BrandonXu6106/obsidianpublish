@@ -7,7 +7,7 @@ tags:
 
 [Source](https://www.themarginalian.org/2015/03/04/annie-dillard-pilgrim-at-tinker-creek-seeing/)
 
-See also: [[attention]], [[taste]]
+See also: [[attention.md]], [[taste.md]]
 
 In her 1984 novel [_The Lover_](https://www.themarginalian.org/2013/05/27/marguerite-duras-the-lover-kerri-augenstein/), Marguerite Duras wrote that “the art of seeing has to be learned.”
 

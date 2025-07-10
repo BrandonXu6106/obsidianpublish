@@ -27,7 +27,7 @@ I think I'm realizing that I am selfish in the sense that I will only help other
 
 The catch is that I just really enjoy helping others in pretty much all situations (with a few exceptions, like when my own personal well-being is in jeopardy or the person is just an asshole)
 
-"We tend to wear our ability to get by on little [[sleep|sleep]] as some sort of badge of honor that validates our work ethic. But what it really is is a profound failure of self-respect and of priorities. What could possibly be more important than your health and your sanity, from which all else springs?" [Source](https://www.themarginalian.org/2019/10/23/13-learnings-13-years/)
+"We tend to wear our ability to get by on little [[sleep.md|sleep]] as some sort of badge of honor that validates our work ethic. But what it really is is a profound failure of self-respect and of priorities. What could possibly be more important than your health and your sanity, from which all else springs?" [Source](https://www.themarginalian.org/2019/10/23/13-learnings-13-years/)
 
 See also: [pain](pain.md)
 
@@ -37,7 +37,7 @@ See also: [pain](pain.md)
 
 _If we don’t make our numbers, we won’t get the next round of funding. And without that funding, we won’t ever fulfill on our positive-sum, idealistic mission that will benefit everyone._ is a very common thing to hear people working at startups scrounging at money say.
 
-Does competition always kill [[positive sum]] worlds?
+Does competition always kill [[positive sum](positive%20sum.md) worlds?
 
 ## Intelligently Selfish
 
@@ -51,11 +51,11 @@ Selfishness depends on what the definition of the self is. Expansions on the con
 
 - [noosphere](https://en.wikipedia.org/wiki/Noosphere) as the extended self
 - [The Egg](https://www.youtube.com/watch?v=h6fcK_fRYaI) by Andy Weir + Kurzgesagt
-- [[Minecraft End Poem|Minecraft End Poem]]
+- [[Minecraft End Poem|Minecraft End Poem](Minecraft%20End%20Poem.md)
 - [self-knowledge](self-knowledge.md)
 
 ## Nice vs Kind
 
 _From Joice_
 
-Being nice is doing something you think will people happy. Being kind is doing something because you want to do it for them. The key is [[agency]] and boundary of self :))
+Being nice is doing something you think will people happy. Being kind is doing something because you want to do it for them. The key is [[agency.md]] and boundary of self :))

@@ -7,7 +7,7 @@ tags:
 
 [Peer to peer](peer-to-peer.md) electronic cash built using [blockchain](blockchain.md). Capital 'B' Bitcoin is the network and [protocol](Protocol.md), lower case 'b' bitcoin is the actual currency.
 
-Here, centralized intermediaries (banks) are replaced by a trustless network of 'miners' which use [proof of work](proof%20of%20work.md) for [[consensus]].
+Here, centralized intermediaries (banks) are replaced by a trustless network of 'miners' which use [proof of work](proof%20of%20work.md) for [[consensus.md]].
 
 ## Mining
 

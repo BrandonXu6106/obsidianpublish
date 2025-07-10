@@ -18,11 +18,11 @@ There are two ways of thinking about it
 2. Like wealth → something possessed by only those who have more than the average amount of money
    - computer scientists view
 
-Thought alone is not enough, the thoughts need to do something, and sometimes [[explainability|explain]] the doing. Actions that are not governed by/explained by thought are not intelligent
+Thought alone is not enough, the thoughts need to do something, and sometimes [[explainability.md|explain]] the doing. Actions that are not governed by/explained by thought are not intelligent
 
 ## Biological naturalism (Searle)
 
-[[ontology|Ontologically]] equivalent to [[Materialism|materialism]]
+[[ontology.md|Ontologically]] equivalent to [[Materialism.md|materialism]]
 
 Two main theses:
 
@@ -31,12 +31,12 @@ Two main theses:
 
 That is, he believes that consciousness is both a cause of events in the body and a response to events in the body.
 
-Entails that the brain has the right [[causality|causal]] powers to produce [intentionality](intentionality.md)
+Entails that the brain has the right [[causality.md|causal]] powers to produce [intentionality](intentionality.md)
 
 - Weak AI → principle value of the computer in the study of the mind is that it gives us a very powerful tool
 - Strong AI → the appropriately programmed computer really IS a mind. Computers, given the right programs, can be literally said to understand and have other cognitive states
 
-It is attempting to refute the claims in the [[Chinese room argument]] that
+It is attempting to refute the claims in the [[Chinese room argument](Chinese%20room%20argument.md) that
 
 1.  the machine can literally be said to understand the story and provide the answers to questions
 2.  what the machine and its programs do explains the human ability to understand the story and answer questions about it
@@ -49,6 +49,6 @@ It is important to note that information processing doesn't imply intentionality
 
 - information transformation → taking info at one end, transforming it, and producing different information as output
 
-It is up to outside observers to interpret the input and output as information the ordinary sense (derived [[intentionality]])
+It is up to outside observers to interpret the input and output as information the ordinary sense (derived [[intentionality.md]])
 
 Strong AI only makes sense given the dualistic assumptions that, where the mind is concerned, the brain doesn't matter

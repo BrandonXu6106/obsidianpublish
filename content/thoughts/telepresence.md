@@ -19,11 +19,11 @@ One example is the upside-down world. We can put people inside headgear that inv
 
 The notion that our perceptual experience is determined by the passive receipt of information is misleading. The whole point of seeing and perceiving our world is so that we can intervene and act upon it
 
-See also: [[agency]], [[telerobotics]]
+See also: [[agency.md]], [[telerobotics.md]]
 
 ## On telerobotics
 
-In principle, [[telerobotics]] systems need not feel more alien than teleoperated systems to the conscious users, however this is not the case in practice. Closely coupled teleoperated systems seem to much better induce the feeling of actual telepresense more effectively
+In principle, [[telerobotics.md]] systems need not feel more alien than teleoperated systems to the conscious users, however this is not the case in practice. Closely coupled teleoperated systems seem to much better induce the feeling of actual telepresense more effectively
 
 What seems to be important is the presense of some kind of local, circular [feedback loop](feedback%20loops.md) in which neural commands, motor actions, and sensory feedback are closely and continuously correlated. Temporal disruptions (like lag) may break this 'illusion'
 

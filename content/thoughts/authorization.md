@@ -9,13 +9,13 @@ Authorization is the process of verifying what a user has access to (whereas aut
 
 ## JWT
 
-> Each JWT contains encoded JSON objects, including a set of claims. JWTs are [[digital signatures|signed]] using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.
+> Each JWT contains encoded JSON objects, including a set of claims. JWTs are [[digital signatures|signed](digital%20signatures.md) using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.
 
 Three components (looks something like this: `xxxxx.yyyyy.zzzzz`)
 
 1. Header: contains the type of token and signing algorithm
 2. Payload: contains the claims
-3. [[digital signatures|Signature]]: ensures the token hasn't been altered
+3. [[digital signatures|Signature](digital%20signatures.md): ensures the token hasn't been altered
 
 The party that creates the JWT signs the header and payload with
 
@@ -24,4 +24,4 @@ The party that creates the JWT signs the header and payload with
 
 When the token is used, the receiving party verifies that the header and payload match the signature.
 
-See also: [[UCAN|UCAN]], [[access control]]
+See also: [[UCAN.md|UCAN]], [[access control](access%20control.md)

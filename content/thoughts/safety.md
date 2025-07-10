@@ -5,8 +5,8 @@ tags:
   - seed
 ---
 
-> A promise in [[distributed systems|distributed systems]] that claims that "something bad" will never happen
+> A promise in [[distributed systems|distributed systems](distributed%20systems.md) that claims that "something bad" will never happen
 
 This is obviously broad, but can have multiple flavours including never returning null fields, dead-locks should never happen, etc.
 
-Interestingly, all properties can be expressed as the intersection of safety and [[liveness|liveness]] properties
+Interestingly, all properties can be expressed as the intersection of safety and [[liveness.md|liveness]] properties

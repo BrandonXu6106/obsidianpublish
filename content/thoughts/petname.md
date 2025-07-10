@@ -7,7 +7,7 @@ tags:
 
 > A way of mapping human readable names to cryptographically secure names
 
-[Petnames](http://www.erights.org/elib/capability/pnml.html) are potentially a method of achieving all 3 properties of [[Zooko's Triangle]] by having "names with each of the three pairs of properties, and [building] a naming system involving several of these kinds of names, in order to make use of all three properties."
+[Petnames](http://www.erights.org/elib/capability/pnml.html) are potentially a method of achieving all 3 properties of [[Zooko's Triangle](Zooko's%20Triangle.md) by having "names with each of the three pairs of properties, and [building] a naming system involving several of these kinds of names, in order to make use of all three properties."
 
 We are already familiar with this concept actually: the contact list on your phone! Each contact in your phone doesn't actually represent that person, but rather your _relationship_ with that person. `John (neighbour)` could be `Dad` in someone else's phone, even though they refer to the same physical person.
 
@@ -19,4 +19,4 @@ Supposes that we have three names:
 
 Then, keys and petnames are interchangeable with each other. Nicknames are suggestions by users for petnames that others can set for them.
 
-Maybe another version of [[Arrow's Impossibility Theorem]]?
+Maybe another version of [[Arrow's Impossibility Theorem](Arrow's%20Impossibility%20Theorem.md)?

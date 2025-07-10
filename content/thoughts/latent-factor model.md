@@ -9,7 +9,7 @@ aliases:
   - embeddings
 ---
 
-Like [[change of basis]] but instead of hand-picking the features, we learn them from data.
+Like [[change of basis](change%20of%20basis.md) but instead of hand-picking the features, we learn them from data.
 
 _Part weights_ are a change of basis from $x_i$ to some $z_i$. The canonical example is Principal Component Analysis (PCA)
 
@@ -33,8 +33,8 @@ Use cases:
 
 - Dimension reductionality: Effectively allows us to reduce the dimensionality of X if $k < d$
   - Actually, it only ever makes sense if $k \leq d$
-- [[outlier detection|Outlier detection]]: if PCA gives a poor approximation, $x_i$ could be an outlier
-- [[visualization|Data visualization]]: $k=2$ to visualize high-dimensional objects
+- [[outlier detection|Outlier detection](outlier%20detection.md): if PCA gives a poor approximation, $x_i$ could be an outlier
+- [[visualization.md|Data visualization]]: $k=2$ to visualize high-dimensional objects
 
 We minimize
 
@@ -53,7 +53,7 @@ If we do alternating minimization,
 
 We converge to a local optimum which will be a global optimum if W and Z are randomly initialized (if you don't pick a saddle point)
 
-For large X, we can also just use [[gradient descent#Stochastic Gradient Descent (SGD)|SGD]] and cost per iteration is only $O(k)$
+For large X, we can also just use [[gradient descent#Stochastic Gradient Descent (SGD)|SGD](gradient%20descent.md) and cost per iteration is only $O(k)$
 
 ### Choose $k$ by variance explained
 
@@ -83,7 +83,7 @@ Gradient descent on points on a scatter point; try to make scatterplot distances
 
 $$f(Z) = \sum_{i=1}^n\sum_{j=i+1}^n (\lVert z_i - z_j \rVert - \lVert x_i - x_j \rVert)^2$$
 
-No $W$ matrix needed! However, cannot be done using singular value decomposition (a matrix factoring technique). We need [[gradient descent]].
+No $W$ matrix needed! However, cannot be done using singular value decomposition (a matrix factoring technique). We need [[gradient descent](gradient%20descent.md).
 
 - Non convex
 - Sensitive to initialization
@@ -95,7 +95,7 @@ No $W$ matrix needed! However, cannot be done using singular value decomposition
 
 However, using Euclidean (L2-norm) may not be a great representation of data that lives on low-dimensional manifolds. In these cases, Euclidean distances make sense “locally” but Euclidean distances may not make sense “globally”.
 
-![[manifold distance example.png]]
+![[manifold distance example.png](images/manifold%20distance%20example.png)
 
 t-SNE is actually a special case of [[#Multi-Dimensional Scaling]]. The key idea is to focus on distance to “neighbours”, allowing gaps between distances to grow
 

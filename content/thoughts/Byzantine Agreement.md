@@ -7,4 +7,4 @@ tags:
 
 All non-Byzantine nodes need to agree on a single common value. There is no distinguished sender.
 
-Differs from [[Byzantine Broadcast|Byzantine Broadcast]]
+Differs from [[Byzantine Broadcast|Byzantine Broadcast](Byzantine%20Broadcast.md)

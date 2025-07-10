@@ -6,7 +6,7 @@ tags:
 noindex: true
 ---
 
-![[public/thoughts/images/john-reeve-pots.png]]
+![[../../../public/thoughts/images/john-reeve-pots.png]]
 *John Reeve (1958-61, 1966)*
 
 Taste goes by many names: intuition, conviction, self-trust, aesthetics. Roughly, it is the ability to make judgements about aesthetic value; to be able to tell the difference between what is and is not beautiful to you.
@@ -24,7 +24,7 @@ If we look to deeply creative pursuits like writing and mathematics, we find man
 
 >  "It is not so much, it seems to me, a so-called “brain power” that makes the difference between this mathematician and another, or between one piece of work and another of a same mathematician; but rather the quality of finesse, of the greater or lesser delicacy of this openness or sensitivity, from one researcher to another or from one moment to another in the same researcher. The most profound and fruitful work is also that which attests to the most delicate sensitivity in apprehending the hidden beauty of things."
 >  
->  -- Alexandre Grothendieck, *[[Alexandre Grothendieck#Reflection and testimony on a past as a mathematician|Récoltes et Semailles]] (translation by Childe)*
+>  -- Alexandre Grothendieck, *[[Alexandre Grothendieck#Reflection and testimony on a past as a mathematician|Récoltes et Semailles](../../thoughts/Alexandre%20Grothendieck.md) (translation by Childe)*
 
 Though Grothendieck refers to math here, the observation about the importance of "apprehending the hidden beauty of things" generalizes. Annie Dillard relates a tale from a fellow writer who was asked a question by a student:
 
@@ -36,7 +36,7 @@ Though Grothendieck refers to math here, the observation about the importance of
 > 
 > If you’re going to be a gardener, it helps to like the smell of roses. If you’re going to be a writer, it helps to appreciate sentences. That, however, only happens once you’ve spent many afternoons reading.
 > 
-> -- Annie Dillard, *[[The Writing Life|The Writing Life]]*
+> -- Annie Dillard, *[[The Writing Life|The Writing Life](../../thoughts/The%20Writing%20Life.md)*
 
 For any creative pursuit, this ability to notice more deeply is what distinguishes good from great. This specific pursuit of what feels beautiful gives rise to a form of attention that starts to reveal the infinite depth of the world. It surfaces nuances you hadn’t seen before even though nothing about your actual senses has changed. You begin to see wider and deeper.
 
@@ -54,37 +54,37 @@ If we outsource our opinions all the time, we no longer exercise our own taste a
 
 ---
 
-Looking at the history of [[Scientific Freedom|scientific progress]], we see plenty of evidence on how this reliance on the taste of committees and society broadly only serves to inhibit progress. Managed creativity can, at best, produce only what its managers specify. All that remains are the ideas that live in the [[Overton Window|Overton Window]].
+Looking at the history of [[Scientific Freedom|scientific progress](../../thoughts/Scientific%20Freedom.md), we see plenty of evidence on how this reliance on the taste of committees and society broadly only serves to inhibit progress. Managed creativity can, at best, produce only what its managers specify. All that remains are the ideas that live in the [[Overton Window|Overton Window](../../thoughts/Overton%20Window.md).
 
 When we try to limit what scientists work on via broad-stroke directives and awards for very specific kinds of work that consensus deems best for progress, we can get only what we ask for and nothing more. The limit is then what the research director can imagine and nothing more -- this presumes the person doing the selecting has the best overall taste as to what is worthwhile. In the consultancy field, the old adage was that successful consultants merely delivered the advice their customers wanted to hear. Do we really want that of our researchers?
 
 > "Nature does not respect consensus. We cannot expect to actually make progress simply because we have agreed among ourselves that progress lies in a particular direction. Unless, of course, that direction is a simple extrapolation from what has gone before, but such objectives usually serve only to consolidate -- unless researchers are free to follow interesting observations wherever they might lead."
 > 
-> -- Donald W. Braben, *[[Scientific Freedom|Scientific Freedom: The Elixir of Civilization]]*
+> -- Donald W. Braben, *[[Scientific Freedom|Scientific Freedom: The Elixir of Civilization](../../thoughts/Scientific%20Freedom.md)*
 
 Braben, in that last part, emphasizes the importance of freedom to allow scientists to follow their own research taste. Vannevar Bush: "scientific progress on a broad front results from the free play of free intellects, working on subjects of their own choice, in the manner dictated by their curiosity for exploration of the unknown." Creativity is the essence of the human spirit, and flowers best when it's unconstrained. 
 
-Cultivating that Type II taste -- the deep-seated conviction -- helps to avoid unnecessary constraints on our exploratory taste. It helps to create their own possibilities for what is possible, outside what other people believe, relying on their intrinsic, subjective judgement of what feels correct. This is what produces novel and ground breaking work, [[Scientific Freedom#Case study of the rise and fall of the UGC in the UK|not research mandates or broad directives]].
+Cultivating that Type II taste -- the deep-seated conviction -- helps to avoid unnecessary constraints on our exploratory taste. It helps to create their own possibilities for what is possible, outside what other people believe, relying on their intrinsic, subjective judgement of what feels correct. This is what produces novel and ground breaking work, [[Scientific Freedom#Case study of the rise and fall of the UGC in the UK|not research mandates or broad directives](../../thoughts/Scientific%20Freedom.md).
 
-![[public/thoughts/images/bedroom-poster.png]]*The poster in my room above my bed which I got from a booth at the [SF Art Book Fair](https://sfartbookfair.com/).*
+![[../../../public/thoughts/images/bedroom-poster.png]]*The poster in my room above my bed which I got from a booth at the [SF Art Book Fair](https://sfartbookfair.com/).*
 
 ---
 
-Similarly, [[Simone Weil|Simone Weil]] believed that we gain insights not by going in search of them, but instead by being receptive to the true nature of the thing itself. In her teaching, she didn't limit the way students oriented themselves towards problems, noting that most education systems fixate students to an agenda where they are always searching for a singular right answer to the problem rather than taking the time to really feel and explore.
+Similarly, [[Simone Weil|Simone Weil](../../thoughts/Simone%20Weil.md) believed that we gain insights not by going in search of them, but instead by being receptive to the true nature of the thing itself. In her teaching, she didn't limit the way students oriented themselves towards problems, noting that most education systems fixate students to an agenda where they are always searching for a singular right answer to the problem rather than taking the time to really feel and explore.
 
  > "The great human error is to reason in place of finding out"
  > 
  > -- Simone Weil, *Gravity and Grace*
 
-This lightness in the pursuit of insights that Weil teaches is similar to what C Thi. Nguyen calls *[[Jestermaxxing|intellectual playfulness]]*. When an intellectually playful person evaluates new ideas, they don't care about plausibility or legibility. They care about the idea itself and the thrilling joy-rides of discovery.
+This lightness in the pursuit of insights that Weil teaches is similar to what C Thi. Nguyen calls *[[../../thoughts/Jestermaxxing.md|intellectual playfulness]]*. When an intellectually playful person evaluates new ideas, they don't care about plausibility or legibility. They care about the idea itself and the thrilling joy-rides of discovery.
 
-Nguyen argues that this intellectual playfulness actually has some clear [[epistemology|epistemic]] functionality for us. A pure 'truth-seeker' has an interest in always getting it right. This attitude constrains the search space, focusing searches on plausible paths to explore and discarding what is implausible or beyond the pale. However, because their assessment of plausibility will always proceed from their standing system of beliefs, even their most rational epistemic attempts can be caught in what Nguyen calls an epistemic trap: belief systems that make us shut down a line of questioning before exploring its validity. These traps constrain our exploratory taste.
+Nguyen argues that this intellectual playfulness actually has some clear [[../../thoughts/epistemology.md|epistemic]] functionality for us. A pure 'truth-seeker' has an interest in always getting it right. This attitude constrains the search space, focusing searches on plausible paths to explore and discarding what is implausible or beyond the pale. However, because their assessment of plausibility will always proceed from their standing system of beliefs, even their most rational epistemic attempts can be caught in what Nguyen calls an epistemic trap: belief systems that make us shut down a line of questioning before exploring its validity. These traps constrain our exploratory taste.
 
 One specific epistemic trap that has been particularly fatal to exploratory taste is the fear of being wrong.
 
 > "One who fears to be wrong is powerless to discover. It is when we are afraid of making mistakes that the mistake inside us becomes immovable like a rock. Because in our fear, we cling to what we have decreed to be “true”, or what has always been presented to us as “true”. If we are moved, not by the fear of seeing an illusory security vanish, but by a thirst for knowing, then error, like suffering or sorrow, will cross us without ever becoming frozen, and the trace of its passage will be a renewed understanding."
 > 
-> -- Alexandre Grothendieck, *[[Alexandre Grothendieck#Reflection and testimony on a past as a mathematician|Récoltes et Semailles]] (translation by Childe)*
+> -- Alexandre Grothendieck, *[[Alexandre Grothendieck#Reflection and testimony on a past as a mathematician|Récoltes et Semailles](../../thoughts/Alexandre%20Grothendieck.md) (translation by Childe)*
 
 It because of this fear that we default to settle on what is popular or what has been done before. This, to me, is the clearest example of why the ineffability of taste is actually instrumentally useful. What appears to be the 'optimal' or 'right' thing to work on according to the taste of others may end up in these epistemic traps.
 
@@ -114,9 +114,9 @@ So how might we cultivate this taste? Quoting Voltaire: "In order to have taste,
 
 The world reveals itself to those who attend to it.
 
-Each day is an exercise in developing taste. That’s all life is really -- a giant sequence of decisions. It is built over time through repeated applications. It requires intention, focus, and care. It’s a process of peeling back layer after layer, turning over rock after rock. It is the manifestation of [[self-confidence]] in what we find beautiful and aesthetic. 
+Each day is an exercise in developing taste. That’s all life is really -- a giant sequence of decisions. It is built over time through repeated applications. It requires intention, focus, and care. It’s a process of peeling back layer after layer, turning over rock after rock. It is the manifestation of [[../../thoughts/self-confidence.md]] in what we find beautiful and aesthetic. 
 
-Do things without recipes more often. Trod the unbeaten path more often and take note of how things feel. Do you find yourself noticing something that wasn't there before? That perhaps after a certain number of hours of obsessing over how to get a good tone on the guitar, you can tell how the temperature of the room affects the sound of the strings? Maybe for the first time, you realize that the songs the birds sing are all a little different, [[How to do Nothing|the robin sounds different from the chickadee and so on]].
+Do things without recipes more often. Trod the unbeaten path more often and take note of how things feel. Do you find yourself noticing something that wasn't there before? That perhaps after a certain number of hours of obsessing over how to get a good tone on the guitar, you can tell how the temperature of the room affects the sound of the strings? Maybe for the first time, you realize that the songs the birds sing are all a little different, [[How to do Nothing|the robin sounds different from the chickadee and so on](../../thoughts/How%20to%20do%20Nothing.md).
 
 Take a curious and inherently observatory nature toward the world and let it serve as constant opportunities to test your taste.
 
@@ -130,17 +130,17 @@ When I think about cultivating taste, it appears to me much like how George Saun
  > 
  > -- George Saunders, *[First Thohts on Reviision](https://georgesaunders.substack.com/p/first-thohts-on-reviision)*
 
-Over time, just like how we anneal metal, our taste becomes more refined and we are more sure in what feels optimal to us. Crafted well, taste gives us the tools to have more [[agency|agency]] over our own lives and how we define meaning.
+Over time, just like how we anneal metal, our taste becomes more refined and we are more sure in what feels optimal to us. Crafted well, taste gives us the tools to have more [[../../thoughts/agency.md|agency]] over our own lives and how we define meaning.
 
 What greater thing could there be to cultivate?
 
-![[public/thoughts/images/makers-mark.png|500]]
+![[../../../public/thoughts/images/makers-mark.png|500]]
 
 > "Aesthetic beauty is as much about how and whether you look as what you see. From the quark to the supernova, the wonders do not cease. It is our attentiveness that is in short supply, our ability and willingness to do the work that awe requires."
 > 
-> -- John Green, *[[The Anthropocene Reviewed|The Anthropocene Reviewed]]*
+> -- John Green, *[[The Anthropocene Reviewed|The Anthropocene Reviewed](../../thoughts/The%20Anthropocene%20Reviewed.md)*
 
-[^1]: Though this *has* some historical precedence for happening through physical isolation (e.g. Newton, Grothendieck, Pascal, Baldwin), I largely believe the lone genius myth is false. The lone genius is a proxy for being a hard worker but it isn't the only way of doing [[pain-and-great-work|great work]].
+[^1]: Though this *has* some historical precedence for happening through physical isolation (e.g. Newton, Grothendieck, Pascal, Baldwin), I largely believe the lone genius myth is false. The lone genius is a proxy for being a hard worker but it isn't the only way of doing [[../software/pain-and-great-work.md|great work]].
 
 ---
 

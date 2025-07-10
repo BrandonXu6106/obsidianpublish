@@ -17,7 +17,7 @@ For example, if J believes that $P(heads) = P(tails) = \frac{2}{3}$, we can prop
 
 Both bets make sense for J. However, if J takes _both_ bets, then he faces a guaranteed loss of $1
 
-Have the agent bet for propositions with credences (or [[fair betting quotient|FBQs]]) that are too high, and against propositions with credences (or [[fair betting quotient|FBQs]]) that are too low
+Have the agent bet for propositions with credences (or [[fair betting quotient|FBQs](fair%20betting%20quotient.md)) that are too high, and against propositions with credences (or [[fair betting quotient|FBQs](fair%20betting%20quotient.md)) that are too low
 
 For any given bet (set $p$ to be $1-p$ for the against case):
 
@@ -27,7 +27,7 @@ For any given bet (set $p$ to be $1-p$ for the against case):
 
 ## Dutch Book Theorem
 
-Based on the Kolmogorov [[probability|probability]] axioms,
+Based on the Kolmogorov [[probability.md|probability]] axioms,
 
 1. If any axiom is violated, a Dutch Book can be made.
 2. If no axiom is violated, then no Dutch Book can be made.

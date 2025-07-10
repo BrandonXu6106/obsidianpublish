@@ -7,7 +7,7 @@ aliases:
   - WAL
 ---
 
-Helps to provide atomicity and durability guarantees (see [[CAP Theorem|CAP Theorem]]) in [[distributed systems|distributed systems]].
+Helps to provide atomicity and durability guarantees (see [[CAP Theorem|CAP Theorem](CAP%20Theorem.md)) in [[distributed systems|distributed systems](distributed%20systems.md).
 
 A write ahead log is an append-only structure used for crash and transaction recovery. The WAL notably is a **separate, additional** data structure from the main storage and usually is disk-resident (i.e. stored on some form of persistent storage) rather than memory.
 

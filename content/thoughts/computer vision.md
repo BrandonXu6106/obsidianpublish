@@ -8,7 +8,7 @@ tags:
 
 > CV, broadly speaking, is a research field aimed to enable computers to process and interpret visual data, as sighted humans can
 
-It can also be thought of as the inverse of [[computer graphics]].
+It can also be thought of as the inverse of [[computer graphics](computer%20graphics.md).
 
 Typically, it's a pipeline from
 
@@ -35,7 +35,7 @@ Problem subtypes
 Subnotes:
 
 - [Images, Cameras, Lenses, Filters, Sampling](imaging.md)
-- [Colour](colour.md) and [[texture]]
+- [Colour](colour.md) and [[texture.md]]
 - [Optical Flow and Stereo Vision](optical%20flow.md)
 - [Object detection/recognition (Template Matching, Keypoint Descriptors)](object%20detection.md)
 - [Object classification (Model fitting, CNNs, Clustering) ](object%20classification.md)

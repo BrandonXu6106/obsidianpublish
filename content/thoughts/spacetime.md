@@ -30,20 +30,20 @@ The key invariant is the spacetime interval between any two events stays the sam
 
 Note that $t$, $x$, $y$, and $z$ are all different in each reference frame.
 
-![[content/thoughts/images/spacetime-diagram.png|600]]
+![[images/spacetime-diagram.png|600]]
 
-![[content/thoughts/images/spacetime-coordinates.png|500]]
+![[images/spacetime-coordinates.png|500]]
 
 ### Minkowski Invariant Hyperbola
 
 We can use the Minkowski Invariant Hyperbola to visualize how spatial distances are mapped in different frames via the Lorentz Transformation. The Lorentz transformation relates two inertial frames of reference, where an observer stationary at the event (0, 0) makes a change of velocity along the x-axis.
 
-![[content/thoughts/images/minkowski-invariant-hyperbola.png|600]]
+![[images/minkowski-invariant-hyperbola.png|600]]
 
 #### Time Dilation
 
-![[content/thoughts/images/time-dilation.jpg|400]]
+![[images/time-dilation.jpg|400]]
 
 #### Length Contraction
 
-![[content/thoughts/images/length-contraction.jpeg|400]]
+![[images/length-contraction.jpeg|400]]

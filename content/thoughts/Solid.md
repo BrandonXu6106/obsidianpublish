@@ -9,9 +9,9 @@ tags:
 
 Pushing for universalization at the data level: just as any website can be viewed on any browser and any internet provider, any data should be accessible by any application under people's control.
 
-[[GDPR|GDPR]] technically does all of this, Solid is just technology that ensure it actually happens.
+[[GDPR.md|GDPR]] technically does all of this, Solid is just technology that ensure it actually happens.
 
-Solid is essentially a glue between [[HTTP]], [[LDP|LDP]], and LDN
+Solid is essentially a glue between [[HTTP.md]], [[LDP.md|LDP]], and LDN
 
 ## Pods
 
@@ -20,20 +20,20 @@ Solid is essentially a glue between [[HTTP]], [[LDP|LDP]], and LDN
 - Users can own multiple pods
 - Linked Data means that different applications can work with the same data
 
-![[Solid pod Linked Data.png]]
+![[Solid pod Linked Data.png](images/Solid%20pod%20Linked%20Data.png)
 
 ## Details
 
 _Summarized from specs_
 
-- Exchanges data between clients using [[HTTP|HTTP]] + TLS
+- Exchanges data between clients using [[HTTP.md|HTTP]] + TLS
 - A storage (`pim:Storage`) is a space of URIs in which data can be accessed; it is the root container for all of its contained resources
-- Seems to just be a fancy HTTP file server (operated on [[RDF|RDF]] Documents)
+- Seems to just be a fancy HTTP file server (operated on [[RDF.md|RDF]] Documents)
   - Applications can 'patch' pods with new data, given that they have the correct access to it
 - Real-time collaborative communication between pod and application uses WebSockets
-- [[CORS|CORS]] by default prevents apps that run on one origin from accessing data on other origins
-  - Get around this by having servers waive the cross-origin protection as Solid handles this [[access control|access control]] themselves
-- Identity is done through [[WebID|WebID]]
+- [[CORS.md|CORS]] by default prevents apps that run on one origin from accessing data on other origins
+  - Get around this by having servers waive the cross-origin protection as Solid handles this [[access control|access control](access%20control.md) themselves
+- Identity is done through [[WebID.md|WebID]]
 - Servers are strongly discouraged from exposing information beyond the minimum amount necessary to enable a feature.
 
 ## Opinions

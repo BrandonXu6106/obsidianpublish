@@ -4,13 +4,13 @@ date: 2023-12-19
 tags:
   - seed
 ---
-See also: [[functional programming|functional programming]]
+See also: [[functional programming|functional programming](functional%20programming.md)
 
 [Source](https://ericnormand.me/article/church-vs-curry-types)
 ## Church Types
 Also called intrinsic types.
 
-In a Church-style system, types are an intrinsic part of the [[semantics|semantics]] of the language. The language would be different without the types---it may even be meaningless. 
+In a Church-style system, types are an intrinsic part of the [[semantics.md|semantics]] of the language. The language would be different without the types---it may even be meaningless. 
 
 Intrinsic types are great because you are guaranteed to have a mathematically-sound safety net at all times.
 

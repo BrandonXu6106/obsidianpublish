@@ -6,7 +6,7 @@ tags:
   - CPSC340
 ---
 
-Uses [[regularization|regularized]] regression trees. These are like [[decision tree|decision trees]] where each split is
+Uses [[regularization.md|regularized]] regression trees. These are like [[decision tree|decision trees](decision%20tree.md) where each split is
 
 - based on a single feature
 - each leaf gives a real-valued prediction

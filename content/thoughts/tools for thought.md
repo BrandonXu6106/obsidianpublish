@@ -7,7 +7,7 @@ tags:
 
 > "When designing new tools for thought, let’s think not just in terms of features, but materials – *what software laws of physics do we want embodiments of our thoughts to obey?*"
 
-Related: [Extended Mind Hypothesis](Extended%20Mind%20Hypothesis.md), [Networked thought](networked-thought.md), [interaction design](interaction%20design.md), [[memex]]
+Related: [Extended Mind Hypothesis](Extended%20Mind%20Hypothesis.md), [Networked thought](../posts/readnotes/networked-thought.md), [interaction design](interaction%20design.md), [[memex.md]]
 
 Questions:
 
@@ -43,7 +43,7 @@ See also: [reverse outlining](https://maggieappleton.com/reverse-outline)
 
 Is there any way to rearrange the fuzzy cloud of ideas in our head easily on paper/screens?
 
-How can we 'cut' text without being afraid of it being lost forever? Even with tools like the undo button and [[git|Git]] revision history, the actions of the past are by default hidden. Time is not first class.
+How can we 'cut' text without being afraid of it being lost forever? Even with tools like the undo button and [[git.md|Git]] revision history, the actions of the past are by default hidden. Time is not first class.
 
 ## On memory and [lost knowledge](lost%20knowledge.md)
 
@@ -87,7 +87,7 @@ Are there ways to 'breadcrumb' how we navigate? Even something as simple as opti
 
 ### Spatial
 
-Can we create spatial reminders that adhere to their contexts? Sticky notes for our mind? A reminder in certain notes to come back later and add to it, etc. Can we build [memory palaces](memory%20palace.md)? [[spatial computing|Spatial]] representations of information?
+Can we create spatial reminders that adhere to their contexts? Sticky notes for our mind? A reminder in certain notes to come back later and add to it, etc. Can we build [memory palaces](memory%20palace.md)? [[spatial computing|Spatial](spatial%20computing.md) representations of information?
 
 ### Emotion
 

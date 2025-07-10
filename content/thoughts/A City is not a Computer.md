@@ -15,7 +15,7 @@ Reboot event with Shannon Mattern on her new book _A City Is Not A Computer_. Ma
 
 Doctoroff, the founder of Sidewalk Labs: "What would a city look like if you started from scratch in the internet era — if you built a city 'from the [internet](Internet.md) up?'"
 
-Sidewalk aims to be the 'fourth revolution' of [[urban planning|urban]] infrastructure where the first 3 were
+Sidewalk aims to be the 'fourth revolution' of [[urban planning|urban](urban%20planning.md) infrastructure where the first 3 were
 
 1. The Steam Engine
 2. Electricity Grid
@@ -38,7 +38,7 @@ Especially related to [quantization](quantization.md), how does always labeling 
 - So much of how we interact with cities is through a computer; how can we reclaim cities for the people within them as people instead of just as data? What have cities lost in the transition to a data governed model
   - How we define [computation](computability.md) matters a lot. It feels like something is definitely something is lost in this 'generalization' of people as data
   - Theres a lot of 'messiness' in history (e.g. _why_ people were evicted, etc.) especially in _embodied knowledge_. Let's think about what **can't** be digitized and be put on a dashboard
-- What are potential solutions to this overly [quantized](quantization.md) [[Technosolutionism|technosolutionist]] approach? You mentioned indigenous knowledge and [traditional knowledge](traditional%20knowledge.md) as having potential
+- What are potential solutions to this overly [quantized](quantization.md) [[Technosolutionism.md|technosolutionist]] approach? You mentioned indigenous knowledge and [traditional knowledge](traditional%20knowledge.md) as having potential
   - We can start to think more epistemologically broadly (how do we know what we know, are things inherently quantifiable or not)?
   - How can we provide public alternatives to privatized social systems (e.g. public interest Google)?
   - Maintenance and Care
@@ -54,10 +54,10 @@ Especially related to [quantization](quantization.md), how does always labeling 
 - What can city governments do to help the 'exclusion' of previously 'unseen' or minority groups?
   - [Design Justice](Design%20Justice.md) approach, specifically acknowledge this bias and try to compensate (e.g. [Data for Black Lives](https://d4bl.org/)). And equity rather than equality approach.
   - We may not always be able to prevent 'data harvesting', and it sometimes might not all be bad! How do we fairly represent everyone?
-  - How do we have [[agency]] over our own data and how we are presented within algorithms? Data sovereignty (e.g. [[GDPR|GDPR]]? see also: [[towards-data-neutrality|data neutrality]])
+  - How do we have [[agency.md]] over our own data and how we are presented within algorithms? Data sovereignty (e.g. [[GDPR.md|GDPR]]? see also: [[../posts/branddesign/fonts/towards-data-neutrality.md|data neutrality]])
 - Would smart cities be any different if they prioritized the citizens and participation at the get-go rather than as an after-thought
   - Multiple definitions of smart cities (corporate extractivist approaches, civic approaches, improving democratic processes, open data, etc.)
-  - How do we manage data and data [[privacy|privacy]]?
+  - How do we manage data and data [[privacy.md|privacy]]?
 - Ground-up emergence vs Top-down [governance](governance.md) for cities
-  - Historically a lot of data **has** been centralized regardless (e.g. libraries, town halls, etc., more in [[Seeing like a State]])
+  - Historically a lot of data **has** been centralized regardless (e.g. libraries, town halls, etc., more in [[Seeing like a State](Seeing%20like%20a%20State.md))
   - Similar discussion to a an article thinking about hierarchies within cities: [A City is not a Tree](A%20City%20is%20not%20a%20Tree.md)

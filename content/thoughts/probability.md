@@ -77,7 +77,7 @@ Additionally,
 
 ## Bayes' Theorem
 
-See also: [[Naive Bayes|Naive Bayes]]
+See also: [[Naive Bayes|Naive Bayes](Naive%20Bayes.md)
 
 Let $c$ be the class label and $x$ be the measurement (evidence)
 
@@ -139,7 +139,7 @@ We can evaluate these interpretations as follows (Wesley Salmon)
 10. Subjective (actual degree of belief): Somebody believes with degree $3/13$ that A will produce B.
     1. Credences can be measured (or even defined) by studying your actions, especially your betting behaviour
     2. Problem: actual degree of belief is not admissable, people commit probabilistic fallacies all the time
-    3. This can lead to bad betting combinations (see [[Dutch Book|Dutch Book]] examples) in which you are guaranteed to lose money
+    3. This can lead to bad betting combinations (see [[Dutch Book|Dutch Book](Dutch%20Book.md) examples) in which you are guaranteed to lose money
     4. Key assumption: EU and EMV are equivalent for small but non-trivial amounts of money
 11. Subjective (idealized credence): An idealized version of someone – with coherent probabilities – believes with degree $3/13$ that A will produce B.
     1. Fixes admissibility as we require it

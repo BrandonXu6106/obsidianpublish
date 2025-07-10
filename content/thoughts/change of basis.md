@@ -20,7 +20,7 @@ $$
 
 As the polynomial degree increases, the training error goes down but the approximation error goes up.
 
-Choosing a basis is hard! We can do something like [[Gaussian RBF|Gaussian radial basis functions]] (RBFs) or polynomial basis as these are both universal approximators given enough data.
+Choosing a basis is hard! We can do something like [[Gaussian RBF|Gaussian radial basis functions](Gaussian%20RBF.md) (RBFs) or polynomial basis as these are both universal approximators given enough data.
 
 ## Kernel Trick
 
@@ -28,7 +28,7 @@ Let $Z$ be the basis. With multi-dimensional polynomial bases, actually forming 
 
 Represent each column of $Z$ as a unique term. For example, with an $X$ of $d=2$, we can use $p=2$ to get
 
-![[content/thoughts/images/polynomial-basis.png]]
+![[images/polynomial-basis.png]]
 
 We compute $u = (K + \lambda I)^{-1}y$
 
@@ -58,4 +58,4 @@ All of our distance-based methods have kernel versions.
 
 ## Learned Basis
 
-We can also learn basis from data as well. See [[latent-factor model]]
+We can also learn basis from data as well. See [[latent-factor model](latent-factor%20model.md)

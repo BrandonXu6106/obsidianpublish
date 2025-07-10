@@ -13,6 +13,6 @@ Merkle DAG nodes are *immutable*. Any change in a node would alter its identifi
 
 Examples of DAGs include:
 
-- [[git|git]]
-- [[IPFS|IPFS]]
-- [[docker|Docker]] images
+- [[git.md|git]]
+- [[IPFS.md|IPFS]]
+- [[docker.md|Docker]] images

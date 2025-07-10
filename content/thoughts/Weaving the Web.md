@@ -12,7 +12,7 @@ Book, written by Tim Berners-Lee
 
 ## A Brief History of the Web
 
-[[hypertext|Hypertext]] was invented by Ted Nelson in 1965. The [[Internet|Internet]], as worked on by Donald Davis, Paul Barran, Vint Cerf, and Bob Kahn, were already becoming pervasive by the 1970s. Tim Berners-Lee came at the right time to marry them together into the Web.
+[[hypertext.md|Hypertext]] was invented by Ted Nelson in 1965. The [[Internet.md|Internet]], as worked on by Donald Davis, Paul Barran, Vint Cerf, and Bob Kahn, were already becoming pervasive by the 1970s. Tim Berners-Lee came at the right time to marry them together into the Web.
 
 The Web was a slow process -- there was no "Eureka!" moment. He described the process like getting a bobsled down the hill -- something you needed to put a lot of upfront effort into getting moving, but once you did, you needed to get in and steer.
 
@@ -42,7 +42,7 @@ The international telephone system offers a great analogy. It defines what it ha
 
 Quietly, under the noise of all the companies trying to make a fortune off the web, the W3C has been steering the web and leading the web to its full potential. Today, Tim currently sits as Director of the W3C. He was knighted by Queen Elizabeth in 2007. Now, Sir Tim promotes open government data globally and spends time fighting for rights such as net neutrality, privacy and the openness of the Web.
 
-But there is still work left to be done. A slow [[inevitability of centralization|recentralization of the Web]] is happening, and users lack agency over their own privacy. Of course, there have been many proposals to address this, including Tim's own [[Solid|Solid project]] as well as my research on [[Rhizome Proposal|Rhizhome]]. We are still early.
+But there is still work left to be done. A slow [[inevitability of centralization|recentralization of the Web](inevitability%20of%20centralization.md) is happening, and users lack agency over their own privacy. Of course, there have been many proposals to address this, including Tim's own [[Solid.md|Solid project]] as well as my research on [[Rhizome Proposal|Rhizhome](Rhizome%20Proposal.md). We are still early.
 
 > When I try to explain the architecture now, I get the same distant look in people's eyes as I did in 1989, when I tried to explain how global hypertext would work. But I've found a few individuals who share the vision; I can see it from the way they gesticulate and talk rapidly.
 
@@ -50,7 +50,7 @@ But there is still work left to be done. A slow [[inevitability of centralizatio
 
 ### Relational Theories of the World
 
-Enquire was a very early [[RDF#RDF Triple|triple-store]] like [[networked-thought|networked thought]] note-taking tool developed by Tim Berners-Lee. He made it to stored information without using structures like matrices or trees. After all, the human mind uses the organizing structures all the time, but can also break out of them and make intuitive leaps across the boundaries -- those coveted random associations.
+Enquire was a very early [[RDF.md#RDF Triple|triple-store]] like [[../posts/readnotes/networked-thought.md|networked thought]] note-taking tool developed by Tim Berners-Lee. He made it to stored information without using structures like matrices or trees. After all, the human mind uses the organizing structures all the time, but can also break out of them and make intuitive leaps across the boundaries -- those coveted random associations.
 
 In an extreme view, the world can be seen as only connections, nothing else. We think of a dictionary as the repository of meaning, but it defines words only in terms of other words.
 
@@ -71,7 +71,7 @@ I also expect the same neutrality of software. When I ask a search engine to fin
 
 If a company claims to give access to the world of information, then presents a filtered view, the Web loses its credibility. That is why hardware, software, and transmission companies must remain unbiased toward content. I would like to keep the conduit separate from the content. I would like there always to be a choice of the unbiased way, combined carefully with the freedom to make commercial partnerships. And when other people are making a choice for me, I would like this to be made absolutely clear to me.
 
-See also: [[inevitability of centralization|inevitability of centralization]]
+See also: [[inevitability of centralization|inevitability of centralization](inevitability%20of%20centralization.md)
 
 ### Privacy
 
@@ -79,7 +79,7 @@ People should be able to surf the Web anonymously, or as a well-defined entity, 
 
 The W3C is creating a technology that will allow automatic negotiation between a user's browser and store's server, leading to an agreement about privacy. The Platform for Privacy Preferences Project (P3P) will give a computer a way of describing its owner's privacy preferences and demands and give servers a way of describing their privacy policies.
 
-See also: [[privacy]]
+See also: [[privacy.md]]
 
 ### Annotations
 
@@ -91,11 +91,11 @@ Imagine having servers for comments in different forums, perhaps family, school,
 
 [The W3C] defines mechanism, not policy. That said, it is essential that policy and technology be designed with a good understanding of each other. As I noted in closing the first International World Wide Web Conference at CERN in May 1994, technologists cannot simply leave the social and ethical questions to other people, because technology directly affects these matters.
 
-See: [[software and politics|software and politics]]
+See: [[software and politics|software and politics](software%20and%20politics.md)
 
 ### The Web's Achilles' Heel: DNS
 
-At the top of the [[DNS|DNS]] hierarchy sits 13 root servers. An operator error at this level can black out huge portions of the web. However, that technical weakness is itself less of a concern than the social centralization that parallels it.
+At the top of the [[DNS.md|DNS]] hierarchy sits 13 root servers. An operator error at this level can black out huge portions of the web. However, that technical weakness is itself less of a concern than the social centralization that parallels it.
 
 All domain names are given out in a delegated fashion. To set up the name www.lcs.mit.edu, one registers it with the Lab for Computer Science, which is owner of the lcs.mit.edu domain, LCS got its domain in turn from MIT, which is the registered owner of mit.edu. MIT got its domain from the owner of edu. Control over these 'top-level' domains gives control over all domain names and so is something of great power. Who should exercise that power?
 
@@ -109,8 +109,8 @@ A person who's completely turned inward, who spends all his or her time alone, i
 
 ### Teaching
 
-Having to work with someone else's definitions is difficult. An awe-inspiring talent of my physics tutor, Professor John Moffat, was that when I brought him a problem I had worked out incorrectly, using a strange technique and symbols different from the well-established ones, he not only would follow my weird reasoning to find out where it went wrong, but would then use my own strange [[notation|notation]] to explain the right answer.
+Having to work with someone else's definitions is difficult. An awe-inspiring talent of my physics tutor, Professor John Moffat, was that when I brought him a problem I had worked out incorrectly, using a strange technique and symbols different from the well-established ones, he not only would follow my weird reasoning to find out where it went wrong, but would then use my own strange [[notation.md|notation]] to explain the right answer.
 
 This great feat involved looking at the world using my definitions, comparing them with his, and translating his knowledge and experience into my language. It was a mathematical version of the art of listening.
 
-See: [[teaching]]
+See: [[teaching.md]]

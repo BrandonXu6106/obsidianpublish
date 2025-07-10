@@ -29,11 +29,11 @@ What makes something look 3D?
 
 Dividing through $h$ gives us these three effects.
 
-In order to make distant objects appear smaller and closer to the center of the screen, we use a coordinate system with $(0, 0, 0)$ at the center of the screen (this is done in the [[computer graphics#Transformations|CCS]]).
+In order to make distant objects appear smaller and closer to the center of the screen, we use a coordinate system with $(0, 0, 0)$ at the center of the screen (this is done in the [[computer graphics#Transformations|CCS](computer%20graphics.md)).
 
 This effectively projects onto the 'near' plane
 
-![[content/thoughts/images/homogenous.png|300]]
+![[images/homogenous.png|300]]
 
 ## Barycentric Coordinates
 
@@ -60,4 +60,4 @@ Calculating the weighted value $\alpha$ for the vertex $P_1$:
 
 $\theta$ represents the polar angle (angle from the vertical $z$ axis) and $\phi$ represents the azimuthal angle (angle from the $x$ axis)
 
-![[spherical coordinate system.png]]
+![[spherical coordinate system.png](images/spherical%20coordinate%20system.png)

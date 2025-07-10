@@ -6,7 +6,7 @@ tags:
   - rhizome
 ---
 
-See the main [[Rhizome Proposal|Rhizome Proposal]]
+See the main [[Rhizome Proposal|Rhizome Proposal](Rhizome%20Proposal.md)
 
 ### Interoperable
 
@@ -42,21 +42,21 @@ The internet should be used to synchronize, update, and collaborate, not be a re
 
 Of course, local-first doesn't mean local-only.
 
-It was a dream of the early internet to be able to make spaces anyone can inhabit and enjoy, little pockets of [[digital commons|digital commons]] that are tended to by many.
+It was a dream of the early internet to be able to make spaces anyone can inhabit and enjoy, little pockets of [[digital commons|digital commons](digital%20commons.md) that are tended to by many.
 
 Apps should have the freedom to create new mediums of being digitally present with others. Apps should easily be able to have a digital indication that a space is lived in and occupied.
 
 As of now, most platforms keep a primative chat log or history but thats it. What if there was a way to create digital [gardens](https://twitter.com/samihusseni/status/1329499588982575104) to foster and maintain existing relationships? A commonspace you could both take care of, share, and contribute to. Completely private common spaces often allow users to put whatever and allow people can construct their own digital nooks and cozy spaces. Places where people can consume the firehose of information through a feed or slowly and lazily through dialogue (see: [friction](friction.md), [pace layers](pace%20layers.md)).
 
-A collaborative application doesn't necessarily need completely open to the public either. It could just be among your family or close friends. It could just be permeable enough to be discovered by those curious enough to add their own drawings and words and details just hidden enough to be carefully unearthed by the intentional visitor. An app can be a [[cozy software#An app can be a home-cooked meal|home-cooked meal]].
+A collaborative application doesn't necessarily need completely open to the public either. It could just be among your family or close friends. It could just be permeable enough to be discovered by those curious enough to add their own drawings and words and details just hidden enough to be carefully unearthed by the intentional visitor. An app can be a [[cozy software#An app can be a home-cooked meal|home-cooked meal](cozy%20software.md).
 
 ### Simple Developer Experience
 
 Last but not least, the experience should feel pleasant to both build and use.
 
-There are clearly social problems when it comes to making collaborative apps (e.g. [[tragedy of the commons|tragedy of the commons]], [[evaporative cooling|evaporative cooling]]), but even _enabling_ this collaboration on a technical level to happen in the first place is already really difficult.
+There are clearly social problems when it comes to making collaborative apps (e.g. [[tragedy of the commons|tragedy of the commons](tragedy%20of%20the%20commons.md), [[evaporative cooling|evaporative cooling](evaporative%20cooling.md)), but even _enabling_ this collaboration on a technical level to happen in the first place is already really difficult.
 
-The reason why client-server is so much easier to develop is because of ACID properties. Everything is atomic, things are easy to reason about. P2P and distributed technologies generally are much more difficult to reason about with things like eventual consistency making it hard to understand what is _actually_ happening in the code. Networking quirks like [[NAT|NAT]] traversal make direct connections
+The reason why client-server is so much easier to develop is because of ACID properties. Everything is atomic, things are easy to reason about. P2P and distributed technologies generally are much more difficult to reason about with things like eventual consistency making it hard to understand what is _actually_ happening in the code. Networking quirks like [[NAT.md|NAT]] traversal make direct connections
 
 People tend to lean towards client-server models because nobody has made it easy to make P2P software. Almost everything today requires users to still setup their own signalling servers, STUN servers, ICE servers, and a bunch of other infrastructure that makes client-server applications seem like child play.
 

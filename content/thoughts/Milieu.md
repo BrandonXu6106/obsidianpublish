@@ -13,7 +13,7 @@ It is an ever-shifting, individual configuration of information flows. The Twitt
 
 ## Curating mileau
 
-Selecting these sources and crafting that culture is a form of [[taste]]
+Selecting these sources and crafting that culture is a form of [[taste.md]]
 
 > What sets Frusciante apart as a guitarist is that he is *uncommonly undistractable* (“he can really focus and concentrate and apply himself to his craft in a way where the noise of the world has less of an impact”). In the words of this essay, this can be rephrased as: Frusciante has an uncommon discipline about what he lets into his senses; he is uncommonly deliberate about curating his milieu
 >

@@ -5,14 +5,14 @@ tags:
   - seed
 ---
 
-TLS evolved from the previous encryption protocol [[SSL|SSL]]
+TLS evolved from the previous encryption protocol [[SSL.md|SSL]]
 
 ## Certificate
 
-The certificate contains important information about who owns the domain, along with the server's [[Asymmetric Key Cryptography|public key]], both of which are important for validating the server's identity.
+The certificate contains important information about who owns the domain, along with the server's [[Asymmetric Key Cryptography|public key](Asymmetric%20Key%20Cryptography.md), both of which are important for validating the server's identity.
 
 ## Handshake
 
 A TLS connection is initiated using a sequence known as the TLS handshake. When a user navigates to a website that uses TLS, the TLS handshake begins between the user's device (also known as the client device) and the web server.
 
-Once data is encrypted and authenticated, it is then signed with a [[MAC|MAC]]. The recipient can then verify the MAC to ensure the integrity of the data.
+Once data is encrypted and authenticated, it is then signed with a [[MAC.md|MAC]]. The recipient can then verify the MAC to ensure the integrity of the data.

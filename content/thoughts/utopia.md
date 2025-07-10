@@ -7,7 +7,7 @@ tags:
 
 ## What is a utopia?
 
-[[Utilitarianism|Utilitarian]] perspective: a society where everyone can fully maximize their [[utility|utility]] function
+[[Utilitarianism.md|Utilitarian]] perspective: a society where everyone can fully maximize their [[utility.md|utility]] function
 
 ## Is one even possible?
 
@@ -21,4 +21,4 @@ Does the concept of utopia requires a common definition of 'good'? If so, how do
 
 > I think our destination is neither utopia nor dystopia nor status quo, but protopia. Protopia is a state that is better than today than yesterday, although it might be only a little better (Kevin Kelly)
 
-We don't have much desire for life one hundred years from now. Many dread it. That makes it hard to take the future seriously. So we don't take a generational perspective. We're stuck in the short now instead of the [[fiction#The Big Here and Long Now|long now]].
+We don't have much desire for life one hundred years from now. Many dread it. That makes it hard to take the future seriously. So we don't take a generational perspective. We're stuck in the short now instead of the [[fiction.md#The Big Here and Long Now|long now]].

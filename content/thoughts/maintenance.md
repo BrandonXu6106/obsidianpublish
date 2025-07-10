@@ -14,7 +14,7 @@ One of my favourite examples is the [constant rebuilding of the Ise Grand Shrine
 
 ## [Incentivizing](incentives.md) Maintenance
 
-_The Maintainers_: the individuals whose work keeps ordinary existence going rather than introducing novel things. Related to [paid open source](paid-open-source.md), how do we incentivize maintenance?
+_The Maintainers_: the individuals whose work keeps ordinary existence going rather than introducing novel things. Related to [paid open source](../posts/software/paid-open-source.md), how do we incentivize maintenance?
 
 Is maintenance just the battle against the [tragedy of the commons](tragedy%20of%20the%20commons.md)? "Fundamentally, digital infrastructure has a free rider problem. Resources are offered for free, and everybody (whether individual developer or large software company) uses them, so nobody is incentivized to contribute back, figuring that somebody else will step in." [Source](https://techcrunch.com/2018/06/23/open-source-sustainability)
 
@@ -54,7 +54,7 @@ As Nikhil Anand writes in _Hydraulic City_, "The maintenance of water infrastruc
 
 We should always ask: what, exactly, is being maintained? “Is it the thing itself,” Graham and Thrift ask, “or the negotiated order that surrounds it, or some ‘larger’ entity?” Often the answer is all of the above.
 
-We should also remember that the preservation of our world — the human one — is sometimes at odds with caring for the ecological context. Perhaps not every road _should_ be repaired. Geographer Caitlin DeSilvey encourages us to embrace [[entropy|entropy]] within the built world, to ask ourselves _for whom_ we engage in preservation, and to consider cultivating an acceptance of “curated decay” where appropriate.
+We should also remember that the preservation of our world — the human one — is sometimes at odds with caring for the ecological context. Perhaps not every road _should_ be repaired. Geographer Caitlin DeSilvey encourages us to embrace [[entropy.md|entropy]] within the built world, to ask ourselves _for whom_ we engage in preservation, and to consider cultivating an acceptance of “curated decay” where appropriate.
 
 ### Dust: domestic maintenance, housework, care work
 

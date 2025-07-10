@@ -20,28 +20,28 @@ The goal of language is to learn a productive grammar that can generate (or prod
 
 Involves knowledge of
 
-- Sounds ([[phonetics|phonetics]])
-- Words ([[phonology|phonology]], [[semantics|semantics]])
-- Grammar ([[morphology|morphology]], [[syntax|syntax]])
-- Social and communicative Function ([[pragmatics|pragmatics]], [[sociolinguistics|sociolinguistics]])
+- Sounds ([[phonetics.md|phonetics]])
+- Words ([[phonology.md|phonology]], [[semantics.md|semantics]])
+- Grammar ([[morphology.md|morphology]], [[syntax.md|syntax]])
+- Social and communicative Function ([[pragmatics.md|pragmatics]], [[sociolinguistics.md|sociolinguistics]])
 
 - Language Productivity: you can come up with (or generate) new words and sentences, even if you have never said them before
 - Language Comprehension: you can understand infinite combinations of morphemes and words, even if you have never heard them before
 
 ## Components of Language Knowledge
 
-- [[phonetics|Phonetics]]
-- [[phonology|Phonology]]
-- [[morphology|Morphology]]
-- [[syntax|Syntax]]
-- [[semantics|Semantics]]
+- [[phonetics.md|Phonetics]]
+- [[phonology.md|Phonology]]
+- [[morphology.md|Morphology]]
+- [[syntax.md|Syntax]]
+- [[semantics.md|Semantics]]
   - Semantic organization: organizing the world between cognitive organization and language
-- [[pragmatics|Pragmatics]]
-- [[sociolinguistics|Sociolinguistics]]
+- [[pragmatics.md|Pragmatics]]
+- [[sociolinguistics.md|Sociolinguistics]]
 
 See also:
 
-- [[language development|language development]]
-- [[language of thought|language of thought]]
-- [[linguistic relativism|linguistic relativism]]
-- [[new-words|New Words]]
+- [[language development|language development](language%20development.md)
+- [[language of thought|language of thought](language%20of%20thought.md)
+- [[linguistic relativism|linguistic relativism](linguistic%20relativism.md)
+- [[../posts/readnotes/new-words.md|New Words]]

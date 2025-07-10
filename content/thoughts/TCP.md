@@ -6,7 +6,7 @@ tags:
   - CPSC317
 ---
 
-[[Transport Layer|Transport layer protocol]]
+[[Transport Layer|Transport layer protocol](Transport%20Layer.md)
 
 TCP provides a **reliable**, in-order, port to port, byte-stream service to applications. The application byte-stream is conveyed over the network via TCP segments, with each TCP segment sent as an Internet Protocol (IP) datagram.
 ## Overview

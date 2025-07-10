@@ -7,7 +7,7 @@ tags:
 
 From _Believing the best: on doxastic partiality in friendship_ by Lindsay Crawford
 
-Argues that there is no conflict between [[friendship]] and [[epistemic authority|epistimic]] norms as being a good friend constitutively involves forming attitudes about one's friends that are appropriately responsive to the features that one's friends have that appear to warrant those attitudes
+Argues that there is no conflict between [[friendship.md]] and [[epistemic authority|epistimic](epistemic%20authority.md) norms as being a good friend constitutively involves forming attitudes about one's friends that are appropriately responsive to the features that one's friends have that appear to warrant those attitudes
 
 **Note:** property $x$ being constitutive of $p$ is not a normative reason for $p$ to have $x$
 
@@ -52,7 +52,7 @@ State-given vs appropriately responsive attitudes
 
 _By Katherine Hawley_
 
-> Is it reasonable to [[trust]] your [friends](friendship.md)?
+> Is it reasonable to [[trust.md]] your [friends](friendship.md)?
 
 Common definition of trust:
 
@@ -80,7 +80,7 @@ Exploring potential conflicts between different types of trust
 1. Epistemic Trust: trust in someone as a speaker or source of knowledge
 2. Practical Trust: trust in someone as an actor
 
-In fact, there is often a two-way [[causality|causal]] interaction between friendship and trustworthiness. Roughly, people are more likely to behave in a trust-worthy manner towards their friends, and we are more likely to form friendships with people we consider trustworthy. Clearly, there are exceptions
+In fact, there is often a two-way [[causality.md|causal]] interaction between friendship and trustworthiness. Roughly, people are more likely to behave in a trust-worthy manner towards their friends, and we are more likely to form friendships with people we consider trustworthy. Clearly, there are exceptions
 
 1. Friend might let you down instead of disappointing someone else as your friend hopes you will understand and forgive them
 2. Might find it more tempting to lie about some matters because they are concerned about maintaining a good image of themselves in your mind

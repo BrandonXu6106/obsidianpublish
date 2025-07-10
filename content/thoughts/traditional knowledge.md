@@ -11,7 +11,7 @@ _Strategic translation: pollution, data, and Indigenous Traditional Knowledge_ b
 
 We look to 'Water is a living thing' as a case study. Here, two First Nations communities "_chose_ to partially translate their knowledge into data because doing so enabled them to enter into dialogue with policy-makers -- with data as the lingua franca - to participate in science, and to retain control over their own data."
 
-This is an act of protest against the settler [[colonial debt|colonial]] state. Data as a form of partial translation which serves as a [boundary object](boundary%20object.md)
+This is an act of protest against the settler [[colonial debt|colonial](colonial%20debt.md) state. Data as a form of partial translation which serves as a [boundary object](boundary%20object.md)
 
 Science is not apolitical, nor measurement neutral.
 

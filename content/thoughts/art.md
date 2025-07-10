@@ -9,13 +9,13 @@ tags:
 
 In discussion with [Wendi Yan](https://wendiyan.com/)
 
-What makes something “art” comes from its [[intentionality|intention]]. How did the artist create the work? What is the personal experience or historical question their art responds to? Or did they seek to evoke certain emotions through their work?
+What makes something “art” comes from its [[intentionality.md|intention]]. How did the artist create the work? What is the personal experience or historical question their art responds to? Or did they seek to evoke certain emotions through their work?
 
 In this sense, art is a form of derivative [intentionality](intentionality.md) where the artist imparts it into the work. Is generative art still art? I still think so. You just have a fancier paintbrush.
 
 > True art doesn’t care to be appreciated, obsessed over with, or owned. It holds a certain self-respect that knows enough of its own value to not plea for attention.
 
-True art is like a gift. They should not be explicitly marked with a [[money|monetary]] value. They should not be used as holds of value to be predicted and sold. "If art is important to you, you want to hold onto it, instead of trading it with others."
+True art is like a gift. They should not be explicitly marked with a [[money.md|monetary]] value. They should not be used as holds of value to be predicted and sold. "If art is important to you, you want to hold onto it, instead of trading it with others."
 
 ## On Crypto Art
 
@@ -41,7 +41,7 @@ On the contrary, Cohen concluded, “The desire of AI tools to meet expectations
 
 In other words, AI produces what it _thinks we want to see_
 
-This is one way of thinking about what it means for a work of art to have depth. You can press in, and it won’t dissolve under a more attentive gaze. AI art _does_ dissolve under deep [[attention]]
+This is one way of thinking about what it means for a work of art to have depth. You can press in, and it won’t dissolve under a more attentive gaze. AI art _does_ dissolve under deep [[attention.md]]
 
 Questions to ask:
 

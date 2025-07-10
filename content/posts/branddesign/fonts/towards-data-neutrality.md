@@ -12,25 +12,25 @@ aliases:
 
 _DISCLAIMER: To borrow words from [Robin Sloan](https://www.robinsloan.com/lab/specifying-spring-83/): While it is okay to share this link, I want to underscore that I am sending it specifically to you with the hope that you will really think about it! At such a primordial stage, a proposal like this doesn’t need diffuse, drive-by attention. It needs, instead, close consideration and generous imagination._
 
-The competitive advantage of the vast majority of today's centralized platforms are in their data moats and [[network effect|network effects]]. Services like Facebook, Twitter, and Reddit conceptually aren't difficult to replicate -- in fact, your average computer science graduate could probably recreate the functionality of these apps without much difficulty. Rather, the major reason why these platforms remain so dominant is because of their data and users: Facebook has all of our childhood friends, Twitter is the go-to place for unhinged humour and political discourse, and Reddit has millions of niche micro-communities found nowhere else on the internet.
+The competitive advantage of the vast majority of today's centralized platforms are in their data moats and [[network effect|network effects](../../../thoughts/network%20effect.md). Services like Facebook, Twitter, and Reddit conceptually aren't difficult to replicate -- in fact, your average computer science graduate could probably recreate the functionality of these apps without much difficulty. Rather, the major reason why these platforms remain so dominant is because of their data and users: Facebook has all of our childhood friends, Twitter is the go-to place for unhinged humour and political discourse, and Reddit has millions of niche micro-communities found nowhere else on the internet.
 
-These platforms, especially aggregators, are _incentivized_ to resist [[decentralization|decentralization]] and [[interoperability|interoperability]]. After all, 'data is the new oil'. These services almost entirely depend on making sure that only they have access to that valuable data. Interoperability, on the other hand, means you no longer have a data moat, or a privileged hub position in the network.
+These platforms, especially aggregators, are _incentivized_ to resist [[../../../thoughts/decentralization.md|decentralization]] and [[../../../thoughts/interoperability.md|interoperability]]. After all, 'data is the new oil'. These services almost entirely depend on making sure that only they have access to that valuable data. Interoperability, on the other hand, means you no longer have a data moat, or a privileged hub position in the network.
 
-![[platforms as old oil rigs.png]]
+![[platforms as old oil rigs.png](../../../thoughts/images/platforms%20as%20old%20oil%20rigs.png)
 
-As a result, apps have become inseparable from data. They are extractive, asking for ever-increasing access to our personal lives. We willingly sign over the ability to control our data, blindly scrolling miles and miles of Terms of Service Agreements because we know that at the end of the day, we have no power to change what they want from us. You can't choose what parts you like; you either use the platform and sign all of your rights to them, or don't use it at all. [[privacy|Privacy]] and security in this world mostly means "which company do you trust with your safety?" The answer often is the one with the largest walls and deepest moats.
+As a result, apps have become inseparable from data. They are extractive, asking for ever-increasing access to our personal lives. We willingly sign over the ability to control our data, blindly scrolling miles and miles of Terms of Service Agreements because we know that at the end of the day, we have no power to change what they want from us. You can't choose what parts you like; you either use the platform and sign all of your rights to them, or don't use it at all. [[../../../thoughts/privacy.md|Privacy]] and security in this world mostly means "which company do you trust with your safety?" The answer often is the one with the largest walls and deepest moats.
 
-![[data moat.png]]
+![[data moat.png](../../../thoughts/images/data%20moat.png)
 
 Clearly, this leaves much to be desired. We spend so much time online that it is worthwhile to explore better ways of existing online.
 
 ## An Ideal World
 
-Decentralization is not the solution for everything but it has value in empowering people to act decisively within their social contexts[^1]. Decentralizing the Web means that people gain the ability to store their data wherever they want while still getting the services they need. **Decentralization is about [[agency]]**: we get choice about where we *store* our data, who we give *access* to which parts of that data, which *services* we want on top of it, and how we *pay* for those.
+Decentralization is not the solution for everything but it has value in empowering people to act decisively within their social contexts[^1]. Decentralizing the Web means that people gain the ability to store their data wherever they want while still getting the services they need. **Decentralization is about [[../../../thoughts/agency.md]]**: we get choice about where we *store* our data, who we give *access* to which parts of that data, which *services* we want on top of it, and how we *pay* for those.
 
-In an ideal world, instead of being forced to accept package deals we cannot customize, we get modular interoperable [[local-first software|local-first software]][^2] which we can stack to a global scale. Apps and platforms in this model follow the [[Unix|Unix]] philosophy: expect the output of every program to become the input to another, as yet unknown, program. Like the Lego "dot" that is the universal connector between all Lego pieces, there exists a universal API that freely enables all software of this model to freely interoperate. With a universal API, each composition between each tool increases the total possible compositions and workflows by $n * (n-1)$, all without developers needing to write the transformations between each one.
+In an ideal world, instead of being forced to accept package deals we cannot customize, we get modular interoperable [[local-first software|local-first software](../../../thoughts/local-first%20software.md)[^2] which we can stack to a global scale. Apps and platforms in this model follow the [[../../../thoughts/Unix.md|Unix]] philosophy: expect the output of every program to become the input to another, as yet unknown, program. Like the Lego "dot" that is the universal connector between all Lego pieces, there exists a universal API that freely enables all software of this model to freely interoperate. With a universal API, each composition between each tool increases the total possible compositions and workflows by $n * (n-1)$, all without developers needing to write the transformations between each one.
 
-In an ideal world, there is _data-neutrality_. Much like how the Net [[neutrality|Neutrality]] debate strives to maintain the separation of the content and connectivity markets, data neutrality strives to maintain the separation of data and application markets. Our current market is competitive based on data ownership when it could be competitive based on service quality instead. If we conceive a decentralized approach as a way to enable data and platform neutrality, application platforms and data providers can mix and match, much like how you can browse the many websites of the web on any Internet provider.
+In an ideal world, there is _data-neutrality_. Much like how the Net [[../../../thoughts/neutrality.md|Neutrality]] debate strives to maintain the separation of the content and connectivity markets, data neutrality strives to maintain the separation of data and application markets. Our current market is competitive based on data ownership when it could be competitive based on service quality instead. If we conceive a decentralized approach as a way to enable data and platform neutrality, application platforms and data providers can mix and match, much like how you can browse the many websites of the web on any Internet provider.
 
 In an ideal world, we focus on local-first software that works independently of large platforms -- at the end of the day **platforms should be used to support efficiency of collaboration at scale, not to gate users from moving their data for the sake of retention.**
 
@@ -74,7 +74,7 @@ The important question is: can applications on top of decentralized data **beha
 
 ## Why not use blockchains?
 
-I admit that it is true that [[blockchain|blockchain]] actually solves most of these problems. Blockchain approaches have great approaches to solving both identity and availability through a combination of wallet addresses and token [[incentives|incentive]] mechanisms. Yet, they solve it in a way that leaves much to be desired.
+I admit that it is true that [[../../../thoughts/blockchain.md|blockchain]] actually solves most of these problems. Blockchain approaches have great approaches to solving both identity and availability through a combination of wallet addresses and token [[../../../thoughts/incentives.md|incentive]] mechanisms. Yet, they solve it in a way that leaves much to be desired.
 
 Blockchain causes a whole new set of problems that makes it quite cumbersome to build on top of it. Some of the core problems that I have personally seen include:
 
@@ -82,33 +82,33 @@ Blockchain causes a whole new set of problems that makes it quite cumbersome to 
 - Massively reduced speed and efficiency (the global Ethereum computer operates at roughly the speed of a Raspberry Pi)
 - High latency for transactions and finality (not to mention transaction + gas fees but I am assuming these will be negligible at some point down the line)
 
-All of these make it incredibly unfeasible for data-intensive or real-time applications (e.g. file sharing, games, collaborative text editing) without _aggressive_ application of blockchain scaling ideas. Of course, there are certain applications that benefit from the unique properties that blockchains possess (namely strong guarantees about consistency and message ordering among the presence of [[Byzantine Faults|byzantine actors]]) that make it worthwhile for certain applications like cryptocurrencies, but for most applications these tradeoffs make it hard for end users to adopt.
+All of these make it incredibly unfeasible for data-intensive or real-time applications (e.g. file sharing, games, collaborative text editing) without _aggressive_ application of blockchain scaling ideas. Of course, there are certain applications that benefit from the unique properties that blockchains possess (namely strong guarantees about consistency and message ordering among the presence of [[Byzantine Faults|byzantine actors](../../../thoughts/Byzantine%20Faults.md)) that make it worthwhile for certain applications like cryptocurrencies, but for most applications these tradeoffs make it hard for end users to adopt.
 
 Blockchain is suitable for a very small subset of use-cases. Is there a more general purpose technology that still addresses these main problems?
 
 ## The personal cloud
 
-**Rhizome** aims to be a data-persistence and identity layer for the [[distributed web|distributed web]]. The goal of Rhizome is to enable _data-neutrality_ by separating data from applications.
+**Rhizome** aims to be a data-persistence and identity layer for the [[distributed web|distributed web](../../../thoughts/distributed%20web.md). The goal of Rhizome is to enable _data-neutrality_ by separating data from applications.
 
 It is made up of two layers
 
 1. Root: a personal data pod that _you_ own. Think iCloud or Dropbox but you have agency over how much storage you want, who has access to it, and what you want to do with it.
 2. Trunk: a framework for easily developing cohesive peer-to-peer applications on top of data from Root
 
-As a whole, it forms the basis for a new model of the internet where first and foremost, people own their own data. This enables entirely new dimensions of computation and [[collaborative software|collaboration]] on the web.
+As a whole, it forms the basis for a new model of the internet where first and foremost, people own their own data. This enables entirely new dimensions of computation and [[collaborative software|collaboration](../../../thoughts/collaborative%20software.md) on the web.
 
 - Single purpose apps backed by general-purpose data[^4]. Apps in this new model are now just views on top of data rather than a tight coupling of data and logic. If two apps are views on the same data, any change to the underlying data will instantly update _both apps_.
 - Applications ask for access rather than store their own data. Instead of maintaining a separate log-in for each app, you give apps permission to read or write specific parts of your data.
-  - Additionally, this means that existing platforms to relieve themselves of the impossible burden of being the steward of [[Moderation|moderating]] what every person on their platform is doing.
+  - Additionally, this means that existing platforms to relieve themselves of the impossible burden of being the steward of [[../../../thoughts/Moderation.md|moderating]] what every person on their platform is doing.
 - Local-first means interaction times are measured in _microseconds_ not seconds, resulting in more responsive-feeling applications and no loading spinners.
 - Two users can collaborate by simply 'inviting' another to temporarily synchronize a subset of their data. Developers no longer have to worry about building out separate infrastructure for live editing or collaboration.
 - As there are separate markets for data and applications, it creates competition based on service quality rather than on data ownership.
 
 With Rhizome, we get the convenience of a single centralized platform without the lack of agency that comes with it.
 
-You can find more technical details [[Rhizome Proposal|in the proposal]], and rough notes from my day-to-day in my [[Rhizome Research Log|research log]].
+You can find more technical details [[Rhizome Proposal|in the proposal](../../../thoughts/Rhizome%20Proposal.md), and rough notes from my day-to-day in my [[Rhizome Research Log|research log](../../../thoughts/Rhizome%20Research%20Log.md).
 
-I encourage you to imagine with me what a world like this could look like. I miss when we would dream of worlds to come, filled with exciting possibilities and hopeful futures. Think of this project as a [[skyhooks|skyhook]]: a dream about a future so that we may build towards it.
+I encourage you to imagine with me what a world like this could look like. I miss when we would dream of worlds to come, filled with exciting possibilities and hopeful futures. Think of this project as a [[../../../thoughts/skyhooks.md|skyhook]]: a dream about a future so that we may build towards it.
 
 > We live in capitalism, its power seems inescapable – but then, so did the divine right of kings. Any human power can be resisted and changed by human beings. Resistance and change often begin in art.
 >
@@ -126,7 +126,7 @@ This literature review era led me to revise the proposal to go a lot more in-dep
 
 **What’s something that surprised you in your work so far this summer?**
 
-People say [[independent research|independent research]] is a lonely journey. I disagree. I don’t think being independent means you need to do it alone. Rather, it means without being attached to any particular institution or label.
+People say [[independent research|independent research](../../../thoughts/independent%20research.md) is a lonely journey. I disagree. I don’t think being independent means you need to do it alone. Rather, it means without being attached to any particular institution or label.
 
 I’ve been very surprised at just the number of people who have been thought partners, collaborators, and supporters throughout the whole process.
 

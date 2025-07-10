@@ -6,7 +6,7 @@ tags:
   - book
 ---
 
-See also: [[games]], [[The Grasshopper, Games, Life and Utopia]]
+See also: [[games.md]], [[The Grasshopper, Games, Life and Utopia](The%20Grasshopper,%20Games,%20Life%20and%20Utopia.md)
 
 ## Book
 
@@ -21,8 +21,8 @@ Book, written by C. Thi Nguyen
        - Being unable to do this leads to the diffident player, who can't bring themselves to care about the game "What's the point? It's just a game"
     2. I must be able to bring myself to temporarily care about an end, and for that end to appear to me as final. But I must also be able to dispose of that end afterwards. This disposal helps build the capacity to step back and reflect on the value of these narrower states from a wider, less artificially clarified perspective. This turns out to be protective against the stickiness of narrowed agential modes and ends
   - A successful striving player is able to do both of the above
-  - Suits calls this the [[The Grasshopper, Games, Life and Utopia#Lusory Attitude -- the game attitude|lusory attitude]]
-  - Stenros builds on Salen and Zimmerman's 'magic circle', arguing that this game state is an explicitly negotiated [[social contracts|social contract]] -- an agreement to treat the in-game events as separated from the world
+  - Suits calls this the [[The Grasshopper, Games, Life and Utopia#Lusory Attitude -- the game attitude|lusory attitude](The%20Grasshopper,%20Games,%20Life%20and%20Utopia.md)
+  - Stenros builds on Salen and Zimmerman's 'magic circle', arguing that this game state is an explicitly negotiated [[social contracts|social contract](social%20contracts.md) -- an agreement to treat the in-game events as separated from the world
 - Aesthetics of games
   - Climbers praise particular climbs for having interesting movement or beautiful flow
   - We can justify our pursuit of an arbitrary-seeming goal in terms of the aesthetic value of that struggle.
@@ -32,7 +32,7 @@ Book, written by C. Thi Nguyen
        - This is a strict superset of the harmony of solution. It concerns not only how the solution fits the problem, but how my decision making and action generation were just right to generate the harmony of solution
        - Effectively 'flow state'
     3. Harmony of capacity: the experience of engaging your abilities to their fullest potential. Arises from a fit between one's maximum skill level (their limit) and the demands of the task
-       - We want to hit this in [[game design]] as much as possible
+       - We want to hit this in [[game design](game%20design.md) as much as possible
 - Crafting Agency
   - A game designer crafts for players a very particular form of struggle, and does so by crafting both a temporary practical agency for us to inhabit and a practical environment for us to struggle against. Games are the art of agency
   - Whatever is created has to be open, flexible, and malleable to allow players to appropriate, express, act and interact, make and become part of the form itself (Sicart 2014)
@@ -42,7 +42,7 @@ Book, written by C. Thi Nguyen
   - We need to have final ends to avoid being bored. However, having final ends is no insurance against being bored. Instead, to remain interested in the world, we must be able to fluidly be able to change our interests
   - I acquire my ends from my experience of value in an activity
   - Game playing is a way to practical agential fluidity. Game playing builds familiarity with different agential modes -- to help us build our inventory and know which one to pic -- and the fluidity to shift easily in and out of our chosen mode
-- [[self-effacing ends|self-effacing ends]]
+- [[self-effacing ends|self-effacing ends](self-effacing%20ends.md)
 - The value contradiction that makes games valuable
   - When we succeed in games, we treat them as normal contexts in which success matters. But when we fail at games, we treat them as deflated contexts, telling ourselves that success and failure in games doesn't really matter anyway (Juul, 2013)
 - Learning new modes of agency
@@ -55,12 +55,12 @@ Book, written by C. Thi Nguyen
   - The gap that the game designer explicitly leaves for the player to occupy. This gap is shaped by the rules/constraints of the game
   - Creative/sandbox games like Minecraft have a big agential distance whereas strict games like osu! have very little agential distance.
 - Gamification and Value Capture
-  - A la [[Seeing like a State]], metrics arose from the bureaucratic need to collate information. They also foster game-like motivations. They look a lot like points! But if we are too eager to recapture the pleasures of games in ordinary life, we may be excessively drawn to using such simplified measured in our practical reasoning.
+  - A la [[Seeing like a State](Seeing%20like%20a%20State.md), metrics arose from the bureaucratic need to collate information. They also foster game-like motivations. They look a lot like points! But if we are too eager to recapture the pleasures of games in ordinary life, we may be excessively drawn to using such simplified measured in our practical reasoning.
   - This is the danger of exporting back to the world a false expectation: that values should be clear, well-delineated, and uniform in all circumstances. Games threaten us with a fantasy of moral clarity.
   - The right values may not be the clearest values. The false clarity of values that games provide may seduce us into oversimplifying our own values
   - Consider a phenomenon I call _value capture_
     1. Our values are, at first, rich and subtle (e.g. we value the happiness of a country's citizens)
-    2. We encounter simplified (often [[quantization|quantified]]) versions of those values (e.g. we use GDP as a measure of its capacity to satisfy its citizen's desires)
+    2. We encounter simplified (often [[quantization.md|quantified]]) versions of those values (e.g. we use GDP as a measure of its capacity to satisfy its citizen's desires)
     3. Those simplified versions take the place of our richer values in our reasoning and motivation (e.g. we begin valuing GDP itself and try to increase it in whatever way we can)
     4. Our lives get worse
   - Again, abstractions and simplifcations are not necessarily a bad thing

@@ -7,7 +7,7 @@ tags:
 
 ## Chapter 1
 
-Focuses on moving the blame away from 'problematic users and data' and towards [[search]] architecture itself.
+Focuses on moving the blame away from 'problematic users and data' and towards [[search.md]] architecture itself.
 
 > If the majority rules in search engine results, then how might those who are in the minority ever be able to influence or control the way they are represented in a search engine?
 
@@ -17,6 +17,6 @@ Why have we become so reliant on search? Is it a part of our [Extended Mind Hypo
 
 > [Search](search.md) is a symbiotic process that both informs and is informed in part by users.
 
-Additionally, decreases in funding for public information institutions such as [[library|libraries]] and educational institutions and shifts of responsibility to individuals and the private sector have reframed the ways that the public conceives of what can and should be in the public domain.
+Additionally, decreases in funding for public information institutions such as [[library.md|libraries]] and educational institutions and shifts of responsibility to individuals and the private sector have reframed the ways that the public conceives of what can and should be in the public domain.
 
-Perhaps to reduce the raw amounts of power search aggregators have, we should focus on funding and empowering [[small technology|small software]] like libraries that act as boutique search engines.
+Perhaps to reduce the raw amounts of power search aggregators have, we should focus on funding and empowering [[small technology|small software](small%20technology.md) like libraries that act as boutique search engines.

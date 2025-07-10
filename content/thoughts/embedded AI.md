@@ -5,11 +5,11 @@ tags:
   - seed
 ---
 
-More in [post on AI systems](agi.md)
+More in [post on AI systems](../posts/software/agi.md)
 
 ## Dreyfus
 
-Dreyfus believed that, for any AI system to achieve any sort of general intelligence, it must also exhibit Dasein (being in the world). Thus, "a successful [[Heidegger|Heideggerian]] AI would need a perfect model of the human body – and by implication, that Dasein must be expressed as a human being, organically as well as existentially".
+Dreyfus believed that, for any AI system to achieve any sort of general intelligence, it must also exhibit Dasein (being in the world). Thus, "a successful [[Heidegger.md|Heideggerian]] AI would need a perfect model of the human body – and by implication, that Dasein must be expressed as a human being, organically as well as existentially".
 
 Dreyfus's critique of the [frame](frame%20problem.md) approach involves look at descriptions of typical situations like going to a birthday party. This quickly grows out of hand once again as any AI program using frames to organize millions of meaningless facts so as to retrieve the relevant frames is going to be caught in a cycle of finding frames for recognizing relevant frames for recognizing relevant facts, forever in a vicious regress
 
@@ -39,7 +39,7 @@ As an agent learns, skills are not stored as internal representations. Rather ex
 
 e.g. as you learn to cook, experiences are presented that are more finely discriminated like having a better cooked egg vs a poorly done one. If the situation does not clearly solicit a single response or if the response does not produce a satisfactory result, the learner is led to further refine the discrimination
 
-See also: [[taste]]
+See also: [[taste.md]]
 
 ### Walter Freeman's neurodynamic model
 
@@ -48,7 +48,7 @@ Basic Cartesian model
 1.  the brain receives input from the universe by way of its sense organs
 2.  out of this stimulus information, the brain abstracts features, which it uses to construct a representation of the world
 
-Treat the computer/brain as a passive receiver of bits of meaningless data, which then have significance added to them. The big problem is how the brain binds the relevant features together (see: [[Chinese room argument]])
+Treat the computer/brain as a passive receiver of bits of meaningless data, which then have significance added to them. The big problem is how the brain binds the relevant features together (see: [[Chinese room argument](Chinese%20room%20argument.md))
 
 Freeman solves this using the concept of energy states. States tends toward minimum "energy" which are called attractors.
 
@@ -58,6 +58,6 @@ Each new attractor does not represent a thing, rather, the brain's current state
 
 The constantly updated landscape of attractors is correlated with the agent's experience of the changing significance of things in the world.
 
-Thus, there are no fixed [[representation|representations]], when an animal learns to respond to a new odor, there is a shift in all other patterns (even those not directly involved with the learning)
+Thus, there are no fixed [[representation.md|representations]], when an animal learns to respond to a new odor, there is a shift in all other patterns (even those not directly involved with the learning)
 
-This is a notably different approach from [[GOFAI|GOFAI]] where each item is positioned by a discrete address or branch of search tree
+This is a notably different approach from [[GOFAI.md|GOFAI]] where each item is positioned by a discrete address or branch of search tree

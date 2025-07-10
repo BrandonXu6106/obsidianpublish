@@ -11,7 +11,7 @@ tags:
 
 It's important to be aware of the incentive structures in place wherever you work (e.g. academia, industry): 80k hours of work in your life, it matters a lot where that goes (voting with labour).
 
-One of the reasons we're not seeing another Xerox Parc/Bell Labs, it feels like there is too _much_ [perception in globalized communities](communities.md). Intimacy is destroyed when the balance of internal/external balance skews too far towards external ([[Fishbowl effect]]). Without intimacy, there is no [trust](trust.md). Without trust, there is no exploration
+One of the reasons we're not seeing another Xerox Parc/Bell Labs, it feels like there is too _much_ [perception in globalized communities](communities.md). Intimacy is destroyed when the balance of internal/external balance skews too far towards external ([[Fishbowl effect](Fishbowl%20effect.md)). Without intimacy, there is no [trust](trust.md). Without trust, there is no exploration
 
 As of now, there are no good spaces to work on long-term (think 10+ years in the future) research to enable the visions of the future. Also, is long-term innovation just [infrastructure](infrastructure.md)?
 
@@ -29,7 +29,7 @@ Can we move away from depending completely on only one of
 
 > The best predictor of success in innovation is the number of other people they come into contact with
 
-Some thoughts. Already have been thinking about this in relation to [hackathons](content/posts/aigc/hackathons.md), [paid open source](paid-open-source.md)
+Some thoughts. Already have been thinking about this in relation to [hackathons](../posts/aigc/hackathons.md), [paid open source](../posts/software/paid-open-source.md)
 
 ## 3rd Spaces
 
@@ -39,7 +39,7 @@ Procurement services: finding a business application of research (specifically g
 
 We're not building a utopia of research, this is more about finding a relationship/group of people you can be yourself with. It doesn't need to be permanent, recognizing people have different stages in their lives. Once you're done, you can move on.
 
-Related: reinventing [hackathons](content/posts/aigc/hackathons.md) as 3rd spaces
+Related: reinventing [hackathons](../posts/aigc/hackathons.md) as 3rd spaces
 
 ## PARPA and alternative [funding](funding.md) models
 

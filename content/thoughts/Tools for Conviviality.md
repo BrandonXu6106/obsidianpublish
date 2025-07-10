@@ -8,13 +8,13 @@ tags:
 
 > conviviality means 'alive with'
 
-Ivan Illich on the proper use of technology to reclaim [[agency]] and practical knowledge for the average citizen.
+Ivan Illich on the proper use of technology to reclaim [[agency.md]] and practical knowledge for the average citizen.
 
 ---
 
 The main TLDR; science and technology with their panoply of elite controlled knowledge and procedures have brought us so far, but cannot take us much further. They are, in fact, damaging as we approach crisis.
 
-These tools suppress other ideas and systems of knowledge and concentrate control of knowledge and power in the few and the elite. As such, these tools can only provide a limited and very unsatisfactory set of answers to how we may live meaningful lives. Illich argues that these tools alienate humans from each other, moving away from communal notions of [[interdependence|interdependence]] and towards increasing dependence on systems of production, killing our ability to work together and towards a better world.
+These tools suppress other ideas and systems of knowledge and concentrate control of knowledge and power in the few and the elite. As such, these tools can only provide a limited and very unsatisfactory set of answers to how we may live meaningful lives. Illich argues that these tools alienate humans from each other, moving away from communal notions of [[interdependence.md|interdependence]] and towards increasing dependence on systems of production, killing our ability to work together and towards a better world.
 
 This dependence on production creates a treadmill, encouraging the average citizen to consume more and forever be unsatisfied. The only way out, Illich posits, is through giving people convivial tools. 'Convivial' is used as by Illich as a technical term to designate a modern society of responsibly limited tools. Often times, this is used interchangeably with a notion of agency or autonomous discourse.
 
@@ -48,7 +48,7 @@ It has taken almost a century to pass from an era served by motorized vehicles t
 **Medicine**
 
 1. 1913, we reached the point in Western medicine where a patient had a better than 50-50 chance that trained doctors would provide better treatment than anyone else. Medicine and our expanding knowledge grew in leaps and bounds, and improvements resulted in corresponding improvements in health.
-2. The point at which we shifted to keeping people alive longer, without worrying about quality. Treatment has become further and further professionalised, removed from the control of patients and their families and communities. Multiple studies in health argue this exact point — that medical knowledge can solve only a portion of health issues, the others are interconnected with society, environment, employment, [[housing|housing]], inequality, etc.
+2. The point at which we shifted to keeping people alive longer, without worrying about quality. Treatment has become further and further professionalised, removed from the control of patients and their families and communities. Multiple studies in health argue this exact point — that medical knowledge can solve only a portion of health issues, the others are interconnected with society, environment, employment, [[housing.md|housing]], inequality, etc.
 
 ### Agency and Conviviality
 
@@ -65,7 +65,7 @@ Tools foster conviviality to the extent that
 - the use of such tools by one person does not restrain another from using them equally (non-rivalrous)
 - their existence does not impose any obligation to use them
 
-See also: [[agency]]
+See also: [[agency.md]]
 
 ### Radical monopoly
 
@@ -77,7 +77,7 @@ See also: [[agency]]
 
 ### Degrowth
 
-See also: [[degrowth|thoughts on degrowth]]
+See also: [[degrowth.md|thoughts on degrowth]]
 
 "Most of the present laws and present legislators, most of the present courts and their decisions, most of the claimants and their demands are deeply corrupted by an overarching industrial consensus: that more is better, and that corporations serve the public interest better than men"
 

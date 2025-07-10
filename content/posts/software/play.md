@@ -5,13 +5,13 @@ tags:
   - fruit
 ---
 
-_Extension of my thoughts about [play](content/thoughts/play.md) and discussions from our Interact Circle on [Hackathon Culture](content/posts/aigc/hackathons.md) and Play._
+_Extension of my thoughts about [play](../../thoughts/play.md) and discussions from our Interact Circle on [Hackathon Culture](../aigc/hackathons.md) and Play._
 
 ## Defining play
 
-I've spent so much time thinking about how to ['bring back play'](content/posts/aigc/hackathons.md), yet not a lot of thinking about _what play is_. The more I think about it, the more nebulous it feels to define. I know examples of it when I see it -- the building of blanket forts during sleepovers, the joy of beating Minecraft for the first time with your friends -- but putting it into words feels difficult.
+I've spent so much time thinking about how to ['bring back play'](../aigc/hackathons.md), yet not a lot of thinking about _what play is_. The more I think about it, the more nebulous it feels to define. I know examples of it when I see it -- the building of blanket forts during sleepovers, the joy of beating Minecraft for the first time with your friends -- but putting it into words feels difficult.
 
-The most intuitive definition is one that comes from Bill Watterson: play is anything that you do on your own volition or agency just for its own sake. It is an _intrinsically_ motivated, [[paratelic action|paratelic]] activity.
+The most intuitive definition is one that comes from Bill Watterson: play is anything that you do on your own volition or agency just for its own sake. It is an _intrinsically_ motivated, [[paratelic action|paratelic](../../thoughts/paratelic%20action.md) activity.
 
 ![](/posts/images/play/agency.png)
 
@@ -19,15 +19,15 @@ Play is the act of enjoying the process, the means to the end. To have as much f
 
 Yet this definition still seems inadequate. What separates work from play? Are they mutually exclusive? What about those who cannot afford time out of their day to do anything _but work_? Those who play games professionally?
 
-Here, I turn to Jenny Odell's [_How to Do Nothing_](How%20to%20do%20Nothing.md) and Bernard Herbert Suit's [_The Grasshopper: Games, Life, and Utopia_](The%20Grasshopper,%20Games,%20Life%20and%20Utopia.md) to further explore this definition.
+Here, I turn to Jenny Odell's [_How to Do Nothing_](../../thoughts/How%20to%20do%20Nothing.md) and Bernard Herbert Suit's [_The Grasshopper: Games, Life, and Utopia_](../../thoughts/The%20Grasshopper,%20Games,%20Life%20and%20Utopia.md) to further explore this definition.
 
 ## How to Do Nothing
 
 Odell’s book _How to Do Nothing_ focuses on resisting the current attention economy. Doing ‘nothing’ within a productivity-obsessed environment can, in fact, help to restore communities, both locally and beyond.
 
-'Nothing', in this case, refers not to actually doing nothing but rather to not participating in the [attention economy](attention%20economy.md) and hustle culture. 'Nothing' means doing nothing productive.
+'Nothing', in this case, refers not to actually doing nothing but rather to not participating in the [attention economy](../../thoughts/attention%20economy.md) and hustle culture. 'Nothing' means doing nothing productive.
 
-Recently, I have been grappling with the question of whether self-care is [selfish](selfish.md). My inner self wants to be able to do nothing: just do projects I find fun, hang out with my friends, and go outside. However, I know that _long term_, working hard at doing well at my job and in school will do me more good, career-wise.
+Recently, I have been grappling with the question of whether self-care is [selfish](../../thoughts/selfish.md). My inner self wants to be able to do nothing: just do projects I find fun, hang out with my friends, and go outside. However, I know that _long term_, working hard at doing well at my job and in school will do me more good, career-wise.
 
 ![](/posts/images/play/long-term.png)
 
@@ -41,7 +41,7 @@ Play is the catalyst that will enable the post-attention-economy society. But wh
 
 ## The Grasshopper
 
-_Of all the things you could do in utopia, why would one play [games](games.md)?_
+_Of all the things you could do in utopia, why would one play [games](../../thoughts/games.md)?_
 
 _The Grasshopper_ was a book unlike any I've ever read before. A talking grasshopper and his insect disciples convinced me, through [Socratic dialogue](https://www.thoughtco.com/socratic-dialogue-argumentation-1691972) nonetheless, that "refusing to work and insisting upon devoting himself exclusively to play" is a perfectly acceptable thing to embody.
 
@@ -72,7 +72,7 @@ In fact, I posit that play is not only necessary but the _only thing_ that can e
 
 **S**: This seems awfully hedonistic of you. What about personal fulfillment? Don't you have responsibilities to the rest of society? If everybody lived like you, society itself would collapse.
 
-**G**: I am not saying everyone should lead the life I claim to want. I simply claim that this life is the one that would lead me to be the most fulfilled. However, is it wrong to dream of a future where a life like mine could be the norm? To create [shared fiction](fiction.md) we can rally around and build towards? Having dreamers who believe in and drive this vision forward are a necessary step to manifest it into reality.
+**G**: I am not saying everyone should lead the life I claim to want. I simply claim that this life is the one that would lead me to be the most fulfilled. However, is it wrong to dream of a future where a life like mine could be the norm? To create [shared fiction](../../thoughts/fiction.md) we can rally around and build towards? Having dreamers who believe in and drive this vision forward are a necessary step to manifest it into reality.
 
 **S**: I guess there is no harm to dreaming a little. I'm curious what this future of yours could look like.
 
@@ -108,9 +108,9 @@ To the carpenter who enjoys building for its own sake, that otherwise instrument
 
 Obviously, this is an exaggeration of the argument I'm hoping to make -- we clearly don't live in this caricature of a post-instrumental society. However, we _do_ live in is a society that is malleable to change.
 
-Language is one of the only logically [decentralized](decentralization.md) aspects of humanity. It is also one that has considerable effects on [how we think](new-words.md) about ourselves and the world.
+Language is one of the only logically [decentralized](../../thoughts/decentralization.md) aspects of humanity. It is also one that has considerable effects on [how we think](../readnotes/new-words.md) about ourselves and the world.
 
-We started off this journey by asserting that our current accepted definition of play was inadequate. In its place, we offer a [[plurality]] of alternatives:
+We started off this journey by asserting that our current accepted definition of play was inadequate. In its place, we offer a [[../../thoughts/plurality.md]] of alternatives:
 
 - Play is an _intrinsically_ motivated activity.
 - Play is labour which is non-instrumental.

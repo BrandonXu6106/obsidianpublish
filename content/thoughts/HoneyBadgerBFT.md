@@ -7,7 +7,7 @@ aliases:
   - HBBFT
 ---
 
-> An asynchronous [[system model|system model]] total-order [[message broadcast|message broadcast]] protocol
+> An asynchronous [[system model|system model](system%20model.md) total-order [[message broadcast|message broadcast](message%20broadcast.md) protocol
 
 Key features:
 

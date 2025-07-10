@@ -30,7 +30,7 @@ Let us imagine that all of the instrumental activities of human beings have been
 
 ### Art and Pursuit of Knowledge
 
-[[art|Art]] has a subject matter which consists in the actions and passions of humanity: with human aspirations and frustrations, hopes and fears, triumphs and tragedies, with flaws of character, moral dilemmas, joy and sorrow. But it would seem that none of these necessary ingredients of art could exist in Utopia, thus there are no artists of any sort in Utopia.
+[[art.md|Art]] has a subject matter which consists in the actions and passions of humanity: with human aspirations and frustrations, hopes and fears, triumphs and tragedies, with flaws of character, moral dilemmas, joy and sorrow. But it would seem that none of these necessary ingredients of art could exist in Utopia, thus there are no artists of any sort in Utopia.
 
 The acquisition of knowledge, just like the acquisition of anything else, is an instrumental process; that is acquisition is instrumental to possession, no matter what it is. We must therefore assume that all Utopians have acquired all the knowledge there is. Thus, there are no scientists, philosophers, or any other intellectual investigators.
 
@@ -59,7 +59,7 @@ Then, to play a game is to attempt to achieve a specific state of affairs [prelu
 
 "In anything but a game the gratuitous introduction of unnecessary obstacles to the achievement of an end is regarded as a decidedly irrational thing to do, whereas in games it appears to be an absolutely essential thing to do."
 
-Games which are competitive (read: [[telic action|telic]]) involve winning and losing -- that is the aim or end of the game in the first place. The win of one implies the loss of another, a [zero sum](zero%20sum.md) world. Playing, though, are the means which are ends themselves; the act of playing is enough and [[paratelic action|paratelic]] in nature. Thus, someone who plays games as an end is autotelic.
+Games which are competitive (read: [[telic action|telic](telic%20action.md)) involve winning and losing -- that is the aim or end of the game in the first place. The win of one implies the loss of another, a [zero sum](zero%20sum.md) world. Playing, though, are the means which are ends themselves; the act of playing is enough and [[paratelic action|paratelic](paratelic%20action.md) in nature. Thus, someone who plays games as an end is autotelic.
 
 > Do you like the act of climbing the mountain or just being at the top? Because the latter doesn't require the first.
 

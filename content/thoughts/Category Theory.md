@@ -25,4 +25,4 @@ A category $\mathcal C$ consists of
 - An identity morphism for each object $X \in \mathcal{C_0}$ such that $\text{Id}_X \in \text{hom}_{\mathcal{C}}(X,X)$
 - A binary infix composition operator $\circ$ that takes $\text{hom}(Y,Z) \rightarrow \text{hom}(Y,Z) \rightarrow \text{hom}(X,Z)$ (this can be thought of as $X \rightarrow Y \land Y \rightarrow Z \implies X \rightarrow Z$)
 
-See also: [[functional programming|functional programming]], [[Homotopy Theory|Homotopy Theory]]
+See also: [[functional programming|functional programming](functional%20programming.md), [[Homotopy Theory|Homotopy Theory](Homotopy%20Theory.md)

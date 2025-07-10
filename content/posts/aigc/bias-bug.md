@@ -37,7 +37,7 @@ As you can see, there is a really obvious difference each of those decisions tha
 
 What we can see from this is that there is a difference between objective and subjective problems. In the tumour and chihuahua examples, we were mostly comfortable with that decision being made because there is a clear ‘right’ or ‘wrong.’ However, in the case of the hiring example and self-driving car example, the subjectivity makes it difficult. A lot of it has to do with what kind of environment we were raised in and how each of us sees the world. Everyone is born with some kind of bias, favouring certain ways of viewing the world.
 
-AI can do a lot of really great things such as helping doctors identify tumours or interpret the world for the deaf. But when used improperly, that subjectivity can propel some of the worst [[bias|biases]] we have as humans.
+AI can do a lot of really great things such as helping doctors identify tumours or interpret the world for the deaf. But when used improperly, that subjectivity can propel some of the worst [[../../thoughts/bias.md|biases]] we have as humans.
 
 ## Garbage in, garbage out
 
@@ -55,19 +55,19 @@ Take Amazon for example. In 2014, Amazon decided to create a recruitment engine 
 
 ### 2. Lack of Data Diversity
 
-The second, less obvious way bias can poison AI is with [data diversity](data%20distributions.md) -- or rather the lack of it. I think the best way to explain this is through a metaphor. Imagine the AI as a small child. It likes to learn from its environment. If this child were to be raised in a racist family, it will almost undoubtedly hold similar views in the future. This is a very similar case for AI. It learns from the environment and data it's given.
+The second, less obvious way bias can poison AI is with [data diversity](../../thoughts/data%20distributions.md) -- or rather the lack of it. I think the best way to explain this is through a metaphor. Imagine the AI as a small child. It likes to learn from its environment. If this child were to be raised in a racist family, it will almost undoubtedly hold similar views in the future. This is a very similar case for AI. It learns from the environment and data it's given.
 
 One case of this is the very first iteration of Google Photo’s image classification feature back in 2015. This feature claimed to be able to identify people, places, and things with high accuracy. Twitter user [@jackyalcine](https://twitter.com/jackyalcine/) found that the algorithm identified people with darker skin as gorillas[^3]. Google quickly was able to work and manually ‘patch’ the issue, but the actual issue was much deeper – and it had to do with the data used. In this case, the dataset that Google used to train their algorithm had an over proportional amount of middle-aged Caucasian people under the category of ‘people.’ This meant that while the recognition accuracy was really high for that select group of people, the accuracy for people of colour was significantly worse.
 
-From both cases, we can see that an over-focus on results and accuracy can cause these companies to ignore these [biases](bias.md). When the deadline is too tight or the manager sets an expectation for a “10% increase in accuracy,” there is a very strong incentive to ignore the ‘edge cases’ or things that happen very rarely.
+From both cases, we can see that an over-focus on results and accuracy can cause these companies to ignore these [biases](../../thoughts/bias.md). When the deadline is too tight or the manager sets an expectation for a “10% increase in accuracy,” there is a very strong incentive to ignore the ‘edge cases’ or things that happen very rarely.
 
-Too often our society is focused on the raw accuracy that we forget that the same accuracy metric is something that we set for ourselves – created arbitrarily by humans which have bias (see: [[Goodhart's Law]]).
+Too often our society is focused on the raw accuracy that we forget that the same accuracy metric is something that we set for ourselves – created arbitrarily by humans which have bias (see: [[Goodhart's Law](../../thoughts/Goodhart's%20Law.md)).
 
 Unfortunately, this results in things like the Google Photos and Amazon Hiring cases.
 
 ## Fairness in AI
 
-Truth is, data lacks [context](context.md). While the trends in the data may show that in the past there have been more men in the women in the workforce, the majority of the population can agree that we are moving away from that more traditional view into more of an equal playing ground. Unfortunately, these models that we create don’t have a deeper understanding of these changes and as a result, produces naïve predictions that we believe are wrong or ‘garbage.’ But is it really? Is it really only a ‘bad’ result because of what we define as fair or right?
+Truth is, data lacks [context](../../thoughts/context.md). While the trends in the data may show that in the past there have been more men in the women in the workforce, the majority of the population can agree that we are moving away from that more traditional view into more of an equal playing ground. Unfortunately, these models that we create don’t have a deeper understanding of these changes and as a result, produces naïve predictions that we believe are wrong or ‘garbage.’ But is it really? Is it really only a ‘bad’ result because of what we define as fair or right?
 
 ![COMPAS exhibiting bias against those of African descent](https://static.propublica.org/projects/algorithmic-bias/assets/img/generated/methodology-risk-of-recidivism-scores-by-race-900*363-482d1c.png)_ProPublica, 2016_
 
@@ -79,23 +79,23 @@ Well, there’s no concrete answer. The algorithm never had any access to any co
 
 Even more interestingly, a study done at Dartmouth[^2] showed that random volunteers, when given the same information as the COMPAS algorithm, achieved a nearly identical accuracy of identifying the rate of recidivism.
 
-This is interesting. This means that either COMPAS is accurate or holds the exact same biases as we do as a society. Unfortunately, this is a problem that I don’t think we can solve, so we don’t have a solid definition as to what makes an algorithm [[fairness|fair]]. But what is clear, is that there is bias in play here, whether that be through the police, the companies, the actual algorithm, or society itself. This bias is what causes that “subjectivity” and “garbage in.” This is what is preventing us from making ‘fairer’ AI and applying AI to more tasks.
+This is interesting. This means that either COMPAS is accurate or holds the exact same biases as we do as a society. Unfortunately, this is a problem that I don’t think we can solve, so we don’t have a solid definition as to what makes an algorithm [[../../thoughts/fairness.md|fair]]. But what is clear, is that there is bias in play here, whether that be through the police, the companies, the actual algorithm, or society itself. This bias is what causes that “subjectivity” and “garbage in.” This is what is preventing us from making ‘fairer’ AI and applying AI to more tasks.
 
 ### The inevitability of bias
 
-The point is, unless we work to prevent, catch, and deter bias, it will inevitably occur. One of the biggest problems in the field of AI is that so many of the models exist in a [[black box|black box]], meaning that its inner workings are only known by a select few. This makes it near impossible to identify and train out bias. Machine intelligence will become almost integral to our lives, becoming less visible in the process, and AI’s bias bug will get harder to beat. Our time to act is now.
+The point is, unless we work to prevent, catch, and deter bias, it will inevitably occur. One of the biggest problems in the field of AI is that so many of the models exist in a [[black box|black box](../../thoughts/black%20box.md), meaning that its inner workings are only known by a select few. This makes it near impossible to identify and train out bias. Machine intelligence will become almost integral to our lives, becoming less visible in the process, and AI’s bias bug will get harder to beat. Our time to act is now.
 
 ## What we can do
 
 > So? What can we, as the next generation, do to help?
 
-First, we need to build a [better understanding](explainability.md) of how the AI systems we are building work. Through this understanding, we can better [trust](trust.md) and, as a result, effectively manage the emerging generation of AI. So, don’t be afraid to learn that programming language you heard about. Read up on how that cool translation algorithm works.
+First, we need to build a [better understanding](../../thoughts/explainability.md) of how the AI systems we are building work. Through this understanding, we can better [trust](../../thoughts/trust.md) and, as a result, effectively manage the emerging generation of AI. So, don’t be afraid to learn that programming language you heard about. Read up on how that cool translation algorithm works.
 
 Secondly, we need to diversify. Diversify not only in the sense of having better representation in datasets, but in tech. Next time you pitch a new product, or create a new project, ask yourself this:
 
 > “How many people have you considered before you make that decision?”
 
-Let's [design for all](Design%20Justice.md). Consider people of different ethnic groups, sexualities, income, just to name a few. By having more representation in these teams, AI can cater to more than just that select group of people who are western, educated, and rich. Instead, by bringing in a fresh perspective on the problems that these teams are trying to tackle, they can create innovation that benefits a whole range of communities.
+Let's [design for all](../../thoughts/Design%20Justice.md). Consider people of different ethnic groups, sexualities, income, just to name a few. By having more representation in these teams, AI can cater to more than just that select group of people who are western, educated, and rich. Instead, by bringing in a fresh perspective on the problems that these teams are trying to tackle, they can create innovation that benefits a whole range of communities.
 
 With increased diversity and representation, the Google Photo misidentification problem never would have happened. Together, we can help to build a future where diversity is no longer an issue in both machine learning models and tech, but society too. Where we don’t just use AI mindlessly but understand it and use it in such a way that it helps to empower humanity. Where we can work towards a future where we can begin to trust the more subjective decisions that an AI can make.
 

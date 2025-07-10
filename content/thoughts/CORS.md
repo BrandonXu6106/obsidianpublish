@@ -4,7 +4,7 @@ date: 2023-12-16
 tags:
   - seed
 ---
-Cross-Origin Resource Sharing (CORS) is an [[HTTP|HTTP]]-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+Cross-Origin Resource Sharing (CORS) is an [[HTTP.md|HTTP]]-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
 
 ## Security model
 For security reasons, browsers generally follow the [same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy). This means that a web application using those APIs can only request resources from the same origin the application was loaded from unless the response from **other origins includes the right CORS headers**.

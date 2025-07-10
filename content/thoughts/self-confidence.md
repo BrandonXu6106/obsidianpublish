@@ -10,21 +10,21 @@ aliases:
 
 > We need to have a strong sense of self -- of who you are -- so you can be unaffected by the way others might define you as
 
-When we don't know what to choose it's because we don't know who we are. We outsource so much of our value system to others (see: [[prestige]]) because we haven't yet figured this out for ourselves.
+When we don't know what to choose it's because we don't know who we are. We outsource so much of our value system to others (see: [[prestige.md]]) because we haven't yet figured this out for ourselves.
 
-Self-knowledge feeds self-trust. Self-trust feeds self-knowledge. And the more you have of both, the less you need the approval of others. This helps us avoid the trap of [[optionality]] because with self-trust, we _know_ what we want
+Self-knowledge feeds self-trust. Self-trust feeds self-knowledge. And the more you have of both, the less you need the approval of others. This helps us avoid the trap of [[optionality.md]] because with self-trust, we _know_ what we want
 
-See also: [[In Over Our Heads]], [[taste]]
+See also: [[In Over Our Heads](In%20Over%20Our%20Heads.md), [[taste.md]]
 
 ## Identity
 
 Essay by Jenny Odell and in [Kopi Chats on Substack](https://kopiclub.substack.com/p/letter-37-loneliness-vs-being-alone)
 
-> _“When I examine my [[identity|identity]], I do see an inalienable spirit grasping for infinity. But in the very same place, I also see an intersection of historical and cultural vectors, held up by **a web of countless reliances**.”_
+> _“When I examine my [[identity.md|identity]], I do see an inalienable spirit grasping for infinity. But in the very same place, I also see an intersection of historical and cultural vectors, held up by **a web of countless reliances**.”_
 
 Reminds me of Indra's Net, that everything is [interdependent](interdependence.md), [empty](emptiness.md) of dependent origination.
 
-"Connective vulnerability is so frightening because sometimes we will be let down by others, unmoored from [friendships](friendship.md) and relationships we thought were our anchors in life. But that doesn’t mean we shouldn’t try. (see: [nothing-stops](nothing-stops.md))"
+"Connective vulnerability is so frightening because sometimes we will be let down by others, unmoored from [friendships](friendship.md) and relationships we thought were our anchors in life. But that doesn’t mean we shouldn’t try. (see: [nothing-stops](../posts/readnotes/nothing-stops.md))"
 
 ## Being yourself
 
@@ -34,7 +34,7 @@ Reminds me of Indra's Net, that everything is [interdependent](interdependence.m
 
 The best way to know what a person wants to do is simply look at what they actually repeatedly do. _I should just dive head-first into the things I actually want, rather than yearning for some set of things I need to force myself to want_
 
-The most creative people I know are actually just deeply in touch with their own [[taste]], their own feelings, their own aesthetic desires and preferences, their own style, and then turn that into an artifact.
+The most creative people I know are actually just deeply in touch with their own [[taste.md]], their own feelings, their own aesthetic desires and preferences, their own style, and then turn that into an artifact.
 
 Becoming an artist, they say, is about learning how to play in this way—the way that you cannot help but play—and turning it into a unique style.
 

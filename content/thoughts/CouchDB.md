@@ -7,7 +7,7 @@ tags:
 
 NoSQL database with great replication capabilities.
 
-Multi-master replication (you can write to any server, even if it cannot see any other servers). Of course, as per [[CAP Theorem|CAP Theorem]] this means trading off consistency for availability and partition tolerancy.
+Multi-master replication (you can write to any server, even if it cannot see any other servers). Of course, as per [[CAP Theorem|CAP Theorem](CAP%20Theorem.md) this means trading off consistency for availability and partition tolerancy.
 
 ## Replication
 

@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-Helps with analysis where there are infinitely many initial states / executions. A (terminating) [[program analysis]] can’t precisely explore them all!
+Helps with analysis where there are infinitely many initial states / executions. A (terminating) [[program analysis](program%20analysis.md) can’t precisely explore them all!
 
 **All-executions property: are there any executions of the program which violate the desired condition?** Equivalently, is there any way to reach a statement such that its Failure Condition is true?
 

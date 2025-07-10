@@ -5,13 +5,13 @@ tags:
   - seed
 ---
 
-Dialogue-based test of [[intelligence]]
+Dialogue-based test of [[intelligence.md]]
 
 Turing proposed that a human evaluator would judge natural language conversations between a human and a machine. The evaluator would be aware that one of the two partners in conversation was a machine. The conversation would be limited to a text-only channel, such as a computer keyboard and screen, so the result would not depend on the machine's ability to render words as speech. If the evaluator could not reliably tell the machine from the human, the machine would be said to have passed the test
 
-[[LLMs]] are one of the first breakthrough technologies to have passed this test by the traditional definition
+[[LLMs.md]] are one of the first breakthrough technologies to have passed this test by the traditional definition
 
-## [[semantics|Semantics]]
+## [[semantics.md|Semantics]]
 
 Are the things the machine refers to the same things we refer to? e.g. when talking about steak, are we talking about the same steak?
 

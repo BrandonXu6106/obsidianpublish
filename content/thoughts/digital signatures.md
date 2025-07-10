@@ -54,10 +54,10 @@ The structure that holds this data is called a Signed Blob, and it contains thre
 
 - Signature of long messages is computationally expensive
 - We can compute a fixed-length "fingerprint"
-  - Apply [[hash function]] $H$ to message $m$, giving a fixed size message digest, $H(m)$
+  - Apply [[hash function](hash%20function.md) $H$ to message $m$, giving a fixed size message digest, $H(m)$
 - Signed message digest
   - Bob sends message $m$ and signed digest $K_B^-(H(m))$
   - Alice receives $m$ and computes $H_{new}(m)$
   - Alice receives signed digest $K_B^-(H(m))$ and computes $K_B^+(K_B^-(H(m)))$
   - If $K_B^+(K_B^-(H(m))) = H_{new}(m)$, the message is considered signed (and untampered)
-- Alternatively, [[MAC|MACs]]
+- Alternatively, [[MAC.md|MACs]]

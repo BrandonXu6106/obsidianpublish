@@ -7,9 +7,9 @@ tags:
 
 I always dislike introductions because it feels like applying [labels](quantization.md) to things too early. People have expectations (oh so you're an artist? show me your work). Both self-imposed and not!
 
-And can open the door to unhealthy [[idolization]]. As a side note, this is the same reason why calling yourself a writer vs someone who writes are two very different vibes (i _dabble_)
+And can open the door to unhealthy [[idolization.md]]. As a side note, this is the same reason why calling yourself a writer vs someone who writes are two very different vibes (i _dabble_)
 
-And of course, it's first of many experiences, why do we feel the need to get it right at the start? When people are prompted, *“describe yourself”*, shouldn’t we be a little alarmed when they routinely describe something else? People who [introduce](introductions.md) themselves by talking about their job make me feel really weird. You're just describing the means you take the keep yourself alive -- what are the ends? What makes you _feel_ alive?
+And of course, it's first of many experiences, why do we feel the need to get it right at the start? When people are prompted, *“describe yourself”*, shouldn’t we be a little alarmed when they routinely describe something else? People who [introduce](../../..//content/thoughts/introductions.md) themselves by talking about their job make me feel really weird. You're just describing the means you take the keep yourself alive -- what are the ends? What makes you _feel_ alive?
 
 ## Intersectional Identities
 
@@ -19,7 +19,7 @@ Cooley imagined affiliations and interests as a system of coordinates, with each
 
 "These 'reciprocally constructing phenomena' that may empower one person with increasing self-actualization, burden others with exponentially debilitating oppression."
 
-See also: [[intersectionality]]
+See also: [[intersectionality.md]]
 
 ### About Page
 

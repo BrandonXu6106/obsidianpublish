@@ -10,9 +10,9 @@ aliases:
 
 by _Langdon Winner_
 
-> "Politics" is defined as "arrangements of power and authority in human associations as well as the activities that take place within those arrangements." (see: [[software and politics]])
+> "Politics" is defined as "arrangements of power and authority in human associations as well as the activities that take place within those arrangements." (see: [[software and politics](software%20and%20politics.md))
 
-![[agency#^e69010|agency]]
+![[agency.md#^e69010|agency]]
 
 "In controversies about technology and society, there is no idea more provocative than the notion that technical things have political qualities"
 

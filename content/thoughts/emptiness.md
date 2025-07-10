@@ -24,6 +24,6 @@ Emptiness means empty of independent existence -- all things are [interdependent
 
 [Source: Indra's net on _Wikipedia_](https://en.wikipedia.org/wiki/Indra%27s_net)
 
-Imagine a net stretching out infinitely in all directions with a monadic-like jewel at each node that reflects every one, including itself. These objects are nodes in a net of [[ontology|ontological]] interdependence, one in all and all in one.
+Imagine a net stretching out infinitely in all directions with a monadic-like jewel at each node that reflects every one, including itself. These objects are nodes in a net of [[ontology.md|ontological]] interdependence, one in all and all in one.
 
-![](Indra's%20Net.png)
+![](images/Indra's%20Net.png)

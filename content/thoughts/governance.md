@@ -21,15 +21,15 @@ Preserving the sanctity of natural interactions
 - Screen for value alignment
   - Interviews (two-way vibe check)
   - Publishing list of values
-  - Resonance with a large body of [[content/thoughts/writing]]
+  - Resonance with a large body of [[writing.md]]
 
 ## The Art of Online Governance
 
 [Source: The Yak Online Governance Primer](https://mirhub.xyz/post/0x3b894393fbd9c879dc8d16d4d18277831bff9fa1/ajdo_so3gw34cltwbwnc2od3s0yt3us9c-c2nnpq_us/)
 
-![[content/thoughts/images/online-governance-regimes.png|500]]
+![[images/online-governance-regimes.png|500]]
 
-See also: [[games#Bartle Taxonomy of Player Types|Bartle Taxonomy of Player Types]]
+See also: [[games.md#Bartle Taxonomy of Player Types|Bartle Taxonomy of Player Types]]
 
 Four Online Governance Regimes:
 

@@ -15,20 +15,20 @@ The example the article used was to try and an orange, a watermelon, a football 
 Maybe this is where tools like knowledge graphs come in. How might tools and visualizations allow us to better visually explore these graph relations and allow us to capture more complex relations in things?
 
 - Regular note taking like Notion is hierarchical and linear: it's a tree
-- Graph and [[networked-thought|networked]] representations like Roam Research, Obsidian allow us to make non-obvious non-hierarchical connections between concepts
+- Graph and [[../posts/readnotes/networked-thought.md|networked]] representations like Roam Research, Obsidian allow us to make non-obvious non-hierarchical connections between concepts
 
 ## Algorithms
 
-A join semi-lattice essentially is a topological sort or [[causality#Causal Order|causal ordering]] of its elements except all of the elements can be joined (i.e. have a single shared ancestor)
+A join semi-lattice essentially is a topological sort or [[causality.md#Causal Order|causal ordering]] of its elements except all of the elements can be joined (i.e. have a single shared ancestor)
 
-See also: [[Order theory]]
+See also: [[Order theory](Order%20theory.md)
 
-![[Order theory#Hasse Diagram]]
+![[Order theory#Hasse Diagram](Order%20theory.md)
 
 ## As the fabric of living things
 
-See also: [[A City is not a Tree]]
+See also: [[A City is not a Tree](A%20City%20is%20not%20a%20Tree.md)
 
 ![](content/recentnotes/images/semilattice.png)_More diagrams in [Figma](<https://www.figma.com/file/eFPS114umxiV44LgL82UUb/Christopher-Alexander's-Semilattice-from-A-City-is-Not-a-Tree-(Community)?node-id=0%3A1>)_
 
-![[semilattice example.png|300]]
+![[semilattice example.png|300](images/semilattice%20example.png)

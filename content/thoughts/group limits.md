@@ -7,7 +7,7 @@ tags:
 
 Related to the [evaporative cooling](evaporative%20cooling.md) effect. Great example of a group limit is [Dunbar's Number](Dunbar's%20Number.md)
 
-The way to 'scale intimacy,' if possible, is to scale horizontally rather than vertically. Create many groups of smaller interest groups (warrens) rather than large groups (plazas). This mitigates negative impacts of [context collapse](context-collapse.md)
+The way to 'scale intimacy,' if possible, is to scale horizontally rather than vertically. Create many groups of smaller interest groups (warrens) rather than large groups (plazas). This mitigates negative impacts of [context collapse](../posts/aigc/context-collapse.md)
 
 Side: warrens as a way to be [niche at scale](niche%20at%20scale.md)
 
@@ -17,7 +17,7 @@ Is there an inverse relationship between number of social connections and their 
 
 > "The amount of social capital you have is pretty fixed," Dunbar said. "It involves time investment. If you garner connections with more people, you end up distributing your fixed amount of social capital more thinly so the average capital per person is lower."
 
-Because of the increased number of 'social connections' people have today, is [context collapse](public/posts/images/framing/context-collapse.png) inevitable?
+Because of the increased number of 'social connections' people have today, is [context collapse](../../public/posts/images/framing/context-collapse.png) inevitable?
 
 "Yet, when researchers tried to determine whether virtual networks increase our strong ties as well as our weak ones (the ones that Hansen had focussed on), they found that, for now, the essential [Dunbar's Number](Dunbar's%20Number.md), a hundred and fifty, has remained constant." Is the Dunbar number a metric for social capacity?
 
@@ -25,13 +25,13 @@ Does social capacity differ across different types of social interactions? e.g. 
 
 "Modern Loneliness" by Lauv covers a lot of similar topics
 
-Related: [tribe flourishing](tribe%20flourishing.md), [[Dunbar's Number]]
+Related: [tribe flourishing](tribe%20flourishing.md), [[Dunbar's Number](Dunbar's%20Number.md)
 
 ## Research
 
 I feel there are dangers of large groups, especially within research. Larger groups lead to more bureaucracy and being ok with the average -- an effect of too many cooks in the kitchen. This leads to ideas that are at the middle of the distribution ([Vanilla Ice Cream effect](Vanilla%20Ice%20Cream%20effect.md)) and tends to discourage more radical, out-of-distribution thinking and research.
 
-Related: [a new DARPA](research%20institutions.md), [community perception](communities.md), [[independent research]]
+Related: [a new DARPA](research%20institutions.md), [community perception](communities.md), [[independent research](independent%20research.md)
 
 ## Scalability
 

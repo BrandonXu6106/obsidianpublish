@@ -13,7 +13,7 @@ A reaction in which two or more atomic nuclei combine to form one or more differ
 - If the fusion process produces atomic nuclei lighter than iron-56 or nickel-62 then the excess is emitted as energy: an exothermic process
 - If the fusion process involves atomic nuclei heaver than iron-56 or nickel-62 then the excess is used to bind the resulting nucleons together: an endothermic process
 
-See page on [[nuclear binding energy|nuclear binding energy]] for more details
+See page on [[nuclear binding energy|nuclear binding energy](nuclear%20binding%20energy.md) for more details
 ## Magnetic Confinement
 
 Electrically charged particles (such as fuel ions) will follow magnetic field lines. The fusion fuel can therefore be trapped using a strong magnetic field.

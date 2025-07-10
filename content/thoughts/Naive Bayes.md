@@ -6,7 +6,7 @@ tags:
   - CPSC340
 ---
 
-An example of a [[probability|probabilistic]] classifier. Commonly used in spam filters (classifies as spam if the probability of spam is higher than not spam)
+An example of a [[probability.md|probabilistic]] classifier. Commonly used in spam filters (classifies as spam if the probability of spam is higher than not spam)
 
 To model this, it uses Bayes rule:
 

@@ -16,6 +16,6 @@ A **Byzantine fault** is any fault presenting different symptoms to different ob
 
 A **Byzantine failure** is the loss of a system service due to a Byzantine fault in systems that require [consensus](consensus.md) between nodes.
 
-Byzantine fault tolerance (BFT) is the property of a system that is able to resist the class of failures derived from the [[fault tolerance#Byzantine Generals Problem|Byzantine Generals’ Problem]]. This means that a BFT system is able to continue operating even if some of the nodes fail or act maliciously.
+Byzantine fault tolerance (BFT) is the property of a system that is able to resist the class of failures derived from the [[fault tolerance#Byzantine Generals Problem|Byzantine Generals’ Problem](fault%20tolerance.md). This means that a BFT system is able to continue operating even if some of the nodes fail or act maliciously.
 
-See also: [[Byzantine Broadcast|Byzantine Broadcast]], [[PBFT|PBFT]]
+See also: [[Byzantine Broadcast|Byzantine Broadcast](Byzantine%20Broadcast.md), [[PBFT.md|PBFT]]

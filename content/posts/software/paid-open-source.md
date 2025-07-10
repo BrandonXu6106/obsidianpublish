@@ -18,9 +18,9 @@ As it stands, there are two primary schools of thought about how open source sof
 1. **Firm-based** production involves companies, organizations, governments, or any institution with centralized resources. Their driving thesis is that only companies make software because, from a coordination standpoint, centralized firms are the most efficient way to manage resources. Most development done this way is motivated extrinsically by means of monetary compensation.
 2. **Commons-based** production is a more vague concept that involves a distributed group of developers that work on a resource that is used, owned, and governed by its own community - free of employer affiliations. Most development done this way is motivated intrinsically, people do work because they want to do it.
 
-Traditionally, software has been seen as a product of firms. Open source developers were often treated as hobbyists and the projects they made trivialized as toys. The assumption was that only companies could make ‘real’ software. However, the rise of [Internet computing](internet%20computing.md) and collaboration tools like [[git|Git]] have decreased the barrier to entry enough that producing software through a commons is now feasible and very much alive. The success of projects like Apache, Linux, and FreeBSD proved just how successful a commons-based method of production could be.
+Traditionally, software has been seen as a product of firms. Open source developers were often treated as hobbyists and the projects they made trivialized as toys. The assumption was that only companies could make ‘real’ software. However, the rise of [Internet computing](../../thoughts/internet%20computing.md) and collaboration tools like [[../../thoughts/git.md|Git]] have decreased the barrier to entry enough that producing software through a commons is now feasible and very much alive. The success of projects like Apache, Linux, and FreeBSD proved just how successful a commons-based method of production could be.
 
-Surprisingly, this may also help to explain why some developers view open source and money as completely separate. If the commons-based method of production is rooted in intrinsic motivation, then [[money]], an extrinsic motivator, will be seen as opposite to core ideals that open source stands for.
+Surprisingly, this may also help to explain why some developers view open source and money as completely separate. If the commons-based method of production is rooted in intrinsic motivation, then [[../../thoughts/money.md]], an extrinsic motivator, will be seen as opposite to core ideals that open source stands for.
 
 ## Creation vs Maintenance
 
@@ -32,9 +32,9 @@ When an artist finishes a painting, or a runner finishes a marathon, that usuall
 
 Creating a project is fun. It’s a wild exploration into a new idea, a frivolous journey to create something useful or to learn something new. As cloud platforms continue to eat the world, the costs of distributing and sharing a project are almost completely nullified.
 
-Just a few clicks and a few taps of your keyboard and your project is readily available to any of the 4.66 billion people around the world with [Internet](Internet.md) access. This adrenaline rush of finally releasing the labour of your work onto the world is the moment developers are constantly chasing. For most developers, the process of creation and distribution is intrinsically motivated; it’s an enjoyable process.
+Just a few clicks and a few taps of your keyboard and your project is readily available to any of the 4.66 billion people around the world with [Internet](../../thoughts/Internet.md) access. This adrenaline rush of finally releasing the labour of your work onto the world is the moment developers are constantly chasing. For most developers, the process of creation and distribution is intrinsically motivated; it’s an enjoyable process.
 
-[Maintenance is less so](maintenance.md). This is akin to a writer that’s been asked to edit and revise the same book day in and day out, long after they’ve reaped the initial financial and reputational rewards from its creation. Even when the creator wants to leave the project to work on something else, they can’t. They’re tightly shackled by the fact that hundreds of thousands of other organizations, companies, and tools rely on their code to keep their operations running. Bringing on additional developers may not help either, as they still require onboarding, code reviews, and general guidance.
+[Maintenance is less so](../../thoughts/maintenance.md). This is akin to a writer that’s been asked to edit and revise the same book day in and day out, long after they’ve reaped the initial financial and reputational rewards from its creation. Even when the creator wants to leave the project to work on something else, they can’t. They’re tightly shackled by the fact that hundreds of thousands of other organizations, companies, and tools rely on their code to keep their operations running. Bringing on additional developers may not help either, as they still require onboarding, code reviews, and general guidance.
 
 Code may be nearly free to create and distribute, but maintenance is still expensive.
 
@@ -44,7 +44,7 @@ Code may be nearly free to create and distribute, but maintenance is still expen
 
 There are two main ways we can look at code. The first of which is _static_ code. Code that, on its own, does nothing but exists as an archive. Others can copy and download the code without incurring any additional costs to the author. For the maintainers, it should make no difference in regards to cost whether 10 or 10,000 people use it.
 
-This type of code is a pool resource or [public good](public%20goods.md), it is
+This type of code is a pool resource or [public good](../../thoughts/public%20goods.md), it is
 
 1. **Non-rivalrous.** My ability to copy the code doesn’t affect your ability to copy it. (This isn’t exactly true due to some marginal costs but I’ll discuss this later)
 2. **Non-excludable.** If someone has a copy of the code, it is very difficult to prevent them from sharing that code with others.
@@ -59,7 +59,7 @@ In doing so, we bring it to life.
 
 As soon as you hit CTRL-V on that snippet of code, as soon as that static code is inserted into your own, that code comes to life. Immediately, it might surface ridiculous amounts of red squigglies, break other code, or force you to rewrite your previous code just to make it work. But when code transitions from a resting static state to an active living state, it starts to also incur a set of hidden costs.
 
-Like a living organism in a symbiotic relationship, there is a mutual [[interdependence]] between it and others in the software ‘ecosystem’ in order to survive. As a result, this ecosystem requires constant upkeep to ensure that components don’t fall out of balance: dependency bumps, documentation updates, and infrastructure changes.
+Like a living organism in a symbiotic relationship, there is a mutual [[../../thoughts/interdependence.md]] between it and others in the software ‘ecosystem’ in order to survive. As a result, this ecosystem requires constant upkeep to ensure that components don’t fall out of balance: dependency bumps, documentation updates, and infrastructure changes.
 
 ## Free as in speech, not as in beer
 
@@ -103,11 +103,11 @@ Funding individuals means trusting not just in the projects they are currently w
 
 ## Mixing money and open source
 
-> **Q:** Won't financial rewards adversely affect developer's [incentives](incentives.md) to contribute?
+> **Q:** Won't financial rewards adversely affect developer's [incentives](../../thoughts/incentives.md) to contribute?
 >
 > **A:** Yes, but it depends on who you're funding.
 
-[Attention](attention%20economy.md) is the main currency of production. Attention is what you divert when you choose to focus on prioritizing a feature request over adding support for a library that you promised to add a few months back. Attention is what limits you from doing everything at once.
+[Attention](../../thoughts/attention%20economy.md) is the main currency of production. Attention is what you divert when you choose to focus on prioritizing a feature request over adding support for a library that you promised to add a few months back. Attention is what limits you from doing everything at once.
 
 Attention, then, is a common pool resource. It is non-excludable (anyone can bid for their attention) and rivalrous (limited attention). But, by charging for access to maintainer’s attention, it then becomes a private good: excludable and rivalrous. The belief is that, by making attention excludable, the quality of contributions will increase as contributors and users compete for the attention of producers.
 

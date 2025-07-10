@@ -5,16 +5,16 @@ tags:
   - seed
 ---
 
-IPFS is a decentralized storage and delivery network which builds on fundamental principles of [[peer-to-peer|p2p]] networking and content-based addressing (see [[CID|CID]])
+IPFS is a decentralized storage and delivery network which builds on fundamental principles of [[peer-to-peer.md|p2p]] networking and content-based addressing (see [[CID.md|CID]])
 
-> Can seen as a single BitTorrent swarm, exchanging objects within one big [[git|Git]] repository
+> Can seen as a single BitTorrent swarm, exchanging objects within one big [[git.md|Git]] repository
 
-Much like how we look up sites on the internet using URIs, we can look for specific pieces of content by their [[content addressed storage|content-address]].
+Much like how we look up sites on the internet using URIs, we can look for specific pieces of content by their [[content addressed storage|content-address](content%20addressed%20storage.md).
 
 Under the hood, IPFS uses
 
 - libp2p: network layer, takes care of host addressing, content and peer discovery, and structures like DHTs and pubsub
-- IPLD: data layer, standards and formats to build [[Merkle-DAG|Merkle-DAG]] structures (quasi-filesystem)
+- IPLD: data layer, standards and formats to build [[Merkle-DAG.md|Merkle-DAG]] structures (quasi-filesystem)
 - Multiformats: formatting structures for self-describing values
 
 Publishing content
@@ -22,12 +22,12 @@ Publishing content
 - Chunk the content and deduplicate chunks
 - Obtain CID
 - Add the content to the network
-  - Not the actual content, just the provider record to the [[DHT|DHT]]
+  - Not the actual content, just the provider record to the [[DHT.md|DHT]]
 
 Consuming content as a peer
 
 - Get CID (out of band)
-- Using [[DHT|DHT]], resolve CID to peer
+- Using [[DHT.md|DHT]], resolve CID to peer
 - Contact peer to ask for CID content
 - Fetch content and cache a copy
 - Serve local copy upon subsequent request
@@ -36,7 +36,7 @@ Consuming content as a peer
 
 How does the system decode the hashes that it gets into the component data structures?
 
-Codecs! IPLD codecs are functions that transform IPLD Data Model into serialized bytes so you can send and share data, and transform serialized bytes back into IPLD Data Model so you can work with it. The [[CID|CID]] includes an indicator called a multicodec (opens new window)to tell us which codec to use!
+Codecs! IPLD codecs are functions that transform IPLD Data Model into serialized bytes so you can send and share data, and transform serialized bytes back into IPLD Data Model so you can work with it. The [[CID.md|CID]] includes an indicator called a multicodec (opens new window)to tell us which codec to use!
 
 Systems can build abstractions on top of this. For example, IPFS encodes the UnixFS using DAG-PB (which is a IPLD codec).
 
@@ -50,7 +50,7 @@ BitSwap peers are looking to acquire a set of blocks (`want_list`), and have ano
 
 Of course, there will not be perfect overlaps between nodes' `have_list` and `want_list`s . Nodes must work for their blocks. In the case that a node has nothing that its peers want (or nothing at all), it seeks the pieces its peers want, with lower priority than what the node wants itself. **This incentivizes nodes to cache and disseminate rare pieces, even if they are not interested in them directly.**
 
-This barter system implies a virtual currency could be created, this would require a global ledger to track ownership and transfer of the currency, which is exactly what [[Filecoin|Filecoin]] provides.
+This barter system implies a virtual currency could be created, this would require a global ledger to track ownership and transfer of the currency, which is exactly what [[Filecoin.md|Filecoin]] provides.
 
 ### Incentivizing satisfied nodes to seed
 
@@ -76,4 +76,4 @@ Each user has their own WNFS and consists of a public and private tree.
 - The public tree is "live" and publicly accessible on the Internet.
 - The private tree is encrypted so that only the owner can see the contents.
 
-Uses [[authorization#UCAN|UCAN]] for authorization.
+Uses [[authorization.md#UCAN|UCAN]] for authorization.

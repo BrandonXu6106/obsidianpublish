@@ -14,7 +14,7 @@ Peter Galisons' notion of the **trading zone**: sites where representatives of m
 
 ## Boundary Object
 
-Susain Leigh Star and James Griesemer's **boundary objects**: objects which both inhabit several intersecting social worlds and satisfy the informational requirements of each (e.g. maps, diagrams, standardized forms, [[notation|notation]], etc.)
+Susain Leigh Star and James Griesemer's **boundary objects**: objects which both inhabit several intersecting social worlds and satisfy the informational requirements of each (e.g. maps, diagrams, standardized forms, [[notation.md|notation]], etc.)
 
 ## Ecotone
 

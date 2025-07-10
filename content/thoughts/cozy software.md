@@ -12,7 +12,7 @@ aliases:
 
 Not everything needs to be built at scale -- sometimes it can just be for family and friends :)) Normalize creating playful and non-[instrumental](instrumentalism.md) technology
 
-See: [[small technology]]
+See: [[small technology](small%20technology.md)
 
 ## An app can be a home-cooked meal
 
@@ -31,7 +31,7 @@ I am the programming equivalent of a home cook.
 I love the disclaimer at the top: "It’s okay to share this link, but I want to underscore that I am sending it specifically to you with the hope that you will … really think about it! At such a primordial stage, a proposal like this doesn’t need diffuse, drive-by attention. It needs, instead, close consideration and generous imagination."
 
 - "There are no analytics, obviously. Nothing is counted. Boards can’t load tracking pixels, and they can’t ping remote analytics APIs. Sorry, folks … you’ve got to let go of the numbers. In 2022, they are not helpful feedback, but rather a clear warning you are in the wrong place."
-- When you operate a server, you get a universe for free (see also: [[World Building#World Seed|world seed]]).
+- When you operate a server, you get a universe for free (see also: [[World Building#World Seed|world seed](World%20Building.md)).
 
 ## Folk Software
 
@@ -43,21 +43,21 @@ Folksonomies are informal taxonomies developed by users on social sharing platfo
 
 Folk creations fill a gap. They solve problems for individuals and small communities in a way that that centralised, top-down, industrial creations never can. They are informal, distributed practices that emerge from real world contexts.
 
-Related to [[Tools for Conviviality]]
+Related to [[Tools for Conviviality](Tools%20for%20Conviviality.md)
 
 ## Against universal design
 
-In [[Design Justice]]
+In [[Design Justice](Design%20Justice.md)
 
 Universal Design (UD) as defined by Center for UD at North Carolina State University: The design of products and environment to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design
 
-At least in the digital domain, adaptive design that enables [[cozy software|personalization]] and flexible configuration of shared core objects, tools, platforms, and systems provides a path out of the tension between the diverse needs of individual users and the economic advantages of a large-scale user base.
+At least in the digital domain, adaptive design that enables [[cozy software|personalization](../../..//content/thoughts/cozy%20software.md) and flexible configuration of shared core objects, tools, platforms, and systems provides a path out of the tension between the diverse needs of individual users and the economic advantages of a large-scale user base.
 
 Universalization erases difference and produces self-reinforcing spirals of exclusion, but personalized and culturally adaptive systems too often are deployed in ways that reinforce [surveillance capitalism](Data%20Capitalism.md).
 
 We should destabilize the underlying assumption that what is best for the majority of users is best for _all_ users.
 
-> “People are different sizes; they sit in different ways. And yet there is a tendency in modern times to make all chairs alike” (p.1158, Different Chairs, [[A Pattern Language|A Pattern Language]])
+> “People are different sizes; they sit in different ways. And yet there is a tendency in modern times to make all chairs alike” (p.1158, Different Chairs, [[A Pattern Language|A Pattern Language](A%20Pattern%20Language.md))
 
 ## Bicycles for the mind
 

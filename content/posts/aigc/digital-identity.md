@@ -8,9 +8,9 @@ tags:
 
 _What is identity? Who defines it? Who controls it? What is its relationship to software?_
 
-Software developers and computer scientists have been tackling [[identity|identity]] for almost half a century now, trying to model identity in ways that are understandable to machines. Different models seek to emulate different aspects of the identity.
+Software developers and computer scientists have been tackling [[../../thoughts/identity.md|identity]] for almost half a century now, trying to model identity in ways that are understandable to machines. Different models seek to emulate different aspects of the identity.
 
-But for engineers building these digital identities, the primary focus is on [[quantization|legibility]]: the process of simplifying, labelling, and modelling.
+But for engineers building these digital identities, the primary focus is on [[../../thoughts/quantization.md|legibility]]: the process of simplifying, labelling, and modelling.
 
 Legibility on its own is not a bad thing. It’s how Google assembles droves of information on the web so we can search through it easily. It’s how we have transparency into the progress of publicly funded projects and initiatives by our governments.
 
@@ -18,11 +18,11 @@ But this process of legibility becomes dangerous when it forcefully shapes users
 
 In the process of being made legible, nuance is excluded. Legibility means that ‘only what matters’ and can be quantified is kept; all else is discarded. This is especially dangerous when that legibility happens without the choice of the users.
 
-![[forest death.png]]_Illegible natural forest vs legible "scientific" forest (James C. Scott in Gordon Brander)[^4-1]_
+![[forest death.png](../../thoughts/images/forest%20death.png)_Illegible natural forest vs legible "scientific" forest (James C. Scott in Gordon Brander)[^4-1]_
 
 Forced legibility may look like a set of failing grades on a report card without an accompanying note explaining how you missed finals week because you needed to grieve for the death of a loved one. Forced legibility may look like a conviction charge without the context behind how the officer was racially motivated. Forced legibility may look like having to choose between identifying as a man or a woman on the national census when neither describes you well, erasing their lived experience. When legibility is forced upon people, it only serves to widen the gulf that already exists in society and disproportionately impacts marginalized groups[^2]. This legibility is beneficial for companies and governments seeking to better model user-data, but it doesn’t serve humans who seek to govern their own identities and control who accesses their information.
 
-If we want to flip [[access control|access control]] back to the users, we need to consider other representations of identity. Clearly, it doesn't make sense to try to make every part of our digital identities legible. **Can we develop alternate systems that provide similarly rich models of identity that also allow people to be illegible? Or at least self-selectively legible?**
+If we want to flip [[access control|access control](../../thoughts/access%20control.md) back to the users, we need to consider other representations of identity. Clearly, it doesn't make sense to try to make every part of our digital identities legible. **Can we develop alternate systems that provide similarly rich models of identity that also allow people to be illegible? Or at least self-selectively legible?**
 
 This essay seeks to explore alternate abstractions for identity to better resolve the identity needs of _all_ relevant stakeholders, not just centralized providers. We can categorize digital identity models based on the primary representation of identity along with the locus of control (managed versus self-sovereign).
 
@@ -38,7 +38,7 @@ What are ways we can lean towards self-sovereign models of identity? How do we g
 
 ## Identity as Attributes
 
-![[public/thoughts/images/identity-attribute.png]]
+![[../../../public/thoughts/images/identity-attribute.png]]
 
 Our digital representations consist of:
 
@@ -51,21 +51,21 @@ Most data models default to this assumption of identity as objects with attribut
 
 When we model identity as a collection of attributes, all aspects of identity are, by default, quantifiable and measurable.
 
-Having individuals completely own their identities (e.g. [[Self-sovereign Identity (SSI)|Self-sovereign Identity (SSI)]] and [[Verifiable Credential|Verifiable Credentials (VCs)]]) gives agency to people to control these representations but the main function of these identities is still to make the bearer legible.
+Having individuals completely own their identities (e.g. [[Self-sovereign Identity (SSI)|Self-sovereign Identity (SSI)](../../thoughts/Self-sovereign%20Identity%20(SSI).md) and [[Verifiable Credential|Verifiable Credentials (VCs)](../../thoughts/Verifiable%20Credential.md)) gives agency to people to control these representations but the main function of these identities is still to make the bearer legible.
 
 ## Identity as Capabilities
 
-![[public/thoughts/images/identity-capability.png]]
+![[../../../public/thoughts/images/identity-capability.png]]
 
 When I think about what digital identity ultimately feels useful for, it is to gesture at _capabilities_ rather than attributes. My identity can also be represented by how I act and what I have permission to do. Gordon Brander suggests similarly: "digital identity should not be about who you are, but what you are authorized to do." [^5]
 
 > "[A model of identity as capabilities] considers it to be dynamic, multiple, informational, temporary, contextual. Whereas the [model of identity] as attributes] attach actions and interactions to actors, the [capability model] recognises that identity is co-emergent with actions and interactions in contexts." (AKASHA and Kernel[^6])
 
-From a software perspective, this isn't a new representation of digital identity either. [[UCAN|UCAN]] serves to be a promising way to delegate [[Permissions|permissions]] and actions through a [[DID|decentralized identity]]. JWTs have been granting permissions to users for a decade. New forms of token-based access using NFTs are being experimented with.
+From a software perspective, this isn't a new representation of digital identity either. [[../../thoughts/UCAN.md|UCAN]] serves to be a promising way to delegate [[../../thoughts/Permissions.md|permissions]] and actions through a [[../../thoughts/DID.md|decentralized identity]]. JWTs have been granting permissions to users for a decade. New forms of token-based access using NFTs are being experimented with.
 
 > Everything that a user is allowed to do is captured directly in a key or token, and can be sent to anyone that knows how to interpret this format. _([ucan.xyz](https://ucan.xyz/))_
 
-There is no ‘identity’ to be managed but rather a set of capabilities to be possessed. Signable messages using [[Asymmetric Key Cryptography|public-key cryptography]] means that we can prove the same person you issued the access token to is now requesting access _without_ revealing who it is. As there is no global registry of who has what permissions, this is by default illegible unless a user wants to manually publish their key to make it known.
+There is no ‘identity’ to be managed but rather a set of capabilities to be possessed. Signable messages using [[Asymmetric Key Cryptography|public-key cryptography](../../thoughts/Asymmetric%20Key%20Cryptography.md) means that we can prove the same person you issued the access token to is now requesting access _without_ revealing who it is. As there is no global registry of who has what permissions, this is by default illegible unless a user wants to manually publish their key to make it known.
 
 This feels promising. A token that grants access isn’t making legible any information that doesn’t need to be, it just grants access to whoever has it. It grants a basic level of illegibility to those who prefer to keep real-world identities and digital ones separate.
 
@@ -73,11 +73,11 @@ Yet, I think there is still room for improvement here. Identities based off of t
 
 ## Identity as Relationships
 
-![[public/thoughts/images/identity-relationship.png]]
+![[../../../public/thoughts/images/identity-relationship.png]]
 
 > "Unfortunately, due to their peculiar nature, humans are unable to memorize large numbers of keys, and use them as names for a multitude of objects."[^7]
 
-You are already most likely familiar with a system for 'memorizing' these large keys already. All of our phones have a personal address book that we use to map meaningless phone numbers to human-meaningful names. HCI researchers call systems like these [[petname|petname]] systems.
+You are already most likely familiar with a system for 'memorizing' these large keys already. All of our phones have a personal address book that we use to map meaningless phone numbers to human-meaningful names. HCI researchers call systems like these [[../../thoughts/petname.md|petname]] systems.
 
 > For example, if you meet someone named Becky who plays trombone, you could name her “Becky Trombone” and someone else could name her “Becky 101B.” This personal relationship is more recognizable to each individual than a single, self-described user profile named “Becky Smith.” Instead of a single global contact list (like Facebook), we want many personal contact lists (like phonebooks). _([Backchannel](https://www.inkandswitch.com/backchannel/), Ink & Switch)_
 
@@ -89,7 +89,7 @@ The key thing in a relational notion of identity is that the relation – the �
 
 Identity may be a difficult thing to model, but it is worth thinking about deeply. Our models for identity will impact how many future generations of internet users are categorized and made legible. It makes sense to ensure it best serves the people it represents.
 
-As [[peer-to-peer|peer-to-peer]], [[local-first software|local-first]], and [doorless](https://rosano.hmm.garden/01evv3hq1ak4b6ng1jzppx5n2j) apps slowly make a resurgence, I hope that agency is the value at the forefront of new applications and protocols, enabling users to choose which parts of themselves to make legible.
+As [[../../thoughts/peer-to-peer.md|peer-to-peer]], [[local-first software|local-first](../../thoughts/local-first%20software.md), and [doorless](https://rosano.hmm.garden/01evv3hq1ak4b6ng1jzppx5n2j) apps slowly make a resurgence, I hope that agency is the value at the forefront of new applications and protocols, enabling users to choose which parts of themselves to make legible.
 
 _Thank you to Anson Yu, B Cavello, Cent Hosten, Saffron Huang, Shrey Jain for reading earlier drafts and providing clarifying feedback._
 

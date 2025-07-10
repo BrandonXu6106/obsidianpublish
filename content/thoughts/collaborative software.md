@@ -14,8 +14,8 @@ Challenge: how do we reconcile concurrent updates?
 
 Two main families of algorithms
 
-- Conflict-free Replicated Data Types ([[CRDT|CRDTs]]) -- persists the causal order of operations
-- [[Operational Transform]] -- persists the final output of operations
+- Conflict-free Replicated Data Types ([[CRDT.md|CRDTs]]) -- persists the causal order of operations
+- [[Operational Transform](Operational%20Transform.md) -- persists the final output of operations
 
 I hosted a session about this at Andy Matuschak's unconference! It turns out a lot of people are thinking about collaborative software. See what we brainstormed: [Full FigJam file](https://www.figma.com/file/fHnlhboanqVVE4IOp7zqR0/New-interfaces-for-new-thoughts-in-the-new-year?node-id=0%3A1&t=PBIeeb2LlMLj9ySZ-0)
 
@@ -24,7 +24,7 @@ I hosted a session about this at Andy Matuschak's unconference! It turns out a l
 [Source](https://publish.obsidian.md/jessmartin/Collaboration+is+a+spectrum+from+asynchronous+to+fully+synchronous)
 
 - full async - no collaboration ever - has to be completely disconnected
-- async branching - [[git|git]] flow, working in parallel universes temporarily, then merging back together
+- async branching - [[git.md|git]] flow, working in parallel universes temporarily, then merging back together
 - peripheral awareness - working in the same space while working separately (parallel play)
 - fully sync - pair programming
 
@@ -75,7 +75,7 @@ Now, we are seeing a return to communal computing as people are realizing the im
 ### Questions for communal computing
 
 1. Identity: do we know all of the people who are using the device?
-2. Privacy: are we exposing (or hiding) the right content for all of the people with access? (see also: [[privacy#Contextual Privacy]])
+2. Privacy: are we exposing (or hiding) the right content for all of the people with access? (see also: [[privacy.md#Contextual Privacy]])
 3. Security: are we allowing all of the people using the device to do or see what they should and are we protecting the content from people that shouldn’t?
 4. Experience: what is the contextually appropriate display or next action?
 5. Ownership: who owns all of the data and services attached to the device that multiple people are using?
@@ -84,7 +84,7 @@ Now, we are seeing a return to communal computing as people are realizing the im
 
 ### Concurrent Editing plugins
 
-We can treat all plugins/external things (e.g. `git`, filesystem) as actors. [[CRDT|CRDTs]] allow these changes to happen asynchronously
+We can treat all plugins/external things (e.g. `git`, filesystem) as actors. [[CRDT.md|CRDTs]] allow these changes to happen asynchronously
 
 - An actor makes an editing request, which is an insertion of a sequence at a point relative to its snapshot of the buffer
 - When the result eventually returns, the editor commits that request which might require a coordinate transform based on other edits that have arrived in the meantime

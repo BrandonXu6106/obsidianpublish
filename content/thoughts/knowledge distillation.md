@@ -9,8 +9,8 @@ tags:
 
 Heavily linked with [research debt](research%20debt.md). What makes for effective [teaching](teaching.md) and knowledge distillation?
 
-- [Games](game%20design.md) + interactive content (a [[constructionist]] approach) > just reading
-  - How can we create worlds for people to explore on their own? How do we give [[agency]] back to students?
+- [Games](game%20design.md) + interactive content (a [[constructionist.md]] approach) > just reading
+  - How can we create worlds for people to explore on their own? How do we give [[agency.md]] back to students?
 - How do we create content that caters for all levels of understanding? Possible relation to a thing in [project list](idea%20list.md) where I thought about creating multi-level blogs
 
 ## Confusing Explanations

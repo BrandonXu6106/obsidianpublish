@@ -18,19 +18,19 @@ Can be used for
 
 Typically, texture is a property of a region, not a point. But, then we run into a boundary segmentation problem. We compromise by using a local window to compute a texture and assign it to a point.
 
-See also: [[texture mapping]]
+See also: [[texture mapping](texture%20mapping.md)
 
 ### Synthesis
 
 1. Inpainting (filling in holes)
-2. Produce large quantities of texture for [[computer graphics|computer graphics]]
+2. Produce large quantities of texture for [[computer graphics|computer graphics](computer%20graphics.md)
 3. [Wave function collapse](https://github.com/mxgmn/WaveFunctionCollapse)
 
 Randomness parameter is actually the size of the patch (less randomness means sample is larger thus more accurate)
 
 ## Grainy Film Texture
 
-See also: [[noise]]
+See also: [[noise.md]]
 
 Normally done with simple white noise SVG applied to background with pass through, max exposure and contrast, and add some opacity
 

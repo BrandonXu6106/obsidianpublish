@@ -10,7 +10,7 @@ noindex: true
 ---
 *On love, understanding, and leaving a good thing behind. Alternatively titled: afterglow.*
 
-![[public/thoughts/images/afterglow.png]]
+![[../../../public/thoughts/images/afterglow.png]]
 
 How are you feeling?
 
@@ -24,7 +24,7 @@ Yeah. I know that can't have been an easy decision to make.
 
 I think it's okay to just feel the emotions for what they are. A calculus of the heart will miss things and maybe even impede the recognition for what is truly being felt. It almost feels like a false sense of comforting yourself by pretending the real loss can be made with enough of something else (logic, reason, distraction)[^1]. What do you think you're actually feeling right now?
 
-[^1]: Nussbaum, [[friendship#Against 'assessing' love|Against 'assessing' love]]
+[^1]: Nussbaum, [[../../thoughts/friendship.md#Against 'assessing' love|Against 'assessing' love]]
 
 *I don't think I know the right words for that either, yet.*
 
@@ -38,7 +38,7 @@ Do you think you used to feel like that was more aligned for both of you?
 
 **[A strong gust of wind blows their hair back. Both start chuckling a little.]**
 
-*I think we didn't know who we wanted to be when we both made a [[commitment|commitment]] to each other that we'd be partners for life. We were young and impressionable and wanted to do right by each other. I thought, and honestly still think it very much is, beautiful to love the loves of your love. At some point though, I think we each found better articulations of the questions we wanted to spend our lives figuring out and they weren't exactly the same things. It became really hard to have the same appreciation and excitement as we used to when those things overlapped much more. I guess to put it simply, it moved from an unconscious effort to an effortful and conscious one. For a while, we justified that drift and space as necessary to growing up together; giving us each the space to become our own people.*
+*I think we didn't know who we wanted to be when we both made a [[../../thoughts/commitment.md|commitment]] to each other that we'd be partners for life. We were young and impressionable and wanted to do right by each other. I thought, and honestly still think it very much is, beautiful to love the loves of your love. At some point though, I think we each found better articulations of the questions we wanted to spend our lives figuring out and they weren't exactly the same things. It became really hard to have the same appreciation and excitement as we used to when those things overlapped much more. I guess to put it simply, it moved from an unconscious effort to an effortful and conscious one. For a while, we justified that drift and space as necessary to growing up together; giving us each the space to become our own people.*
 
 It does seem like you both lost a point of joint rapture though. Even in being different people, it almost feels critical to have _some_ third thing that you both care about immensely, coming together in [double attention](https://www.poetryfoundation.org/poetrymagazine/articles/60484/the-third-thing). Without it, you just become two separate people without anything that brings you together. The _Little Prince_ author Antoine de Saint-Exupéry [beautifully  insisted](https://www.themarginalian.org/2013/01/01/what-is-love/) that “love does not consist of gazing at each other, but in looking outward together in the same direction.”
 
@@ -52,13 +52,13 @@ Maybe this is silly, but I think that it is almost a pre-requisite to have thing
 
 No, I don't think I'm saying that exactly either. I think having a lived life together is very important to add richness and depth to the relationship, but I don't think you can live fully off of what has existed in the past. You both have full lives ahead of you! Relative to the many years left ahead, I think it makes sense to have these third things you both care about to make the life you will live in the future full and meaningful.
 
-*Hm. I still feel quite guilty about not being able to grow to see the world the same way. There's an ideal world in which it was easy to understand and love the same things. I remember we made a [[commitment|commitment]] to each other and it feels terribly selfish to go back on that. I want to be someone who is reliable — someone whose word people can depend on to plan their lives around.*
+*Hm. I still feel quite guilty about not being able to grow to see the world the same way. There's an ideal world in which it was easy to understand and love the same things. I remember we made a [[../../thoughts/commitment.md|commitment]] to each other and it feels terribly selfish to go back on that. I want to be someone who is reliable — someone whose word people can depend on to plan their lives around.*
 
-I don't think it's selfish to have [[aesthetics-and-taste|strong conviction in what you find worthwhile and beautiful]] in the world. The beauty of the world is different to everyone that perceives it and I think that's part of the lived human experience. I think it's quite silly to change that for someone else.
+I don't think it's selfish to have [[aesthetics-and-taste.md|strong conviction in what you find worthwhile and beautiful]] in the world. The beauty of the world is different to everyone that perceives it and I think that's part of the lived human experience. I think it's quite silly to change that for someone else.
 
 *Doesn't any union of two things involve some form of compromise? How do you think about what you can compromise and what you can't? How incompatible is too incompatible?*
 
-Well that's a good question. It almost feels like there's this weird [[catch 22|catch 22]] around [[commitment|commitment]] and people. On one hand you don't really know how compatible you are with someone until you spend a lot of time with them. On the other hand, it's hard to know if you want to commit to someone until you know how compatible you are with them. There's a whole realm of theory around [optimal stopping](https://en.wikipedia.org/wiki/Optimal_stopping) that tries to solve this in a rigorous and mathematical way (reject the first $n$ people you date, etc.) but I still feel a calculus of the heart will always end up missing things.
+Well that's a good question. It almost feels like there's this weird [[catch 22|catch 22](../../thoughts/catch%2022.md) around [[../../thoughts/commitment.md|commitment]] and people. On one hand you don't really know how compatible you are with someone until you spend a lot of time with them. On the other hand, it's hard to know if you want to commit to someone until you know how compatible you are with them. There's a whole realm of theory around [optimal stopping](https://en.wikipedia.org/wiki/Optimal_stopping) that tries to solve this in a rigorous and mathematical way (reject the first $n$ people you date, etc.) but I still feel a calculus of the heart will always end up missing things.
 
 *I'm curious why you don't find optimal stopping theory convincing here?*
 
@@ -106,5 +106,5 @@ I'm really glad.
 
 ---
 
-![[public/thoughts/images/celeste.png|400]]
+![[../../../public/thoughts/images/celeste.png|400]]
 *Celeste (2018)*

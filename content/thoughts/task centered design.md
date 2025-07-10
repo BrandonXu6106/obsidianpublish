@@ -7,7 +7,7 @@ tags:
 
 Articulate concrete descriptions of real-world people doing their real-world tasks and use these description to determine which users and what tasks the system should support
 
-[[prototyping|Prototype]]an interface that satisfies these requirements and then evaluate the interface by performing a task-centred walkthrough (see: [[interviews and data recording]])
+[[prototyping.md|Prototype]]an interface that satisfies these requirements and then evaluate the interface by performing a task-centred walkthrough (see: [[interviews and data recording](interviews%20and%20data%20recording.md))
 
 Strengths
 

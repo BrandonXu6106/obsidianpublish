@@ -25,7 +25,7 @@ Publishers know that if they offend the government, their reporters may not be g
 
 ## Liberalism
 
-John Stuart Mill's argument for [[freedom#Free Speech|free speech]] and that censorship should never be justified (arguing for liberalism)
+John Stuart Mill's argument for [[freedom.md#Free Speech|free speech]] and that censorship should never be justified (arguing for liberalism)
 
 1. All of us are capable of error. If we prevent someone from voicing their opinion, we may actually be silencing the voice of truth.
 2. Erroneous opinions may contain kernels of truth. We ought to let all opinions be voiced so that all parts of the truth are heard
@@ -36,7 +36,7 @@ When should intervention happen? Mill's Principle of Harm states that the only p
 
 ## Self-censorship
 
-Librex and the [[freedom|free]] exchange of ideas on college campuses
+Librex and the [[freedom.md|free]] exchange of ideas on college campuses
 
 People go to colleges not to just read textbooks but to talk to professors who've studied it deeply and get their opinions on it.
 

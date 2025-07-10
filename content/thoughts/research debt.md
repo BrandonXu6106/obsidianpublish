@@ -21,8 +21,8 @@ How do we reduce [interpretive labour](interpretive%20labour.md) for learners?
 
 - Poor exposition: no good explanation of ideas and concepts
 - Undigested ideas: it takes effort to polish ideas, developing the right analogies, language, and ways of thinking
-- Bad abstractions and [[notation|notation]] : abstractions and notation are the user interface of research. To have bad notation is to have bad ways to interact with the underlying knowledge
-- Noise: there's _too_ much new progress being made each day. How do we choose what to focus on? (see also: [[attention]] scarcity)
+- Bad abstractions and [[notation.md|notation]] : abstractions and notation are the user interface of research. To have bad notation is to have bad ways to interact with the underlying knowledge
+- Noise: there's _too_ much new progress being made each day. How do we choose what to focus on? (see also: [[attention.md]] scarcity)
 
 Not just about poorly explained ideas, but rather the lack of ideas being digested and worked through in public (communal messiness of thought). How can we create better abstractions, notations, and visualizations to improve how we interact and interface with ideas?
 
@@ -43,4 +43,4 @@ Is distillation a form of [maintenance](creation%20vs%20maintenance.md)?
 
 The research distiller is an integral role for a healthy research community, yet almost no one is filling it right now.
 
-Is it because people want their work to look hard? Do people not enjoy distillation? While both of these may play a small part, the biggest part is malalignment of [incentives](incentives.md) (relevant to [incentives in open source maintenance](paid-open-source.md)).
+Is it because people want their work to look hard? Do people not enjoy distillation? While both of these may play a small part, the biggest part is malalignment of [incentives](incentives.md) (relevant to [incentives in open source maintenance](../posts/software/paid-open-source.md)).

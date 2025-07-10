@@ -4,7 +4,7 @@ date: 2024-01-27
 tags:
   - seed
 ---
-Excerpts from [[Designing Data-Intensive Applications|Designing Data-Intensive Applications]]
+Excerpts from [[Designing Data-Intensive Applications|Designing Data-Intensive Applications](Designing%20Data-Intensive%20Applications.md)
 
 ## Data Models
 
@@ -58,7 +58,7 @@ Important notes:
 - Any vertex can have an edge connecting it with any other vertex. There is no schema that restricts which kinds of things can or cannot be associated.
 - Given any vertex, you can efficiently find both its incoming and its outgoing edges, and thus traverse the graph—i.e., follow a path through a chain of verti‐ ces—both forward and backward.
 #### Triple Stores
-See also [[RDF]]
+See also [[RDF.md]]
 
 In a triple-store, all information is stored in the form of very simple three-part statements: (subject, predicate, object).
 
@@ -73,7 +73,7 @@ In such situations, it can be beneficial to write data in one form, and then to 
 
 The simplest, fastest, and most expressive way of writing data is an event log: every time you want to write some data, you encode it as a self-contained string (perhaps as JSON), including a timestamp, and then append it to a sequence of events. Events in this log are immutable: you never change or delete them, you only ever append more events to the log (which may supersede earlier events).
 
-The principle of maintaining separate read-optimized representations and deriving them from the write-optimized representation is called command query responsibility segregation. Similar ideas can be found in [[State Machine Replication (SMR)|SMR]]
+The principle of maintaining separate read-optimized representations and deriving them from the write-optimized representation is called command query responsibility segregation. Similar ideas can be found in [[State Machine Replication (SMR)|SMR](State%20Machine%20Replication%20(SMR).md)
 
 ### Normalization
 Normalization refers to how many ways there are of representation the same underlying information. This is typically done by giving an ID to each piece of data so that there is only one 'canonical' way of referring to it.

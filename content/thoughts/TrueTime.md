@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-TrueTime is a highly available, distributed [[clocks|clock]] that is provided to applications on all Google servers.
+TrueTime is a highly available, distributed [[clocks.md|clock]] that is provided to applications on all Google servers.
 
 Comparing to standard datetime libraries, instead of a particular timestamp, TrueTime's now() function returns an interval of time `[earliest, latest]`.
 

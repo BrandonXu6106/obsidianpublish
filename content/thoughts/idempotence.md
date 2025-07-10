@@ -22,5 +22,5 @@ To somewhat fix this, use tombstones and record logical timestamp for when event
 
 - Then, we can reconcile replicas by propagating the record with the latest timestamp and discard the records with earlier timestamps
 - Then, to fix concurrent writes by different clients
-  - Last writer wins (LWW): resolve conflicts using a [[clocks|logical clock]] that gives total ordering (e.g. [[clocks#Lamport Clocks|Lamport clock]])
-  - Multi-value register (give all options to let user/algorithm above resolve it): use a [[clocks#Vector Clocks|Vector clock]], $v_2$ replaces $v_1$ if $t_2 > t_1$; preserve both $\{v_1, v_2\}$ if $t_1 \parallel t_2$
+  - Last writer wins (LWW): resolve conflicts using a [[clocks.md|logical clock]] that gives total ordering (e.g. [[clocks.md#Lamport Clocks|Lamport clock]])
+  - Multi-value register (give all options to let user/algorithm above resolve it): use a [[clocks.md#Vector Clocks|Vector clock]], $v_2$ replaces $v_1$ if $t_2 > t_1$; preserve both $\{v_1, v_2\}$ if $t_1 \parallel t_2$

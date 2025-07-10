@@ -13,7 +13,7 @@ An **order** is a binary relation $\leq$ on a set $S$, written $<S,\leq>$.
 - Total order:  for all a and b in the set, either $a \leq b$ or $b \leq a$
 - Partial order: at least one pair a and b in the set, where $a \leq b$ or $b \leq a$
 
-See also: [[causality|message ordering]], [[clocks#Vector Clocks|Vector clocks]]
+See also: [[causality.md|message ordering]], [[clocks.md#Vector Clocks|Vector clocks]]
 
 ## Joins
 
@@ -27,11 +27,11 @@ Join has
 2. Associativity: $(a \lor b) \lor c = a \lor (b \lor c)$
 3. Idempotence: $a \lor a = a$
 
-When it comes to [[CRDT|CRDTs]], what we’re looking for is the ability to apply an operation in any order and as many times as we want without corrupting the result. The laws obeyed by joins give us exactly this.
+When it comes to [[CRDT.md|CRDTs]], what we’re looking for is the ability to apply an operation in any order and as many times as we want without corrupting the result. The laws obeyed by joins give us exactly this.
 
-A join [[A City is not a Tree#Semilattices|semi-lattice]] then essentially does a topological sort or [[causality#Causal Order|causal ordering]] of its elements except all of the elements can be joined (i.e. have a single shared ancestor)
+A join [[A City is not a Tree#Semilattices|semi-lattice](A%20City%20is%20not%20a%20Tree.md) then essentially does a topological sort or [[causality.md#Causal Order|causal ordering]] of its elements except all of the elements can be joined (i.e. have a single shared ancestor)
 
 ## Hasse Diagram
-We can illustrate the [[semilattice|semi-lattice]] using a Hasse Diagram
+We can illustrate the [[semilattice.md|semi-lattice]] using a Hasse Diagram
 
-![[hasse diagram.png|300]]
+![[hasse diagram.png|300](images/hasse%20diagram.png)

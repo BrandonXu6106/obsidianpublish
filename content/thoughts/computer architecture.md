@@ -27,7 +27,7 @@ The CPU stores an *instruction pointer* (called the program counter) which poi
 
 Registers are small storage buckets that are extremely fast for the CPU to read and write from. These are often very limited (most CPUs only have a handful) so your computer also has various other levels of storage in the form of memory that get progressively slower but higher capacity the more you move away from the CPU.
 
-See also: [[systems design#Latency Numbers|latency numbers for various levels of memory access]].
+See also: [[systems design#Latency Numbers|latency numbers for various levels of memory access](systems%20design.md).
 
 Roughly:
 
@@ -50,7 +50,7 @@ This is how each process can have its own isolated memory space — when the OS 
 
 Page tables are often hierarchical:
 
-![[content/thoughts/images/hierarchical-page-table.png]]
+![[images/hierarchical-page-table.png]]
 
 If an instruction for example asks for an address that the MMU doesn't know about, it can fail the memory access with a page fault. Then, the page fault interrupt handler can then load the data into memory and let the MMU try again.
 

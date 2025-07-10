@@ -9,7 +9,7 @@ tags:
 
 Arweave uses a [blockchain](blockchain.md)-like structure called the blockweave. It is capable of reaching 5000 transactions per second (compared to 15 on [Ethereum](ethereum.md))
 
-Wildfire is the Arweave’s self-organising network topology system. Wildfire ensures that miners are selfishly incentivised to store and share data as quickly as possible with other miners in the network, in order to build a positive reputation. While more complex under the hood, Wildfire can be summarised as: ‘if you share with me, I will share with you’. (similar to how incentives on [[BitTorrent]] work). As nodes in blockweave networks require fast access to data in order to mine efficiently, they are selfishly-incentivised to give data to other members of the network promptly and continuously, autonomously improving the sharing to lightning-fast speeds.
+Wildfire is the Arweave’s self-organising network topology system. Wildfire ensures that miners are selfishly incentivised to store and share data as quickly as possible with other miners in the network, in order to build a positive reputation. While more complex under the hood, Wildfire can be summarised as: ‘if you share with me, I will share with you’. (similar to how incentives on [[BitTorrent.md]] work). As nodes in blockweave networks require fast access to data in order to mine efficiently, they are selfishly-incentivised to give data to other members of the network promptly and continuously, autonomously improving the sharing to lightning-fast speeds.
 
 The blockweave solves two fundamental problems currently associated with public decentralised blockchains:
 
@@ -32,7 +32,7 @@ Most of the transaction fee is contributed towards a storage endowment, which is
 
 - Given that the miners collectively maintain the Arweave network, a mechanism is required to allow them to express their opinions on what content should and should not be hosted in the system.
 - Nodes express preferences about content through content policies. Content policies can be arbitrary computation performed upon transactions that classify them as acceptable or not acceptable to the local node. In the reference Arweave implementation, content policies are supported in the form of substring matches as well as hashes of the data stored in the transaction.
-  - This is one approach to [[decentralization]] [[Moderation|moderation]]
+  - This is one approach to [[decentralization.md]] [[Moderation.md|moderation]]
 - Two complementary incentives at play here
   - An incentive not to over-zealously reject too many transactions, as this would lead to a decline in mining rewards
   - An incentive not to accept transactions that the majority of the network is likely to reject, as this will result in mining candidate blocks that the rest of the network will ignore
@@ -53,7 +53,7 @@ Serverless applications hosted on the Arweave network allow users to pay directl
 
 ## DNS
 
-The owner of a domain can run a permanently-available, decentralized web application just by storing a transaction on the Arweave network and registering [[DNS]] records via the usual external service providers
+The owner of a domain can run a permanently-available, decentralized web application just by storing a transaction on the Arweave network and registering [[DNS.md]] records via the usual external service providers
 
 You need
 

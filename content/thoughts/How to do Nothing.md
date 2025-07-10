@@ -20,7 +20,7 @@ How do we even begin to define productivity? Productivity that produces what? Su
 
 "I hope that the figure of 'doing nothing' in opposition to a productivity-obsessed environment can help restore individuals who can then help restore communities, human and beyond."
 
-"Caring for myself is not self-indulgence, it is self preservation, and that is an act of [[Do Artifacts Have Politics|political]] warfare."
+"Caring for myself is not self-indulgence, it is self preservation, and that is an act of [[Do Artifacts Have Politics|political](Do%20Artifacts%20Have%20Politics.md) warfare."
 
 "In the context of health and ecology, things that grow unchecked are often considered parasitic or cancerous... The life force is concerned with cyclicality, care, and regeneration; the death force sounds to me a lot like 'disrupt'."
 
@@ -30,4 +30,4 @@ How do we even begin to define productivity? Productivity that produces what? Su
 
 ## Censorship
 
-Information DDOS-ing in the attention economy: Instances of [[censorship]] are rather marginal when compared to what is essentially an immense informational overload and an actual siege of attention, combined with the occupation of the source of information by the head of the company"
+Information DDOS-ing in the attention economy: Instances of [[censorship.md]] are rather marginal when compared to what is essentially an immense informational overload and an actual siege of attention, combined with the occupation of the source of information by the head of the company"

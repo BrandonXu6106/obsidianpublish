@@ -39,7 +39,7 @@ This rule is extremely conservative, avoids the worst-case scenario
 
 Objections:
 
-1. Requires [[interval scale|interval scale]] instead of ordinal scale
+1. Requires [[interval scale|interval scale](interval%20scale.md) instead of ordinal scale
 
 ### Minimax regret
 
@@ -51,7 +51,7 @@ Basis: it is irrational to reject an act with a chance of a great gain, where th
 
 Objections
 
-1. Requires [[interval scale|interval scale]] instead of ordinal scale
+1. Requires [[interval scale|interval scale](interval%20scale.md) instead of ordinal scale
 2. Adding irrelevant alternative acts potentially affects recommended acts
 
 ### Principle of Insufficient Reason (PIR)
@@ -61,13 +61,13 @@ If there are n possible states and you have no reason to believe any of them mor
 - Assign each of the $n$ states probability $1/n$ and maximize the expected value
 - For an act $A$, calculate $\sum_{i=1}^n \frac{1}{n} \textrm{value}(A, S_i)$
 
-This turns the problem into a [[Decisions under risk|DUR]]
+This turns the problem into a [[Decisions under risk|DUR](Decisions%20under%20risk.md)
 
 Objections
 
-1. Requires [[interval scale|interval scale]] instead of ordinal scale
+1. Requires [[interval scale|interval scale](interval%20scale.md) instead of ordinal scale
 2. Arbitrary partitions of states (can result in incoherence)
-3. Doesn't apply outside games of chance (e.g. [[Pascal's Wager|Pascal's Wager]])
+3. Doesn't apply outside games of chance (e.g. [[Pascal's Wager|Pascal's Wager](Pascal's%20Wager.md))
 
 ## Rationality Constraints
 
@@ -89,6 +89,6 @@ Milnor proposes a few axioms for rules under DUI:
 
 Perhaps we should use different rules for DUI in different situations. Can we be systematic?
 
-![[content/thoughts/images/dui-situtations.png|500]]
+![[images/dui-situtations.png|500]]
 
-For decisions under partial ignorance, see: [[Precautionary Principle|Precautionary Principle]]
+For decisions under partial ignorance, see: [[Precautionary Principle|Precautionary Principle](Precautionary%20Principle.md)

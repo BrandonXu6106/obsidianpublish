@@ -5,14 +5,14 @@ tags:
   - sapling
 ---
 
-How do we defend against attacks in [[distributed systems|distributed systems]] with no central authority? We want the system as a whole to continue working, even when some parts are faulty
+How do we defend against attacks in [[distributed systems|distributed systems](distributed%20systems.md) with no central authority? We want the system as a whole to continue working, even when some parts are faulty
 
 - Failure: system as a whole isn't working
 - Fault: some part of the system isn't working
   - Probability of all $n$ replicas being faulty: $p^n$
   - Probability of 1 or more replicas being faulty: $1 - (1-p)^n$
 
-Related: [game theory](game%20theory.md), [[Zooko's Triangle|Zooko's Triangle]], [[Sybil Attack|Sybil attack]], [[cascading failures|cascading failures]], [[Byzantine Faults|Byzantine Faults]]
+Related: [game theory](game%20theory.md), [[Zooko's Triangle|Zooko's Triangle](Zooko's%20Triangle.md), [[Sybil Attack|Sybil attack](Sybil%20Attack.md), [[cascading failures|cascading failures](cascading%20failures.md), [[Byzantine Faults|Byzantine Faults](Byzantine%20Faults.md)
 
 ### Two Generals Problem
 
@@ -28,11 +28,11 @@ This situation can be expressed abstractly in terms of a group of generals of th
 
 It is shown that, using only oral messages, this problem is solvable if and only if more than two-thirds of the generals are loyal; so a single traitor can confound two loyal generals. With unforgeable written messages, the problem is solvable for any number of generals and possible traitors.
 
-See: [[Byzantine Faults]]
+See: [[Byzantine Faults](Byzantine%20Faults.md)
 
 ## Designing Robust Networks
 
-See also: [[Network Theory|Network theory]], [[cascading failures]]
+See also: [[Network Theory|Network theory](Network%20Theory.md), [[cascading failures](cascading%20failures.md)
 
 Designing networks that are simultaneously robust to attacks *and* random failures appears to be a conflicting desire
 

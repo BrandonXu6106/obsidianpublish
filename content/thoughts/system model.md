@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-How do we capture assumptions in a system model for [[distributed systems|distributed systems?]]
+How do we capture assumptions in a system model for [[distributed systems|distributed systems?](distributed%20systems.md)
 
 ### Network behaviour (e.g. message loss)
 

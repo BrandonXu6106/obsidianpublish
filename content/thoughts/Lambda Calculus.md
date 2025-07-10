@@ -6,7 +6,7 @@ tags:
 ---
 
 
-$\lambda$-calculus is a [[notation|notation]] for functions and applications. The main ideas are _applying_ a function to an argument and forming functions by _abstraction_.
+$\lambda$-calculus is a [[notation.md|notation]] for functions and applications. The main ideas are _applying_ a function to an argument and forming functions by _abstraction_.
 
 For example, to represent $f(x)=x^2-2x+5$ in $\lambda$-calculus, we can write a $\lambda$-term
 
@@ -33,7 +33,7 @@ Or in JavaScript:
 a => b => Math.sqrt(a^2 + b^2)
 ```
 
-This is what currying does in any [[functional programming|functional programming]] language.
+This is what currying does in any [[functional programming|functional programming](functional%20programming.md) language.
 
 ## Binding
 We write $M[x:=N]$ to denote the substitution of $N$ for the free occurrences of $x$ in $M$.

@@ -7,7 +7,7 @@ tags:
 
 [Source: Mimetic by _Brian Timar_](https://www.briantimar.com/notes/mimetic/mimetic/)
 
-Humans inherit convictions [mimetically](https://en.wikipedia.org/wiki/Ren%C3%A9_Girard#Mimetic_desire) from each other — we learn what to value by imitating our peers. Maybe this is why we tend to want to conform to [[in-group bias|ingroup]] expectations in [communities](/thoughts/communities) so much?
+Humans inherit convictions [mimetically](https://en.wikipedia.org/wiki/Ren%C3%A9_Girard#Mimetic_desire) from each other — we learn what to value by imitating our peers. Maybe this is why we tend to want to conform to [[in-group bias|ingroup](in-group%20bias.md) expectations in [communities](/thoughts/communities) so much?
 
 Dangers of groupthink as these feedback loops loop into themselves and repeat:
 [collaborative-thinking](/posts/collaborative-thinking)

@@ -23,7 +23,7 @@ Infrastructure should be
 
 Which came first, the infrastructure or the applications that depend on it?
 
-See also: [[Myth of the Infrastructure Phase]]
+See also: [[Myth of the Infrastructure Phase](Myth%20of%20the%20Infrastructure%20Phase.md)
 
 "infrastructure as potential energy held in suspension" (Boyer)
 
@@ -47,7 +47,7 @@ _To oblivion and beyond: Imagining infrastructure after collapse_
 
 An alternate take on [creation vs maintenance](creation%20vs%20maintenance.md)
 
-Infrastructures do not function forever. Like everything else, they lose in the universe's constant battle against [[entropy|entropy]].
+Infrastructures do not function forever. Like everything else, they lose in the universe's constant battle against [[entropy.md|entropy]].
 
 As Boyer (2016) argues, infrastructures possess a temporal persistence that “points deathward.” Oil refineries along the Texas Gulf Coast, for example, take part in a system of resource extraction that hastens climate change; at the same time, climate change threatens the continued functioning of these refineries, and oil companies have requested federal funds to protect their facilities from the destructive environmental phenomena that they have a hand in creating (Associated Press, 2018).
 

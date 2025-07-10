@@ -5,8 +5,8 @@ tags:
   - seed
 ---
 
-Locutus is a [[local-first software|local-first]] decentralized key-value database. It uses the same [small world](https://freenetproject.org/assets/papers/lic.pdf) routing algorithm as the original Freenet design, but each key is a cryptographic contract implemented in [[WebAssembly|WASM]], and the value associated with each contract is its state.
+Locutus is a [[local-first software|local-first](local-first%20software.md) decentralized key-value database. It uses the same [small world](https://freenetproject.org/assets/papers/lic.pdf) routing algorithm as the original Freenet design, but each key is a cryptographic contract implemented in [[WebAssembly.md|WASM]], and the value associated with each contract is its state.
 
 Locutus is _not_ append-only and has mutable state.
 
-Splits are merged using [[CRDT|CRDTs]]
+Splits are merged using [[CRDT.md|CRDTs]]

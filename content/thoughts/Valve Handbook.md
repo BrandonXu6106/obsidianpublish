@@ -7,7 +7,7 @@ tags:
 
 [Source](https://steamcdn-a.akamaihd.net/apps/valve/Valve_NewEmployeeHandbook.pdf)
 
-Valve is a company is one that I respect a lot for the agency they give their employees. Feels very much like a [[metalabel|metalabel]] where you have a bunch of highly agentic people working on things they wanna work on rather than a company.
+Valve is a company is one that I respect a lot for the agency they give their employees. Feels very much like a [[metalabel.md|metalabel]] where you have a bunch of highly agentic people working on things they wanna work on rather than a company.
 
 TLDR; hire well
 
@@ -50,7 +50,7 @@ How do people discover new projects? There is no central 'board', but the best w
 
 > Lots of people at Valve want and need to know what you care about, what you’re good at, what you’re worried about, what you’ve got experience with, and so on. And the way to get the word out is to start telling people all of those things.
 
-People first [[friction|frictionful]] onboarding!
+People first [[friction.md|frictionful]] onboarding!
 
 ### Structure
 

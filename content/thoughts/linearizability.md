@@ -9,7 +9,7 @@ Defined as consistency in the face of concurrent reads/writes.
 
 Informally: every operation takes effect atomically sometime after it started and before it finished. All operations behave as if executed on a _single copy of the data_
 
-Not to be confused with serializability: transactions having the same effect as if they were run in some serial order. Also contrasting with [[causality|causal]] relationships, linearizability is defined in terms of real-time whereas [[causality|causal]] is defined in terms of message sending and receiving.
+Not to be confused with serializability: transactions having the same effect as if they were run in some serial order. Also contrasting with [[causality.md|causal]] relationships, linearizability is defined in terms of real-time whereas [[causality.md|causal]] is defined in terms of message sending and receiving.
 
 The consequence/desired property of linearizability is that every operation returns an "up-to-date" value, sometimes called "strong consistency"
 

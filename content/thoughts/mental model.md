@@ -36,7 +36,7 @@ If a breakdown occurs on the **left** (2-4), we call that the **gulf of executio
 
 If a breakdown occurs on the **right** (5-7), we call that the **gulf of evaluation**: the difference between the actual system state and user's understanding
 
-See also: [[feedback loops]]
+See also: [[feedback loops](feedback%20loops.md)
 
 ## Mental model vs Conceptual model
 

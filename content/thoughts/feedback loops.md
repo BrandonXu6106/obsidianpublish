@@ -17,7 +17,7 @@ Related: [exploit explore](exploit%20explore.md) as a metaphor for optimizing li
 
 ## Interaction Design
 
-See: [[interaction design]]
+See: [[interaction design](interaction%20design.md)
 
 - **Gulf of execution**: the difference between the intentions and allowable actions
 - **Gulf of evaluation**: the difference between the actual system state and user's understanding

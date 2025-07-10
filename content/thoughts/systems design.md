@@ -9,7 +9,7 @@ tags:
 
 System design in this context means defining the architecture, product design, modules, interfaces, and data for a system according to given requirements. The purpose of system design is to architect a system that can effectively support the functionality of a product or service.
 
-See also: [[system model]]
+See also: [[system model](system%20model.md)
 
 - Requirements
   - Functional: what does the system need to do?
@@ -78,7 +78,7 @@ Based off of the above:
   - Solid choice if you want a central source that handles authentication and authorization
   - Also send header information and cookies, so you can use existing authentication mechanisms with this server
 - Hypercore/Dat
-  - Uses a [[DHT]] + [[NAT]] traversal utilities
+  - Uses a [[DHT.md]] + [[NAT.md]] traversal utilities
   - Low latency
   - Medium reliability
 

@@ -6,7 +6,7 @@ tags:
   - CPSC430
 ---
 
-The [[ethics|ethical]] theory of the German philosopher Immanuel Kant
+The [[ethics.md|ethical]] theory of the German philosopher Immanuel Kant
 
 ## Good will and the Categorical Imperative
 
@@ -36,7 +36,7 @@ If we allow multiple rules to be relevant to a particular action then what do we
 
 Perfect duties prevail over imperfect duties. However, if there is a conflict between perfect duties, Kantianism does not provide us a way to choose between them.
 
-## Applied to [[privacy|privacy]]
+## Applied to [[privacy.md|privacy]]
 
 - Government believes it is morally right to monitor suspects
 - Then what if everyone could monitor who they suspect

@@ -74,7 +74,7 @@ However, while constructing the snapshot message for the merge, you realize that
 
 ### Eliminating Duplication
 
-We can use [[content addressed storage]] and [[Merkle-DAG|Merkle-DAGs]]!
+We can use [[content addressed storage](content%20addressed%20storage.md) and [[Merkle-DAG.md|Merkle-DAGs]]!
 
 1. Create a directory named `objects`
 2. Go to the most deeply nested directory in the snapshot
@@ -96,7 +96,7 @@ Text can be very efficiently compressed using something like the LZW or DEFLATE 
 
 ## Handy Commands
 
-Think about `git` like a file time machine -- it allows you to traverse and manage an entire multiverse of files (see: [[bitemporal]])
+Think about `git` like a file time machine -- it allows you to traverse and manage an entire multiverse of files (see: [[bitemporal.md]])
 
 - Unstaged files: anything you've done to your current branch of the world that hasn't been staged or committed
 - Staged files: things that you've marked as things you want to commit to a snapshot

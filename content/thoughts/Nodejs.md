@@ -9,7 +9,7 @@ tags:
 
 > The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded
 
-This is powered by [[libuv|libuv]].
+This is powered by [[libuv.md|libuv]].
 
 Since most modern kernels are multi-threaded, they can handle multiple operations executing in the background. When one of these operations completes, the kernel tells Node.js so that the appropriate callback may be added to the **poll** queue to eventually be executed.
 
@@ -41,7 +41,7 @@ Note: in the **poll** phase, events are queued by the kernel and can be queued
 
 ### Phases
 1. Timers: execute any `setTimeout()` and `setInterval()` callbacks given that enough time has passed since they were scheduled
-2. Pending callbacks: certain types of I/O callbacks (i.e. [[TCP|TCP]] `ECONNREFUSED`)
+2. Pending callbacks: certain types of I/O callbacks (i.e. [[TCP.md|TCP]] `ECONNREFUSED`)
 3. Idle, prepare: Node internals
 4. Poll: wait for system to call us back for I/O events (normally, this is where Node chooses to block)
 	1. If the poll queue is not empty, the event loop will iterate through its queue of callbacks executing them synchronously until either the queue has been exhausted, or the system-dependent hard limit is reached.

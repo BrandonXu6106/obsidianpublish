@@ -7,7 +7,7 @@ tags:
 
 [Source Spec](https://identity.foundation/sidetree/spec)
 
-A 'meta'/Layer 2 protocol that can be applied to any target trust layer to create a scalable [[DID]] method (batteries _almost_ included)
+A 'meta'/Layer 2 protocol that can be applied to any target trust layer to create a scalable [[DID.md]] method (batteries _almost_ included)
 
 A bunch of DID methods work fine at lab scales (~100 DIDs) but how do we scale to billions?
 
@@ -15,6 +15,6 @@ A bunch of DID methods work fine at lab scales (~100 DIDs) but how do we scale t
 - Strict deterministic ruleset means no conflicting states are allowed
 - IDs are _not_ transferable
 
-Batches a bunch of operations as content-addressable storage references (read: [[IPFS|IPFS]]) and anchors them to underlying trust layer.
+Batches a bunch of operations as content-addressable storage references (read: [[IPFS.md|IPFS]]) and anchors them to underlying trust layer.
 
 [ION](https://identity.foundation/ion/) takes roughly 20 minutes for commitment finality

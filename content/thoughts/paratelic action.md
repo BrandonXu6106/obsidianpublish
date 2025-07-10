@@ -7,6 +7,6 @@ aliases:
   - paratelic
 ---
 
-**Paratelic Actions** are more [playful](content/thoughts/play.md) in nature and involve enjoying the process in the moment. This is more akin to reading for enjoyment and for the pleasure of learning.
+**Paratelic Actions** are more [playful](play.md) in nature and involve enjoying the process in the moment. This is more akin to reading for enjoyment and for the pleasure of learning.
 
-See also: [[The Grasshopper, Games, Life and Utopia]]
+See also: [[The Grasshopper, Games, Life and Utopia](The%20Grasshopper,%20Games,%20Life%20and%20Utopia.md)

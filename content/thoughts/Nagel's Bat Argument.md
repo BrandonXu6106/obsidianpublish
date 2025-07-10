@@ -7,7 +7,7 @@ tags:
 
 Nagel's Bat Argument (against Physicalism)
 
-1. [[Materialism|Physicalism]] is the thesis that everything that exists is physical.
+1. [[Materialism.md|Physicalism]] is the thesis that everything that exists is physical.
 2. Physical facts then, are objective truth ("the kind that can be observed and understood from many points of view and by individuals with different perceptual systems")
 3. Even if we knew everything about how the bat's sonar system works, we would not know what is is like for the bat to perceive using this system.
    1. 'What it's like': in this case, something is conscious (a bat) if and only if there is something it's like to be that being (only a bat knows what it is like for a bat to be a bat)

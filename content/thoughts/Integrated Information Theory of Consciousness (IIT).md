@@ -6,9 +6,9 @@ tags:
   - PHIL451A
 ---
 
-See also: [[Consciousness is not Information|a refutation against IIT]]
+See also: [[Consciousness is not Information|a refutation against IIT](Consciousness%20is%20not%20Information.md)
 
-First-order sensory theory of [consciousness](consciousness.md), a form of [[Panpsychism|panpsychism]]
+First-order sensory theory of [consciousness](consciousness.md), a form of [[Panpsychism.md|panpsychism]]
 
 ## IIT
 

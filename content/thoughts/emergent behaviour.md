@@ -25,7 +25,7 @@ Interesting to think about in context of single agents in multi-agent systems. H
 - In the same way, the laws of biology emerge from chemistry: one obviously needs to understand the chemical components of a fish to understand how it swims, but chemical components will never provide a full explanation.
 - In the same way, the human mind can be said to be emergent from the cells that make it up.
 
-[[LLMs]] seem to exhibit this sort of behaviour.
+[[LLMs.md]] seem to exhibit this sort of behaviour.
 
 ## Combination Problem
 
@@ -45,4 +45,4 @@ Their own emergence problem: how do genuine individuals emerge from particular t
 
 [Source](https://www.youtube.com/watch?v=X-iSQQgOd1A)
 
-Mesmerizing video by [Sebastian Lague](https://www.youtube.com/user/Cercopithecan) on [how complex (and beautiful) behaviour can arise out of simple rules.](emergent%20behaviour.md) I've been wanting to get into experimenting with shaders and [[computer graphics|graphics]] stuff and this _might_ just be the slight nudge I needed.
+Mesmerizing video by [Sebastian Lague](https://www.youtube.com/user/Cercopithecan) on [how complex (and beautiful) behaviour can arise out of simple rules.](../../..//content/thoughts/emergent%20behaviour.md) I've been wanting to get into experimenting with shaders and [[computer graphics|graphics](computer%20graphics.md) stuff and this _might_ just be the slight nudge I needed.

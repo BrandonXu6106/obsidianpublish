@@ -12,4 +12,4 @@ tags:
 "You implicitly invalidate any struggles they have, and eschew their private life. Your praise becomes so diluted that it’s meaningless, just another reflex or polite gesture."
 
 - Recognizing that excessive praise (even if genuine) can be toxic positivity. It sets unrealistic boundaries for how people should act all the time and makes it hard for people to be truly vulnerable
-- How can we approach showing appreciation without being over-the-top about it? We can start by acknowledging and normalizing failure: [failure resumes](a-failure-resume.md) and creating safe spaces for vulnerable conversation as well as genuine celebration
+- How can we approach showing appreciation without being over-the-top about it? We can start by acknowledging and normalizing failure: [failure resumes](../posts/readnotes/a-failure-resume.md) and creating safe spaces for vulnerable conversation as well as genuine celebration

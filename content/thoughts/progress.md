@@ -27,7 +27,7 @@ So many historically 'truthful' sources like the Church and classical science we
 
 Skepticism as the taproot of all knowledge, heavily [Cartesian](virtual%20worlds.md)
 
-However, [[content/thoughts/writing|writing]], the printing press, and other tools allowed us to [extend our mind](Extended%20Mind%20Hypothesis.md) and conceive of knowledge as **cumulative**.
+However, [[writing.md|writing]], the printing press, and other tools allowed us to [extend our mind](Extended%20Mind%20Hypothesis.md) and conceive of knowledge as **cumulative**.
 
 ## Progress Studies
 
@@ -41,7 +41,7 @@ How can we enable useful progress in the future?
 
 From a more epistemlogical standpoint, how much of progress just comes down to good:
 
-1. [[teaching|pedagogy]]
+1. [[teaching.md|pedagogy]]
 2. networks (re: [social graphs](social%20graphs.md))
 3. chance and circumstance
 
@@ -53,7 +53,7 @@ Jasmine has a really good [potential curriculum outline](https://jasminew.me/pos
 
 1. History and causes: How do we make progress?
    1. History of science and technology: How were useful discoveries made? What was the relationship between [funding](funding.md) and knowledge?
-   2. [[philosophy of science|Philosophy of technology]]/ technological progress: How, why, and when do particular technologies emerge?
+   2. [[philosophy of science|Philosophy of technology](philosophy%20of%20science.md)/ technological progress: How, why, and when do particular technologies emerge?
    3. Meta-science / science of science / social [epistemology](epistemology.md) of science: How do we educate, train, and incentivize scientists?
    4. Mechanism design + incentive design: How do we design [incentives](incentives.md) to elicit certain behaviours and aggregate specific information?
    5. Cultural components of change-making: How have humans organized change in the past around ideas and processes?
@@ -64,7 +64,7 @@ Jasmine has a really good [potential curriculum outline](https://jasminew.me/pos
 3. Drawbacks of progress: What are the risks incurred by progress? How do we make differential progress?
    1. Costs of progress: Can progress be too fast? How do we mitigate risks (esp those that are irreversible and existential)?
    2. Robust decision-making and better prediction under uncertainty: How can we better predict the impacts of our actions?
-      1. (re: [catch 22](catch%2022.md) and the [[Collingridge dilemma]])
+      1. (re: [catch 22](catch%2022.md) and the [[Collingridge dilemma](Collingridge%20dilemma.md))
 
 ## What type of Progress?
 

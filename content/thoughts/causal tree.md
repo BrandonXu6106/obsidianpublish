@@ -8,9 +8,9 @@ aliases:
   - CT
 ---
 
-> Towards real-time read-write [[hypertext|hypertext]]
+> Towards real-time read-write [[hypertext.md|hypertext]]
 
-TLDR; a simpler and more understandable form of [[CRDT#Operation-based|CvRDT]] that relies on a strong notion of happens-before [[causality|causal relationships]] and unique identifiers.
+TLDR; a simpler and more understandable form of [[CRDT.md#Operation-based|CvRDT]] that relies on a strong notion of happens-before [[causality.md|causal relationships]] and unique identifiers.
 
 [Paper summary](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.627.5286&rep=rep1&type=pdf)
 
@@ -21,7 +21,7 @@ TLDR; a simpler and more understandable form of [[CRDT#Operation-based|CvRDT]] t
     - Any set of changes can be represented as a set of atom removals and insertions.
     - Atom removals are represented by a special "backspace" atom
     - `id` is generated in the form of a owner UUID and a Lamport timestamp
-  - An atom's `id` is always greater than its `causing_id`. This defines a partial [[Order theory|order]]
+  - An atom's `id` is always greater than its `causing_id`. This defines a partial [[Order theory|order](Order%20theory.md)
     - Thus, the tree is a causality tree where each causing atom acts as a parent to its caused atoms
     - Atoms are stored in append-only causality feeds. Every feed complies with that order: the causing atom always precedes any of its caused atoms
   - Inserts happen directly to the right of its `causing_id` (or parent)
@@ -32,11 +32,11 @@ TLDR; a simpler and more understandable form of [[CRDT#Operation-based|CvRDT]] t
     - This "backspace" atom has high priority so always hugs its parent in the resulting weave
   - Recovering the plaintext version of the weave is constructed by removing inactive atoms from the weave.
 
-![[causal tree.png|500]]
+![[causal tree.png|500](images/causal%20tree.png)
 
 Anyone writing something based on causal trees only needs to define two functions:
 
 1. Reducers: inserts arbitrary atoms into an ordered log
 2. Mapper: traverses the structured log to arrive at a state
 
-![[causal tree fn.png]]
+![[causal tree fn.png](images/causal%20tree%20fn.png)

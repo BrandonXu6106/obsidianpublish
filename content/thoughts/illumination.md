@@ -7,7 +7,7 @@ tags:
 
 ## Lighting Models
 
-How do we simulate how light moves in a [[computer graphics]] scene?
+How do we simulate how light moves in a [[computer graphics](computer%20graphics.md) scene?
 
 This is difficult as at any point in 3D space, light of all wavelengths may be going in all directions. We can vastly simplify this by assuming there are 'only' three wavelengths, red green and blue. This is a reasonable assumption as these map cleanly to the three types of cone-cells in the human eye
 
@@ -31,7 +31,7 @@ $$
 
 - $N$ is the surface normal
 - $L$ is the light direction
-- $R$ is the reflected ray (normally $R = -L + 2 (N \cdot L) N$, in [[GLSL]]: `R = reflect(-L, N)`)
+- $R$ is the reflected ray (normally $R = -L + 2 (N \cdot L) N$, in [[GLSL.md]]: `R = reflect(-L, N)`)
 - $V$ is the viewing direction
 - $n$ is the shininess constant (sometimes also $\alpha$)
 - $I$ is a property of the scene

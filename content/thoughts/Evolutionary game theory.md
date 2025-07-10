@@ -8,9 +8,9 @@ tags:
 
 Focuses on the dynamics of strategy change by agents over time.
 
-Evolutionary game theory has helped to explain the basis of altruistic behaviours in Darwinian evolution. It is salient to note that the evolutionary pressures on what we consider moral behaviour arise _only in [[positive sum|positive sum]] interactions._ In a dynamic, growing society, people can interact cooperatively and both come out ahead. 
+Evolutionary game theory has helped to explain the basis of altruistic behaviours in Darwinian evolution. It is salient to note that the evolutionary pressures on what we consider moral behaviour arise _only in [[positive sum|positive sum](positive%20sum.md) interactions._ In a dynamic, growing society, people can interact cooperatively and both come out ahead. 
 
-In a static, [[zero sum|zero sum]] society, people can pressures toward morality and cooperation vanish: You can only improve your situation by taking from someone else.
+In a static, [[zero sum|zero sum](zero%20sum.md) society, people can pressures toward morality and cooperation vanish: You can only improve your situation by taking from someone else.
 
 ## Evolutionarily Stable Strategy (ESS)
 
@@ -25,7 +25,7 @@ In formal terms, $x$ is an ESS iff
 
 ### Cake Division Problem
 
-Whereas [[game theory|rational choice theory]] has multiple pure equilibrium strategies here, there is only one evolutionarily stable pure strategy: share equally
+Whereas [[game theory|rational choice theory](game%20theory.md) has multiple pure equilibrium strategies here, there is only one evolutionarily stable pure strategy: share equally
 
 ### Polymorphic state
 
@@ -48,11 +48,11 @@ Evolutionary analogue: mutation and recombination are analogues of the trembling
 
 ## Ethics
 
-Can game theory give us substantive [[ethics|ethical]]/political recommendations?
+Can game theory give us substantive [[ethics.md|ethical]]/political recommendations?
 
 ### Gauthier's Theory
 
 - The Nash bargaining solution provides a solution to the problem of fair division, based entirely on assumptions about rationality.
   - Objection: Hume's Principle, we can't derive what we _ought_ to do from what _is_ true
-- Include a 'bridge-premise' that whatever a [[rationality|rational]] group of people agree upon should be implemented (similar to [[Social Contract Theory#Rawl's Theory of Justice|Rawl's Theory of Justice]])
+- Include a 'bridge-premise' that whatever a [[rationality.md|rational]] group of people agree upon should be implemented (similar to [[Social Contract Theory#Rawl's Theory of Justice|Rawl's Theory of Justice](Social%20Contract%20Theory.md))
   - Objection: Exploitation may be beneficial... but is it moral

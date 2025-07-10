@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-![[transitive closure.png]]
+![[transitive closure.png](images/transitive%20closure.png)
 
 Let:
 

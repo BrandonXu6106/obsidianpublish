@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-See also: [[telepresence]]
+See also: [[telepresence.md]]
 
 ## Dennett's 1981 "where am I" story
 

@@ -6,13 +6,13 @@ tags:
   - CPSC430
 ---
 
-Ethics is the rational systematic analysis of [[morality]].
+Ethics is the rational systematic analysis of [[morality.md]].
 
 Ethics is focused on the voluntary, moral choices. Ethics is _not_ concerned about involuntary choices or choices outside the moral realm.
 
 Workable ethical theory: produces explanations that aim to be persuasive to a skeptical, yet open-minded audience about what is "right" or "wrong"
 
-Especially important for technologists to grapple with as common wisdom may not exist for novel situations brought about by new technologies (see: [[Collingridge dilemma|Collingridge Dillemma]])
+Especially important for technologists to grapple with as common wisdom may not exist for novel situations brought about by new technologies (see: [[Collingridge dilemma|Collingridge Dillemma](Collingridge%20dilemma.md))
 
 ## 4 Unworkable Ethical Theories
 
@@ -26,7 +26,7 @@ Especially important for technologists to grapple with as common wisdom may not 
 3. Divine Command Theory: "stealing is wrong because the Bible says so"
    - We should use holy books (or any sort of appeal to authority) as guides for moral decision making
    - Only effective to those who already believe in the same beliefs as us
-   - See also [[religious authority|appeals to religious authority]]
+   - See also [[religious authority|appeals to religious authority](religious%20authority.md)
 4. Ethical Egoism
    - People's self-interest is their only ethical obligation
    - What's good for the market (modelled by selfish agents) is good for society
@@ -35,9 +35,9 @@ Especially important for technologists to grapple with as common wisdom may not 
 
 ## Workable Theories
 
-1. [[Kant|Kantianism]]
-2. [[Utilitarianism|Utilitarianism]]
-3. [[Social Contract Theory|Social Contract Theory]]
-4. [[virtue ethics|Virtue Ethics]]
+1. [[Kant.md|Kantianism]]
+2. [[Utilitarianism.md|Utilitarianism]]
+3. [[Social Contract Theory|Social Contract Theory](Social%20Contract%20Theory.md)
+4. [[virtue ethics|Virtue Ethics](virtue%20ethics.md)
 
-![[ethical theories.png]]
+![[ethical theories.png](images/ethical%20theories.png)

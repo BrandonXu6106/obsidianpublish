@@ -13,7 +13,7 @@ tags:
 
 ## Representation
 
-- Like in a classical [[GOFAI|GOFAI system]], [representations](/thoughts/representation) are assigned to connectionist networks by the people who build them
+- Like in a classical [[GOFAI.md|GOFAI system]], [representations](/thoughts/representation) are assigned to connectionist networks by the people who build them
 - There are two types of connectionist representation
   1.  localist → each unit is assigned a feature as a whole that represents
   2.  distributed → state of the network as a whole represents something

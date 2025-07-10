@@ -21,7 +21,7 @@ As such, Lipmann suggests we need to bridge by means of mass communication. Jour
 
 To make something salient is to put it forward as both demanding attention and deserving it. In can be distinct from actual uptake (as the receiving end can experience it as demanding of attention but not classify it as deserving it)
 
-However, this just demonstrates the problem of democratic [[attention]]. The library is full of good books, and the sad fact is that none of us will ever read them all.
+However, this just demonstrates the problem of democratic [[attention.md]]. The library is full of good books, and the sad fact is that none of us will ever read them all.
 
 This arises from a combination of three points
 
@@ -40,4 +40,4 @@ Good reporting then follows a public-as-protagonist principle
 - "recommends framing and selecting information to invite readers to view themselves and one another as potential political participants"
 - Stories should make explicit when it can the ways in which the reading public has a stake in how the story unfolds and how the reader can affect its outcome
   - Not every reader will be a potential protagonist in every story. However, every regular reader is likely to encounter a story in which they feel addressed as a potential protagonist eventually
-- Underlying belief that there are many publics (see: [[plurality]])
+- Underlying belief that there are many publics (see: [[plurality.md]])

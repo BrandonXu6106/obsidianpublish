@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-Related: [[decentralization|decentralization]], [[funding|funding]], [[web3|web3]]
+Related: [[decentralization.md|decentralization]], [[funding.md|funding]], [[web3.md|web3]]
 
 ## Nanopayments
 
@@ -15,7 +15,7 @@ And if you could pay for other kinds of services the same way you pay for electr
 
 Can be done through 2 main ways:
 
-1. [[state channels|State channels]]
+1. [[state channels|State channels](state%20channels.md)
 2. Amortized cost through probabilistic payments (i.e. 1% chance to win $100 instead of $1 payment). Over time, the value transmitted on-chain will in expectation match the value represented in the probabilistic nanopayments.
 
 ## Orchid
@@ -47,7 +47,7 @@ The basic premise of the Golem Network is as follows:
 
 The costs of an activity are based on a pre-agreed set of coefficients that specify the price the requestor is required to pay for the time the activity is running, the processor time used and for starting any activity in the first place.
 
-Payments and transactions happen through [[ethereum|Ethereum]].
+Payments and transactions happen through [[ethereum.md|Ethereum]].
 
 ### Registry
 

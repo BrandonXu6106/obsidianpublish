@@ -9,4 +9,4 @@ aliases:
 
 > To declare what is, not instruct what to do
 
-See: [[Datalog]], [[react]]
+See: [[Datalog.md]], [[react.md]]

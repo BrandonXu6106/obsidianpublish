@@ -8,13 +8,13 @@ tags:
 We have a name for the tendency to go on a reasonable number of random walks: we call it "creativity."
 ### Common misconceptions
 
-- Creative [[content/thoughts/writing|writing]] is about creating 'literature' and not genre stories: it is more so a question of quality than content
+- Creative [[writing.md|writing]] is about creating 'literature' and not genre stories: it is more so a question of quality than content
 - Writing is an innate talent: writing is a tool that can be honed and practiced
 - No real world application for creative writing: almost all conversations, media, arguments, involve some form of convincing the other side! what better way to do that than through story telling
 - The riddle of storytelling
   - Imagine two groups of early humans competing for the same resources who lived pretty much the same
   - The first group gossiped and told stories during their leisure time while the second group continued working
-  - We know the first group survived because that's us! So why is story telling so evolutionarily beneficial? It's a form of simulation (see also: [[consciousness#Behaviourist approaches|behaviourist approaches to consciousness]])
+  - We know the first group survived because that's us! So why is story telling so evolutionarily beneficial? It's a form of simulation (see also: [[consciousness.md#Behaviourist approaches|behaviourist approaches to consciousness]])
 
 ### Classic Story Structures
 

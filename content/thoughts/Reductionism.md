@@ -11,7 +11,7 @@ Reduction is a relationship between theories.
 
 Microreduction is a specific subset of reduction that focuses on explaining the macro using the micro ([emergent behaviour](emergent%20behaviour.md))
 
-This is the opposite of [[downward causation]]
+This is the opposite of [[downward causation](downward%20causation.md)
 
 ### Mind-brain Reductionism
 

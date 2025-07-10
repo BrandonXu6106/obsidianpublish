@@ -7,13 +7,13 @@ tags:
 
 [Source](https://arxiv.org/pdf/1510.08473.pdf)
 
-[[distributed systems|Distributed Systems]] that provide “single system image” semantics (read: [[linearizability]]) is fundamentally flawed and at odds with how systems operate in the physical world
+[[distributed systems|Distributed Systems](distributed%20systems.md) that provide “single system image” semantics (read: [[linearizability.md]]) is fundamentally flawed and at odds with how systems operate in the physical world
 
 ## There is no authoritative copy
 
 A lot of engineers attempt to treat distributed state as **a single system image** where there is a single primary site (main source of truth)
 
-But in reality, the world is eventually [[consistency|consistent]] and [[plurality|pluriversal]]
+But in reality, the world is eventually [[consistency.md|consistent]] and [[plurality.md|pluriversal]]
 
 > Members of the same system exchange information by “interacting”, or sending messages containing information to each other. These messages between members of the system can be arbitrarily dropped and delayed, just like in traditional, unreliable, asynchronous networks.
 
@@ -24,7 +24,7 @@ In fact, truly global applications can only achieve some sense of responsiveness
 - Supporting any non-trivial application at global scale requires a lot of compute which often can't be colocated on the same machine for performance reasons
 - Having a single primary site means that every read or write needs to be done through it. As a result, latency for users that are on the other side of the world may have latencies that make the application frustrating or unusable.
 
-Take Facebook for example. It has a single user profile for each user that is active in the system. It would be extremely impractical to have to hear information directly from the primary site every time you needed information. Each of these profiles is replicated across several of their data centers for performance. Distributed databases are optimizations which makes for extremely efficient distribution of information ([[Network Theory|scale-free]] rather than random)
+Take Facebook for example. It has a single user profile for each user that is active in the system. It would be extremely impractical to have to hear information directly from the primary site every time you needed information. Each of these profiles is replicated across several of their data centers for performance. Distributed databases are optimizations which makes for extremely efficient distribution of information ([[Network Theory|scale-free](Network%20Theory.md) rather than random)
 
 ## Each node is primary
 
@@ -34,13 +34,13 @@ In this model, each member of the system has some partially-replicated knowledge
 
 As we continue to increase the number of globally connected devices, we must embrace a design that considers every single member in the system as the primary site for the data that it is generates. It is completely impractical that we can look at a single, or a small number, of globally distributed data centers as the primary site for all global information that we desire to perform computations with.
 
-Can we build abstractions that allow devices to communicate [[peer-to-peer]], acknowledging the true primary site for a particular piece of information and scale to the amount of information that exists, not only between all computers in a planetary-scale distributed system, but all entities in the universe?
+Can we build abstractions that allow devices to communicate [[peer-to-peer.md]], acknowledging the true primary site for a particular piece of information and scale to the amount of information that exists, not only between all computers in a planetary-scale distributed system, but all entities in the universe?
 
 ## Limits of the speed of light
 
 Coordination in the universe is limited by how much you can observe. That means a globally consistent _anything_ will be limited by the speed of light
 
-This is problematic for global (and potentially inter-planetary) communication. The great thing about [[local-first software]] is that you don't need to know anything about the other side of the world when doing stuff locally :)
+This is problematic for global (and potentially inter-planetary) communication. The great thing about [[local-first software](local-first%20software.md) is that you don't need to know anything about the other side of the world when doing stuff locally :)
 
 ## Harmony
 

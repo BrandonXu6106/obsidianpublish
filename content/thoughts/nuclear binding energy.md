@@ -13,7 +13,7 @@ The mass of an atomic nucleus is less than the sum of the individual masses of t
 
 ## Binding Energy
 
-[[Nuclear Fusion|Nuclear Fusion]] uses lighter elements, such as hydrogen and helium, which are in general more fusible; while the heavier elements, such as uranium, thorium and plutonium, are more [[Nuclear Fission|fissionable]].
+[[Nuclear Fusion|Nuclear Fusion](Nuclear%20Fusion.md) uses lighter elements, such as hydrogen and helium, which are in general more fusible; while the heavier elements, such as uranium, thorium and plutonium, are more [[Nuclear Fission|fissionable](Nuclear%20Fission.md).
 
 The inverted curve is due to two opposing forces: 
 
@@ -23,4 +23,4 @@ The inverted curve is due to two opposing forces:
 Under most conditions, the Coulomb force dominates. However, when accelerated to high enough speeds, nuclei can overcome this electrostatic repulsion and be brought close enough such that the attractive nuclear force is greater than the repulsive Coulomb force.
 
 
-![[binding energy.png]]
+![[binding energy.png](images/binding%20energy.png)

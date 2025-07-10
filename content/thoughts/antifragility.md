@@ -9,6 +9,6 @@ tags:
 
 Antifragility is a property of systems in which they increase in capability to thrive as a result of stressors, shocks, volatility, noise, mistakes, faults, attacks, or failures.
 
-This is an ideal property to have for [[fault tolerance|fault tolerant]] systems.
+This is an ideal property to have for [[fault tolerance|fault tolerant](fault%20tolerance.md) systems.
 
-See also: [[Universal Scaling Law]]
+See also: [[Universal Scaling Law](Universal%20Scaling%20Law.md)

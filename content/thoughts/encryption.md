@@ -15,13 +15,13 @@ An encryption algorithm comprises
 
 The two types of encryption are
 
-1. [[Asymmetric Key Cryptography|Asymmetric Key Cryptography]] (sometimes called public-key cryptography)
-2. [[Symmetric Key Cryptography|Symmetric Key Cryptography]]
+1. [[Asymmetric Key Cryptography|Asymmetric Key Cryptography](Asymmetric%20Key%20Cryptography.md) (sometimes called public-key cryptography)
+2. [[Symmetric Key Cryptography|Symmetric Key Cryptography](Symmetric%20Key%20Cryptography.md)
 
 Trapdoor: a mathematical function that is easy to go one way but hard to go the other way (an effectively one-way function)
 
-- Common functions include [[RSA|RSA]] (prime factorization) and [[Elliptic-curve Cryptography (ECC)|ECC]]
-- [[RSA|RSA]] for example, is a trapdoor because multiplying primes is easy but factoring the result back into its component primes is hard.
+- Common functions include [[RSA.md|RSA]] (prime factorization) and [[Elliptic-curve Cryptography (ECC)|ECC](Elliptic-curve%20Cryptography%20(ECC).md)
+- [[RSA.md|RSA]] for example, is a trapdoor because multiplying primes is easy but factoring the result back into its component primes is hard.
 - The bigger the spread between the difficulty of going one direction in a Trapdoor Function and going the other, the more secure a cryptographic system based on it will be
 
 Language

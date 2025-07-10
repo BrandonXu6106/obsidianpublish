@@ -16,7 +16,7 @@ Related: [games](games.md)
 
 A lot of pedagogy covers the same questions as game design (especially tutorials): how much explicit guidance should a student/player get in an activity?
 
-The "[vow of silence](https://www.youtube.com/watch?v=xrDZ--AuiL8)": to preserve the joy of discovery, games should carefully structure their activities so that players will learn what they need through [play](content/thoughts/play.md). An approach very similar to the [constructionist](constructionist.md) ones found in [Mindstorms](Mindstorms.md)
+The "[vow of silence](https://www.youtube.com/watch?v=xrDZ--AuiL8)": to preserve the joy of discovery, games should carefully structure their activities so that players will learn what they need through [play](play.md). An approach very similar to the [constructionist](constructionist.md) ones found in [Mindstorms](Mindstorms.md)
 
 **We can teach stuff using mechanics and level design** instead of words.
 
@@ -50,9 +50,9 @@ In toxic systems every new user is potentially rewarded if they adopt toxic beha
 
 Three main pitfalls
 
-1. Psychology: there are a lot of requirements to build [[friendship|friendships]], like right sized groups of people, correct density, and engagement in mutually dependent reciprocal activities.
+1. Psychology: there are a lot of requirements to build [[friendship.md|friendships]], like right sized groups of people, correct density, and engagement in mutually dependent reciprocal activities.
 2. Logistics: rigid human limits on how many relationships they can maintain and how long it takes them to form new ones (see: [group limits](group%20limits.md))
-3. [[economics|Economics]]: games are built on an economic foundation of resources (creation, transformation, trade, and consumption). However, it is hard to get economic incentives to align with those of social behaviour. "In particular, many of the key elements required by the psychological and logistical aspects of friendship formation are systematically undervalued within common economic practices."
+3. [[economics.md|Economics]]: games are built on an economic foundation of resources (creation, transformation, trade, and consumption). However, it is hard to get economic incentives to align with those of social behaviour. "In particular, many of the key elements required by the psychological and logistical aspects of friendship formation are systematically undervalued within common economic practices."
 
 ### Elements of the internal economy
 
@@ -114,7 +114,7 @@ An economy of zero sum resources is a world of scarcity. The challenge economics
 
 In [virtual worlds](virtual%20worlds.md), we can make almost any resource positive sum. When a monster drops loot for one player, it can also drop loot for any other player that did damage.
 
-However, truly abundant worlds are not super fun to play in (constraints are what make [[games]] interesting). How can we design for infinite source and imbalanced economies?
+However, truly abundant worlds are not super fun to play in (constraints are what make [[games.md]] interesting). How can we design for infinite source and imbalanced economies?
 
 - Per players caps: cap number of harvestable positive sum resources per player
 - Per group caps: cap total number of harvestable items per group of players

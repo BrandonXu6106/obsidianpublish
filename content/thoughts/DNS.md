@@ -46,7 +46,7 @@ Types:
    2. value: canonical name (e.g. foo.com)
 6. TXT (just plain text)
    1. name: domain
-   2. value: plain text in the format of `attribute=value`. The TXT record was originally intended as a place for human-readable notes but now often used for domain ownership verification (see: dnslink and [[Bluesky]])
+   2. value: plain text in the format of `attribute=value`. The TXT record was originally intended as a place for human-readable notes but now often used for domain ownership verification (see: dnslink and [[Bluesky.md]])
 
 Inserting records into DNS
 
@@ -63,7 +63,7 @@ Inserting records into DNS
 
 [Documentation](https://dnslink.dev/)
 
-DNSLink uses DNS TXT records to map a DNS name, like en.wikipedia-on-ipfs.org, to an [[IPFS]] address
+DNSLink uses DNS TXT records to map a DNS name, like en.wikipedia-on-ipfs.org, to an [[IPFS.md]] address
 
 Because you can edit your DNS records, you can use them to always point to the latest version of an object in IPFS.
 

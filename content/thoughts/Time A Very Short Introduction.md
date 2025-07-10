@@ -5,7 +5,7 @@ tags:
   - seed
   - book
 ---
-Book on [[time|time]] by Jenann Ismael
+Book on [[time.md|time]] by Jenann Ismael
 
 - Two main debates about the *nature* of what space and time as gauged by their effects on the observable movements of material bodies
 	- Newton viewed time as absolute and independent of human perception or physical events, flowing uniformly in the background of the universe. He believed in absolute, mathematical time that existed separately from any measurements or changes in the physical world.
@@ -28,16 +28,16 @@ Book on [[time|time]] by Jenann Ismael
 		- Instead of physical contraction/dilation caused by motion through aether, he proposed that length contraction and time dilation are natural consequences of two postulates:
 			1. Physics laws are the same in all inertial frames
 			2. Speed of light is constant in all frames
-		- He created the idea of a combined [[spacetime|spacetime]] as a unified entity where space and time are fundamentally linked via the underlying geometric principles that follow from the two postulates.
+		- He created the idea of a combined [[spacetime.md|spacetime]] as a unified entity where space and time are fundamentally linked via the underlying geometric principles that follow from the two postulates.
 			- A worldline is the path of an object through spacetime - it shows all spacetime points (events) that the object exists at during its history. This is static regardless of which inertial frame you view it from.
 			- Since light always travels at $c$ in any reference frame, photon worldlines always make a 45-degree angle with the time axis (assuming equal units for space and time).
-				- As a result of this cosmic speed limit, it placed an upper bound on how tight the [[causality|causal]] [[Order theory|ordering]] is
-- [[entropy|Entropy]] and why we evolved to perceive and remember temporal information
+				- As a result of this cosmic speed limit, it placed an upper bound on how tight the [[causality.md|causal]] [[Order theory|ordering](Order%20theory.md) is
+- [[entropy.md|Entropy]] and why we evolved to perceive and remember temporal information
 	- In the flux of transition from order to disorder, complex structures arise, at first spontaneously, and then by design: Parts are thrown together by accident and some of them bind together into stable configurations. Among the stable configurations, some prove able to do things that promote their survival and among those that survive, some find ways to make copies of themselves.
 		- As it happens, systems that are able to utilize and process information in effective ways tend to survive and reproduce more easily.
 		- A deer, for example, can read the signs of a recent lion hunt, or a predator who knows that a beaver dam means a beaver, will do better than one that doesn't.
 	- Once we have systems that reproduce themselves, with some mutation, and a selected mechanism operates on these systems, the process of Darwinian evolution is launched. **Evolution over long time scales is an effective search mechanism for complex systems that are able to survive and reproduce.**
-- [[intersubjectivity|Intersubjectivity]] of time
+- [[intersubjectivity.md|Intersubjectivity]] of time
 	- The universe is a network of events. Chains of these events correspond to the histories of objects.
-	- There isn't a well-defined temporal [[Order theory|order]] for the network as a whole, but we can always choose some system *in* the world -- a rock, a lobster, a person -- and follow how things unfold from its perspective.
+	- There isn't a well-defined temporal [[Order theory|order](Order%20theory.md) for the network as a whole, but we can always choose some system *in* the world -- a rock, a lobster, a person -- and follow how things unfold from its perspective.
 	- Communication among observers (and the creation of time-keeping technologies like clocks and watches) serves to stabilize an intersubjective notion of "what time is" well enough for practical purposes

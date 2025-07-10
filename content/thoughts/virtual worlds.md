@@ -23,6 +23,6 @@ In a world where scarcity is constructed, do we even need to use it? Can we rely
 
 > "One concern, though, is that some social skills may not develop as effectively when so many interactions exist online. We learn how we are and aren’t supposed to act by observing others and then having opportunities to act out our observations ourselves."
 
-"On the internet, you can pull the plug and walk away. There’s no forcing mechanism that makes us have to learn": how do we keep people digitally [[accountability|accountable]]?
+"On the internet, you can pull the plug and walk away. There’s no forcing mechanism that makes us have to learn": how do we keep people digitally [[accountability.md|accountable]]?
 
 [Dunbar](Dunbar's%20Number.md) and his colleagues demonstrated that very light touch triggers a cascade of endorphins that, in turn, are important for creating personal relationships. Can this be replicated virtually?

@@ -13,11 +13,11 @@ Not to be confused for the web. While the terms web and Internet are often used 
 
 > When I first joined the Internet in the 1990s, I found some now-long-lost introductory tutorial. It talked about the difference between an internet (lowercase i) and the Internet (capital I). An internet is "any network that connects smaller networks together." The Internet is... well... it turns out that you don't need more than one internet. If you have two internets, it is nearly unavoidable that someone will soon figure out how to connect them together. All you need is one person to build that one link, and your two internets become one. By induction then, the Internet is the end result when you make it easy enough for a single motivated individual to join one internet to another, however badly.
 
-See: [[Postel's Law]]
+See: [[Postel's Law](Postel's%20Law.md)
 
 ## Niche at scale
 
-> **The Internet allows you to [[niche at scale|scale any niche obsession]]**
+> **The Internet allows you to [[niche at scale|scale any niche obsession](niche%20at%20scale.md)**
 
 Location-based scaling before usually meant smaller audiences. Now, larger cities (and the internet at large) has allowed audience sizes to grow to ridiculous amounts.
 

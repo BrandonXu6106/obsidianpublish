@@ -7,7 +7,7 @@ aliases:
   - Heideggerian
 ---
 
-See also: [[ontology]]
+See also: [[ontology.md]]
 
 ## Dasein
 
@@ -17,10 +17,10 @@ Literally means 'Being-there'. Through the use of this expression, Heidegger cal
 
 Heidegger observes that because of technology, “all distances in time and space are shrinking” and “yet the hasty setting aside of all distances brings no nearness; for nearness does not consist in a small amount of distance.”
 
-See also [[Tools for Conviviality|Tools for Conviviality]], [[small technology]]
+See also [[Tools for Conviviality|Tools for Conviviality](Tools%20for%20Conviviality.md), [[small technology](small%20technology.md)
 
 ## Context
 
 Values are just meaningless facts (hammer is for hammering). It leaves out information defining the _relation_ of hammers to nails and the rest of the environment (readiness-to-hand)
 
-See also: [[convex]]
+See also: [[convex.md]]

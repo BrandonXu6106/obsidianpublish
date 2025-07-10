@@ -38,7 +38,7 @@ As information becomes more abundant and saturated in our world, has information
 
 > While technology has changed the volume, pace, and sources of information in our daily lives, it has not changed its essential power to shape our knowledge and our behavior in the world.
 
-Information fuels discovery. It enables us to build off of each others work, and accomplish more than what a [single person could](collaborative-thinking.md).
+Information fuels discovery. It enables us to build off of each others work, and accomplish more than what a [single person could](../posts/aigc/collaborative-thinking.md).
 
 Information organizes us. The models of thinking and computation (e.g. numbering system) affect how we think about the world writ large and forms the basis for the computational systems which we interact with daily.
 
@@ -56,9 +56,9 @@ Aaron Swartz in the _“Guerrilla Open Access Manifesto”_
 
 ## Information [Representation](representation.md)
 
-How do we represent documents and information in our databases and [[collections|collections]]?
+How do we represent documents and information in our databases and [[collections.md|collections]]?
 
-See also: [[visualization|visualization]]
+See also: [[visualization.md|visualization]]
 
 ### Indexing
 

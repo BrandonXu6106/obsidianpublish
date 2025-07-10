@@ -10,8 +10,8 @@ Monism holds that ultimate reality is _all of one kind and one kind only_.
 
 More familiar forms of monism:
 
-- [[idealism|Idealism]]
-- [[Materialism|Materialism]]
+- [[idealism.md|Idealism]]
+- [[Materialism.md|Materialism]]
 
 ## Neutral Monism
 

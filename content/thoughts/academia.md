@@ -5,16 +5,16 @@ tags:
   - seed
 ---
 
-Academia feels more pure, more [playful](content/thoughts/play.md), than industry? More of a '[constructionist](constructionist.md)' approach, freedom to ask your own questions. But it also has its fair share of perverse/dated [[incentives]]
+Academia feels more pure, more [playful](play.md), than industry? More of a '[constructionist](constructionist.md)' approach, freedom to ask your own questions. But it also has its fair share of perverse/dated [[incentives.md]]
 
-See also: [[independent research]]
+See also: [[independent research](independent%20research.md)
 
 ## Research Incentives
 
 1. Research must be original -- this drives people to stake out a piece of ground no one wants
 2. Research must be substantial -- awkward problems mean more substance to write about and solve, discouraging elegant solutions
 
-Academics and scientists start good and get original. [[Hackers]], from the start, are doing original work; it's just very bad. They start original, and get good.
+Academics and scientists start good and get original. [[Hackers.md]], from the start, are doing original work; it's just very bad. They start original, and get good.
 
 ## On Tenure
 
@@ -34,7 +34,7 @@ The typical computer science research project might last 4 years at the longest 
 
 Had a talk with [Stephen Fay](https://stephenfay.xyz/) about this and he mentioned that this isn't necessarily true for 'hard' or 'physical' sciences. "In physics there are many huge international collaborations spanning decades (e.g. large radio arrays in poles+south africa+Canada, LIGO + LISA, CERN, James Webb, building quantum computers is going to take large collaborations even if research goes underground)"
 
-I think any research field with sufficient barrier entry/requirements for access to infrastructure/hardware/physical resources does necessarily require pooling of resources on an institutional and often multi-year/decade long timespan. But now the question is how we can encourage this sort of [[generational learning|intergenerational research]] in theoretical fields?
+I think any research field with sufficient barrier entry/requirements for access to infrastructure/hardware/physical resources does necessarily require pooling of resources on an institutional and often multi-year/decade long timespan. But now the question is how we can encourage this sort of [[generational learning|intergenerational research](generational%20learning.md) in theoretical fields?
 
 ## Tunnel Vision
 

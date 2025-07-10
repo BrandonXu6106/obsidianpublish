@@ -8,9 +8,9 @@ tags:
 
 Related: [mind body problem](mind%20body%20problem.md), [Materialism](Materialism.md)
 
-How do we bridge objective description and subjective experience (qualia)? Is [[consciousness]] explainable in terms of brain processes?
+How do we bridge objective description and subjective experience (qualia)? Is [[consciousness.md]] explainable in terms of brain processes?
 
-What gives rise to consciousness (rel: [emergent behaviour](emergent%20behaviour.md)), first-person experiences, and a sense of [[the Self|self]]? Do inanimate and non-human intelligences have personal experiences?
+What gives rise to consciousness (rel: [emergent behaviour](emergent%20behaviour.md)), first-person experiences, and a sense of [[the Self|self](the%20Self.md)? Do inanimate and non-human intelligences have personal experiences?
 
 Chalmers
 

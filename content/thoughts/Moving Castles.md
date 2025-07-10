@@ -17,7 +17,7 @@ Moving Castles should reflect the following principles (adapted from the [design
 
 1. Collective: many contributors share control through transparent and real-time governance mechanisms. (see: [Metalabel](metalabel.md))
 2. Portable: the ability to move freely between platforms, standards and protocols, from private to public, without losing any value, knowledge, or lore in the process.
-3. Modular: ability to construct Moving Castles by creating, importing, and arranging [[composable|composable]] parts together as a coherent whole while making these parts available for others to reuse and adapt.
+3. Modular: ability to construct Moving Castles by creating, importing, and arranging [[composable.md|composable]] parts together as a coherent whole while making these parts available for others to reuse and adapt.
 4. [Interoperable](interoperability.md): ability to interact with other communities; communicating, playing [games](games.md), and sharing knowledge & skills in order to help these communities become Moving Castles themselves.
 
 ## The Story of All Powerful Wizards
@@ -26,7 +26,7 @@ Moving Castles should reflect the following principles (adapted from the [design
 
 Early internet: individual gardens linked by hyperlinks, tended to by all-powerful wizards who could build any worlds they wanted. Very libertarian
 
-Proposing: a bazaar, no [[access control|access control]] and everybody plays by the same rules. Where each visitor has the power to change the world around them, as long as they respect the physics of the world.
+Proposing: a bazaar, no [[access control|access control](access%20control.md) and everybody plays by the same rules. Where each visitor has the power to change the world around them, as long as they respect the physics of the world.
 
 You could visit these other gardens that wizards built but in doing so, you lose all of your wizardly powers in their domain.
 
@@ -49,6 +49,6 @@ What if programming was closer to mechanical engineering and physics?
 - Energy conversation
 - Symmetries
 - Spatial computation
-- [[causality|Causality]], speed of light, etc.
+- [[causality.md|Causality]], speed of light, etc.
 
 The dream is to be wizards in the same world together. We want to be able to protect things like person A wiping all of person B's work out of existence with the snap of their finger

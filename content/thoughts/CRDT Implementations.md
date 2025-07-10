@@ -11,7 +11,7 @@ All examples below are written in pseudocode that happens to carry a lot of synt
 
 ### Op-based
 
-See [[CRDT#Operation-based|operation-based CRDTs]] for more properties
+See [[CRDT.md#Operation-based|operation-based CRDTs]] for more properties
 
 ```ts
 // the initial value of the data type (on each replicate)
@@ -52,7 +52,7 @@ class OpCRDT<State> {
 
 ### State-based
 
-See [[CRDT#State-based|state-based CRDTs]] for more properties
+See [[CRDT.md#State-based|state-based CRDTs]] for more properties
 
 ```ts
 // the initial value of the data type (on each replicate)

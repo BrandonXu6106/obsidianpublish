@@ -5,11 +5,11 @@ tags:
   - seed
 ---
 
-See also: [[Decision theory|evidential decision theory]]
+See also: [[Decision theory|evidential decision theory](Decision%20theory.md)
 
-Choose the act that is most effective in bringing about the best result. Use [[causality|causal]] conditional probabilities instead of evidential probabilities to compute expected utility.
+Choose the act that is most effective in bringing about the best result. Use [[causality.md|causal]] conditional probabilities instead of evidential probabilities to compute expected utility.
 
-When states are causally independent of the actions (e.g., when they are fixed prior to the choice), use Dominance Reasoning (see [[Decisions under ignorance#Rules|DUI]]).
+When states are causally independent of the actions (e.g., when they are fixed prior to the choice), use Dominance Reasoning (see [[Decisions under ignorance#Rules|DUI](Decisions%20under%20ignorance.md)).
 
 ## Subjunctive Conditionals
 
@@ -18,7 +18,7 @@ $X \rightarrow Y$ means that if I were to do X, then Y.
 - $P(X \rightarrow Y)$ is the causal conditional probability of Y given that I do X
   - To calculate, fix the causal history of the world up to the moment you do or don't do X
   - Then determine how your choice of X or not X influences the probability of Y
-  - Normally, this is equivalent to $P(Y|X)$ but not true for [[Newcomb's Problem]]
+  - Normally, this is equivalent to $P(Y|X)$ but not true for [[Newcomb's Problem](Newcomb's%20Problem.md)
 - $P(Y | X)$ is the evidential conditional probability of Y given X
 
 ## Causal Dependence
@@ -39,6 +39,6 @@ The Granger causality test is a statistical hypothesis test for determining whet
 
 A time series X is said to Granger-cause Y if it can be shown, usually through a series of t-tests and F-tests on lagged values of X (and with lagged values of Y also included), that those X values provide statistically significant information about future values of Y.
 
-![[content/thoughts/images/granger-causes.png]]
+![[images/granger-causes.png]]
 
 Using the term "causality" alone is a misnomer, as Granger-causality is better described as "precedence", or, as Granger himself later claimed in 1977, "temporally related". Rather than testing whether X causes Y, the Granger causality tests whether X forecasts Y.

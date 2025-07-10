@@ -7,7 +7,7 @@ tags:
 
 Once you share something, you can't unshare it, the [internet](Internet.md) feels intractable.
 
-**What do we lose when we lose [[deletion|deletion]]?**
+**What do we lose when we lose [[deletion.md|deletion]]?**
 
 Related: [right to be forgotten](right%20to%20be%20forgotten.md), [ephemereal content](ephemereal%20content.md)
 
@@ -25,12 +25,12 @@ Related: [right to be forgotten](right%20to%20be%20forgotten.md), [ephemereal co
 
 "Everything we do now lasts forever... The Internet's synonymizing of digital presence and physical existence ensures fidelity to memory, identitarian consistency, and ideological conformity. Be honest: if one of your opinions provokes the hordes on social media, you're less likely to ditch your account and start a new one than you are to apologize and grovel, or dig in and harden yourself ideologically. Neither of those "solutions" is one that fosters change, or intellectual and emotional growth"
 
-"The forced identicality of online and offline lives, and the permanency of the [[Internet]]'s record, augur against forgiveness, and advise against all mercy. Technological omniscence, and the ease of accessibility, promulgate a climate of censorship that in the so-called free world instantiates as self-censorship: people are afraid to speak and so they speak the party's words... or people are afraid to speak and so they speak no words at all..."
+"The forced identicality of online and offline lives, and the permanency of the [[Internet.md]]'s record, augur against forgiveness, and advise against all mercy. Technological omniscence, and the ease of accessibility, promulgate a climate of censorship that in the so-called free world instantiates as self-censorship: people are afraid to speak and so they speak the party's words... or people are afraid to speak and so they speak no words at all..."
 
 "Even the most ardent practitioners of cancel culture — which I've always read as an imperative: Cancel culture! — must admit that cancellation is a form of surveillance borne of the same technological capacities used to oppress the vulnerable by patriachal, racist, and downright unkind governments the world over. The intents and outcomes might be different — cancelled people are not sent to camps — but the modus is the same: a constant monitoring, and a rush to judgment."
 
 ## Blockchain
 
-The sheer immutability of [[blockchain|blockchain]] data—you can’t delete a block without redoing the chain, something semi-impossible in practice—puts it in obvious violation of [[GDPR]].
+The sheer immutability of [[blockchain.md|blockchain]] data—you can’t delete a block without redoing the chain, something semi-impossible in practice—puts it in obvious violation of [[GDPR.md]].
 
-So long as the wallet is unassociated with real personal data, either on chain or off, it shouldn’t be subject to the many data restrictions of [[GDPR|GDPR]] by a strict reading of it. But as soon as a company like Coinbase does a KYC to verify your identity, this data gets linked at [[GDPR|GDPR]] violation happens once again.
+So long as the wallet is unassociated with real personal data, either on chain or off, it shouldn’t be subject to the many data restrictions of [[GDPR.md|GDPR]] by a strict reading of it. But as soon as a company like Coinbase does a KYC to verify your identity, this data gets linked at [[GDPR.md|GDPR]] violation happens once again.

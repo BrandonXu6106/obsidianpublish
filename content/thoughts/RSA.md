@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-A form of [[Asymmetric Key Cryptography|asymmetric cryptography]].
+A form of [[Asymmetric Key Cryptography|asymmetric cryptography](Asymmetric%20Key%20Cryptography.md).
 
 Full name is the Rivest, Shamir, Adelson Algorithm
 
@@ -22,10 +22,10 @@ Steps:
 - Encrypting is then $encrypt(m) = m^e \mod n$
 - Decrypting is then $decrypt(c) = c^d\mod n$
 
-[[Key Sharing Problem|Key exchange]] can also be performed using RSA
+[[Key Sharing Problem|Key exchange](Key%20Sharing%20Problem.md) can also be performed using RSA
 
 - If Alice and Bob both know the other's public key, how can they agree on a shared "session" key?
 - Alice chooses key $K_S$ and encrypts it with Bob's public key and Alice's private key $K_A^-(K_B^+(K_S))$
 - Bob decrypt's the message using his private key and Alice's public key $K_B^-(K_A^+(K_A^-(K_B^+(K_S)))) = K_S$
 
-See also: [[Elliptic-curve Cryptography (ECC)|elliptic curve cryptography]]
+See also: [[Elliptic-curve Cryptography (ECC)|elliptic curve cryptography](Elliptic-curve%20Cryptography%20(ECC).md)

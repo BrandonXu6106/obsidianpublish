@@ -17,6 +17,6 @@ However, these are all just ways of expressing 'events' in some calendar; emails
 
 In fact, most of today’s email clients are built around the concept of Inbox Zero, which effectively turns your email inbox into a todo list with public write access.
 
-![[calendar layers.png]]
+![[calendar layers.png](images/calendar%20layers.png)
 
-See also: [[time|time]]
+See also: [[time.md|time]]

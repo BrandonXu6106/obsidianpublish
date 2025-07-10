@@ -9,7 +9,7 @@ tags:
 > 
 > [Source](https://martin.kleppmann.com/2014/11/25/hermitage-testing-the-i-in-acid.html)
 
-![[content/thoughts/images/jepsen-consistency-model.png]]
+![[images/jepsen-consistency-model.png]]
 ## Database Transaction Isolation Levels
 
 In increasing levels of strength of isolation.
@@ -89,13 +89,13 @@ It is a stronger property that is a property about the dependencies _across_ dep
 
 Causally-related operations should appear in the same order on all processes though processes may disagree about the order of causally independent operations.
 
-See also: [[causality|causal]]
+See also: [[causality.md|causal]]
 
 ### Real-time Causal Consistency
 
 [Source](https://www.cs.cornell.edu/lorenzo/papers/cac-tr.pdf)
 
-Adds the constraint to [[#Causal Consistency]] that if operation X completes before operation Y starts in real-time, then Y cannot precede X in the [[causality#Causal Order|causal order]].
+Adds the constraint to [[#Causal Consistency]] that if operation X completes before operation Y starts in real-time, then Y cannot precede X in the [[causality.md#Causal Order|causal order]].
 
 
 For example:
@@ -109,7 +109,7 @@ From the vector clocks:
 
 ### Sequential Consistency
 
-Sequential consistency implies that operations appear to take place in some [[Order theory|total order]], and that that order is consistent with the order of operations on each individual process.
+Sequential consistency implies that operations appear to take place in some [[Order theory|total order](Order%20theory.md), and that that order is consistent with the order of operations on each individual process.
 
 This is stronger than causal consistency because it requires agreement on total order for **all** operations, not just causally-related ones.
 

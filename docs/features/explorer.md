@@ -6,9 +6,9 @@ tags:
 
 Quartz features an explorer that allows you to navigate all files and folders on your site. It supports nested folders and is highly customizable.
 
-By default, it shows all folders and files on your page. To display the explorer in a different spot, you can edit the [[layout]].
+By default, it shows all folders and files on your page. To display the explorer in a different spot, you can edit the [[../layout.md]].
 
-Display names for folders get determined by the `title` frontmatter field in `folder/index.md` (more detail in [[authoring content | Authoring Content]]). If this file does not exist or does not contain frontmatter, the local folder name will be used instead.
+Display names for folders get determined by the `title` frontmatter field in `folder/index.md` (more detail in [[authoring content | Authoring Content](../authoring%20content.md)). If this file does not exist or does not contain frontmatter, the local folder name will be used instead.
 
 > [!info]
 > The explorer uses local storage by default to save the state of your explorer. This is done to ensure a smooth experience when navigating to different pages.
@@ -41,7 +41,7 @@ When passing in your own options, you can omit any or all of these fields if you
 Want to customize it even more?
 
 - Removing explorer: remove `Component.Explorer()` from `quartz.layout.ts`
-  - (optional): After removing the explorer component, you can move the [[table of contents | Table of Contents]] component back to the `left` part of the layout
+  - (optional): After removing the explorer component, you can move the [[table of contents | Table of Contents](table%20of%20contents.md) component back to the `left` part of the layout
 - Changing `sort`, `filter` and `map` behavior: explained in [[#Advanced customization]]
 - Component: `quartz/components/Explorer.tsx`
 - Style: `quartz/components/styles/explorer.scss`

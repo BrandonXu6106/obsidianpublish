@@ -10,7 +10,7 @@ _Notes for CPSC 317_ [(see all notes)](/tags/CPSC317)
 
 The [Internet](Internet.md) is a network of networks. The main goal was to integrate a number of separately administrated entities into a common entity
 
-See also: [peer-to-peer](peer-to-peer.md), [[content/recentnotes/security|security]], [[Postel's Law]]
+See also: [peer-to-peer](peer-to-peer.md), [[content/recentnotes/security|security]], [[Postel's Law](Postel's%20Law.md)
 
 ## Changing an entrenched internet
 
@@ -18,7 +18,7 @@ See also: [peer-to-peer](peer-to-peer.md), [[content/recentnotes/security|securi
 
 The current Internet architecture is both inherently flawed (so we should explore radically different alternative designs) and deeply entrenched (so we should restrict ourselves to backwards-compatible and therefore incrementally deployable improvements).
 
-For example, the decades-long migration effort from [[IP Address|IPv4 to IPv6]]
+For example, the decades-long migration effort from [[IP Address|IPv4 to IPv6](IP%20Address.md)
 
 TLDR;
 
@@ -32,7 +32,7 @@ Necessary conditions
 
 - A communication medium
 - Source(s) and destination(s)
-- [Protocol](Protocol.md) ([[language|language]])
+- [Protocol](Protocol.md) ([[language.md|language]])
 - Message
 
 ### Circuit Switching
@@ -133,7 +133,7 @@ Methods for [fault tolerance](fault%20tolerance.md) in data transmission
       2. If so, give up
    3. "Try again later" uses binary exponential backoff
       1. Random backoff between 0 and power of 2 (n increases each time)
-   4. Turn-based [[access control|access control]]
+   4. Turn-based [[access control|access control](access%20control.md)
       1. Controlled by centralized party - polls everyone
       2. Controlled in a decentralized manner - passes a token between senders
 2. Full-duplex - both sides can transmit at the same time without interference/[NAT](NAT.md)

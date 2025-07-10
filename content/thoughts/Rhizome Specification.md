@@ -6,7 +6,7 @@ tags:
   - rhizome
 ---
 
-> See also: [[Rhizome Research Log|Research Log]]
+> See also: [[Rhizome Research Log|Research Log](Rhizome%20Research%20Log.md)
 
 ... tbd
 

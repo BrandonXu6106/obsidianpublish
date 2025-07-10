@@ -21,7 +21,7 @@ Moderation gets problematic when it is used to target and discriminate against i
 
 From _[Protocols Not Platforms](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech)_
 
-See also: [[Protocol|protocols]]
+See also: [[Protocol.md|protocols]]
 
 The key to making this work is that while there would be specific protocols for the various types of platforms we see today, there would then be many competing interface implementations of that protocol.
 
@@ -35,13 +35,13 @@ Under such a system, both Type I (“false positive”) and Type II (“false ne
 
 **Rather than relying on a single centralized platform, with all of the internal biases and incentives that that entails, anyone would be able to create their own set of rules—including which content do they not want to see and which content would they like to see promoted.**
 
-In such a world, we can let a million content moderation systems approach the same general corpus of content—each taking an entirely different approach—and see which ones work best. [[r-K Selection theory|r-selected]] moderation.
+In such a world, we can let a million content moderation systems approach the same general corpus of content—each taking an entirely different approach—and see which ones work best. [[r-K Selection theory|r-selected](r-K%20Selection%20theory.md) moderation.
 
 ## Trust-based Moderation Systems
 
 [Source](https://cblgh.org/trustnet/)
 
-See also: [[trust|trust]]
+See also: [[trust.md|trust]]
 
 In the centralized context, removing a malicious participant is the action of a moderator. Usually it is one or two clicks, and the malicious participant has been removed for all other participants.
 
@@ -49,4 +49,4 @@ In a distributed context, there are many possible answers to this problem. The f
 
 **A subjective system, where parti`cipants can themselves decide who moderates on their behalf, sidesteps the mentioned problems. Additionally, the mechanism of freely allowing multiple people to moderate also spreads out the invisible care-giving labour required to keep a community free from abuse.**
 
-The proposed system is [[transitive closure|transitive]], meaning that there will be indirect trust relations by way of those whom you trust directly.
+The proposed system is [[transitive closure|transitive](transitive%20closure.md), meaning that there will be indirect trust relations by way of those whom you trust directly.

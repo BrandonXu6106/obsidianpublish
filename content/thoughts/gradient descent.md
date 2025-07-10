@@ -10,7 +10,7 @@ When we minimize or maximize a function, we call it optimization.
 
 Gradient descent is essentially an iterative optimization algorithm that takes a guess and refines it using the gradient to make a better guess.
 
-If the objective function is a [[convex]] function, then it will converge to a _global optimum_.
+If the objective function is a [[convex.md]] function, then it will converge to a _global optimum_.
 
 Gradient descent finds critical point of differentiable function. Which can be faster than normal equations for large ‘d’ values. It takes $O(nd)$ per iteration so $O(tnd)$ for $t$ iterations.
 
@@ -38,7 +38,7 @@ When we get close enough to a local minima $w^*$, we enter a region of confusion
 
 Basically, for a fixed stepsize, SGD makes progress until the variance is too large.
 
-![[content/thoughts/images/sgd-loss.png]]
+![[images/sgd-loss.png]]
 
 ### Decreasing Step Size
 

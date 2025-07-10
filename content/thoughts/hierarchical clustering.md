@@ -32,7 +32,7 @@ Naive implementation cost is $O(n^3d)$
 
 ## Divisive Clustering (Top-down)
 
-Start with all examples in one cluster, then start dividing. (e.g., run [[K-means]] on a cluster, then run again on resulting clusters)
+Start with all examples in one cluster, then start dividing. (e.g., run [[K-means.md]] on a cluster, then run again on resulting clusters)
 
 ## Biclustering
 

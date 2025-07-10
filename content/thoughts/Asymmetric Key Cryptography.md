@@ -12,7 +12,7 @@ aliases:
 
 Asymmetric cryptography involves a pair of keys, one for encrypting (public) another for decrypting (private). One is private ($K^-$), the other is public ($K^+$). The key property is that one key cannot be obtained from the other in reasonable computation time
 
-Common forms of Asymmetric Cryptography are [[RSA|RSA]] and [[Elliptic-curve Cryptography (ECC)|ECC]]
+Common forms of Asymmetric Cryptography are [[RSA.md|RSA]] and [[Elliptic-curve Cryptography (ECC)|ECC](Elliptic-curve%20Cryptography%20(ECC).md)
 
 ## Two use cases
 

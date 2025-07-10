@@ -9,13 +9,13 @@ tags:
 
 > device in which an individual stores all his books, records, and communications, and which is mechanized so that it can be consulted with exceeding speed and flexibility.
 
-Bush envisioned the memex behaving like an “intricate web of trails” similar to the function of the human mind, which he believed works by a method of “association” and not via an alphabetical index. According to Levy (2008, 508), the most “innovative feature” of Bush’s memex system was the establishing of associative indices between portions of microfilmed text—what we now call [[hypertext|hypertext]] links—so that researchers could follow trails of useful information through masses of literature.
+Bush envisioned the memex behaving like an “intricate web of trails” similar to the function of the human mind, which he believed works by a method of “association” and not via an alphabetical index. According to Levy (2008, 508), the most “innovative feature” of Bush’s memex system was the establishing of associative indices between portions of microfilmed text—what we now call [[hypertext.md|hypertext]] links—so that researchers could follow trails of useful information through masses of literature.
 
 > Tapping a few keys projects the head of the trail. A lever runs through it at will, stopping at interesting items, going off on side excursions. It is an interesting trail, pertinent to the discussion.
 
 ## The web is not the memex
 
-See also: [[the garden and the stream]]
+See also: [[the garden and the stream](the%20garden%20and%20the%20stream.md)
 
 1. A memex contains both original materials and the materials. Unlike the web, there is no read-only version of the memex. Anything you read you can link and annotate. Not just reply, but change
 2. Links are associative (read: backlinks)

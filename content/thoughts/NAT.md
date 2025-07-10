@@ -30,13 +30,13 @@ Both network and [transport layer](Transport%20Layer.md) (violation of abstracti
       3. Entries are removed when a conversation is coming to a close (stream based protocol, detect termination packets)
 5. Does the inverse when it receives a packet
 
-![](content/thoughts/images/NAT.jpeg)
+![](images/NAT.jpeg)
 
 ## Hole-punching and NAT Traversal
 
 > Hole punching (or sometimes punch-through) is a technique in computer networking for establishing a direct connection between two parties in which one or both are behind firewalls or behind routers that use network address translation (NAT).
 
-Generally done using [[UDP]]. You *can* do NAT traversal with TCP, but it adds another layer of complexity
+Generally done using [[UDP.md]]. You *can* do NAT traversal with TCP, but it adds another layer of complexity
 
 Mostly used in [decentralized](decentralization.md) or [peer-to-peer](peer-to-peer.md) communication as the latency incurred by relaying through a central server is prohibitively expensive for real-time activity like voice calling, file syncing, etc.
 
@@ -77,9 +77,9 @@ From [_UDP NAT and Firewall Puncturing in the Wild_ by Gertjan Halkes and Johan 
       - If the direct connection request from A to B arrives first, there is no filtering behaviour or it uses EIF
       - If the rendez-vouz connection request from R to B arrives first, the filtering behaviour is most likely A(P)DF
 
-![[content/thoughts/images/NAT-firewall-share.png]]
+![[images/NAT-firewall-share.png]]
 
-![[content/thoughts/images/NAT-firewall-connection-rates.png]]
+![[images/NAT-firewall-connection-rates.png]]
 
 Possible explanations for a non-100% connection rate even in EIM-EIF to EIM-EIF peers
 

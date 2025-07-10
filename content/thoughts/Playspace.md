@@ -6,7 +6,7 @@ tags:
 ---
 ​Playspace is a get-together and coworking session for the kind, nerdy, and creative. Come if you like to learn to draw from youtube videos, create websites for friends, play music, write blog posts, compose songs, arrange flowers, research distributed systems — and everything in between. Playspace is for you to explore what makes your world sparkle :)
 
-I helped to start it in SF and cohost it with a lot of my wonderful friends. We ran for 70 sessions before [[Letter to Playspace|winding it down]].
+I helped to start it in SF and cohost it with a lot of my wonderful friends. We ran for 70 sessions before [[Letter to Playspace|winding it down](Letter%20to%20Playspace.md).
 
 ### Philosophy
 
@@ -14,7 +14,7 @@ Play allows us to create and share in ways that competitive environments disince
 
 ​Part of the magic of it is that it's a very high-trust environment where people can fully be themselves and be comfortable exploring new facets of themselves. Although Playspace is open invite, we ask that you hold a respect for the space and the people within it. **Everyone who attends Playspace is, in many ways, a host of the space as well.**
 
-![[content/thoughts/images/playspace-wide.png]]
+![[images/playspace-wide.png]]
 
 ## Retro Notes
 ### Sept 29

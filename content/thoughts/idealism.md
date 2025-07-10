@@ -11,11 +11,11 @@ Everything is in the mind. The intrinsic nature of ultimate reality is the mind.
 
 ## Pratyabhijna Self-awareness
 
-On [[self-knowledge|Self-knowledge]]
+On [[self-knowledge.md|Self-knowledge]]
 
 Nondual Śaiva philosophical tradition concerned with articulating and defending the idea that everything is Śiva, as well as the practices that lead to this realization
 
-A form of Cosmopsychism which is in turn a form of [[ontology|ontological]] idealism
+A form of Cosmopsychism which is in turn a form of [[ontology.md|ontological]] idealism
 
 - Ultimate Reality (Śiva)
   - Consciousness as the infinite potential for any and all manifest worlds

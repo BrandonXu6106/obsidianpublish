@@ -11,4 +11,4 @@ In this pattern, a "legacy system" (the current implementation) and a new system
 
 Named after the strangler fig which suck up the nutrients from its victims, causing them to die eventually. An original support tree can sometimes die, so that the strangler fig becomes a "columnar tree" with a hollow central core.
 
-![[strangler fig.png|250]]
+![[strangler fig.png|250](images/strangler%20fig.png)

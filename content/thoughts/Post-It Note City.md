@@ -9,7 +9,7 @@ tags:
 
 > Alphabet has the tools to design, build, fund, power, connect, monitor, and monetize a city, and that prospect scares people.
 
-See also: [[urban planning]]
+See also: [[urban planning](urban%20planning.md)
 
 ## On Participatory Planning
 
@@ -35,7 +35,7 @@ Mapwashing: "a disingenuous use of maps, apps, and other tools of participatory 
 
 Sidewalk also proposes creating more responsive public [infrastructure](infrastructure.md) (e.g. benches, stormwater pipes, power grids, etc.) which collect data continuously and make 'smart' decisions. No opt-in or out process for this type of data collection, no consent.
 
-How much of this can be attributed to the Silicon Value ethic of "[[move fast and break things]]"? It feels like Sidewalk is extrapolating too much (trying to pull short [[feedback loops]] from naturally long timescales of city which operates on multi-year long scales).
+How much of this can be attributed to the Silicon Value ethic of "[[move fast and break things](move%20fast%20and%20break%20things.md)"? It feels like Sidewalk is extrapolating too much (trying to pull short [[feedback loops](feedback%20loops.md) from naturally long timescales of city which operates on multi-year long scales).
 
 Is there a relationship between iteration cycle length and potential impact? Software people are used to iterating quickly without having consequence for each marginal build or project. Not the same case with cities where each change affects real people and there's no real 'staging' or 'development' area (see [Collingridge Dilemma](catch%2022.md))
 

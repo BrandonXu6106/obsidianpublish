@@ -13,7 +13,7 @@ aliases:
 
 ### Identity
 
-Users are identified by domain names in AT Protocol. ATProto uses a form of domain verification similar to `_dnslink` which involves adding a `TXT` record through your [[DNS]] registrar that looks like
+Users are identified by domain names in AT Protocol. ATProto uses a form of domain verification similar to `_dnslink` which involves adding a `TXT` record through your [[DNS.md]] registrar that looks like
 
 ```
 _atproto.jzhao.xyz TXT "did=did:plc:2jpflw6cyk27tp34il2tud7o"
@@ -25,22 +25,22 @@ User data is exchanged in signed data repositories. These are stored in personal
 
 A "Data Repository” is a collection of data published by a single user. Repositories are self-authenticating data structures, meaning each update is signed and can be verified by anyone. These repositories are collections of records which include posts, comments, likes, follows, media blobs, etc.
 
-Every node is an IPLD object which is referenced by a [[CID]] hash.
+Every node is an IPLD object which is referenced by a [[CID.md]] hash.
 
-Additionally, ATP's goal is to ensure that a user can migrate their account to a new PDS without the server's involvement, providing [[credible exit]].
+Additionally, ATP's goal is to ensure that a user can migrate their account to a new PDS without the server's involvement, providing [[credible exit](credible%20exit.md).
 
 ### Federation
 
-ATP syncs the repositories in a federated networking model. Federation was chosen to ensure the network is convenient to use and reliably available. Commands are sent between servers using [[HTTP]] + XRPC
+ATP syncs the repositories in a federated networking model. Federation was chosen to ensure the network is convenient to use and reliably available. Commands are sent between servers using [[HTTP.md]] + XRPC
 
 ### Scaling
 
 ATP distinguishes between "small-world" vs "big-world" networking. Small-world networking encompasses inter-personal activity while big-world networking aggregates activity outside of the user's personal interactions.
 
 - **Small-world**: delivery of events targeted at specific users such as mentions, replies, and DMs, and sync of datasets according to follow graphs.
-- **Big-world**: large-scale metrics (likes, reposts, followers), content discovery (algorithms), and [[search]]
+- **Big-world**: large-scale metrics (likes, reposts, followers), content discovery (algorithms), and [[search.md]]
 
-![[content/thoughts/images/atproto-networking.png]]
+![[images/atproto-networking.png]]
 
 ### Moderation
 
@@ -50,13 +50,13 @@ Our model is that *speech* (data, networking) and *reach* (crawling, aggrega
 
 There's no one company that can decide what gets published; instead there is a marketplace of companies deciding what to carry to their audiences.
 
-![[speech and reach layers.png]]
+![[speech and reach layers.png](images/speech%20and%20reach%20layers.png)
 
 > The base layer of ATP (Personal Data Repositories and Federated Networking) creates a common space for speech where everyone is free to participate, analogous to the Web where anyone can put up a website. The Indexing services then enable reach by aggregating content from the network, analogous to a search engine.
 
 ### DID Consortium
 
-Source of truth for [[DID|DIDs]] on ADX, operated by multiple different operators (organizations) who share ownership of service. They all operate a shared append-only log. Client send transactions to operators. Auditors can monitor the append-only log to ensure the consortium is operating as it should.
+Source of truth for [[DID.md|DIDs]] on ADX, operated by multiple different operators (organizations) who share ownership of service. They all operate a shared append-only log. Client send transactions to operators. Auditors can monitor the append-only log to ensure the consortium is operating as it should.
 
 ### Key management
 
@@ -65,6 +65,6 @@ We believe users should be given the options to use both custodial and non-custo
 The key manager has the following responsibilities:
 
 - Store root private keys
-- Publish updates to the users' [[DID|DID]] Documents
-- Create delegated keypairs through [[UCAN|UCAN]] issuance
+- Publish updates to the users' [[DID.md|DID]] Documents
+- Create delegated keypairs through [[UCAN.md|UCAN]] issuance
 - Handle recovery flows in the event of key loss

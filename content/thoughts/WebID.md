@@ -7,7 +7,7 @@ tags:
 
 [Content summarized from W3](https://www.w3.org/wiki/WebID)
 
-Similar to [[DID|DIDs]].
+Similar to [[DID.md|DIDs]].
 
 > A WebID is a way to uniquely identify a person, company, organisation, or other agent using a URI.
 
@@ -22,7 +22,7 @@ People often publish data about themselves on the Web, such as:
 
 Most importantly of all, having a Web ID allows people to reference you and declare social relations on the web (such as that you are their friend, colleague, parent, etc.) even when their profile is hosted on a _different web server_ than yours (emphasis added).
 
-Commonly uses [[FOAF|FOAFs]] for profiles.
+Commonly uses [[FOAF.md|FOAFs]] for profiles.
 
 ## Proof of Ownership
 

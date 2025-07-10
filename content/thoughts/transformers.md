@@ -4,7 +4,7 @@ date: 2022-12-07
 tags:
   - seed
 ---
-See also: [[LLMs|LLMs]], [[NLP|NLP]]
+See also: [[LLMs.md|LLMs]], [[NLP.md|NLP]]
 
 At a high-level, we can think of a transformer model as taking an input sequence of tokens of length $n$ and predicting the next token at index $n + 1$. They generally excel at sequence-to-sequence modeling tasks.
 
@@ -22,13 +22,13 @@ The collection of all the tokens the model understands is its vocabulary. The vo
 - Token B: index 1
 - Token C: index 2
 
-This lookup table is usually trained or determined independently of the LMM itself. Most people use statistical methods based on the data to figure out a good lookup table. One common example of this is [[Byte Pair Encoding|BPE]].
+This lookup table is usually trained or determined independently of the LMM itself. Most people use statistical methods based on the data to figure out a good lookup table. One common example of this is [[Byte Pair Encoding|BPE](Byte%20Pair%20Encoding.md).
 
 The first step of a transformer is turning the input text into the appropriate index in the vocabulary table.
 
 Then, we use the token index to select the associated column in the **token embedding matrix** (e.g. the 3rd token index corresponds to the 3rd column of the token embedding matrix). The values of the token embedding matrix are vectors which we call the **token embeddings**. The token embedding matrix is $[C_\text{embed}, n_\text{vocab}]$ where $C_\text{embed}$ is the dimensionality of this embedding. 
 
-Then, based on the index of the token in the input, we use it to select an appropriate column of the **position embedding matrix**. The dimensionality of this is the same as $C_\text{embed}$. We need position embeddings because, unlike RNNs and [[LSTM|LSTMs]] which operate sequentially, Transformers operate over the whole input sequence at once so it loses information related to token order.
+Then, based on the index of the token in the input, we use it to select an appropriate column of the **position embedding matrix**. The dimensionality of this is the same as $C_\text{embed}$. We need position embeddings because, unlike RNNs and [[LSTM.md|LSTMs]] which operate sequentially, Transformers operate over the whole input sequence at once so it loses information related to token order.
 
 > [!question]- Why can't we just use a column vector of what index the token is?
 > 
@@ -38,7 +38,7 @@ Then, based on the index of the token in the input, we use it to select an appro
 > - Our model should generalize to longer sentences without any efforts. Its values should be bounded.
 > - It must be deterministic.
 > 
-> We try to [[regularization|regularize]] our weights to ensure they stay close to zero (but not zero exactly!). This would disproportionately distort the embeddings of later tokens! Even if we embed it as a _fraction_ of the total sequence length (so that the position embedding for the first token is a column-vector of $0$ and the $1$ for the last token), that wouldn't work either as for different lengths of inputs, we would get different position embeddings for the same token position.
+> We try to [[regularization.md|regularize]] our weights to ensure they stay close to zero (but not zero exactly!). This would disproportionately distort the embeddings of later tokens! Even if we embed it as a _fraction_ of the total sequence length (so that the position embedding for the first token is a column-vector of $0$ and the $1$ for the last token), that wouldn't work either as for different lengths of inputs, we would get different position embeddings for the same token position.
 > 
 > The people who wrote the original Transformer paper "Attention Is All You Need" came up with a very smart way of representing position by using:
 > 
@@ -66,17 +66,17 @@ Then, based on the index of the token in the input, we use it to select an appro
 > 14. `1110`
 > 15. `1111`
 >  
->  Bits in different positions have 'differing rates of change'. The LSB flips every number, the second-LSB flips every other number, etc. and we get a unique encoding of every number. Using discrete values isn't great for [[gradient descent|gradient descent]] so what's the continuous version of what's happening here? Sinusoidal functions.
+>  Bits in different positions have 'differing rates of change'. The LSB flips every number, the second-LSB flips every other number, etc. and we get a unique encoding of every number. Using discrete values isn't great for [[gradient descent|gradient descent](gradient%20descent.md) so what's the continuous version of what's happening here? Sinusoidal functions.
 >   
 > The paper authors also experimented with learned positional embeddings and found similar performance but ultimately chose the sinusoidal version as it meant that the model can extrapolate to sequence lengths outside ones encountered in training.
 
-Token embeddings are learned during training whereas positional encodings can either be fixed or learned. As both embeddings have the same dimensionality, we simply perform an element-wise addition to get the **input [[latent-factor model|embedding]]**.
+Token embeddings are learned during training whereas positional encodings can either be fixed or learned. As both embeddings have the same dimensionality, we simply perform an element-wise addition to get the **input [[latent-factor model|embedding](latent-factor%20model.md)**.
 
 Running this for all $T$ of the input tokens gives us the input embedding matrix of size $[C_\text{embed}, T]$. This corresponds to a column vector $[C_\text{embed}, 1]$ for each token.
 
 > [!hint]- Conceptual Intuition
 > 
-> We are mapping each token to some coordinates in embedding space so the model can learn and understand the [[semantics|semantics]] of each token.
+> We are mapping each token to some coordinates in embedding space so the model can learn and understand the [[semantics.md|semantics]] of each token.
 
 ## Layer Norm
 Normalization is an important step in the training of deep neural networks, and it helps improve the stability of the model during training.
@@ -92,7 +92,7 @@ We add an additional small $\epsilon = 10^{-5}$ to prevent dividing by zero. Thi
 ## Transformer Block
 As is common in deep learning, it's hard to say exactly what each of these layers is doing, but we have some general ideas: the earlier layers tend to focus on learning lower-level features and patterns, while the later layers learn to recognize and understand higher-level abstractions and relationships.
 
-In the context of [[NLP|NLP]], the lower layers might learn grammar, syntax, and simple word associations, while the higher layers might capture more complex semantic relationships, discourse structures, and context-dependent meaning.
+In the context of [[NLP.md|NLP]], the lower layers might learn grammar, syntax, and simple word associations, while the higher layers might capture more complex semantic relationships, discourse structures, and context-dependent meaning.
 
 ### Self-attention
 
@@ -162,7 +162,7 @@ This marks the end of the transformer block and the output is ready to be passed
 ## Output
 Finally, at the end of all the transformer blocks, we perform one final softmax, which helps convert the output into probabilities.
 
-![[probabilistic classifier#Multi-class Probabilities|probabilistic classifier]]
+![[probabilistic classifier#Multi-class Probabilities|probabilistic classifier](probabilistic%20classifier.md)
 
 We then take this $[C_\text{embed}, T]$ output block and do a final matrix multiply with another set of learned weights called the language modelling head weights (LM weights) which is a $[n_\text{vocab}, C_\text{embed}]$ matrix.
 

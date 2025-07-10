@@ -9,6 +9,6 @@ tags:
 
 Eventual consistency can be *guaranteed* in any program by protecting non-monotonic statements (“points of order”) with consensus protocols
 
-Rephrased: Program semantics require [[causality|causal]] [[causality|message ordering]] if and only if the messages participate in non-monotonic derivations (e.g. set removal)
+Rephrased: Program semantics require [[causality.md|causal]] [[causality.md|message ordering]] if and only if the messages participate in non-monotonic derivations (e.g. set removal)
 
-See also: [[CALM Theorem|CALM Theorem]]
+See also: [[CALM Theorem|CALM Theorem](CALM%20Theorem.md)

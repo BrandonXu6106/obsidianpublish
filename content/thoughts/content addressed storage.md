@@ -11,17 +11,17 @@ tags:
 
 Content-addressed storage or abbreviated CAS, is a way to store information so it can be retrieved based on its content, not its location.
 
-Location-addressed: e.g. [[HTTP]], you lookup a content by its location (URI). Whoever controls the location controls the content. This location-addressed approach forces us all to pretend that the data are in only one location (even if multiple people have copies of it!)
+Location-addressed: e.g. [[HTTP.md]], you lookup a content by its location (URI). Whoever controls the location controls the content. This location-addressed approach forces us all to pretend that the data are in only one location (even if multiple people have copies of it!)
 
 Content-addressed: using the content's cryptographic hash to identify it. These links are permanent because the cryptographic hash for a piece of content never changes.
 
-See also: [[CID]], [[block-reference mechanisms]]
+See also: [[CID.md]], [[block-reference mechanisms](block-reference%20mechanisms.md)
 
 ## Immutable Objects, Mutable References
 
-The [[Merkle-DAG|Merkle-DAG]], immutable content-addressed objects, and mutable pointers to the Merkle-DAG, instantiate a dichotomy present in many successful distributed systems
+The [[Merkle-DAG.md|Merkle-DAG]], immutable content-addressed objects, and mutable pointers to the Merkle-DAG, instantiate a dichotomy present in many successful distributed systems
 
-[[IPFS|IPFS]] accomplishes this by creating a separate prefix `/ipns/<NodeID>` ofr mutable paths. One can prove ownership because only the owner of the private key of `NodeID` can publish to it
+[[IPFS.md|IPFS]] accomplishes this by creating a separate prefix `/ipns/<NodeID>` ofr mutable paths. One can prove ownership because only the owner of the private key of `NodeID` can publish to it
 
 ## Literary Machines
 
@@ -29,8 +29,8 @@ In Ted Nelson's 1981 Literary Machines, he imagined a universally addressed publ
 
 > In the computer world this will change, especially if -- as I foresee -- there will be one great repository and everything will be equally accessible. This means that "different" articles and books will more likely be _different versions of the same work,_ and _different pathways through it for different readers_
 
-The system promotes the coexistence and resolution of many viewpoints, through the sharing of private documents and comments, and the publication of [[hypertext]] complexes whose interrelationships remain orderly.
+The system promotes the coexistence and resolution of many viewpoints, through the sharing of private documents and comments, and the publication of [[hypertext.md]] complexes whose interrelationships remain orderly.
 
-![[content/thoughts/images/literary-machines.png|500]]
+![[images/literary-machines.png|500]]
 
-See also: [[plurality]]
+See also: [[plurality.md]]

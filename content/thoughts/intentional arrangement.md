@@ -11,7 +11,7 @@ Source: [The Discipline of Organizing by _Glushko_](https://berkeley.pressbooks.
 
 The intentional arrangements of resources in an [organizing system](organizing%20system.md) are the result of design decisions about what is organized, why it is organized, how much it is organized, when it is organized, and how or by whom it is organized.
 
-Can be created by top-down authoritative institutions like [[library|libraries]], museums, businesses, and governments or bottom-up self-organizing systems composed of aggregated interactions of actors with resource or with each other.
+Can be created by top-down authoritative institutions like [[library.md|libraries]], museums, businesses, and governments or bottom-up self-organizing systems composed of aggregated interactions of actors with resource or with each other.
 
 Examples of emergent organization are [desire paths](desire%20paths.md), swarm intelligence in local interactions (e.g. ants, bees, fish, etc.), or crowdsourcing (see: [emergent behaviour](emergent%20behaviour.md))
 
@@ -21,7 +21,7 @@ Standardization allows [interoperability](interoperability.md) -- especially nec
 
 Design questions/dimensional perspectives on the design of [organizing systems](organizing%20system.md)
 
-Maintaining organizing systems with long expected lifetimes mean that incremental changes to description vocabularies and classification schemes need to happen over time -- even when the categories are not always explicit. (related: [digital-gardening](digital-gardening.md))
+Maintaining organizing systems with long expected lifetimes mean that incremental changes to description vocabularies and classification schemes need to happen over time -- even when the categories are not always explicit. (related: [digital-gardening](../posts/aigc/digital-gardening.md))
 
 ### Examples
 
@@ -33,4 +33,4 @@ Putting the resources into a set without any specification of any properties the
 
 Putting resources in the same location without any additional organization. For a small collection, the proximity-to-use organizing principle is the easiest way to satisfy a requirement to minimize the time to find frequently used resources.
 
-Same concept for [[latent-factor model]]
+Same concept for [[latent-factor model](latent-factor%20model.md)

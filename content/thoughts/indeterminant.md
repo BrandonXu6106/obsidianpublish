@@ -32,7 +32,7 @@ The form usually is 'this thing is a shell' which is in the form of $F\alpha$ wh
 - Akin to the [Twin Earth Argument](Twin%20Earth%20Argument.md), "this" can refer to different things
   - Like variable naming in programming languages where unification would not unify two 'this' from different scopes
 
-[[ontology|Ontologies]] are theories of objects -- a conception of what the world is made up of. Ontologies need to be _interpreted_
+[[ontology.md|Ontologies]] are theories of objects -- a conception of what the world is made up of. Ontologies need to be _interpreted_
 
 ## Erroneous Cognition
 

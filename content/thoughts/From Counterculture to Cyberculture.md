@@ -6,13 +6,13 @@ tags:
   - book
 ---
 
-See also: [[counterculture]]
+See also: [[counterculture.md]]
 
 ## Quotes
 
 ### Digital Communalism
 
-See: [[tribe flourishing]]
+See: [[tribe flourishing](tribe%20flourishing.md)
 
 "Ubiquitous networked computing had arrived, and in its shiny array of interlinked devices, pundits, scholars, and investors alike saw the image of an ideal society: decentralized, egalitarian, harmonious, and free"
 
@@ -52,7 +52,7 @@ On the computational metaphor (seeing everything as [computable](computability.m
 
 Technocracy, technostructure, or technological society: society's rapid process of centralization and rationalization as both supported by new technologies and designed to help build them.
 
-[[research institutions#Santa Fe|Santa Fe]] Institute: founded in 1984 by a group of scientists who had come to believe that since WWII, the biological, physical, and social sciences had begun to converge. Computers, they argued, had made this convergence possible in two ways: first, they had served as tools for examining and modeling the world, and, second, the algorithms with which they organized information mimicked the algorithmic patterning of life itself by means of biological "technologies" such as DNA.
+[[research institutions#Santa Fe|Santa Fe](research%20institutions.md) Institute: founded in 1984 by a group of scientists who had come to believe that since WWII, the biological, physical, and social sciences had begun to converge. Computers, they argued, had made this convergence possible in two ways: first, they had served as tools for examining and modeling the world, and, second, the algorithms with which they organized information mimicked the algorithmic patterning of life itself by means of biological "technologies" such as DNA.
 
 ### Neocolonialism
 
@@ -68,7 +68,7 @@ WEC seems to promote an incredibly individualistic approach; Indians must work w
 
 "As a variety of economic sociologists have noted, the mid-1980s saw hierarchical firms in many industries and several nations reorganize themselves as project oriented networks. They laid off workers, broke component elements of firms into semi-independent project teams, and decentralized their management structure."
 
-"Although the hive had a queen, he pointed out it was governed by the rule-driven behaviour of its many members. In the hive one could see 'the true democracy and all distributed governance'. One could also see the faded image of New Communalism. Leveled, collaborative, linked by invisible signals and shared feelings, Kelly's hive was a sort of natural commune." (more on [collaborative-thinking](collaborative-thinking.md))
+"Although the hive had a queen, he pointed out it was governed by the rule-driven behaviour of its many members. In the hive one could see 'the true democracy and all distributed governance'. One could also see the faded image of New Communalism. Leveled, collaborative, linked by invisible signals and shared feelings, Kelly's hive was a sort of natural commune." (more on [collaborative-thinking](../posts/aigc/collaborative-thinking.md))
 
 "Together, _Wired_ suggested, this digital generation would do what the New Communalists had failed to accomplish: they would tear down hierarchies, undermine the sorts of corporations and governments that had spawned them, and, in the hierarchies' place, create a [peer-to-peer](peer-to-peer.md), collaborative society, interlinked by invisible currents of energy and information."
 
@@ -82,7 +82,7 @@ WEC seems to promote an incredibly individualistic approach; Indians must work w
 
 "Media Lab personnel were never required to produce artifiacts that could be mass-produced or that would feed directly into sponsors' lines of business per se. Instead, they were expected to produce 'demos.'"
 
-See also: [[research institutions]]
+See also: [[research institutions](research%20institutions.md)
 
 ### Misc
 

@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-> Partial [[consensus|consensus]] mechanism as an overlay on top of proposal mechanisms to finalize blocks (selecting a unique chain that represents the canonical history of the chain)
+> Partial [[consensus.md|consensus]] mechanism as an overlay on top of proposal mechanisms to finalize blocks (selecting a unique chain that represents the canonical history of the chain)
 
 It enables:
 
@@ -13,6 +13,6 @@ It enables:
 2. support for a dynamic set of validator nodes
 3. additional defences against long range revision attacks
 
-From a foundational/technical perspective, Casper is essentially chained [[Tendermint|Tendermint]]
+From a foundational/technical perspective, Casper is essentially chained [[Tendermint.md|Tendermint]]
 
 [Source Paper](https://arxiv.org/pdf/1710.09437.pdf)

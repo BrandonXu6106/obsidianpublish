@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-> Yjs is a linked-list-based, network-agnostic [[CRDT|CRDT]] implementation in Javascript.
+> Yjs is a linked-list-based, network-agnostic [[CRDT.md|CRDT]] implementation in Javascript.
 
 From [GitHub Documentation](https://github.com/yjs/yjs/blob/main/INTERNALS.md)
 
@@ -14,8 +14,8 @@ Yjs supports many different transport layers:
 1. WebRTC
 2. Websockets
 3. Libp2p + GossipSub
-4. [[Hypercore|Dat]]
-5. [[Matrix|Matrix]]
+4. [[Hypercore.md|Dat]]
+5. [[Matrix.md|Matrix]]
 
 At its heart, Yjs is a list-based CRDT:
 
@@ -42,4 +42,4 @@ YATA works by defining all data structures in terms of a doubly-linked list. Ins
 They use $<_c$ to define a total ordering which depends only on the origin, where
 
 $$o_1 < o_2 \iff o_1 \textrm{ is a predecessor of } o_2$$
-This is quite similar to [[CRDT Implementations#Replicated Growable Array RGA|RGA]]
+This is quite similar to [[CRDT Implementations#Replicated Growable Array RGA|RGA](CRDT%20Implementations.md)

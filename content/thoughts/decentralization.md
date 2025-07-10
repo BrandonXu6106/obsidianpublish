@@ -7,9 +7,9 @@ tags:
 
 The value of decentralization is in empowering people to act decisively within their social contexts
 
-![[content/thoughts/images/decentralization.png]]
+![[images/decentralization.png]]
 
-See also: [[inevitability of centralization|inevitability of centralization]]
+See also: [[inevitability of centralization|inevitability of centralization](inevitability%20of%20centralization.md)
 
 ## 3 Axes of Decentralizatiaon
 
@@ -19,7 +19,7 @@ See also: [[inevitability of centralization|inevitability of centralization]]
 
 Notes:
 
-- Architectural centralization often leads to political centralization (at least in the physical world, less true for digital spaces), this happened with [[bitcoin|Bitcoin]] and [[ethereum|Ethereum]] mining
+- Architectural centralization often leads to political centralization (at least in the physical world, less true for digital spaces), this happened with [[bitcoin.md|Bitcoin]] and [[ethereum.md|Ethereum]] mining
 
 ## Centralization
 
@@ -27,7 +27,7 @@ Notes:
 
 Most things follow a predictable life cycle along the S-shaped adoption curve.
 
-At the beginning, will do everything they can to garner usage and appear more valuable as platforms with multi-sided positive [[network effect|network effects]]. However, when they move up the S-curve, their power grows. Eventually, the relationships turn from [positive sum](positive%20sum.md) to [zero sum](zero%20sum.md). Thus, to continue growing, they must extract from users (e.g. selling user data, taxing profits, etc.)
+At the beginning, will do everything they can to garner usage and appear more valuable as platforms with multi-sided positive [[network effect|network effects](network%20effect.md). However, when they move up the S-curve, their power grows. Eventually, the relationships turn from [positive sum](positive%20sum.md) to [zero sum](zero%20sum.md). Thus, to continue growing, they must extract from users (e.g. selling user data, taxing profits, etc.)
 
 > Centralized systems often start out fully baked, but only get better at the rate at which employees at the sponsoring company improve them. Decentralized systems start out half-baked but, under the right conditions, grow exponentially as they attract new contributors.
 
@@ -38,7 +38,7 @@ At the beginning, will do everything they can to garner usage and appear more va
 1. Proprietary Centralization: creation of a protocol/application with a fixed role for a specific party (e.g. making a protocol for streaming on Zoom). Generally undesirable as it most often reflect commercial goals (strong desire to capture financial benefits by "locking in" users to a proprietary service)
 2. Beneficial Centralization: need for a single, globally coordinated "source of truth" (e.g. DNS). Need for coordination in establishing p2p connections (endpoint mutual discovery typically requires a third party)
 3. Inherited Centralization: depending on a centralized "lower-layer" protocol. Having only a single implementation of a protocol is also an inherited centralization risk because applications that use it are vulnerable to the control it has over their operation (can still happen with open source! maintaining forks for example is costly)
-4. Platform Centralization: platform for centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications (can help to mitigate this through [[federation|federation]])
+4. Platform Centralization: platform for centralization -- while the protocol itself is not centralized, it facilitates the creation of centralized services and applications (can help to mitigate this through [[federation.md|federation]])
 
 Standards efforts should focus on providing concrete utility to the majority of their users as published, rather than being a "framework" where interoperability is not immediately available.
 
@@ -54,7 +54,7 @@ Standards efforts should focus on providing concrete utility to the majority of 
 
 > Decentralization doesn't work in a vacuum, mainstream decentralized systems require a degree of activism to keep the system working
 
-"[[BitTorrent]] seems to represent the minimum viable decentralization required to stay alive as defined by the law at the time"
+"[[BitTorrent.md]] seems to represent the minimum viable decentralization required to stay alive as defined by the law at the time"
 
 Decentralization is a tactic for diffusing risk for many and lowering the risk for the activists that operate the most sensitive parts of the system. **Over applying decentralization isn't a strategy unless your goal is obscurity**
 
@@ -62,7 +62,7 @@ Decentralization is a tactic for diffusing risk for many and lowering the risk f
 
 #### Faul Tolerance
 
-Common mode failure, all pieces can [[fault tolerance|fail]] for the same reason. (e.g. all nodes in a blockchain run the same software but that software has a bug)
+Common mode failure, all pieces can [[fault tolerance|fail](fault%20tolerance.md) for the same reason. (e.g. all nodes in a blockchain run the same software but that software has a bug)
 
 To counteract this,
 
@@ -73,7 +73,7 @@ To counteract this,
 
 #### Attack Resistance
 
-From a purely mathematical and [[game theory|game theory]] perspective, decentralization may not even matter. In a finality reversion (e.g. 51% attack), a huge loss of say \$50M is still \$50M regardless of whether you have validators in 1 org or 10.
+From a purely mathematical and [[game theory|game theory](game%20theory.md) perspective, decentralization may not even matter. In a finality reversion (e.g. 51% attack), a huge loss of say \$50M is still \$50M regardless of whether you have validators in 1 org or 10.
 
 However, after considering coercion, decentralization becomes much more important. It's much harder to threaten 100 people than 1.
 

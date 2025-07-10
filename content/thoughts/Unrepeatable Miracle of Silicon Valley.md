@@ -39,7 +39,7 @@ Examples like DARPA, investing in technology that is at least a few decades away
 
 To tell a company that is accountable to shareholders and quarterly earnings calls, “Okay, the moonshot’s on you guys,” is not so great.
 
-See: [[skyhooks]]
+See: [[skyhooks.md]]
 
 ### Sandbox Model
 

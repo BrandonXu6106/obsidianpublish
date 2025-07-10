@@ -18,7 +18,7 @@ Hobbes argues that everybody living in a civilized society has implicitly agreed
 1. the establishment of a set of moral rules to govern relations among citizens (necessary if we are to gain the benefits of social living)
 2. a government capable of enforcing these rules.
 
-See also: [[Social Contract Theory]]
+See also: [[Social Contract Theory](Social%20Contract%20Theory.md)
 
 ## Social Rules for [learning](learning.md)
 

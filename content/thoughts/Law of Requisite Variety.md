@@ -9,4 +9,4 @@ tags:
 
 Only variety can absorb variety.
 
-See also: [[plurality|pluralism]]
+See also: [[plurality.md|pluralism]]

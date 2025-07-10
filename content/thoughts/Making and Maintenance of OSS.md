@@ -6,7 +6,7 @@ tags:
   - book
 ---
 
-Full post: [A case for funding Open Source](paid-open-source.md)
+Full post: [A case for funding Open Source](../posts/software/paid-open-source.md)
 
 ## Quotes
 
@@ -40,11 +40,11 @@ Like joining a club, it's not about how many times you've attending meetings but
 
 Code, like any other type of content available online today, is **trending toward modularity**: a mille-feuille layer cake of little libraries instead of one big, jiggling, Jell-O mold.
 
-"Like a book or video, code is just a bunch of information, packaged up for distribution. But its role as a [[utility|utility]] is more explicit."
+"Like a book or video, code is just a bunch of information, packaged up for distribution. But its role as a [[utility.md|utility]] is more explicit."
 
 Today, "content" is better understood not as a thing we set out to make -- as an automaker might exist solely to produce cars -- but as "an externality from [our] existing social systems." Content is a snapshot of our civilization.
 
-### Platforms and [[governance]]
+### Platforms and [[governance.md]]
 
 A "Benevolent Dictator for Life" or BDFL for short, describes authors of open source projects who retain control even as the project grows. A great example of this is Linus Torvalds, who even after 14,000 unique contributors to the Linux kernel, still is the only person allowed to merge contributions into the main branch.
 
@@ -54,7 +54,7 @@ A "Benevolent Dictator for Life" or BDFL for short, describes authors of open so
 
 "At a company, only employees can do the work, limited by their job function. But in a commons, anyone can stumble upon an advertised task and volunteer themselves. By removing 'property and contract', the commons will theoretically select for the best person for the job at a lower cost."
 
-See also: [[types of goods]]
+See also: [[types of goods](types%20of%20goods.md)
 
 Non-rivalry: If I download code from GitHub, my decision doesn't diminish your ability to download that same code. (By contrast, if I bite into an apple and hand it to you, there is now less apple for you to eat) -- a key point here is that open source software isn't necessarily non-rivalrous especially when it comes to marginal increase in maintenance for each additional user
 
@@ -79,7 +79,7 @@ There are two types of funders that care enough to spend money on open source:
 
 ### Projects and Production Models
 
-Similar to [[governance]] models
+Similar to [[governance.md]] models
 
 "While some open source developers write code in public from the very beginning, many prefer to do their initial creative work in private, so they can properly articulate their ideas before opening the project up for feedback. Even if developers do publish their code early on, they may not advertise it widely until they have something ready for release."
 

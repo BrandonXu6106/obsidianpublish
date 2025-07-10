@@ -89,7 +89,7 @@ Datalog goals seem more naturally executed through breadth-first techniques, as 
 
 Incorporating negation can be allowed by adopting the Closed World Assumption (CWA). That is, if a fact does not logically follow from a set of Datalog clauses, then we conclude that the negation of this fact is true.
 
-That is, we assume our facts _completely_ describe the domain we are interested. For the purposes of [[CRDT|CRDTs]], this unfortunately is not true.
+That is, we assume our facts _completely_ describe the domain we are interested. For the purposes of [[CRDT.md|CRDTs]], this unfortunately is not true.
 
 Even with negation in Datalog, we can't derive new facts from these negations. That is, we can't express premises that contain a negative in the formulation (e.g. "if X is a student and X is not a graduate student, then X is an undergraduate student").
 

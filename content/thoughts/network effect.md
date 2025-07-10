@@ -26,8 +26,8 @@ Things that also reinforce network effects:
 
 Both of these costs are not necessarily monetary – they can also be psychological or time/effort-based
 
-Once a platform reaches a certain level of dominance, it becomes a new _default_ and moves down a [[pace layers|layer]] of the stack:
+Once a platform reaches a certain level of dominance, it becomes a new _default_ and moves down a [[pace layers|layer](pace%20layers.md) of the stack:
 
-![[content/thoughts/images/network-effect-stack.png]]
+![[images/network-effect-stack.png]]
 
-![[content/thoughts/images/google-stack.png]]
+![[images/google-stack.png]]

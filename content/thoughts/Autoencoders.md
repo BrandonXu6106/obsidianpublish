@@ -6,14 +6,14 @@ tags:
   - CPSC340
 ---
 
-Autoencoders are neural networks with same input and output. They are [[latent-factor model|latent-factor models]]
+Autoencoders are neural networks with same input and output. They are [[latent-factor model|latent-factor models](latent-factor%20model.md)
 
 Architecture:
 
 - Includes a bottleneck layer: with dimension $k$ smaller than input $d$.
 - First layers “encode” the input into bottleneck.
 - Last layers “decode” the bottleneck into a (hopefully valid) input
-  - Can be used as a [[generative models|generative model]]!
+  - Can be used as a [[generative models|generative model](generative%20models.md)!
 
 Applications
 
@@ -21,7 +21,7 @@ Applications
 - Noise removal
 - Compression
 
-Relationship to principal component analysis ([[latent-factor model|PCA]]):
+Relationship to principal component analysis ([[latent-factor model|PCA](latent-factor%20model.md)):
 
 - With squared error and linear network (no non-linear $h$), equivalent to PCA.
 - Size of bottleneck layer gives number of latent factors $k$ in PCA.

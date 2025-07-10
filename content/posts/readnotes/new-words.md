@@ -5,7 +5,7 @@ tags:
   - fruit
 ---
 
-_This is an expansion of thoughts on [terminology](terminology.md) and why we need new words. The following is a dialogue on the original [consensus](consensus.md) problem: agreeing on what we mean. You can view the full artifact [here](https://play.jzhao.xyz/new-words)._
+_This is an expansion of thoughts on [terminology](../../thoughts/terminology.md) and why we need new words. The following is a dialogue on the original [consensus](../../thoughts/consensus.md) problem: agreeing on what we mean. You can view the full artifact [here](https://play.jzhao.xyz/new-words)._
 
 ---
 
@@ -16,19 +16,19 @@ _This is an expansion of thoughts on [terminology](terminology.md) and why we ne
 
 **P:** W, have you ever wondered we need so many words?
 
-**W:** I can't say I have. The whole point of [[language|language]] is to have shared mental models to enable us to communicate complex ideas more easily. We have complex ideas so having the right materials to express those thoughts feels important.
+**W:** I can't say I have. The whole point of [[../../thoughts/language.md|language]] is to have shared mental models to enable us to communicate complex ideas more easily. We have complex ideas so having the right materials to express those thoughts feels important.
 
 **P:** Well, don't we have enough words to express all we want to express already? There are innumerable ways to combine the words we already do have.
 
-**W:** There is a form of epistemic injustice known as [hermeneutical injustice](hermeneutical%20injustice.md) where one has no labels or common [terminology](terminology.md) to describe or explain experiences to others. Clearly, there are not enough words to express the human experience.
+**W:** There is a form of epistemic injustice known as [hermeneutical injustice](../../thoughts/hermeneutical%20injustice.md) where one has no labels or common [terminology](../../thoughts/terminology.md) to describe or explain experiences to others. Clearly, there are not enough words to express the human experience.
 
 **P:** Okay, well I can admit that having more words can be helpful. But who is to say what each word means? Who is to say that the word 'apple' even refers to the fruit I just ate, or that 'metaverse' is even a real word?
 
-**W:** Language is logically [decentralized](decentralization.md), is it not? There is no governing body that determines what a word means. The meaning of a word lies in its use[^1], and that is decided by those who speak the language.
+**W:** Language is logically [decentralized](../../thoughts/decentralization.md), is it not? There is no governing body that determines what a word means. The meaning of a word lies in its use[^1], and that is decided by those who speak the language.
 
 **P:** That is not necessarily true though. The language of the law sets out centralized definitions for words _so_ that definitions cannot be swayed or morphed to fit the needs of its wielders. Similarly, at the start of a mathematical proof, one should _always_ define the axioms or givens to be agreed upon before attempting to use them in any capacity.
 
-**W:** There seems to be a flaw in your argument. Yes, I agree that a consistent set of definitions is required for any sort of productive knowledge sharing. But you fail to account for **[[plurality]]**. [Context](context.md) modifies meaning.
+**W:** There seems to be a flaw in your argument. Yes, I agree that a consistent set of definitions is required for any sort of productive knowledge sharing. But you fail to account for **[[../../thoughts/plurality.md]]**. [Context](../../thoughts/context.md) modifies meaning.
 
 **P:** Plurality as in a multitude of definitions?
 
@@ -36,11 +36,11 @@ _This is an expansion of thoughts on [terminology](terminology.md) and why we ne
 
 **P:** Well that is almost certainly problematic as well, is it not? Too many competing definitions cannot be a good thing. We have dictionaries for a reason. How would anyone new to learning English be able to grasp the nuances of all of the meaning and history behind each term? It would get overwhelming incredibly quickly.
 
-**W:** I concede that you have a good point. However, we can take a leaf out of Karl Popper's [^3] book: the _[[Microworld|lie-to-children]]_. We can create simple glossaries and terminological definitions as some abstraction for the larger, more nuanced concepts of the real world.
+**W:** I concede that you have a good point. However, we can take a leaf out of Karl Popper's [^3] book: the _[[../../thoughts/Microworld.md|lie-to-children]]_. We can create simple glossaries and terminological definitions as some abstraction for the larger, more nuanced concepts of the real world.
 
 **P:** Wait... lying is categorically bad is it not?
 
-**W:** Hold on and let me finish my thought. According to Pratchett[^2], "a lie-to-children is a statement that is false, but which nevertheless leads the child's mind towards a more accurate explanation." I think what I'm trying to get at is this concept of [[verisimilitude]]: that there is no binary true or false, [some propositions are more true](philosophy%20of%20science.md) than others, especially in context.
+**W:** Hold on and let me finish my thought. According to Pratchett[^2], "a lie-to-children is a statement that is false, but which nevertheless leads the child's mind towards a more accurate explanation." I think what I'm trying to get at is this concept of [[../../thoughts/verisimilitude.md]]: that there is no binary true or false, [some propositions are more true](../../thoughts/philosophy%20of%20science.md) than others, especially in context.
 
 **P:** Okay, I accept that taking a toy-model approach to new terminology makes sense. But I still don't understand why we couldn't just have a single definition for each word in this model.
 
@@ -48,11 +48,11 @@ _This is an expansion of thoughts on [terminology](terminology.md) and why we ne
 
 Of course, this is not to say that definitions are not important. In fact, quite the opposite. Definitions hold immense power in shaping how we talk and think about the world writ large. What I am saying is that language needs the ability to evolve on its own. Individuals and groups should have the agency to 'reclaim' harmful and outdated definitions.
 
-**P:** Isn't this exactly _why_ we need centralization? This is like [[Plato's Ship of State|Plato's Ship of State]][^4]. Any large vessel by their very nature needs to be steered firmly. Those aboard must yield to their captain's commands; no reasonable person believes that a ship can be run democratically.
+**P:** Isn't this exactly _why_ we need centralization? This is like [[Plato's Ship of State|Plato's Ship of State](../../thoughts/Plato's%20Ship%20of%20State.md)[^4]. Any large vessel by their very nature needs to be steered firmly. Those aboard must yield to their captain's commands; no reasonable person believes that a ship can be run democratically.
 
-**W:** Would sailors want to obey a captain who takes them somewhere they don't want to be? No. I imagine language like multiple small ships, each one with its own crew (crew of course, meaning an agreed meaning for a set of definitions). Let me reiterate without the ship metaphor: language requires **localized** [consensus](consensus.md) for it to function.
+**W:** Would sailors want to obey a captain who takes them somewhere they don't want to be? No. I imagine language like multiple small ships, each one with its own crew (crew of course, meaning an agreed meaning for a set of definitions). Let me reiterate without the ship metaphor: language requires **localized** [consensus](../../thoughts/consensus.md) for it to function.
 
-**P:** Ah, now I see that you don't mean complete [decentralization](decentralization.md), that makes a lot more sense. I can agree on this. I am, however, curious about how local agreement should propagate to become widely accepted. After all, almost all English speakers can agree and what an 'apple' refers to, yet nobody seems to have a good definition for relatively newer terminology like the 'metaverse'.
+**P:** Ah, now I see that you don't mean complete [decentralization](../../thoughts/decentralization.md), that makes a lot more sense. I can agree on this. I am, however, curious about how local agreement should propagate to become widely accepted. After all, almost all English speakers can agree and what an 'apple' refers to, yet nobody seems to have a good definition for relatively newer terminology like the 'metaverse'.
 
 **W:** This is an interesting question to think about. Not only do we need to think about spatial locality, but also temporal locality as well. I'd like to think about this in terms of metallurgical annealing if you'd let me.
 
@@ -75,9 +75,9 @@ Early on, achieving local consensus on a definition is rather easy; there are on
 **W:** This seems quite difficult for terminology already ingrained within society. Especially as meaning is not dictated by some central organization, any old definitions
 need to be collectively forgotten. As we concluded earlier, this is incredibly difficult for widely used terms.
 
-As we enter an age of digital permanency, we should normalize the [[right to be forgotten|right to be forgotten]] for terminology. It should be normal for terminology to be forgotten -- for it to slip through the hands of time like sand.
+As we enter an age of digital permanency, we should normalize the [[right to be forgotten|right to be forgotten](../../thoughts/right%20to%20be%20forgotten.md) for terminology. It should be normal for terminology to be forgotten -- for it to slip through the hands of time like sand.
 
-**P:** This ignores a lot of history, does it not? "By changing what we were, you change what we are and what we are going to be."[^5] This is a form of erasure through terminology change. By '[[forgetting|forgetting]]' terminology, you deny its existence.
+**P:** This ignores a lot of history, does it not? "By changing what we were, you change what we are and what we are going to be."[^5] This is a form of erasure through terminology change. By '[[../../thoughts/forgetting.md|forgetting]]' terminology, you deny its existence.
 
 **W:** I may have phrased my words poorly, that was not my intention. Maybe abandoned is a better word? I want to create dictionaries and glossaries that keep terminological history. A sort of 'append-only' record of how terminology has split, died, and evolved over time.
 
@@ -89,7 +89,7 @@ As we enter an age of digital permanency, we should normalize the [[right to be 
 
 **W:** The 'metaverse' for one could use a lot of redefinition. Meta has put a lot of effort into claiming and defining this term for their own benefit -- a closed, profit-driven, and attention-farming dystopia. A few groups have cropped up around reclaiming some of this terminology, including one forking John Perry Barlow’s 1996 [Declaration for the Independence of Cyberspace](https://www.eff.org/cyberspace-independence) as a reaction to Facebook's recent rebranding as Meta.
 
-Likewise, many groups across the world have tried to redefine and hard-fork the definition of '[[Hackers|hackers]]' for quite some time. Hacking, as known by the general public, generally refers to gaining unauthorized access to technology. Yet within this local hacker subcommunity, a hacker is widely defined as one who builds and creates for the sake of creating.
+Likewise, many groups across the world have tried to redefine and hard-fork the definition of '[[../../thoughts/Hackers.md|hackers]]' for quite some time. Hacking, as known by the general public, generally refers to gaining unauthorized access to technology. Yet within this local hacker subcommunity, a hacker is widely defined as one who builds and creates for the sake of creating.
 
 **P:** I am increasingly convinced by your argument against centralized definitions. I think, as a society, we need to think more critically about language and terminology and how they carry power. We want to enable evolution and creation of new terminology to enable others to have the language to speak of their lived experiences and complex ideas.
 
@@ -97,9 +97,9 @@ Likewise, many groups across the world have tried to redefine and hard-fork the 
 
 **P:** What sort of alternative are you proposing?
 
-**W:** A collectively curated glossary of sorts. One which involves a rich history and [context](context.md) of terms, [[plurality|pluralist]] in nature, and always ongoing. If meaning is a negotiation, then the history of that negotiation needs to be a crucial part of achieving consensus on the meaning.
+**W:** A collectively curated glossary of sorts. One which involves a rich history and [context](../../thoughts/context.md) of terms, [[../../thoughts/plurality.md|pluralist]] in nature, and always ongoing. If meaning is a negotiation, then the history of that negotiation needs to be a crucial part of achieving consensus on the meaning.
 
-Let us create a new glossary of terminology. May it be _a_ source of [truth](truth.md) rather than _the_ source of truth.
+Let us create a new glossary of terminology. May it be _a_ source of [truth](../../thoughts/truth.md) rather than _the_ source of truth.
 
 [^1]: _Philosophical Investigations_, Ludwig Wittgenstein
 [^2]: _The Science of Discworld_, Terry Pratchett

@@ -13,7 +13,7 @@ DAOs give us structured ways to [collect](https://foundation.app/blog/pleasrdao)
 
 Inherently transparent, every aspect of the org is public. The most infamous DAO, [The DAO](<https://en.wikipedia.org/wiki/The_DAO_(organization)>), was a decentralized VC fund. Eventually raised $150M but had $60M hacked, leaving a negative impression/skepticism around DAOs for a while.
 
-All members can still be anonymous and built reputations attached to their [pseudonym](pseudonymity.md) rather than real [[identity|identity]], hopefully helps to create a more even playing field
+All members can still be anonymous and built reputations attached to their [pseudonym](pseudonymity.md) rather than real [[identity.md|identity]], hopefully helps to create a more even playing field
 
 ## Potential Issues
 

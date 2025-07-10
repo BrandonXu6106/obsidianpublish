@@ -11,13 +11,13 @@ Sources: [Money Language _in Kernel_](https://kernel.community/en/learn/module-0
 
 Money is old. "We have yet to discover a civilization that didn't have money. So, we know it's at least as old as civilization."
 
-Money is a [[language|language]] through which to communicate value. Then, was does this mean for [decentralization](decentralization.md)? No one should control the expression of economic value in exactly the same way that no one controls the meaning of words: they are arrived at consensually through common use.
+Money is a [[language.md|language]] through which to communicate value. Then, was does this mean for [decentralization](decentralization.md)? No one should control the expression of economic value in exactly the same way that no one controls the meaning of words: they are arrived at consensually through common use.
 
 What money is, how it is created, and who gets to distribute it goes to the very heart of the ways in which we are all incentivised to act
 
 [Incentives](incentives.md) can be thought of as the [social, political and neurobiological primitives](social%20contracts.md) which define what kinds of behaviours we express.
 
-> Programmable money provides [[utility|utility]] which makes it much more than just money for the internet: **it turns it into the [internet](Internet.md) of money**.
+> Programmable money provides [[utility.md|utility]] which makes it much more than just money for the internet: **it turns it into the [internet](Internet.md) of money**.
 
 Money allows specialization, allowing goods and services to be transformed into a intermediary representation that is accepted by society.
 

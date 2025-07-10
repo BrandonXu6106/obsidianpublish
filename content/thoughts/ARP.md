@@ -10,9 +10,9 @@ Purpose: links the [Network Layer](Network%20Layer.md) (IP address) with the [li
 
 Case: A wants to send a datagram to B, but A doesn't know B's MAC address
 
-- A broadcasts an ARP query packet with an [[IP Address|IP Address]]: "who has IP address 130.207.160.47?"
+- A broadcasts an ARP query packet with an [[IP Address|IP Address](IP%20Address.md): "who has IP address 130.207.160.47?"
 - B receives ARP request with that IP address on the LAN will respond with appropriate MAC address.
-- Generates an ARP Table maps IP to [[MAC]]
+- Generates an ARP Table maps IP to [[MAC.md]]
   - This is soft state, information that goes away unless refreshed. Each entry has a time limit
 
 General Notes

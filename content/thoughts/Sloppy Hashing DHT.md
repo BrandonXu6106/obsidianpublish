@@ -9,7 +9,7 @@ aliases:
 
 [Source](https://www.cs.princeton.edu/~mfreed/docs/coral-iptps03.pdf)
 
-Main problems with [[Kademlia DHT]] is that it has poor locality. A peer could make requests that hop all the way around the globe when the information they are looking for is in their local network!
+Main problems with [[Kademlia DHT](Kademlia%20DHT.md) is that it has poor locality. A peer could make requests that hop all the way around the globe when the information they are looking for is in their local network!
 
 > Though some DHTs make an effort to route requests through nodes with low network latency, the last few hops in any lookup request are essentially random. Thus, a node might need to send a query half way around the world to learn that its neighbor is caching a particular web page.
 
@@ -35,11 +35,11 @@ For example, a node can be a part of 3 clusters, and L0, L1, and L2.
 
 Similar concept to isochrone maps
 
-![[content/thoughts/images/isochrone.png|500]]
+![[images/isochrone.png|500]]
 
 ## Downsides
 
-- The privacy sucks sucks: nodes publish not only their [[IP Address]] but the path to get there too!
+- The privacy sucks sucks: nodes publish not only their [[IP Address](IP%20Address.md) but the path to get there too!
 - Requires network size estimation which is hard to do if the number of nodes are small (i.e. requires a large deployment to be effective)
-  - Can be done using [[Network Theory]] as lookups are on average $O(\log n)$ hops
-- Not [[Byzantine Faults|BFT]]: a malicious actor could pollute the DHT and cause really poor routing
+  - Can be done using [[Network Theory](Network%20Theory.md) as lookups are on average $O(\log n)$ hops
+- Not [[Byzantine Faults|BFT](Byzantine%20Faults.md): a malicious actor could pollute the DHT and cause really poor routing

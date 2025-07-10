@@ -7,7 +7,7 @@ aliases:
   - data privacy
 ---
 
-Privacy isn't about shutting out everyone and everything. Instead, privacy gives you the power to [[agency|choose]] what and with whom you'll share. It provides safety, control and the right to grant access.
+Privacy isn't about shutting out everyone and everything. Instead, privacy gives you the power to [[agency.md|choose]] what and with whom you'll share. It provides safety, control and the right to grant access.
 
 Privacy gives you the ability to express yourself, to be creative, to spend your time and your money in whatever manner you like, without the scrutiny of others. It protects our intimate moments, our most embarrassing ambitions, our radical ideas and the ability to be our true selves.
 
@@ -40,7 +40,7 @@ Data anonymization isn't enough. Even if some of the data is scrambled and perso
 
 Privacy is the way in which a social group recognizes and communicates to the individual that he is responsible for his development as a unique person, a separate moral agent
 
-It's valuable because it lets us be ourselves. In order to have different kinds of social relationships with different people, we need to have some kind of control over who knows what about us (see: [[context-collapse|context collapse]], [[Fishbowl effect]])
+It's valuable because it lets us be ourselves. In order to have different kinds of social relationships with different people, we need to have some kind of control over who knows what about us (see: [[../posts/aigc/context-collapse.md|context collapse]], [[Fishbowl effect](Fishbowl%20effect.md))
 
 ## Differential Privacy
 
@@ -73,9 +73,9 @@ An example she draws in her work is imagining your interactions with your physic
 
 Now, let’s imagine you leave your doctor’s office and fire up Instagram to take your mind off the diagnosis he just gave you, which is that you don’t have brain cancer but you simply suffer from chronic migraines and will just have to deal. Scrolling past pictures of friends and celebrities, you see an advertisement for a migraine medication, specifically for the vestibular migraines you suffer from. While two seconds ago you were willing to send images of your brain across the world for medical advice, you now feel horribly violated knowing that everyone from Facebook to a pharma marketing team know about your condition.
 
-**The [[context]] of your privacy—what’s being revealed to whom and for what reason—utterly changed and you had no say in it.**
+**The [[context.md]] of your privacy—what’s being revealed to whom and for what reason—utterly changed and you had no say in it.**
 
-See also: [[GDPR|GDPR]]
+See also: [[GDPR.md|GDPR]]
 
 ## Proxemics
 
@@ -90,7 +90,7 @@ There are four zones in proxemics
 2. the personal, the "living room"
    - It’s semi-private, but can also host large groups and conversations that are designed to be public, private, or in-between. This setting allows for more intimacy because it allows for a smaller group. This design functions much like a salon or a group gathered for lively debate. The living room is a metaphor for a closed Facebook group or a WhatsApp chat group.
 3. the social, the "park bench"
-   - It’s like [[walking|walking]] down the street and engaging in conversation with a coworker or friend, or having a discussion on the tube or in a pub—is a space where anyone can have a conversation between two or a few people, but that conversation takes place in public. Those in the conversation can control who hears it by lowering their voice or walking to a less populated area.
+   - It’s like [[walking.md|walking]] down the street and engaging in conversation with a coworker or friend, or having a discussion on the tube or in a pub—is a space where anyone can have a conversation between two or a few people, but that conversation takes place in public. Those in the conversation can control who hears it by lowering their voice or walking to a less populated area.
 4. and the public space, the "town hall"
    - This is where we shout our thoughts or share things we don’t mind thousands of people seeing. The town hall is a public square for speaking loudly and deliberately. Your thoughts can spread virally; They will be heard, amplified and sometimes misinterpreted.
 

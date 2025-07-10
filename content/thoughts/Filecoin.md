@@ -9,7 +9,7 @@ tags:
 
 Summarized from [Filecoin Specs](https://spec.filecoin.io/)
 
-Essentially a [[decentralized marketplace|decentralized marketplace]] (see: [storage market](https://spec.filecoin.io/systems/filecoin_markets/storage_market/)) with storage providers and storage users. Providers advertise space and cost and client selects winning storage provider (creating competition). Provider stores the content and is paid with Filecoin on an ongoing basis as long as they can prove they are storing the data properly.
+Essentially a [[decentralized marketplace|decentralized marketplace](decentralized%20marketplace.md) (see: [storage market](https://spec.filecoin.io/systems/filecoin_markets/storage_market/)) with storage providers and storage users. Providers advertise space and cost and client selects winning storage provider (creating competition). Provider stores the content and is paid with Filecoin on an ongoing basis as long as they can prove they are storing the data properly.
 
 ## Filecoin Blockchain + VM
 
@@ -25,16 +25,16 @@ Mostly reuses existing libp2p library bits
 
 - Graphsync: used for syncing metadata and blockchain data
 - Gossipsub: propagating block headers + messages
-- [[Kademlia DHT|Kademlia DHT]]: peer discovery + peer routing
+- [[Kademlia DHT|Kademlia DHT](Kademlia%20DHT.md): peer discovery + peer routing
 - Bootstrap list: list of nodes to connect to upon joining the network, bootstrap nodes and their addresses are defined by the users (i.e. applications)
 
 ## Clocks and Time
 
-See also: [[clocks|clocks]]
+See also: [[clocks.md|clocks]]
 
 Uses the concept of epochs where $epoch = \lfloor \frac{(current \ time - genesis \ time)}{epoch \ time} \rfloor$
 
-Clocks used as part of the Filecoin protocol should be kept in sync, with offset less than 1 second so as to enable appropriate validation. Nodes SHOULD run an [[Network Time Protocol|NTP]] daemon (e.g. timesyncd, ntpd, chronyd) to keep their clocks synchronized to one or more reliable external references.
+Clocks used as part of the Filecoin protocol should be kept in sync, with offset less than 1 second so as to enable appropriate validation. Nodes SHOULD run an [[Network Time Protocol|NTP](Network%20Time%20Protocol.md) daemon (e.g. timesyncd, ntpd, chronyd) to keep their clocks synchronized to one or more reliable external references.
 
 Nodes have strong incentive to prevent their clock skewing ahead more than one epoch to keep their block submissions from being rejected. Similarly have a strong incentive to prevent their clocks skewing behind more than one epoch to avoid partitioning themselves off from the synchronized nodes in the network.
 
@@ -60,7 +60,7 @@ The sectors a miner has pledged to store, the more the partitions of sectors tha
 
 ### GossipPub
 
-GossipSub is a [[gossip|gossip]]-based pubsub protocol that is utilising two types of links to propagate messages:
+GossipSub is a [[gossip.md|gossip]]-based pubsub protocol that is utilising two types of links to propagate messages:
 
 1. *mesh links* that carry full messages in an *eager-push* (i.e., proactive send) manner and
 2. *gossip-links* that carry message identifiers only and realise a *lazy-pull* (i.e., reactive request) propagation model.

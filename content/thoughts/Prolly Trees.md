@@ -5,9 +5,9 @@ tags:
   - seed
 ---
 
-Everything that can apply to B+ Trees and database indexes, can now apply to Prolly Trees with the added ability of it being [[peer-to-peer]], sparsely loaded, and mergeable.
+Everything that can apply to B+ Trees and database indexes, can now apply to Prolly Trees with the added ability of it being [[peer-to-peer.md]], sparsely loaded, and mergeable.
 
-This enables multi-tenant peer-to-peer [[search]]. With p2p databases we can begin to build up search indexes collaboratively with community members, where individuals or smaller groups can participate in generating indexed data, and larger indexes being formed from combining the smaller ones.
+This enables multi-tenant peer-to-peer [[search.md]]. With p2p databases we can begin to build up search indexes collaboratively with community members, where individuals or smaller groups can participate in generating indexed data, and larger indexes being formed from combining the smaller ones.
 
 ## Why not just B-Trees?
 
@@ -33,6 +33,6 @@ However, these are not Sybil resistant
 
 A Prolly Tree is a search tree where the number of values stored in each node is determined probabilistically, based on the data which is stored in the tree.
 
-Within each hash, we look for a pattern that has a known probability of occuring. If the pattern is found, that position is a boundary. We slide the window forward to the end of the containing item, and write a new chunk containing the bytes between this boundary and the previous, if any. The resulting chunk is stored in a [[content addressed storage]] system
+Within each hash, we look for a pattern that has a known probability of occuring. If the pattern is found, that position is a boundary. We slide the window forward to the end of the containing item, and write a new chunk containing the bytes between this boundary and the previous, if any. The resulting chunk is stored in a [[content addressed storage](content%20addressed%20storage.md) system
 
 In Noms, the pattern we look for is the 12 high bits being 1. Since this has a probability of 1/2^12, the average chunk size in Noms is 4kb.

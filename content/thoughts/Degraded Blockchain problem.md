@@ -13,4 +13,4 @@ The blockchain really only stores a _pointer_ to a good 99% of content that supp
 
 The only thing that actually connects the blockchain with the 'off-chain' value is... you guessed it... trust.
 
-[^1]: Also, how do we go about trusting the algorithm that is 'cryptographically secure' when a good 99.5% of the users don't actually understand how blockchain and [[cryptography|cryptography]] works?
+[^1]: Also, how do we go about trusting the algorithm that is 'cryptographically secure' when a good 99.5% of the users don't actually understand how blockchain and [[cryptography.md|cryptography]] works?

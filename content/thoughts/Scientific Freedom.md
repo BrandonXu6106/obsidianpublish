@@ -12,7 +12,7 @@ Book by Donald W. Braben on scientific progress.
 
 Transformative research: research that sets out to radically change the way we think about an important subject
 
-See also: [[research institutions|research institutions]], [[independent research|independent research]], [[scientific progress|scientific progress]]
+See also: [[research institutions|research institutions](research%20institutions.md), [[independent research|independent research](independent%20research.md), [[scientific progress|scientific progress](scientific%20progress.md)
 ## Critiques on current institutions for science
 
 - Research *proposals* are not treated as if they were completed works, and the so-called best, as selected by peer review, determine the search that gets done. This inhibits the scope of scientific progress
@@ -20,7 +20,7 @@ See also: [[research institutions|research institutions]], [[independent researc
 - Nature does not respect consensus. We cannot expect to actually make progress simply because we have agreed among ourselves that progress lies in a particular direction. Unless, of course, that direction is a simple extrapolation from what has gone before, but such objectives usually serve only to consolidate -- unless researchers are free to follow interesting observations wherever they might lead.
 	- Committees can rarely, if ever, be creative. The fact that the best scientists might be involved is irrelevant. It can, of course, provide a defense against criticism as a committee's membership can cloak its conclusions with respectability, but the collective responses of any group, however distinguished they may be as individuals, are usually uninspiring and based on compromise
 - On March 3, 2007 *The Economist* published a well-documented briefing on the shift from research to development, particularly in the big companies. Industrialists presiding over R&D's loss of the ampersand, as *The Economist* succinctly puts it, might therefore have a rude awakening when, as they have long been accustomed to doing, they turn to academia for new scientific insights. It may simply not be available in the quality or breadth they look for.
-- Scientists back then could afford the investments of time and energy to make their work more accessible because they had much more security in those days. Those taking on these duties today would be penalized as they would have less time to spend on their endless searches for new funding. See also: [[research debt|research debt]]
+- Scientists back then could afford the investments of time and energy to make their work more accessible because they had much more security in those days. Those taking on these duties today would be penalized as they would have less time to spend on their endless searches for new funding. See also: [[research debt|research debt](research%20debt.md)
 
 ### Case study of the rise and fall of the UGC in the UK
 In the early 20th century the UK government "acknowledge and assured the existence of a large area of free action in which the universities did as they thought right, according to the lights that were interior to them" (Daalder and Shils 1982, 439).
@@ -33,7 +33,7 @@ Thus, university autonomy became severely compromised, and the climate of fear t
 
 ## Research Taste
 
-See also: [[agency|Agency]] and finding ones own [[iconic space|iconic space]], [[aesthetics-and-taste]]
+See also: [[agency.md|Agency]] and finding ones own [[iconic space|iconic space](iconic%20space.md), [[../posts/aigc/aesthetics-and-taste.md]]
 
 - "The state of mind which furnishes the driving power here resembles that of the devotee or the lover. The long-sustained effort is not inspired by any set plan or purpose. Its inspiration arises from a hunger of the soul." (Albert Einstein, in his Preface to Max Planck's book, *Where is Science Going?*)
 - Scientific progress on a broad front results from the free play of free intellects, working on subjects of their own choice, in the manner dictated by their curiosity for exploration of the unknown (Vannevar Bush, 1945)

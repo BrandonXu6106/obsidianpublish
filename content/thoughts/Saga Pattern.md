@@ -4,7 +4,7 @@ date: "2025-05-25"
 tags:
   - seed
 ---
-A way to implement [[distributed atomic transaction|distributed atomic transactions]] without the overhead of [[Two-phase commit|thoughts/2PC]]
+A way to implement [[distributed atomic transaction|distributed atomic transactions](distributed%20atomic%20transaction.md) without the overhead of [[Two-phase commit|thoughts/2PC](Two-phase%20commit.md)
 
 A **saga** is a sequence of local transactions.
 
@@ -17,4 +17,4 @@ A **saga** is a sequence of local transactions.
 ## Drawbacks
 
 - Lack of automatic rollback: a developer must design compensating transactions that explicitly undo changes made earlier in a saga rather than relying on the automatic rollback feature of ACID transactions
-- Lack of [[isolation|isolation]]: means that there’s risk that the concurrent execution of multiple sagas and transactions can use data anomalies.
+- Lack of [[isolation.md|isolation]]: means that there’s risk that the concurrent execution of multiple sagas and transactions can use data anomalies.

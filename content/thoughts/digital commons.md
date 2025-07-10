@@ -15,7 +15,7 @@ How might we analogize [urban planning](urban%20planning.md) to social media and
 
 "Public spaces are so generative precisely because we run into people we’d normally avoid, encounter events we’d never expect, and have to negotiate with other groups that have their own needs."
 
-[[friction|Friction]] is essential to public space. Rapid growth can quickly overwhelm and destroy it—as anyone who has lived in a gentrifying neighborhood knows.
+[[friction.md|Friction]] is essential to public space. Rapid growth can quickly overwhelm and destroy it—as anyone who has lived in a gentrifying neighborhood knows.
 
 There is also a nuanced labor of governance and maintenance—finding the balance between welcoming everyone and providing safety and comfort for everyone—is critical to the health of online communities
 
@@ -23,10 +23,10 @@ There is also a nuanced labor of governance and maintenance—finding the balanc
 
 By [Jon Borichevskiy](https://jon.bo/posts/internet-studio-gardens/)
 
-[[software principles|Principles for Internet Spaces]]
+[[software principles|Principles for Internet Spaces](software%20principles.md)
 
 1. Places where they might drift over to peers in adjacent spaces for the chance – but not the obligation – to respond or otherwise reflect upon, completing the loop at the speed of a lazy river instead of a light circuit (see: [friction](friction.md), [pace layers](pace%20layers.md))
-2. There might even be different seasons of [play](content/thoughts/play.md): periods of divergent planting and nurturing followed by collective harvesting and pruning (see: [exploit explore](exploit%20explore.md))
+2. There might even be different seasons of [play](play.md): periods of divergent planting and nurturing followed by collective harvesting and pruning (see: [exploit explore](exploit%20explore.md))
 3. Just permeable enough to be discovered by those curious enough to add their own drawings and words. **Details just hidden enough to be carefully unearthed by the intentional visitor**
 
 ## Creating Digital Spaces
@@ -129,6 +129,6 @@ The publicness that is created in online spaces is still a relation between actu
 
 > There is always only IRL - transformed, layered, and intensified by digital techniques
 
-(All digital publics as [[Overlay Network|overlay networks]] onto IRL networks?)
+(All digital publics as [[Overlay Network|overlay networks](Overlay%20Network.md) onto IRL networks?)
 
 In architecture, adaptive reuse is about repurposing old sites to new functions. Factories get converted to lofts, industrial districts to cultural zones, shipping containers to ghost kitchens, or the underneath of expressways to public spaces. What does adaptive reuse look like for digital spaces? How can we make the aesthetic of repurposed but worn spaces appealing for the digital? What is the brownstone of software?

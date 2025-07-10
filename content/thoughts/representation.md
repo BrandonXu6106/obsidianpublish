@@ -7,7 +7,7 @@ tags:
 
 ## Symbolic Representation
 
-Dretske just doesn't agree that the Pioneer 10 space probe plate symbols will mean anything to any alien life. We find it easy to understand because we have the [[context]] and we live on this planet
+Dretske just doesn't agree that the Pioneer 10 space probe plate symbols will mean anything to any alien life. We find it easy to understand because we have the [[context.md]] and we live on this planet
 
 What sort of things can be representations?
 

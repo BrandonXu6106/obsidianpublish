@@ -14,8 +14,8 @@ A protocol for peer-to-peer data stores.
 ### Properties
 - As many of these stores as you want, keyed to different namespaces. When stores from different devices belong to the same namespace, they deterministically sync with each other.
 - Private and end-to-end encrypted. Other users can't find out what you’re interested in unless they already know about it themselves.
-- Total [[deletion|delete]] via prefix pruning (essentially cutting a tree of causal dependencies by trimming down to root and marking that with a single tombstone). Destructive edits. When you update a value, the old values and associated metadata are overwritten.
-- Fine grained [[access control|access control]]. Restrict read and write access by semantically meaningful ranges of data, or time range.
+- Total [[deletion.md|delete]] via prefix pruning (essentially cutting a tree of causal dependencies by trimming down to root and marking that with a single tombstone). Destructive edits. When you update a value, the old values and associated metadata are overwritten.
+- Fine grained [[access control|access control](access%20control.md). Restrict read and write access by semantically meaningful ranges of data, or time range.
 - Peers can communicate resource budgets, so devices with very limited memory can sync too.
 
 ## Data Model
@@ -30,7 +30,7 @@ For any given subspace, you can address payloads via paths (e.g. `blog/idea/1` a
 
 Entries live in separate subspace owned by different users (intuitively, each user writes to their own, separate universe of data. Willow allows for various ways of controlling who gets to write to which subspace)
 
-![[content/thoughts/images/willow-subspaces.png]]
+![[images/willow-subspaces.png]]
 
 Interestingly, namespaces can also be aggregated into namespaces.
 
@@ -72,7 +72,7 @@ A join of two stores is obtained by:
 - For all `Entry` with the same `SubspaceID`, `Path`, and `Timestamp`, remove them all except for the one with the greatest `PayloadDigest`
 - For all `Entry` with the same `SubspaceID`, `Path`, `Timestamp`, and `PayloadDigest`, remove them all except for the one with the greatest `payload_length`
 
-Stores form a [[CRDT#State-based|state-based CRDT]] under the join operation.
+Stores form a [[CRDT.md#State-based|state-based CRDT]] under the join operation.
 
 ### Grouping Entries
 [Source](https://willowprotocol.org/specs/grouping-entries/index.html#grouping_entries)
@@ -115,7 +115,7 @@ When interacting with a peer in Willow, there are two fundamental operations:
 1. writing data — asking your peer to add `Entries` to their stores, and
 2. reading data — asking your peer to send `Entries` to you
 
-Both operations should be restricted. In Willow, this is done via a [[access control|capabilities system]] called Meadowcap.
+Both operations should be restricted. In Willow, this is done via a [[access control|capabilities system](access%20control.md) called Meadowcap.
 
 A capability is an unforgeable token that bestows read or write access for some data to a particular person, issued by the owner of that data. A capability bestows not only access rights but also the ability to mint new capabilities for the same resources but to another peer
 

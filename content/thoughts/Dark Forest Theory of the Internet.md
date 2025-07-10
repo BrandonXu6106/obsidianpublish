@@ -7,7 +7,7 @@ aliases:
   - cozy web
 ---
 
-Related: [Moving Castles](Moving%20Castles.md), [[cozy software]]
+Related: [Moving Castles](Moving%20Castles.md), [[cozy software](cozy%20software.md)
 
 [Source: The Dark Forest Theory of the Internet by _Yancey Strickler_](https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1)
 
@@ -22,13 +22,13 @@ It's unsafe to reveal yourself to them in any authentic way. So we retreat into 
 In these cases, the specific context and audience is well-defined. More users are also turning to 'finstas' which are accounts focused for a closed group of friends and family rather than the entire public [internet](Internet.md).
 
 How can we create [digital mindfulness](digital%20mindfulness.md) in communication and conversation?
-![[content/thoughts/images/dark-forest.png|600]]_Illustration from Maggie Appleton's [Cozy Web](https://maggieappleton.com/cozy-web)_
+![[images/dark-forest.png|600]]_Illustration from Maggie Appleton's [Cozy Web](https://maggieappleton.com/cozy-web)_
 
 ## Handmade Web
 
 From J.R. Carpenter's [_A Handmade Web_](http://luckysoap.com/statements/handmadeweb.html)
 
-> I evoke the term 'handmade web' to refer to web pages coded by hand rather than by software; web pages made and maintained by individuals rather than by businesses or corporations; web pages which are provisional, temporary, or one-of-a-kind; web pages which challenge conventions of reading, writing, design, ownership, privacy, security, or [[identity|identity]].
+> I evoke the term 'handmade web' to refer to web pages coded by hand rather than by software; web pages made and maintained by individuals rather than by businesses or corporations; web pages which are provisional, temporary, or one-of-a-kind; web pages which challenge conventions of reading, writing, design, ownership, privacy, security, or [[identity.md|identity]].
 
 ## The Small Web
 

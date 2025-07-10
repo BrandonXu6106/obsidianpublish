@@ -9,7 +9,7 @@ tags:
 
 > A group of people using a collective identity to communicate a perspective through a series of distinct releases that contribute to a greater whole
 
-See also: [[idea machine]]
+See also: [[idea machine](idea%20machine.md)
 
 ## Elements
 

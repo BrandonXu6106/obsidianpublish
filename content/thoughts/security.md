@@ -12,7 +12,7 @@ Integrity of information is critical to relationships of [trust](trust.md) as we
 
 ## Internet
 
-On security in [[internet computing|the internet]]
+On security in [[internet computing|the internet](internet%20computing.md)
 
 Main excuse: "when $x$ was designed, there were only a few players and they all know and trusted each other"
 
@@ -20,11 +20,11 @@ Main excuse: "when $x$ was designed, there were only a few players and they all 
 
 A lot of the internet is based on good faith and relying on users to be good actors
 
-What level of the [[internet computing|internet computing stack]] should be responsible for security? Options:
+What level of the [[internet computing|internet computing stack](internet%20computing.md) should be responsible for security? Options:
 
 - New network-layer protocol
 - New transport-layer protocol
-- New 'pseudo-layer' between transport and application ([[TLS|TLS]], TLS)
+- New 'pseudo-layer' between transport and application ([[TLS.md|TLS]], TLS)
 - Responsibility of the application (SSH)
 
 ### Terminology
@@ -41,7 +41,7 @@ What level of the [[internet computing|internet computing stack]] should be resp
     - impersonation: can fake source
     - hijacking: 'take over' ongoing connection
     - denial of service: prevent service from being used by others
-- Given that Trudy can see all the data, how do we provide confidentiality? [[encryption|Encryption]]!
+- Given that Trudy can see all the data, how do we provide confidentiality? [[encryption.md|Encryption]]!
 
 ## Block Ciphers
 
@@ -79,4 +79,4 @@ What level of the [[internet computing|internet computing stack]] should be resp
 - A sort of challenge, Alice wants Bob to prove they have received the nonce by sending them back that same nonce
 - Ensures this is a new conversation between Alice and Bob
 
-See also: [[hash function|hash functions]]
+See also: [[hash function|hash functions](hash%20function.md)

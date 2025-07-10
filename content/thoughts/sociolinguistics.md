@@ -23,8 +23,8 @@ tags:
 ## Language vs Dialect vs Accent
 
 - Language: not mutually intelligible communication systems
-- Dialect: mutually intelligible, but have differences in sentence structure ([[syntax|syntax]]), how words are made ([[morphology|morphology]]), or word choice (lexicon)
-- Accent: mutually intelligible, only have differences in [[phonology|phonology]] (sounds)
+- Dialect: mutually intelligible, but have differences in sentence structure ([[syntax.md|syntax]]), how words are made ([[morphology.md|morphology]]), or word choice (lexicon)
+- Accent: mutually intelligible, only have differences in [[phonology.md|phonology]] (sounds)
 
 ## Rate and Time
 

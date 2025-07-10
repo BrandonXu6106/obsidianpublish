@@ -9,9 +9,9 @@ draft: true
 - whiplash asks the question “what is worthwhile”
 	- pursuing what you are naturally good at vs forcing yourself to do something you think is good
 		- probably tied to scientific freedom/taste argument
-			- [[aesthetics-and-taste|aesthetics-and-taste]]
+			- [[../aigc/aesthetics-and-taste.md|aesthetics-and-taste]]
 	- "You're incredibly gifted, Sam. But it is worth noting that to be good at something is not quite the same as loving it."
-		- [[Tomorrow, and Tomorrow, and Tomorrow|Tomorrow, and Tomorrow, and Tomorrow]]
+		- [[Tomorrow, and Tomorrow, and Tomorrow|Tomorrow, and Tomorrow, and Tomorrow](../../thoughts/Tomorrow,%20and%20Tomorrow,%20and%20Tomorrow.md)
 	- see also:
 		- good will hunting
 			- Chuckie's confrontation with Will: "You're sitting on a winning lottery ticket and you're too chicken to cash it in"
@@ -27,7 +27,7 @@ draft: true
 			- when you are the only person who can do something, do you have a responsibility to do it?
 			- Shinji must ultimately decide whether life's pain is worth experiencing for the possibility of connection and meaning.
 				- The Human Instrumentality Project offers an escape from individual suffering by dissolving all boundaries between people - essentially eliminating the self and the pain that comes with it.
-	- see also: [[Buddhist Economics|Buddhist Economics]]
+	- see also: [[Buddhist Economics|Buddhist Economics](../../thoughts/Buddhist%20Economics.md)
 - how much great work has gone undeveloped because we didnt push someone hard enough?
 	- fletcher in the movie implies that we lose a lot because of this
 	- but what actually happens to neuman? he’ll likely fucking lose it in 30 years and turn into fletcher or kill himself like sean casey

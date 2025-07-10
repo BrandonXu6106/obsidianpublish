@@ -31,14 +31,14 @@ Why? We may want to remove outliers, or be interested in the outliers themselves
    - Local outliers
      - Outlierness ratio of example $i$ is the average distance of $i$ to its KNN over the average distance of neighbours of $i$ to their KNNs
 5. Supervised-learning methods
-   - Use [[supervised learning]]: $y_i = 1$ if $x_i$ is an outlier, $y_i - 0$ if $x_i$ is a regular point
+   - Use [[supervised learning](supervised%20learning.md): $y_i = 1$ if $x_i$ is an outlier, $y_i - 0$ if $x_i$ is a regular point
    - Needs supervision: we need to know what outliers look like
 
 ## Local vs global outliers
 
 It’s hard to precisely define “outliers”
 
-![[outlier example.png]]
+![[outlier example.png](images/outlier%20example.png)
 
 - In the first case it was a “global” outlier.
 - In this second case it’s a “local” outlier:

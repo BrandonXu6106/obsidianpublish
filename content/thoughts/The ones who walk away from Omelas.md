@@ -7,7 +7,7 @@ tags:
 
 [Source: The Ones Who Walk Away From Omelas by _Ursula Le Guin_](https://learning.hccs.edu/faculty/emily.klotz/engl1302-6/readings/the-ones-who-walk-away-from-omelas-ursula-le-guin/view)
 
-There is no happiness without suffering. The story presents a classic [[Utilitarianism|utilitarian]] problem: is it morally justifiable to inflict suffering on one person in the service of others’ happiness (and a potential [utopia](utopia.md))?
+There is no happiness without suffering. The story presents a classic [[Utilitarianism.md|utilitarian]] problem: is it morally justifiable to inflict suffering on one person in the service of others’ happiness (and a potential [utopia](utopia.md))?
 
 Thinking about it in terms of technology as a multiplicative tool. Is it then morally just to develop technology to benefit others knowing that it will exacerbate the suffering of marginalized groups?
 
@@ -15,7 +15,7 @@ Follow up: is there any way we can use tech as a [running shoe instead of a crut
 
 ## What does it mean to walk away from Omelas?
 
-Joining the [[counterculture|counterculture]] rather than feeding into the status quo: [From Counterculture to Cyberculture](From%20Counterculture%20to%20Cyberculture.md). Rejecting the capitalist society and 'returning to the land'
+Joining the [[counterculture.md|counterculture]] rather than feeding into the status quo: [From Counterculture to Cyberculture](From%20Counterculture%20to%20Cyberculture.md). Rejecting the capitalist society and 'returning to the land'
 
 Immersion in the [virtual worlds](virtual%20worlds.md) rather than reality?
 

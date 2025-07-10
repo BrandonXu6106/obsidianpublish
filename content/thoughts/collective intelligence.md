@@ -13,7 +13,7 @@ The key to the rise of _Homo Sapiens_ and the anthropocene wasn't due to the rat
 
 _Collective intelligence capabilities_: decision-making technologies, processes, and institutions that expand a group’s capacity to construct and cooperate towards shared goals.
 
-See also: [[Transformative Technology Trilemma]]
+See also: [[Transformative Technology Trilemma](Transformative%20Technology%20Trilemma.md)
 
 ## Knowledge Illusion
 

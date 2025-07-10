@@ -31,7 +31,7 @@ To make a VC:
 6. Issuer signs the credential with their private part of the verification key, and gives it to the holder (offer)
 7. Verifier can then check the credential against the issuer's verkey
 
-![[verifiable credential.png]]
+![[verifiable credential.png](images/verifiable%20credential.png)
 
 Example VC
 

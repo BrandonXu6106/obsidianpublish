@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-A _permissionless_ [[consensus|consensus]] algorithm that guarantees deterministic agreement and termination under a crash-stop [[system model|system model]].
+A _permissionless_ [[consensus.md|consensus]] algorithm that guarantees deterministic agreement and termination under a crash-stop [[system model|system model](system%20model.md).
 
 [Source Writeup](https://decentralizedthoughts.github.io/2022-06-21-sandglass/)
 

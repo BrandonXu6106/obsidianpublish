@@ -7,9 +7,9 @@ tags:
 
 A [neural radiance field](https://arxiv.org/abs/2003.08934) (NeRF) is a fully-connected neural network that can generate novel views of complex 3D scenes, based on a partial set of 2D images.
 
-We represent a static scene as a continuous 5D function that outputs the radiance emitted in each direction $(\theta, \phi)$ at each point $(x, y, z)$ in space (see: [[coordinate system]])
+We represent a static scene as a continuous 5D function that outputs the radiance emitted in each direction $(\theta, \phi)$ at each point $(x, y, z)$ in space (see: [[coordinate system](coordinate%20system.md))
 
-The radiance function is represented as a 4D function, with volume density value (opacity, represented as $\sigma$) and a view-dependent RGB [[colour]].
+The radiance function is represented as a 4D function, with volume density value (opacity, represented as $\sigma$) and a view-dependent RGB [[colour.md]].
 
 We train a simple MLP to map from position and direction to radiance. We also encourage the representation to be multiview consistent by restricting the network to predict the volume density $\sigma$ as a function only of the location. That is:
 
@@ -18,15 +18,15 @@ We train a simple MLP to map from position and direction to radiance. We also en
 
 It can be seen as interpolating between the input images to render new views
 
-![[content/thoughts/images/nerf-example.png]]
+![[images/nerf-example.png]]
 
-To [[rendering|render]] an image, we
+To [[rendering.md|render]] an image, we
 
 1. Generate a ray from the camera viewpoint to the viewing plane
 2. For each ray, pass the position and viewing direction as input into the neural network to produce a set of output colours and densities
 3. Accumulate this into a final colour and collapse it into a 2D image
 
-Because this process is naturally differentiable, we can use [[supervised learning]] to optimize this model by minimizing the error between each observed image and the corresponding views rendered from our representation
+Because this process is naturally differentiable, we can use [[supervised learning](supervised%20learning.md) to optimize this model by minimizing the error between each observed image and the corresponding views rendered from our representation
 
 Minimizing this error across multiple views encourages the network to predict a coherent model of the scene by assigning high volume densities and accurate colors to the locations that contain the true underlying scene content
 

@@ -6,17 +6,17 @@ tags:
   - pattern
 ---
 
-See also: [[cozy software|cozy software]]
+See also: [[cozy software|cozy software](cozy%20software.md)
 
-[Paper](https://www.csdl.tamu.edu/~shipman/papers/cscw.pdf) by Frank M. Shipman III and Catherine C. Marshall with the same name. On experiences, emerging themes, and directions on the use of formal representations in [[interaction design|interactive designs]]
+[Paper](https://www.csdl.tamu.edu/~shipman/papers/cscw.pdf) by Frank M. Shipman III and Catherine C. Marshall with the same name. On experiences, emerging themes, and directions on the use of formal representations in [[interaction design|interactive designs](interaction%20design.md)
 
 > The cause of a number of unexpected difficulties in human-computer interaction lies in users’ unwillingness or inability to make structure, content, or procedures explicit
 
-When people use computer systems, their interaction is usually mediated by abstract representations that describe and constrain some aspect of their work or its content. Computer systems use these abstract representations to support their users’ activities in a variety of ways, like for [[information retrieval]]. These abstractions are frequently referred to as formalisms.
+When people use computer systems, their interaction is usually mediated by abstract representations that describe and constrain some aspect of their work or its content. Computer systems use these abstract representations to support their users’ activities in a variety of ways, like for [[information retrieval](information%20retrieval.md). These abstractions are frequently referred to as formalisms.
 
 At the formal end of the spectrum, knowledge-based systems require people to encode materials in a representation that can be fully interpreted by a computer program.
 
-A la [[Seeing like a State|Seeing like a State]]: excessive formalization may cause people to lose information that falls outside the prescribed structure, and in general require people to make knowledge explicit that may be difficult or undesirable to articulate
+A la [[Seeing like a State|Seeing like a State](Seeing%20like%20a%20State.md): excessive formalization may cause people to lose information that falls outside the prescribed structure, and in general require people to make knowledge explicit that may be difficult or undesirable to articulate
 
 ## Examples
 
@@ -34,17 +34,17 @@ A la [[Seeing like a State|Seeing like a State]]: excessive formalization may ca
   - When a person is asked to breath normally, their normal breathing will be interrupted
 - Structure changes with time
   - Since a user’s understanding of any non-trivial task, such as performing an analysis or completing a design, evolves as they attempt to complete the task, users resist making such commitments
-  - Same with [[terminology#Terminological anchoring|terminological anchoring]]
+  - Same with [[terminology.md#Terminological anchoring|terminological anchoring]]
   - There is a perception that information formalized incorrectly or inconsistently will be more difficult to use or simply be of less use than information not formalized.
     - Hence why we leave many tabs open or things on our desk/desktop
 
 ## Fixes
 
-- Keep things simple and out of the way for the user ([[Gall's law]]).
+- Keep things simple and out of the way for the user ([[Gall's law](Gall's%20law.md)).
 - Incremental formalization
   - In the Hyper-Object Substrate (HOS) (Shipman, McCall, 1994) we have investigated the potential to support users by suggesting possible formalizations based on recognized patterns in textual information. In HOS, suggestions for new attributes or relations in the knowledge base were presented to the user for acceptance, modification, rejection, or just to be ignored
   - These are effective as long as they don’t overwhelm a user with too many requests to acknowledge inferred structure
 
-## [[tools for thought|Tools for thought]]
+## [[tools for thought|Tools for thought](tools%20for%20thought.md)
 
-I think this applies for thinking and note-taking too. My thesis is that having a scratch space be incredibly low friction to access (on par with or lower than Apple Notes) is incredibly important to cultivating good knowledge/deadline management. See: [[craft#Tabspace - a scratchspace for your new tab page|TabSpace]]
+I think this applies for thinking and note-taking too. My thesis is that having a scratch space be incredibly low friction to access (on par with or lower than Apple Notes) is incredibly important to cultivating good knowledge/deadline management. See: [[craft.md#Tabspace - a scratchspace for your new tab page|TabSpace]]

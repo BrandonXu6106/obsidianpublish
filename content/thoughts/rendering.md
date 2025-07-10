@@ -75,7 +75,7 @@ Can also either be (imagine both of the following where X is thumb, Y is pointer
 1. Left-handed
 2. Right-handed
 
-See also: [[NeRF]], [[coordinate system]]
+See also: [[NeRF.md]], [[coordinate system](coordinate%20system.md)
 
 ## Intersection Tests
 

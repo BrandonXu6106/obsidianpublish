@@ -15,8 +15,8 @@ tags:
 - fuzzy rip grep
 - hoogle for rdf shapes
 - optimizing network topology for crdts
-- [[CodeMirror|codemirror]] but CRDT + TreeSitter
-  - smart [[git|git]] merges
+- [[CodeMirror.md|codemirror]] but CRDT + TreeSitter
+  - smart [[git.md|git]] merges
   - https://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/
 - markup any site with a webcrawler + yjs + tldraw
   - maybe use webrecorder
@@ -26,8 +26,8 @@ tags:
   - inventory packing simulator but its with tabs... what would affect tab size? length of article == perceived weight in bag?
   - what if you could bring your little backpack of tabs with you to a square or market and trade your tabs with other people
   - list building primitive
-- [[WebAssembly|WASM]]-based val.town with [[CID|CIDs]] distributed using a [[Sloppy Hashing DHT]]
-  - [[IPFS]] as a versioned package manager for all software
+- [[WebAssembly.md|WASM]]-based val.town with [[CID.md|CIDs]] distributed using a [[Sloppy Hashing DHT](Sloppy%20Hashing%20DHT.md)
+  - [[IPFS.md]] as a versioned package manager for all software
   - good example: https://github.com/dylibso/wasmstore
 - rotmg but actually good lol
   - dodge mechanic
@@ -39,17 +39,17 @@ tags:
   - should have one free key a day
   - actual good graveyard mechanics to look at past runs/chars
 - latency based quorum sensing, similar to how bacteria release a particular molecule and behave differently if sensors of the molecule are particularly active
-  - see also: [[Sloppy Hashing DHT]]
+  - see also: [[Sloppy Hashing DHT](Sloppy%20Hashing%20DHT.md)
 - [webgpt](https://openai.com/blog/webgpt/) but its for tools for thought
   - "A [reader-generated essay](https://escapingflatland.substack.com/p/reader-generated-essays) is what you get when you can go into someone else’s knowledge graph and make a linear journey through the network, while GPT-5 generates a just-in-time essay that is human-readable."
   - turning a graph traversal into a beautiful essay
 - what does entropy + erosion of data look like?
-  - is they ways to make [[cryptography|cryptography]] that are valid in time windows?
+  - is they ways to make [[cryptography.md|cryptography]] that are valid in time windows?
 - big touchscreen desk
   - what if i just got a huge old flatscreen tv
   - mounted 4 pressure sensors on each corner and then got a big sheet of thin glass
   - 4 points is enough to pinpoint single-point touch accurately for dragging
-  - what if you could use it like a scratch space? like an always available figjam/muse board that also supports linking and trails a la [[tools for thought#Memex|memex]]
+  - what if you could use it like a scratch space? like an always available figjam/muse board that also supports linking and trails a la [[tools for thought#Memex|memex](tools%20for%20thought.md)
     - a vision of [communal computing](https://interconnected.org/home/2021/12/21/sage) perhaps
     - a shared screen which anyone can 'connect' to as an external display
     - anyone can drag windows/files to and from it
@@ -62,13 +62,13 @@ tags:
     - some sort of 1d marching cubes which modifies a vector depending on context?
       - potentially transformer related
   - image <-> text interop using CLIP/unCLIP/DALL-E?
-- procedural city + building generation in minecraft + rtx using a codified version of [[A Pattern Language]]
+- procedural city + building generation in minecraft + rtx using a codified version of [[A Pattern Language](A%20Pattern%20Language.md)
   - https://en.wikipedia.org/wiki/Constraint_satisfaction_problem
 - procedural visualization of digital garden as an actual garden to help you tend to it better
 - better search
   - searching through vectors
     - (no clue if this would work) integral images but applied to vector similarity search in text documents
-    - viola-jones for text [[latent-factor model|embeddings]]
+    - viola-jones for text [[latent-factor model|embeddings](latent-factor%20model.md)
     - https://github.com/facebookresearch/faiss
 	    - https://arxiv.org/pdf/1702.08734.pdf
 	    - https://crates.io/crates/kd-tree
@@ -115,7 +115,7 @@ tags:
 ## Writing
 
 - Short stories/speculative fiction
-  - [[CID|CID]] as the library of babel
+  - [[CID.md|CID]] as the library of babel
   - Interplanetary communication / state machine
   - Packet switched electricity
   - saving sun for later (make something we take for granted extremely scarce)
@@ -124,8 +124,8 @@ tags:
     - We should be able to directly manipulate them, like files, rather than only indirectly work with them, like layer activations in a neural network.
     - Software representations for similar ideas should be obviously similar in some way – they should click together, or look similar, or feel similar to the touch.
     - Ideas should remember where they came from – what blog I copied it from, which author I quoted it from, and so on.
-  - Essay on epistemic play + [[Jestermaxxing]] + mill’s take on why censorship is unethical
-  - limits to [[Byzantine Faults|BFT]]
+  - Essay on epistemic play + [[Jestermaxxing.md]] + mill’s take on why censorship is unethical
+  - limits to [[Byzantine Faults|BFT](Byzantine%20Faults.md)
     - some malicious activity is indistinguishable from legitimate activity (e.g. deleting a document)
       - _semantic_ byzantine fault tolerance vs protocol byzantine fault tolerance
     - Making distributed systems reliable is inherently impossible; we cling to Byzantine fault tolerance like Charlton Heston clings to his guns, hoping that a series of complex software protocols will somehow protect us from the oncoming storm of furious apes who have somehow learned how to wear pants and maliciously tamper with our network packets. (_[The Saddest Moment](https://scholar.harvard.edu/files/mickens/files/thesaddestmoment.pdf)_ by James Mickens)
@@ -139,9 +139,9 @@ tags:
 		  - collaborative: co-editing
 		  - persistent: saved somewhere (as opposed to ephemeral)
 		  - versioned: can time travel
-  - [[independent research|independent research]] is applied [[taste]]
+  - [[independent research|independent research](independent%20research.md) is applied [[taste.md]]
 	  - Aesthetics as a heuristic for non obvious optimality
-  - Good [[search|search]] (aggregators) turns random networks into scale-free networks (see: [[Network Theory|network theory]])
+  - Good [[search.md|search]] (aggregators) turns random networks into scale-free networks (see: [[Network Theory|network theory](Network%20Theory.md))
   - The sequel to SQL (Against table databases)
     - Data interoperability is really hard with SQL
       - I think interoperability in the context of the web means being able to transparently understand and share data, agnostic of platform.

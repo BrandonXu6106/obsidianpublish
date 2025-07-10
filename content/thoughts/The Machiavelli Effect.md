@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-From [[Where is My Flying Car|Where is My Flying Car]]. See also: [[Overton Window|Overton Window]]
+From [[Where is My Flying Car|Where is My Flying Car](Where%20is%20My%20Flying%20Car.md). See also: [[Overton Window|Overton Window](Overton%20Window.md)
 
 Niccolo Machiavelli in his 1532 masterpiece _The Prince_:
 

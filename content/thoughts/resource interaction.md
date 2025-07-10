@@ -16,7 +16,7 @@ Distinguishing interactions means looking at user requirements, resource propert
 
 To enable interactions, it is necessary to identify, describe, and sometimes transform resources.
 
-One approach to resource transformation is to use a _crosswalk_ or [[boundary object]] which are equivalence tables that relate resources from one organizing system to another
+One approach to resource transformation is to use a _crosswalk_ or [[boundary object](boundary%20object.md) which are equivalence tables that relate resources from one organizing system to another
 
 Another is to use _data mapping_, in which descriptions layers are compared and matched using either unidirectional or bidirectional links. This allows us to bridge the vocabulary problem in which different people refer to the same concepts slightly differently.
 

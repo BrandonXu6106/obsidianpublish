@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-See also: [[object classification]]
+See also: [[object classification](object%20classification.md)
 
 ## Template Matching
 
@@ -153,7 +153,7 @@ Example features include
 - Orientation Energy
 - Brightness Gradient
 - Color Gradient
-- [[texture|Texture]] gradient
+- [[texture.md|Texture]] gradient
 
 For this implementation, we consider 8 discrete orientations ($\theta$) and 3 scales ($r$)
 

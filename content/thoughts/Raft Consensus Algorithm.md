@@ -8,13 +8,13 @@ aliases:
   - Raft
 ---
 
-> An understandable [[consensus|consensus]] algorithm
+> An understandable [[consensus.md|consensus]] algorithm
 
 A distilled version of the [Raft paper](https://raft.github.io/raft.pdf). For a more graphic version, see this [visualization of Raft by The Secret Lives of Data](http://thesecretlivesofdata.com/raft/).
 
 A really good [video review of the algorithm by Martin Kleppmann](https://www.youtube.com/watch?v=uXEYuDwm7e4&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=18)
 
-For a [[Byzantine Faults|BFT]]-resilient version of Raft, see [[Tangaroa|Tangaroa]].
+For a [[Byzantine Faults|BFT](Byzantine%20Faults.md)-resilient version of Raft, see [[Tangaroa.md|Tangaroa]].
 
 ## Distributed Consensus
 
@@ -30,13 +30,13 @@ Generally, this is done using a log of actions that are _replicated_ across all 
 
 In more formal language, consensus algorithms should typically have the following properties:
 
-1. [[safety|Safety]] in the face of network delays, partitions, packet loss, duplication, and reordering (except under certain cases where there are no known solutions, e.g. [[Byzantine Faults|Byzantine Fault Tolerance]])
+1. [[safety.md|Safety]] in the face of network delays, partitions, packet loss, duplication, and reordering (except under certain cases where there are no known solutions, e.g. [[Byzantine Faults|Byzantine Fault Tolerance](Byzantine%20Faults.md))
 2. Functional (available) as long as the majority of servers are operational and can communicate
 3. Latency resilient and does not depend on timing of messages to ensure consistency
 
 Raft is one such consensus algorithm for managing a replicated log. It is an alternative to [Paxos](<https://en.wikipedia.org/wiki/Paxos_(computer_science)>) which is the main consensus algorithm in use over the last decade. The main aim is to make it _understandable_ to builders and students alike.
 
-It is important to note that Raft assumes that all messages have been authenticated/authourized. It hands this responsibility to the [[Transport Layer|transport layer]] to deal with. As such, Raft _does not have any protection against malicious actors_. More discussion in this [Google Groups conversation](https://groups.google.com/g/raft-dev/c/8WIrWfzIkvM).
+It is important to note that Raft assumes that all messages have been authenticated/authourized. It hands this responsibility to the [[Transport Layer|transport layer](Transport%20Layer.md) to deal with. As such, Raft _does not have any protection against malicious actors_. More discussion in this [Google Groups conversation](https://groups.google.com/g/raft-dev/c/8WIrWfzIkvM).
 
 ## Consensus
 
@@ -46,7 +46,7 @@ Given this approach, Raft decomposes this consensus into 3 independent subproble
 
 1. Leader election: how do we choose a new leader when an existing leader fails?
 2. Log replication: how does the leader accept new log entries from clients and replicate them across all the other machines?
-3. [[safety|Safety]]: when is it safe to consider log entries as 'agreed upon' and fully replicated across all machines?
+3. [[safety.md|Safety]]: when is it safe to consider log entries as 'agreed upon' and fully replicated across all machines?
 
 A server can only be in one of 3 states:
 
@@ -55,7 +55,7 @@ A server can only be in one of 3 states:
 3. Candidate: used to elect a new leader
 
 State transitions follow the state diagram below:
-![[content/thoughts/images/raft-state-diagram.png]]
+![[images/raft-state-diagram.png]]
 
 All Raft servers communicate using remote procedure calls (RPCs) that happen over the network. The basis consensus algorithm only requires 2 types of RPCs, RequestVote and Append-Entries. These are retried if a request times out and are issued in parallel for best performance.
 
@@ -65,13 +65,13 @@ Leaders are active for _terms_ of arbitrary length (this is randomly determined 
 
 Each term begins with an election in which one or more candidates attempt to become leader. If a candidate wins the election, then it serves as leader for the rest of the term.
 
-![[content/thoughts/images/raft-elections.png]]
+![[images/raft-elections.png]]
 
 ### Initiate State
 
 Servers start up in the follower state.
 
-A server remains in the follower state as long as it receives valid RPCs from a leader or candidate (this is usually in the form of a 'heartbeat' from a leader which is an empty AppendEntries [[RPC|RPC]] with no log entries).
+A server remains in the follower state as long as it receives valid RPCs from a leader or candidate (this is usually in the form of a 'heartbeat' from a leader which is an empty AppendEntries [[RPC.md|RPC]] with no log entries).
 
 If a follower receives no communication over a period of time called the _election timeout_ (randomized between 150ms and 300ms), then it assumes there is no viable leader and begins an election to choose a new leader.
 
@@ -84,14 +84,14 @@ It is important to note that a server can only vote once per election. _It will 
 A candidate remains a candidate until one of 3 events happens:
 
 1. It wins the election. It received votes from a majority of servers in the cluster. Majority rule ensures that at most one candidate can win the election for a particular term. It then sends heartbeat messages to all other servers to establish authority and prevent new elections.
-2. Another server establishes itself as leader. Received an AppendEntries [[RPC|RPC]] from another server claiming to be leader. This claim is legitimate if the leader's term is at least as large as the candidate's current term.
+2. Another server establishes itself as leader. Received an AppendEntries [[RPC.md|RPC]] from another server claiming to be leader. This claim is legitimate if the leader's term is at least as large as the candidate's current term.
 3. A period of time goes by with no winner. Possible if many followers become candidates at the same time, votes can be split so no candidate wins majority. When this happens, each candidate times out and starts a new election by incrementing its term and initiating another election. Raft uses randomized election timeouts to ensure split votes are rare.
 
 After a leader has been elected, it beings servicing client requests.
 
 ### Properties
 
-Generally, Raft will be able to elect and maintain a steady leader as long as the system roughly follows the timing requirement: `broadcastTime < 10 * electionTimeout < 100 * MTBF` where `broadcastTime` is amount of time for a server to send an [[RPC|RPC]] to every server in the cluster and `MTBF` is the mean time between failure for a server.
+Generally, Raft will be able to elect and maintain a steady leader as long as the system roughly follows the timing requirement: `broadcastTime < 10 * electionTimeout < 100 * MTBF` where `broadcastTime` is amount of time for a server to send an [[RPC.md|RPC]] to every server in the cluster and `MTBF` is the mean time between failure for a server.
 
 Broadcast time should be roughly an order of magnitude less than the election timeout so that leaders can reliably send heartbeat messages required to keep followers from starting elections (similar to having RTT be roughly a magnitude smaller than request timeout).
 
@@ -112,7 +112,7 @@ The _Log Matching Property_ is maintained by Raft which guarantees
 
 When a leader comes to power, it just begins normal operation, and the logs automatically converge in response to failures of the AppendEntries consistency check.
 
-To bring a follower's log into consistency with its own, the leader must find the latest log entry where the two logs agree. To do this, the leader keeps a value `nextIndex` for each follower which is the number of the _next log entry the leader will send to that follower_. The leader pings each follower with a AppendEntries [[RPC|RPC]] call with that `nextIndex` value. If this call is successful, the leader knows that this follower is up to date. If it fails, then the leader decrements `nextIndex` again until it reaches a log entry that does succeed. At this point, the follower's logs will be removed (as anything between `nextIndex` and what the follower currently has is conflicting) and the follower's log is now consistent with the leader's and will remain that way for the rest of the term.
+To bring a follower's log into consistency with its own, the leader must find the latest log entry where the two logs agree. To do this, the leader keeps a value `nextIndex` for each follower which is the number of the _next log entry the leader will send to that follower_. The leader pings each follower with a AppendEntries [[RPC.md|RPC]] call with that `nextIndex` value. If this call is successful, the leader knows that this follower is up to date. If it fails, then the leader decrements `nextIndex` again until it reaches a log entry that does succeed. At this point, the follower's logs will be removed (as anything between `nextIndex` and what the follower currently has is conflicting) and the follower's log is now consistent with the leader's and will remain that way for the rest of the term.
 
 ## Unbounded Logs (Log Compaction)
 
@@ -120,9 +120,9 @@ In a practical system, a log cannot grow without bounds. The simplest solution i
 
 All snapshots are taken independently by each server. Each snapshot contains data like last included index, last included term, and the state machine state.
 
-Sometimes, snapshots need to be sent from leader to followers if the followers lag behind using the InstallSnapshot [[RPC|RPC]]. This can happen when the leader has discarded the next log entry that needs to be send to a follower (e.g. new server joining cluster).
+Sometimes, snapshots need to be sent from leader to followers if the followers lag behind using the InstallSnapshot [[RPC.md|RPC]]. This can happen when the leader has discarded the next log entry that needs to be send to a follower (e.g. new server joining cluster).
 
-When a server receives a InstallSnapshot [[RPC|RPC]] call, it usually discard its entire log. In the odd case where the server receiving the [[RPC|RPC]] call has _more_ entries in its log than the snapshot, it deletes all log entries covered by the snapshot but entries following the snapshot are still valid and must be kept.
+When a server receives a InstallSnapshot [[RPC.md|RPC]] call, it usually discard its entire log. In the odd case where the server receiving the [[RPC.md|RPC]] call has _more_ entries in its log than the snapshot, it deletes all log entries covered by the snapshot but entries following the snapshot are still valid and must be kept.
 
 Other options like log cleaning and log-structured merge trees are also possible.
 

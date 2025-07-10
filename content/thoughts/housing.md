@@ -31,7 +31,7 @@ tags:
 
 ## Democratic Process
 
-- Small-d [[democracy|democratic]] processes where people get to engage in their local government and make their voice heard, are not actually that democratic.
+- Small-d [[democracy.md|democratic]] processes where people get to engage in their local government and make their voice heard, are not actually that democratic.
 - It’s not representative. And we know this, in part, from the work of political scientists who have looked at the characteristics of people who show up to a neighborhood meeting.
 - Actually seems to _disallow_ experimentation
   - In theory: democracy allows compared to other systems is a lot of different kinds of systems to flourish and we can see what works best.

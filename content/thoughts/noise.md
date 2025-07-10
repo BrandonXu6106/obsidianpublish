@@ -87,7 +87,7 @@ uint32_t xorshift1::Rand() {
   - 2-D function: index is a pair of numbers
   - N-D function: index is an n-tuple
 - Totally pure: `noise = mungeAndMangleBits(position)`
-- Can actually use [[hash function|hash functions]] for this
+- Can actually use [[hash function|hash functions](hash%20function.md) for this
   - `crc32`, `Murmur` , `Squirrel3`, and `std::hash` are all very good and fast
   - `md5` and `sha1` are good but slow (cryptographically sound)
 

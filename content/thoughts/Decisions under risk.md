@@ -10,19 +10,19 @@ aliases:
 
 Decision rules when the probability of each outcome is known.
 
-Requires an [[interval scale|interval scale]]
+Requires an [[interval scale|interval scale](interval%20scale.md)
 
-When evaluating, we often need to quantify what outcomes are more [[value|valuable]] than others
+When evaluating, we often need to quantify what outcomes are more [[value.md|valuable]] than others
 
 1. Expected Value (EV)
 2. Expected Monetary Value (EMV)
-3. Expected [[utility|Utility]] (EU)
+3. Expected [[utility.md|Utility]] (EU)
 
-Typically, we use EU. Sometimes we use EMV under the assumption that it is equivalent to EU in a free market ([[utility|utility]] is a positive linear transformation of monetary value)
+Typically, we use EU. Sometimes we use EMV under the assumption that it is equivalent to EU in a free market ([[utility.md|utility]] is a positive linear transformation of monetary value)
 
 Two arguments for why EU Max:
 
-1. In the long run, no strategy can be expected to do better than maximizing expected [[utility|utility]].
+1. In the long run, no strategy can be expected to do better than maximizing expected [[utility.md|utility]].
    - Objections
      - There is no long run for humans
      - Gambler's Ruin: a gambler with finite wealth, playing a fair game, eventually goes broke with probability 1
@@ -32,24 +32,24 @@ Two arguments for why EU Max:
 
 ## Maximizing Expected Utility
 
-[[utility|Utility]] is a numerical representation of the agent’s preference ranking
+[[utility.md|Utility]] is a numerical representation of the agent’s preference ranking
 
 Generally, we prefer using EU over EMV.
 
-See also: [[Utilitarianism|utilitarianism]]
+See also: [[Utilitarianism.md|utilitarianism]]
 
-[[utility|Utility]] theory allows for outcomes without monetary value, or whose value can’t be measured solely in terms of monetary payoff.
+[[utility.md|Utility]] theory allows for outcomes without monetary value, or whose value can’t be measured solely in terms of monetary payoff.
 
 ### Utility of Money
 
-Note that generally, there is a diminishing marginal [[utility|utility]] of money
+Note that generally, there is a diminishing marginal [[utility.md|utility]] of money
 
 For example, in a lottery where you
 
 - A) win $1M for sure or
 - B) 50% chance to win $3M and 50% chance to get nothing
 
-Most people would choose A. The change in [[utility|utility]] from \$1M to \$3M is not enough to offset the drop in probability from certainty to 50%.
+Most people would choose A. The change in [[utility.md|utility]] from \$1M to \$3M is not enough to offset the drop in probability from certainty to 50%.
 
 ## Paradoxes and Puzzles
 
@@ -99,7 +99,7 @@ You should be willing to pay any price to play!
 
 Solutions
 
-1. Bernoulli: diminishing marginal [[utility|utility]] of money
+1. Bernoulli: diminishing marginal [[utility.md|utility]] of money
 	1. Refutation: change payout to $2^n$
 2. Buffon: *de minimis condition*
 	1. Ignore tiny probabilities

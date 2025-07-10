@@ -5,11 +5,11 @@ tags:
   - seed
 ---
 
-Hides geometric simplicity by using images convey illusion of geometry. Usually maps points on a 3D surface to a 2D point on a [[texture|texture]] to modify some property of the 3D surface (e.g. displacement, colour, reflectance, etc.)
+Hides geometric simplicity by using images convey illusion of geometry. Usually maps points on a 3D surface to a 2D point on a [[texture.md|texture]] to modify some property of the 3D surface (e.g. displacement, colour, reflectance, etc.)
 
 ## Mipmapping
 
-Similar to [[object detection#Gaussian Image Pyramid|Gaussian Image Pyramids]]
+Similar to [[object detection#Gaussian Image Pyramid|Gaussian Image Pyramids](object%20detection.md)
 
 Mipmaps (also MIP maps) or pyramids are pre-calculated, optimized sequences of images, each of which is a progressively lower resolution representation of the previous.
 
@@ -23,4 +23,4 @@ Interpolation within a MIPMAP level is done either by using the nearest texel or
 
 On a pixel, we calculate the area that it takes up on the texture (the pixel footprint area). By projecting the boundaries of the pixel onto the texture, the area of the pixel footprint area can be computed using the magnitude of the cross product $A = \lVert r_1 \times r_2 \rVert$
 
-See notes on [[imaging#Sampling|sampling]]
+See notes on [[imaging.md#Sampling|sampling]]

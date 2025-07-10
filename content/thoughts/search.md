@@ -85,7 +85,7 @@ Transition from aggregator of information to oracle
 
 Metzler and his colleagues are interested in a search engine that behaves like a human expert. It should produce answers in natural language, synthesized from more than one document, and back up its answers with references to supporting evidence, as Wikipedia articles aim to do.
 
-See also: [[LLMs]]
+See also: [[LLMs.md]]
 
 ## Search Engines as Faith
 
@@ -99,15 +99,15 @@ They are the database of our intentions. We search for things we are hoping to k
 
 Federated search is a technique used to search multiple data sources at once. With federated search, you can retrieve information from many different content locations with just one query and one search interface.
 
-See: [[Prolly Trees]]
+See: [[Prolly Trees](Prolly%20Trees.md)
 
 ## Internet topology as shaped by search engines
 
 [Source: Critical Atlas of the Internet](https://louisedrulhe.fr/internet-atlas/)
 
-![[content/thoughts/images/internet-atlas.png|600]]
+![[images/internet-atlas.png|600]]
 
-![[search engine space.png|400]]
+![[search engine space.png|400](images/search%20engine%20space.png)
 
 _The first cone represents the loss of distance. As shown in the picture previous hypothesis, terrestrial space converges at a specific point. On Internet, distance is not relevant. Everything is potentially one click away. The second cone reintroduces the notion of non-physical distances. On the Internet, distance has no relevance, but the notion of space nevertheless remains._
 
@@ -132,7 +132,7 @@ Similar to practices in [reflect](reflect.md) NLP processing actually!
 - Transformations
   - Case folding: convert all to lower case
   - Stopwords: remove words that contribute semantic meaning/indexing value
-    - e.g. words that don't reduce information [[entropy|entropy]]
+    - e.g. words that don't reduce information [[entropy.md|entropy]]
     - for example, words that appear in _all_ documents are not very helpful
     - zipf's law, first ~5% are stop words, next ~45% are meaning content words and the last ~50% are long tail rare words
   - Stemming: grouping of related words (e.g. cats/cattiness -> cat)
@@ -156,7 +156,7 @@ Major issues:
 
 1. Access to information: value of information and knowledge, [democracy](democracy.md), gatekeeping, [censorship](censorship.md)
 2. Equity, accuracy (truth) and transparency: search-engine bias and the problem of opacity/non-[transparency](transparency.md)
-3. [[privacy|Privacy]] and freedom: personal privacy and informed consent; monitoring and surveillance
+3. [[privacy.md|Privacy]] and freedom: personal privacy and informed consent; monitoring and surveillance
 4. Property rights: how do crawlers/search engines respect property, ownership, free market competition
 
 Search is a form of [data capitalism](Data%20Capitalism.md)
@@ -172,7 +172,7 @@ Search is a form of [data capitalism](Data%20Capitalism.md)
 - Aiming to create a large scale digital [library](library.md) that included _historical_ knowledge
 - Critiques
   - Poor quality of scanning
-  - [[privacy|Privacy]] -- Google would gain access into detailed insights about what people were reading
+  - [[privacy.md|Privacy]] -- Google would gain access into detailed insights about what people were reading
     - Historically, librarians focussed heavily on this, sometimes even going to jail due to resisting handing over library records
 - 2005 Class Action Lawsuit by author and copyright holders' organizations: theft of books
   - 2008 settlement: Google agreed to pay copyright holders; revenue from orphan works; access through libraries

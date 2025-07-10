@@ -9,7 +9,7 @@ tags:
 
 _A Manifesto for a Smaller, Denser Internet_
 
-> A truly sustainable and resilient digital public sphere consists of [[plurality|many different platforms]] with a wide variety of sizes and purposes, that users can navigate with a loyal client that aggregates, [[Syndication|cross-posts]], and curates, all supported by cross-cutting services rooted in [[interoperability|interoperable]] data
+> A truly sustainable and resilient digital public sphere consists of [[plurality.md|many different platforms]] with a wide variety of sizes and purposes, that users can navigate with a loyal client that aggregates, [[Syndication.md|cross-posts]], and curates, all supported by cross-cutting services rooted in [[interoperability.md|interoperable]] data
 
 Inspired by an example from ecology: the Miyawaki method. A small movement is underway in ecological restoration to bring biodiversity back to environs either devastated by urban development or monoculture farming
 
@@ -21,7 +21,7 @@ Web browsers block pop-ups and ad trackers because the server wants a user’s a
 
 ## Adverserial Interoperability
 
-See: [[interoperability#Adverserial Interoperability]]
+See: [[interoperability.md#Adverserial Interoperability]]
 
 Regulations that support interoperability are another way to address platforms that refuse to interoperate voluntarily. The EU recently passed a regulation, the Digital Markets Act, that mandates large platforms make their messaging interoperable. Other legislation could similarly require that social media platforms make their content available to third-party clients, or offer protections for adversarial interoperability (similar to right to repair laws).
 
@@ -29,13 +29,13 @@ Regulations that support interoperability are another way to address platforms t
 
 _Plugin marketplace_
 
-On order for a loyal client or a VSOP to serve an individual’s preferences, they need to be able to select from a wide variety of algorithms that reflect those preferences (perhaps will eventually be taken over by [[LLMs]] that can create these on-demand).
+On order for a loyal client or a VSOP to serve an individual’s preferences, they need to be able to select from a wide variety of algorithms that reflect those preferences (perhaps will eventually be taken over by [[LLMs.md]] that can create these on-demand).
 
 Should satisfy 4 properties:
 
 1. Tuneable: you should have meaningful settings that allow you to use the algorithm in different ways.
 2. Auditable: you should be able to throw arbitrary content at the algorithm and see how it responds. You should be able to investigate the data underlying the algorithm and the decisions it made.
-3. [[composable|Combinable]]: you should be able to use more than one algorithm and have them work together. Algorithms should be able to work across different source platforms.
-4. [[explainability|Understandable]]: you should have a sense of what the algorithm is trying to do and how you can control it.
+3. [[composable.md|Combinable]]: you should be able to use more than one algorithm and have them work together. Algorithms should be able to work across different source platforms.
+4. [[explainability.md|Understandable]]: you should have a sense of what the algorithm is trying to do and how you can control it.
 
 Similar to geists in [Subconscious](https://subconscious.network/)

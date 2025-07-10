@@ -18,7 +18,7 @@ How large can communities get before they decay? Relevant: [group limits](group%
 
 _heuristic_ from Austin Wu
 
-A very [computational](computability.md) view of communities but is it possible to test for value alignment within a community like a [[Turing Test]]? If the community feels and behaves like a person, then its [values](value%20setting.md) are aligned?
+A very [computational](computability.md) view of communities but is it possible to test for value alignment within a community like a [[Turing Test](Turing%20Test.md)? If the community feels and behaves like a person, then its [values](value%20setting.md) are aligned?
 
 How do we quantify this if vibes are unoptimizable?
 

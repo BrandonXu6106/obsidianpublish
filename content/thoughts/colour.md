@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-See also: [[texture]]
+See also: [[texture.md]]
 
 ## Colour
 

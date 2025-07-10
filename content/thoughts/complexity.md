@@ -8,7 +8,7 @@ tags:
 ## Measures of Complexity
 
 - [Vapnik–Chervonenkis dimension](https://en.wikipedia.org/wiki/Vapnik%E2%80%93Chervonenkis_dimension): cardinality of the largest set of points that a binary classification algorithm can learn.
-- [Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity): length of the shortest computer program that produces the object as output. (see also [[Gall's law|Gall's Law]])
+- [Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity): length of the shortest computer program that produces the object as output. (see also [[Gall's law|Gall's Law](Gall's%20law.md))
 - Essential Complexity: irreducible, non-eliminable part of the system
 - Accidental Complexity: everything else to make it work
 

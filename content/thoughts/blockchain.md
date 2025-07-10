@@ -5,16 +5,16 @@ tags:
   - sapling
 ---
 
-See also: [[web3 critique]]
+See also: [[web3 critique](web3%20critique.md)
 
 [Source: A Primer to Web3](https://docs.google.com/presentation/d/1aIjYKKM64Eyp497-j6wkDjCsHBA3CbbWg25UQ9Why3g/mobilepresent?slide=id.gefbf959b67_0_58)
 
-On a technical level, blockchain is just a linked list or graph that is replicated. Can be used to build cryptocurrencies like [Bitcoin](bitcoin.md), [[Solana|Solana]], and [Ethereum](ethereum.md).
+On a technical level, blockchain is just a linked list or graph that is replicated. Can be used to build cryptocurrencies like [Bitcoin](bitcoin.md), [[Solana.md|Solana]], and [Ethereum](ethereum.md).
 
-A blockchain is a [[State Machine Replication (SMR)|SMR]] protocol that has a 3-layer architecture.
+A blockchain is a [[State Machine Replication (SMR)|SMR](State%20Machine%20Replication%20(SMR).md) protocol that has a 3-layer architecture.
 
-1. Consensus core: forms agreement over an immutable sequence of updates to a shared state: [[Byzantine Faults|byzantine fault-tolerant]]. The consensus algorithm most commonly used are [[longest-chain consensus|longest-chain consensus algorithms]] and solve [[Byzantine Faults|BFT]] for a _permissionless_ [[system model|system model]]
-2. State-machine API: [[bitcoin|Bitcoin]]’s state-machine and state-updates use a limited scripting language; [[ethereum|Ethereum]] expands the state-machine and state-updates with a Turing complete abstraction (whose resources are bounded using gas).
+1. Consensus core: forms agreement over an immutable sequence of updates to a shared state: [[Byzantine Faults|byzantine fault-tolerant](Byzantine%20Faults.md). The consensus algorithm most commonly used are [[longest-chain consensus|longest-chain consensus algorithms](longest-chain%20consensus.md) and solve [[Byzantine Faults|BFT](Byzantine%20Faults.md) for a _permissionless_ [[system model|system model](system%20model.md)
+2. State-machine API: [[bitcoin.md|Bitcoin]]’s state-machine and state-updates use a limited scripting language; [[ethereum.md|Ethereum]] expands the state-machine and state-updates with a Turing complete abstraction (whose resources are bounded using gas).
 3. Application Layer: In Bitcoin the application is the shared provenance tracking of digital assets, and in Ethereum, could be anything decentralized.
 
 Characteristics:
@@ -40,7 +40,7 @@ It feels like the level of change which blockchain impacts is huge but at the sa
 
 "The "new world" seems to look very similar to the old. i.e. _isn't a DAO just voting on how to donate money, which we could do today?_"
 
-In actuality, the _[[pace layers|layer]]_ at which change is happening is much deeper (more [infrastructure](infrastructure.md) level than solution/product level)
+In actuality, the _[[pace layers|layer](pace%20layers.md)_ at which change is happening is much deeper (more [infrastructure](infrastructure.md) level than solution/product level)
 
 ## Data
 
@@ -68,4 +68,4 @@ The 'scaled blockchain'
 
 Ideally we get to a point where we have a 'global computing service' (very Asiimov's Last Question-esque) through which we can embed IOT devices. This would turn all the sensors and bits of computing power into a global unified knowledge resources that manages the infrastructure of our society
 
-I'm curious how this relates to [truth](truth.md), specifically how different people have different views on 'reality' and 'truth'. How do we reconcile that at a global scale? What might [[plurality|pluriversal]] computing look like?
+I'm curious how this relates to [truth](truth.md), specifically how different people have different views on 'reality' and 'truth'. How do we reconcile that at a global scale? What might [[plurality.md|pluriversal]] computing look like?

@@ -9,14 +9,14 @@ Summarized from [the xmlns FOAF specs](http://xmlns.com/foaf/spec/)
 
 FOAF stands for 'friend of a friend'
 
-> FOAF is a project devoted to linking people and information using the Web... If people publish information in the FOAF document format, machines will be able to make use of that information. If those files contain "see also" references to other such documents in the Web, we will have a machine-friendly version of today's [[hypertext|hypertext]] Web.
+> FOAF is a project devoted to linking people and information using the Web... If people publish information in the FOAF document format, machines will be able to make use of that information. If those files contain "see also" references to other such documents in the Web, we will have a machine-friendly version of today's [[hypertext.md|hypertext]] Web.
 
 It is a way of creating a semantically meaningful network of objects, useful for enabling the Semantic Web.
 
 - FOAF descriptions are published as linked documents in the Web
 - The result of the FOAF project is a network of documents describing a network of people (and other stuff).
 
-Example FOAF describing a person (using [[RDF|RDF]])
+Example FOAF describing a person (using [[RDF.md|RDF]])
 
 ```xml
 <foaf:Person rdf:about="#danbri" xmlns:foaf="http://xmlns.com/foaf/0.1/">

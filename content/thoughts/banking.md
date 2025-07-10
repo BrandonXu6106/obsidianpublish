@@ -9,7 +9,7 @@ tags:
 
 Account or balance sheet-style thinking is a banker's way of being able to hold complementary opposites and demand in mind.
 
-See also: [[money]]
+See also: [[money.md]]
 
 ### Printing Money
 

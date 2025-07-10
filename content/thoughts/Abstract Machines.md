@@ -16,7 +16,7 @@ A typical abstract machine consists of a definition in terms of input, output, a
 
 One such example is the Turing machine.
 
-See also: [[Lambda Calculus|Lambda Calculus]]
+See also: [[Lambda Calculus|Lambda Calculus](Lambda%20Calculus.md)
 
 ## Classifications
 - Deterministic abstract machines
