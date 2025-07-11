@@ -7,7 +7,7 @@ tags:
 ---
 Memoir by Hua Hsu
 
-A beautiful piece of writing on the immigrant experience, [[friendship.md|friendship]], [[time.md|time]], the role of [[writing.md|writing]] to process grief and loss.
+A beautiful piece of writing on the immigrant experience, [[friendship.md|friendship]], [[time.md|time]], the role of [[writing|writing]] to process grief and loss.
 
 ## The immigrant experience
 - "the children picked up the basics of English, this bizarre, new language, which they might use to speak a new future into being"

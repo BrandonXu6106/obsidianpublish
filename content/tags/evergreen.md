@@ -1,4 +1,4 @@
 ---
-title: "Evergreen"
-description: "These are notes that are always relevant and constantly being updated and grown throughout the year."
+title: Evergreen
+description: 多次迭代复用、把笔记抽象成「个人理解版」，得出总结、常用公式或关键概念，彻底打磨的“永久笔记”，可随时引用、输出。
 ---

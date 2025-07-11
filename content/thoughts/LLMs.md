@@ -18,7 +18,7 @@ The widespread use of ChatGPT poses a [[teaching.md|pedagogical question]]: how 
 
 I suspect ChatGPT will do to writing what calculators did to math. That is, they made it much more accessible to the masses but in the process of doing so, lost the value in the actual _process_ of doing math.
 
-We do math by hand to help internalize it in our minds, to naturalize and practice the mind to thinking in that manner. Similarly, we [[writing.md|write]] to naturalize the mind to critical and thorough thought.
+We do math by hand to help internalize it in our minds, to naturalize and practice the mind to thinking in that manner. Similarly, we [[writing|write]] to naturalize the mind to critical and thorough thought.
 
 > "The hours spent choosing the right word and rearranging sentences to better follow one another are what teach you how meaning is conveyed by prose. Having students write essays isn’t merely a way to test their grasp of the material; it gives them experience in articulating their thoughts."
 

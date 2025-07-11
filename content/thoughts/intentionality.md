@@ -9,7 +9,7 @@ Intentionality is the ability to be _about_ something.
 
 ## Derived Intentionality
 
-Intentionality is derived. The same reason why computer-generated art or AI-assisted [[writing.md|writing]] would not be considered 'novel' or 'intelligent'. The intentionality of the user is what gets injected. These tool-assisted generation of artifacts are no more different than fancier pens and paint brushes.
+Intentionality is derived. The same reason why computer-generated art or AI-assisted [[writing|writing]] would not be considered 'novel' or 'intelligent'. The intentionality of the user is what gets injected. These tool-assisted generation of artifacts are no more different than fancier pens and paint brushes.
 
 [Chinese room argument](Chinese%20room%20argument.md) example tries to show that even programming something with intentionality (a person) with a format program, that formal program carries no additional intentionality
 

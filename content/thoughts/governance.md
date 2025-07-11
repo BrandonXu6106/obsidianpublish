@@ -21,7 +21,7 @@ Preserving the sanctity of natural interactions
 - Screen for value alignment
   - Interviews (two-way vibe check)
   - Publishing list of values
-  - Resonance with a large body of [[writing.md]]
+  - Resonance with a large body of [[writing]]
 
 ## The Art of Online Governance
 

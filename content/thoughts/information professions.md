@@ -21,7 +21,7 @@ The fundamental engine of development of this field of information professi
 
 1. Genetic, information about the history of life on Earth is literally encoded in your DNA
 2. Neural-cultural, information is passed down between generations through [[language.md|language]], storytelling, and sharing (see: [[generational learning|intergenerational learning](generational%20learning.md))
-3. Exosomatic, information is embedded into the world around us through [[writing.md|writing]], digital systems, [desire paths](desire%20paths.md), etc. (see: [[Extended Mind Hypothesis](Extended%20Mind%20Hypothesis.md))
+3. Exosomatic, information is embedded into the world around us through [[writing|writing]], digital systems, [desire paths](desire%20paths.md), etc. (see: [[Extended Mind Hypothesis](Extended%20Mind%20Hypothesis.md))
 4. Residue, trace/abandoned information degrading back into nature
 
 > The storage and management of exosomatic information was one of the major contributors to the exponential growth of human knowledge and power over nature.

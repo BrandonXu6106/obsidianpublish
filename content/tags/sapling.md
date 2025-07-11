@@ -1,4 +1,4 @@
 ---
-title: "Sapling"
-description: "Saplings are single nodes or thoughts. These are generally topics I've spent a decent number of hours thinking about and contain substantial original thought."
+title: Sapling
+description: '"幼苗"——完成初稿、初步结构化、开始与其它笔记相互引用、成型度达“可读可改”，将重点加粗、补充老师额外口头说明、画出思维导图。'
 ---

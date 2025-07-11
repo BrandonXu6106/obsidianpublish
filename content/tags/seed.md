@@ -1,4 +1,4 @@
 ---
-title: "Seed"
-description: "I tend to generally bookmark things for later then revisit them when I have time. These are collections of notes on articles, books, and readings. They are the seeds that form the basis of my ideas and thoughts."
+title: Seed
+description: “种子”——有潜力的想法，需要补充上下文，但依然非常粗犷
 ---

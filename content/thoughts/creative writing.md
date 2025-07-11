@@ -8,7 +8,7 @@ tags:
 We have a name for the tendency to go on a reasonable number of random walks: we call it "creativity."
 ### Common misconceptions
 
-- Creative [[writing.md|writing]] is about creating 'literature' and not genre stories: it is more so a question of quality than content
+- Creative [[writing|writing]] is about creating 'literature' and not genre stories: it is more so a question of quality than content
 - Writing is an innate talent: writing is a tool that can be honed and practiced
 - No real world application for creative writing: almost all conversations, media, arguments, involve some form of convincing the other side! what better way to do that than through story telling
 - The riddle of storytelling
