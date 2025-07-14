@@ -520,44 +520,51 @@ h6 {
   overflow-x: visible !important;
 }
 /******************************inline code样式**************************************/
-/* 针对 Quartz / Obsidian Publish 内联 code 全面覆盖 */
-.markdown-body code,
-.markdown-body .inline-code,
-.quartz-content code,
-.quartz-content .inline-code {
-  color: #ff7e5f !important;
-  /* 文本：珊瑚橙 */
+/* 全面覆盖：兼容 <code> 和 .inline-code / .highlight-inline */
+html body .markdown-body :not(pre)>code,
+html body .markdown-body span.inline-code,
+html body .markdown-body span.highlight-inline,
+html body .quartz-content :not(pre)>code,
+html body .quartz-content span.inline-code,
+html body .quartz-content span.highlight-inline {
+  color: #FF4500 !important;
+  /* 文本橙红色 */
   background: transparent !important;
-  /* 去掉默认背景 */
-  padding: 0 0.2em !important;
-  margin-bottom: -0.1em !important;
+  /* 去掉所有背景 */
+  padding: 0 0.15em !important;
+  margin-bottom: -0.15em !important;
+  /* 紧贴文字底部 */
   line-height: 1.2 !important;
   border-radius: 2px !important;
 
-  /* 用 box-shadow 画底部渐变线 */
-  box-shadow: inset 0 -2px 0 linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%) !important;
+  /* 底部实线下划 */
+  box-shadow: inset 0 -2px 0 #FF4500 !important;
 }
 
 /* 深色模式微调 */
 @media (prefers-color-scheme: dark) {
 
-  .markdown-body code,
-  .markdown-body .inline-code,
-  .quartz-content code,
-  .quartz-content .inline-code {
-    color: #feb47b !important;
-    box-shadow: inset 0 -2px 0 linear-gradient(90deg, #feb47b 0%, #ff7e5f 100%) !important;
+  html body .markdown-body :not(pre)>code,
+  html body .markdown-body span.inline-code,
+  html body .markdown-body span.highlight-inline,
+  html body .quartz-content :not(pre)>code,
+  html body .quartz-content span.inline-code,
+  html body .quartz-content span.highlight-inline {
+    color: #FFA07A !important;
+    box-shadow: inset 0 -2px 0 #FFA07A !important;
   }
 }
 
 /* 浅色模式微调 */
 @media (prefers-color-scheme: light) {
 
-  .markdown-body code,
-  .markdown-body .inline-code,
-  .quartz-content code,
-  .quartz-content .inline-code {
-    color: #ff7e5f !important;
-    box-shadow: inset 0 -2px 0 linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%) !important;
+  html body .markdown-body :not(pre)>code,
+  html body .markdown-body span.inline-code,
+  html body .markdown-body span.highlight-inline,
+  html body .quartz-content :not(pre)>code,
+  html body .quartz-content span.inline-code,
+  html body .quartz-content span.highlight-inline {
+    color: #FF4500 !important;
+    box-shadow: inset 0 -2px 0 #FF4500 !important;
   }
 }
