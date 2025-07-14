@@ -389,7 +389,6 @@ h6 {
 }
 
 /***************************************************表格样式*********************************************/
-
 /* 亮色主题玻璃拟态表格 */
 [saved-theme="light"] table {
   width: 100%;
@@ -399,11 +398,9 @@ h6 {
   backdrop-filter: blur(8px) saturate(1.10);
   -webkit-backdrop-filter: blur(8px) saturate(1.10);
   border-radius: 8px;
-  box-shadow: 0 2px 12px 0 rgba(120, 120, 200, 0.10);
-  border: 1.5px solid rgba(160, 180, 240, 0.33);
-  box-shadow:
-    0 2px 12px 0 rgba(120, 120, 200, 0.10),
+  box-shadow: 0 2px 12px 0 rgba(120, 120, 200, 0.10),
     0 0 0 1.5px rgba(255, 255, 255, 0.18) inset;
+  border: 1.5px solid rgba(160, 180, 240, 0.33);
   color: #2a2e4a;
   font-size: 0.97rem;
   overflow: hidden;
@@ -421,8 +418,7 @@ h6 {
   -webkit-backdrop-filter: blur(10px) saturate(1.10);
   border-radius: 8px;
   border: 1.5px solid rgba(120, 140, 220, 0.22);
-  box-shadow:
-    0 2px 12px 0 rgba(80, 120, 180, 0.13),
+  box-shadow: 0 2px 12px 0 rgba(80, 120, 180, 0.13),
     0 0 0 1.5px rgba(255, 255, 255, 0.10) inset;
   color: #e6eaff;
   font-size: 0.97rem;
@@ -478,7 +474,7 @@ h6 {
   background: rgba(120, 140, 220, 0.22) !important;
 }
 
-/* 单元格样式 */
+/* 单元格样式（含最小高度、行高，防止空行塌陷） */
 [saved-theme="light"] th,
 [saved-theme="light"] td,
 [saved-theme="dark"] th,
@@ -488,17 +484,27 @@ h6 {
   white-space: normal;
   border: 1px solid rgba(120, 140, 200, 0.08);
   font-size: 0.97em;
-  border-radius: 0;
+
+  /* 新增：防止空行被压扁 */
+  min-height: 1.5em;
+  line-height: 1.6;
+}
+
+/* 为空单元格自动填充不换行空格 */
+[saved-theme="light"] td:empty::before,
+[saved-theme="dark"] td:empty::before {
+  content: "\00a0";
+}
+
+/* 圆角收尾 */
+[saved-theme="light"] td:first-child,
+[saved-theme="dark"] td:first-child {
+  border-bottom-left-radius: 6px;
 }
 
 [saved-theme="light"] td:last-child,
 [saved-theme="dark"] td:last-child {
   border-bottom-right-radius: 6px;
-}
-
-[saved-theme="light"] td:first-child,
-[saved-theme="dark"] td:first-child {
-  border-bottom-left-radius: 6px;
 }
 
 /* 移除表格外层横向滚动条（如有） */
