@@ -520,42 +520,44 @@ h6 {
   overflow-x: visible !important;
 }
 /******************************inline code样式**************************************/
-/* Quartz 高级感内联代码样式 */
-:not(pre)>code {
-  /* 字体与排版 */
-  font-family: 'SF Mono', 'Fira Code', monospace;
-  font-size: 0.95em;
-  font-weight: 500;
-  vertical-align: text-bottom;
+/* 针对 Quartz / Obsidian Publish 内联 code，底部紧贴文字的彩色下划线 */
+.markdown-body code,
+.quartz-content code {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.2em;
+  margin-bottom: -0.1em;
+  /* 把下边距往上提一点，紧贴行内文字 */
+  line-height: 1.2;
+  /* 确保行高不会把 border 推得太低 */
 
-  /* 背景与颜色 */
-  background-color: rgba(255, 255, 255, 0.08);
-  color: var(--text-accent);
+  background: transparent !important;
+  /* 去掉默认背景 */
+  color: var(--accent) !important;
+  /* 使用主题的强调色 */
 
-  /* 边距与圆角 */
-  padding: 0 0.3em 2px;
-  margin-bottom: -2px;
-  border-radius: 4px;
-  background-clip: padding-box;
-
-  /* 底部边框 */
-  border-bottom: 2px solid var(--accent);
+  /* 用 box-shadow 画底部边框，更贴合文字 */
+  box-shadow: inset 0 -2px 0 var(--accent) !important;
+  border-radius: 2px;
+  /* 轻微圆角 */
 }
 
-/* 暗色模式调整（可选） */
+/* 深色模式：颜色切换 */
 @media (prefers-color-scheme: dark) {
-  :not(pre)>code {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: var(--text-normal);
-    border-bottom-color: var(--accent-bright);
+
+  .markdown-body code,
+  .quartz-content code {
+    color: var(--accent-bright) !important;
+    box-shadow: inset 0 -2px 0 var(--accent-bright) !important;
   }
 }
 
-/* 浅色模式调整（可选） */
+/* 浅色模式：可选微调 */
 @media (prefers-color-scheme: light) {
-  :not(pre)>code {
-    background-color: rgba(0, 0, 0, 0.04);
-    color: var(--text-high);
-    border-bottom-color: var(--accent);
+
+  .markdown-body code,
+  .quartz-content code {
+    color: var(--accent) !important;
+    box-shadow: inset 0 -2px 0 var(--accent) !important;
   }
 }
