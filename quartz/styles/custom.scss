@@ -543,13 +543,13 @@ html[data-theme='light'] .inline-code {
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
 }
 
-/* Dark 模式 */
+/* Dark 模式 —— Monokai 霓虹绿风格 */
 html[data-theme='dark'] code,
 html[data-theme='dark'] .inline-code {
-  background-color: #1e2a33;
-  color: #cbdfff;
-  border: 1px solid #334c5c;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  background-color: #272822;
+  color: #a6e22e;
+  border: 1px solid #3e3d32;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
 
 /* Hover 效果：代码片高亮并轻微发光 */
@@ -560,94 +560,6 @@ code:hover,
   transform: scale(1.015);
   cursor: pointer;
 }
+
 /**********************************************图片样式********************************************************/
-/* ===============================================================
-   Quartz 主题 —— 图片样式
-   =============================================================== */
 
-/* 通用：图片自适应、居中、响应式 */
-.markdown-preview-view img,
-.content img,
-.post-content img {
-  display: block;
-  margin: 1rem auto;
-  max-width: 100%;
-  height: auto;
-  overflow: hidden;
-  transition: box-shadow 0.2s, transform 0.2s;
-  border-radius: 8px;
-}
-
-/* -----------------------
-   亮色主题
-   ----------------------- */
-[saved-theme="light"] .markdown-preview-view img,
-[saved-theme="light"] .content img,
-[saved-theme="light"] .post-content img {
-  background: rgba(245, 245, 255, 0.85);
-  backdrop-filter: blur(8px) saturate(1.10);
-  -webkit-backdrop-filter: blur(8px) saturate(1.10);
-  border: 1.5px solid rgba(160, 180, 240, 0.33);
-  box-shadow:
-    0 4px 12px rgba(120, 120, 200, 0.15),
-    0 0 0 1.5px rgba(255, 255, 255, 0.18) inset;
-}
-
-/* 亮色主题：悬停放大、强化阴影 */
-[saved-theme="light"] .markdown-preview-view img:hover,
-[saved-theme="light"] .content img:hover,
-[saved-theme="light"] .post-content img:hover {
-  transform: scale(1.02);
-  box-shadow:
-    0 6px 18px rgba(120, 120, 200, 0.25),
-    0 0 0 1.5px rgba(255, 255, 255, 0.25) inset;
-}
-
-/* -----------------------
-   暗色主题
-   ----------------------- */
-[saved-theme="dark"] .markdown-preview-view img,
-[saved-theme="dark"] .content img,
-[saved-theme="dark"] .post-content img {
-  background: rgba(38, 40, 60, 0.90);
-  backdrop-filter: blur(10px) saturate(1.10);
-  -webkit-backdrop-filter: blur(10px) saturate(1.10);
-  border: 1.5px solid rgba(120, 140, 220, 0.22);
-  box-shadow:
-    0 4px 12px rgba(80, 120, 180, 0.20),
-    0 0 0 1.5px rgba(255, 255, 255, 0.10) inset;
-  color: #e6eaff;
-}
-
-/* 暗色主题：悬停放大、强化阴影 */
-[saved-theme="dark"] .markdown-preview-view img:hover,
-[saved-theme="dark"] .content img:hover,
-[saved-theme="dark"] .post-content img:hover {
-  transform: scale(1.02);
-  box-shadow:
-    0 6px 18px rgba(80, 120, 180, 0.30),
-    0 0 0 1.5px rgba(255, 255, 255, 0.15) inset;
-}
-
-/* -----------------------
-   Figure & Figcaption
-   ----------------------- */
-figure {
-  margin: 1.2rem 0;
-  text-align: center;
-}
-
-figure img {
-  margin: 0;
-}
-
-figure figcaption {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-  color: #666;
-  line-height: 1.4;
-}
-
-[saved-theme="dark"] figure figcaption {
-  color: #bbb;
-}
