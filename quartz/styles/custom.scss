@@ -393,41 +393,44 @@ h6 {
 [saved-theme="light"] table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
+  /* 保证行高和列宽稳定 */
   margin: 1.2rem 0;
   background: linear-gradient(120deg, rgba(245, 245, 255, 0.90) 70%, rgba(225, 235, 250, 0.70) 100%);
   backdrop-filter: blur(8px) saturate(1.10);
   -webkit-backdrop-filter: blur(8px) saturate(1.10);
   border-radius: 8px;
-  box-shadow: 0 2px 12px 0 rgba(120, 120, 200, 0.10),
-    0 0 0 1.5px rgba(255, 255, 255, 0.18) inset;
   border: 1.5px solid rgba(160, 180, 240, 0.33);
+  box-shadow:
+    0 2px 12px 0 rgba(120, 120, 200, 0.10),
+    0 0 0 1.5px rgba(255, 255, 255, 0.18) inset;
   color: #2a2e4a;
   font-size: 0.97rem;
   overflow: hidden;
   transition: box-shadow 0.2s, background 0.2s;
-  display: table;
 }
 
 /* 暗色主题玻璃拟态表格 */
 [saved-theme="dark"] table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
   margin: 1.2rem 0;
   background: linear-gradient(120deg, rgba(38, 40, 60, 0.95) 70%, rgba(54, 54, 84, 0.75) 100%);
   backdrop-filter: blur(10px) saturate(1.10);
   -webkit-backdrop-filter: blur(10px) saturate(1.10);
   border-radius: 8px;
   border: 1.5px solid rgba(120, 140, 220, 0.22);
-  box-shadow: 0 2px 12px 0 rgba(80, 120, 180, 0.13),
+  box-shadow:
+    0 2px 12px 0 rgba(80, 120, 180, 0.13),
     0 0 0 1.5px rgba(255, 255, 255, 0.10) inset;
   color: #e6eaff;
   font-size: 0.97rem;
   overflow: hidden;
   transition: box-shadow 0.2s, background 0.2s;
-  display: table;
 }
 
-/* 表头样式（无渐变，纯色） */
+/* 表头样式（纯色） */
 [saved-theme="light"] th {
   background: #e7eaff;
   font-weight: 700;
@@ -447,7 +450,7 @@ h6 {
   padding: 0.32em 0.7em;
 }
 
-/* 斑马线和悬停效果（只作用于表体） */
+/* 斑马线和悬停效果（表体） */
 [saved-theme="light"] tbody tr:nth-child(odd) {
   background: rgba(230, 235, 255, 0.65);
 }
@@ -474,10 +477,10 @@ h6 {
   background: rgba(120, 140, 220, 0.22) !important;
 }
 
-/* 单元格样式（含最小高度、行高，防止空行塌陷） */
+/* 单元格样式 */
 [saved-theme="light"] th,
-[saved-theme="light"] td,
 [saved-theme="dark"] th,
+[saved-theme="light"] td,
 [saved-theme="dark"] td {
   padding: 0.22em 0.55em;
   word-break: break-all;
@@ -485,15 +488,18 @@ h6 {
   border: 1px solid rgba(120, 140, 200, 0.08);
   font-size: 0.97em;
 
-  /* 新增：防止空行被压扁 */
-  min-height: 1.5em;
-  line-height: 1.6;
+  /* 强制固定行高，防止空行塌陷 */
+  height: 1.8em;
+  /* 可根据需求微调 */
+  line-height: 1.8em;
+  /* 与 height 保持一致 */
 }
 
-/* 为空单元格自动填充不换行空格 */
+/* 空单元格自动填充，撑开高度 */
 [saved-theme="light"] td:empty::before,
 [saved-theme="dark"] td:empty::before {
   content: "\00a0";
+  display: block;
 }
 
 /* 圆角收尾 */
@@ -507,13 +513,12 @@ h6 {
   border-bottom-right-radius: 6px;
 }
 
-/* 移除表格外层横向滚动条（如有） */
+/* 移除外层横向滚动条 */
 .markdown-preview-view,
 .content,
 .post-content {
   overflow-x: visible !important;
 }
-
 /******************************inline code样式**************************************/
 /* 仿 VSCode 的 inline code 样式 */
 code,
