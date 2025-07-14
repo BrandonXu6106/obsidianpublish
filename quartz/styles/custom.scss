@@ -543,13 +543,16 @@ html[data-theme='light'] .inline-code {
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
 }
 
-/* Dark 模式 —— 电气紫配色 */
+/* Dark 模式 —— Nord 软蓝配色 */
 html[data-theme='dark'] code,
 html[data-theme='dark'] .inline-code {
-  background-color: #2e2b3b;
-  color: #9d00ff;
-  border: 1px solid #5e1d7c;
-  box-shadow: inset 0 0 0 1px rgba(157, 0, 255, 0.15);
+  background-color: #2e3440;
+  /* 深夜蓝灰背景 */
+  color: #8fbcbb;
+  /* 柔和青色文字 */
+  border: 1px solid #4c566a;
+  /* 深灰蓝边框 */
+  box-shadow: inset 0 0 0 1px rgba(143, 188, 187, 0.15);
 }
 
 /* Hover 效果：代码片高亮并轻微发光 */
@@ -560,6 +563,5 @@ code:hover,
   transform: scale(1.015);
   cursor: pointer;
 }
-
 /**********************************************图片样式********************************************************/
 
