@@ -12,7 +12,7 @@ Agency is the ability and freedom for an individual to _act_ in their immediate 
 
 See also: [[Tools for Conviviality](Tools%20for%20Conviviality.md), [[../posts/aigc/agentic-computing.md|agentic computing]]
 
-## Self-Determination Theory (SDT)
+## 1. Self-Determination Theory (SDT)
 
 When our social environments, including the places where we receive health care, are more supportive of these psychological needs, the quality of our motivation is more autonomous. Alternatively, when our psychological needs are not well met or even thwarted through our social interactions, the quality of our motivation is more controlled
 
@@ -24,10 +24,10 @@ Self-determination theory suggests that all humans have three basic psychologica
 
 See also: [[In Over Our Heads](In%20Over%20Our%20Heads.md), [[burnout.md]], [[taste.md]]
 
-### Cultural
+### 1.1. Cultural
 
 In a 2017 study, compared to Democrats, US Republicans predictably attributed a person's wealth to their having "worked harder" versus their having "had advantages in life," and they attributed their poverty to "lack of effort" over "circumstances beyond [their] control"
-## In software
+## 2. In software
 
 4 Principles, [Brooklyn Zelenka at Causal Islands](https://youtu.be/YKf5ItBPQ50?t=3975)
 
@@ -36,7 +36,7 @@ In a 2017 study, compared to Democrats, US Republicans predictably attributed a 
 3. Control access to your data (safety)
 4. Provide capacity to others (serve)
 
-## Mechanistic vs Volitional Agency
+## 3. Mechanistic vs Volitional Agency
 [Source](https://arxiv.org/pdf/2404.13861)
 
 "When we say that something is political, we mean that it involves the contestation of competing (human) wills—that is, of possibly-conflicting goals and intentions, each of which ought to be respected." ^e69010
