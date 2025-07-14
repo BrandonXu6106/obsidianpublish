@@ -543,13 +543,13 @@ html[data-theme='light'] .inline-code {
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
 }
 
-/* Dark 模式 —— Monokai 霓虹绿风格 */
+/* Dark 模式 —— 电气紫配色 */
 html[data-theme='dark'] code,
 html[data-theme='dark'] .inline-code {
-  background-color: #272822;
-  color: #a6e22e;
-  border: 1px solid #3e3d32;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  background-color: #2e2b3b;
+  color: #9d00ff;
+  border: 1px solid #5e1d7c;
+  box-shadow: inset 0 0 0 1px rgba(157, 0, 255, 0.15);
 }
 
 /* Hover 效果：代码片高亮并轻微发光 */
