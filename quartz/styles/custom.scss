@@ -560,3 +560,15 @@ code:hover,
   transform: scale(1.015);
   cursor: pointer;
 }
+
+/***************************************加粗文字变色********************************************/
+/* Markdown 中的加粗语法 `**text**` 被渲染为 <strong> 元素 */
+strong {
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff4d4d, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #ff4d4d;
+  /* fallback 颜色 */
+}
