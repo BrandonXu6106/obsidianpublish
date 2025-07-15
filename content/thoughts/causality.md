@@ -8,7 +8,7 @@ aliases:
   - causal
 ---
 
-## Causality
+## 1. Causality
 
 When $a \rightarrow b$ then $a$ might have caused $b$
 
@@ -18,19 +18,19 @@ We say event $a$ happens before event $b$ ($a \rightarrow b$) iff:
 - $a$ is the sending of some message $m$ and $b$ is the receipt of that same message $m$ (assuming sent messages are unique)
 - there exists some $c$ such that $a \rightarrow c$ and $c \rightarrow b$
 
-## Concurrency
+## 2. Concurrency
 
 When $a \parallel b$ then $a$ cannot have caused $b$ (and vice versa)
 
 Concurrent does _not_ mean simultaneous, it means two things did not know about each other when they occurred (a is concurrent with b is written as $a \parallel b$)
 
-## Causal Order
+## 3. Causal Order
 
 $\prec$ is a causal order, it is consistent with causality, a strict total order on events. Usually called the 'happens-before' relation
 
 See also: [[Order theory](Order%20theory.md)
 
-## Time
+## 4. Time
 
 In Einstein's theory of general and special relativity
 
