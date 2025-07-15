@@ -17,9 +17,11 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
                 const originalAlt = node.properties?.alt || ""
                 
                 if (!originalSrc) return
+                
+                // 如果是 banner.svg 跳过处理
                 const src = originalSrc.toString()
                 if (src.endsWith('banner.svg')) {
-                  return // 如果是 banner.svg 跳过处理
+                  return 
                 }
 
                 // Add lightbox classes and data attributes to the img
