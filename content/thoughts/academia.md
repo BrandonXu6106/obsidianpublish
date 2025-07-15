@@ -9,20 +9,20 @@ Academia feels more pure, more [playful](play.md), than industry? More of a '[co
 
 See also: [[independent research](independent%20research.md)
 
-## Research Incentives
+## 1. Research Incentives
 
 1. Research must be original -- this drives people to stake out a piece of ground no one wants
 2. Research must be substantial -- awkward problems mean more substance to write about and solve, discouraging elegant solutions
 
 Academics and scientists start good and get original. [[Hackers.md]], from the start, are doing original work; it's just very bad. They start original, and get good.
 
-## On Tenure
+## 2. On Tenure
 
 Daniel Dennet:
 
 > "The juvenile sea squirt wanders through the sea searching for a suitable rock or hunk of coral to cling to and make its home for life. For this task, it has a rudimentary nervous system. When it finds its spot and takes root, it doesn't need its brain anymore, so it eats it! It's rather like getting tenure."
 
-## The 'rat race' of theoretical academia
+## 3. The 'rat race' of theoretical academia
 
 > There is no mechanism today, other than time, donations, and personal social platforms,  for researchers to support other researchers' work. Every act of support is out of selflessness and there is a lack of incentive for cross collaboration other than having your name on another paper. The reward system in this community is highly dependent on your ability to make your research well known and marketed. [Shrey Jain](https://twitter.com/shreydjain13)
 
@@ -36,7 +36,7 @@ Had a talk with [Stephen Fay](https://stephenfay.xyz/) about this and he mention
 
 I think any research field with sufficient barrier entry/requirements for access to infrastructure/hardware/physical resources does necessarily require pooling of resources on an institutional and often multi-year/decade long timespan. But now the question is how we can encourage this sort of [[generational learning|intergenerational research](generational%20learning.md) in theoretical fields?
 
-## Tunnel Vision
+## 4. Tunnel Vision
 
 [Source: Mimetic by _Brian Timar_](https://www.briantimar.com/notes/mimetic/mimetic/), see also [mimetic](mimetic.md)
 
