@@ -564,11 +564,7 @@ code:hover,
 /***************************************加粗文字变色********************************************/
 /* Markdown 中的加粗语法 `**text**` 被渲染为 <strong> 元素 */
 strong {
-  font-weight: bold;
-  background: linear-gradient(90deg, #ff4d4d, #ffa500);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: #ff4d4d;
-  /* fallback 颜色 */
+  font-weight: bold !important;
+  color: #ff4d4d !important;
+  /* 自定义你喜欢的字体颜色 */
 }
