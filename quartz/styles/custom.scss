@@ -570,3 +570,22 @@ strong {
 }
 
 
+/* 💡 在亮色模式下，保持图片正常亮度 */
+@media (prefers-color-scheme: light) {
+  img {
+    filter: brightness(100%);
+    transition: filter 0.3s ease;
+  }
+}
+
+/* 🌒 暗色模式下暗化图片，鼠标移上去恢复亮度 */
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(70%);
+    transition: filter 0.3s ease;
+  }
+
+  img:hover {
+    filter: brightness(100%);
+  }
+}
