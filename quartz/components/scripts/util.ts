@@ -44,3 +44,95 @@ export async function fetchCanonical(url: URL): Promise<Response> {
   const [_, redirect] = text.match(canonicalRegex) ?? []
   return redirect ? fetch(`${new URL(redirect, url)}`) : res
 }
+
+
+declare global {
+  interface Window {
+    scriptPromiseMap: Map<string, Promise<void>>;
+  }
+}
+if (!window.scriptPromiseMap) {
+  window.scriptPromiseMap = new Map();
+}
+
+export function loadScript(url: string, preserve = true) {
+  let resolve: (value: void) => void = () => { };
+  let reject: (reason?: any) => void = () => { };
+  const promise = new Promise<void>((_resolve, _reject) => {
+    resolve = _resolve;
+    reject = _reject;
+  });
+  if (!url) {
+    reject?.(new Error('URL is required'));
+    return promise
+  }
+  if (window.scriptPromiseMap.get(url) && preserve) {
+    return window.scriptPromiseMap.get(url) || Promise.resolve();
+  }
+  const script = document.createElement('script');
+  script.src = url;
+  script.async = true;
+  if (preserve) {
+    script.setAttribute('spa-preserve', 'true');
+  }
+  script.onload = () => {
+    resolve();
+  };
+  script.onerror = () => {
+    reject(new Error(`Failed to load script: ${url}`));
+  };
+  document.head.appendChild(script);
+  if (preserve) {
+    window.scriptPromiseMap.set(url, promise);
+  }
+  return promise
+}
+
+
+// Excalidraw
+type ExcalidrawElement = any;
+type ExcalidrawProps = {
+  width?: string;
+  height?: string;
+};
+declare global {
+  interface Window {
+    QuartzExcalidrawPlugin: {
+      mountApp(element: HTMLElement, initialData: readonly ExcalidrawElement[] | null, options: ExcalidrawProps): void
+      decodeData(data: string): ExcalidrawElement[];
+    };
+  }
+}
+export function getJsByMeta(name: string) {
+  const pluginPath = document.querySelector(`meta[name="${name}"]`)?.getAttribute('content');
+  if (!pluginPath) {
+    throw new Error('Excalidraw plugin path not found');
+  }
+  return pluginPath;
+}
+async function loadExcalidraw(element: HTMLElement) {
+  const data = element.getAttribute('data-excalidraw') ?? '';
+  element.removeAttribute('data-excalidraw');
+  const markdown = await fetch(data).then((res) => res.text());
+  window.QuartzExcalidrawPlugin.mountApp(element as HTMLElement, window.QuartzExcalidrawPlugin.decodeData(markdown), {});
+}
+export async function initExcalidraw() {
+  await new Promise<void>((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, 100);
+  })
+  const hasExcalidraw = document.querySelector('[data-excalidraw]');
+  if (!hasExcalidraw) {
+    return;
+  }
+  const pluginPath = getJsByMeta('excalidraw-plugin');
+  await loadScript(pluginPath, false);
+  const elements = document.querySelectorAll('[data-excalidraw]');
+  if (!elements || !elements.length) {
+    return;
+  }
+  elements.forEach((element) => {
+    loadExcalidraw(element as HTMLElement);
+  });
+}

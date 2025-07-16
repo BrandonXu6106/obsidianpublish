@@ -627,7 +627,6 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
           }
         })
       }
-
       if (opts.enableYouTubeEmbed) {
         plugins.push(() => {
           return (tree: HtmlRoot) => {

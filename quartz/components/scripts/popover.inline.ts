@@ -1,6 +1,10 @@
 import { computePosition, flip, inline, shift } from "@floating-ui/dom"
 import { normalizeRelativeURLs } from "../../util/path"
 import { fetchCanonical } from "./util"
+import { init } from './excalidraw.inline';
+
+
+
 
 const p = new DOMParser()
 let activeAnchor: HTMLAnchorElement | null = null
@@ -98,8 +102,11 @@ async function mouseEnterHandler(
       })
       const elts = [...html.getElementsByClassName("popover-hint")]
       if (elts.length === 0) return
-
+      const excalidraw = html.querySelector("[data-excalidraw]")
       elts.forEach((elt) => popoverInner.appendChild(elt))
+      if (excalidraw) {
+        init()
+      }
   }
 
   if (!!document.getElementById(popoverId)) {
