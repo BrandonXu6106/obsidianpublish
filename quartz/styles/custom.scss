@@ -570,22 +570,24 @@ strong {
 }
 
 
-/* ✅ 亮色模式下，保持原始亮度 */
-@media (prefers-color-scheme: light) {
-  .dark-img {
-    filter: brightness(100%) !important;
-    transition: filter 0.3s ease;
+/* 默认设定变量，亮色模式图片保持正常亮度 */
+:root {
+  --img-brightness: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --img-brightness: 70%;
   }
 }
 
-/* 🌙 暗色模式下暗化图片，鼠标移上去恢复 */
-@media (prefers-color-scheme: dark) {
-  .dark-img {
-    filter: brightness(70%) !important;
-    transition: filter 0.3s ease;
-  }
+/* 应用于目标图片，仅使用指定类 */
+img.dark-img {
+  filter: brightness(var(--img-brightness)) !important;
+  transition: filter 0.3s ease;
+}
 
-  .dark-img:hover {
-    filter: brightness(100%) !important;
-  }
+/* 鼠标悬停时强制亮度恢复 */
+img.dark-img:hover {
+  filter: brightness(100%) !important;
 }
