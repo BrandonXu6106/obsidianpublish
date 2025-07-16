@@ -568,3 +568,16 @@ strong {
   color: #db3d3d !important;
   /* 自定义你喜欢的字体颜色 */
 }
+
+
+/* 图片在暗色模式下暗化，当鼠标移至图片上时恢复亮度 */
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(70%);
+    transition: filter 0.3s ease;
+  }
+
+  img:hover {
+    filter: brightness(100%);
+  }
+}
