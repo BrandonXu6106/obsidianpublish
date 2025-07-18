@@ -570,47 +570,24 @@ strong {
 }
 
 /****************************************图片暗化处理********************************************/
-/*───────────────────────────────────────────────────────────────
-  一、浅色模式：系统偏好或 saved-theme="light"
-───────────────────────────────────────────────────────────────*/
-@media (prefers-color-scheme: light) {
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-    filter: none !important;
-    transition: none !important;
-  }
-}
-
-/* 站点级 saved-theme="light" */
-html[saved-theme="light"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-  filter: none !important;
-  transition: none !important;
-}
-
-/*───────────────────────────────────────────────────────────────
-  二、深色模式：系统偏好或 saved-theme="dark"
-───────────────────────────────────────────────────────────────*/
-/* 系统级 dark */
-@media (prefers-color-scheme: dark) {
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-    filter: brightness(0.6) !important;
-    transition: filter 0.3s ease !important;
-    cursor: zoom-in !important;
-  }
-
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover,
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
-    filter: brightness(1) !important;
-  }
-}
-
-/* 站点级 saved-theme="dark" */
-html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+/* 针对 data-theme="dark" */
+html[data-theme="dark"] .post-content img {
   filter: brightness(0.6) !important;
   transition: filter 0.3s ease !important;
-  cursor: zoom-in !important;
+  cursor: pointer !important;
 }
 
-html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover,
-html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
+html[data-theme="dark"] .post-content img:hover {
+  filter: brightness(1) !important;
+}
+
+/* 针对 class="theme-dark" */
+html.theme-dark .post-content img {
+  filter: brightness(0.6) !important;
+  transition: filter 0.3s ease !important;
+  cursor: pointer !important;
+}
+
+html.theme-dark .post-content img:hover {
   filter: brightness(1) !important;
 }
