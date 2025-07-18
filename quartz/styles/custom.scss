@@ -570,23 +570,3 @@ strong {
 }
 
 /****************************************图片暗化处理********************************************/
-/* 重置：在亮色模式时，取消任何滤镜 */
-@media (prefers-color-scheme: light) {
-  img {
-    filter: none !important;
-    transition: none !important;
-  }
-}
-
-/* 在暗色模式时，图片调暗，悬停恢复 */
-@media (prefers-color-scheme: dark) {
-  img {
-    filter: brightness(0.7);
-    transition: filter 0.3s ease;
-    cursor: pointer;
-  }
-
-  img:hover {
-    filter: brightness(1);
-  }
-}
