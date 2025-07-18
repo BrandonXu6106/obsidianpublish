@@ -569,10 +569,10 @@ strong {
   /* 自定义你喜欢的字体颜色 */
 }
 
-/****************************************暗色主题图片暗化处理********************************************/
+/****************************************暗色主题下图片暗化处理********************************************/
 /* 针对 data-theme="dark" */
 html[data-theme="dark"] .post-content img {
-  filter: brightness(0.85) !important;
+  filter: brightness(0.75) !important;
   transition: filter 0.3s ease !important;
   cursor: pointer !important;
 }
@@ -583,7 +583,7 @@ html[data-theme="dark"] .post-content img:hover {
 
 /* 针对 class="theme-dark" */
 html.theme-dark .post-content img {
-  filter: brightness(0.85) !important;
+  filter: brightness(0.75) !important;
   transition: filter 0.3s ease !important;
   cursor: pointer !important;
 }
