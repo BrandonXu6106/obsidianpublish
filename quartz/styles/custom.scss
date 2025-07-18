@@ -570,10 +570,16 @@ strong {
 }
 
 /****************************************图片暗化处理********************************************/
-/* 仅在暗色模式下生效 */
-@media (prefers-color-scheme: dark) {
+/* 重置：在亮色模式时，取消任何滤镜 */
+@media (prefers-color-scheme: light) {
+  img {
+    filter: none !important;
+    transition: none !important;
+  }
+}
 
-  /* 根据实际需求替换选择器，例如 .post-content img 或 .quartz img */
+/* 在暗色模式时，图片调暗，悬停恢复 */
+@media (prefers-color-scheme: dark) {
   img {
     filter: brightness(0.7);
     transition: filter 0.3s ease;
