@@ -562,32 +562,24 @@ code:hover,
 }
 
 /***************************************加粗文字变色********************************************/
-/* ────────────────────────────────────────────────────────────────
-   一、浅色模式：强制清除所有 lightbox 图片的 filter
-──────────────────────────────────────────────────────────────── */
-@media (prefers-color-scheme: light) {
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-    filter: none !important;
-    transition: none !important;
-  }
+/* 针对 data-theme="dark" */
+html[data-theme="dark"] .post-content img {
+  filter: brightness(0.6) !important;
+  transition: filter 0.3s ease !important;
+  cursor: pointer !important;
 }
 
-/* ────────────────────────────────────────────────────────────────
-   二、深色模式：暗化图片，悬停时恢复
-──────────────────────────────────────────────────────────────── */
-@media (prefers-color-scheme: dark) {
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-    filter: brightness(0.6) !important;
-    transition: filter 0.3s ease !important;
-    cursor: zoom-in !important;
-  }
+html[data-theme="dark"] .post-content img:hover {
+  filter: brightness(1) !important;
+}
 
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover {
-    filter: brightness(1) !important;
-  }
+/* 针对 class="theme-dark" */
+html.theme-dark .post-content img {
+  filter: brightness(0.6) !important;
+  transition: filter 0.3s ease !important;
+  cursor: pointer !important;
+}
 
-  /* 如果想触屏设备在按下时也能恢复，可加上下面这一行 */
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
-    filter: brightness(1) !important;
-  }
+html.theme-dark .post-content img:hover {
+  filter: brightness(1) !important;
 }
