@@ -562,52 +562,47 @@ code:hover,
 }
 
 /***************************************加粗文字变色********************************************/
-/* Markdown 中的加粗语法 `**text**` 被渲染为 <strong> 元素 */
-strong {
-  font-weight: bold !important;
-  color: #db3d3d !important;
-  /* 自定义你喜欢的字体颜色 */
-}
-
-/****************************************暗色主题下图片暗化处理********************************************/
-/*────────────────────────────────────────────────────────────────
-  1. 定义一个全局变量 --lightbox-img-filter，初始值为 none
-────────────────────────────────────────────────────────────────*/
-:root {
-  --lightbox-img-filter: none;
-}
-
-/*────────────────────────────────────────────────────────────────
-  2. 系统级深色偏好／saved-theme="dark" 时，把变量改成暗化值
-────────────────────────────────────────────────────────────────*/
-/* 系统偏好 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --lightbox-img-filter: brightness(0.6) !important;
+/*───────────────────────────────────────────────────────────────
+  一、浅色模式：系统偏好或 saved-theme="light"
+───────────────────────────────────────────────────────────────*/
+@media (prefers-color-scheme: light) {
+  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+    filter: none !important;
+    transition: none !important;
   }
 }
 
-/* Quartz 站点级主题开关（如果 html 上会写 saved-theme="dark"） */
-html[saved-theme="dark"] {
-  --lightbox-img-filter: brightness(0.6) !important;
+/* 站点级 saved-theme="light" */
+html[saved-theme="light"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+  filter: none !important;
+  transition: none !important;
 }
 
-/* 你也可以加上其它常见的类名或属性，例如
-   html.theme-dark { --lightbox-img-filter: brightness(0.6) !important; }
-   html[data-theme="dark"] { --lightbox-img-filter: brightness(0.6) !important; }
-*/
+/*───────────────────────────────────────────────────────────────
+  二、深色模式：系统偏好或 saved-theme="dark"
+───────────────────────────────────────────────────────────────*/
+/* 系统级 dark */
+@media (prefers-color-scheme: dark) {
+  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+    filter: brightness(0.6) !important;
+    transition: filter 0.3s ease !important;
+    cursor: zoom-in !important;
+  }
 
-/*────────────────────────────────────────────────────────────────
-  3. 全局图片规则：所有 lightbox-image 用同一个变量
-────────────────────────────────────────────────────────────────*/
-.lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-  filter: var(--lightbox-img-filter) !important;
+  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover,
+  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
+    filter: brightness(1) !important;
+  }
+}
+
+/* 站点级 saved-theme="dark" */
+html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+  filter: brightness(0.6) !important;
   transition: filter 0.3s ease !important;
   cursor: zoom-in !important;
 }
 
-/* 悬停／点击时，恢复原亮度 */
-.lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover,
-.lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
+html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover,
+html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
   filter: brightness(1) !important;
 }
