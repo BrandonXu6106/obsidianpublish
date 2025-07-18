@@ -562,24 +562,16 @@ code:hover,
 }
 
 /***************************************加粗文字变色********************************************/
-/* 针对 data-theme="dark" */
-html[data-theme="dark"] .post-content img {
-  filter: brightness(0.6) !important;
-  transition: filter 0.3s ease !important;
-  cursor: pointer !important;
-}
+@media (prefers-color-scheme: dark) {
 
-html[data-theme="dark"] .post-content img:hover {
-  filter: brightness(1) !important;
-}
+  /* 根据自己实际的容器选择器替换下面的 .post-content img */
+  .post-content img {
+    filter: brightness(0.6) !important;
+    transition: filter 0.3s ease !important;
+    cursor: pointer !important;
+  }
 
-/* 针对 class="theme-dark" */
-html.theme-dark .post-content img {
-  filter: brightness(0.6) !important;
-  transition: filter 0.3s ease !important;
-  cursor: pointer !important;
-}
-
-html.theme-dark .post-content img:hover {
-  filter: brightness(1) !important;
+  .post-content img:hover {
+    filter: brightness(1) !important;
+  }
 }
