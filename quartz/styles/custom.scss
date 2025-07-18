@@ -569,25 +569,45 @@ strong {
   /* 自定义你喜欢的字体颜色 */
 }
 
-/****************************************图片暗化处理********************************************/
-/* 针对 data-theme="dark" */
-html[data-theme="dark"] .post-content img {
-  filter: brightness(0.6) !important;
+/****************************************暗色主题下图片暗化处理********************************************/
+/*────────────────────────────────────────────────────────────────
+  1. 定义一个全局变量 --lightbox-img-filter，初始值为 none
+────────────────────────────────────────────────────────────────*/
+:root {
+  --lightbox-img-filter: none;
+}
+
+/*────────────────────────────────────────────────────────────────
+  2. 系统级深色偏好／saved-theme="dark" 时，把变量改成暗化值
+────────────────────────────────────────────────────────────────*/
+/* 系统偏好 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lightbox-img-filter: brightness(0.6) !important;
+  }
+}
+
+/* Quartz 站点级主题开关（如果 html 上会写 saved-theme="dark"） */
+html[saved-theme="dark"] {
+  --lightbox-img-filter: brightness(0.6) !important;
+}
+
+/* 你也可以加上其它常见的类名或属性，例如
+   html.theme-dark { --lightbox-img-filter: brightness(0.6) !important; }
+   html[data-theme="dark"] { --lightbox-img-filter: brightness(0.6) !important; }
+*/
+
+/*────────────────────────────────────────────────────────────────
+  3. 全局图片规则：所有 lightbox-image 用同一个变量
+────────────────────────────────────────────────────────────────*/
+.lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+  filter: var(--lightbox-img-filter) !important;
   transition: filter 0.3s ease !important;
-  cursor: pointer !important;
+  cursor: zoom-in !important;
 }
 
-html[data-theme="dark"] .post-content img:hover {
-  filter: brightness(1) !important;
-}
-
-/* 针对 class="theme-dark" */
-html.theme-dark .post-content img {
-  filter: brightness(0.6) !important;
-  transition: filter 0.3s ease !important;
-  cursor: pointer !important;
-}
-
-html.theme-dark .post-content img:hover {
+/* 悬停／点击时，恢复原亮度 */
+.lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover,
+.lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
   filter: brightness(1) !important;
 }
