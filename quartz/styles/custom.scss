@@ -577,7 +577,7 @@ code:hover,
 ──────────────────────────────────────────────────────────────── */
 @media (prefers-color-scheme: dark) {
   .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-    filter: brightness(0.6) !important;
+    filter: brightness(0.8) !important;
     transition: filter 0.3s ease !important;
     cursor: zoom-in !important;
   }
