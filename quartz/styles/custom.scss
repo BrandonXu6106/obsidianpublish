@@ -592,7 +592,7 @@ html[saved-theme="light"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-i
 /* 系统级 dark */
 @media (prefers-color-scheme: dark) {
   .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-    filter: brightness(0.6) !important;
+    filter: brightness(0.8) !important;
     transition: filter 0.3s ease !important;
     cursor: zoom-in !important;
   }
@@ -605,7 +605,7 @@ html[saved-theme="light"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-i
 
 /* 站点级 saved-theme="dark" */
 html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
-  filter: brightness(0.6) !important;
+  filter: brightness(0.8) !important;
   transition: filter 0.3s ease !important;
   cursor: zoom-in !important;
 }
