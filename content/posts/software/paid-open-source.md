@@ -9,7 +9,7 @@ An exploration of processes in open source, the value it provides, and how money
 
 ![Working in Public: The Making and Maintenance of Open Source Software](/posts/images/paid-oss/oss_book.jpg)_Working in Public: The Making and Maintenance of Open Source Software_
 
-### How it's made
+### 0.1. How it's made
 
 > "Open source developers were frequently characterized as 'hobby' developers, because the assumption was that only companies could make 'real' software."[^1]
 
@@ -22,7 +22,7 @@ Traditionally, software has been seen as a product of firms. Open source develop
 
 Surprisingly, this may also help to explain why some developers view open source and money as completely separate. If the commons-based method of production is rooted in intrinsic motivation, then [[../../thoughts/money.md]], an extrinsic motivator, will be seen as opposite to core ideals that open source stands for.
 
-## Creation vs Maintenance
+## 1. Creation vs Maintenance
 
 > "Creation is an intrinsic motivator, maintenance usually requires extrinsic motivation"
 >
@@ -38,9 +38,9 @@ Just a few clicks and a few taps of your keyboard and your project is readily av
 
 Code may be nearly free to create and distribute, but maintenance is still expensive.
 
-## Types of code
+## 2. Types of code
 
-### Code as an artifact
+### 2.1. Code as an artifact
 
 There are two main ways we can look at code. The first of which is _static_ code. Code that, on its own, does nothing but exists as an archive. Others can copy and download the code without incurring any additional costs to the author. For the maintainers, it should make no difference in regards to cost whether 10 or 10,000 people use it.
 
@@ -53,7 +53,7 @@ Any code that is in this state is easy to share, copy, and distribute. This is t
 
 In doing so, we bring it to life.
 
-### Code as an organism
+### 2.2. Code as an organism
 
 > "Open source code derives its value not from its static qualities but from its living ones."[^1]
 
@@ -61,11 +61,11 @@ As soon as you hit CTRL-V on that snippet of code, as soon as that static code i
 
 Like a living organism in a symbiotic relationship, there is a mutual [[../../thoughts/interdependence.md]] between it and others in the software ‘ecosystem’ in order to survive. As a result, this ecosystem requires constant upkeep to ensure that components don’t fall out of balance: dependency bumps, documentation updates, and infrastructure changes.
 
-## Free as in speech, not as in beer
+## 3. Free as in speech, not as in beer
 
 ‘Free’ software doesn’t refer to its price. In fact, ‘free’ software is often extremely expensive. As Richard Stallman first described free software, it’s “free as in speech, not free as in beer.” The point Stallman was trying to make was that ‘free’ refers to what one could do with the software, rather than the price tag.
 
-### Latent cost of software
+### 3.1. Latent cost of software
 
 In reality, code in its alive state is more like a free puppy. In the beginning, it’s a great and wonderful thing! Super fun and super cute. As it grows and gets older, you realize “geez, it actually takes a lot of my own time to take care of this thing.” Unlike a piece of inanimate furniture, bringing a living creature into one’s home comes with bringing in a new set of responsibilities too.
 
@@ -75,19 +75,19 @@ In reality, code in its alive state is more like a free puppy. In the beginning,
 
 Paying off these latent costs is seldom intrinsically motivated. When people talk about how fun making new projects is or contributing to open source, it’s never referring to writing documentation or refactoring code. This isn’t the ‘fun’ part of writing software. This is the nasty upkeep that goes into maintaining a building from the 1850s that’s had new rooms, plumbing, and electric wiring frankenstein-ed into it over the years.
 
-## Funding Open Source
+## 4. Funding Open Source
 
 I first started on BentoML[^3] as a casual contributor last summer, submitting a few decently sized PRs. It was almost all intrinsically motivated; I found issues that I enjoyed working on and that I knew I would learn lots from. Satisfied with my experience, I decided to join the team as a paid contractor expecting to just continue the type of work I was doing in the summer. As issue after issue piled on, I slowly started to realize just how much extra work being a maintainer meant and why it was a paid position. Making proposals, triaging issues, adding tests, and writing documentation took up the majority of my time. While I recognized it was important work, it was not work I was intrinsically motivated to do. Thus, to motivate people like me to get that work done, an extrinsic motivator -- in this case, money -- needed to be applied.
 
 How do we best incentivize maintainers to work tasks stripped of the very excitement and promise of creation that initially drew them to the project in the first place? There is a jarring disconnect between work that is needed versus work that is intrinsically motivated. This is where I believe open source funding should play a role.
 
-### Funding projects
+### 4.1. Funding projects
 
 One possibility is to fund projects directly. This route builds a brand around the project. The status of the project then transcends any single person’s contributions and becomes a tangible entity that has the brand recognition and reputation that comes with becoming an independent entity.
 
 Projects also tend to attract corporate/government funding much better than individuals can since companies are more comfortable paying for a product (code) than for a one off contract (talent). As part of the transaction, companies are typically promised service availability, influence in decision making, or technical support. However, this tradeoff also means that projects lose a bit of their freedom. Not only do maintainers have to worry about the future of the project, they need to make sure that the agreements laid out between the project and the companies are met too.
 
-### Funding individuals
+### 4.2. Funding individuals
 
 A more individualistic model would provide greater flexibility and avoids the centralized governance issues that are so antithetical to what open source stands for. Maintainers then don’t need to deal with figuring out who should get paid how much as each maintainer is responsible for securing their own funding (if even needed). Unlike a company, what each maintainer looks to get from contributing to a project may look completely different. One may be looking to build technical skill, another to gain reputation in the community. From a governance perspective, funding individual developers is also better aligned with the distributed nature of open source projects too.
 
@@ -101,7 +101,7 @@ When you are funding an individual, you are paying for the regular delivery of w
 
 Funding individuals means trusting not just in the projects they are currently working on, but also that they will continue to deliver future value too. Rather than being tied down to one project, creators then have the creative freedom to apply what they learned and create more groundbreaking initiatives.
 
-## Mixing money and open source
+## 5. Mixing money and open source
 
 > **Q:** Won't financial rewards adversely affect developer's [incentives](../../thoughts/incentives.md) to contribute?
 >
@@ -115,7 +115,7 @@ There are two main camps on funding open source projects. The first camp believe
 
 I stand somewhere in between the two camps. I’m a big proponent of “if it ain’t broke, don’t fix it.” There are a lot of competing motivations already, both intrinsic and extrinsic, that powers open source today. We shouldn’t touch the parts that are currently working. Rather, we should focus on funding places that are absent from existing motivation like software maintenance and documentation
 
-## Conclusion
+## 6. Conclusion
 
 There is an abundance of open source projects and casual contributors as it stands today. With the ever lowering barrier to entry, these will only become more abundant. Casual contributors already incur a marginal cost on maintainers, their contributions need a maintainer to review whether it’s okay to merge or not. Adding more extrinsic motivation will just exacerbate this existing problem. This is the same reason why initiatives like Hacktoberfest, which promises to give a free t-shirt to anyone who makes a few pull requests, are counterproductive to open source.
 
