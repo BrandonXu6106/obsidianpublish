@@ -569,25 +569,33 @@ strong {
   /* 自定义你喜欢的字体颜色 */
 }
 
-/* 默认亮度设为 100% */
-:root {
-  --img-brightness: 100%;
-}
-
-/* 暗色模式时覆盖变量值 */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --img-brightness: 70%;
+/* 默认亮色模式：保持正常亮度 */
+@media (prefers-color-scheme: light) {
+  .lightbox-image {
+    filter: brightness(100%) !important;
+    transition: filter 0.3s ease;
   }
 }
 
-/* 对特定图片类应用变量，并加上 fallback 避免变量无效时失效 */
-img.dark-img {
-  filter: brightness(var(--img-brightness, 100%)) !important;
-  transition: filter 0.3s ease;
+/* 暗色模式：暗化图片，悬停时恢复亮度 */
+@media (prefers-color-scheme: dark) {
+  .lightbox-image {
+    filter: brightness(70%) !important;
+    transition: filter 0.3s ease;
+  }
+
+  .lightbox-image:hover {
+    filter: brightness(100%) !important;
+  }
 }
 
-/* 悬停恢复原始亮度 */
-img.dark-img:hover {
-  filter: brightness(100%) !important;
+/* 隐藏嵌入标题 */
+.markdown-embed-title,
+.markdown-embed h1,
+.markdown-embed h2,
+.markdown-embed h3,
+.markdown-embed h4,
+.markdown-embed h5,
+.markdown-embed h6 {
+  display: none !important;
 }

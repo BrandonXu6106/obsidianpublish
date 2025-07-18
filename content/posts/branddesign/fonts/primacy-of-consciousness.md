@@ -6,14 +6,14 @@ tags:
   - PHIL451A
 ---
 
-![[../../../../public/thoughts/images/consciousness-midjourney.png]]_"Bridging the explanatory gap from the other side" [@midjourney](https://www.midjourney.com/)_
+![[../../../../public/thoughts/images/consciousness-midjourney.png|713]]_"Bridging the explanatory gap from the other side" [@midjourney](https://www.midjourney.com/)_
 
 > An exploration into the [[philosophy of science|philosophy of science](../../../thoughts/philosophy%20of%20science.md).
 
 What is consciousness even?
 
 For many, it is the ability to be human. To feel the warm of sunlight on our skin, to see the redness of sunset, to taste the crunch of a sweet apple, to love and be loved. Distilled, it is the ability to have subjective human experience.
-
+四代机,士大夫四大佛教,是否静安寺哦就,机房建设的房间,上发送i的,首发式地方,
 Philosophers in particular define consciousness as _experience_. Something is conscious if there is an experience to _be like that thing_. But there is a deeper question that philosophers have been digging at for the past few millennia: why should all of this experience _feel_ like anything? How do we get from the physical act of feeling things in our environment to the mental experience of _being_ human?
 
 This is the [[mind body problem|mind-body problem](../../../thoughts/mind%20body%20problem.md) and the fundamental question of the [[Hard problem of consciousness|hard problem of consciousness.](../../../thoughts/Hard%20problem%20of%20consciousness.md)
