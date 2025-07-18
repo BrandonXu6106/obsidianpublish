@@ -569,33 +569,18 @@ strong {
   /* 自定义你喜欢的字体颜色 */
 }
 
-/* 默认亮色模式：保持正常亮度 */
-@media (prefers-color-scheme: light) {
-  .lightbox-image {
-    filter: brightness(100%) !important;
-    transition: filter 0.3s ease;
-  }
-}
-
-/* 暗色模式：暗化图片，悬停时恢复亮度 */
+/****************************************图片暗化处理********************************************/
+/* 仅在暗色模式下生效 */
 @media (prefers-color-scheme: dark) {
-  .lightbox-image {
-    filter: brightness(70%) !important;
+
+  /* 根据实际需求替换选择器，例如 .post-content img 或 .quartz img */
+  img {
+    filter: brightness(0.7);
     transition: filter 0.3s ease;
+    cursor: pointer;
   }
 
-  .lightbox-image:hover {
-    filter: brightness(100%) !important;
+  img:hover {
+    filter: brightness(1);
   }
-}
-
-/* 隐藏嵌入标题 */
-.markdown-embed-title,
-.markdown-embed h1,
-.markdown-embed h2,
-.markdown-embed h3,
-.markdown-embed h4,
-.markdown-embed h5,
-.markdown-embed h6 {
-  display: none !important;
 }
