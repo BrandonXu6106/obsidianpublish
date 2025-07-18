@@ -563,31 +563,54 @@ code:hover,
 
 /***************************************加粗文字变色********************************************/
 /* ────────────────────────────────────────────────────────────────
-   一、浅色模式：强制清除所有 lightbox 图片的 filter
+   一、亮色模式下，强制清除所有图片 filter
 ──────────────────────────────────────────────────────────────── */
 @media (prefers-color-scheme: light) {
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+
+  /* 如果你的站点使用 data-theme 或 class 切换，还可以再写一遍： */
+  html[data-theme="light"] img,
+  html:not([data-theme="dark"]) img,
+  html:not(.theme-dark) img {
     filter: none !important;
     transition: none !important;
   }
 }
 
 /* ────────────────────────────────────────────────────────────────
-   二、深色模式：暗化图片，悬停时恢复
+   二、暗色模式下，仅对文章内图片或所有 img 应用滤镜
 ──────────────────────────────────────────────────────────────── */
 @media (prefers-color-scheme: dark) {
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image {
+
+  /* 1) 如果只作用于 Quartz 文章区，改成 .quartz-article img 或 .post-content img */
+  /* 2) 如果支持多种 img 容器，请同时包含 picture img、.kg-image img 等 */
+  .quartz-article img,
+  .post-content img,
+  picture img,
+  .kg-image img {
     filter: brightness(0.6) !important;
-    transition: filter 0.3s ease !important;
-    cursor: zoom-in !important;
+    transition: filter 0.3s ease-in-out !important;
+    cursor: pointer !important;
   }
 
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:hover {
+  .quartz-article img:hover,
+  .post-content img:hover,
+  picture img:hover,
+  .kg-image img:hover {
     filter: brightness(1) !important;
   }
+}
 
-  /* 如果想触屏设备在按下时也能恢复，可加上下面这一行 */
-  .lightbox-wrapper[data-lightbox="true"] img.lightbox-image:active {
-    filter: brightness(1) !important;
-  }
+/* ────────────────────────────────────────────────────────────────
+   三、站点级暗色类（如有的话）——双保险写法
+──────────────────────────────────────────────────────────────── */
+html[data-theme="dark"] .quartz-article img,
+html.theme-dark .quartz-article img {
+  filter: brightness(0.6) !important;
+  transition: filter 0.3s ease !important;
+  cursor: pointer !important;
+}
+
+html[data-theme="dark"] .quartz-article img:hover,
+html.theme-dark .quartz-article img:hover {
+  filter: brightness(1) !important;
 }
