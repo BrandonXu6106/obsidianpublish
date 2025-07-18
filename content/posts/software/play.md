@@ -7,7 +7,7 @@ tags:
 
 _Extension of my thoughts about [play](../../thoughts/play.md) and discussions from our Interact Circle on [Hackathon Culture](../aigc/hackathons.md) and Play._
 
-## Defining play
+## 1. Defining play
 
 I've spent so much time thinking about how to ['bring back play'](../aigc/hackathons.md), yet not a lot of thinking about _what play is_. The more I think about it, the more nebulous it feels to define. I know examples of it when I see it -- the building of blanket forts during sleepovers, the joy of beating Minecraft for the first time with your friends -- but putting it into words feels difficult.
 
@@ -21,7 +21,7 @@ Yet this definition still seems inadequate. What separates work from play? Are t
 
 Here, I turn to Jenny Odell's [_How to Do Nothing_](../../thoughts/How%20to%20do%20Nothing.md) and Bernard Herbert Suit's [_The Grasshopper: Games, Life, and Utopia_](../../thoughts/The%20Grasshopper,%20Games,%20Life%20and%20Utopia.md) to further explore this definition.
 
-## How to Do Nothing
+## 2. How to Do Nothing
 
 Odell’s book _How to Do Nothing_ focuses on resisting the current attention economy. Doing ‘nothing’ within a productivity-obsessed environment can, in fact, help to restore communities, both locally and beyond.
 
@@ -39,7 +39,7 @@ Play allows us to create environments where saying 'no' is okay. By definition, 
 
 Play is the catalyst that will enable the post-attention-economy society. But what do we do when we get there?
 
-## The Grasshopper
+## 3. The Grasshopper
 
 _Of all the things you could do in utopia, why would one play [games](../../thoughts/games.md)?_
 
@@ -53,7 +53,7 @@ Games, as Suits defines it, are "goal-directed activities in which inefficient m
 
 **Playing a game is the voluntary attempt to overcome self-imposed obstacles.**
 
-### A post-work society
+### 3.1. A post-work society
 
 In fact, I posit that play is not only necessary but the _only thing_ that can exist in a post-work utopia. Let us explore this argument through a Socratic dialogue.
 
@@ -104,7 +104,7 @@ To the carpenter who enjoys building for its own sake, that otherwise instrument
 
 ---
 
-## A re-worked definition
+## 4. A re-worked definition
 
 Obviously, this is an exaggeration of the argument I'm hoping to make -- we clearly don't live in this caricature of a post-instrumental society. However, we _do_ live in is a society that is malleable to change.
 
