@@ -635,39 +635,47 @@ blockquote.transclude>a.internal.transclude-src {
 }
 
 /**********************************************underline样式***********************************************/
-u {
+u.wavy-underline {
+  --wave-color: #4A84FF;
+  /* 默认波浪线颜色 */
   position: relative;
-  text-decoration: none;
+  text-decoration: none !important;
   /* 移除默认下划线 */
-  color: inherit;
-  /* 保持原文字颜色 */
-  transition: color 0.3s ease;
+  /* 动态阴影模拟紧贴效果 */
+  background-image: linear-gradient(to top, var(--wave-color) 50%, transparent 50%);
+  background-position: 0 1.15em;
+  /* 精确控制波浪线位置 */
+  background-repeat: repeat-x;
+  background-size: 8px 2px;
+  /* 波浪线尺寸 */
 }
 
-u:hover {
-  color: #ff3366;
-  /* 悬停时文字变色（可选） */
-}
-
-/* 波浪线下划线实现 */
-u::after {
-  content: '';
+/* 波浪图案 - 使用base64编码确保自包含 */
+u.wavy-underline::before {
+  content: "";
   position: absolute;
   left: 0;
-  right: 0;
-  bottom: -2px;
-  /* 调整此值控制位置精度 */
+  bottom: -1px;
+  /* 精确贴合字体基线 */
+  width: 100%;
   height: 3px;
-  background-image:
-    radial-gradient(circle at 1px 1px, currentColor 2px, transparent 0),
-    radial-gradient(circle at 5px 1px, currentColor 2px, transparent 0);
-  background-size: 8px 4px;
-  background-position: 0 0, 4px 0;
-  background-repeat: repeat-x;
-  transition: color 0.3s ease;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjMiPjxwYXRoIGQ9Ik0wIDIgQzIgMiAyIDAgNCAwIDYgMCA2IDIgOCAyIiBmaWxsPSJub25lIiBzdHJva2U9IiNGQUZBRkEiIHN0cm9rZS13aWR0aD0xLjI1Ii8+PC9zdmc+') repeat-x;
+  pointer-events: none;
+  /* 不干扰文字选择 */
+  transition: background-color 0.3s ease;
 }
 
-u:hover::after {
-  color: #ff3366;
-  /* 悬停下划线变色 */
+/* 悬停变色效果 */
+u.wavy-underline:hover {
+  --wave-color: #FF6B6B;
+  /* 悬停时新颜色 */
+  background-image: linear-gradient(to top, var(--wave-color) 50%, transparent 50%);
+}
+
+/* 适配深色模式 */
+@media (prefers-color-scheme: dark) {
+  u.wavy-underline {
+    --wave-color: #62A0FF;
+    /* 深色模式下的波浪线颜色 */
+  }
 }
