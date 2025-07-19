@@ -635,73 +635,39 @@ blockquote.transclude>a.internal.transclude-src {
 }
 
 /**********************************************underline样式***********************************************/
-/* 基础波浪下划线样式 */
 u {
+  position: relative;
   text-decoration: none;
   /* 移除默认下划线 */
-  position: relative;
   color: inherit;
-  /* 保持文字原色 */
-  padding-bottom: 0.3em;
-  /* 增加下划线空间 */
+  /* 保持原文字颜色 */
+  transition: color 0.3s ease;
 }
 
+u:hover {
+  color: #ff3366;
+  /* 悬停时文字变色（可选） */
+}
+
+/* 波浪线下划线实现 */
 u::after {
   content: '';
   position: absolute;
   left: 0;
   right: 0;
   bottom: -2px;
-  /* 贴紧文字底部 */
+  /* 调整此值控制位置精度 */
   height: 3px;
-  /* 波浪线厚度 */
-
-  /* 波浪线图案设计 */
   background-image:
-    radial-gradient(3px at 75% 75%, transparent 92%, currentColor 100%),
-    radial-gradient(3px at 25% 25%, transparent 92%, currentColor 100%);
-  background-size: 8px 6px;
-  /* 调整波浪弧度和间距 */
-  background-position: 0 0;
+    radial-gradient(circle at 1px 1px, currentColor 2px, transparent 0),
+    radial-gradient(circle at 5px 1px, currentColor 2px, transparent 0);
+  background-size: 8px 4px;
+  background-position: 0 0, 4px 0;
   background-repeat: repeat-x;
-
-  /* 默认颜色 */
-  --wave-color-light: #536DFE;
-  /* 亮色主题颜色 */
-  --wave-color-dark: #7C4DFF;
-  /* 暗色主题颜色 */
-  --wave-hover-light: #FF4081;
-  /* 悬停亮色 */
-  --wave-hover-dark: #FF6E40;
-  /* 悬停暗色 */
-  color: var(--wave-color-light);
   transition: color 0.3s ease;
 }
 
-/* 亮色主题 */
-@media (prefers-color-scheme: light) {
-  u::after {
-    color: var(--wave-color-light);
-  }
-
-  u:hover::after {
-    color: var(--wave-hover-light);
-  }
-}
-
-/* 暗色主题 */
-@media (prefers-color-scheme: dark) {
-  u::after {
-    color: var(--wave-color-dark);
-  }
-
-  u:hover::after {
-    color: var(--wave-hover-dark);
-  }
-}
-
-/* 传统无主题支持浏览器 */
 u:hover::after {
-  color: #FF4081;
-  /* 安全回退色 */
+  color: #ff3366;
+  /* 悬停下划线变色 */
 }
