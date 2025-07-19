@@ -635,47 +635,37 @@ blockquote.transclude>a.internal.transclude-src {
 }
 
 /**********************************************underline样式***********************************************/
-u.wavy-underline {
-  --wave-color: #4A84FF;
-  /* 默认波浪线颜色 */
+/* 波浪下划线核心样式 */
+u {
+  text-decoration: none;
+  /* 禁用默认下划线 */
   position: relative;
-  text-decoration: none !important;
-  /* 移除默认下划线 */
-  /* 动态阴影模拟紧贴效果 */
-  background-image: linear-gradient(to top, var(--wave-color) 50%, transparent 50%);
-  background-position: 0 1.15em;
-  /* 精确控制波浪线位置 */
+  background-image:
+    repeating-linear-gradient(-45deg,
+      currentColor,
+      currentColor 2px,
+      transparent 2px,
+      transparent 4px);
+  background-position: 0 100%;
+  background-size: 3px 2px;
   background-repeat: repeat-x;
-  background-size: 8px 2px;
-  /* 波浪线尺寸 */
+  padding-bottom: 2px;
+  transition: background-size 0.3s ease, background-position 0.3s ease;
 }
 
-/* 波浪图案 - 使用base64编码确保自包含 */
-u.wavy-underline::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  /* 精确贴合字体基线 */
-  width: 100%;
-  height: 3px;
-  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjMiPjxwYXRoIGQ9Ik0wIDIgQzIgMiAyIDAgNCAwIDYgMCA2IDIgOCAyIiBmaWxsPSJub25lIiBzdHJva2U9IiNGQUZBRkEiIHN0cm9rZS13aWR0aD0xLjI1Ii8+PC9zdmc+') repeat-x;
-  pointer-events: none;
-  /* 不干扰文字选择 */
-  transition: background-color 0.3s ease;
+/* 悬停效果 - 波浪变鲜艳 */
+u:hover {
+  --wave-color: #FF3B30;
+  /* 悬停颜色（此处用红色示例） */
+  background-size: 4px 3px;
+  background-position: 0 97%;
+  color: var(--wave-color);
 }
 
-/* 悬停变色效果 */
-u.wavy-underline:hover {
-  --wave-color: #FF6B6B;
-  /* 悬停时新颜色 */
-  background-image: linear-gradient(to top, var(--wave-color) 50%, transparent 50%);
-}
-
-/* 适配深色模式 */
+/* 适配 Quartz 深色模式 */
 @media (prefers-color-scheme: dark) {
-  u.wavy-underline {
-    --wave-color: #62A0FF;
-    /* 深色模式下的波浪线颜色 */
+  u {
+    color: #7FCFFF;
+    /* 深色模式浅蓝色 */
   }
 }
