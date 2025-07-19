@@ -634,3 +634,41 @@ blockquote.transclude>a.internal.transclude-src {
   display: none !important;
 }
 
+/**********************************************underline样式**************************************************/
+u {
+  /* 清除浏览器默认下划线 */
+  text-decoration: none;
+
+  /* 创建自定义下划线效果 */
+  position: relative;
+  display: inline-block;
+}
+
+u::after {
+  content: "";
+  position: absolute;
+  /* 位置控制 */
+  left: 0;
+  bottom: 0.15em;
+  /* 控制下划线与文字距离 */
+  width: 100%;
+
+  /* 下划线样式 */
+  height: 1.5px;
+  /* 控制下划线粗细 */
+  background: linear-gradient(90deg, #FF5C00, #EC008C);
+  /* 渐变效果 */
+
+  /* 动画效果 (可选) */
+  transition: all 0.3s ease;
+  transform: scaleX(0.95);
+  /* 控制下划线长度(95%) */
+  transform-origin: center;
+}
+
+/* 悬停动画 (可选) */
+u:hover::after {
+  transform: scaleX(1);
+  height: 2px;
+  background: #FF2A00;
+}
