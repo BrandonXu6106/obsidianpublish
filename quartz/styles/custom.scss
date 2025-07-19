@@ -649,14 +649,14 @@ u::after {
   position: absolute;
   /* 位置控制 */
   left: 0;
-  bottom: 0.15em;
+  bottom: 0.05em;
   /* 控制下划线与文字距离 */
   width: 100%;
 
   /* 下划线样式 */
   height: 1.5px;
   /* 控制下划线粗细 */
-  background: linear-gradient(180deg, #FF5C00, #EC008C);
+  background: linear-gradient(380deg, #FF5C00, #EC008C);
   /* 渐变效果 */
 
   /* 动画效果 (可选) */
