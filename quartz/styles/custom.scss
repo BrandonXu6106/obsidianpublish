@@ -519,68 +519,43 @@ h6 {
 .post-content {
   overflow-x: visible !important;
 }
+
+
+
+
 /******************************inline code样式**************************************/
-/* 基础行内代码样式 */
+/* 基础样式 */
 .inline-code {
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 0.92em;
-  padding: 0.1em 0.4em;
-  border-radius: 4px;
-  display: inline;
-  line-height: 1.4;
-  letter-spacing: -0.05em;
-  word-break: break-word;
-  white-space: pre-wrap;
+
+  /* 亮色模式默认 */
+  background: rgba(135, 131, 120, 0.15);
+  color: #eb5757;
+  border: 1px solid rgba(135, 131, 120, 0.2);
 }
 
-/* 亮色主题样式 */
-:root {
-  --light-code-bg: #f1f3f5;
-  --light-code-border: #d8dee4;
-  --light-code-hover: #e9ecef;
-}
-
-@media (prefers-color-scheme: light) {
-  .inline-code {
-    background-color: var(--light-code-bg);
-    border: 0.5px solid var(--light-code-border);
-    color: #2f2f2f;
-  }
-}
-
-/* 深色主题样式 */
-:root {
-  --dark-code-bg: #2a2f45;
-  --dark-code-border: #3a405b;
-  --dark-code-hover: #343a55;
-}
-
-@media (prefers-color-scheme: dark) {
-  .inline-code {
-    background-color: var(--dark-code-bg);
-    border: 0.5px solid var(--dark-code-border);
-    color: #e6e9f0;
-  }
-}
-
-/* 通用悬停效果 */
+/* 悬停效果 */
 .inline-code:hover {
-  background-color: var(--light-code-hover);
-  cursor: default;
+  filter: brightness(0.95);
 }
 
+/* 深色模式适配 */
 @media (prefers-color-scheme: dark) {
+  .inline-code {
+    background: rgba(135, 131, 120, 0.25);
+    color: #ff7b72;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
   .inline-code:hover {
-    background-color: var(--dark-code-hover);
+    filter: brightness(1.25);
   }
 }
 
-/* 防止代码换行时断开 */
-.inline-code::before,
-.inline-code::after {
-  content: "\00a0";
-  /* 不间断空格 */
-}
+
 
 /***************************************加粗文字变色********************************************/
 /* Markdown 中的加粗语法 `**text**` 被渲染为 <strong> 元素 */
@@ -589,6 +564,10 @@ strong {
   color: #db3d3d !important;
   /* 自定义你喜欢的字体颜色 */
 }
+
+
+
+
 
 /****************************************暗色主题下图片暗化处理********************************************/
 /*───────────────────────────────────────────────────────────────
