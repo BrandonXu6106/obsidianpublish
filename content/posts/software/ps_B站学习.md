@@ -1,14 +1,12 @@
 ---
-相关链接: 
-creat_date: "[[2025-04-21]]"
-tags: []
-作者: int
-cssclasses:
-  - focus-mode
-笔记类型: 永久笔记
+title: ps_B站学习
+tags:
+  - ps/base
+  - sapling
+  - b站
+date: 2024-07-19
 ---
-`INPUT[inlineSelect(option(default-style,默认样式), option(grid-background,网格样式), option(academic-paper,论文样式), option(focus-mode,专注样式), option(letter-style,信件样式)):cssclasses]`  # 工具类
-
+# 工具类
 - 磁吸抠图按delete 键，删除上一个点
 
 - 修复工具(建议提前复制一层，防止原图层破坏)
@@ -20,7 +18,7 @@ cssclasses:
         - `模式`： `正常`和 `替换`差不多，建议 `替换`好一点
         - `类型`： `内容识别`和 `相似匹配`差不多，建议 `内容识别`更好一点， `创建纹理`可能与原纹理有点差别，不建议
         - `压感按钮`：适合手绘
-        - `扩散`：数值越大，与周围皮肤融合越好
+        - `扩散`：数值越大，与周围皮肤融合越好P
     - 修复画笔工具
         
         按住alt键，定义一个源点，再需要修复的皮肤上填补源点皮肤

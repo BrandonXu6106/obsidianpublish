@@ -1,20 +1,17 @@
 ---
+title: font
 tags:
   - branddesign/font
-  - branddesign/木松子旭
-creat_date: 2024-11-19 20:05
-modified_date: 2024-11-19 20:05
-author:
-  - Zane
-share_link: https://share.note.sx/3o4x3uvz#OnIj2ptb7hgO58IgzLxCuNIjxiDjdZMD9CnsB1p3EGo
-share_updated: 2025-06-21T16:59:59+08:00
+  - 木松子旭
+  - sapling
+date: 2025-08-02
 ---
 # 一、字体篇
 ![{CB38F629-334A-4FCE-B545-07F3D59EAE4A}.png|492|582](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202502080855828.png)
 - tips： ^743782
 	- 框型文字里面笔画特别少的可以适当拉窄一点
 ## 1. 字形基础/字形设计/黑体
-- ### 字形设计 ^528 f 3e
+- ### 字形设计
 	- a. 重心 
 	  ![%7B30652D65-31AF-4328-8397-85D40EFFED63%7D.png|237|left|218](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/%7B30652D65-31AF-4328-8397-85D40EFFED63%7D.png)
 		- 重心低
@@ -66,7 +63,8 @@ share_updated: 2025-06-21T16:59:59+08:00
 		  ![{A3B76038-C43C-4439-863D-1AD643CD8807}.png|627|left|451](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202502141148036.png) 
 		- 9. **简化** ：细节/切口角度/细碎的笔画
 		  ![{92E52F8D-0BEA-4822-B85C-40240295B53C}.png|left|559](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202502141149020.png)
-## 2. 02.无衬线体（通用字形——没有情绪，严肃，正式）
+---
+## 2. 无衬线体（通用字形——没有情绪，严肃，正式）
 - 造字方法
 	- 字库改字（垫字入门）
 		- 拉伸，衬角修饰
@@ -76,11 +74,13 @@ share_updated: 2025-06-21T16:59:59+08:00
 		- 钢笔造字（比较多）
 			- 适合弧形
 		- 矩形造字（无弯曲笔画）
-## 3. 03.衬线体
-## 4. 04.花体字形
-## 5. 05.古典字形
-# 二、[[IP  形象]]
-# 三、[[LOGO设计]]
+---
+## 3. 衬线体
+## 4. 花体字形
+## 5. 古典字形
+
+下一页: [[posts/branddesign/IP]]
+
 
 
 
