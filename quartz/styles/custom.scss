@@ -635,37 +635,49 @@ blockquote.transclude>a.internal.transclude-src {
 }
 
 /**********************************************underline样式***********************************************/
-/* 波浪下划线核心样式 */
+/* 波浪下划线基础样式 */
 u {
   text-decoration: none;
-  /* 禁用默认下划线 */
   position: relative;
   background-image:
     repeating-linear-gradient(-45deg,
       currentColor,
-      currentColor 2px,
-      transparent 2px,
-      transparent 4px);
+      currentColor 1px,
+      transparent 1px,
+      transparent 5px);
   background-position: 0 100%;
-  background-size: 3px 2px;
+  background-size: 6px 2px;
   background-repeat: repeat-x;
-  padding-bottom: 2px;
-  transition: background-size 0.3s ease, background-position 0.3s ease;
+  padding-bottom: 3px;
+  transition: all 0.3s ease;
 }
 
-/* 悬停效果 - 波浪变鲜艳 */
-u:hover {
-  --wave-color: #FF3B30;
-  /* 悬停颜色（此处用红色示例） */
-  background-size: 4px 3px;
-  background-position: 0 97%;
-  color: var(--wave-color);
+/* 亮色模式样式 */
+@media (prefers-color-scheme: light) {
+  u {
+    color: #4a65e2;
+    /* 亮色模式下的蓝色 */
+  }
+
+  u:hover {
+    color: #ff3b30;
+    /* 亮色模式悬停红色 */
+    background-size: 6px 3px;
+    background-position: 0 97%;
+  }
 }
 
-/* 适配 Quartz 深色模式 */
+/* 暗色模式样式 */
 @media (prefers-color-scheme: dark) {
   u {
-    color: #7FCFFF;
-    /* 深色模式浅蓝色 */
+    color: #71a6ff;
+    /* 暗色模式下的亮蓝色 */
+  }
+
+  u:hover {
+    color: #ff6b54;
+    /* 暗色模式悬停橙红色 */
+    background-size: 6px 3px;
+    background-position: 0 97%;
   }
 }
