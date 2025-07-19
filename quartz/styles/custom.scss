@@ -520,56 +520,66 @@ h6 {
   overflow-x: visible !important;
 }
 /******************************inline code样式**************************************/
-:root {
-  --inline-code-bg-light: #f0f0f0;
-  --inline-code-text-light: #d03c3c;
-  --inline-code-border-light: #d0d0d0;
-
-  --inline-code-bg-dark: #2d2d2d;
-  --inline-code-text-dark: #ff8e8e;
-  --inline-code-border-dark: #4d4d4d;
-
-  --inline-code-hover-bg-light: #e5e5e5;
-  --inline-code-hover-bg-dark: #3a3a3a;
-}
-
-code {
+/* 基础行内代码样式 */
+.inline-code {
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-  font-size: 0.9em;
-  padding: 0.15em 0.4em;
-
-  /* 亮色模式默认 */
-  background-color: var(--inline-code-bg-light);
-  color: var(--inline-code-text-light);
-  border: 1px solid var(--inline-code-border-light);
-  border-radius: 3px;
-
-  /* 精确文本对齐 */
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-
-  /* 平滑模式切换 */
-  transition: all 0.2s ease;
+  font-size: 0.92em;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  display: inline;
+  line-height: 1.4;
+  letter-spacing: -0.05em;
+  word-break: break-word;
+  white-space: pre-wrap;
 }
 
-/* 深色模式适配 */
-@media (prefers-color-scheme: dark) {
-  code {
-    background-color: var(--inline-code-bg-dark);
-    color: var(--inline-code-text-dark);
-    border-color: var(--inline-code-border-dark);
+/* 亮色主题样式 */
+:root {
+  --light-code-bg: #f1f3f5;
+  --light-code-border: #d8dee4;
+  --light-code-hover: #e9ecef;
+}
+
+@media (prefers-color-scheme: light) {
+  .inline-code {
+    background-color: var(--light-code-bg);
+    border: 0.5px solid var(--light-code-border);
+    color: #2f2f2f;
   }
 }
 
-/* 悬停效果 */
-code:hover {
-  background-color: var(--inline-code-hover-bg-light);
+/* 深色主题样式 */
+:root {
+  --dark-code-bg: #2a2f45;
+  --dark-code-border: #3a405b;
+  --dark-code-hover: #343a55;
 }
 
 @media (prefers-color-scheme: dark) {
-  code:hover {
-    background-color: var(--inline-code-hover-bg-dark);
+  .inline-code {
+    background-color: var(--dark-code-bg);
+    border: 0.5px solid var(--dark-code-border);
+    color: #e6e9f0;
   }
+}
+
+/* 通用悬停效果 */
+.inline-code:hover {
+  background-color: var(--light-code-hover);
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+  .inline-code:hover {
+    background-color: var(--dark-code-hover);
+  }
+}
+
+/* 防止代码换行时断开 */
+.inline-code::before,
+.inline-code::after {
+  content: "\00a0";
+  /* 不间断空格 */
 }
 
 /***************************************加粗文字变色********************************************/
