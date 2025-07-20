@@ -520,7 +520,7 @@ h6 {
   overflow-x: visible !important;
 }
 /******************************inline code样式**************************************/
-/* 仿 VSCode 的 inline code 样式 */
+/* 修复后的 inline code 样式 */
 code,
 .inline-code {
   display: inline;
@@ -534,9 +534,9 @@ code,
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Light 模式 */
-html[data-theme='light'] code,
-html[data-theme='light'] .inline-code {
+/* Light 模式 (默认) */
+body:not(.dark-mode) code,
+body:not(.dark-mode) .inline-code {
   background-color: #e7f3ff;
   color: #044b94;
   border: 1px solid #b2d2f3;
@@ -544,22 +544,23 @@ html[data-theme='light'] .inline-code {
 }
 
 /* Dark 模式 */
-html[data-theme='dark'] code,
-html[data-theme='dark'] .inline-code {
+body.dark-mode code,
+body.dark-mode .inline-code {
   background-color: #1e2a33;
   color: #cbdfff;
   border: 1px solid #334c5c;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
 }
 
-/* Hover 效果：代码片高亮并轻微发光 */
+/* Hover效果：代码片高亮并轻微发光 */
 code:hover,
 .inline-code:hover {
-  background-color: #66ccff33;
-  box-shadow: 0 0 6px rgba(102, 204, 255, 0.3);
+  background-color: #66ccff33 !important;
+  box-shadow: 0 0 6px rgba(102, 204, 255, 0.3) !important;
   transform: scale(1.015);
   cursor: pointer;
 }
+
 
 /***************************************加粗文字变色********************************************/
 /* Markdown 中的加粗语法 `**text**` 被渲染为 <strong> 元素 */
