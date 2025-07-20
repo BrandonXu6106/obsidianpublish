@@ -520,11 +520,13 @@ h6 {
   overflow-x: visible !important;
 }
 /******************************inline code样式**************************************/
-/* 仿 VSCode 的 inline code 样式 */
-code,
+/* ============== 内联代码样式修复 - 兼容syntax.css和base.css ============== */
+
+/* 基础样式 */
+:not(pre)>code:not([data-theme*=" "]),
 .inline-code {
   display: inline;
-  font-family: 'Cascadia Code', 'Fira Code', monospace;
+  font-family: 'Fira Code', 'Cascadia Code', var(--codeFont);
   font-size: 0.92em;
   padding: 0.15em 0.4em;
   border-radius: 6px;
@@ -532,37 +534,52 @@ code,
   word-break: break-word;
   line-height: 1.3;
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
+
+  /* 覆盖base.css中的样式 */
+  background: none !important;
+  overflow-x: visible;
+  border-left: 0;
+  padding: 0.15em 0.4em !important;
+  box-sizing: border-box;
+  margin: 0 0.1rem;
 }
 
 /* Light 模式 */
-html[data-theme='light'] code,
+html[data-theme='light'] :not(pre)>code:not([data-theme*=" "]),
 html[data-theme='light'] .inline-code {
-  background-color: #e7f3ff;
-  color: #044b94;
-  border: 1px solid #b2d2f3;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
+  background-color: #e7f3ff !important;
+  color: var(--shiki-light) !important;
+  border: 1px solid #b2d2f3 !important;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03) !important;
 }
 
-/* Dark 模式 （修复：增加!important）*/
-html[data-theme='dark'] code,
+/* Dark 模式 */
+html[data-theme='dark'] :not(pre)>code:not([data-theme*=" "]),
 html[data-theme='dark'] .inline-code {
-  background-color: #1e2a33 !important;
-  /* 增加!important确保覆盖 */
-  color: #cbdfff !important;
-  border: 1px solid #334c5c;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  background-color: var(--shiki-dark-bg) !important;
+  color: var(--shiki-dark) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08) !important;
 }
 
-/* Hover 效果：代码片高亮并轻微发光 */
-code:hover,
+/* Hover 效果 */
+:not(pre)>code:not([data-theme*=" "]):hover,
 .inline-code:hover {
-  background-color: #66ccff33 !important;
-  /* 确保hover效果覆盖任何状态 */
-  box-shadow: 0 0 6px rgba(102, 204, 255, 0.3) !important;
+  background-color: rgba(102, 204, 255, 0.15) !important;
+  box-shadow: 0 0 8px rgba(102, 204, 255, 0.3) !important;
   transform: scale(1.015);
   cursor: pointer;
 }
 
+/* ===== 优化移动端显示 ===== */
+@media (max-width: 768px) {
+
+  :not(pre)>code:not([data-theme*=" "]),
+  .inline-code {
+    font-size: 0.84em;
+    padding: 0.12em 0.35em !important;
+  }
+}
 
 /***************************************加粗文字变色********************************************/
 /* Markdown 中的加粗语法 `**text**` 被渲染为 <strong> 元素 */
