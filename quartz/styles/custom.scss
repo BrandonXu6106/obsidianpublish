@@ -681,3 +681,24 @@ u {
     background-position: 0 97%;
   }
 }
+
+/****************************************斜体样式********************************************/
+/* 针对Markdown星号斜体语法的自定义样式 */
+.prose em,
+/* 覆盖Quartz的默认斜体样式 */
+:not(pre)>code * {
+  /* 防止代码块内的星号被影响 (可选) */
+  font-style: italic !important;
+  font-family: 'Georgia', serif;
+  /* 增强斜体的可读性 */
+  opacity: 0.9;
+  /* 轻微半透明效果 */
+  text-shadow: 0.4px 0 0 currentColor;
+  /* 增强斜体锐度 */
+}
+
+/* 增强视觉层次（根据主题微调） */
+.dark .prose em {
+  color: #e5e5e5;
+  /* 浅色模式下保持黑色，深色模式使用浅灰 */
+}
