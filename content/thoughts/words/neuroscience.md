@@ -3,7 +3,7 @@ dictionary_word: neuroscience
 hasAudio: true
 ---
 
-![[english_audio/neuroscience_en.mp3|neuroscience_en]]
+![[thoughts/english_audio/neuroscience_en.mp3|neuroscience_en]]
 
 
 ## 1. 简中释义

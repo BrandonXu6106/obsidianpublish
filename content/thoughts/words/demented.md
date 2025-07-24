@@ -3,7 +3,7 @@ dictionary_word: demented
 hasAudio: true
 ---
 
-![[english_audio/demented_en.mp3]]
+![[thoughts/english_audio/demented_en.mp3]]
 
 
 ## 1. 简中释义
