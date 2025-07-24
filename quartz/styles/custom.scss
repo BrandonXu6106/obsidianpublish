@@ -683,28 +683,3 @@ u {
 }
 
 /****************************************斜体样式********************************************/
-/* 斜体样式修复 - 确保em标签正确应用斜体 */
-.prose em {
-  font-style: italic;
-  position: relative;
-  font-weight: 400;
-  /* 正常粗细提高可读性 */
-}
-
-/* 深色模式适配 */
-.dark .prose em {
-  color: #f0f0f0;
-  opacity: 0.95;
-}
-
-/* 增加视觉强调（可选效果） */
-.prose em::after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, currentColor, transparent);
-  opacity: 0.3;
-}

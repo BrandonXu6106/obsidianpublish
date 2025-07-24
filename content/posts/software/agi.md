@@ -13,7 +13,7 @@ This blog post is adapted from a term paper I wrote for PHIL250: Minds and Machi
 
 ---
 
-## Introduction
+## 1. Introduction
 
 Historically, development of AI has taken a very specific approach -- systems that represent the world through symbols and manipulate those tokens in a systematic way to arrive at a result. This type of AI was coined Good Old-Fashioned AI ([[../../thoughts/GOFAI.md]]) by John Haugeland[^1].
 
@@ -23,7 +23,7 @@ However, with the rise of Moore's Law and the insane amount of compute and data 
 
 This paper will examine factors that differentiate GOFAI and NFAI systems, such as their ability to adapt to changes in input, and the explainability of their outputs and internal representations. It will also examine current work in integrating the two approaches to Artificial Intelligence to create an artificial general intelligence.
 
-### GOFAI Systems
+### 1.1. GOFAI Systems
 
 Since the inception of the term GOFAI, the basic idea has remained unchanged: thinking as internal symbol manipulation. Within these GOFAI systems, symbols are representative of aspects of our world. These symbols are manipulated in a systematic and logical matter, performing a series of deterministic steps that results in another sequence of symbols[^1].
 
@@ -31,7 +31,7 @@ A very common example of GOFAI systems are expert systems, which are computer sy
 
 However, just being able to solve a problem shouldn't be sufficient for intelligence. So what qualifies it? At its core, GOFAI can be considered 'artificially intelligent' because of semantic interpretation. If the symbols represent aspects of our world, the result, which is also a symbol sequence, can be _translated_ back into aspects of our world. This is called semantic interpretation, which "seeks to construe a body of symbols so that what they mean ('say') turns out to be consistently reasonable and sensible, given the situation"[^1].
 
-### NFAI Systems
+### 1.2. NFAI Systems
 
 NFAI, on the other hand, is a diverse and still rapidly evolving set of systems and algorithms. It is more of a grab-bag term, roughly meaning any sort of scientific mind design that is not GOFAI[^1]. Under this umbrella are connectionist networks, which are networks composed of lots of simple units that are interconnected with various strengths. This paper will mostly focus on connectionism as a synecdoche for the greater umbrella of NFAI.
 
@@ -39,7 +39,7 @@ Some classic examples of connectionist networks include convolutional [[neural n
 
 These connectionist networks are very inspired by the structure of the brain, with its hierarchical patterns and compositional nature[^6], rather than the rational manipulation of symbols that is observed in GOFAI.
 
-## The Potemkin Village Analogy
+## 2. The Potemkin Village Analogy
 
 While it is obvious that GOFAI and NFAI are very different approaches to constructing AI systems, how do they differ in their resilience to failure? An analogy that may be useful in visualizing this is a [potemkin village](../../thoughts/potemkin%20village.md): a fake village that is built to resemble and deceive others into thinking it is real. AI systems attempt to build a sort of 'potemkin village' that "works well on naturally occurring data, but is exposed as fake when one visits points in space that do not have high probability"[^7].
 
@@ -47,19 +47,19 @@ GOFAI systems are excellent at "processing syntactical patterns like those chara
 
 NFAI systems, on the other hand, are "adept at finding various sort of similarities among patterns, at recognizing repeated (or almost repeated) patterns and filling in missing parts of incomplete patterns"[^1]. These also happen to be the exact things that GOFAI systems struggle with. The potemkin village that a NFAI system may construct will hold up much more robustly to unexpected patterns or noisy input, but will, at heart, still be a fake village.
 
-## Rationality and explainability
+## 3. Rationality and explainability
 
 In GOFAI systems, [intentionality](../../thoughts/intentionality.md) -- the meaning and semantics behind the tokens -- is injected through explicit programming by those who create it. These GOFAI systems are able to process these tokens and make conclusions based off of logic and reason rather than just trial-and-error. Case in point, expert systems. These if-then statements can easily explain decisions by showing which parts evaluated as true or false in its decision making process[^3].
 
 [Connectionist networks](../../thoughts/connectionist%20networks.md), for the most part, are very hard to explain and are often dubbed black-box models due to the hidden nature of its internal workings. Unlike GOFAI systems, its internal representation model is defined by the state of the entire network rather than that of any single unit -- this is commonly referred to as a distributed model of connectionist representation[^8] and is often claimed to be one of the distinctive features of connectionism.
 
-## Models of [representation](../../thoughts/representation.md)
+## 4. Models of [representation](../../thoughts/representation.md)
 
 To put it in sound terminology, note while in the GOFAI system, the _tokens_ are the objects of formal processing, so the system which manipulates the tokens is the actual vehicle of computation. The tokens themselves are also _representations_ of aspects of the world, so they are also vehicles of mental content. In GOFAI systems, tokens are both the vehicle of computation and the vehicle of mental content.
 
 This is in contrast with connectionist systems, where computation is performed at the level of simple units (unit activations, backpropagation), meaning the units are the vehicles of computation. However, as these systems use a distributed model of representation, it is not a single unit that represents something, but rather the "network state as a whole thats interpreted as representing"[^8]. Thus, in connectionist systems, the vehicles of computation (units) need to be the vehicles of representation (network state).
 
-## Integrating GOFAI and NFAI
+## 5. Integrating GOFAI and NFAI
 
 Given that GOFAI and NFAI systems seem so vastly different in their approaches to AI, how might one go about reconciling them?
 
@@ -67,7 +67,7 @@ One approach is to combine both into one system. This is used when there’s a r
 
 Another, less researched method, are interpretable connectionist systems. As traditional connectionist networks rely on the network state being the vehicle of representation, the complexity, depth, and scale of modern connectionist models means that it is becoming increasingly difficult for humans to interpret the output. The field of [explainable](../../thoughts/explainability.md) AI (XAI) focuses on incentivizing connectionist networks to develop localist representations (i.e. moving away from having the vehicle of representation be at the network level, but at the unit level). Zhang, Wu, and Zhu of UCLA recently showed that it is possible to train a CNN to use 'interpretable filters', which encourage networks to group feature detectors into single filters, showing the possibility of moving from distributed representations to more local representations[^5].
 
-### What is AGI?
+### 5.1. What is AGI?
 
 While intelligence can be understood in many ways, this paper will focus on examining the prospects of emulating or achieving the capacity to understand or learn anything a human can -- the hallmark of an artificial general intelligence (AGI).
 
@@ -75,7 +75,7 @@ Most commentators would agree that current AI systems fall short of implementing
 
 One problem that stumped earlier attempts at AGI was the _common-sense problem_: how do we represent common-sense information that is obvious to most humans in a way that is accessible to AI systems that use natural language? Unsurprisingly, the problem of storing all of this information was solved by the massive explosion in compute and data in the past few decades[^2]. However, the difficult part of this problem, choosing what subset of that huge information bank is relevant in any situation, remains a huge unsolved problem. How do we update our database of knowledge when relationships between symbols change? This is referred to as the [frame problem](../../thoughts/frame%20problem.md).
 
-### Dissolving the frame problem
+### 5.2. Dissolving the frame problem
 
 Dreyfus[^10] posits that any AI systems which attempt to tackle the frame problem through storing relevant frames are bound to failure. He argues that, "human beings do not simply store common-sense information," rather they "directly perceive and act upon significance in their environment". In his view, a more [[../../thoughts/Heidegger.md|Heideggerian]] approach to AI will dissolve this problem.
 
@@ -83,7 +83,7 @@ Heideggerian AI, in its most basic sense, is concerned with the Heideggerian con
 
 Dreyfus believed that, for any AI system to achieve any sort of general intelligence, it must also exhibit Dasein. Thus, "a successful Heideggerian AI would need a perfect model of the human body – and by implication, that Dasein must be expressed as a human being, organically as well as existentially"[^10].
 
-### A non-humanistic approach
+### 5.3. A non-humanistic approach
 
 However, Steed refutes Dreyfus' overly humanistic interpretation of Heideggerian AI, believing that a AI model only needs to be "embedded and embodied such that what AI experiences is significant for AI in the particular way that AI is," and thus intelligence would be possible by Heideggerian standards[^13].
 

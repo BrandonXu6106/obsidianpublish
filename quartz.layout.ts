@@ -11,7 +11,7 @@ const recentNotes = [
     linkToMore: "posts/" as SimpleSlug,
   }),
   Component.RecentNotes({
-    title: "Recent Notes",
+    title: "Reading Thoughts",
     limit: 4,
     filter: (f) => f.slug!.startsWith("thoughts/"),
     linkToMore: "thoughts/" as SimpleSlug,
