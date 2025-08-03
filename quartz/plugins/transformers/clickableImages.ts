@@ -57,10 +57,11 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
             content: `
 /* Lightbox Image Styles */
 .lightbox-wrapper {
-  display: inline-block;
+  display: block;
   cursor: pointer;
   transition: transform 0.2s ease;
   margin: 0;
+  text-align: center;
 }
 
 .lightbox-wrapper:hover {
@@ -68,7 +69,7 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
 }
 
 .lightbox-image {
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
