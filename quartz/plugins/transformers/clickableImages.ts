@@ -68,7 +68,7 @@ export const ClickableImages: QuartzTransformerPlugin = () => {
 }
 
 .lightbox-image {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
