@@ -1,5 +1,5 @@
 ---
-title: 未命名
+title: carousel
 date: 2025-07-19
 tags:
   - seed
