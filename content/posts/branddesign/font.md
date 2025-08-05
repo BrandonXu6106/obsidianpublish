@@ -13,10 +13,10 @@ date: 2025-08-02
 ## 1. 字形基础/字形设计/黑体
 - ### 字形设计
 	- a. 重心 
-	  ![%7B30652D65-31AF-4328-8397-85D40EFFED63%7D.png|237|left|218](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/%7B30652D65-31AF-4328-8397-85D40EFFED63%7D.png)
+	  ![%7B30652D65-31AF-4328-8397-85D40EFFED63%7D.png|237|left|338](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/%7B30652D65-31AF-4328-8397-85D40EFFED63%7D.png)
 		- 重心低
 			- 字体下方紧凑，显得“腿短”
-			- ![{5166E93E-FCAA-42D7-BE3B-27062C3F52C7}.png|left|396](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412151410898.png)
+			- ![{5166E93E-FCAA-42D7-BE3B-27062C3F52C7}.png|left|427](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412151410898.png)
 		- 重心高
 			- 字体下方留白大，显得“腿长”
 			- ![{CFCB3676-058A-4C8F-9FD1-51E73BA45EB6}.png|628}|left|430](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412151408688.png)
@@ -24,20 +24,18 @@ date: 2025-08-02
 		- 现代印刷体：中宫放松，方正，符号感
 		  ![{A2D4AECA-D3CB-46BE-86ED-7E75EA8E9430}.png|left|284](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281057961.png)
 		- 古典书写体：中宫紧凑，内敛，秀气
-		  ![{E2933769-1E1C-416E-A7FF-5BB5E01FBFB5}.png|left|291](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281058756.png)
+		  ![{E2933769-1E1C-416E-A7FF-5BB5E01FBFB5}.png|left|592](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281058756.png)
 	- c.视觉平衡（负空间/笔画间距/字重/切口）
 		- **负空间**弥补
 		  ![{C9DA2C22-0311-4ACA-B223-6C4587410D98}.png|332|left|324](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412171330279.png)
 		- 笔画**间距**的留白，尽量均匀统一
-		  ![{E3C05F23-69D6-4591-963E-2387E09FD3E8}.png|left|714](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412181630313.png)
+		  ![{E3C05F23-69D6-4591-963E-2387E09FD3E8}.png|left|541](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412181630313.png)
 		- 字重（笔画**粗细**）
-			- **绝对**字重（粗细相同）
-			  ![{A6371035-33D2-44CC-A569-1B53320C0A13}.png|left|420](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281017593.png)
-			  ![{FAA4E1C4-CA2D-4025-8864-57EA7888049A}.png|left|191](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281033394.png)
+			- **绝对**字重（粗细相同）![{A6371035-33D2-44CC-A569-1B53320C0A13}.png|left|420](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281017593.png)![{FAA4E1C4-CA2D-4025-8864-57EA7888049A}.png|left|191](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281033394.png)
 			- **相对**字重（先做最复杂的字）
-			  ![{249C6920-EA89-498F-91FB-9FDC3041A88D}.png|left|429](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281019865.png)
+			  ![{249C6920-EA89-498F-91FB-9FDC3041A88D}.png|left|475](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281019865.png)
 			- 大体绝对，局部微调
-			  ![{2C9A7B08-4777-4C61-A1FF-EC0C03CEB1FF}.png|left|276](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281037995.png)
+			  ![{2C9A7B08-4777-4C61-A1FF-EC0C03CEB1FF}.png|left|443](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281037995.png)
 		- 笔画**切口**（字体图形化）
 			- 统一切口方向
 			  ![{4412655A-BE2E-45E2-A3ED-0190D58A47C5}.png|left|333](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281039584.png)
@@ -56,7 +54,7 @@ date: 2025-08-02
 		- 5. 字体**修饰特征**不一致
 		  ![{E11750E7-EDA3-4BE5-91E6-05D03CAF09A6}.png|568|left|604](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202502141113844.png)
 		- 6. 字体结构不稳定 ，视觉结构不饱满，要学会弥补空间，不能**强行变形**
-		  ![{6EEFA9F8-D2C3-404F-8BCF-0508754DE7C5}.png|455|left|472](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202502141114141.png)
+		  ![{6EEFA9F8-D2C3-404F-8BCF-0508754DE7C5}.png|455|left|627](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202502141114141.png)
 		-  7. 字体**重心**不统一，忽高忽低
 		  ![{C188C1EE-6C91-4F9A-A7F6-7AE9FF32B576}.png|489|left|418](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202502141116987.png) 
 		- 8. 字与字**强行连接**
@@ -67,8 +65,7 @@ date: 2025-08-02
 ## 2. 无衬线体（通用字形——没有情绪，严肃，正式）
 - 造字方法
 	- 字库改字（垫字入门）
-		- 拉伸，衬角修饰
-		  ![{07803333-3A46-4D12-8C20-4751E4DFE32E}.png|left|392](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281113421.png)
+		- 拉伸，衬角修饰![{07803333-3A46-4D12-8C20-4751E4DFE32E}.png|left|392](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281113421.png)
 		- 矩形做笔画，切口修饰
 		  ![{2FF6C82D-BA44-4B69-A9FC-5F4217001A06}.png|left|361](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202412281114674.png)
 		- 钢笔造字（比较多）

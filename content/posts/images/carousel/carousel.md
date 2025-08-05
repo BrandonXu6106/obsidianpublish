@@ -44,3 +44,27 @@ draft: false
 <img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202508031931994.png" alt="Description of image 1"/>
 <img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202508031932278.png" alt="Description of image 2"/>
 </Carousel>
+
+## 6. 版心
+
+<Carousel>
+<img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202508041638554.png" alt="Description of image 1"/>
+<img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202508041643188.png" alt="Description of image 2"/>
+</Carousel>
+
+## 7. 分栏
+
+<Carousel>
+<img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com/obsidian/pic/202410101905938.png" alt="Description of image 1"/>
+<img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com/obsidian/pic/202410101906082.png" alt="Description of image 2"/>
+<img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com/obsidian/pic/202410101906826.png" alt="Description of image 3"/>
+</Carousel>
+
+## 8. 版面率
+
+<Carousel>
+<img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202508051504238.png" alt="Description of image 1"/>
+<img src="https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202508051504923.png" alt="Description of image 2"/>
+</Carousel>
+
+
