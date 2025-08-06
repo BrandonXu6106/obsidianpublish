@@ -1,5 +1,7 @@
 ---
-title: <% tp.file.title %>
+title:
+  - <% tp.file.title %>
+aliases: 
 date: <% tp.file.creation_date("YYYY-MM-DD") %>
 tags:
   - seed

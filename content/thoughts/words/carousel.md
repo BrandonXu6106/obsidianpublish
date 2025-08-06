@@ -3,10 +3,10 @@ dictionary_word: carousel
 hasAudio: true
 ---
 
-![[carousel_en.mp3]]
+![[thoughts/english_audio/carousel_en.mp3]]
 
 
-![[carousel_am.mp3]]
+![[thoughts/english_audio/carousel_am.mp3]]
 
 
 ## 1. 简中释义

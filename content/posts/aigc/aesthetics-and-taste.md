@@ -5,7 +5,6 @@ tags:
   - fruit
 noindex: true
 ---
-
 ![[../../../public/thoughts/images/john-reeve-pots.png]]
 *John Reeve (1958-61, 1966)*
 

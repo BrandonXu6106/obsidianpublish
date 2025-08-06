@@ -3,10 +3,10 @@ dictionary_word: slide
 hasAudio: true
 ---
 
-![[slide_en.mp3]]
+![[thoughts/english_audio/slide_en.mp3]]
 
 
-![[slide_am.mp3]]
+![[thoughts/english_audio/slide_am.mp3]]
 
 
 ## 1. 简中释义
