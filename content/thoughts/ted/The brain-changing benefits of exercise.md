@@ -1,5 +1,5 @@
 ---
-title: 运动改变大脑
+aliases: 运动改变大脑
 mx-uid: vuh75e6avh5kb06q9bs59116
 media: https://www.youtube.com/watch?v=BHY0FxzoKZE
 captions:
