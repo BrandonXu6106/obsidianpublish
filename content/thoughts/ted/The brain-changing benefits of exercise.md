@@ -12,28 +12,16 @@ tags:
 
 ![The brain-changing benefits of exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)
 ## 1. 讲稿解析
-[00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate, positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
-
 > [!column|no-t]
 > > [!note|clean] 原文
-> > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate,[^2] positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
+> > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate,[^1] positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
 >
 > > [!note] 译文
-> >>🎈**译文**：如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
-
-> [!infobox]
-> ## Article Title
-> ![[Every type of flip flop_image_5.png]]
-> ### Table Heading
-> | Type | Name |
-> | --- | --- |
-> | Row | Row |
-> | Row | Row |
-
->🎈**译文**：如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
+> >如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
+> >
 
 
-I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is[^1] tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
+I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is[^2] tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
 >我所说的就是体育运动的強大效果。简单地让你的身体动起来，就能够对你的大脑产生即时的和长期的保护功效。而且可以持续一生的时间。所以我今天想要分享一个故事，关于我如何使用 我所深度理解的神经科学，作为一名神经科学教授，我在自己身上做了一项实验，在这个实验中我发现了为什么运动最易转化成对你的大脑有益的东西。作为一名神经科学家，我知道我们的大脑，就是我们脑袋中的东西，是对人类所知的最为复杂的结构。但是谈论大脑，和亲眼看到它是两件事。
 
 
@@ -136,14 +124,17 @@ Thank you. I want to leave you with one last thought. And thatis, bringing exerc
 >谢谢。我想要和你们分享最后一点心得。把运动引入你的生活不仅仅能够给你一个更开心的、备受保护的当下生活，它还可以使你的大脑免受无法治愈的疾病侵袭。从而改变你人生的轨迹，让它变得更好。
 
 
+
 ---
 
 [^1]: >文本：So what I want to do today is
 	- **段落划分**：
 	- **语义分析**：
 		- 测试文本
+[^2]: >文本：So what I want to do today is
+	- **段落划分**：
+	- **语义分析**：
+		- 测试文本
 	
+[^3]: 测试
 	
-[^2]: ### 测试文本
-	- 测试**内容**
-		- 测试
