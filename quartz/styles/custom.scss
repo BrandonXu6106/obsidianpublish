@@ -1,9 +1,12 @@
 @use "./base.scss";
-@use "./column-callout.scss";
-@use "./infobox-callout.scss";
-@use "./caption-callout.scss";
-@use "./callout-adjustments.scss";
-@use "./image-adjustments.scss";
+@use "./custom/image-adjustments.scss";
+@use "./custom/callout-adjustments.scss";
+@use "./custom/column-callout.scss";
+@use "./custom/caption-callout.scss";
+@use "./custom/infobox-callout.scss";
+@use "./custom/maintenance-template-callout.scss";
+@use "./custom/transclusion-adjustments.scss";
+@use "./custom/aye-mbedt-font.scss";
 
 // put your custom CSS here!
 @use "./variables.scss" as *;
