@@ -13,14 +13,15 @@ tags:
 ![The brain-changing benefits of exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)
 ## 1. 讲稿解析
 > [!column|no-t]
-> > [!note] 原文
+> 
+> > [!example] 原文
 > > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate,[^1] positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
 >
 > > [!note] 译文
 > >如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
 > >
 
-> [!info] ceshi
+> [!example] ceshi
 > 测试3[^4]
 
 
