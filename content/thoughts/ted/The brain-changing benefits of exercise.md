@@ -12,53 +12,38 @@ tags:
 
 ![The brain-changing benefits of exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)
 ## 1. 讲稿解析
-> [!column|flex 2 no-t]
+> [!column|flex 2 no-t wide-left]
 > 
-> > [!example|clean no-t] 
+> > [!example|clean] 原文 
 > > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate, positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
 > > I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
+> > So here is a real preserved human brain. And it's going toillustrate two key areas that we are going to talk about today.The first is the prefrontal cortex, right behind your forehead, critical for things like decision-making, focus, attention andyour personality. The second key area is located in the temporallobe, shown right here. You have two temporal lobes in yourbrain, the right and the left, and deep in the temporal lobe is akey structure critical for your ability to form and retai newlong-term memories for facts and events. And that structure is called the [[hippocampus|hippocampus]].
+> > So I've always been fascinated with the hippocampus. How could it be that an event that lasts just a moment, say, your firstkiss, or the moment your first child was born, can form amemory that has changed your brain, that lasts an entirelifetime? That's what I want to understand. I wanted to start andrecord the activity of individual brain cells in the hippocampusas subjects were forming new memories. And essentially tryand decode how those brief bursts of electrical activity, whichis how neurons communicate with each other, how those briefbursts either allowed us to form a new memory, or did not.
+> > But a few years ago, I did something very unusual in science. Asa full professor of neural science, I decided to completely switchmy research program. Because I encountered something thatwas so amazing, with the potential to change so many lives thatI had to study it. I discovered and I experienced the brain-changing effects of exercise. And I did it in a completelyinadvertent way. I was actually at the height of all the memorywork that I was doing -- data was pouring in, I was becomingknown in my field for all of this memory work. And it shouldhave been going great. It was, scientifically. But when I stuckmy head out of my lab door, I noticed something. I had no sociallife. I spent too much time listening to those brain cells in a darkroom, by myself.
+> > I didn't move my body at all. I had gained 25 pounds. Andactually, it took me many years to realize it, I was actuallymiserable. And I shouldn't be miserable. And I went on a river-rafting trip -- by myself, because I had no social life. And I cameback -- thinking, "Oh, my God, I was the weakest person on thattrip." And I came back with a mission. I said, "I'm never goingto fel like the weakest person on a river-rafting trip again.
+> > And that's what made me go to the gym. And I focused mytype-A personality on going to all the exercise classes at the gym. I tried everything. I went to kickbox, dance, yoga, stepclass, and at first it was really hard. But what I noticed is thatafter every sweat-inducing workout that I tried, I had this greatmood boost and this great energy boost. And that's what keptme going back to the gym. Well, I started feeling stronger. Istarted feeling better, I even lost that 25 pounds.
+> > And now, fast-forward a year and a half into this regularexercise program and I noticed something that really made mesit up and take notice. I was sitting at my desk, writing aresearch grant, and a thought went through my mind that hadnever gone through my mind before. And that thought was,"Gee, grant-writing is going well today." And all the scientists -yeah, all the scientists always laugh when I say that, because grant-writing never goes well. It is so hard; you're alwayspulling your hair out, trying to come up with that million-dollar-winning idea.
+> > But I realized that the grant-writing was going well, because Iwas able to focus and maintain my attention for longer than Ihad before. And my long-term memory -- what I was studyingin my own lab -- seemed to be better in me. And that's when Iput it together.
+> > Maybe all that exercise that I had included and added to my lifewas changing my brain. Maybe I did an experiment on myselfwithout even knowing it. So as a curious neuroscientist, I wentto the literature to see what I could find about what we knewabout theeffects ofexercise on thebrain.AndwhatI foundwasan exciting and a growingliterature that was essentiallyshowing everything that I noticed in myself. Better mood,better energy, better memory, better attention. And the more Ilearned, the more I realized how powerful exercise was. Whicheventually led me to the big decision to completely shift myresearch focus.
 > 
 > > [!note] 译文
 > > 如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
-> > 
-> > 
-> > 
 > > 我所说的就是体育运动的強大效果。简单地让你的身体动起来，就能够对你的大脑产生即时的和长期的保护功效。而且可以持续一生的时间。所以我今天想要分享一个故事，关于我如何使用 我所深度理解的神经科学，作为一名神经科学教授，我在自己身上做了一项实验，在这个实验中我发现了为什么运动最易转化成对你的大脑有益的东西。作为一名神经科学家，我知道我们的大脑，就是我们脑袋中的东西，是对人类所知的最为复杂的结构。但是谈论大脑，和亲眼看到它是两件事。
+> > 这是一个真实保存的人类大脑。它会展示我们今天所要讨论的两个关键部分。第一部分是前额皮层，就在你额头后面，对做决定、专注力、注意力及性格等 至关重要。第二个重要的区域是在颞叶，右边这里。在大脑里有两个颞叶，右边一个左边一个，在颞叶深处有-个非常关键的结构它对你的能力至关重要能够形成和保存对事实、事件的长期记忆。它被称作海马体。
+> > 我一直对海马体非常着迷。一件短暂的事情，比如说，你的初吻，或者你第一个孩子诞生的时刻，如何形成一个能够改变你的大脑且持续终生的记忆？这是我想要去弄明白的。我想要去开始记录当形成新的记忆的时候海马体中每个单独细胞活动。从本质上尝试解码这些电流活动的短暂爆发，这是神经元相互交流的方式，这些短暂的爆发或让我们形成一段新的记忆，或没有。
+> > 但是几年之前，我做了一些科学界中很少见的实验。作为一个神经科学的全职教授，我决定完全扭转我的研究计划。因为我遇到了如此神奇的事物，它有可能改变众多人的生命我必须要去研究它。我发现并亲身经历了运动对大脑的改变。而且是一种完全"无心插柳柳成荫"的方式。事实上当时我正处于所有记忆工作的最高点——数据如潮水般涌入，因为记忆研究工作,我在那一领域正在声名鹊起。它可以变得更出色，从科学角度来讲，它正是如此。但当我在实验室外时，我注意到一件事，那就是我没有社交生活。我花费了太多时间倾听那些脑细胞上在黑暗的屋子里，独自一人。
+> > 我完全不运动。我已经长胖了25磅。事实上，我花费了很多年才意识到这个问题。我当时是很糟糕的，而我本不该如此。我自己一个人去做了一次漂流，因为我没朋友啊。然后当我回来后一一想着，“天哪，我是那趟旅程最弱的一个。”我回来后给自己下了一个任务。我对自已说，“我再也不要这种感受，再也不要做一个漂流之中最弱的那个。
+> > 这个想法促使我走进了健身房。我的A型人格促使我尝试了健身房所有运动。我尝试了一切。我做了拳击训练，舞蹈，瑜伽，踏步教程，开始的时候确实很难。但我注意到每一次汗水挥洒后，我的情绪都变得非常好，精力也更好。那促使我一直不断走进健身房。然后我开始感受到自己变得强壮。我感受非常好，甚至还减掉了那25磅。
+> > 现在，自我经常去参加运动后已经一年半过去了，我注意到有些东西值得我坐下来记录。当时我正坐在桌旁，写着一份研究基金申请，一个想法突然从脑海冒出来，此前我从未这样想过。这个想法就是，“天哪，申请材料今天写的很顺利嘛。”所有的科学家一一对，所有科学家都会在我这样说的时候大笑，因为基金申请写作从来都不好写。它太难了，你总是绞尽脑汁，试图想出能够赢得百万美金的想法。
+> > 但我意识到那次写作很顺利，因为我能够专注地保持我的注意力比以前时间都要久。我的长期记忆一一就是我实验室里研究的东西显示也更好了。从那时起我将它们联系在一起。
+> > 或许我所有的运动都在改变我的大脑。或许我在自已没有意识到的情况下对我自己进行了一项实验。作为一个好奇的神经学家，我去文献里面查找现有已知的关于运动对于大脑的影响。我发现一项让人欣喜的且正在增长的文献记载记载了几乎所有发生在我身上的事更好的情绪、精力、记忆力和专注力。我所了解越多，我就越认识到运动的魅力，这也指引我做了一个重大决定来完全扭转我的研究方向。
 
 
 
 
 
-So here is a real preserved human brain. And it's going toillustrate two key areas that we are going to talk about today.The first is the prefrontal cortex, right behind your forehead, critical for things like decision-making, focus, attention andyour personality. The second key area is located in the temporallobe, shown right here. You have two temporal lobes in yourbrain, the right and the left, and deep in the temporal lobe is akey structure critical for your ability to form and retai newlong-term memories for facts and events. And that structure is called the [[hippocampus|hippocampus]].
->这是一个真实保存的人类大脑。它会展示我们今天所要讨论的两个关键部分。第一部分是前额皮层，就在你额头后面，对做决定、专注力、注意力及性格等 至关重要。第二个重要的区域是在颞叶，右边这里。在大脑里有两个颞叶，右边一个左边一个，在颞叶深处有-个非常关键的结构它对你的能力至关重要能够形成和保存对事实、事件的长期记忆。它被称作海马体。
 
 
-So I've always been fascinated with the hippocampus. How could it be that an event that lasts just a moment, say, your firstkiss, or the moment your first child was born, can form amemory that has changed your brain, that lasts an entirelifetime? That's what I want to understand. I wanted to start andrecord the activity of individual brain cells in the hippocampusas subjects were forming new memories. And essentially tryand decode how those brief bursts of electrical activity, whichis how neurons communicate with each other, how those briefbursts either allowed us to form a new memory, or did not.
->我一直对海马体非常着迷。一件短暂的事情，比如说，你的初吻，或者你第一个孩子诞生的时刻，如何形成一个能够改变你的大脑且持续终生的记忆？这是我想要去弄明白的。我想要去开始记录当形成新的记忆的时候海马体中每个单独细胞活动。从本质上尝试解码这些电流活动的短暂爆发，这是神经元相互交流的方式，这些短暂的爆发或让我们形成一段新的记忆，或没有。
-
-
-But a few years ago, I did something very unusual in science. Asa full professor of neural science, I decided to completely switchmy research program. Because I encountered something thatwas so amazing, with the potential to change so many lives thatI had to study it. I discovered and I experienced the brain-changing effects of exercise. And I did it in a completelyinadvertent way. I was actually at the height of all the memorywork that I was doing -- data was pouring in, I was becomingknown in my field for all of this memory work. And it shouldhave been going great. It was, scientifically. But when I stuckmy head out of my lab door, I noticed something. I had no sociallife. I spent too much time listening to those brain cells in a darkroom, by myself.
->但是几年之前，我做了一些科学界中很少见的实验。作为一个神经科学的全职教授，我决定完全扭转我的研究计划。因为我遇到了如此神奇的事物，它有可能改变众多人的生命我必须要去研究它。我发现并亲身经历了运动对大脑的改变。而且是一种完全"无心插柳柳成荫"的方式。事实上当时我正处于所有记忆工作的最高点——数据如潮水般涌入，因为记忆研究工作,我在那一领域正在声名鹊起。它可以变得更出色，从科学角度来讲，它正是如此。但当我在实验室外时，我注意到一件事，那就是我没有社交生活。我花费了太多时间倾听那些脑细胞上在黑暗的屋子里，独自一人。
-
-
-I didn't move my body at all. I had gained 25 pounds. Andactually, it took me many years to realize it, I was actuallymiserable. And I shouldn't be miserable. And I went on a river-rafting trip -- by myself, because I had no social life. And I cameback -- thinking, "Oh, my God, I was the weakest person on thattrip." And I came back with a mission. I said, "I'm never goingto fel like the weakest person on a river-rafting trip again.
->我完全不运动。我已经长胖了25磅。事实上，我花费了很多年才意识到这个问题。我当时是很糟糕的，而我本不该如此。我自己一个人去做了一次漂流，因为我没朋友啊。然后当我回来后一一想着，“天哪，我是那趟旅程最弱的一个。”我回来后给自己下了一个任务。我对自已说，“我再也不要这种感受，再也不要做一个漂流之中最弱的那个。
-
-
-And that's what made me go to the gym. And I focused mytype-A personality on going to all the exercise classes at the gym. I tried everything. I went to kickbox, dance, yoga, stepclass, and at first it was really hard. But what I noticed is thatafter every sweat-inducing workout that I tried, I had this greatmood boost and this great energy boost. And that's what keptme going back to the gym. Well, I started feeling stronger. Istarted feeling better, I even lost that 25 pounds.
->这个想法促使我走进了健身房。我的A型人格促使我尝试了健身房所有运动。我尝试了一切。我做了拳击训练，舞蹈，瑜伽，踏步教程，开始的时候确实很难。但我注意到每一次汗水挥洒后，我的情绪都变得非常好，精力也更好。那促使我一直不断走进健身房。然后我开始感受到自己变得强壮。我感受非常好，甚至还减掉了那25磅。
-
-
-And now, fast-forward a year and a half into this regularexercise program and I noticed something that really made mesit up and take notice. I was sitting at my desk, writing aresearch grant, and a thought went through my mind that hadnever gone through my mind before. And that thought was,"Gee, grant-writing is going well today." And all the scientists -yeah, all the scientists always laugh when I say that, because grant-writing never goes well. It is so hard; you're alwayspulling your hair out, trying to come up with that million-dollar-winning idea.
->现在，自我经常去参加运动后已经一年半过去了，我注意到有些东西值得我坐下来记录。当时我正坐在桌旁，写着一份研究基金申请，一个想法突然从脑海冒出来，此前我从未这样想过。这个想法就是，“天哪，申请材料今天写的很顺利嘛。”所有的科学家一一对，所有科学家都会在我这样说的时候大笑，因为基金申请写作从来都不好写。它太难了，你总是绞尽脑汁，试图想出能够赢得百万美金的想法。
-
-
-But I realized that the grant-writing was going well, because Iwas able to focus and maintain my attention for longer than Ihad before. And my long-term memory -- what I was studyingin my own lab -- seemed to be better in me. And that's when Iput it together.
->但我意识到那次写作很顺利，因为我能够专注地保持我的注意力比以前时间都要久。我的长期记忆一一就是我实验室里研究的东西显示也更好了。从那时起我将它们联系在一起。
-
-
-Maybe all that exercise that I had included and added to my lifewas changing my brain. Maybe I did an experiment on myselfwithout even knowing it. So as a curious neuroscientist, I wentto the literature to see what I could find about what we knewabout theeffects ofexercise on thebrain.AndwhatI foundwasan exciting and a growingliterature that was essentiallyshowing everything that I noticed in myself. Better mood,better energy, better memory, better attention. And the more Ilearned, the more I realized how powerful exercise was. Whicheventually led me to the big decision to completely shift myresearch focus.
->或许我所有的运动都在改变我的大脑。或许我在自已没有意识到的情况下对我自己进行了一项实验。作为一个好奇的神经学家，我去文献里面查找现有已知的关于运动对于大脑的影响。我发现一项让人欣喜的且正在增长的文献记载记载了几乎所有发生在我身上的事更好的情绪、精力、记忆力和专注力。我所了解越多，我就越认识到运动的魅力，这也指引我做了一个重大决定来完全扭转我的研究方向。
 
 
 And so now, after several years of really focusing on thisquestion, I've come to the following conclusion: that exercise isthe most transformative thing that you can do for your braintoday for the following three reasons. Number one: it hasimmediate effects on your brain. A single workout that you dowill immediately increase levels of neurotransmitters likedopamine, serotonin and noradrenaline. That is going toincrease your mood right after that workout, exactly what I wasfeeling.

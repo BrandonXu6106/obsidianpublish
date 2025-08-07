@@ -17,6 +17,16 @@
     grid-template-columns: repeat(var(--columns), minmax(15rem, 1fr));
     gap: 10px;
   }
+    // 左宽右窄
+    .callout[data-callout*=column][data-callout-metadata~="wide-left"]>.callout-content {
+      grid-template-columns: 70% 30%;
+    }
+  
+    // 右宽左窄
+    .callout[data-callout*=column][data-callout-metadata~="wide-right"]>.callout-content {
+      grid-template-columns: 30% 70%;
+    }
+    
   .callout[data-callout="column"] > .callout-title {
     /* Hides the callout title */
     display: none;
