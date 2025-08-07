@@ -12,9 +12,9 @@
   }
   .callout[data-callout="column"] > .callout-content {
     /* Arranges the content in columns */
-    display: grid;
+  display: grid !important;
     /* minmax sets the minimum width of a column. Make the columns 'skinnier' by setting 15rem to a smaller number */
-    grid-template-columns: repeat(var(--columns), minmax(15rem, 1fr));
+    grid-template-columns: repeat(var(--columns), minmax(15rem, 1fr))!important;
     gap: 10px;
   }
   .callout[data-callout="column"] > .callout-title {
