@@ -13,12 +13,16 @@ tags:
 ![The brain-changing benefits of exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)
 ## 1. 讲稿解析
 > [!column|no-t]
-> > [!note|clean] 原文
+> > [!note|] 原文
 > > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate,[^1] positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
 >
 > > [!note] 译文
 > >如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
 > >
+
+> [!info] ceshi
+> 测试[^4]
+
 
 
 I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is[^2] tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
@@ -138,3 +142,4 @@ Thank you. I want to leave you with one last thought. And thatis, bringing exerc
 	
 [^3]: 测试
 	
+[^4]: 测试
