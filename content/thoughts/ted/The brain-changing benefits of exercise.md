@@ -15,7 +15,7 @@ tags:
 
 > [!column|flex 2 no-t]
 > > [!note|clean no-t] 
-> > What if I told you there was something that you can do right now that would have an immediate,[^1] positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
+> > What if I told you there was something that you can do right now that would have an immediate, positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
 >
 > > [!note] 译文
 > > 如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
@@ -23,18 +23,18 @@ tags:
 > [!column|flex 2 no-t]
 > 
 > > [!example] 原文
-> > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate,[^1] positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
+> > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate, positive benefit for your brain including your mood and your focus? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
 >
 > > [!note] 译文
 > >如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
 > >
 
 > [!example] ceshi
-> 测试3[^2]
+> 测试
 
 
 
-I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is[^3] tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
+I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
 >我所说的就是体育运动的強大效果。简单地让你的身体动起来，就能够对你的大脑产生即时的和长期的保护功效。而且可以持续一生的时间。所以我今天想要分享一个故事，关于我如何使用 我所深度理解的神经科学，作为一名神经科学教授，我在自己身上做了一项实验，在这个实验中我发现了为什么运动最易转化成对你的大脑有益的东西。作为一名神经科学家，我知道我们的大脑，就是我们脑袋中的东西，是对人类所知的最为复杂的结构。但是谈论大脑，和亲眼看到它是两件事。
 
 
