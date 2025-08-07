@@ -624,6 +624,22 @@ html[saved-theme="dark"] .lightbox-wrapper[data-lightbox="true"] img.lightbox-im
 /********************************************引用隐藏标题********************************************/
 /* —— Quartz：在引用章节时隐藏首个标题 —— */
 
+/* 隐藏引用块内的所有标题（h1–h6） */
+blockquote.transclude>h1,
+blockquote.transclude>h2,
+blockquote.transclude>h3,
+blockquote.transclude>h4,
+blockquote.transclude>h5,
+blockquote.transclude>h6 {
+  display: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* 隐藏“Link to original”链接 */
+blockquote.transclude>a.internal.transclude-src {
+  display: none !important;
+}
 
 /**********************************************underline样式***********************************************/
 /* 波浪下划线基础样式 */
