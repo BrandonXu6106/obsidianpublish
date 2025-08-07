@@ -635,7 +635,14 @@ blockquote.transclude>h6 {
   margin: 0;
   padding: 0;
 }
+.transclude[data-embed-alias~=clean] {
+  border-left: none;
+  padding-left: 0;
+}
 
+.transclude[data-embed-alias~=clean]>.transclude-src {
+  display: none;
+}
 /* 隐藏“Link to original”链接 */
 blockquote.transclude>a.internal.transclude-src {
   display: none !important;
