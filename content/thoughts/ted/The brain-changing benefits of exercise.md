@@ -8,7 +8,6 @@ tags:
   - ted
   - incubate
 ---
-
 ## 1. 源视频
 ![The brain-changing benefits of exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)
 ## 2. 讲稿解析
