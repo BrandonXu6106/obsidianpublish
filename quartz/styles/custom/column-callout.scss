@@ -4,7 +4,6 @@
 /*----Column Callout----*/
 
 .callout[data-callout="column"] {
-  /* Removes padding and background colour from the container */
   padding: 0;
   background-color: transparent;
   border: none;
@@ -12,15 +11,12 @@
 }
 
 .callout[data-callout="column"]>.callout-content {
-  /* Arranges the content in columns */
   display: grid;
-  /* minmax sets the minimum width of a column. Make the columns 'skinnier' by setting 15rem to a smaller number */
   grid-template-columns: repeat(var(--columns), minmax(15rem, 1fr));
   gap: 10px;
 }
 
 .callout[data-callout="column"]>.callout-title {
-  /* Hides the callout title */
   display: none;
 }
 
@@ -57,20 +53,25 @@
   --columns: 9;
 }
 
-/* 修复：将宽窄栏规则放在列数规则之后，提高优先级 */
-// 左宽右窄 (60% - 40%)
-.callout[data-callout*=column][data-callout-metadata~="wide-left"]>.callout-content {
-  grid-template-columns: 7fr 3fr;
+/* ----------------------------- */
+/* 修复：宽窄栏规则 (位置和样式改进) */
+/* ----------------------------- */
+
+.callout[data-callout*=column][data-callout-metadata~="wide-left"]>.callout-content,
+.callout[data-callout*=column][data-callout-metadata~="wide-left"] {
   grid-template-columns: minmax(0, 7fr) minmax(0, 3fr);
-  /* 添加minmax确保弹性 */
+  --columns: 2;
+  /* 确保是双栏 */
 }
 
-// 右宽左窄 (40% - 60%)
-.callout[data-callout*=column][data-callout-metadata~="wide-right"]>.callout-content {
-  grid-template-columns: 3fr 7fr;
+.callout[data-callout*=column][data-callout-metadata~="wide-right"]>.callout-content,
+.callout[data-callout*=column][data-callout-metadata~="wide-right"] {
   grid-template-columns: minmax(0, 3fr) minmax(0, 7fr);
-  /* 添加minmax确保弹性 */
+  --columns: 2;
+  /* 确保是双栏 */
 }
+
+/* ----------------------------- */
 
 /*flex*/
 .callout[data-callout*=column][data-callout-metadata~=flex]>.callout-content {
