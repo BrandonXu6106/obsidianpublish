@@ -20,13 +20,11 @@
 
   // 左宽右窄
   .callout[data-callout*=column][data-callout-metadata~="wide-left"]>.callout-content {
-    --columns: 2;
     grid-template-columns: 57% 43%;
   }
 
   // 右宽左窄
   .callout[data-callout*=column][data-callout-metadata~="wide-right"]>.callout-content {
-    --columns: 2;
     grid-template-columns: 43% 57%;
   }
 
