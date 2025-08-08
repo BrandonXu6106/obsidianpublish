@@ -222,7 +222,7 @@ a {
     }
 
     & .sidebar {
-      gap: 1.5rem;
+      gap: 1.8rem;
       top: 0;
       box-sizing: border-box;
       padding: $topSpacing 2rem 2rem 2rem;
@@ -528,6 +528,7 @@ tbody,
 li,
 p {
   line-height: 1.45rem;
+  margin-block-start: 0.5rem;
 }
 
 .table-container {
