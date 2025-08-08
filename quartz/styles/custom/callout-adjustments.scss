@@ -111,7 +111,7 @@
 
 .callout.callout.callout.callout:is([data-callout-metadata~=no-t],
 [data-callout-metadata~=no-title]) > .callout-content > :first-child {
-  margin-top: 16;
+  margin-top: 0rem;
   /* quartz does not seem to add a margin-top to .callout-content, so removing .callout-title squishes it to the top unless a margin is added here */
 }
 
