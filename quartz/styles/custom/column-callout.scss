@@ -4,105 +4,116 @@
 /*----Column Callout----*/
 
 .callout[data-callout="column"] {
-  padding: 0;
-  background-color: transparent;
-  border: none;
-  --columns: 2;
-
-  /* 添加更多可见的调试样式 */
-  border: 1px dashed red !important;
-  /* 调试用，确认选择器是否生效 */
-}
-
-.callout[data-callout="column"]>.callout-content {
-  display: grid;
-  grid-template-columns: repeat(var(--columns), minmax(15rem, 1fr));
-  gap: 10px;
-  border: 1px dashed blue !important;
-  /* 调试用 */
-}
-
-.callout[data-callout="column"]>.callout-title {
-  display: none;
-}
-
-/* =================================== */
-/* 特别修复：宽窄栏布局 - 增强特异性 */
-/* =================================== */
-
-/* 左宽右窄 (7:3) */
-div.callout[data-callout="column"][data-callout-metadata~="wide-left"],
-div.callout[data-callout="column"][data-callout-metadata*="wide-left"] {
-  &>.callout-content {
-    grid-template-columns: minmax(0, 7fr) minmax(0, 3fr) !important;
-    --columns: 2 !important;
-    background-color: rgba(255, 0, 0, 0.1) !important;
-    /* 调试用 */
+    /* Removes padding and background colour from the container */
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    --columns: 2;
   }
-}
-
-/* 右宽左窄 (7:3) */
-div.callout[data-callout="column"][data-callout-metadata~="wide-right"],
-div.callout[data-callout="column"][data-callout-metadata*="wide-right"] {
-  &>.callout-content {
-    grid-template-columns: minmax(0, 3fr) minmax(0, 7fr) !important;
-    --columns: 2 !important;
-    background-color: rgba(0, 255, 0, 0.1) !important;
-    /* 调试用 */
+  .callout[data-callout="column"] > .callout-content {
+    /* Arranges the content in columns */
+    display: grid;
+    /* minmax sets the minimum width of a column. Make the columns 'skinnier' by setting 15rem to a smaller number */
+    grid-template-columns: repeat(var(--columns), minmax(15rem, 1fr));
+    gap: 10px;
   }
-}
 
-/* 如果宽窄栏布局在手机端效果不好，可以添加响应式处理 */
-@media (max-width: 768px) {
-
-  div.callout[data-callout="column"][data-callout-metadata~="wide-left"]>.callout-content,
-  div.callout[data-callout="column"][data-callout-metadata~="wide-right"]>.callout-content {
-    grid-template-columns: 1fr !important;
+  // 左宽右窄
+  .callout[data-callout*=column][data-callout-metadata~="wide-left"]>.callout-content {
+    --columns: 2;
+    grid-template-columns: 57% 43%;
   }
-}
 
-/* =================================== */
+  // 右宽左窄
+  .callout[data-callout*=column][data-callout-metadata~="wide-right"]>.callout-content {
+    --columns: 2;
+    grid-template-columns: 43% 57%;
+  }
 
-.callout[data-callout*=column]:is([data-callout-metadata~=slim-margins],
-  [data-callout-metadata~=s-mg])>.callout-content {
-  gap: 2px;
-}
-
-.callout[data-callout*=column][data-callout-metadata~="3"] .callout-content {
-  --columns: 3;
-}
-
-.callout[data-callout*=column][data-callout-metadata~="4"] .callout-content {
-  --columns: 4;
-}
-
-.callout[data-callout*=column][data-callout-metadata~="5"] .callout-content {
-  --columns: 5;
-}
-
-.callout[data-callout*=column][data-callout-metadata~="6"] .callout-content {
-  --columns: 6;
-}
-
-.callout[data-callout*=column][data-callout-metadata~="7"] .callout-content {
-  --columns: 7;
-}
-
-.callout[data-callout*=column][data-callout-metadata~="8"] .callout-content {
-  --columns: 8;
-}
-
-.callout[data-callout*=column][data-callout-metadata~="9"] .callout-content {
-  --columns: 9;
-}
-
-/*flex*/
-.callout[data极客时间极客时间callout*=column][data-callout-metadata~=flex]>.callout-content {
-  gap: 5px;
-  grid-template-columns: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-/* 其余样式保持原样... */
+  .callout[data-callout="column"] > .callout-title {
+    /* Hides the callout title */
+    display: none;
+  }
+  
+  .callout[data-callout*=column]:is([data-callout-metadata~=slim-margins],
+  [data-callout-metadata~=s-mg]) > .callout-content {
+    gap: 2px;
+  }
+  
+  .callout[data-callout*=column][data-callout-metadata~="3"] .callout-content {
+    --columns: 3;
+  }
+  .callout[data-callout*=column][data-callout-metadata~="4"] .callout-content {
+    --columns: 4;
+  }
+  .callout[data-callout*=column][data-callout-metadata~="5"] .callout-content {
+    --columns: 5;
+  }
+  .callout[data-callout*=column][data-callout-metadata~="6"] .callout-content {
+    --columns: 6;
+  }
+  .callout[data-callout*=column][data-callout-metadata~="7"] .callout-content {
+    --columns: 7;
+  }
+  .callout[data-callout*=column][data-callout-metadata~="8"] .callout-content {
+    --columns: 8;
+  }
+  .callout[data-callout*=column][data-callout-metadata~="9"] .callout-content {
+    --columns: 9;
+  }
+  /*flex*/
+  .callout[data-callout*=column][data-callout-metadata~=flex] > .callout-content {
+    gap: 5px;
+    grid-template-columns: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=flex] > .callout-content .callout {
+    flex: 1 1 calc($pageWidth / 2.5);
+  }
+  .callout[data-callout*=column][data-callout-metadata~=flex][data-callout-metadata~="3"] > .callout-content .callout {
+    flex: 1 1 calc($pageWidth / 3.5);
+    /* original ITS CSS used (var(--file-line-width), an Obsidian variable for readable line length (the width of the page). Substituted for Quartz SASS variable $pageWidth */
+  }
+  .callout[data-callout*=column][data-callout-metadata~=flex][data-callout-metadata~=resize] .callout {
+    flex: 1 1 auto;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=flex][data-callout-metadata~=resize] .callout[data-callout-metadata~=wmicro] {
+    width: 5%;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=flex][data-callout-metadata~=resize] .callout[data-callout-metadata~=wtiny] {
+    width: 10%;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=flex][data-callout-metadata~=resize] .callout[data-callout-metadata~=wsmall] {
+    width: 20%;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=flex][data-callout-metadata~=resize] .callout[data-callout-metadata~=ws-med] {
+    width: 30%;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=flex][data-callout-metadata~=resize] .callout[data-callout-metadata~=wmed] {
+    width: 40%;
+  }
+  /*list*/
+  .callout[data-callout*=column][data-callout-metadata~=list-global] .callout > .callout-content, .callout[data-callout*=column][data-callout-metadata~=list] > .callout-content {
+    grid-template-columns: unset;
+  }
+  /*list-global is for nesting column lists inside a callout in the column callout*/
+  .callout[data-callout*=column][data-callout-metadata~=list-global] .callout > .callout-content > ul, .callout[data-callout*=column][data-callout-metadata~=list] > .callout-content > ul {
+    columns: var(--columns);
+  }
+  .callout[data-callout*=column][data-callout-metadata~=list-global] .callout > .callout-content > ul > li, .callout[data-callout*=column][data-callout-metadata~=list] > .callout-content > ul > li {
+    break-inside: avoid;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=list-global] .callout > .callout-content > ul .list-bullet::after, .callout[data-callout*=column][data-callout-metadata~=list] > .callout-content > ul .list-bullet::after {
+    position: relative;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=list-x] > .callout-content {
+    grid-template-columns: unset;
+  }
+  .callout[data-callout*=column][data-callout-metadata~=list-x] > .callout-content > ul {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+  }
+  
+  
