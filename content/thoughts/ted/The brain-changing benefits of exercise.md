@@ -31,10 +31,20 @@ tags:
 > > 
 > > 我所说的就是体育运动的強大效果。简单地让你的身体动起来，就能够对你的大脑产生即时的和长期的保护功效。而且可以持续一生的时间。所以我今天想要分享一个故事，关于我如何使用 我所深度理解的神经科学，作为一名神经科学教授，我在自己身上做了一项实验，在这个实验中我发现了为什么运动最易转化成对你的大脑有益的东西。作为一名神经科学家，我知道我们的大脑，就是我们脑袋中的东西，是对人类所知的最为复杂的结构。但是谈论大脑，和亲眼看到它是两件事。
 
-
-
-
+> [!column|flex 2 no-t wide-left]
+> 
+> > [!example|clean no-t] 
+> > 
 > > I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
+> 
+> > [!note|no-t] 
+> > 
+> >这是一个真实保存的人类大脑。它会展示我们今天所要讨论的两个关键部分。第一部分是前额皮层，就在你额头后面，对做决定、专注力、注意力及性格等 至关重要。第二个重要的区域是在颞叶，右边这里。在大脑里有两个颞叶，右边一个左边一个，在颞叶深处有-个非常关键的结构它对你的能力至关重要能够形成和保存对事实、事件的长期记忆。它被称作海马体。
+
+
+
+
+> > 
 > > So here is a real preserved human brain. And it's going toillustrate two key areas that we are going to talk about today.The first is the prefrontal cortex, right behind your forehead, critical for things like decision-making, focus, attention andyour personality. The second key area is located in the temporallobe, shown right here. You have two temporal lobes in yourbrain, the right and the left, and deep in the temporal lobe is akey structure critical for your ability to form and retai newlong-term memories for facts and events. And that structure is called the [[hippocampus|hippocampus]].
 > > So I've always been fascinated with the hippocampus. How could it be that an event that lasts just a moment, say, your firstkiss, or the moment your first child was born, can form amemory that has changed your brain, that lasts an entirelifetime? That's what I want to understand. I wanted to start andrecord the activity of individual brain cells in the hippocampusas subjects were forming new memories. And essentially tryand decode how those brief bursts of electrical activity, whichis how neurons communicate with each other, how those briefbursts either allowed us to form a new memory, or did not.
 > > But a few years ago, I did something very unusual in science. Asa full professor of neural science, I decided to completely switchmy research program. Because I encountered something thatwas so amazing, with the potential to change so many lives thatI had to study it. I discovered and I experienced the brain-changing effects of exercise. And I did it in a completelyinadvertent way. I was actually at the height of all the memorywork that I was doing -- data was pouring in, I was becomingknown in my field for all of this memory work. And it shouldhave been going great. It was, scientifically. But when I stuckmy head out of my lab door, I noticed something. I had no sociallife. I spent too much time listening to those brain cells in a darkroom, by myself.
@@ -46,7 +56,7 @@ tags:
 
 
 > > 
-> > 这是一个真实保存的人类大脑。它会展示我们今天所要讨论的两个关键部分。第一部分是前额皮层，就在你额头后面，对做决定、专注力、注意力及性格等 至关重要。第二个重要的区域是在颞叶，右边这里。在大脑里有两个颞叶，右边一个左边一个，在颞叶深处有-个非常关键的结构它对你的能力至关重要能够形成和保存对事实、事件的长期记忆。它被称作海马体。
+> > 
 > > 我一直对海马体非常着迷。一件短暂的事情，比如说，你的初吻，或者你第一个孩子诞生的时刻，如何形成一个能够改变你的大脑且持续终生的记忆？这是我想要去弄明白的。我想要去开始记录当形成新的记忆的时候海马体中每个单独细胞活动。从本质上尝试解码这些电流活动的短暂爆发，这是神经元相互交流的方式，这些短暂的爆发或让我们形成一段新的记忆，或没有。
 > > 但是几年之前，我做了一些科学界中很少见的实验。作为一个神经科学的全职教授，我决定完全扭转我的研究计划。因为我遇到了如此神奇的事物，它有可能改变众多人的生命我必须要去研究它。我发现并亲身经历了运动对大脑的改变。而且是一种完全"无心插柳柳成荫"的方式。事实上当时我正处于所有记忆工作的最高点——数据如潮水般涌入，因为记忆研究工作,我在那一领域正在声名鹊起。它可以变得更出色，从科学角度来讲，它正是如此。但当我在实验室外时，我注意到一件事，那就是我没有社交生活。我花费了太多时间倾听那些脑细胞上在黑暗的屋子里，独自一人。
 > > 我完全不运动。我已经长胖了25磅。事实上，我花费了很多年才意识到这个问题。我当时是很糟糕的，而我本不该如此。我自己一个人去做了一次漂流，因为我没朋友啊。然后当我回来后一一想着，“天哪，我是那趟旅程最弱的一个。”我回来后给自己下了一个任务。我对自已说，“我再也不要这种感受，再也不要做一个漂流之中最弱的那个。
