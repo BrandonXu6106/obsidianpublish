@@ -401,44 +401,44 @@ h6 {
 // typography improvements
 h1 {
   font-size: 1.75rem;
-  margin-top: 2.25rem;
+  margin-top: 2.01rem;
   margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.55rem;
-  margin-top: 1.9rem;
+  margin-top: 1.75rem;
   margin-bottom: 1rem;
 }
 
 h3 {
   font-size: 1.35rem;
-  margin-top: 1.62rem;
+  margin-top: 1.55rem;
   margin-bottom: 1rem;
 }
 
 h4 {
   font-size: 1.25rem;
-  margin-top: 1.52rem;
+  margin-top: 1.45rem;
   margin-bottom: 1rem;
 }
 
 h5 {
   font-size: 1.15rem;
-  margin-top: 1.4rem;
+  margin-top: 1.35rem;
   margin-bottom: 1rem;
 }
 
 h6 {
   font-size: 1rem;
-  margin-top: 1.3rem;
+  margin-top: 1.2rem;
   margin-bottom: 1rem;
 }
 
 figure[data-rehype-pretty-code-figure] {
   margin: 0;
   position: relative;
-  line-height: 1.6rem;
+  line-height: 1.4rem;
   position: relative;
 
   & > [data-rehype-pretty-code-title] {
@@ -527,7 +527,7 @@ code {
 tbody,
 li,
 p {
-  line-height: 1.6rem;
+  line-height: 1.2rem;
 }
 
 .table-container {
