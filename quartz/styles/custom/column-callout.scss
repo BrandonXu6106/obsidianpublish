@@ -59,7 +59,7 @@
 // 其他比例
 .callout[data-callout*=column][data-callout-metadata~="55-45"]>.callout-content {
   --columns: 2;
-  grid-template-columns: 55% 44%;
+  grid-template-columns: 55fr 44fr;
 }
 
 .callout[data-callout*=column][data-callout-metadata~="43-57"]>.callout-content {
