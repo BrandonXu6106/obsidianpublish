@@ -9,6 +9,8 @@
   background-color: transparent;
   border: none;
   overflow: hidden;/* 阻止滚动条 */
+    max-width: none;
+      /* 移除可能存在的最大宽度限制 */
   --columns: 2;
 }
 
@@ -59,7 +61,6 @@
 .callout[data-callout*=column][data-callout-metadata~="55-45"]>.callout-content {
   --columns: 2;
   grid-template-columns: 55% 45%;
-  width: 100%;/* 强制占满父容器 */
 }
 
 .callout[data-callout*=column][data-callout-metadata~="43-57"]>.callout-content {
