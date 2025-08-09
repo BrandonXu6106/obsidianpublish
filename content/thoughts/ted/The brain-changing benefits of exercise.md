@@ -11,9 +11,9 @@ tags:
 ## 1. 源视频
 ![The brain-changing benefits of exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)
 ## 2. 讲稿解析
-> [!column|flex 2 clean wide-left no-t]
+> [!column|55-45 no-t]
 >    
-> > [!example] 原文 
+> > [!example|clean no-t] 原文 
 > > 
 > > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate, ==positive benefit for your brain including your mood and your focus==? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, Alzheimer's disease or [[thoughts/words/dementia|dementia]]. Would you do it? Yes![^5]
 > 
@@ -21,9 +21,9 @@ tags:
 > > 
 > > 如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
 
-> [!column|flex 2 no-t clean wide-left]
+> [!column|55-45 no-t clean]
 > 
-> > [!example|no-t] 
+> > [!example|clean no-t] 
 > > 
 > > I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
 > 
@@ -31,7 +31,7 @@ tags:
 > > 
 > > 我所说的就是体育运动的強大效果。简单地让你的身体动起来，就能够对你的大脑产生即时的和长期的保护功效。而且可以持续一生的时间。所以我今天想要分享一个故事，关于我如何使用 我所深度理解的神经科学，作为一名神经科学教授，我在自己身上做了一项实验，在这个实验中我发现了为什么运动最易转化成对你的大脑有益的东西。作为一名神经科学家，我知道我们的大脑，就是我们脑袋中的东西，是对人类所知的最为复杂的结构。但是谈论大脑，和亲眼看到它是两件事。
 
-> [!column|flex 2 no-t wide-left]
+> [!column|55-45 no-t]
 > 
 > > [!example|clean no-t] 
 > > 
@@ -44,8 +44,9 @@ tags:
 
 
 
-> > 
-> > So here is a real preserved human brain. And it's going toillustrate two key areas that we are going to talk about today.The first is the prefrontal cortex, right behind your forehead, critical for things like decision-making, focus, attention andyour personality. The second key area is located in the temporallobe, shown right here. You have two temporal lobes in yourbrain, the right and the left, and deep in the temporal lobe is akey structure critical for your ability to form and retai newlong-term memories for facts and events. And that structure is called the [[hippocampus|hippocampus]].
+So here is a real preserved human brain. And it's going toillustrate two key areas that we are going to talk about today.The first is the prefrontal cortex, right behind your forehead, critical for things like decision-making, focus, attention andyour personality. The second key area is located in the temporallobe, shown right here. You have two temporal lobes in yourbrain, the right and the left, and deep in the temporal lobe is akey structure critical for your ability to form and retai newlong-term memories for facts and events. And that structure is called the [[hippocampus|hippocampus]].
+
+
 > > So I've always been fascinated with the hippocampus. How could it be that an event that lasts just a moment, say, your firstkiss, or the moment your first child was born, can form amemory that has changed your brain, that lasts an entirelifetime? That's what I want to understand. I wanted to start andrecord the activity of individual brain cells in the hippocampusas subjects were forming new memories. And essentially tryand decode how those brief bursts of electrical activity, whichis how neurons communicate with each other, how those briefbursts either allowed us to form a new memory, or did not.
 > > But a few years ago, I did something very unusual in science. Asa full professor of neural science, I decided to completely switchmy research program. Because I encountered something thatwas so amazing, with the potential to change so many lives thatI had to study it. I discovered and I experienced the brain-changing effects of exercise. And I did it in a completelyinadvertent way. I was actually at the height of all the memorywork that I was doing -- data was pouring in, I was becomingknown in my field for all of this memory work. And it shouldhave been going great. It was, scientifically. But when I stuckmy head out of my lab door, I noticed something. I had no sociallife. I spent too much time listening to those brain cells in a darkroom, by myself.
 > > I didn't move my body at all. I had gained 25 pounds. Andactually, it took me many years to realize it, I was actuallymiserable. And I shouldn't be miserable. And I went on a river-rafting trip -- by myself, because I had no social life. And I cameback -- thinking, "Oh, my God, I was the weakest person on thattrip." And I came back with a mission. I said, "I'm never goingto fel like the weakest person on a river-rafting trip again.
