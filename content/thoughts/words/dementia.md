@@ -2,7 +2,7 @@
 dictionary_word: dementia
 hasAudio: true
 ---
- 音标: **/dɪ'ment/**
+ [[音标:]] [[**/dɪ'ment/**]]音标: **/dɪ'ment/**
 ![[thoughts/english_audio/dementia_en.mp3]]
 
 ## 1. 中英释义

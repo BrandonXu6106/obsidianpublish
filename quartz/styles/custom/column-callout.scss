@@ -24,36 +24,36 @@
 /* 新增不同宽度比例样式 - 保持与现有结构一致 */
 // 标准比例
 .callout[data-callout*=column][data-callout-metadata~="20-80"]>.callout-content {
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20fr 80fr;
 }
 
 .callout[data-callout*=column][data-callout-metadata~="30-70"]>.callout-content {
   --columns: 2;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 30fr 70fr;
 }
 
 .callout[data-callout*=column][data-callout-metadata~="40-60"]>.callout-content {
   --columns: 2;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 40fr 60fr;
 }
 
 .callout[data-callout*=column][data-callout-metadata~="60-40"]>.callout-content {
   --columns: 2;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 60fr 40fr;
 }
 
 .callout[data-callout*=column][data-callout-metadata~="70-30"]>.callout-content {
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 70fr 30fr;
 }
 
 .callout[data-callout*=column][data-callout-metadata~="80-20"]>.callout-content {
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 80fr 20fr;
 }
 
 // 黄金比例 (约38%-62%)
 .callout[data-callout*=column][data-callout-metadata~="golden"]>.callout-content {
   --columns: 2;
-  grid-template-columns: 38.2% 61.8%;
+  grid-template-columns: 38.2fr 61.8;
 }
 
 // 其他比例
@@ -64,7 +64,7 @@
 
 .callout[data-callout*=column][data-callout-metadata~="43-57"]>.callout-content {
   --columns: 2;
-  grid-template-columns: 43% 57%;
+  grid-template-columns: 43fr 57fr;
 }
 
 // 自定义比例 (使用css变量)
