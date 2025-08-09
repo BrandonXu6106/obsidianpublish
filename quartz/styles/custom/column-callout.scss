@@ -8,6 +8,7 @@
   padding: 0;
   background-color: transparent;
   border: none;
+  overflow: hidden;/* 阻止滚动条 */
   --columns: 2;
 }
 
