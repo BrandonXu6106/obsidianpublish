@@ -39,7 +39,6 @@ n. [医] 痴呆(mental deterioration of organic or functional origin)
 1. Mentality - 指个体的思想、理智状态或心理特点，与dementia表示的精神衰退相反。例句：He maintained a sharp mentality throughout his life, never showing signs of dementia.
 
 
-
 复合词：
 1. Dementia care - 提供给痴呆症患者的特殊护理，涵盖医疗、生活照顾及精神支持等方面。例句：She specializes in dementia care, ensuring her patients receive personalized attention and a supportive environment.
 
