@@ -51,4 +51,7 @@ enableToc: true
 	- ★★ 引申义用法更显语言的高级性
 
 
->==There is considerable debate over==
+>==There is [[considerable]] debate over==
+
+==There is [[considerable]] debate over==
+
