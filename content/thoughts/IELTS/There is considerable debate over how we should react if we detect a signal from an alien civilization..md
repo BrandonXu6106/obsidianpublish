@@ -20,7 +20,7 @@ enableToc: true
 - **主句**: There is considerable debate over sth 某事备受争议
 - **debate**：
 	- debate on/about/over sth 
-	- there is ==a== debate（==c==, u）→ there is considerable debate（==u==）
+	- there ==is== ==a== debate（==c==, u）→ there ==is== considerable debate（==u==）
 - **语法**：从句做名词→名词性从句(宾语从句)
 - **名词性从句**：
     - ★★★用<u>陈述语序</u>: 主语+助动词/动词
@@ -51,6 +51,4 @@ enableToc: true
 	- ★★ 引申义用法更显语言的高级性
 
 
->==There is [[thoughts/words/considerable|considerable]] [[thoughts/words/debate|debate]] over==
-
-
+>==There is considerable debate over==
