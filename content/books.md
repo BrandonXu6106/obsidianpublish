@@ -7,18 +7,18 @@ aliases:
 A (mostly) up-to-date list of books I at some point, have wanted to read, am reading, or finished reading. Links are to pages/blog posts/ideas that were inspired by the book that's linked!
 
 >  [“the end of a book’s wisdom appears to us as merely the start of our own,”](https://www.themarginalian.org/2016/10/20/proust-on-reading/) Nussbaum writes
-## To Read
+## 1. To Read
 
 > What is an [antilibrary](https://nesslabs.com/antilibrary)? To put it simply, an antilibrary is a private collection of unread books. Instead of a celebration of everything you know, an antilibrary is an ode to everything you want to explore.
 
-### Fiction
+### 1.1. Fiction
 
 - **Accelerando** by Charles Stross
 - **Homo Ludens** by Johan Huizinga
 - **The Ministry for the Future** by Kim Stanley Robinson
 - **Cat's Cradle** by Kurt Vonnegut
 
-### Non-fiction
+### 1.2. Non-fiction
 
 - **Weathering** by Ruth Allen
 - **On Giving Up** by Adam Phillips
@@ -33,16 +33,16 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **[Notes on the Synthesis of Form](https://monoskop.org/images/f/ff/Alexander_Christopher_Notes_on_the_Synthesis_of_Form.pdf)** by Christopher Alexander
 - **Practical Reason: On the Theory of Action** by Pierre Bourdieu
 
-### Poetry
+### 1.3. Poetry
 
 - **Without** by David Hall
-## Current
+## 2. Current
 
 - **Crime and Punishment** by Fyodor Dostoevsky
 
-## Past
+## 3. Past
 
-### 2025
+### 3.1. 2025
 
 - **A Prayer for the Crown-Shy** by Becky Chambers
 - **A Psalm for the Wild-Built** by Becky Chambers
@@ -54,7 +54,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **The Miracles of the Namiya General Store** by Keigo Higashino
 - **Devotion** by Patti Smith
 
-### 2024
+### 3.2. 2024
 
 - **[[Time A Very Short Introduction|Time, A Very Short Introduction](thoughts/Time%20A%20Very%20Short%20Introduction.md)** by Jenann Ismael
 - **The Healing Season of Pottery** by Yeon Somin
@@ -63,7 +63,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **[[thoughts/Bluets.md|Bluets]]** by Maggie Nelson
 - **[[Alexandre Grothendieck#Reflection and testimony on a past as a mathematician|Récoltes et Semailles](thoughts/Alexandre%20Grothendieck.md)** by Alexandre Grothendieck
 
-### 2023
+### 3.3. 2023
 
 - **[[The Mythical Man-Month|The Mythical Man-Month](thoughts/The%20Mythical%20Man-Month.md)** by Frederick P. Brooks, Jr.
 - **Design as Art** by Bruno Munari
@@ -76,7 +76,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **[[Tomorrow, and Tomorrow, and Tomorrow|Tomorrow, and Tomorrow, and Tomorrow](thoughts/Tomorrow,%20and%20Tomorrow,%20and%20Tomorrow.md)** by Gabrielle Zevin
 - **Project Hail Mary** by Andy Weir
 
-### 2022
+### 3.4. 2022
 
 - **[[Seeing like a State|Seeing Like A State](thoughts/Seeing%20like%20a%20State.md)** by James C. Scott
 - **[[Games Agency as Art](thoughts/Games%20Agency%20as%20Art.md)** by C. Thi Nguyen
@@ -93,7 +93,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - [**Archipelago**](thoughts/Archipelago.md) by Édouard Glissant
 - **Unflattening** by Nick Sousanis
 
-### 2021
+### 3.5. 2021
 
 - [**How to Do Nothing**](thoughts/How%20to%20do%20Nothing.md) by Jenny Odell
 - [**A Tale for the Time Being**](thoughts/A%20Tale%20for%20the%20Time%20Being.md) by Ruth Ozeki
@@ -114,7 +114,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **The Art of Thinking Clearly** by Rolf Dobelli
 - **21 Lessons for the 21st Century** by Yuval Noah Harari
 
-### 2020
+### 3.6. 2020
 
 - **Sapiens** by Yuval Noah Harari
 - **Measure What Matters** by John Doerr

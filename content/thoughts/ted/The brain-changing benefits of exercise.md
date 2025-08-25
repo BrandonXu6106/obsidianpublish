@@ -15,7 +15,7 @@ tags:
 >    
 > > [!example|clean] 原文 
 > > 
-> > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate, ==positive benefit for your brain including your mood and your focus==? And what if I told you that same thing could actually last a long time and protect your brain from different conditions like depression, <u>Alzheimer's disease</u> [^1]or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
+> > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate positive benefit for your brain including your mood and your focus? And what if I told you that <u>same thing</u>[^1] could actually last a long time and protect your brain from different conditions like [[depression|depression]], ==Alzheimer's disease==[^2]or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
 > 
 > > [!note|] 译文
 > > 
@@ -35,7 +35,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > So here is a real preserved human brain. And it's going to illustrate two key areas that we are going to talk about today. The first is the <u>prefrontal cortex</u>[^2], right behind your forehead, critical for things like decision-making, focus, attention and your personality. The second key area is located in the temporallobe, shown right here. You have two <u>temporal lobes</u>[^3] in your brain, the right and the left, and deep in the temporal lobe is a key structure critical for your ability to form and retain new long-term memories for facts and events. And that structure is called the hippocampus.
+> > So here is a real preserved human brain. And it's going to illustrate two key areas that we are going to talk about today. The first is the <u>prefrontal cortex</u>[^3], right behind your forehead, critical for things like decision-making, focus, attention and your personality. The second key area is located in the temporallobe, shown right here. You have two <u>temporal lobes</u>[^4] in your brain, the right and the left, and deep in the temporal lobe is a key structure critical for your ability to form and retain new long-term memories for facts and events. And that structure is called the hippocampus.
 > 
 > > [!note|no-t] 
 > > 
@@ -55,7 +55,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > But a few years ago, I did something very unusual in science. Asa full professor of <u>neural science</u>[^4], I decided to completely switchmy research program. 
+> > But a few years ago, I did something very unusual in science. Asa full professor of <u>neural science</u>[^5], I decided to completely switchmy research program. 
 > 
 > > [!note|no-t] 
 > > 
@@ -65,7 +65,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > Because I encountered something that was so amazing, with the potential to change so many lives that I had to study it. I discovered and I experienced the brain-changing effects of exercise. And I did it in <u>a completely inadvertent way</u>[^5]. I was actually at the height of all the memorywork that I was doing -- data was pouring in, I was becomingknown in my field for all of this memory work. And it shouldhave been going great. It was, scientifically. But when I stuckmy head out of my lab door, I noticed something. I had no sociallife. I spent too much time listening to those brain cells in a darkroom, by myself.
+> > Because I encountered something that was so amazing, with the potential to change so many lives that I had to study it. I discovered and I experienced the brain-changing effects of exercise. And I did it in <u>a completely inadvertent way</u>[^6]. I was actually at the height of all the memorywork that I was doing -- data was pouring in, I was becomingknown in my field for all of this memory work. And it shouldhave been going great. It was, scientifically. But when I stuckmy head out of my lab door, I noticed something. I had no sociallife. I spent too much time listening to those brain cells in a darkroom, by myself.
 > 
 > > [!note|no-t] 
 > > 
@@ -85,7 +85,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > And that's what made me go to the gym. And I focused my <u>type-A personality</u>[^6] on going to all the exercise classes at the gym. I tried everything. I went to kickbox, dance, yoga, step class, and at first it was really hard. 
+> > And that's what made me go to the gym. And I focused my <u>type-A personality</u>[^7] on going to all the exercise classes at the gym. I tried everything. I went to kickbox, dance, yoga, step class, and at first it was really hard. 
 > 
 > > [!note|no-t] 
 > > 
@@ -105,7 +105,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > And now, fast-forward a year and a half into this regular exercise program and I noticed something that really made me sit up and take notice. I was sitting at my desk, writing a research grant, and a thought went through my mind that had never gone through my mind before. And that thought was,,"Gee, grant- writing is going well today." And all the scientists -- yeah, all the scientists always laugh when I say that, because grant-writing never goes well. It is so hard; you're always pulling your hair out, trying to come up with that <u>million-dollar-winning</u>[^7] idea.
+> > And now, fast-forward a year and a half into this regular exercise program and I noticed something that really made me sit up and take notice. I was sitting at my desk, writing a research grant, and a thought went through my mind that had never gone through my mind before. And that thought was,,"Gee, grant- writing is going well today." And all the scientists -- yeah, all the scientists always laugh when I say that, because grant-writing never goes well. It is so hard; you're always pulling your hair out, trying to come up with that <u>million-dollar-winning</u>[^8] idea.
 > 
 > > [!note|no-t] 
 > > 
@@ -135,7 +135,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > And what I found was an exciting and a growing literature that was essentially showing everything that I noticed in myself. Better mood, better energy, better memory, better attention. And the more I learned, the more I realized how powerful exercise was. Which eventually led me to the big decision to completely shift my <u>research focus</u>[^8].
+> > And what I found was an exciting and a growing literature that was essentially showing everything that I noticed in myself. Better mood, better energy, better memory, better attention. And the more I learned, the more I realized how powerful exercise was. Which eventually led me to the big decision to completely shift my <u>research focus</u>[^9].
 > 
 > > [!note|no-t] 
 > > 
@@ -175,7 +175,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > Number two: the most common finding in neuroscience studies,looking at effects of long-term exercise, is improved attentionfunction dependent on your <u>prefrontal cortex.</u>[^9] You not only get better focus and attention, but the volume of the hippocampusincreases as well. And finally, you not only get immediateeffects of mood with exercise but those last for a long time. So you get long-lasting increases in those good moodneurotransmitters.
+> > Number two: the most common finding in neuroscience studies,looking at effects of long-term exercise, is improved attentionfunction dependent on your <u>prefrontal cortex.</u>[^10] You not only get better focus and attention, but the volume of the hippocampusincreases as well. And finally, you not only get immediateeffects of mood with exercise but those last for a long time. So you get long-lasting increases in those good moodneurotransmitters.
 > 
 > > [!note|no-t] 
 > > 
@@ -194,7 +194,7 @@ tags:
 > [!column|55-45]
 > 
 > > [!example|clean no-t] 
-> > Why is that important? Because the prefrontal cortex and thehippocampus are the two areas that are most susceptible to <u>neurodegenerative diseases</u>[^10] and normal cognitive decline inaging. 
+> > Why is that important? Because the prefrontal cortex and thehippocampus are the two areas that are most susceptible to <u>neurodegenerative diseases</u>[^11] and normal cognitive decline inaging. 
 > > 
 > 
 > > [!note|no-t] 
@@ -235,7 +235,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > And the good news is, you don't have to go to the gym to get avery expensive gym membership. Add an extra walk around theblock in your power walk. You see stairs -- take stairs. Andpower-vacuuming can be as good as the <u>aerobics class</u>[^11] that youwere going to take at the gym.
+> > And the good news is, you don't have to go to the gym to get avery expensive gym membership. Add an extra walk around theblock in your power walk. You see stairs -- take stairs. Andpower-vacuuming can be as good as the <u>aerobics class</u>[^12] that youwere going to take at the gym.
 > 
 > > [!note|no-t] 
 > > 
@@ -245,7 +245,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > So I've gone from memory pioneer to exercise explorer. Fromgoing into the innermost workings of the brain, to trying tounderstand how exercise can improve our brain function, and my goal in my lab right now is to go beyond that rule of thumbthat I just gave you -- three to four times a week, 30 minutes. I want to understand the <u>optimum exercise prescription</u>[^12] for you, at your age, at your fitness level, for your genetic background, to maximize the effects of exercise today and also to improve yourbrain and protect your brain the best for the rest of your life.
+> > So I've gone from memory pioneer to exercise explorer. Fromgoing into the innermost workings of the brain, to trying tounderstand how exercise can improve our brain function, and my goal in my lab right now is to go beyond that rule of thumbthat I just gave you -- three to four times a week, 30 minutes. I want to understand the <u>optimum exercise prescription</u>[^13] for you, at your age, at your fitness level, for your genetic background, to maximize the effects of exercise today and also to improve yourbrain and protect your brain the best for the rest of your life.
 > 
 > > [!note|no-t] 
 > > 
@@ -290,36 +290,36 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > Thank you. I want to leave you with one last thought. And thatis, bringing exercise in your life will not only give you a happier,more protective life today, but it will protect your brain from <u>incurable diseases</u>[^13]. And in this way it will change the trajectoryof your life for the better.
+> > Thank you. I want to leave you with one last thought. And thatis, bringing exercise in your life will not only give you a happier,more protective life today, but it will protect your brain from <u>incurable diseases</u>[^14]. And in this way it will change the trajectoryof your life for the better.
 > 
 > > [!note|no-t] 
 > > 
 > > 谢谢。我想要和你们分享最后一点心得。把运动引入你的生活不仅仅能够给你一个更开心的、备受保护的当下生活，它还可以使你的大脑免受无法治愈的疾病侵袭。从而改变你人生的轨迹，让它变得更好。
 
 
-[^1]: **释义**：老年痴呆症
+[^1]: **语法分析**：指代前面的 "there was something"
+[^2]: **释义**：老年痴呆症
 
-[^2]: **释义**：前额皮层
+[^3]: **释义**：前额皮层
 
-[^3]: **释义**：颞叶
+[^4]: **释义**：颞叶
 
-[^4]: **释义**：神经科学
+[^5]: **释义**：神经科学
 
-[^5]: **释义**：一种完全"无心插柳柳成荫"的方式
+[^6]: **释义**：一种完全"无心插柳柳成荫"的方式
 
-[^6]: **释义**：A型人格
+[^7]: **释义**：A型人格
 
-[^7]: **释义**：赢得百万美金的
+[^8]: **释义**：赢得百万美金的
 
-[^8]: **释义**：研究方向
+[^9]: **释义**：研究方向
 
-[^9]: **释义**：前额皮层
+[^10]: **释义**：前额皮层
 
-[^10]: **释义**：神经退化疾病
+[^11]: **释义**：神经退化疾病
 
-[^11]: **释义**：有氧课程
+[^12]: **释义**：有氧课程
 
-[^12]: **释义**： 运动的最佳配方
+[^13]: **释义**： 运动的最佳配方
 
-[^13]: **释义**：无法治愈的疾病
-
+[^14]: **释义**：无法治愈的疾病

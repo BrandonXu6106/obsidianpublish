@@ -4,7 +4,7 @@ hasAudio: true
 ---
  [[音标:]] [[**/dɪ'ment/**]]音标: **/dɪ'ment/**
 ![[thoughts/english_audio/dementia_en.mp3]]
-
+![[thoughts/english_audio/dementia_am.mp3|dementia_am]]
 ## 1. 中英释义
 n. [医] 痴呆(mental deterioration of organic or functional origin)
 
