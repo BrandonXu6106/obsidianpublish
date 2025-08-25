@@ -17,3 +17,9 @@ enableToc: true
 - **主句**：all other inventions pale in significance
 - **比较状语**：Compared to language
 - 原因状语从句：since引导，主语everything（含定语从句we have ever achieved），谓语depends on和originates from并自
+
+
+
+
+
+[[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]

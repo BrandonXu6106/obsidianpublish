@@ -2,7 +2,7 @@
 dictionary_word: slide
 hasAudio: true
 ---
-
+[[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]
 ![[thoughts/english_audio/slide_en.mp3]]
 
 

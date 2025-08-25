@@ -2,6 +2,7 @@
 dictionary_word: dementia
 hasAudio: true
 ---
+ [[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]
  [[音标:]] [[**/dɪ'ment/**]]音标: **/dɪ'ment/**
 ![[thoughts/english_audio/dementia_en.mp3]]
 ![[thoughts/english_audio/dementia_am.mp3|dementia_am]]

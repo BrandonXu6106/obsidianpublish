@@ -50,4 +50,20 @@ enableToc: true
 	- costly mistake 损失重大的错误
 	- ★★ 引申义用法更显语言的高级性
 
-[[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]][[thoughts/words/debate|debate]]
+## 3. 测试
+## 4. 测试
+## 5. 测试
+## 6. 测试
+## 7. 测试
+## 8. 测试
+## 9. 测试
+## 10. 测试
+## 11. 测试
+## 12. 测试
+## 13. 测试
+## 14. 测试
+## 15. 测试
+## 16. 测试
+## 17. 测试
+## 18. 测试
+## 19. 测试

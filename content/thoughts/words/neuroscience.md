@@ -2,7 +2,7 @@
 dictionary_word: neuroscience
 hasAudio: true
 ---
-
+[[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]
 ![[thoughts/english_audio/neuroscience_en.mp3|neuroscience_en]]
 
 
