@@ -51,7 +51,6 @@ enableToc: true
 	- ★★ 引申义用法更显语言的高级性
 
 
->==There is [[thoughts/words/considerable|considerable]] [[thoughts/words/debate|debate]] over== <u>how we should react</u> if we detect a signal from an alien civilization.
->如果我们探测到了来自外星文明的信号，我们应该如何回应是一个备受争议的问题。
+>==There is [[thoughts/words/considerable|considerable]] [[thoughts/words/debate|debate]] over==
 
 
