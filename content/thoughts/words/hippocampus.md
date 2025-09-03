@@ -2,7 +2,6 @@
 dictionary_word: hippocampus
 hasAudio: true
 ---
-[[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]
 ![[thoughts/english_audio/hippocampus_en.mp3|hippocampus_en]]
 
 

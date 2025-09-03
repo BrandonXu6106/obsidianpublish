@@ -7,7 +7,6 @@ tags:
   - 新东方
   - IELTS/vocabulary
   - 100个句子记完7000个雅思单词
-  - 木松子旭
 draft: false
 enableToc: true
 ---
@@ -19,7 +18,3 @@ enableToc: true
 - 原因状语从句：since引导，主语everything（含定语从句we have ever achieved），谓语depends on和originates from并自
 
 
-
-
-
-[[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]

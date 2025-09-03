@@ -2,9 +2,7 @@
 dictionary_word: demented
 hasAudio: true
 ---
-[[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]
 ![[thoughts/english_audio/demented_en.mp3]]
-
 
 ## 1. 简中释义
 

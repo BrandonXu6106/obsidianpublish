@@ -3,9 +3,7 @@ dictionary_word: depression
 aliases:
   - depressions
 ---
-[[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]
 音标：`/dɪˈpreʃ(ə)n/`  `/dɪˈpreʃn/ 
-
 ## 1. 简中释义
 
 - n.
