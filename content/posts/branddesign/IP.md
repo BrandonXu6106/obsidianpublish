@@ -6,7 +6,7 @@ tags:
   - sapling
 date: 2025-08-06
 ---
-[[content/posts/branddesign/自媒体之路]]- 基础形象
+[[content/posts/Branddesign/自媒体之路]]- 基础形象
 - 三视图 & 表情包
 - 变装 & 场景动作
 - 商业提案

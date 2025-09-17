@@ -2,10 +2,10 @@
 dictionary_word: carousel
 hasAudio: true
 ---
-![[thoughts/english_audio/carousel_en.mp3]]
+![[public/thoughts/english_audio/carousel_en.mp3]]
 
 
-![[thoughts/english_audio/carousel_am.mp3]]
+![[public/thoughts/english_audio/carousel_am.mp3]]
 
 ## 1. 简中释义
 
@@ -64,7 +64,7 @@ A carousel is a rotating, circular platform or structure that typically features
 1. Image carousel - 在网站或应用程序中，一系列图像按顺序轮流展示的设计。用于节省空间并提供动态视觉效果。例句：They optimized their homepage by incorporating an image carousel that displays various product categories.
 
 短语搭配：
-1. Carousel [[thoughts/words/slide|slide]] show - 指在演示文稿或网页中连续自动切换的一系列幻灯片或图片。例句：In the presentation, he used a carousel slide show to display each step of the project's development.
+1. Carousel [[content/thoughts/Words/slide|slide]] show - 指在演示文稿或网页中连续自动切换的一系列幻灯片或图片。例句：In the presentation, he used a carousel slide show to display each step of the project's development.
 
 2. Carousel luggage system - 在机场行李处理系统中，采用类似旋转木马结构设计的行李提取区，旅客可以从不断旋转的输送带上提取自己的行李。例句：Passengers can retrieve their baggage from the carousel luggage system after customs clearance.
 

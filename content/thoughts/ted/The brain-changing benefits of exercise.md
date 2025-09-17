@@ -15,7 +15,7 @@ tags:
 >    
 > > [!example|clean] 原文 
 > > 
-> > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate positive benefit for your brain including your mood and your focus? And what if I told you that <u>same thing</u>[^1] could actually last a long time and protect your brain from different conditions like [[depression|depression]], ==Alzheimer's disease==[^2]or [[thoughts/words/dementia|dementia]]. Would you do it? Yes!
+> > [00:12](https://www.youtube.com/watch?v=BHY0FxzoKZE#t=00:12.84) What if I told you there was something that you can do right now that would have an immediate positive benefit for your brain including your mood and your focus? And what if I told you that <u>same thing</u>[^1] could actually last a long time and protect your brain from different conditions like [[content/thoughts/Words/depression|depression]], ==Alzheimer's disease==[^2]or [[content/thoughts/Words/dementia|dementia]]. Would you do it? Yes!
 > 
 > > [!note|] 译文
 > > 
@@ -25,7 +25,7 @@ tags:
 > 
 > > [!example|clean no-t] 
 > > 
-> > I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is tell you a story abouthow I used my deep understanding of [[thoughts/words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
+> > I am talking about the powerful effects of physical activity. Simply moving your body, has immediate, long-lasting and protective benefits for your brain. And that can last for the restof your life. So what I want to do today is tell you a story abouthow I used my deep understanding of [[content/thoughts/Words/neuroscience|neuroscience]], as aprofessor of neuroscience, to essentially do an experiment onmyself in which I discovered the science underlying whyexercise is the most transformative thing that you can do foryour brain today. Now, as a neuroscientist, I know that ourbrains, that is the thing in our head right now, that is the mostcomplex structure known to humankind. But it's one thing to talkabout the brain, and it's another to see it.
 > 
 > > [!note|no-t] 
 > > 

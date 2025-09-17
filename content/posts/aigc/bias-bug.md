@@ -9,7 +9,7 @@ This blog post was originally intended to be a TED Talk given at TEDxRedmond but
 
 ---
 
-## Hey Google
+## 1. Hey Google
 
 Take a picture in 5 seconds. Say cheese!
 
@@ -39,7 +39,7 @@ What we can see from this is that there is a difference between objective and su
 
 AI can do a lot of really great things such as helping doctors identify tumours or interpret the world for the deaf. But when used improperly, that subjectivity can propel some of the worst [[../../thoughts/bias.md|biases]] we have as humans.
 
-## Garbage in, garbage out
+## 2. Garbage in, garbage out
 
 There’s a timeless saying “garbage in, garbage out” in the field of Computer Science which essentially states that bad data or bad input will produce an output that’s of equal quality. This holds true for almost all the tech we use today, from trading algorithms to search results. If what we put into the system is inherently unclear or flawed, then the output will also give back something that’s ‘wrong’ or doesn’t align with our objectives.
 
@@ -47,13 +47,13 @@ However, this saying “garbage in, garbage out” is most prevalent in the AI w
 
 Interestingly, there are two distinct ways that this bias can shine through.
 
-### 1. Problem definition
+### 2.1. Problem definition
 
 The first is in the problem definition. When creating an AI, we need to define an objective for it. That means putting something vague like “create a realistic human-sounding voice” or “help me translate this speech to French” into definitive, and certain terms and mathematical concepts. How do we do that? Because we don’t have algorithms that do this step for us, this is usually done by a team of machine learning engineers. They are responsible for deciding how to represent our ‘objective’ in terms of penalties and rewards. This also means that how the team of engineers decide to represent the problem is a product of their biases.
 
 Take Amazon for example. In 2014, Amazon decided to create a recruitment engine that was able to look at a job applicant and rate them from a one-star rating to a five-star rating. However, by 2015, Amazon realized that their software was not evaluating candidates for positions related to tech in a gender-neutral way[^4]. Although unintentionally, Amazon’s engineers included a gender field. The algorithm, after sifting through 10 years worth of resumes, began to favour men and penalize women. After deeper inspection, this was most likely an unfortunate reflection of the male-dominated tech industry. The lesson is clear. The algorithm served to reflect this bias that was observed in the past.
 
-### 2. Lack of Data Diversity
+### 2.2. Lack of Data Diversity
 
 The second, less obvious way bias can poison AI is with [data diversity](../../thoughts/data%20distributions.md) -- or rather the lack of it. I think the best way to explain this is through a metaphor. Imagine the AI as a small child. It likes to learn from its environment. If this child were to be raised in a racist family, it will almost undoubtedly hold similar views in the future. This is a very similar case for AI. It learns from the environment and data it's given.
 
@@ -65,7 +65,7 @@ Too often our society is focused on the raw accuracy that we forget that the sam
 
 Unfortunately, this results in things like the Google Photos and Amazon Hiring cases.
 
-## Fairness in AI
+## 3. Fairness in AI
 
 Truth is, data lacks [context](../../thoughts/context.md). While the trends in the data may show that in the past there have been more men in the women in the workforce, the majority of the population can agree that we are moving away from that more traditional view into more of an equal playing ground. Unfortunately, these models that we create don’t have a deeper understanding of these changes and as a result, produces naïve predictions that we believe are wrong or ‘garbage.’ But is it really? Is it really only a ‘bad’ result because of what we define as fair or right?
 
@@ -73,7 +73,7 @@ Truth is, data lacks [context](../../thoughts/context.md). While the trends in t
 
 We can take a look at the COMPAS system which is a piece of software used by U.S. courts to assess the likelihood of a criminal to reoffend. ProPublica, a non-profit newsroom, did an investigation back in 2016[^1] and claimed that COMPAS was biased against those of African descent -- citing that it overestimated the false positive rate of reoffending for those of African descent by almost twice as high as those for Caucasians. ProPublica reasoned that a fair algorithm would not have such a big difference.
 
-### So, is COMPAS fair?
+### 3.1. So, is COMPAS fair?
 
 Well, there’s no concrete answer. The algorithm never had any access to any contextual information about the neighbourhoods or the actual situation for each of the offenses. Was the area more heavily policed because it was a predominantly black neighbourhood? Were the officers themselves biased in making arrests?
 
@@ -81,11 +81,11 @@ Even more interestingly, a study done at Dartmouth[^2] showed that random volunt
 
 This is interesting. This means that either COMPAS is accurate or holds the exact same biases as we do as a society. Unfortunately, this is a problem that I don’t think we can solve, so we don’t have a solid definition as to what makes an algorithm [[../../thoughts/fairness.md|fair]]. But what is clear, is that there is bias in play here, whether that be through the police, the companies, the actual algorithm, or society itself. This bias is what causes that “subjectivity” and “garbage in.” This is what is preventing us from making ‘fairer’ AI and applying AI to more tasks.
 
-### The inevitability of bias
+### 3.2. The inevitability of bias
 
 The point is, unless we work to prevent, catch, and deter bias, it will inevitably occur. One of the biggest problems in the field of AI is that so many of the models exist in a [[black box|black box](../../thoughts/black%20box.md), meaning that its inner workings are only known by a select few. This makes it near impossible to identify and train out bias. Machine intelligence will become almost integral to our lives, becoming less visible in the process, and AI’s bias bug will get harder to beat. Our time to act is now.
 
-## What we can do
+## 4. What we can do
 
 > So? What can we, as the next generation, do to help?
 

@@ -15,7 +15,7 @@ enableToc: true
 > - 如果我们探测到了来自外星文明的信号，我们应该如何回应是一个备受争议的问题。
 
 ## 1. 句子解析
->==There is [[thoughts/words/considerable|considerable]] [[thoughts/words/debate|debate]] over== <u>how we should react</u> if we detect a signal from an alien civilization.
+>==There is [[content/thoughts/Words/considerable|considerable]] [[content/thoughts/Words/debate|debate]] over== <u>how we should react</u> if we detect a signal from an alien civilization.
 >如果我们探测到了来自外星文明的信号，我们应该如何回应是一个备受争议的问题。
 - **主句**: There is considerable debate over sth 某事备受争议
 - **debate**：
@@ -32,7 +32,7 @@ enableToc: true
 	- space（太空）+craft（技术）→ 太空技术 → 航天器
 - space probe 太空探测器
 - manned sapce flight 载人航天飞行
-- [[thoughts/words/planetary|planetary]]`/ˈplænəteri/` adj. 行星的
+- [[content/thoughts/Words/planetary|planetary]]`/ˈplænəteri/` adj. 行星的
 - planetary system 行星系
 - solar adj. 太阳的；太阳能的 
 - habitable`/ˈhæbɪtəb(ə)l/` adj. 可居住的
@@ -51,5 +51,5 @@ enableToc: true
 	- ★★ 引申义用法更显语言的高级性
 
 
-==There is [[considerable]] debate over==
+==There is [[content/thoughts/Words/considerable]] debate over==
 

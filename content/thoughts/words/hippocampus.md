@@ -2,7 +2,7 @@
 dictionary_word: hippocampus
 hasAudio: true
 ---
-![[thoughts/english_audio/hippocampus_en.mp3|hippocampus_en]]
+![[public/thoughts/english_audio/hippocampus_en.mp3|hippocampus_en]]
 
 
 ## 1. 简中释义

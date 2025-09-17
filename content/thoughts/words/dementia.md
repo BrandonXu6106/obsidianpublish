@@ -3,8 +3,8 @@ dictionary_word: dementia
 hasAudio: true
 ---
  [[音标:]] [[**/dɪ'ment/**]]音标: **/dɪ'ment/**
-![[thoughts/english_audio/dementia_en.mp3]]
-![[thoughts/english_audio/dementia_am.mp3|dementia_am]]
+![[public/thoughts/english_audio/dementia_en.mp3]]
+![[public/thoughts/english_audio/dementia_am.mp3|dementia_am]]
 ## 1. 中英释义
 n. [医] 痴呆(mental deterioration of organic or functional origin)
 
@@ -23,8 +23,8 @@ n. [医] 痴呆(mental deterioration of organic or functional origin)
 
 ## 3. 关联词汇
 派生词：
-1. [[thoughts/words/dement|dement]] -  vt. 使发狂 adj. 疯狂的 n. 痴呆症
-2. [[thoughts/words/demented|demented]] - 形容词形式，表示患有痴呆症的或行为异常疯狂的人。例句：The patient's demented behavior made it difficult for the caregivers to manage him safely.
+1. [[content/thoughts/Words/dement|dement]] -  vt. 使发狂 adj. 疯狂的 n. 痴呆症
+2. [[content/thoughts/Words/demented|demented]] - 形容词形式，表示患有痴呆症的或行为异常疯狂的人。例句：The patient's demented behavior made it difficult for the caregivers to manage him safely.
    
 2. Demens - 来源于拉丁语，是“dementia”的词根，意为“疯狂的”或“失去理智的”。在现代医学或心理学中较少单独使用。
 

@@ -3,10 +3,10 @@ dictionary_word: considerable
 hasAudio: true
 ---
 
-![[thoughts/english_audio/considerable_en.mp3|considerable_en]]
+![[public/thoughts/english_audio/considerable_en.mp3|considerable_en]]
 
 
-![[thoughts/english_audio/considerable_am.mp3|considerable_am]]
+![[public/thoughts/english_audio/considerable_am.mp3|considerable_am]]
 
 
 ## 1. 简中释义

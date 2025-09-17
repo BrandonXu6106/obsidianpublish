@@ -2,10 +2,10 @@
 dictionary_word: slide
 hasAudio: true
 ---
-![[thoughts/english_audio/slide_en.mp3]]
+![[public/thoughts/english_audio/slide_en.mp3]]
 
 
-![[thoughts/english_audio/slide_am.mp3]]
+![[public/thoughts/english_audio/slide_am.mp3]]
 
 
 ## 1. 简中释义

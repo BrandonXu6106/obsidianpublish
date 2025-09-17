@@ -2,7 +2,7 @@
 dictionary_word: demented
 hasAudio: true
 ---
-![[thoughts/english_audio/demented_en.mp3]]
+![[public/thoughts/english_audio/demented_en.mp3]]
 
 ## 1. 简中释义
 

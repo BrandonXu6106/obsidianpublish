@@ -76,7 +76,7 @@ date: 2025-08-02
 ## 4. 花体字形
 ## 5. 古典字形
 
-下一页: [[posts/branddesign/IP]]
+下一页: [[content/posts/Branddesign/IP]]
 
 
 

@@ -2,10 +2,10 @@
 dictionary_word: planetary
 hasAudio: true
 ---
-![[thoughts/english_audio/planetary_en.mp3|planetary_en]]
+![[public/thoughts/english_audio/planetary_en.mp3|planetary_en]]
 
 
-![[thoughts/english_audio/planetary_am.mp3|planetary_am]]
+![[public/thoughts/english_audio/planetary_am.mp3|planetary_am]]
 
 
 ## 1. 简中释义

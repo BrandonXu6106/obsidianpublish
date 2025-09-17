@@ -3,10 +3,10 @@ dictionary_word: debate
 hasAudio: true
 ---
 
-![[thoughts/english_audio/debate_en.mp3|debate_en]]
+![[public/thoughts/english_audio/debate_en.mp3|debate_en]]
 
 
-![[thoughts/english_audio/debate_am.mp3|debate_am]]
+![[public/thoughts/english_audio/debate_am.mp3|debate_am]]
 
 
 ## 1. 单词基本

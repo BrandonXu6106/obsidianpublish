@@ -26,7 +26,7 @@ As a brief warning, the target audience of this blog post are people who have wo
 
 _This blog post is really long so use the Table of Contents at the top to jump to whatever section interests you the most!_
 
-## How CRDTs differ from traditional databases
+## 1. How CRDTs differ from traditional databases
 
 Before we really dive into CRDT internals, we first need to understand how they are different from databases. When I normally think of shared state, I think of databases. However, the guarantees that databases provide are _really_ different than the ones CRDTs provide.
 
@@ -49,7 +49,7 @@ This means we allow peers to actually have different states as long as they _eve
 - All updates will _eventually_ reach every node
 - Every node that has received the same updates will have the same state
 
-### When should we use strong eventual consistency over linearizability?
+### 1.1. When should we use strong eventual consistency over linearizability?
 
 It turns out that this is good enough most of the time. [Conventional wisdom](https://databeta.wordpress.com/2010/10/28/the-calm-conjecture-reasoning-about-consistency/) in the database world would agree that perfect data consistency is way too expensive in terms of both latency and bandwidth if changes happen frequently. Using eventually consistent approaches generally work better as temporary inconsistencies work out in most cases.
 
@@ -57,7 +57,7 @@ It turns out that this is good enough most of the time. [Conventional wisdom](ht
 >
 > from _[Eventual Consistency Today: Limitations, Extensions, and Beyond](https://queue.acm.org/detail.cfm?id=2462076)_
 
-## What actually is a CRDT
+## 2. What actually is a CRDT
 
 Ok so after about 1000 words, you're probably asking "wtf is a CRDT??". Maybe we should define that now.
 
@@ -81,7 +81,7 @@ Again, CRDTs are a _family_ of data structures. There is no one single CRDT. You
 
 Now equipped with a 30,000ft overview of CRDTs, let's dive into how they resolve conflicts.
 
-### Ordering Messages
+### 2.1. Ordering Messages
 
 > A small note: this part will be pretty heavy on theory. If that's not your cup of tea, you can just assume that there exists a way to order operations and skip to the section titled _Intuition behind CRDTs_
 
@@ -132,7 +132,7 @@ fn happens_before<T>(op1: Op<T>, op2: Op<T>) -> bool {
 
 Ordering solved!
 
-### Causality
+### 2.2. Causality
 
 Or so we thought... Let's think about when it is safe for us to apply an operation that we have received locally.
 
@@ -150,7 +150,7 @@ If we receive a message where we _haven't_ received all of its causal dependenci
 
 This means that as long as we declare the right causal dependencies, we can make certain things that don't seem commutative (like list operations) actually commute.
 
-### Intuition behind CRDTs
+### 2.3. Intuition behind CRDTs
 
 Okay enough about theory, how do we actually go about making a CRDT?
 
@@ -192,7 +192,7 @@ Of course, we can't go about willy-nilly trying to model every data structure th
 
 An example of something that CRDTs cannot model is an account balance that never decreases below zero. Say that you have $100 in an account. You spend 70 on your laptop and another 40 on your phone at the same time. Without waiting on the other transaction to arrive, there is no way for the CRDT to know whether these are valid! Even though both transactions are valid on their own, when done concurrently, they decrease the value to a negative value. Thus, CRDTs cannot model anything that requires maintaining **global invariants**.
 
-### List CRDTs (RGA Explained)
+### 2.4. List CRDTs (RGA Explained)
 
 This seems to lead us to the biggest problem in the room: list CRDTs.
 
@@ -237,7 +237,7 @@ To get the actual list this CRDT represents, we perform an in-order traversal ov
 
 [^6]: NB: performance enthusiasts will be quick to point out how to make this go faster. This is a terribly unbalanced tree. On average, it takes $O(n)$ to find the origin and another $O(n)$ to insert into the tree. There are clear optimizations to be made here. [Yjs](https://github.com/yjs/yjs) uses a doubly-linked list for a faster insert. They also use a cursor to track the last ~5-10 visited positions. It makes the assumption that editing patterns are _not_ random (which is true for most applications). [Diamond Types](https://github.com/josephg/diamond-types) and the new [Automerge](https://github.com/automerge/automerge-rs) use a range-tree to achieve $O(\log n)$ find and $O(\log n)$ insert
 
-## Adding Byzantine Fault Tolerance for free (almost)
+## 3. Adding Byzantine Fault Tolerance for free (almost)
 
 Up to this point, the CRDTs we've covered all work in trusted scenarios. These are scenarios in which you _know_ all of the people participating and you trust them to not screw up the system for everyone else. For example, in a collaborative text document, you may limit collaborators to immediate colleagues who you trust to run the CRDT algorithm correctly and not attempt any funny business.
 
@@ -277,7 +277,7 @@ This approach has two major components we need to grasp:
 - How we ensure Byzantine nodes don't tamper with messages and pretend to be someone else (hashes + signed message digests)
 - How we ensure messages don't get blocked from reaching honest nodes (eager reliable causal broadcast with retries)
 
-### Hashes as IDs and Signed Message Digests
+### 3.1. Hashes as IDs and Signed Message Digests
 
 So here's a little trick we can do. Our only requirement for operation IDs is that they uniquely identify a node. We can generate this ID by SHA256 hashing parts of the operation:
 
@@ -365,7 +365,7 @@ When we apply it, we treat these modification events differently from insertion 
 
 With that small problem solved, we know that our operations are now tamper resistant!
 
-### Eager Reliable Causal Broadcast and Retries
+### 3.2. Eager Reliable Causal Broadcast and Retries
 
 Now, we just need to make sure that there is a way to get messages between honest nodes such that Byzantine faulty nodes can't block it.
 
@@ -386,7 +386,7 @@ Thankfully, we can take inspiration from `git` to figure out how to do this more
 
 This project does not include this more advanced hash graph reconciliation but it is a direction for future work.
 
-## A JSON CRDT
+## 4. A JSON CRDT
 
 Ok, we've seen now how we can create a Byzantine Fault Tolerant list CRDT. How can we make a JSON CRDT out of this?
 
@@ -413,7 +413,7 @@ But wasn't the whole point of CRDTs that there is no conflict? With most applica
 
 [^9]: As pointed out by [Bartosz Sypytkowski](https://twitter.com/Horusiath), this assumes that the schema is static and never changes, which may be not the case in many practical scenarios. Additionally, because of the nature of CRDTs, schema updates may be acknowledged by peers in different points in time. This is an ongoing area of research
 
-### Putting it all together into a crate
+### 4.1. Putting it all together into a crate
 
 What if we took advantage of the type-safety and metaprogramming abilities of a language like Rust to automatically derive these strict-schema BFT CRDTs from programmer-defined data structures?
 
@@ -469,7 +469,7 @@ Finally, I want to leave a word of warning. This is **not a production ready lib
 
 I do not consider myself to be proficient at Rust so there might be lots of bad code smells/mistakes sprinkled throughout (please do [PR](https://github.com/jackyzha0/bft-json-crdt) if you have any fixes/suggestions)!
 
-## Future directions for CRDTs
+## 5. Future directions for CRDTs
 
 The field of CRDTs is still quite young. I really think there is a lot of promising work being done in exploring how CRDTs can be used to enable collaboration on the web.
 
@@ -479,7 +479,7 @@ I'd love to see more exploration of CRDTs applied to games and other real-time t
 
 I hope that this blog post is a jumping point for new people interested in the space to really get their hands dirty and see what they can do with this technology. Again, checkout the codebase if you are interested in the internals and feel free to try to tackle anything under the 'Further Work' heading in the [README](https://github.com/jackyzha0/bft-json-crdt/tree/main)!
 
-## Acknowledgements
+## 6. Acknowledgements
 
 If you are still reading by this point, I want to give you a huge thank you.
 
