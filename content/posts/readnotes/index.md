@@ -2,6 +2,7 @@
 title:
   - Readnotes
   - planetary
+  - _index
 aliases:
 date: 2025-11-18
 tags:
