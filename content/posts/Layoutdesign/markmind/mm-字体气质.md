@@ -1,7 +1,6 @@
 ---
-
 mindmap-plugin: basic
-
+draft: true
 ---
 
 # 字体-种类气质

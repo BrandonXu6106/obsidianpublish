@@ -1,7 +1,6 @@
 ---
-
 mindmap-plugin: rich
-
+draft: true
 ---
 
 # 网格系统

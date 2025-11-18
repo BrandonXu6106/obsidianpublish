@@ -1,7 +1,6 @@
 ---
-
 mindmap-plugin: markdown
-
+draft: true
 ---
 
 
