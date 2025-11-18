@@ -1,8 +1,9 @@
 ---
 title:
   - Software
+  - planetary
 aliases:
-date: 2025-10-29
+date: 2025-11-18
 tags:
   - seed
 draft: false
