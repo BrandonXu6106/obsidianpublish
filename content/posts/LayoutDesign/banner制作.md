@@ -57,5 +57,5 @@ enableToc: true
 
 
 
-- 上一页：[[content/posts/ceui/文字组编排-实战|文字组编排-实战]]
-- 下一页：[[content/posts/ceui/版式构图|版式构图]]
+- 上一页：[[posts/LayoutDesign/文字组编排-实战|文字组编排-实战]]
+- 下一页：[[posts/LayoutDesign/版式构图|版式构图]]
