@@ -2,30 +2,21 @@
 dictionary_word: considerable
 hasAudio: true
 ---
-
-![[public/thoughts/english_audio/considerable_en.mp3|considerable_en]]
-
-
-![[public/thoughts/english_audio/considerable_am.mp3|considerable_am]]
-
+音标
 
 ## 1. 简中释义
 
 a. 相当大的, 非常可观的, 相当重要的
 
-## 2. 简英释义
-
-a. large or relatively large in number or amount or extent or degree
-
-## 3. 中文释义
+## 2. 中文释义
 
 相当大的，可观的；值得考虑的，重要的；慎重的，深思熟虑的
 
-## 4. 英文释义
+## 3. 英文释义
 
 Considerable refers to something that is large in amount, extent, or degree; significant, substantial, or sizeable. It can also mean worthy of consideration, important, or deserving serious thought or attention. In certain contexts, it might imply a considerable degree of effort, time, or difficulty required for a task or action. For example, 'The project required a considerable investment of resources' or 'She has made a considerable improvement since the last evaluation', meaning a large or noteworthy amount of investment or improvement respectively. Additionally, it could describe a person who is thoughtful and reflective before making decisions ('He is a man of considerable judgment').
 
-## 5. 构词分析
+## 4. 构词分析
 
 单词 `considerable` 的构词结构如下：
 
@@ -41,7 +32,7 @@ Considerable refers to something that is large in amount, extent, or degree; sig
 
 综上所述，`considerable` 一词不仅仅是对事物规模或重要性的评估，还蕴含了一种主观判断和深思熟虑的过程。
 
-## 6. 关联词汇
+## 5. 关联词汇
 
 同义词：
 1. Substantial - 意味着相当大、重要的。例句：The company has made substantial profits this quarter.
@@ -68,7 +59,7 @@ Considerable refers to something that is large in amount, extent, or degree; sig
 1. To a considerable extent - 表示在很大程度上、相当多地。例句：The problem is caused by human activity to a considerable extent.
 2. With considerable effort - 表示付出了很大的努力。例句：We managed to complete the task with considerable effort and determination.
 
-## 7. 记忆提示
+## 6. 记忆提示
 
 1. **词根词缀联想记忆法**：单词"considerable"可以拆分为"consider"（考虑）和后缀"-able"，表示“能…的，值得…的”。所以，"considerable"可理解为“值得考虑的，重要的”，进一步引申为“相当大，可观的”。
 
@@ -82,7 +73,7 @@ Considerable refers to something that is large in amount, extent, or degree; sig
 
 通过以上多种方式对单词“considerable”的记忆处理，不仅加深了对其拼写和基本含义的理解，还将其融入实际语境中，实现了从多维度强化记忆的效果。
 
-## 8. 单词例句
+## 7. 单词例句
 
 >[[thoughts/IELTS/There is considerable debate over how we should react if we detect a signal from an alien civilization.|There is considerable debate over how we should react if we detect a signal from an alien civilization.]]
 >如果我们探测到了来自外星文明的信号，我们应该如何回应是一个备受争议的问题。
@@ -160,7 +151,7 @@ There has been considerable progress in renewable energy technologies over the p
 
 ---
 
-## 9. 文化分析
+## 8. 文化分析
 
 单词“considerable”在英语中是一个形容词，主要用来描述数量、程度、重要性等方面相当大或显著的特点。它的深远影响在于其在多种语境下通用性和表达力，使得它成为一种不可或缺的修辞工具，无论是日常对话、学术论文还是文学作品中都有广泛的应用。
 
@@ -181,7 +172,7 @@ There has been considerable progress in renewable energy technologies over the p
 流行文化关联：
 在电影评论或娱乐新闻报道中，一部影片可能会收到“considerable critical acclaim”（颇受好评），或者票房取得“considerable box office success”（显著的票房成功），这些都借助“considerable”一词强化了描述的力度和肯定的态度。
 
-## 10. 词源历史
+## 9. 词源历史
 
 单词“considerable”来源于拉丁语，它的词根是“considerare”，意为“考虑、细想”，该词进一步可以分解为“con-”（一起、全部）和“sidere”（坐下来沉思），暗示着经过深思熟虑的过程。在拉丁语中，“considerare”的动名词形式是“considerationem”，这直接与英语中的“consideration”相关联，表示一种思考或评价的行为。
 
@@ -195,7 +186,7 @@ There has been considerable progress in renewable energy technologies over the p
 
 总体而言，“considerable”一词不仅反映了其拉丁语根源中对于深入思考和评价的重视，而且通过历史演进，在现今英语中成为了一个多功能的形容词，具有广泛的应用场景，同时也体现了不同语言间相互影响和交融的历史痕迹。
 
-## 11. 重难点提示
+## 10. 重难点提示
 
 在母语为中文的学习者中，学习英语单词“considerable”时可能遇到的主要困难点包括以下几个方面：
 

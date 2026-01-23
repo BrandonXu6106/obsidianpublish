@@ -2,7 +2,7 @@
 dictionary_word: carousel
 hasAudio: true
 ---
-![[public/thoughts/english_audio/carousel_en.mp3]]
+[[content/thoughts/grammer/二轮沟通环节]]![[public/thoughts/english_audio/carousel_en.mp3]]
 
 
 ![[public/thoughts/english_audio/carousel_am.mp3]]

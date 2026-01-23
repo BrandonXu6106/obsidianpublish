@@ -35,7 +35,7 @@ enableToc: true
 	- **查音标拼写：剑桥词典(网页版)**
 	- **听单词发音：有道词典&欧陆词典**
 ## 4. 音标 
-### 4.1. 元音
+### 4.1. 单元音
 1. ==[ə]== - 央元音 sehwa sound (**hello**)
 	- 央化现象
 		- 很多**非重读音节连重读音节**时，都要向[ə]靠拢，甚至直接拿[ə]去发
@@ -115,16 +115,17 @@ enableToc: true
 		- ③ 特殊对比
 			- band /b**æn**d/ 
 			- bank /b**æŋ**k/ 
-6. ==[ɪ]== - 音质=[i] + [e] **(big)**
+6. ==[i:]== - 和中文yi相似 **(eat)**
+	- be、bee、eat、heat、feet、seat、sheet、seek 
+7. ==[ɪ]== - 音质=[i] + [e] **(big)**
 	- 小技巧：从 [i] 到 [e] 一定要快速连贯/叶子的ye，去掉y
-		- 当读得越重，[i]和[e]区分的越明显：shit
-		- 当读得越轻，变成央元音：little、believe
+		- 当读得越重，[i]和[e]分离的越开：shit
+		- 当读得越轻，[i]和[e]黏的越紧：big
+		- 甚至可以变成央元音[ə]：little、believe
+	- it、hit、fit、sit、shit、sick
 	- 和 ==[i:]== 的区别
 		- **音质**不同，而不是**音值**不同
 			- 音质：发音的本质；音值：发音的长短
-	- it、hit、fit、sit、shit、sick
-7. ==[i:]== - 和中文yi相似 **(eat)**
-	- be、bee、eat、heat、feet、seat、sheet、seek 
 8. ==[u:]== - 紧元音，发音靠前，注意嘴唇动向，逐渐噘嘴 **(food)**
 	- two
 	- do(What do you do?) 
@@ -163,36 +164,210 @@ enableToc: true
 	- ==[ɪr]== 直接当作==[i:r]==
 		- fear`/fɪr/`
 		- hear、near
-11. ==[aʊ]== - **(down)**
-	- ==[a]== **横向**张口(前元音)，≠[ɑʊ]
+### 4.2. 双元音
+1. ==[oʊ]== - **(go)**
+	- 曾直接用o代替
+	- 由[o]→[ʊ]，但原[ʊ]=[u]+[ə]的后面的[ə]不发音
+	- go、alone、toe、window、home、phone
+2. ==[aʊ]== - **(down)**
+	- ==[a]== **横向**张口(前元音)
+	- 发音类似于[æʊ]，像老虎的叫声 →张口不够大就会发成[ɑʊ]
 	- [ʊ]尾音要发完音
-	- how、down、now、wow、cow、found、shout、allow
-12. ==[aɪ]== - **(like)**
+	- h**ow**、d**own**、n**ow**、w**ow**、c**ow**、f**oun**d、sh**ou**t、all**ow**
+3. ==[aɪ]== - **(like)**
+	- ==[a]== **横向**张口(前元音)
 	- [ɪ]尾音要发清楚
 	- like、guy、hi、site、nice、fight、slight、might、bye
-13. ==[eɪ]== - 字母A的读音 **(cake)**
+4. ==[eɪ]== - 字母A的读音 **(cake)**
 	- hey、may、fake、hate、lake、cake
-14. ==[ɔɪ]== - 和英音相同
+5. ==[ɔɪ]== - 和英音相同 **(boy)**
 	- boy、joy
 	- 增音现象 (为了连读而产生的增音现象)
 		- `[i:][ɪ]` ➡️ 增 ==[j]==
 		- `[u:][ʊ]` ➡️ 增 ==[w]==
-			- b**oi**l  /bɔɪ**j**l/
-			- **oi**l  /ɔɪ**j**l/
-			- l**oy**al  /ˈlɔɪ**j**əl/  
-### 4.2. 半元音
+			- b**oi**l  /bɔɪ(**j**)l/
+			- **oi**l  /ɔɪ(**j**)l/
+			- l**oy**al  /ˈlɔɪ(**j**)l/  
+### 4.3. 半元音
 >元音：直接震动声带，气流不受阻碍
 >辅音：把元音连接在一起
 >半元音：既可以做元音，又可以做辅音
 - ==[ju:]== - 发U音
-	- 来源：[i]→[j]→[ju:]
-		- 另一种存在方式：[iu:]
-			- ew [iu:] ：恶心
-		-  特殊现象：[ju:]→[u:]
-			- new [nu:]
-			- New York
-		- U、show、few、huge `/hjuːdʒ/` 、puke
-### 4.3. 辅音
-- 辅音
-	- 清辅音：unvoiced 无声音(清)
-	- 浊辅音：voiced 有声音(浊)
+	- ==[j]== ：**J**ohn **约**翰
+	- 另一种存在方式：[iu:]
+		- ew [iu:] ：恶心
+	-  特殊现象：很多美国人用[u:]来代替[ju:]
+		- new [nu:]
+		- New York
+	- U、show、few、huge `/hjuːdʒ/` 、puke
+### 4.4. 辅音
+>- 辅音
+	- 清辅音：unvoiced 无声音
+	- 浊辅音：voiced 有声音
+- ==[p]== - 声带不震动 (清音)
+	- 放在单词结尾：stop p/b (p/b**不发音现象**)
+		- clu**b**、sto**p**、po**p**、
+		- Sto**p** **the** car (尤其是辅音后面还是辅音)
+		- What's u**p**
+	- P/B后跟元音：产生**连读**
+		- Sto**p i**t!
+	- **p**aper、**p**ee、**p**ipe、**p**oke、**p**uke、**p**ink、**p**en、sto**p**
+	- ★★★★★不送气的清音 
+		- 不送气的清音≠"浊化" 
+		- 案例：**b**ye - 用 [mb] 代替 [b] ，更地道
+		- s**p**ider
+- ==[b]== - 声带振动 (浊音)
+	- 放在单词结尾：stop p/b (p/b**不发音现象**)
+		- clu**b**、sto**p**、po**p**、
+	- bay、buy、boat、bad、best、bob、club
+- ==[k]== - 清音
+	- 位于词尾需要轻轻发 
+		- ta**k**e
+	- 大多对应字母c，k，ck
+	- stop [k]
+		- ba**ck** to work
+	- **k**ey、**k**ite、**c**ode、**c**ute
+	- ★★★★**s**后面发**不送气清音[k]**
+		- 与汉语拼音中的g同音
+		- <u>s</u>**k**ate、<u>s</u>**c**ar、<u>s</u>**k**y、<u>s</u>**c**ale、<u>s</u>**k**i、<u>s</u>**c**ore、
+- ==[g]== - 浊音
+	- 位于词尾需要轻轻发
+		- b**a**g
+	- 大多对应字母g
+	- gay、geek、guide、go、good
+- ==[t]== -  清
+	- true t (放在单词开头)
+		- **t**est
+	- stop t (放在单词末尾) 
+		- no**t**
+		- I**t**'s no**t** my faul**t** (停顿感)
+	- flap t - 闪音/拍音 t (后面是元音)
+		- 用**舌尖** **轻轻**的，**快速**拍打上齿背，发音上特别像 "**轻轻地**[d]"，可以直接用 **轻[d]** 替代
+		- ci**t**y → /sɪ **t(d)** i/ 
+		- pre**tt**y → /'prɪ **t (d**) i/
+		- li**tt**le → /lɪ **t(d)** l/
+		- wri**t**er → /'raɪ**t (d)** ər/
+			- writer & rider 发音上一模一样
+		- par**t**y /'pɑr**t (d)** i/
+		- no**t** a**t** all (连读用 **轻[d]** 代替)
+		- Le**t** her go → /le **t(d)** hər/ → /le **t(d)** ər/ (**h不发音**)
+		- look a**t** her → /æ **t (d)** ər /
+		- told her /toʊl **d** ər/ 
+	- drop t (放在单词中间，尤其是两个辅音中间)
+		- 仅有时用在**非重读音节t**
+			- maintain /meɪnˈ**t**eɪn/
+		- 不发t 
+		- exactly → /ɪɡˈzæk**t**li/ → /ɪɡˈzæk li/
+		- internet → /'ɪn**t**ərnet/ → /'ɪ**nər** net/
+		- center → /ˈsen**t**ər/ → /ˈse**nə**r/
+	- [t]+[j]=[t∫] 同化现象
+		- mee**t y**ou → /mi:**t∫**u:/
+	- glottal t (喉塞音) - 【补充】
+		- 在[t]后面，紧跟一个鼻音[n]的时候，可以运用
+		- 在快要发出 [t] 的音的时候，把他憋住，**迅速转到鼻音 [n] 上面**
+		- co**tt**on → /ˈkɑː**t**n/ 
+		- Bri**t**ain → /brɪ**t**n/
+		- moun**t**ain → /ˈmaʊn**t**n/ 
+- ==[d]== - 浊
+	- true d (放在单词开头)
+		- **d**esk
+	- stop d (放在单词末尾)
+		- ma**d**
+	- flap d - 闪音/拍音 d (当d处在单词中间时)
+		-  用**舌尖** **轻轻**的，**快速**拍打上齿背，发音上特别像 "**轻轻地**[d]"，即 **轻[d]** 
+		- la**dd**er → /læ**d**ar/      区别于 le**tt**er → /ˈle**t(d)** ər/
+	-  d]+[j]=[dʒ] 同化现象
+		- nee**d y**ou → /ni:**d∫**u:/
+	- glottal d (喉塞音) - 【补充】
+		- [d]后面，紧跟一个鼻音[n]的时候，可以运用
+		- 在快要发出 [d] 的音的时候，把他憋住，**迅速转到鼻音 [n] 上面**
+		- stu**d**ent → /ˈstuː**d**nt/  
+- ==[v]== - 需要咬嘴唇
+	- **v**ery → /ˈ**v**eri/ 
+	- **v**acation → /**v**eɪˈkeɪʃ(ə)n/
+	- **f**lavor → /ˈ**f**leɪ**v**ər/
+	- **v**alue → /ˈ**v**æljuː/
+- ==[w]== - 不要碰嘴唇
+	- **w**eary → /ˈ**w**ɪri/
+	- **w**ater → /ˈ**w**ɔːtər/
+	- **w**here → /**w**er/
+- ==[s]== 和 ==[z]== 不用纠结
+	- [s]和[z]在语流中是模糊的
+		- new**s**paper → /ˈnuː**z**peɪpər/ → /ˈnuː**s**peɪpər/ (同化现象)
+		- **s**ome  /**s**ʌm/
+		- **z**ip   /**z**ɪp/
+		- zoo、sing`/sɪŋ/` 、 cuisine
+	- [s]+[ju]=[∫]
+		- tissue /ˈtɪ **ʃ** uː/
+	- [z]+[ju]=[ʒ]
+		- clo**s**e your door /kloʊ**ʒ**ʊr/ 
+- ==[∫]== - 清音 ≠ 中文翘舌"sh" **(ship)**
+	- **不翘舌**，**舌尖放平**，**顶到上齿龈**，**留有空隙**，**上下齿轻轻闭合**
+	- 用“嘘“字的**口型**去发一个 **“是"**
+	- ★★★★★ shape `/ʃeɪp/`、sheep `/ʃiːp/` 、ship`/ʃɪp/`
+	- show`/ʃoʊ/`、shoot`/ʃuːt/`、should`/ʃʊd; ʃəd/`
+	- wash`/wɑːʃ/`、hush `/hʌʃ/` 
+- ==[ʒ]== - 浊音 ≠ 中文翘舌"zh"  **(Asia)**
+	- [∫]找准位置之后，舌头触碰上齿龈，声带振动就是 [ʒ]
+	- Asia /eɪʒə/ 、measure`/ˈmeʒər/` 、usual `/ˈjuːʒuəl/` 
+- ==[θ]== - 清 "咬舌音" **(think)**
+	- "咬舌音"：舌头放在两齿之间，不需要用力咬
+	- **th**ink`/θɪŋk/` 、**th**ought  /**θ**<u>ɑ</u>:t/、**th**row、bir**th**day、wor**th**  thought  
+	- 当 [th] 后面要发 [r] 这个音的时候
+		- 在发[th]之前，摆好[r]的口型
+		- through `/θruː/` 
+		- three `/θriː/` 
+- ==[ð]== - 浊 **(that)**
+	- bro**th**er、**th**at
+	- **单独强调**the时**一定要**发 [ð] 
+	- 当the放在**句子中间**，不方便发 [ð] 的时候，可以用轻的 [d] 代替
+		- where's **the** car   [de]
+- ==[t∫]== - 清 
+	- 在掌握[∫]的基础上，加[t]
+	- chase`/tʃeɪs/`、attach`/əˈtætʃ/` 、teacher`/ˈtiːtʃər/` 
+- ==[dʒ]== -  浊 
+	- 在掌握[ʒ]的基础上，加[d]
+	- danger `/ˈdeɪndʒər/`、just`/dʒʌst/` 、juice`/dʒuːs/` 、
+	- image`/ˈɪmɪdʒ/` → `/ˈɪmɪdt∫/` ([dʒ]末尾是弱化为[t∫])
+	- manage`/ˈmænɪdʒ/` → `/ˈmænɪt∫/`
+- ==[tr]== ==[dr]== 辅音连缀
+	- [tr]=[t∫]+[r]
+		- try`/traɪ/` 
+	- [dr]=[dʒ]+[r]
+		- dry`/draɪ/` 
+- ==[ts]== ==[dz]== - 不用太纠结，读音都会偷懒
+	- [ts] = [t] + [s]
+		- cats、lots /lɑːts/、notes /noʊts/ 
+	- [dz] = [d] + [z]
+		- roads
+- ==[m]== ==[n]== 
+	- [m]：简单**闭口**哼鸣
+	- [n]：不闭口!!!
+		- 舌头**贴到上颚**，**再放下来** <u>(要有放下来的完整动作)</u>
+		- 情绪激动时候，后面会带一个**轻的[ə]**
+		- i**n a** room ——犹豫舌位的变化，自然而然产生连读
+	- in、on 、some、name
+- ==[ŋ]== **(sing)**
+	- 舌根抬到顶，挡住气流
+	- sin**g** /sɪ**ŋ**/ 、son**g** /sɑː**ŋ**/ 、doing /ˈduːɪŋ/
+	- sin**ge**r /ˈsɪ**ŋə**r/、singing /ˈsɪŋɪŋ/ 、sin**ga**pore /ˈsɪ**ŋə**pɔ:r/
+	- What's goi**n'on** (年轻让省略[ŋ]，只用n做连读)
+- ==[h]== ==[j]== ==[w]== 
+	- [j]的自然省略很常见，即使不对。
+		-  省略[j]的you，可能被听成：ewww!(恶心) 
+- ==[l]== 
+	- light L
+		- light、late、later`/ˈleɪtər/`、letter`/ˈletər/`
+	- dark L
+		- 舌尖**顶住上齿龈**，想象自己**发一个O**，**共鸣位置靠后**
+			- 有时候偷懒，就用O代替，作为下下策，也算尚可
+		- male`/meɪl/`、milk`/mɪlk/`、all`/ɔːl/` 、tell、call、little、tall
+## 5. 进阶
+- 元音和辅音区别
+	- 元音：直接振动声带，气流不受阻碍
+	- 辅音：连接元音，让喉哦不卡顿(用口部器官，使气流受到阻碍而形成的音)
+	- ear /**ɪ**r/：**ɪ**是声带直接震动发出来的元音，卡喉咙的感觉
+	- year /**j**ɪr/：**j**是气流[[content/thoughts/Pronunciation/自然拼读]]
+
+
+
