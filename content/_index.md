@@ -17,7 +17,9 @@ Stay foolish, stay hungry!
 
 
 📍不同于以往的时代，而今信息的的碎片化使得知识不再"高居庙堂"。于是，挑选、辨别、排序知识的能力显得更为重要。而在这片花园中，每一株元笔记，你都会找到与之相关的tag与双链。
+
 这片花园仍处于更新建设中，现已或即将包含以下的笔记：设计软件的学习与使用，审美的积累与分析，设计项目的分享与log，aigc的探索与应用，设计类书籍的阅读与笔记，随感随想等......
+
 文末评论区可留言✨。可在[YouTube](https://www.youtube.com/channel/UCiONmxKVkpUN8mJdzt-iNIw)、小红书、bilibili、douyin找到我💫。
 
 ---
