@@ -1,5 +1,5 @@
 ---
-title: "ArioXu.xzx"
+title: "BrandonXu"
 tags:
   - evergreen
 ---
@@ -31,11 +31,11 @@ Stay foolish, stay hungry!
 
 更详细的信息，请参考：
 - [Brandndesign](/posts/BrandDesign/)：品牌设计相关内容
-    - [fonts](/posts/BrandDesign/Font/)：字体设计
-    - [fonts](/posts/BrandDesign/IP/)：IP
-    - [fonts](/posts/BrandDesign/LOGO/)：LOGO
+    - [Font](/posts/BrandDesign/Font/)
+    - [IP](/posts/BrandDesign/IP/)
+    - [LOGO](/posts/BrandDesign/LOGO/)
 - [Aigc](/posts/Aigc/)：有关ai工具的探索与学习
-- [Readnotes](/posts/Reading/)：处于某种已读、正在读或将要阅读状态的设计类读书笔记。
+- [Reading](/posts/Reading/)：处于某种已读、正在读或将要阅读状态的设计类读书笔记。
 - [Software](/posts/Software/)：软件的学习与使用
 - [Books](/books): 设计类书籍
 
