@@ -22,32 +22,62 @@ date: 2025-08-06
 - 动物类(多)：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211654482.png)
 - 植物类：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211654476.png)
 - 产品类：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211655584.png)
-### 1.2. IP形象风格
+### 1.2. IP形象风格[[cattle|cattle]]
 - 脱离现代审美： 复杂、大眼睛、微笑、颜色多 
 	- **IP形象不是插画，是符号，需要极简。**![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211753333.png)
 - 极简、时尚、有辨识度、颜色单一、有自己的专属情绪、有记忆点
-	- ![[carousels/IP形象的认知与基础形象设定-car#2. car2|clean]]
+	- 优秀案例：![[carousels/IP形象的认知与基础形象设定-car#2. car2|clean]]
 ### 1.3. IP头身设计
-- 头身比(尽量头身比小一点)
+- 头身比(尽量头身比小一点，尽量不要超过2.5头身)
 	- 蛋形  (身体和五官在一起，没有头和身体的分界线)![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211810237.png)
 	- 头和身体有分界线![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211811963.png)
 - 腿脚![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601211812517.png)
 - 头
 	- 人物/动物类尽量**不要用正圆**
-		- 例如![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601221645009.png)
-		- 注意调整扁圆的时候， 通过局部调整剩下的锚点，而==不是整体拉扁==![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601221650817.png)
+		- 例如![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601241341587.png)
+		- 注意调整扁圆的时候， 通过局部调整**上下的锚点**，而==不是整体拉扁==![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601221650817.png)
 	- 特殊类(机器人/怪兽/雪人/鸡蛋/西红柿...)**可以用正圆**
 		- eg. ![[carousels/IP形象的认知与基础形象设定-car#1. car1|clean]]
 - 五观
 	- 人物IP五官要**紧凑**，**整体位置靠下**一点![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231634465.png)![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231634156.png)
 	- 头部要**留白**，五官不要充满脸部![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231637131.png)
 	- 眼睛大鼻子不能同时大![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231829781.png)
-	- 
-- 记忆点设计
+	- 鼻子不要做正三角的![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601251251604.png)
+- 记忆点设计 (记忆点**不要过多**，主要记忆点**1-2个**就行。)
 	- 耳朵/眼睛颜色/眉毛/发型/腮红/情绪/帽子![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231838235.png)![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231840145.png)![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231841889.png)
 - 非拟人--姿势固定，动作难以扩展(不建议)![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231852322.png)![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231858592.png)
 - 眼睛(设定情绪)![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231856117.png)
-- 描边vs非描边![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231859784.png)
+- 描边vs非描边 (描边尽量**粗细统一**，**颜色简洁** ，**线条流畅**)![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601231859784.png)
+## 2. 实战总结
+- 风格一：
+	- 身体
+		- 画出一半后对称复制![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601251320624.png)
+	- 胳膊
+		- 画出一半后置于底层![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601251327034.png)
+	- 连结胳膊和身体
+		- ![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601251343514.png)
+- 风格二：
+	- 身体部分
+		- ![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601251352127.png)
+	- 手臂部分
+		- ![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601251357728.png)
+	- 身体与手臂的连结
+		- 方法同风格一：![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601251402216.png)
+- 如果脸内部空间不够，内部线条，可以比外轮廓线条细一点
+	- eg. ![](https://int-1330323257.cos.ap-guangzhou.myqcloud.com//obsidian/pic/202601251933141.png)
+- 熊猫肚皮
+	- 内部绘图
+	- 
+
+## 3. AI辅助
+- 
+
+
+
+
+---
+下一页：[[content/posts/BrandDesign/IP/IP形象三视图及表情包设计]]
+
 
 
 
