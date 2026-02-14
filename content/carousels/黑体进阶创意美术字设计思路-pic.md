@@ -3,7 +3,7 @@ title:
   - 黑体进阶创意美术字设计思路-pic
 tags:
   - carousel
-  - scratch
+  - status/scratch
 enableToc: true
 ---
 ## 1. car1

@@ -2,7 +2,7 @@
 title: carousel
 date: 2025-07-19
 tags:
-  - seed
+  - status/seed
 draft: false
 ---
 ## 1. 透视裁剪

@@ -3,7 +3,7 @@ title:
   - IP形象的认知与基础形象设定-car
 tags:
   - carousel
-  - scratch
+  - status/scratch
 enableToc: true
 ---
 ## 1. car1

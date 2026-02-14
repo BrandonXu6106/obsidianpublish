@@ -5,7 +5,7 @@ date: 2025-08-24
 tags:
   - IELTS/vocabulary
   - 新东方
-  - incubate
+  - status/incubate
   - 100个句子记完7000个雅思单词
 draft: false
 enableToc: true

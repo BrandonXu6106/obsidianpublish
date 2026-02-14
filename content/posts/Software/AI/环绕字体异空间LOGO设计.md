@@ -4,8 +4,8 @@ title:
 aliases:
 date: 2025-11-23
 tags:
-  - incubate
-  - 木松子旭
+  - status/incubate
+  - tchr/木松子旭
   - ai/base
 draft: false
 enableToc: true

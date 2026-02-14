@@ -3,7 +3,7 @@ title:
   - Compared to language, all other inventions pale in significance, since everything we have ever achieved depends on language and originates from it.
 date: 2025-08-24
 tags:
-  - incubate
+  - status/incubate
   - 新东方
   - IELTS/vocabulary
   - 100个句子记完7000个雅思单词

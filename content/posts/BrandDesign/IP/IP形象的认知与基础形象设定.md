@@ -1,9 +1,9 @@
 ---
 title: IP形象的认知与基础形象设定
 tags:
-  - branddesign/IP
-  - 木松子旭
-  - sapling
+  - branddesign/ip
+  - tchr/木松子旭
+  - status/sapling
 date: 2025-08-06
 ---
 ## 1. 基础形象设定

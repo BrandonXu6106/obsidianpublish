@@ -4,8 +4,8 @@ title:
 aliases:
 date: 2026-01-25
 tags:
-  - seed
-  - 木松子旭
+  - status/seed
+  - tchr/木松子旭
   - branddesign/ip
 draft: false
 enableToc: true

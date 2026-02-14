@@ -27,7 +27,7 @@ export const sharedPageComponents: SharedLayout = {
       provider: 'giscus',
       options: {
         // from data-repo
-        repo: 'arioxu/obsidianpublish',
+        repo: 'BrandonXu6106/obsidianpublish',
         // from data-repo-id
         repoId: 'R_kgDOPEzm2g',
         // from data-category
@@ -40,7 +40,7 @@ export const sharedPageComponents: SharedLayout = {
     ...recentNotes.map((c) => Component.MobileOnly(c))],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/ArioXu",
+      GitHub: "https://github.com/BrandonXu6106",
       Twitter: "https://x.com/ArioXu52756",
     },
   }),

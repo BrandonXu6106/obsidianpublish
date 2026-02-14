@@ -3,6 +3,6 @@ title:
   - <% tp.file.title %>
 tags:
   - carousel
-  - scratch
+  - status/scratch
 enableToc: true
 ---

@@ -4,8 +4,8 @@ title:
 aliases:
 date: 2025-10-09
 tags:
-  - 亚纶
-  - incubate
+  - tchr/亚纶
+  - status/incubate
   - ai/base
 draft: false
 enableToc: true

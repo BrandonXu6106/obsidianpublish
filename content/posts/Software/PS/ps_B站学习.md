@@ -2,7 +2,7 @@
 title: ps_B站学习
 tags:
   - ps/base
-  - sapling
+  - status/sapling
   - b站
 date: 2024-07-19
 ---

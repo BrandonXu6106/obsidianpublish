@@ -1,11 +1,10 @@
 ---
-title: "Building a BFT JSON CRDT"
+title: Building a BFT JSON CRDT
 date: 2022-11-16
 enableToc: true
 tags:
-  - fruit
+  - status/fruit
   - technical
-  - Rhizome
 ---
 
 ![[../../../public/thoughts/images/bft-crdt-cover.jpg]]

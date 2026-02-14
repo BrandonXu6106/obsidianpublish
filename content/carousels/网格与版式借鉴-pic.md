@@ -3,7 +3,7 @@ title:
   - 网格与版式借鉴-pic
 tags:
   - carousel
-  - scratch
+  - status/scratch
 enableToc: true
 ---
 ## 1. car1

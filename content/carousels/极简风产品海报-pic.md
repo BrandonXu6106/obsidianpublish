@@ -3,7 +3,7 @@ title:
   - 极简风产品海报
 tags:
   - carousel
-  - scratch
+  - status/scratch
 enableToc: true
 ---
 ## 1. car1

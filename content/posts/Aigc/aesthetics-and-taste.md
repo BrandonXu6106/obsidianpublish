@@ -2,7 +2,7 @@
 title: Taste is a guide for what is worthwhile
 date: 2024-01-14
 tags:
-  - fruit
+  - status/fruit
 noindex: true
 ---
 ![[../../../public/thoughts/images/john-reeve-pots.png]]

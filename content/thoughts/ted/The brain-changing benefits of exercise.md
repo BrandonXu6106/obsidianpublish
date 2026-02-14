@@ -6,7 +6,7 @@ captions:
   - "[[subtitle/vuh75e6avh5kb06q9bs59116.qFIN.en.srt#lang=en&label=%E3%80%90%E6%96%AD%E5%8F%A5%E5%AD%97%E5%B9%95%E3%80%91Wendy+Suzuki%EF%BC%9A+The+brain-changing+benefits+of+exercise+%EF%BD%9C+TED-FasterWhisper+%E2%9C%A8-%E8%8B%B1%E8%AF%AD]]"
 tags:
   - ted
-  - incubate
+  - status/incubate
 ---
 ## 1. 源视频
 ![The brain-changing benefits of exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)

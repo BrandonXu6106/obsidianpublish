@@ -3,8 +3,9 @@ title: American Phonetic Symbols
 aliases:
 date: 2025-09-22
 tags:
-  - incubate
-  - icey/音标
+  - status/incubate
+  - tchr/icey
+  - 音标
 draft: false
 enableToc: true
 ---

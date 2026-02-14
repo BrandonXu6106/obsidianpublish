@@ -3,7 +3,7 @@ title:
   - 海报展示形式感增加-pic
 tags:
   - carousel
-  - scratch
+  - status/scratch
 enableToc: true
 ---
 ## 1. car1

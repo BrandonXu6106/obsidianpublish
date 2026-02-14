@@ -4,7 +4,7 @@ title:
 aliases: 
 date: 2026-01-20
 tags:
-  - seed
+  - status/seed
 draft: false
 enableToc: true
 ---

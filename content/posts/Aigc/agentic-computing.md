@@ -2,8 +2,7 @@
 title: Agentic Computing
 date: 2022-11-29
 tags:
-  - fruit
-  - Rhizome
+  - status/fruit
 aliases:
   - communal-computing
   - digital placemaking

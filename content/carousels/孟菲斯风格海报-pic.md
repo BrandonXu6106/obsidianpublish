@@ -3,7 +3,7 @@ title:
   - 孟菲斯风格海报-pic
 tags:
   - carousel
-  - scratch
+  - status/scratch
 enableToc: true
 ---
 ## 1. car1
