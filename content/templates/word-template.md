@@ -1,7 +1,7 @@
 ---
 dictionary_word: <% tp.file.title %>
 tags:
-  - word
+  - eng/word
 aliases: 
 hasAudio: false
 ---

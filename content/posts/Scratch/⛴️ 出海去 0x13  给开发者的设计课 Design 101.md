@@ -7,7 +7,7 @@ published: 2024-02-24
 created: 2026-01-27
 description: "Summary这篇内容是关于设计的分享，主要讲解了独立开发者在产品开发中需要考虑的设计知识和原则。设计的目标是解决用户的问题，不仅仅是外观和颜色，还包括功能性和易用性。设计的过程可以按照金字塔模型进行，从功能性开始，然后提升到易用性和美观性。对齐和间距是设计中需要注意的要素，可以提升用户体验。选择工具时要根据自己..."
 tags:
-  - "YouTube"
+  - "ori/YouTube"
 imagine: "https://i.ytimg.com/vi/nHZX_fp_0eA/maxresdefault.jpg"
 ---
 ![](https://www.youtube.com/watch?v=nHZX_fp_0eA)  

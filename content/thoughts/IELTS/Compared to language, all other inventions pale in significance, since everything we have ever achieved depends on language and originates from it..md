@@ -4,7 +4,7 @@ title:
 date: 2025-08-24
 tags:
   - status/incubate
-  - 新东方
+  - ori/新东方
   - IELTS/vocabulary
   - 100个句子记完7000个雅思单词
 draft: false

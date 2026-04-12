@@ -1,7 +1,7 @@
 ---
 dictionary_word: dement
 tags:
-  - word
+  - eng/word
 aliases: 
 hasAudio: false
 ---

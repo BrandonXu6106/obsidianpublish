@@ -5,13 +5,14 @@ media: https://www.youtube.com/watch?v=BHY0FxzoKZE
 captions:
   - "[[subtitle/vuh75e6avh5kb06q9bs59116.qFIN.en.srt#lang=en&label=%E3%80%90%E6%96%AD%E5%8F%A5%E5%AD%97%E5%B9%95%E3%80%91Wendy+Suzuki%EF%BC%9A+The+brain-changing+benefits+of+exercise+%EF%BD%9C+TED-FasterWhisper+%E2%9C%A8-%E8%8B%B1%E8%AF%AD]]"
 tags:
-  - ted
+  - ori/ted
   - status/incubate
 ---
 ## 1. 源视频
 ![The brain-changing benefits of exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)
+
 ## 2. 讲稿解析
-> [!column|55-45]
+> [!column|55-45] Para.1
 >    
 > > [!example|clean] 原文 
 > > 
@@ -21,7 +22,7 @@ tags:
 > > 
 > > 如果我告诉你有件事你马上去做的话就会对你的大脑，包括情绪和专注力立刻产生积极作用？如果我告诉你它可长期维持 并保护你的大脑免受如抑郁、老年痴呆或是失智症等不同病况的侵袭。你会愿意去做这件事吗？愿意！
 
-> [!column|55-45 no-t clean]
+> [!column|55-45 no-t clean] Para.2
 > 
 > > [!example|clean no-t] 
 > > 

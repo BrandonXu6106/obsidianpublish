@@ -3,7 +3,7 @@ title: ps_B站学习
 tags:
   - ps/base
   - status/sapling
-  - b站
+  - ori/bili
 date: 2024-07-19
 ---
 ## 1. 工具类

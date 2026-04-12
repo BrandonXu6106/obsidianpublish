@@ -5,7 +5,7 @@ date: 2025-09-22
 tags:
   - status/incubate
   - tchr/icey
-  - 音标
+  - eng/音标
 draft: false
 enableToc: true
 ---
@@ -108,7 +108,7 @@ enableToc: true
 			- man /mæn/ ➡️ /mæ**ə**n/
 			- ma'am /mæn/ ➡️ /mæ**ə**n/
 			- ham /hæm/ ➡️ /hæ**ə**m/
-			- sample /ˈsæmp(ə)l/ ➡️ /ˈsæəmp(ə)l/
+			- sample /ˈsæmp(ə)l/ ➡️ /ˈsæəmp(ə)l/ 
 		- ② [æ]+[ŋ] = [<u>eɪ</u> + ŋ] ≈ [字母A发音]
 			- bank /b**æŋ**k/
 			- thank /θ**æŋ**k/ 
@@ -155,12 +155,12 @@ enableToc: true
 		-  heart`/hɑːrt/`
 		- far、large
 	- ==[ↄ:r]== 听上去和==[ʊ:r]==一样
-		- more`/mɔːr/`
-		- sure`/ʃↄ:r/` shore`/ʃↄːr/`
-		- tour`/tʊr/`
+		- more `/mɔːr/`
+		- sure `/ʃↄ:r/` shore`/ʃↄːr/`
+		- tour `/tʊr/` 
 	- ==[e:r]== 
-		- air`/er/`
-		- hair`/her/`
+		- air `/er/`
+		- hair `/her/`
 		- glare、care
 	- ==[ɪr]== 直接当作==[i:r]==
 		- fear`/fɪr/`
@@ -368,7 +368,12 @@ enableToc: true
 	- 元音：直接振动声带，气流不受阻碍
 	- 辅音：连接元音，让喉哦不卡顿(用口部器官，使气流受到阻碍而形成的音)
 	- ear /**ɪ**r/：**ɪ**是声带直接震动发出来的元音，卡喉咙的感觉
-	- year /**j**ɪr/：**j**是气流[[content/thoughts/Pronunciation/自然拼读]]
+	- year /**j**ɪr/：**j**是气流
+
+
+
+---
+ - [[thoughts/Pronunciation/自然拼读|自然拼读]]
 
 
 

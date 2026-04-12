@@ -6,14 +6,14 @@ author:
 created: 2026-02-18
 description: LCD IPS TN VA OLED MINI-LED Micro-LED QLED QD-OLED W-OLED，如果你有了解过显示器或者手机屏幕，这些名词想必或多或少听过几个。有些名词可能只差一个字母，但实际的价格和显示效果会是天差地别，这期节目我们将从最底层的原理详细了解上面这些名词代表的含义以及他们的工作原理。, 视频播放量 1691757、弹幕量 4595、点赞数 96400、投硬币枚数 69202、收藏人数 55780、转发人数 18978, 视频作者 硬件茶谈, 作者简介 商业合作VX：yang_10-14淘宝电脑店：硬件茶谈京东电脑店：硬件茶谈店电脑主机定制：yang_10-14，相关视频：【硬核科普】全网最简洁易懂的OLED与LCD屏幕工作原理与优劣科普，【硬件科普】OLED显示器成熟了吗？——WOLED QD-OLED 大尺寸OLED技术详解，【硬核科普】从零开始认识显卡，打游戏别买OLED显示器，miniled显示器最痛苦的一集。，LCD屏幕的工作原理是怎样的？，MiniLED 和 OLED 的优缺点！，真正的画质天花板，micro LED，不同亮度的显示器体验差别有多大？OLED、MiniLED、NanoIPS怎么选？，液晶真是个好东西~LCD液晶屏有什么缺点？
 tags:
-  - b站
-  - 显示器
-  - 屏幕
-  - OLED
-  - LED
-  - LCD
-  - miniLED
-  - QLED
+  - ori/bili
+  - 硬件/显示器
+  - 硬件/屏幕
+  - 硬件/OLED
+  - 硬件/LED
+  - 硬件/LCD
+  - 硬件/miniLED
+  - 硬件/QLED
 ---
 ![](https://www.bilibili.com/video/BV1Me4y1k72b/?vd_source=b7647c28b9310a1aceb6a792c0f7fe07)
 

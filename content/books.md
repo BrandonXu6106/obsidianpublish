@@ -48,7 +48,7 @@ A (mostly) up-to-date list of books I at some point, have wanted to read, am rea
 - **A Psalm for the Wild-Built** by Becky Chambers
 - **The Lathe of Heaven** by Ursula K. Le Guin
 - **[[How to Build a Universe That Doesn't Fall Apart Two Days Later|How to Build a Universe That Doesn't Fall Apart Two Days Later](thoughts/How%20to%20Build%20a%20Universe%20That%20Doesn't%20Fall%20Apart%20Two%20Days%20Later.md)** by Philip K. Dick
-- **[[Stay True|Stay True](thoughts/Stay%20True.md)** by Hua Hsu
+- **[[Stay True|Stay True](thoughts/Stay%20True.md)** by Hua Hsu[[]]
 - **The Beauty of Games** by Frank Lantz
 - **Someone Who Will Love You in All Your Damaged Glory** by Raphael Bob-Waksberg
 - **The Miracles of the Namiya General Store** by Keigo Higashino
