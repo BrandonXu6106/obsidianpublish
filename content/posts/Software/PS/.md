@@ -1,0 +1,11 @@
+---
+title:
+  - <% tp.file.title %>
+aliases:
+date: <% tp.file.creation_date("YYYY-MM-DD") %>
+tags:
+  - status/seed
+draft: false
+enableToc: true
+excalidraw-open-md: true
+---
