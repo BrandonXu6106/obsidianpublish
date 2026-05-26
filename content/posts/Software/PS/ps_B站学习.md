@@ -1,7 +1,7 @@
 ---
 title: ps_B站学习
 tags:
-  - ps/base
+  - ps/others
   - status/sapling
   - ori/bili
 date: 2024-07-19
@@ -297,17 +297,11 @@ ctrl+Q-退出PHOTOSHOP
             颜色的层级
             
         - 反相
-            
             相反的颜色 （ctrl + I ）
-            
             黑色 - 白色
-            
             洋红 - 绿色
-            
             红色 - 青色
-            
             蓝色 - 黄色
-            
         
         - 黑白
         
